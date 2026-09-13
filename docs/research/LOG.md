@@ -1258,3 +1258,21 @@ new data/campaign-014. The original process is active. Per-tick full metrics and
 group counts are retained, with runtime invariants; independent group/metric
 audit remains to be built before conclusions. Local 73 tests pass. Current formal
 inventory stays at thirteen campaigns until complete-grid verification succeeds.
+
+## 2026-09-14 — Autonomous cycle 84
+
+Built campaign-014's independent verifier while the original run continued.
+Checks complete parameters/grid, initial state, contiguous ticks, group and
+population accounting, trait means/diversity, no lost-group return, cumulative
+and per-tick energy/birth/death bounds, loss times and exact terminal summaries.
+Partial checking exposed the verifier's incorrect assumption that extinct
+max_generation is zero; the established engine uses None. Corrected the verifier
+and added a real extinction fixture without changing the experiment or engine.
+All 78 local tests pass; verifier source d6c06f5 committed.
+
+The original process then completed normally, all 160 worlds. Full independent
+verification passed for 480160 metric rows. Results are saved locally under
+campaign-014-analysis; next step is the complete report, compact data and formal
+inventory update. No run restarted, dropped or extended. Group membership is
+checked for consistency with saved trait summaries, not reconstructed from
+unsaved full individual histories; this limitation remains explicit.
