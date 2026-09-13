@@ -1,0 +1,21 @@
+{
+  "archive_source": "8acb86c8c81f8a5ec7ed0ad29760a809999e53fa",
+  "archive_sha256": "765f6995fc9ca7a03ea9c8e5d0d80779e93bb8b93faa89092b48885038b37c11",
+  "python": "3.12.10",
+  "archived_tests_passed": 106,
+  "new_demo_ticks": 1000,
+  "artifact_audit": "passed",
+  "matches_archived_demo": true,
+  "raw_sha256": {
+    "metrics.csv": "bfe942d0f265bdf5811bea9c1420cffebcc40e1578e52b05b2905b9abc6e3c1b",
+    "events.jsonl": "1a9181eb3f14b6f37b26f40869f8b65137d0f6d23c707489375714f7c3c6285f",
+    "lineage.json": "e6c22affb500a1958f35a0f230eb30748c9bbce0ea5bc7566691f56670a74bbc",
+    "summary.json": "56c1522dd5828ebb7dae20fa3c9d676e37af3da61406e34875a525ea293879a7"
+  },
+  "campaign016_complete_report_equal": true,
+  "metric_rows_checked": 300030,
+  "initial_states_checked": 30,
+  "matched_seed_triplets": 10,
+  "scope": "Fresh noneditable installation in a new venv; pip resolved build dependencies. No offline-install or all-campaign rerun claim. Campaign 016 verification uses archived script and records with isolated standard-library Python.",
+  "installed_metadata_git_commit": null
+}

@@ -290,3 +290,25 @@ provenance and audit corrections. The simulator rules are unchanged.
 Campaign-016 initialization and metric checks cover thirty initial states and
 300,030 rows. Fresh extracted installation and remote upload are separate next
 checks; the existing fifteen-campaign download remains unchanged.
+
+### Independent installation and upload of the sixteen-campaign archive
+
+Fresh extraction and noneditable installation passed all 106 archived tests.
+The installed module resolves inside the new environment, and generated metadata
+correctly records no Git commit. A new 1,000-tick demo passes the archived audit;
+metrics/events match the archived acceptance run byte for byte, with lineage and
+summary structurally equal. These demonstration ticks are not formal experiments.
+
+The archived standalone campaign-016 verifier, run with isolated standard-library
+Python, checks 30 initial states, ten matched seed triplets and 300,030 metric
+rows. Its complete JSON report, including source/input hashes, equals the archived
+report. Pip resolved build dependencies; offline installation and rerunning every
+campaign are not claimed. See [installation record](results/portable-wheel-016.json).
+
+[Draft v0.0.1-preview.8](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-c526b608b2e4ff9bd666)
+(release 388070091) targets source `8acb86c` and remains a draft/prerelease.
+GitHub API confirms both assets uploaded with local sizes and SHA-256 values.
+The 103-byte checksum asset hashes to
+`452e631841435b54922e0559786e32f2c00bb6b936f6dd5e078cc8e472a9861d`.
+See [remote asset record](results/release-016.json).
+Source CI 34789953078 completed successfully. Earlier draft assets are unchanged.

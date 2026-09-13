@@ -1674,3 +1674,19 @@ expected-hash verification passes with thirteen HTML pages and thirteen local
 targets; manifest source, workload and campaign-016 audit counts match. Recorded
 checksum and scope. Extracted installation and upload remain independent follow-up
 checks. Prior archives and their source scopes are unchanged.
+
+## 2026-09-14 — Autonomous cycle 113
+
+Extracted the hash-verified sixteen-campaign archive into a fresh directory and
+installed it noneditably in a new environment. All 106 archived tests passed.
+A fresh thousand-tick run passed audit and reproduced acceptance metrics/events
+byte for byte and lineage/summary structurally. Installed provenance has no Git
+commit. Recomputed campaign 016 with the archived isolated standard-library
+verifier: all 30 initial states, ten paired triplets and 300,030 metric rows pass;
+the complete report equals the archived report, including hashes.
+
+Uploaded separate draft preview.8 (release 388070091) and verified API state,
+size and SHA-256 for both assets against local files. Source 8acb86c CI is
+successful. Updated the Chinese acceptance entry and research index to this
+sixteen-campaign snapshot. Prior archives remain unchanged; formal execution
+counts do not include this installation demonstration.

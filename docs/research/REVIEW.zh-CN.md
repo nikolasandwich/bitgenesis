@@ -6,26 +6,23 @@
 
 ## 先打开哪里
 
-下载[十五轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-00e18fdc0b94307ac16e)，
-完整解压 `bitgenesis-v0-fifteen-campaigns.zip`，从 `START-HERE.txt` 开始，
-再打开 `bitgenesis/data/review-v0-15.html`。最新本地入口为 `data/review-v0-16.html`，多出第十六轮；下载归档仍是十五轮。
+下载[十六轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-c526b608b2e4ff9bd666)，
+完整解压 `bitgenesis-v0-sixteen-campaigns.zip`，从 `START-HERE.txt` 开始，
+再打开 `bitgenesis/data/review-v0-16.html`。
 保留目录结构，页面中的世界回放、谱系与图表依赖相邻文件。
 草稿尚未正式发布，需要有权限的 GitHub 账号查看。
 
-归档约 100 MB，含 1,071 个文件，固定源码 `0344839`，包含十五轮原始记录和 92 项测试。
-上传后的大小和校验值与本地一致。解压后新建独立安装，92 项测试全部通过；
-新跑千步演示的事件与指标和原演示逐字节一致。第十五轮的 120,004 行指标及
-12,004 行原始前缀再次核对后，完整验证报告与归档版本相同。
+归档约 102 MB，含 1,154 个文件，固定源码 `8acb86c`，包含十六轮原始记录和 106 项测试。
+上传后的大小和校验值与本地一致。解压后新建独立安装，106 项测试全部通过；
+新跑千步演示的事件与指标和原演示逐字节一致。第十六轮的 30 个初始状态、
+10 组配对与 300,030 行指标重新核对后，完整验证报告与归档版本相同。
 这些检查不意味着所有实验都被重新运行，也不是断网安装保证。
 整包校验值、详细记录与历史归档见[完整检查点](ACCEPTANCE.md)。
 
-归档包含中性标签核对、运行失败状态修复、断点校验和性状变化的事后分析。
+归档包含中性标签核对、运行失败状态修复、断点校验、来源标注修复及加强的记录核对。
 部分事后分析仍需从 Markdown 报告查看。
 **归档不会随 main 的后续提交自动更新。** 复查旧实验使用其保存版本，验收最新代码使用 main。
-
-归档之后 main 修正了一个来源标注边界：把解压源码放在其他 Git 仓库里直接运行时，
-旧版本可能误记外层提交号。归档中已验证的普通安装方式不受影响；
-直接运行解压源码时，以归档清单和文件校验值识别版本。详见[来源说明](../design/experiments.md#extracted-source-and-git-provenance)。
+旧十五轮归档直接运行解压源码时的来源标注限制见[来源说明](../design/experiments.md#extracted-source-and-git-provenance)；本次归档已包含修正。
 
 ## 最值得看的三个结果
 
@@ -52,10 +49,8 @@
 4. 如需长时间运行，按[断点指南](../design/checkpoints.md)保存并继续世界状态。
    断点恢复不续写旧回放或指标 CSV；需要保持兼容的引擎源码与 Python 主次版本。
 
-十五轮归档源码 `0344839` 的 92 项测试在 Windows/Linux × Python 3.12/3.13/3.14
-六种组合通过（[CI 34788400431](https://github.com/nikolasandwich/bitgenesis/actions/runs/34788400431)）。
-后续源码 `114ad02` 的 106 项测试也已通过持续集成
-（[CI 34789702658](https://github.com/nikolasandwich/bitgenesis/actions/runs/34789702658)）。
+十六轮归档源码 `8acb86c` 的 106 项测试在 Windows/Linux × Python 3.12/3.13/3.14
+六种组合通过（[CI 34789953078](https://github.com/nikolasandwich/bitgenesis/actions/runs/34789953078)）。
 测试覆盖能量收支、空间约束、遗传、记录核对和精确恢复等契约；通过测试不证明生物学真实性。
 冻结重放只对已检查的运行与环境提供证据，不保证所有版本任意运行都逐位一致。
 
@@ -63,7 +58,7 @@
 
 目前十六轮共 **744 次执行、6,640,000 个计算时间步**。其中 24 次是既有世界延长复查，
 包含 212,000 步前缀重放，不是新增独立种子；事后分析也不增加实验数。
-新完成的[第十六轮](campaign-016.md)尚未进入十五轮固定归档；它比较等总量食物的不同空间分布。
+[第十六轮](campaign-016.md)已进入本次归档，比较等总量食物的不同空间分布。
 所有协议、对照、灭绝结果和逐种子表格见[研究索引](README.md)。
 
 当前倾向是保留 V0 作为可复现基线，继续解释机制与验证工具，再决定如何检验 V1 的感知能力。
