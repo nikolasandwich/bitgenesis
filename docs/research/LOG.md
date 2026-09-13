@@ -892,3 +892,18 @@ Saved PNG/SVG and curve values with input/script hashes; visually checked axes,
 legend, censor markers and annotations. The helper checks the complete grid and
 survival/extinction consistency before plotting. Compilation passed. No new
 worlds or scientific endpoints were added.
+
+## 2026-09-14 — Autonomous cycle 56
+
+Reconstructed the first hundred ticks of campaign 012 with the tested exact
+basal-cost-one budget helper, using each arm's actual direct birth cost rather
+than the baseline value. All eighty raw hashes match the committed verification
+report. In stored/40, zero direct cost removes 864.8 mean birth units but basal
+plus movement rises by 885.6; total dissipation rises 20.8. Both groups are
+extinct at 100 while world food remains. This accounting is not a unique causal
+path or proof of local resource access.
+
+Saved all-run budgets and hashes and marked the window analysis retrospective.
+Also noted that cumulative spending is affected by time alive: high-threshold
+worlds spend more basal/movement energy in this window while retaining organisms.
+No new scientific executions were added.

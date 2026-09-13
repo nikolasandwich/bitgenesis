@@ -84,3 +84,47 @@ These checks do not rerun all eighty worlds on the CI matrix.
 ```sh
 python scripts/summarize_v0_birth_cost.py --input data/campaign-012 --output data/campaign-012-check
 ```
+
+## Retrospective first-100-tick energy ledger
+
+This window analysis was added after the registered outcomes were known. It adds
+no new worlds or independent replicates. All eighty input hashes match the
+verified metrics. With basal_cost=1, each pre-tick living organism pays exactly
+one basal unit. Direct birth spending is actual treatment cost times births;
+movement spending is total dissipation minus basal and direct birth spending.
+The previously tested accounting helper is reused. Initial energy 7040 plus
+new supply equals dissipation plus remaining organism/food energy.
+
+All entries are means over ten worlds, summed over ticks 1–100.
+
+| Arm | Basal | Movement | Direct birth | New supply | Organism energy at 100 | Food energy at 100 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| food-40-cost-0 | 5085.7 | 1242.7 | 0.0 | 6168.0 | 204.7 | 6674.9 |
+| food-40-cost-4 | 5056.3 | 1231.1 | 53.6 | 6154.0 | 210.6 | 6642.4 |
+| food-160-cost-0 | 4890.8 | 1209.1 | 0.0 | 6151.7 | 385.7 | 6706.1 |
+| food-160-cost-4 | 4890.8 | 1209.1 | 0.0 | 6151.7 | 385.7 | 6706.1 |
+| stored-40-cost-0 | 6262.9 | 1488.3 | 0.0 | 6196.0 | 0.0 | 5484.8 |
+| stored-40-cost-4 | 5549.6 | 1316.0 | 864.8 | 6198.0 | 0.0 | 5507.6 |
+| stored-160-cost-0 | 7368.7 | 1822.3 | 0.0 | 6193.6 | 549.0 | 3493.6 |
+| stored-160-cost-4 | 7368.7 | 1822.3 | 0.0 | 6193.6 | 549.0 | 3493.6 |
+
+In stored/40, removing the direct deduction saves 864.8 units in that category,
+while basal plus movement rises by 885.6 units; total dissipation rises by 20.8.
+The larger early birth burst accompanies this redistribution. This is observed
+accounting, not a mediation estimate: changed numbers, lifetimes, trajectories
+and RNG consumption can all contribute. Both groups are already extinct by 100
+while substantial energy remains as food. World-wide food does not establish
+local access for the organisms that died.
+
+Stored/160 spends more cumulative basal/movement energy than stored/40 over this
+window while retaining individuals. Duration alive contributes to cumulative
+spending, so a larger total cannot itself be interpreted as harmful. No births
+occur in the high-threshold arms before 100, and the two costs produce matching
+early ledger means within each allocation; later results need not match.
+
+[All-world budgets](results/early-budget-012.csv) and
+[hashes and arm means](results/early-budget-012.json) preserve the calculation.
+
+```sh
+python scripts/analyze_v0_birth_cost_budget.py --output data/my-birth-cost-budget
+```
