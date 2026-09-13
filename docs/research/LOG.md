@@ -1160,3 +1160,19 @@ All 66 local tests pass, including exact continuation comparisons; all nine
 checkpoint tests pass under -O. Engine source, rules and checkpoint schema remain
 unchanged. No claim of buffer completeness or authenticity. The fixed uploaded
 thirteen-campaign snapshot predates this validation improvement.
+
+## 2026-09-14 — Autonomous cycle 77
+
+Added a retrospective exact decomposition of campaign-001 living mean-trait
+change into birth sorting, death sorting and parent-to-child transmission.
+All ten artifact audits pass; all 50000 tick identities and cumulative telescoping
+sums hold with rational arithmetic, and reconstructed means match raw metrics.
+Five mutation runs all increase mean trait while cumulative direct transmission
+is negative (-142.47 to -77.35). The no-mutation term is exactly zero. Birth sorting
+is positive in every run; death sorting is negative for mutation seed 1.
+
+Report derives the identity and distinguishes trajectory bookkeeping, stochastic
+sorting and counterfactual mutation effects. No new simulations or independent
+replicates; no adaptation or significance claim. Four hand-computed tests added;
+all 70 tests pass. Committed all-run CSV and input/script hashes. Fixed archive
+contains the necessary old raw events, but predates this new analysis.
