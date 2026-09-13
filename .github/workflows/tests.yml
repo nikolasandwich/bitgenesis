@@ -30,3 +30,5 @@ jobs:
         run: python -m bitgenesis v0 --config experiments/v0/empty-world.toml
       - name: Verify installed Darwin CLI
         run: bitgenesis v0 --config experiments/v0/darwin-baseline.toml --steps 10 --output data/ci-smoke
+      - name: Audit saved run independently
+        run: bitgenesis audit data/ci-smoke

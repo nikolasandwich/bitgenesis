@@ -26,6 +26,8 @@ def load_config(path: Path) -> dict[str, int]:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="BitGenesis artificial-life research scaffold")
     stages = parser.add_subparsers(dest="stage", required=True)
+    audit_command = stages.add_parser("audit", help="Read-only consistency audit of a recorded Darwin run")
+    audit_command.add_argument("directory", type=Path)
     v0 = stages.add_parser("v0", help="Initialize the V0 scaffold (no time stepping yet)")
     v0.add_argument("--config", type=Path, help="Versioned TOML experiment definition")
     v0.add_argument("--rules", choices=[RULES_VERSION, "v0-darwin-1"],
@@ -38,6 +40,11 @@ def main(argv: list[str] | None = None) -> int:
         v0.add_argument(f"--{name}", type=int, help=f"Override {name}")
     args = parser.parse_args(argv)
     try:
+        if args.stage == "audit":
+            import json
+            from bitgenesis.v0.audit import audit
+            print(json.dumps(audit(args.directory), indent=2))
+            return 0
         rules = args.rules
         if args.config:
             with args.config.open("rb") as stream:

@@ -27,6 +27,7 @@ python -m pip install -e .
 bitgenesis v0 --seed 42 --width 16 --height 12
 python -m bitgenesis v0 --seed 42
 bitgenesis v0 --config experiments/v0/darwin-baseline.toml --steps 1000 --output data/first-run
+bitgenesis audit data/first-run
 python -m unittest discover -s tests -v
 ```
 
@@ -36,6 +37,8 @@ birth/death events, lineage records, sampled frames, and provenance metadata.
 Output directories must be new; previous runs are never overwritten.
 Replay retains up to 1,001 frames by default (`--max-frames`); long-run charts
 are sampled, while CSV metrics retain every tick. Sampling intervals are recorded.
+The read-only audit reconciles saved metrics, lifecycle events, lineage and replay
+without stepping the simulator. It checks consistency, not biological realism.
 
 ## Research stages
 
