@@ -35,7 +35,9 @@ def provenance():
     root = package_root.parent.parent
     source_checkout = package_root == root / "src" / "bitgenesis"
     def git(*arguments):
-        if not source_checkout:
+        # Git searches ancestors; an extracted src/ tree is not the outer repo.
+        # A worktree uses a .git file, so accept either a directory or a file.
+        if not source_checkout or not (root / ".git").exists():
             return None
         try:
             return subprocess.check_output(["git", "-C", str(root), *arguments],

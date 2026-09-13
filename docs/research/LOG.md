@@ -1515,3 +1515,18 @@ conventions and overlapping-observation limits. Verified raw input hashes and
 accounting; three tests cover window boundaries and corrupted/truncated input.
 This is demographic turnover, not new genetic or functional innovation. No formal
 execution counts changed; the supplement postdates the fixed uploaded archive.
+
+## 2026-09-14 — Autonomous cycle 102
+
+Reviewing launch provenance exposed a real attribution defect: directly importing
+archived source nested under this checkout reported outer main revision 052da87,
+although the extracted archive source is 0344839. Added a reproducing regression
+test that failed, then restricted Git lookup to a source root with its own .git
+directory or worktree file. Source hashes remain available without Git metadata.
+
+All 97 tests pass. A separate exported copy of corrected source under the outer
+checkout now reports null Git revision/dirty state; the real checkout still
+reports its own revision. A regression test preserves support for .git worktree
+files. No engine rules or RNG changes. Documented the fixed archive's direct-src
+limitation; its tested noneditable installation route remains unaffected. Old
+records and uploaded snapshots remain unchanged.

@@ -73,3 +73,18 @@ process is currently alive. Check a live process/job handle before resuming work
 Store generated runs in ignored `data/` directories. Keep small definitions and
 necessary regression fixtures in Git; archive large research datasets separately
 with checksums and retrieval instructions. Do not overwrite past experiment runs.
+
+## Extracted source and Git provenance
+
+A `src/bitgenesis` directory extracted from an archive is a source layout, but
+it need not be a Git checkout. Git metadata is queried only when that project's
+own root contains a `.git` directory or worktree file. Otherwise `git_commit`
+and `git_dirty` are null; source-file hashes remain available. This prevents a
+source tree nested inside another checkout from borrowing the outer revision.
+
+The fixed fifteen-campaign archive predates this correction. Its documented
+noneditable installation route was independently checked and is unaffected.
+Directly running its extracted `src/` inside an unrelated Git checkout can report
+the outer revision; use the archive manifest and per-file hashes to identify
+that snapshot, or use corrected main for new runs. The historical experiment
+records and fixed archives are not rewritten by this metadata fix.
