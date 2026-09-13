@@ -40,6 +40,13 @@ events, lineage and spatial state. A CLI test compares complete checkpoint paylo
 across three separate processes. Existing frozen-rule regression tests remain in
 place, and the cross-platform CI runs these tests on Python 3.12, 3.13 and 3.14.
 
+Boundary tests also cover an initially empty world, extinction, full occupancy
+with no turnover, and ongoing turnover. Each is resumed with both retained and
+explicitly drained pending-event buffers; the final saved files must be byte
+identical to uninterrupted continuation. Drained events are not regenerated.
+This verifies state continuation, not recovery of an external event log: a caller
+that drains events remains responsible for saving them before discarding them.
+
 ## Interrupted work
 
 The initial world is saved, then each configured interval and the final tick.

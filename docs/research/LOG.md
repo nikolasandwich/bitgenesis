@@ -455,3 +455,18 @@ checkpoint tests also pass with Python optimization enabled. Fifteen historical
 checkpoint files (original continuation demonstrations and retention measurements)
 still load successfully, and existing exact-resume tests remain green.
 This checks structural plausibility, not full historical transition replay.
+
+## 2026-09-14 — Autonomous cycle 24
+
+Verified cycle 23 on all six Windows/Linux and Python 3.12–3.14 CI jobs
+(run 34777990358; documentation follow-up 34778040879 also passed).
+Extended the continuation contract to four boundary states: initially empty,
+extinct, fully occupied without turnover, and ongoing turnover. Each scenario
+checks both retained and explicitly drained pending-event buffers. After saving
+at tick 40 and continuing for 60 ticks, resumed and uninterrupted checkpoints
+are byte-identical in all eight cases. Drained historical events stay drained;
+external event-log durability is explicitly outside this state-only contract.
+
+No new engine behavior or scientific campaign was added. Full local suite passed
+44 tests. These cases complement the previous interruption and separate-process
+checks; they do not establish that every possible configuration was tested.

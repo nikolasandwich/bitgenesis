@@ -12,6 +12,44 @@ from bitgenesis.v0.engine import Config, World
 
 
 class CheckpointTests(unittest.TestCase):
+    def test_resume_preserves_boundary_states_and_drained_event_buffers(self):
+        cases = {
+            "empty": Config(width=2, height=2, initial_population=0),
+            "extinct": Config(width=2, height=2, initial_population=4,
+                              initial_energy=1, initial_food=0, regrowth_probability=0),
+            "saturated": Config(width=2, height=2, initial_population=4,
+                                regrowth_probability=1000),
+            "turnover": Config(width=8, height=8, initial_population=12),
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for name, config in cases.items():
+                for drain in (False, True):
+                    with self.subTest(world=name, drain=drain):
+                        original = World(config)
+                        for _ in range(40):
+                            original.step()
+                        if name in ("empty", "extinct"):
+                            self.assertFalse(original.living)
+                        if name == "saturated":
+                            self.assertEqual(len(original.living), 4)
+                            self.assertEqual(original.next_id, 4)
+                        if drain:
+                            original.events.clear()
+                        before = root / "before.json"
+                        save_world(before, original)
+                        restored = load_world(before)
+                        self.assertEqual(restored.events, original.events)
+                        for _ in range(60):
+                            original.step()
+                            restored.step()
+                        save_world(root / "original.json", original)
+                        save_world(root / "restored.json", restored)
+                        self.assertEqual((root / "original.json").read_bytes(),
+                                         (root / "restored.json").read_bytes())
+                        if drain:
+                            self.assertTrue(all(event["tick"] > 40 for event in restored.events))
+
     def test_valid_checksum_does_not_bypass_lineage_validation(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "state.json"
