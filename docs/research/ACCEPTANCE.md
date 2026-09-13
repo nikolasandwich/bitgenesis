@@ -30,28 +30,30 @@ services. Use a new output path each time.
 | Basic world view and lineage inspection | Replay + clickable ancestry inspector | Met |
 | Explain designed rules | `docs/design/v0-rules.md` and emergence note | Met |
 
-Twenty local checks passed at this checkpoint. Campaigns 001–004 cover 690,000
+Twenty-five checks passed at this checkpoint. Campaigns 001–005 cover 990,000
 simulation ticks. Campaign 001 finds lineage collapse; campaign 002 shows that
-the trait maximizing population abundance need not match the trait favored in
+the trait supporting more individuals in a fixed-trait assay need not match the trait favored in
 mixed populations; campaign 003 directly tests competition with neutral-label
 controls and confirms dependence on movement cost. Campaign 004 separates
-extinction, turnover and crowded persistence without reproduction. Read the reports before
+extinction, turnover and crowded persistence without reproduction. Campaign 005
+shows how finite world size and observation time qualify founder-loss conclusions.
+Read the reports before
 interpreting animations. An installed wheel and its provenance were also tested.
 GitHub CI verified Windows/Linux and Python 3.12/3.13, including the frozen replay:
-[run 34773024529](https://github.com/nikolasandwich/bitgenesis/actions/runs/34773024529).
-That earlier CI run covered 16 checks; the added artifact-audit suite brings the
-current local total to 20 and is included in subsequent CI runs.
+[run 34774116377](https://github.com/nikolasandwich/bitgenesis/actions/runs/34774116377).
+All four jobs ran and passed the 25-check suite.
 
 The read-only `bitgenesis audit` command independently reconciled all ten full
 campaign-001 runs and the acceptance demonstration, plus a sampled extinction
 run. It catches corrupted energy accounting, missing lifecycle events and broken
 parent references. This checks artifact consistency, not biological validity.
 
-A portable local bundle, `data/bitgenesis-v0-review.zip`, contains tracked source,
-four campaigns, the demonstration and the Chinese review page. Its manifest
-lists 348 source/artifact files and checksums; all archived files were read back
-and matched their hashes. Bundle source checkpoint: `925b031`. Existing archives
-are never overwritten; use a new `--output` for a later checkpoint.
+The current Chinese entry point is `data/review-v0-5.html`. The local five-campaign
+archive is `data/bitgenesis-v0-review-5.zip`, source checkpoint `54078bf`; its
+398 files were read back and matched against their manifest hashes. A refreshed
+documentation checkpoint can be packaged with `--output data/bitgenesis-v0-review-5b.zip`.
+Earlier three/four-campaign pages and archives remain preserved. Existing archives
+are never overwritten; use a new `--output` for each later checkpoint.
 
 V0's minimal milestone is reached. Continue V0 mechanism/robustness experiments
 before deciding whether a V1 controller adds a useful research question. Meeting
@@ -62,12 +64,14 @@ this checklist does not certify realism or open-ended evolution.
 - Organisms, inheritance, reproduction, resource rules and trait meaning are
   designed assumptions. No abiogenesis claim.
 - Stochastic treatments share initialization, not guaranteed identical future
-  environmental events. Cross-platform bitwise replay is not established.
+  environmental events. The frozen test matches on the four tested platform/
+  interpreter combinations; this is not a guarantee for every run or future version.
 - Complete lineage remains in memory; replay and chart retention are now bounded.
-- Trait mutation clamps at boundaries; this may affect endpoint distributions.
+- Trait mutation clamps at boundaries. Exact calibration found inward one-birth
+  mean drift near the edges; it does not predict the selected population distribution.
 - Whole-population fixed-trait results do not replace direct competition tests.
 
 Direct competition, a frozen replay regression, and installed-package provenance
-are now checked, as are longer-horizon/resource regimes. Next: independent
-artifact auditing and a portable review bundle. A V1 proposal is documented,
+are now checked, as are longer-horizon/resource regimes, independent artifact
+auditing and portable review bundles. A V1 proposal is documented,
 but V0 remains the only runtime. Preserve existing rules and preregister experiments.

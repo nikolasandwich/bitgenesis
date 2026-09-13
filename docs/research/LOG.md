@@ -150,3 +150,26 @@ campaign scripts remain available exactly at their recorded commits; a saved
 
 Next question: calibrate the bounded mutation kernel separately from selection,
 so clamping bias is explicit rather than an untested explanation of high traits.
+
+## 2026-09-14 — Autonomous cycle 7
+
+Exact mutation calibration enumerated all 1,001 genomes and 201 perturbations.
+The one-birth mean shift is zero for traits 100–900 and inward near endpoints,
+with exact reflection symmetry. At endpoints actual changes occur in about 4.975%
+of births despite a 10% attempt rate. This is a calibration, not an added world
+experiment; it does not determine long-run selected trait frequencies.
+
+Five-campaign Chinese review page generated and checked visually, including the
+trajectory figure. The fifth-campaign review archive at source `54078bf` contains
+398 files and 21,227,566 bytes. SHA-256:
+`460fea04f1f2ba2769d788c042a15da2c9b9ef173dfb03bcec757367b83a81c8`.
+All archive file hashes were verified and 11 full run artifacts audited. Current
+documentation now reflects 240 runs / 990,000 ticks and 25 tests.
+
+CI run 34774116377 passed all 25 tests on each of Windows/Linux × Python 3.12/3.13.
+Consolidated local preview into one server rooted at the repository so relative
+figure links work; old preview processes were stopped. All formal campaigns are
+finished; no experiment process remains to be awaited or restarted.
+
+Next: improve experiment recovery/operational ergonomics where evidence warrants
+it; keep the V1 proposal as design until a new runtime stage is deliberately scoped.
