@@ -9,7 +9,7 @@ fixed archives retain the auditor shipped with their own source revision.
 
 | Evidence | What is checked | What remains outside this check |
 | --- | --- | --- |
-| Metadata | Complete status; supported rules/output schema; fixed configuration keys and integer types; nonnegative integer requested/completed ticks that agree | A recorded seed is not replayed, and provenance is not authenticated. This is not a complete independent validation of every parameter range. |
+| Metadata | Complete status; supported rules/output schema; fixed configuration keys, integer types and the v0-darwin-1 parameter domain; nonnegative integer requested/completed ticks that agree | A recorded seed is not replayed, and provenance is not authenticated. A valid parameter value need not be the value actually used. |
 | Per-tick metrics | Contiguous ticks and expected row count; population equals founders plus births minus deaths; total energy accounting; nonnegative energy and population; monotone cumulative supplied/dissipated energy | Global energy balance alone cannot prove the correct action order or each individual's energy transfers. |
 | Lineage | Unique IDs, founder/parent relationships, birth/death ordering, generations, bounded genomes and mutation steps, no-mutation inheritance, direct offspring counts | Differential offspring counts do not isolate a causal benefit of the inherited trait. Founder labels are not species. |
 | Lifecycle reconstruction | Birth/death totals, living trait mean and distinct values, founder counts and maximum living generation match each metric row | Aggregate values do not reconstruct movement or access to food. |
@@ -44,3 +44,15 @@ The sampling extension checks every interval-aligned frame plus the final tick
 when it is not interval-aligned; zero-step runs contain only tick zero. It passed
 103 local tests and the same eleven historical runs. This is additional evidence
 after the CI revision above, not a claim that the older CI job tested the new code.
+
+The parameter-domain extension after source `a1c4c8b` rejects negative non-seed
+parameters, dimensions below two, excess initial population, nonpositive founder
+energy or basal cost, food above capacity, insufficient birth threshold, and
+probabilities above 1,000 per thousand. Negative seeds remain valid. It does not
+import engine validation or step the world. Corrupted metadata with probability
+1,001 or birth threshold below birth cost plus two previously passed; these now
+fail before cross-file checks. A valid empty 2-by-2 boundary world still passes.
+All 108 local tests and eleven historical full runs (1,111 saved frames) pass.
+This extension postdates the fixed sixteen-campaign archive, whose source remains
+`8acb86c`. It does not independently prove that any valid declared parameter was
+actually used to generate the trajectory.

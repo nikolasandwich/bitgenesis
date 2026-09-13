@@ -113,6 +113,33 @@ class AuditTests(unittest.TestCase):
                 audit(self.output)
         path.write_bytes(original)
 
+    def test_impossible_configuration_is_rejected_before_record_checks(self):
+        path = self.output / "metadata.json"
+        original = path.read_bytes()
+        cases = [(name, -1) for name in json.loads(original)["config"] if name != "seed"]
+        cases += [("width", 1), ("height", 1), ("initial_population", 65),
+                  ("initial_energy", 0), ("basal_cost", 0), ("initial_food", 25),
+                  ("birth_threshold", 5), ("regrowth_probability", 1001),
+                  ("mutation_probability", 1001)]
+        for name, value in cases:
+            metadata = json.loads(original)
+            metadata["config"][name] = value
+            path.write_text(json.dumps(metadata), encoding="utf-8")
+            with self.subTest(name=name, value=value):
+                with self.assertRaisesRegex(ValueError, "metadata.json config"):
+                    audit(self.output)
+        path.write_bytes(original)
+
+    def test_valid_configuration_boundaries_are_not_rejected(self):
+        output = Path(self.temp.name) / "boundary"
+        config = Config(seed=-1, width=2, height=2, initial_population=0,
+                        initial_energy=1, initial_food=0, food_capacity=0,
+                        regrowth_probability=1000, regrowth_amount=0, feeding_rate=0,
+                        basal_cost=1, movement_cost=0, birth_threshold=2, birth_cost=0,
+                        mutation_probability=1000, mutation_step=0)
+        run(config, 2, output)
+        self.assertEqual(audit(output)["status"], "verified")
+
     def test_noninteger_metadata_is_rejected(self):
         path = self.output / "metadata.json"
         original = path.read_bytes()

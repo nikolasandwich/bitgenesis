@@ -1690,3 +1690,18 @@ size and SHA-256 for both assets against local files. Source 8acb86c CI is
 successful. Updated the Chinese acceptance entry and research index to this
 sixteen-campaign snapshot. Prior archives remain unchanged; formal execution
 counts do not include this installation demonstration.
+
+## 2026-09-14 — Autonomous cycle 114
+
+Checked a known remaining audit limitation: V0 configuration values had strict
+integer types but incomplete domain validation. Adversarial metadata with
+probabilities 1,001 or an insufficient birth threshold was accepted. Added
+independent v0-darwin-1 range checks, preserving valid negative seeds and zero
+parameters where the rules permit them. The new test first failed on the old
+code; a legal empty 2-by-2 boundary run verifies acceptance of allowed extremes.
+
+All 108 local tests pass. Eleven existing full records, totaling 1,111 replay
+frames, still pass the strengthened auditor. Engine code and raw records are
+unchanged. Updated the audit scope to separate valid parameter domains from
+proving the values were actually used. The fixed sixteen-campaign archive
+predates this correction and retains its original auditor and hashes.

@@ -38,6 +38,22 @@ def _audit(directory):
             "metadata.json config must contain the complete V0 configuration keys")
     for name, value in config.items():
         require(type(value) is int, f"metadata.json config {name} must be an integer")
+    # Validate the declared v0-darwin-1 domain without importing the engine.
+    for name, value in config.items():
+        require(name == "seed" or value >= 0,
+                f"metadata.json config {name} must be nonnegative")
+    require(config["width"] >= 2 and config["height"] >= 2,
+            "metadata.json config dimensions must be at least 2")
+    require(config["initial_population"] <= config["width"] * config["height"],
+            "metadata.json config initial_population exceeds available cells")
+    require(config["initial_energy"] > 0 and config["basal_cost"] > 0,
+            "metadata.json config initial_energy and basal_cost must be positive")
+    require(config["initial_food"] <= config["food_capacity"],
+            "metadata.json config initial_food exceeds food_capacity")
+    require(config["birth_threshold"] >= config["birth_cost"] + 2,
+            "metadata.json config birth_threshold must leave energy for both descendants")
+    require(config["regrowth_probability"] <= 1000 and config["mutation_probability"] <= 1000,
+            "metadata.json config probabilities must be in [0, 1000]")
     for name in ("completed_steps", "requested_steps"):
         require(type(metadata[name]) is int and metadata[name] >= 0,
                 f"metadata.json {name} must be a nonnegative integer")
