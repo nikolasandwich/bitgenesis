@@ -548,3 +548,17 @@ section contains all three allocation arms, finite-horizon counts, the early
 trajectory figure and causal limitations. Browser inspection verified the rendered
 Chinese section and table. Acceptance guides now point to the nine-campaign page
 and continue to identify the uploaded draft/archive as eight-campaign snapshots.
+
+## 2026-09-14 — Autonomous cycle 31
+
+Extended packaging with explicit eight/nine-campaign scope while retaining the
+default eight-campaign path. Nine-campaign packaging includes raw campaign 009,
+selects review-v0-9.html, and reruns its independent metric verifier into a temporary
+directory before recording the result in the manifest. Full local suite: 46 passed.
+
+Created data/bitgenesis-v0-nine-campaigns.zip from clean
+c5975cd5785e7f1ed784382810314545a9076b91: 628 payload files, 32997186 bytes,
+SHA-256 8bf359d6f156ea71d0f15c6d5eee5f087e86af30e6d4db94562fe38c398895a6.
+Eleven full-run audits and both metric-campaign checks passed. Independent ZIP
+verification passed, including an explicit expected whole-archive hash. Existing
+local archives and the GitHub draft attachment were not replaced.

@@ -12,6 +12,14 @@ do not track main. See the [Chinese guide](REVIEW.zh-CN.md) for access and
 [archive verification](../design/review-verification.md) before using a snapshot.
 Earlier archive descriptions below are explicitly historical.
 
+The latest **local** nine-campaign archive is
+`data/bitgenesis-v0-nine-campaigns.zip`, source
+`c5975cd5785e7f1ed784382810314545a9076b91`, 628 payload files / 32,997,186 bytes.
+SHA-256: `8bf359d6f156ea71d0f15c6d5eee5f087e86af30e6d4db94562fe38c398895a6`.
+It includes campaign 009, its raw metrics and the new page. Packaging reran 11
+full-run audits plus campaign-005 and campaign-009 metric verification. Independent
+ZIP verification passed. It has not replaced the GitHub draft's eight-campaign asset.
+
 Verified compatibility checkpoint: source `1b8a2fd`, 46 tests passed on
 Windows/Linux × Python 3.12/3.13/3.14 in
 [run 34778435637](https://github.com/nikolasandwich/bitgenesis/actions/runs/34778435637).

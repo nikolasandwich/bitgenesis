@@ -59,6 +59,10 @@ V0 已从骨架推进到可运行的最小达尔文世界。后续阶段尚未�
 
 五轮归档 `data/bitgenesis-v0-review-9.zip` 保留为历史快照（源代码 `4cabc6b`）。
 当前打包器生成八轮归档，默认路径为 `data/bitgenesis-v0-review-8.zip`。
+九轮本地归档已生成：`data/bitgenesis-v0-nine-campaigns.zip`，固定代码 `c5975cd`。
+使用 `python scripts/package_v0_review.py --campaigns 9 --output data/my-nine-campaigns.zip`
+可重新打包到新路径。整包哈希与核验范围见[验收检查点](ACCEPTANCE.md)。
+GitHub 草稿附件仍为原八轮版本。
 归档命令 `python scripts/package_v0_review.py --output data/my-new-review.zip` 打包源代码、八轮数据和验收页面，
 附带文件哈希；不包含虚拟环境或其他本地数据。解压后从 `START-HERE.txt` 开始。
 
