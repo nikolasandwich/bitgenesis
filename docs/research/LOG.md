@@ -1102,3 +1102,15 @@ sampling and finite-controller limitations stated explicitly. Browser inspection
 confirmed the new section and every seed row. Updated current entry guides;
 the downloadable twelve-campaign archive retains its original scope.
 All 64 local tests passed. No new simulation or V1 runtime change.
+
+## 2026-09-14 — Autonomous cycle 73
+
+Extended packaging to thirteen campaigns, preserving the default and existing
+archives. Committed source 1fc1c30 then packaged all selected raw records, with
+the 013 birth-catalog/metric verifier included. Eleven full-run audits and the
+selected metric audits passed. New archive: 853 files / 86150042 bytes, SHA-256
+ed6e90acda91f1b8e74f88acca5f246c03ee308c627cb611c3e2d180cd1383f2.
+Independent expected-hash verification checked 13 HTML pages and ten local
+targets. Local 64 tests and source CI 34785000803 passed. Archive remains local;
+the published download instructions still identify the twelve-campaign draft.
+Next: recompute campaign 013 from an extracted archive before uploading a new draft.

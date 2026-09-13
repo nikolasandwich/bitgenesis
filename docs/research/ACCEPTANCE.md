@@ -13,7 +13,17 @@ the allocation trajectories, threshold/cost survival curves, longitudinal follow
 and cumulative versus living genome coverage.
 It distinguishes executions from independent samples and identifies replayed prefixes.
 Earlier pages remain preserved. The uploaded nine-campaign archive excludes 010–011.
-Latest local archive: `data/bitgenesis-v0-twelve-campaigns.zip`, source
+Newest local archive: `data/bitgenesis-v0-thirteen-campaigns.zip`, source
+`1fc1c30dfcb6bcccbc929c0ba75ea5957272bc60`, 853 payload files / 86,150,042 bytes.
+SHA-256: `ed6e90acda91f1b8e74f88acca5f246c03ee308c627cb611c3e2d180cd1383f2`.
+It adds campaign 013 raw birth catalogs and metrics, the thirteen-campaign page,
+and the corresponding verifier. Packaging reran eleven full-run audits and
+metric verifiers for 005/009–013. Standalone expected-hash verification passed:
+13 HTML pages and ten local targets. Source CI
+[34785000803](https://github.com/nikolasandwich/bitgenesis/actions/runs/34785000803) passed.
+This new local archive has not yet been uploaded; the download below remains twelve campaigns.
+
+Latest uploaded archive: `data/bitgenesis-v0-twelve-campaigns.zip`, source
 `11da88c6c19729b066a8ad4e30ca1362ae896c77`, 815 payload files / 70,481,664 bytes.
 SHA-256: `121e11e56b22cd20c2f584b2989e9c25d9348042208ba02232cc4d1bdfad7cd4`.
 It includes all twelve raw campaigns and the twelve-campaign review page. Packaging
