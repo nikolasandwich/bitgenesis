@@ -707,3 +707,16 @@ these twenty executions introduce zero independent seed replicates. Project tota
 become eleven campaigns / 460 executions / 4440000 computed ticks with that caveat.
 No permanence or adaptation claim. Preregistered source CI 34780086318 and verifier
 CI 34780384606 passed; existing pages and archives retain their prior scope.
+
+## 2026-09-14 — Autonomous cycle 43
+
+Compared recorded founder counts and living-generation depth across the long
+follow-up. All seventeen survivors have one founder at 100000; sixteen already
+did at 10000. Food-160/905 changes from two to one at 18651. Terminal maximum
+living depth ranges 224–287 (food) and 221–268 (stored), with the same fixed genome.
+Two extinct worlds had also passed through one-founder states, so founder fixation
+is not equated with maintenance or superiority.
+
+Saved every world's comparison and hash sidecar. Streaming checks cover complete
+ticks, count bounds/monotonicity and fixed-variant consistency; unavailable full
+genealogy was not reconstructed. This retrospective view adds no new executions.

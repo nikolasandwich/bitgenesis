@@ -1,0 +1,28 @@
+{
+  "analysis": "campaign-011-recorded-lineages-1",
+  "metric_rows_checked": 2000020,
+  "scope": "Recorded count consistency; no reconstruction of unexported genealogy",
+  "input_sha256": {
+    "food-160-seed-900.csv": "eec03662d2c8e640e61dea37e77842061e43d77c5009e1df19dd0c8215a7f0c0",
+    "food-160-seed-901.csv": "6ea9c3befa2a0374e8b681b2d92731f7bd9ba6178a0f4b15d1fd6af64e3ac6ed",
+    "food-160-seed-902.csv": "4dbd6b8bdfb72390a9dba26b997272d9711f1566da750fb508f85d6d2c7c9d83",
+    "food-160-seed-903.csv": "5c3fba0ab0b3fe5bcb716275b4b24ddaba03e47c3cca572eacf6ef82e01357ea",
+    "food-160-seed-904.csv": "55072581a4e2ffb86224fb4fc264fb41c29ab93adde6c99933c67564a5ae0160",
+    "food-160-seed-905.csv": "5c1d26f56677b7790da471859c6cf14b5ad45e174f3baf4bc098e09f3627c872",
+    "food-160-seed-906.csv": "18e12a45183cdb837eefe3708b0edc432db6d0a8d2e3cfe40ee77d8612fb890a",
+    "food-160-seed-907.csv": "75c732dc4d65471de344df4a05a293ce6df45703d4d7deb86017f1d95f2505ee",
+    "food-160-seed-908.csv": "6d6f35f7a030beb8f86708e1ca1624b65884f7909eb7a040c70cf87c2c527a27",
+    "food-160-seed-909.csv": "e9de30def1c78831548029c8a79dc15efabc598d4cc5d4124e0eea0b8529be43",
+    "stored-160-seed-900.csv": "c0f6532293c247e0a59dca4af3746eec37750660fae3abaa3a6b855a155effdd",
+    "stored-160-seed-901.csv": "9a37a88a19aaf9866304f1b265306bbc7f07a2f639b8cf2919bf820604ecb707",
+    "stored-160-seed-902.csv": "8e943eeb2fe873123f49d9268817dfbff01cc9bd7572a301de0b840d52e9d36b",
+    "stored-160-seed-903.csv": "758e15b9573feda1ee272f7ea3175a030a5934a880cde9d58a01e9b1ebcbdb53",
+    "stored-160-seed-904.csv": "0309cb60de4663fa7319c46c97b0237311e8ac3e92b36264d3e37d3e08ce6c17",
+    "stored-160-seed-905.csv": "6625d8f137349dc3cf990f9d5b803dcee210aac3ce7f8e0dc9437f0edfdfb22f",
+    "stored-160-seed-906.csv": "6e9fcf9ee54b7ea37ee78881027a4df5a0987513ca72a0661bf9ae622f97b5e0",
+    "stored-160-seed-907.csv": "f9f0e0d92927eee11bcd5a9b805ecc933e6ce87e521e601376ba73607eb1648f",
+    "stored-160-seed-908.csv": "a39bc3f4e7d2334e17339be362b23ccf79e657b0b46fe5306fb843ac5e609e84",
+    "stored-160-seed-909.csv": "27219fe47c7a3a635cf1044b1dc99b782cb940b5ddee07b95b55d6e6f7851185"
+  },
+  "script_sha256": "5e66c52938167803d6d81a609e4aec7eacb34d4c99d4c5e2e4a27cc1dff5e0ad"
+}

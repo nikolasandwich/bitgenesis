@@ -33,6 +33,36 @@ innovation. The finding does not change the default reproduction threshold.
 
 ## Computation and verification
 
+### Exploratory recorded-lineage comparison
+
+At tick 10000, sixteen of the seventeen surviving worlds already had one recorded
+founder lineage. Food-160 seed 905 retained two; its count first reached one at
+tick 18651. At tick 100000 all seventeen survivors had one. This is a loss of
+ancestral labels while populations persist, not a reduction from multiple movement
+strategies: all organisms started with the same genome and mutation stayed off.
+
+| Surviving worlds | Recorded founder count at 10000 | At 100000 | Maximum living-generation depth at 100000 |
+| --- | --- | --- | --- |
+| food-160 (10) | 1–2 | 1 in each | 224–287 |
+| stored-160 (7) | 1 in each | 1 in each | 221–268 |
+
+Generation depth here is the maximum among **currently living** individuals,
+not a count of synchronized generations or a functional novelty measure. Founder
+labels are genealogical markers, not species. Both stored seeds 901 and 906 passed
+through a single-founder state before extinction; reaching one lineage is not
+evidence of successful maintenance. Stored seed 908 went extinct without a sampled
+end-of-tick single-founder state.
+
+The [per-run comparison](results/campaign-011-lineages.csv) retains all twenty
+worlds and records first single-founder times, horizon populations and depth.
+A streaming check enforces complete ticks, nonincreasing bounded founder counts,
+extinct/living consistency and one fixed genome variant while alive. It validates
+recorded counts, not the unexported full genealogy. [Hash metadata](results/campaign-011-lineages-verification.json)
+documents scope. Reproduce with `python scripts/analyze_v0_long_lineages.py
+--output data/new-long-lineages`. This is a retrospective analysis, not a new run.
+
+### Original execution verification
+
 No original full-state checkpoints existed, so each world was regenerated from
 its seed. Every saved snapshot from ticks 0–10,000 matched the corresponding
 campaign-010 record, both during execution and in the independent verifier.
