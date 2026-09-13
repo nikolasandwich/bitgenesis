@@ -116,3 +116,15 @@ writing. It excludes virtual environments, build intermediates and unrelated dat
 Next: check current CI, inspect malformed/partial artifact handling, and improve
 operational usability without changing the frozen V0 dynamics. Do not interpret
 a successful integrity audit as external validation of the scientific model.
+
+Auditor now independently reconstructs every tick's mean trait, variant count,
+founder count and maximum generation from lifecycle records; it no longer merely
+compares duplicated aggregate fields. All 12 saved full runs pass the stronger
+check. Added malformed/partial artifact tests; 23 local checks pass. CI run
+34773495978 passed the preceding 20-check suite on all four platform combinations.
+
+Campaign 005 preregistered: world size at fixed initial density, evolving versus
+phenotype-neutral founder controls, 30 runs / 300,000 ticks. This asks whether
+founder collapse in small worlds is a finite-horizon demographic effect, without
+treating founder labels as species. Existing review bundle remains a frozen
+four-campaign checkpoint; do not overwrite it with unfinished experiments.

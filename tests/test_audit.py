@@ -51,6 +51,34 @@ class AuditTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Missing parent"):
             audit(self.output)
 
+    def test_trait_metrics_are_reconstructed_from_lifecycle(self):
+        path = self.output / "metrics.csv"
+        with path.open(newline="", encoding="utf-8") as stream:
+            rows = list(csv.DictReader(stream))
+        rows[1]["mean_genome"] = str(float(rows[1]["mean_genome"]) + 1)
+        with path.open("w", newline="", encoding="utf-8") as stream:
+            writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
+            writer.writeheader()
+            writer.writerows(rows)
+        with self.assertRaisesRegex(ValueError, "Trait mean mismatch"):
+            audit(self.output)
+
+    def test_partial_run_is_not_verified(self):
+        path = self.output / "metadata.json"
+        metadata = json.loads(path.read_text())
+        metadata["status"] = "interrupted"
+        path.write_text(json.dumps(metadata), encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "not marked complete"):
+            audit(self.output)
+
+    def test_missing_field_has_a_readable_error(self):
+        path = self.output / "lineage.json"
+        records = json.loads(path.read_text())
+        del records[0]["genome"]
+        path.write_text(json.dumps(records), encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "Malformed run artifact"):
+            audit(self.output)
+
 
 if __name__ == "__main__":
     unittest.main()

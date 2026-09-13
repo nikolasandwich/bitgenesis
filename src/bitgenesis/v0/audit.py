@@ -1,6 +1,6 @@
 """Read-only artifact checks independent of simulation stepping code."""
 
-from collections import Counter
+from collections import Counter, defaultdict
 import csv
 import json
 from pathlib import Path
@@ -35,8 +35,15 @@ def _audit(directory):
                             for key, value in row.items()})
     require(len(metrics) == steps + 1, "Metrics tick count mismatch")
     initial_count = config["initial_population"]
+    require(metrics[0]["food_energy"] == config["width"] * config["height"] * config["initial_food"],
+            "Initial food energy differs from configuration")
+    require(metrics[0]["organism_energy"] == initial_count * config["initial_energy"],
+            "Initial organism energy differs from configuration")
     previous_supply = previous_dissipation = 0
     for tick, row in enumerate(metrics):
+        require(all(row[key] >= 0 for key in ("population", "births", "deaths", "organism_energy",
+                                             "food_energy", "supplied_energy", "dissipated_energy")),
+                f"Negative metric at tick {tick}")
         require(row["tick"] == tick, "Metrics ticks are not contiguous")
         require(row["population"] == initial_count + row["births"] - row["deaths"],
                 f"Population accounting mismatch at tick {tick}")
@@ -50,15 +57,22 @@ def _audit(directory):
     by_id = {o["id"]: o for o in records}
     require(len(by_id) == len(records), "Duplicate organism IDs")
     births, deaths, children = Counter(), Counter(), Counter()
+    born_at, died_at = defaultdict(list), defaultdict(list)
     founder_count = 0
     for o in records:
+        require(all(type(o[key]) is int and o[key] >= 0 for key in
+                    ("id", "founder_id", "generation", "birth_tick", "genome", "position", "energy", "offspring")),
+                "Invalid integer organism field")
+        require(o["position"] < config["width"] * config["height"], "Lineage position outside world")
         require(0 <= o["birth_tick"] <= steps, "Birth outside run interval")
         require(0 <= o["genome"] <= 1000, "Genome outside V0 bounds")
         births[o["birth_tick"]] += 1
+        born_at[o["birth_tick"]].append(o)
         if o["death_tick"] is not None:
             require(o["birth_tick"] < o["death_tick"] <= steps, "Invalid death tick")
             require(o["energy"] == 0, "Dead V0 organism retains energy")
             deaths[o["death_tick"]] += 1
+            died_at[o["death_tick"]].append(o)
         else:
             require(o["energy"] > 0, "Living organism has no energy")
         if o["parent_id"] is None:
@@ -80,13 +94,28 @@ def _audit(directory):
     require(founder_count == initial_count, "Founder population mismatch")
     require(all(o["offspring"] == children[o["id"]] for o in records), "Direct offspring count mismatch")
     total_births = total_deaths = 0
+    live_genomes, live_founders, live_generations = Counter(), Counter(), Counter()
+    genome_sum = 0
     for row in metrics:
         tick = row["tick"]
+        for sign, population in ((1, born_at[tick]), (-1, died_at[tick])):
+            for o in population:
+                genome_sum += sign * o["genome"]
+                for counter, key in ((live_genomes, "genome"), (live_founders, "founder_id"),
+                                     (live_generations, "generation")):
+                    counter[o[key]] += sign
+                    if counter[o[key]] == 0:
+                        del counter[o[key]]
         if tick:
             total_births += births[tick]
         total_deaths += deaths[tick]
         require(row["births"] == total_births and row["deaths"] == total_deaths,
                 f"Lineage/metrics mismatch at tick {tick}")
+        require(row["mean_genome"] == (genome_sum / row["population"] if row["population"] else None),
+                f"Trait mean mismatch at tick {tick}")
+        require(row["genome_variants"] == len(live_genomes), f"Trait variant count mismatch at tick {tick}")
+        require(row["founder_lineages"] == len(live_founders), f"Founder count mismatch at tick {tick}")
+        require(row["max_generation"] == max(live_generations, default=None), f"Generation maximum mismatch at tick {tick}")
     seen_births, seen_deaths = set(), set()
     last_event_tick = 0
     with (directory / "events.jsonl").open(encoding="utf-8") as stream:
