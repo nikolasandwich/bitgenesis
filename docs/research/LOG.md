@@ -953,3 +953,14 @@ the local verified copy. Source CI 34783294636 passed. Notes retain follow-up
 counting, bounded mechanism claims and retrospective-analysis labels. Updated
 current download entries; all older drafts/assets remain unchanged and no
 release was published.
+
+## 2026-09-14 — Autonomous cycle 61
+
+Verified and extracted the twelve-campaign ZIP into a fresh portable-review-12
+directory. Ran the archived 012 verifier against archived raw metrics, and the
+archived early-budget tool with Python -S (site packages disabled). Both JSON
+reports match their archived counterparts exactly, including script/input hashes;
+all eighty budget CSV rows match byte-for-byte. This uses the existing Python
+3.12 interpreter and does not claim a fresh package installation. No unarchived
+analysis files or simulation reruns were needed. Acceptance evidence updated;
+draft assets and scientific counts remain unchanged.

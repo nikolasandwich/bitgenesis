@@ -21,6 +21,14 @@ now holds this archive and checksum. GitHub reports both uploaded with the
 archive size and digest matching the local copy. Source CI
 [34783294636](https://github.com/nikolasandwich/bitgenesis/actions/runs/34783294636) passed.
 
+Portable research recomputation: extracted the verified twelve-campaign ZIP into
+`data/portable-review-12/` and ran its archived campaign-012 verifier and early
+budget script against its archived raw inputs. Both summary JSON values match
+the archived reports exactly, including hashes; all eighty budget CSV rows are
+byte-identical. The budget command ran with Python site-package loading disabled
+(`-S`). This checks research recomputation using the existing Python 3.12
+interpreter, not a new package installation or another simulation campaign.
+
 The latest uploaded review archive is `bitgenesis-v0-twelve-campaigns.zip`, fixed
 source `11da88c`, attached to the `v0.0.1-preview.4` GitHub draft release. The older
 eight-, nine- and eleven-campaign drafts remain available. Draft attachments do not
