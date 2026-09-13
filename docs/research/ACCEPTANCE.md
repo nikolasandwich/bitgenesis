@@ -7,15 +7,16 @@ independent seed replicates. See the [research index](README.md) and latest
 The latest [birth-cost report](campaign-012.md) adds eighty verified executions.
 It is included in the current page, but not in the eleven-campaign fixed archive.
 The newest [genome-coverage report](campaign-013.md) adds ten verified 50000-tick
-worlds; it is not included in the twelve-campaign page or fixed archive.
-Visual review entry `data/review-v0-12.html` covers all twelve campaigns, including
-the allocation trajectories, threshold/cost survival curves and longitudinal follow-up.
+worlds; it is included in the thirteen-campaign page, but not the fixed archive.
+Visual review entry `data/review-v0-13.html` covers all thirteen campaigns, including
+the allocation trajectories, threshold/cost survival curves, longitudinal follow-up
+and cumulative versus living genome coverage.
 It distinguishes executions from independent samples and identifies replayed prefixes.
 Earlier pages remain preserved. The uploaded nine-campaign archive excludes 010–011.
 Latest local archive: `data/bitgenesis-v0-twelve-campaigns.zip`, source
 `11da88c6c19729b066a8ad4e30ca1362ae896c77`, 815 payload files / 70,481,664 bytes.
 SHA-256: `121e11e56b22cd20c2f584b2989e9c25d9348042208ba02232cc4d1bdfad7cd4`.
-It includes all twelve raw campaigns and the current review page. Packaging
+It includes all twelve raw campaigns and the twelve-campaign review page. Packaging
 reran eleven full-run audits and metric verifiers for 005/009/010/011/012;
 the 012 report checks 800080 rows. Independent whole-archive verification passed.
 The [twelve-campaign draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-ef4c16aafc92a5c2bb8e)

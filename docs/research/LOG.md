@@ -1092,3 +1092,13 @@ are explicit. The 1001 reference bounds the inherited movement vocabulary only.
 No plateau fit or future extrapolation. Input hashes match the independent
 verification report. Saved PNG/SVG, curve data and hash sidecar, and visually
 checked axes, labels and legend. No new simulation or hypothesis test.
+
+## 2026-09-14 — Autonomous cycle 72
+
+Extended the optional review builder to thirteen campaigns, keeping its default
+at eight and all earlier pages immutable. Added the full ten-world coverage
+table and figure, with cumulative versus living diversity, late-window novelty,
+sampling and finite-controller limitations stated explicitly. Browser inspection
+confirmed the new section and every seed row. Updated current entry guides;
+the downloadable twelve-campaign archive retains its original scope.
+All 64 local tests passed. No new simulation or V1 runtime change.

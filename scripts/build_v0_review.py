@@ -20,7 +20,7 @@ def require_run_grid(records, treatments, seeds):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-root", type=Path, default=Path("data"))
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     args.output = args.output or args.data_root / f"review-v0-{args.campaigns}.html"
@@ -193,6 +193,16 @@ def main():
         cost_figure = link(Path(__file__).resolve().parents[1] / "docs/research/figures/campaign-012-survival.png")
         cost_section = f'''<section><h2>12 / 免除出生扣费，仍可能早期灭绝</h2><p>在两种能量分配下，交叉比较繁殖阈值 40/160 与直接出生扣费 0/4。每组十个新种子、10,000 步，移动性状固定且没有突变。</p>{cost_table}<img src="{cost_figure}" alt="八组存活曲线，按能量分配分行；右列放大前五百步。高阈值的两种扣费曲线重合。" style="width:100%;height:auto"><p>体内储能、低阈值组在零扣费下仍十次全部早期灭绝，说明正的直接出生扣费不是这些失败的必要条件。零扣费仍会分割亲代能量、增加消费者并占据空间，不能据此确定唯一致死机制。</p><p class="small">高阈值的存活曲线重合，不等于内部过程相同。事后开局能量账显示：储能低阈值组免除平均 864.8 单位出生扣费后，基础生存与移动支出合计增加 885.6 单位；这是动态账目，不是单一路径的因果估计。全部种子和灭绝均保留。</p></section>'''
         page = page.replace('<section><h2>复核与恢复</h2>', cost_section + '<section><h2>复核与恢复</h2>')
+    if args.campaigns >= 13:
+        require_run_grid(campaigns[12], ("mutation", "no-mutation"), range(1100, 1105))
+        coverage_rows = [["有突变" if r["treatment"] == "mutation" else "无突变", r["seed"],
+                          r["initial_genome_values"], r["ever_genome_values"],
+                          r["new_values_last_10000"], r["genome_variants"]]
+                         for r in sorted(campaigns[12], key=lambda r: (r["treatment"], r["seed"]))]
+        coverage_table = table(["处理", "种子", "初始取值数", "累计取值数", "末一万步新增", "终点活体取值数"], coverage_rows)
+        coverage_figure = link(Path(__file__).resolve().parents[1] / "docs/research/figures/campaign-013-coverage.png")
+        coverage_section = f'''<section><h2>13 / 更多基因取值，不等于新的功能</h2><p>有突变与无突变各五个新种子，每个世界观察 50,000 步，并记录所有出生个体的基因。累计取值从出生表独立重建；全部十个世界活到终点，且最终都只剩一个创始谱系。</p>{coverage_table}<img src="{coverage_figure}" alt="累计基因取值与活体基因取值对照；左图保留累计变化点，右图每百步采样，纵轴范围不同。" style="width:100%;height:auto"><p>有突变组末一万步新增 0–22 个取值，四个世界仍出现新数值；这既不能证明永远创新，也不能证明已经永久停滞。无突变组始终局限于初始取值。</p><p class="small">V0 的基因仍只编码 1001 种移动概率。更长谱系和新的数值不会自动增加感觉、记忆或行动种类；这个限制针对遗传控制方式，不是说整个世界只有 1001 种状态。图中两面板纵轴不同，活体曲线可能省略短暂波动。</p></section>'''
+        page = page.replace('<section><h2>复核与恢复</h2>', coverage_section + '<section><h2>复核与恢复</h2>')
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x", encoding="utf-8") as stream:
         stream.write(page)

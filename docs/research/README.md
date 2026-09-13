@@ -9,8 +9,8 @@
 该计数检查已加入 CI，使用仓库中的精简结果，不需要本地大体积逐步数据。
 
 首次验收可先阅读[中文指南](REVIEW.zh-CN.md)，再打开本地
-`data/review-v0-12.html`。这个视觉快照涵盖十二轮，可用
-`python scripts/build_v0_review.py --campaigns 12` 在完整本地数据上重建。
+`data/review-v0-13.html`。这个视觉快照涵盖十三轮，可用
+`python scripts/build_v0_review.py --campaigns 13` 在完整本地数据上重建。
 十二轮完整数据可从[十二轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-ef4c16aafc92a5c2bb8e)下载；
 旧页面和已上传的八轮、九轮归档继续保留原范围。
 旧 `data/review-v0-8.html` 保留为八轮快照。
@@ -68,7 +68,7 @@ GitHub 保存代码、协议、报告和精简结果；大体积逐步数据保�
 
 第十三轮已独立核对 744,901 条出生记录与 500,010 行指标：有突变组五万步累计
 340–371 个取值，末一万步新增 0–22 个；无突变组始终只有最初的 77–78 个。
-这仍是固定移动概率范围内的变化。当前十二轮页面及下载归档尚不包含第十三轮。
+这仍是固定移动概率范围内的变化。当前十三轮页面已包含此结果；十二轮下载归档尚不包含第十三轮。
 
 ## 繁殖机制的下一项证据
 
