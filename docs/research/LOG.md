@@ -199,3 +199,18 @@ SHA-256 `fb3b3bd325df3304d5337ae8f2fc55d658799af5b2646225390c1a0fa0779d41`.
 Final population is 81, with 3,780 births and 3,779 deaths. These are operational
 validation runs, not additional independent research trials. Local outputs are
 preserved under `data/checkpoint-validation/`.
+
+## 2026-09-14 — Autonomous cycle 9
+
+Added an independent read-only verifier for campaign 005's metric-only artifacts.
+It does not import or step the engine. All 30 runs / 300,030 rows passed: complete
+tick ranges, accounting identities, cumulative counters, diversity bounds, neutral
+trait invariance, and recomputed terminal/late-window/fixation/extinction summaries
+agree with both saved summary formats. No reported result needed correction.
+
+The verifier checks the metadata-declared run grid; that grid was also inspected
+against the preregistration (three widths, two treatments, five seeds, 10,000 ticks).
+It cannot validate unavailable lifecycle records or establish biological truth.
+Corrupted intermediate energy, altered summary mean and a truncated CSV are rejected
+by tests. All 34 local tests pass. Future portable review archives include this
+additional metric audit separately from their 11 full-lifecycle run audits.

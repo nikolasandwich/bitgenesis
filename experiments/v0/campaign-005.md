@@ -32,3 +32,15 @@ python scripts/run_v0_world_sizes.py --output data/campaign-005
 Outputs: per-tick metrics, aggregate JSON/CSV and provenance. Full lifecycle and
 replay data are not exported by this assay. No extrapolation to infinite worlds
 or formal significance testing is planned from these five-seed groups.
+
+After completion, independently recompute the summaries and check every CSV row:
+
+```sh
+python scripts/audit_v0_world_sizes.py data/campaign-005
+```
+
+This checks the declared run grid, complete tick sequence, population/energy
+accounting, neutral trait invariance, and both JSON/CSV summaries against the raw
+metrics. It does not reconstruct dynamics, validate absent lifecycle records, or
+prove biological interpretations. The tool accepts the run grid declared in
+metadata; compare that metadata with this preregistration to establish adherence.

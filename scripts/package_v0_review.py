@@ -8,6 +8,7 @@ import subprocess
 import zipfile
 
 from bitgenesis.v0.audit import audit
+from audit_v0_world_sizes import audit as audit_world_sizes
 
 
 def sha256(path):
@@ -45,6 +46,7 @@ def main():
     manifest = {"format": "bitgenesis-review-1", "git_commit": git("rev-parse", "HEAD"),
                 "scope": "Tracked source plus campaigns 001–005, mutation calibration, acceptance demonstration and Chinese review page. Other local data and environments are excluded.",
                 "audits": audited,
+                "metric_campaign_audits": {"campaign-005": audit_world_sizes(root / "data" / "campaign-005")},
                 "files": {"bitgenesis/" + p.relative_to(root).as_posix():
                           {"sha256": sha256(p), "bytes": p.stat().st_size} for p in files}}
     args.output.parent.mkdir(parents=True, exist_ok=True)

@@ -3,7 +3,7 @@
 The modules directly under `src/bitgenesis/` preserve the original V0 scaffold.
 The Darwinian runtime lives under `bitgenesis.v0` with rules `v0-darwin-1`.
 There is no plugin system or placeholder implementation of V1–V4. CLI routing
-explicitly accepts only `v0`.
+accepts only `v0` as a runtime stage; `audit` and `checkpoint` are V0 utilities.
 
 When introducing V1, retain V0 rules and the `bitgenesis v0` command, and add `bitgenesis.v1` for
 new rules. Share only utilities whose semantics are truly stable. Later stage
