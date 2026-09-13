@@ -1,0 +1,7 @@
+# Initialization smoke experiment; no organisms or evolutionary dynamics yet.
+schema_version = 1
+rules_version = "v0-scaffold-1"
+stage = "v0"
+seed = 42
+width = 16
+height = 12
