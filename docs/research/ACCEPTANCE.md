@@ -26,6 +26,15 @@ holds this archive and checksum file. GitHub reports both assets uploaded, with
 the archive size and digest matching the local result. Source CI
 [34781902624](https://github.com/nikolasandwich/bitgenesis/actions/runs/34781902624) passed.
 
+Fresh-install check of the eleven-campaign ZIP: verified before extraction into
+`data/portable-review-11/`, then built and installed its wheel into a new virtual
+environment. Imports resolved to that environment's site-packages. All 53 archived
+tests and the inventory check passed. A new 1000-tick demo passed the independent
+audit; metrics/events were byte-identical to the archived demonstration, and
+lineage/summary JSON values matched. This checks this Windows/Python 3.12 setup,
+not an offline installation or a rerun of all campaigns. Build dependencies were
+resolved during installation.
+
 The preserved local nine-campaign archive is
 `data/bitgenesis-v0-nine-campaigns.zip`, source
 `c5975cd5785e7f1ed784382810314545a9076b91`, 628 payload files / 32,997,186 bytes.

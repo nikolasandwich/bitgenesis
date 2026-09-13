@@ -806,3 +806,18 @@ actual observed failure. Source 694fd9c45f9fea86b676efac916940a94708ff35 passed
 CI 34782162578 in all six Windows/Linux and Python 3.12/3.13/3.14 jobs, including
 the new syntax step. This closes a syntax gap only, not behavioral coverage for
 every research helper. Existing archive source and evidence remain fixed.
+
+## 2026-09-14 — Autonomous cycle 50
+
+Verified the eleven-campaign ZIP against its external hash, extracted into a
+new portable-review-11 directory and installed its wheel into a new virtual
+environment. Confirmed imports resolve to that environment's site-packages.
+All 53 archived tests and the compact inventory check passed. A newly generated
+1000-tick baseline passed independent artifact audit: 83 living, 1561 births,
+1558 deaths and 1641 recorded organisms. Metrics and events match the archived
+acceptance demo byte-for-byte; lineage and summary JSON values match.
+
+This exercises the delivered snapshot in Windows/Python 3.12, not all research
+campaigns or offline dependency installation. Installation resolved build
+dependencies. New disposable outputs remain ignored; the ZIP and draft assets
+were not modified. Acceptance notes record the scope of this check.
