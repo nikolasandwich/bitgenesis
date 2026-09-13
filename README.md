@@ -38,7 +38,8 @@ Output directories must be new; previous runs are never overwritten.
 Replay retains up to 1,001 frames by default (`--max-frames`); long-run charts
 are sampled, while CSV metrics retain every tick. Sampling intervals are recorded.
 The read-only audit reconciles saved metrics, lifecycle events, lineage and replay
-without stepping the simulator. It checks consistency, not biological realism.
+without stepping the simulator. Its [coverage and limits](docs/design/audit-scope.md)
+distinguish record consistency from exact replay and biological interpretation.
 
 For recoverable state-only runs, use `bitgenesis checkpoint`; see the
 [checkpoint and recovery guide](docs/design/checkpoints.md). This separate command

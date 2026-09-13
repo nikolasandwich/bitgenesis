@@ -1571,3 +1571,17 @@ historical full-run audits reconcile all 1,111 stored frames unchanged. Document
 that this does not independently reconstruct individual position histories or
 unsaved movement steps. The engine and replay format are unchanged; the stronger
 audit postdates the fixed archive.
+
+## 2026-09-14 — Autonomous cycle 106
+
+Reviewed the current auditor against its advertised scope and added an explicit
+coverage matrix for metadata, metrics, lineage, events, intermediate frames and
+final artifacts. Distinguished recorded consistency, archive integrity, execution
+inventory, reference replay and controlled scientific evidence. Linked it from
+the README and archive verification guide.
+
+The matrix states concrete limits: no per-individual movement reconstruction,
+no independent exact birth-energy split verification, no certification of every
+advertised intermediate sample, no seed authentication and no causal inference
+from offspring totals. Confirmed source 3dbadf4 CI 34789147628 succeeded across the
+configured matrix. Documentation links resolve; no new simulation or code change.

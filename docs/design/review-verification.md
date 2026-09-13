@@ -1,5 +1,8 @@
 # Verify a portable review
 
+For recorded runs, see the separate [audit coverage matrix](audit-scope.md).
+ZIP integrity and experiment-record consistency are different checks.
+
 The standalone helper requires Python 3.12+ and the standard library only. Run it
 from the current repository checkout; older archives can predate this helper.
 It reads the ZIP without extracting files or executing embedded scripts.
