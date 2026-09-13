@@ -977,3 +977,15 @@ Decision: retain the engine rather than change random draws or add caching for
 an unproven gain. Exact historical streams and checkpoint compatibility matter;
 any optimization needs repeated representative measurement and replay evidence.
 No code behavior or scientific count changed.
+
+## 2026-09-14 — Autonomous cycle 63
+
+Improved newly generated replay timelines with aria-valuetext containing actual
+tick, population and saved-frame position, plus keyboard/sampling help connected
+through aria-describedby. This distinguishes sampled frame indices from model
+time. Existing generated pages and fixed archives are unchanged.
+
+A fresh 100-tick demo was checked in the browser: Home then Right selects tick
+10/population 144; End selects tick 100/population 56. All 54 tests passed.
+This verifies keyboard behavior and page updates, not independent screen-reader
+speech output. No simulation rules or recording schema changed.
