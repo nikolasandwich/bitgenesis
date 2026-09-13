@@ -576,3 +576,18 @@ metric verifier for the fixed grid and all intermediate birth/population endpoin
 Full existing local suite passed 46 tests. Execution is still live at this entry;
 accepted formal totals remain nine campaigns / 400 runs / 2040000 ticks until
 completion and metric verification. No partial outcomes have been accepted.
+
+## 2026-09-14 — Autonomous cycle 33
+
+Campaign 010's original process completed all 40 runs. Independent verification
+passed all 400040 metric rows and declared intermediate/final summaries. At tick
+10000, food-40/stored-40/food-160/stored-160 survival was 1/0/10/7 of ten each.
+Raised-threshold arms had zero births through tick 100; stored-40 averaged 215.
+Stored-160 failures (901, 906, 908) are retained; surviving lifetimes are censored.
+
+Reported the threshold's total intervention effect without claiming a single
+causal pathway, evolved strategy or universal parameter optimum. Baseline rules
+and defaults unchanged. All-seed outcomes and verification hashes committed;
+formal totals become ten campaigns / 440 runs / 2440000 ticks. Existing nine-
+campaign portable snapshot remains explicitly historical. Source and verifier
+CI runs 34779261990 and 34779319289 both passed six environments.

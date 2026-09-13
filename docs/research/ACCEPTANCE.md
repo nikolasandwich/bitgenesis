@@ -1,9 +1,11 @@
 # V0 acceptance checkpoint
 
-Current research: nine campaigns / 400 runs / 2,040,000 ticks; see the
-[research index](README.md). Latest report: [equal-energy allocation](campaign-009.md).
+Current research: ten campaigns / 440 runs / 2,440,000 ticks; see the
+[research index](README.md). Latest report: [reproduction-threshold intervention](campaign-010.md).
 Visual review entry `data/review-v0-9.html` covers all nine campaigns, including
 the early allocation trajectories. The eight-campaign page remains preserved.
+Campaign 010 is available in its report and compact data; the existing page and
+local nine-campaign archive do not include it.
 The latest uploaded review archive is `bitgenesis-v0-review-8b.zip`, fixed source
 `f389047`, attached to the `v0.0.1-preview.1` GitHub draft release. It includes the
 eight campaigns but predates the latest checkpoint validation and survival
