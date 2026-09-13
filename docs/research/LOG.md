@@ -424,3 +424,19 @@ visited 241–303 values, retained 7–19 at the endpoint and reached living gen
 reached generations 101–115. Bounds, unique IDs, terminal counts and no-mutation
 closure passed; raw input hashes and ten seed records are tracked. No new formal
 world runs. Earlier archive-verifier source passed CI in 34777333414.
+
+## 2026-09-14 — Autonomous cycle 22
+
+Prepared GitHub draft prerelease `v0.0.1-preview.1` (release ID 388008482), targeting
+the archive's exact source `f389047f38e3329b010a566ae49b3ca94d5000ce`. Uploaded the
+eight-campaign `bitgenesis-v0-review-8b.zip` and its SHA-256 text file. The draft
+notes state scope, review instructions, provenance, checks and scientific limits.
+No release was published; draft and prerelease flags were verified true through
+the GitHub API.
+
+Server-reported archive asset size is 31,425,729 bytes, state `uploaded`, digest
+`sha256:cc81e02cae90d8d72117d41310bc85c5051a7697391f96bb097f0210e510832d`,
+matching the local verified archive. Draft page:
+https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-25033c66c4d616cc9048
+Later main commits are explicitly outside this fixed snapshot. Existing local
+archives and formal experiment counts are unchanged.

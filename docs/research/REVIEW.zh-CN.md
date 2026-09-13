@@ -56,3 +56,7 @@ Windows/Linux、Python 3.12/3.13/3.14 的六种组合通过（CI 34776314237）�
 
 可先按[归档核验说明](../design/review-verification.md)独立检查文件清单、哈希和静态页面链接。
 核验工具不运行压缩包中的代码；要确认收到的是某次已记录的归档，使用对应的整包哈希。
+
+仓库另有 [GitHub 草稿发布](https://github.com/nikolasandwich/bitgenesis/releases)
+`v0.0.1-preview.1`，附带 `bitgenesis-v0-review-8b.zip` 和校验文件，固定源代码 `f389047`。
+这是验收草稿；附件不会随 main 的后续提交自动更新。整包哈希与说明保存在草稿及 `LOG.md`。
