@@ -741,3 +741,8 @@ the contract suite. Future edits now automatically check declared execution coun
 unique/balanced identities, horizons and follow-up prefixes against tracked CSVs.
 This requires no private/local raw artifacts and does not rerun scientific worlds.
 The step remains a counting check, not validation of every research conclusion.
+
+CI run 34781320417 completed successfully for source 7f8fd4d in all six
+Windows/Linux × Python 3.12/3.13/3.14 jobs: 53 tests, the new inventory check,
+installed CLI smoke run and independent artifact audit. Acceptance guides now
+cite this specific checkpoint without changing historical archive test counts.

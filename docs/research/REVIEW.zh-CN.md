@@ -48,8 +48,9 @@ V0 已从骨架推进到可运行的最小达尔文世界。后续阶段尚未�
 - 阅读八个实验报告中的对照、灭绝和局限，不只看存活的动画。
 - 按 README 生成一个新实验，确认输出目录不可覆盖、记录来源清楚。
 
-已核验的代码检查点 `1b8a2fd` 有 46 项测试，在 Windows/Linux、Python
-3.12/3.13/3.14 的六种组合通过（[CI 34778435637](https://github.com/nikolasandwich/bitgenesis/actions/runs/34778435637)）。
+已核验的代码检查点 `7f8fd4d` 有 53 项测试，在 Windows/Linux、Python
+3.12/3.13/3.14 的六种组合通过（[CI 34781320417](https://github.com/nikolasandwich/bitgenesis/actions/runs/34781320417)），
+实验计数清单检查也在全部环境通过。
 测试数属于对应代码版本，
 不代表历史归档也包含这些更新。
 每个正式实验时间步都检查能量收支与空间约束。
