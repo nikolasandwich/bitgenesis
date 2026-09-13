@@ -1,0 +1,719 @@
+{
+  "scope": "Retrospective ticks 1\u2013100, not preregistered. Aggregate food and energy accounting, not individual paths, deprivation or causal mediation. No new world executions.",
+  "records": [
+    {
+      "arm": "uniform",
+      "seed": 1300,
+      "food_eaten": 4400,
+      "ticks": 100,
+      "basal": 4858,
+      "movement": 1235,
+      "reproduction": 60,
+      "supplied": 5815,
+      "stock_change": -338,
+      "population_at_100": 7,
+      "births_at_100": 15,
+      "food_at_100": 6535,
+      "organism_energy_at_100": 167,
+      "peak_population": 90,
+      "first_peak_tick": 24
+    },
+    {
+      "arm": "uniform",
+      "seed": 1301,
+      "food_eaten": 4397,
+      "ticks": 100,
+      "basal": 4901,
+      "movement": 1218,
+      "reproduction": 60,
+      "supplied": 5847,
+      "stock_change": -332,
+      "population_at_100": 9,
+      "births_at_100": 15,
+      "food_at_100": 6570,
+      "organism_energy_at_100": 138,
+      "peak_population": 86,
+      "first_peak_tick": 21
+    },
+    {
+      "arm": "uniform",
+      "seed": 1302,
+      "food_eaten": 4455,
+      "ticks": 100,
+      "basal": 4997,
+      "movement": 1187,
+      "reproduction": 48,
+      "supplied": 6020,
+      "stock_change": -212,
+      "population_at_100": 10,
+      "births_at_100": 12,
+      "food_at_100": 6685,
+      "organism_energy_at_100": 143,
+      "peak_population": 83,
+      "first_peak_tick": 23
+    },
+    {
+      "arm": "uniform",
+      "seed": 1303,
+      "food_eaten": 5047,
+      "ticks": 100,
+      "basal": 5368,
+      "movement": 1315,
+      "reproduction": 64,
+      "supplied": 5983,
+      "stock_change": -764,
+      "population_at_100": 15,
+      "births_at_100": 16,
+      "food_at_100": 6056,
+      "organism_energy_at_100": 220,
+      "peak_population": 85,
+      "first_peak_tick": 25
+    },
+    {
+      "arm": "uniform",
+      "seed": 1304,
+      "food_eaten": 4706,
+      "ticks": 100,
+      "basal": 5162,
+      "movement": 1253,
+      "reproduction": 40,
+      "supplied": 6055,
+      "stock_change": -400,
+      "population_at_100": 11,
+      "births_at_100": 10,
+      "food_at_100": 6469,
+      "organism_energy_at_100": 171,
+      "peak_population": 84,
+      "first_peak_tick": 23
+    },
+    {
+      "arm": "uniform",
+      "seed": 1305,
+      "food_eaten": 5134,
+      "ticks": 100,
+      "basal": 5430,
+      "movement": 1325,
+      "reproduction": 52,
+      "supplied": 6380,
+      "stock_change": -427,
+      "population_at_100": 16,
+      "births_at_100": 13,
+      "food_at_100": 6366,
+      "organism_energy_at_100": 247,
+      "peak_population": 83,
+      "first_peak_tick": 20
+    },
+    {
+      "arm": "uniform",
+      "seed": 1306,
+      "food_eaten": 4482,
+      "ticks": 100,
+      "basal": 4935,
+      "movement": 1238,
+      "reproduction": 68,
+      "supplied": 6067,
+      "stock_change": -174,
+      "population_at_100": 10,
+      "births_at_100": 17,
+      "food_at_100": 6705,
+      "organism_energy_at_100": 161,
+      "peak_population": 86,
+      "first_peak_tick": 21
+    },
+    {
+      "arm": "uniform",
+      "seed": 1307,
+      "food_eaten": 4142,
+      "ticks": 100,
+      "basal": 4646,
+      "movement": 1179,
+      "reproduction": 44,
+      "supplied": 5947,
+      "stock_change": 78,
+      "population_at_100": 12,
+      "births_at_100": 11,
+      "food_at_100": 6925,
+      "organism_energy_at_100": 193,
+      "peak_population": 81,
+      "first_peak_tick": 6
+    },
+    {
+      "arm": "uniform",
+      "seed": 1308,
+      "food_eaten": 4770,
+      "ticks": 100,
+      "basal": 5133,
+      "movement": 1264,
+      "reproduction": 68,
+      "supplied": 6339,
+      "stock_change": -126,
+      "population_at_100": 14,
+      "births_at_100": 17,
+      "food_at_100": 6689,
+      "organism_energy_at_100": 225,
+      "peak_population": 85,
+      "first_peak_tick": 23
+    },
+    {
+      "arm": "uniform",
+      "seed": 1309,
+      "food_eaten": 3893,
+      "ticks": 100,
+      "basal": 4602,
+      "movement": 1081,
+      "reproduction": 48,
+      "supplied": 5940,
+      "stock_change": 209,
+      "population_at_100": 6,
+      "births_at_100": 12,
+      "food_at_100": 7167,
+      "organism_energy_at_100": 82,
+      "peak_population": 87,
+      "first_peak_tick": 27
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1300,
+      "food_eaten": 3092,
+      "ticks": 100,
+      "basal": 3864,
+      "movement": 934,
+      "reproduction": 132,
+      "supplied": 5060,
+      "stock_change": 130,
+      "population_at_100": 6,
+      "births_at_100": 33,
+      "food_at_100": 7088,
+      "organism_energy_at_100": 82,
+      "peak_population": 98,
+      "first_peak_tick": 15
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1301,
+      "food_eaten": 3560,
+      "ticks": 100,
+      "basal": 4102,
+      "movement": 1045,
+      "reproduction": 152,
+      "supplied": 5048,
+      "stock_change": -251,
+      "population_at_100": 11,
+      "births_at_100": 38,
+      "food_at_100": 6608,
+      "organism_energy_at_100": 181,
+      "peak_population": 98,
+      "first_peak_tick": 15
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1302,
+      "food_eaten": 3604,
+      "ticks": 100,
+      "basal": 4210,
+      "movement": 1058,
+      "reproduction": 160,
+      "supplied": 5288,
+      "stock_change": -140,
+      "population_at_100": 7,
+      "births_at_100": 40,
+      "food_at_100": 6804,
+      "organism_energy_at_100": 96,
+      "peak_population": 102,
+      "first_peak_tick": 14
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1303,
+      "food_eaten": 3772,
+      "ticks": 100,
+      "basal": 4261,
+      "movement": 1031,
+      "reproduction": 168,
+      "supplied": 5232,
+      "stock_change": -228,
+      "population_at_100": 13,
+      "births_at_100": 42,
+      "food_at_100": 6580,
+      "organism_energy_at_100": 232,
+      "peak_population": 105,
+      "first_peak_tick": 16
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1304,
+      "food_eaten": 3772,
+      "ticks": 100,
+      "basal": 4189,
+      "movement": 1037,
+      "reproduction": 192,
+      "supplied": 5516,
+      "stock_change": 98,
+      "population_at_100": 12,
+      "births_at_100": 48,
+      "food_at_100": 6864,
+      "organism_energy_at_100": 274,
+      "peak_population": 107,
+      "first_peak_tick": 15
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1305,
+      "food_eaten": 3388,
+      "ticks": 100,
+      "basal": 4154,
+      "movement": 980,
+      "reproduction": 156,
+      "supplied": 5712,
+      "stock_change": 422,
+      "population_at_100": 1,
+      "births_at_100": 39,
+      "food_at_100": 7444,
+      "organism_energy_at_100": 18,
+      "peak_population": 109,
+      "first_peak_tick": 16
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1306,
+      "food_eaten": 3140,
+      "ticks": 100,
+      "basal": 3871,
+      "movement": 949,
+      "reproduction": 172,
+      "supplied": 5316,
+      "stock_change": 324,
+      "population_at_100": 3,
+      "births_at_100": 43,
+      "food_at_100": 7296,
+      "organism_energy_at_100": 68,
+      "peak_population": 111,
+      "first_peak_tick": 9
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1307,
+      "food_eaten": 3048,
+      "ticks": 100,
+      "basal": 3753,
+      "movement": 955,
+      "reproduction": 164,
+      "supplied": 5320,
+      "stock_change": 448,
+      "population_at_100": 6,
+      "births_at_100": 41,
+      "food_at_100": 7392,
+      "organism_energy_at_100": 96,
+      "peak_population": 106,
+      "first_peak_tick": 14
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1308,
+      "food_eaten": 3480,
+      "ticks": 100,
+      "basal": 4173,
+      "movement": 973,
+      "reproduction": 140,
+      "supplied": 5612,
+      "stock_change": 326,
+      "population_at_100": 7,
+      "births_at_100": 35,
+      "food_at_100": 7252,
+      "organism_energy_at_100": 114,
+      "peak_population": 104,
+      "first_peak_tick": 16
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1309,
+      "food_eaten": 4008,
+      "ticks": 100,
+      "basal": 4471,
+      "movement": 1069,
+      "reproduction": 208,
+      "supplied": 5340,
+      "stock_change": -408,
+      "population_at_100": 11,
+      "births_at_100": 52,
+      "food_at_100": 6452,
+      "organism_energy_at_100": 180,
+      "peak_population": 108,
+      "first_peak_tick": 15
+    },
+    {
+      "arm": "block",
+      "seed": 1300,
+      "food_eaten": 5748,
+      "ticks": 100,
+      "basal": 5673,
+      "movement": 1400,
+      "reproduction": 456,
+      "supplied": 5604,
+      "stock_change": -1925,
+      "population_at_100": 8,
+      "births_at_100": 114,
+      "food_at_100": 4976,
+      "organism_energy_at_100": 139,
+      "peak_population": 126,
+      "first_peak_tick": 14
+    },
+    {
+      "arm": "block",
+      "seed": 1301,
+      "food_eaten": 5800,
+      "ticks": 100,
+      "basal": 5853,
+      "movement": 1413,
+      "reproduction": 444,
+      "supplied": 5624,
+      "stock_change": -2086,
+      "population_at_100": 1,
+      "births_at_100": 111,
+      "food_at_100": 4944,
+      "organism_energy_at_100": 10,
+      "peak_population": 147,
+      "first_peak_tick": 17
+    },
+    {
+      "arm": "block",
+      "seed": 1302,
+      "food_eaten": 5688,
+      "ticks": 100,
+      "basal": 5749,
+      "movement": 1412,
+      "reproduction": 432,
+      "supplied": 5792,
+      "stock_change": -1801,
+      "population_at_100": 3,
+      "births_at_100": 108,
+      "food_at_100": 5224,
+      "organism_energy_at_100": 15,
+      "peak_population": 141,
+      "first_peak_tick": 17
+    },
+    {
+      "arm": "block",
+      "seed": 1303,
+      "food_eaten": 5900,
+      "ticks": 100,
+      "basal": 5902,
+      "movement": 1444,
+      "reproduction": 452,
+      "supplied": 5868,
+      "stock_change": -1930,
+      "population_at_100": 2,
+      "births_at_100": 113,
+      "food_at_100": 5088,
+      "organism_energy_at_100": 22,
+      "peak_population": 157,
+      "first_peak_tick": 17
+    },
+    {
+      "arm": "block",
+      "seed": 1304,
+      "food_eaten": 5780,
+      "ticks": 100,
+      "basal": 5856,
+      "movement": 1358,
+      "reproduction": 468,
+      "supplied": 5960,
+      "stock_change": -1722,
+      "population_at_100": 1,
+      "births_at_100": 117,
+      "food_at_100": 5300,
+      "organism_energy_at_100": 18,
+      "peak_population": 148,
+      "first_peak_tick": 17
+    },
+    {
+      "arm": "block",
+      "seed": 1305,
+      "food_eaten": 5728,
+      "ticks": 100,
+      "basal": 5766,
+      "movement": 1414,
+      "reproduction": 456,
+      "supplied": 6136,
+      "stock_change": -1500,
+      "population_at_100": 1,
+      "births_at_100": 114,
+      "food_at_100": 5528,
+      "organism_energy_at_100": 12,
+      "peak_population": 167,
+      "first_peak_tick": 17
+    },
+    {
+      "arm": "block",
+      "seed": 1306,
+      "food_eaten": 5820,
+      "ticks": 100,
+      "basal": 5799,
+      "movement": 1392,
+      "reproduction": 476,
+      "supplied": 5848,
+      "stock_change": -1819,
+      "population_at_100": 3,
+      "births_at_100": 119,
+      "food_at_100": 5148,
+      "organism_energy_at_100": 73,
+      "peak_population": 143,
+      "first_peak_tick": 18
+    },
+    {
+      "arm": "block",
+      "seed": 1307,
+      "food_eaten": 5712,
+      "ticks": 100,
+      "basal": 5756,
+      "movement": 1366,
+      "reproduction": 460,
+      "supplied": 5652,
+      "stock_change": -1930,
+      "population_at_100": 2,
+      "births_at_100": 115,
+      "food_at_100": 5060,
+      "organism_energy_at_100": 50,
+      "peak_population": 145,
+      "first_peak_tick": 17
+    },
+    {
+      "arm": "block",
+      "seed": 1308,
+      "food_eaten": 5944,
+      "ticks": 100,
+      "basal": 5966,
+      "movement": 1439,
+      "reproduction": 432,
+      "supplied": 6040,
+      "stock_change": -1797,
+      "population_at_100": 3,
+      "births_at_100": 108,
+      "food_at_100": 5216,
+      "organism_energy_at_100": 27,
+      "peak_population": 123,
+      "first_peak_tick": 17
+    },
+    {
+      "arm": "block",
+      "seed": 1309,
+      "food_eaten": 6012,
+      "ticks": 100,
+      "basal": 5977,
+      "movement": 1459,
+      "reproduction": 456,
+      "supplied": 5684,
+      "stock_change": -2208,
+      "population_at_100": 3,
+      "births_at_100": 114,
+      "food_at_100": 4792,
+      "organism_energy_at_100": 40,
+      "peak_population": 146,
+      "first_peak_tick": 17
+    }
+  ],
+  "groups": [
+    {
+      "arm": "uniform",
+      "food_eaten": [
+        3893,
+        5134
+      ],
+      "ticks": [
+        100,
+        100
+      ],
+      "basal": [
+        4602,
+        5430
+      ],
+      "movement": [
+        1081,
+        1325
+      ],
+      "reproduction": [
+        40,
+        68
+      ],
+      "supplied": [
+        5815,
+        6380
+      ],
+      "stock_change": [
+        -764,
+        209
+      ],
+      "population_at_100": [
+        6,
+        16
+      ],
+      "births_at_100": [
+        10,
+        17
+      ],
+      "food_at_100": [
+        6056,
+        7167
+      ],
+      "organism_energy_at_100": [
+        82,
+        247
+      ],
+      "peak_population": [
+        81,
+        90
+      ],
+      "first_peak_tick": [
+        6,
+        27
+      ]
+    },
+    {
+      "arm": "dispersed",
+      "food_eaten": [
+        3048,
+        4008
+      ],
+      "ticks": [
+        100,
+        100
+      ],
+      "basal": [
+        3753,
+        4471
+      ],
+      "movement": [
+        934,
+        1069
+      ],
+      "reproduction": [
+        132,
+        208
+      ],
+      "supplied": [
+        5048,
+        5712
+      ],
+      "stock_change": [
+        -408,
+        448
+      ],
+      "population_at_100": [
+        1,
+        13
+      ],
+      "births_at_100": [
+        33,
+        52
+      ],
+      "food_at_100": [
+        6452,
+        7444
+      ],
+      "organism_energy_at_100": [
+        18,
+        274
+      ],
+      "peak_population": [
+        98,
+        111
+      ],
+      "first_peak_tick": [
+        9,
+        16
+      ]
+    },
+    {
+      "arm": "block",
+      "food_eaten": [
+        5688,
+        6012
+      ],
+      "ticks": [
+        100,
+        100
+      ],
+      "basal": [
+        5673,
+        5977
+      ],
+      "movement": [
+        1358,
+        1459
+      ],
+      "reproduction": [
+        432,
+        476
+      ],
+      "supplied": [
+        5604,
+        6136
+      ],
+      "stock_change": [
+        -2208,
+        -1500
+      ],
+      "population_at_100": [
+        1,
+        8
+      ],
+      "births_at_100": [
+        108,
+        119
+      ],
+      "food_at_100": [
+        4792,
+        5528
+      ],
+      "organism_energy_at_100": [
+        10,
+        139
+      ],
+      "peak_population": [
+        123,
+        167
+      ],
+      "first_peak_tick": [
+        14,
+        18
+      ]
+    }
+  ],
+  "input_sha256": {
+    "uniform-seed-1300.csv": "a6338f91b4ada6c280e462028a423e80e3987b491cd0ccdf621e40e93cc9cde8",
+    "uniform-seed-1301.csv": "49c91ab02c724cb5bea001aed063a5b681b98b2b4d995b21d0da17f86f62797f",
+    "uniform-seed-1302.csv": "ec3ecf1c6ba1d48d7bcd137a1a7cd18fee164adc20378f6d86d02d54a009afbd",
+    "uniform-seed-1303.csv": "80603aac5a579bd40754456c7f2b495e52fdd53598b2a89c728c567d28f736ca",
+    "uniform-seed-1304.csv": "48f59698298f2ffa2a2ff684263bbaa056331f2b4e82730a81abf82b03f1638b",
+    "uniform-seed-1305.csv": "973678bd1e2bd15487ebd0655efd05f853c654ee16e0294dcecdff448eadc128",
+    "uniform-seed-1306.csv": "74a441d1dcbad1a2702e0ae0ad31022e5e16f569db5e6937ced415f1d5522d8e",
+    "uniform-seed-1307.csv": "b7781e8ac576187cd44a11d5569009c2c87d4002e4a65ef134ab1153c9d281cf",
+    "uniform-seed-1308.csv": "aeffc655c21cff60efb986af382d455e32c55fb44510e5c34d5bf257727e7a56",
+    "uniform-seed-1309.csv": "314a438e3fec1e99080485bda03e273dbe862604135ce2aae582ba1e6645ca3a",
+    "dispersed-seed-1300.csv": "6d67ddba3c7058ef65b81d063cfdc678f1040698611c758daa39372479ad5e2c",
+    "dispersed-seed-1301.csv": "55e22cea718afa406984b5f9180255031a864a328a274394805ae2f37431cb85",
+    "dispersed-seed-1302.csv": "94aa9fd5bc8338e8a480769b5fc8a81097ff2747b5db814cad8eda8eda74d0d2",
+    "dispersed-seed-1303.csv": "3a143f96b534003faea2c06cf040ea2e27687dc9e23f29afd0b11dd3dac13e1a",
+    "dispersed-seed-1304.csv": "03607d07115b4c64bf81dd10c4a8ff01bff701fed943d2b34e86fb00d448acb3",
+    "dispersed-seed-1305.csv": "ca0309cb682decc4f03f932d15781311d8a6ef4e6dba8ca481cb0aa967fe463a",
+    "dispersed-seed-1306.csv": "31b11926c01d41c95ddf560407025fe43b84e8233a2a0e48832d06a67a08ab55",
+    "dispersed-seed-1307.csv": "4d2b3b6fb92af00c1b87846df26953d74803b1e4f88a4de6ff11f0c149698d4c",
+    "dispersed-seed-1308.csv": "a036e5b63306ec8f586fa30c84739205e0e6663eb1e5453214da5b91f32d06b1",
+    "dispersed-seed-1309.csv": "7a57ae53023158d89dbcab5c9a923659c7390e5e1e5cbce4572e8a876b9e5ec2",
+    "block-seed-1300.csv": "8e8c49fceb866468ca32602622225c023d6644c31a2f3176d999c05b5c34f02f",
+    "block-seed-1301.csv": "bba84569cad7163a9ecc510fd7f1664d014b1546a8006cf3545d7c6bd281683b",
+    "block-seed-1302.csv": "7adcff1e6f178125faf4d214a3f08a328b9b0484615ae51c076ff5460e1acc85",
+    "block-seed-1303.csv": "24f10d23d1a6fb1ac95ca7da8b06b760f007b52d6fa774f93ad809c0a8588e0b",
+    "block-seed-1304.csv": "000fc60fda1892eff34dded134ba677e8c58c110a196f1ef4d8ef5b3e541d2e9",
+    "block-seed-1305.csv": "f8ce636c323359e45baf3dcfd25f8efabe248230f3d76971cd4c9b0b79a0734f",
+    "block-seed-1306.csv": "a96c592e4d2096c37893ed0e5175099899c24c0da63915184abc2c1f9bfc3f9d",
+    "block-seed-1307.csv": "9f2396a95af99ba27b0c57c570c64e7c52c568f8040527d39d390933010974bd",
+    "block-seed-1308.csv": "cb68b18e8ac87aa8c4453ac88d0fcb3b25e579f096ad7cc021b6b4835f1f1d82",
+    "block-seed-1309.csv": "6648e0ec29c42c198103ced176ae4bce5454cda4d5d3767d652da08abf6fb6fc"
+  },
+  "metric_rows_hash_covered": 300030,
+  "uptake_transitions_checked": 3000,
+  "verification_sha256": "53522c6e8fff00aa24532636325afb21d8c0af083e1142a11f2fe272aed2b0c7",
+  "script_sha256": "1db2694c6d613428f3ed664097c9a92c35ce41d8d546b14cf31aca2ab62212c2",
+  "budget_helper_sha256": "efd3492963d54a20e2a35c343e6bbbbe89a54edc965b5c00827611de808d78db"
+}

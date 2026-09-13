@@ -129,7 +129,65 @@ python -I -S scripts/analyze_v0_food_access.py --output data/new-food-access
 ```
 
 This adds no world executions. It postdates the fixed sixteen-campaign archive;
-that archive retains the initial maps needed by this later script. A useful next
-mechanism experiment would measure actual early food uptake and occupied-site
-congestion, or manipulate spatial access while controlling initial exposure.
-The present analysis motivates such a comparison rather than settling it.
+that archive retains the initial maps needed by this later script. The aggregate uptake analysis below adds another constraint on explanations.
+Individual uptake, occupied-site congestion, or a manipulation of spatial access
+with controlled initial exposure would still require additional observations or
+experiments.
+
+## Retrospective early energy accounting
+
+The block worlds did **not** consume less food in total during the first hundred
+ticks. Every block world consumed more than every uniform or dispersed world in
+that window. Block worlds also had more births and higher early population peaks,
+yet all were down to one to eight individuals at tick 100 and later went extinct.
+Thus the initial-distance result above cannot be translated into a claim of lower
+aggregate early feeding. Food access, population expansion and persistence are
+different observations.
+
+All entries below are minima–maxima across ten worlds per arm. This window is a
+retrospective choice shared by all thirty worlds, not a preregistered endpoint;
+all thirty are still alive at tick 100. The population peak includes tick zero.
+
+| Quantity through tick 100 | Uniform | Dispersed | Block |
+| --- | ---: | ---: | ---: |
+| Food energy consumed | 3,893–5,134 | 3,048–4,008 | 5,688–6,012 |
+| Births | 10–17 | 33–52 | 108–119 |
+| Peak population | 81–90 | 98–111 | 123–167 |
+| Population at 100 | 6–16 | 1–13 | 1–8 |
+| Basal energy dissipated | 4,602–5,430 | 3,753–4,471 | 5,673–5,977 |
+| Movement energy dissipated | 1,081–1,325 | 934–1,069 | 1,358–1,459 |
+| Direct birth energy dissipated | 40–68 | 132–208 | 432–476 |
+| Food energy remaining at 100 | 6,056–7,167 | 6,452–7,444 | 4,792–5,528 |
+
+Food is not globally exhausted at tick 100 in any world. This does not prove that
+any particular surviving individual can reach it, or identify why particular
+individuals died. Aggregate consumption also depends on how many individuals are
+alive and for how long. Neither a raw total nor a per-capita normalization would
+by itself isolate a causal benefit of the food layout.
+
+For V0, only replenishment adds food and feeding removes it. Therefore each tick's
+food uptake is supplied-energy increase minus food-stock increase. Independently,
+that equals organism-energy increase plus dissipated-energy increase. The script
+checks this equality and the per-tick feeding bound for all 3,000 early transitions.
+Basal cost is exactly one per pre-tick living individual; direct birth cost is four
+per birth; movement dissipation is the remaining dissipation. These are accounting
+identities under the stated V0 rules, not new observations of individual actions.
+
+[Every run's budget](results/geometry-budget-016.csv) ·
+[Ranges and provenance](results/geometry-budget-016.json).
+The script hash-checks all thirty complete metric files and metadata against the
+existing verifier, then reuses the established energy-budget helper. A test counts
+food removals directly during an instrumented 100-tick world, verifies agreement
+with reconstructed uptake and confirms that snapshots and random state match an
+uninstrumented run. Invalid uptake/accounting cases are rejected. All 113 local
+tests pass at this checkpoint.
+
+```sh
+python -S scripts/analyze_v0_geometry_budget.py --output data/new-geometry-budget
+```
+
+The standard-library script imports its sibling budget helper through the normal
+script path. No new formal world executions are added, and the fixed sixteen-round
+archive is unchanged. A reproduction-threshold or spatial-access intervention
+could test candidate explanations, but these retrospective totals do not establish
+that reproduction, crowding or resource distance is the unique cause of collapse.

@@ -1724,3 +1724,22 @@ Three distance tests include independent toroidal Manhattan comparisons with
 single/multiple sources and narrow worlds, all-food maps and invalid/missing food.
 All 111 local tests pass. Updated campaign report; fixed sixteen-campaign archive
 remains unchanged and formal inventory totals do not increase.
+
+## 2026-09-14 — Autonomous cycle 116
+
+Extended the campaign-016 interpretation with first-100-tick energy accounting.
+Hash-checked thirty full metric files and metadata against the existing verifier,
+then reconstructed food uptake over all 3,000 early transitions and reused the
+established basal/birth/movement accounting helper. No new formal runs.
+
+Block worlds consumed 5,688–6,012 food units, above all uniform (3,893–5,134) and
+dispersed (3,048–4,008) worlds, while producing 108–119 births and peaking at
+123–167 individuals before falling to 1–8 at tick 100. Substantial food remains.
+This constrains the previous spatial-distance observation: greater initial
+distance is not evidence of lower total early consumption. Added explicit limits
+on causal explanations and on confusing global food stock with individual access.
+
+A direct food-removal observer test agrees with reconstructed uptake while
+preserving snapshots and RNG relative to an uninstrumented reference; invalid
+accounting cases fail. All 113 local tests pass. Saved every run and provenance,
+updated the report, and preserved fixed archive scope and formal inventory totals.
