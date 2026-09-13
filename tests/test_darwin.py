@@ -74,6 +74,41 @@ class DarwinTests(unittest.TestCase):
         self.assertIsNone(world.snapshot()["mean_genome"])
         self.assertEqual(world.snapshot()["births"], 0)
 
+    def test_zero_energy_death_precedes_feeding_even_on_food(self):
+        # Both death paths must preserve the published charge-before-feed order.
+        for energy, genome in ((1, 0), (2, 1000)):
+            with self.subTest(initial_energy=energy, genome=genome):
+                world = World(Config(width=3, height=3, initial_population=1,
+                                     initial_energy=energy, initial_food=8,
+                                     regrowth_probability=0, basal_cost=1,
+                                     movement_cost=1))
+                organism = next(iter(world.living.values()))
+                organism.genome = genome
+                food_before = world.food.copy()
+                position_before = organism.position
+                world.step()
+                world.check_invariants()
+                self.assertFalse(world.living)
+                self.assertEqual(organism.death_tick, 1)
+                self.assertEqual(organism.energy, 0)
+                self.assertEqual(organism.position, position_before)
+                self.assertEqual(world.food, food_before)
+                self.assertEqual(world.dissipated_energy, energy)
+
+    def test_positive_energy_after_charges_can_feed(self):
+        world = World(Config(width=3, height=3, initial_population=1,
+                             initial_energy=3, initial_food=8,
+                             regrowth_probability=0, basal_cost=1, movement_cost=1))
+        organism = next(iter(world.living.values()))
+        organism.genome = 1000
+        world.step()
+        world.check_invariants()
+        self.assertIn(organism.id, world.living)
+        self.assertIsNone(organism.death_tick)
+        self.assertEqual(organism.energy, 9)
+        self.assertEqual(sum(world.food), 64)
+        self.assertEqual(world.dissipated_energy, 2)
+
     def test_torus_and_unique_neighbors(self):
         world = World(Config(width=3, height=3, initial_population=0))
         self.assertEqual(world.neighbors(0), [1, 2, 3, 6])
