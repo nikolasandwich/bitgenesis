@@ -41,6 +41,16 @@ rounded for display. They are not percentages, birth counts or fitness scores.
 | No mutation | 3 | 291.50 | 152.04 | 0.00 | 443.54 |
 | No mutation | 4 | 416.06 | 105.10 | 0.00 | 521.16 |
 
+![All ten mean-trait decompositions, with positive and negative contributions stacked separately and diamonds marking their signed sums.](figures/trait-change-001.png)
+
+Both panels use the same horizontal scale. A negative death term in mutation
+seed 1 is included to the left of zero. The bars represent separate signed
+contributions, not fractions of the net change; positive totals may exceed the
+net change when another term offsets them. No uncertainty interval is implied.
+[Vector figure](figures/trait-change-001.svg) and [plotted values/hashes](figures/trait-change-001.json)
+are retained. Regenerate with `python scripts/plot_v0_trait_change.py --output data/my-trait-change-figure`
+after installing the optional analysis dependencies.
+
 Every mutation run has positive net change (415.56–517.91) but a negative cumulative
 transmitted-mutation contribution (-142.47 to -77.35). All birth-sorting contributions
 are positive. Death sorting is positive in four mutation runs and negative in seed 1;

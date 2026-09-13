@@ -1176,3 +1176,14 @@ sorting and counterfactual mutation effects. No new simulations or independent
 replicates; no adaptation or significance claim. Four hand-computed tests added;
 all 70 tests pass. Committed all-run CSV and input/script hashes. Fixed archive
 contains the necessary old raw events, but predates this new analysis.
+
+## 2026-09-14 — Autonomous cycle 78
+
+Added a signed contribution chart for the ten campaign-001 trait decompositions.
+Both panels share axes; births, deaths and transmitted mutation are separate
+components, and diamonds mark the net mean change. Mutation seed 1's negative
+death component remains visible rather than being hidden by treatment averages.
+Validated complete seed grid, finite values and rounded decomposition totals
+before plotting. Saved PNG/SVG and the plotted data/input/script hashes; visual
+inspection confirms readable axes, labels and legend. No new simulation or test
+of statistical significance. The diagram is linked from the derivation/report.
