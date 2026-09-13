@@ -1216,3 +1216,16 @@ boundary semantics. Report distinguishes whole-run direction from late trends,
 trait fixation from demographic arrest, and repeated windows from independent
 replicates. No new simulation, stationarity or equilibrium claim. Existing
 73-test analysis-source CI 34785743212 passed.
+
+## 2026-09-14 — Autonomous cycle 81
+
+Consolidated the Chinese review entry instead of appending another status block.
+Removed stale contradictory claims calling the nine-campaign draft "latest" and
+corrected main README's eleven-campaign label against the inventory (thirteen,
+550 executions, 5740000 ticks). Historical archives remain documented in the
+full acceptance checkpoint and unchanged on disk/GitHub.
+
+The shorter guide distinguishes the fixed 64-test archive from newer main
+validation/analyses, gives an explicit review path and three evidence/limitation
+comparisons, and links every deeper report. Confirmed all six jobs of 73-test
+source CI 34785743212 passed. Inventory recount agrees. V1 remains design only.
