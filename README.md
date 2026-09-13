@@ -62,6 +62,8 @@ Research reports: [initial selection](docs/research/campaign-001.md) and
 limits as well as successful reproduction; no intelligence claim is made.
 Also see [resource regimes and demographic arrest](docs/research/campaign-004.md)
 and the [Chinese review guide](docs/research/REVIEW.zh-CN.md).
+The latest [world-size experiment](docs/research/campaign-005.md) includes
+individual-seed trajectory figures and qualifies how founder loss depends on scale.
 
 ## Repository layout
 

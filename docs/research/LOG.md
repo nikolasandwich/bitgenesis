@@ -128,3 +128,25 @@ phenotype-neutral founder controls, 30 runs / 300,000 ticks. This asks whether
 founder collapse in small worlds is a finite-horizon demographic effect, without
 treating founder labels as species. Existing review bundle remains a frozen
 four-campaign checkpoint; do not overwrite it with unfinished experiments.
+
+## 2026-09-14 — Autonomous cycle 6
+
+Campaign 005 completed all 30 runs / 300,000 ticks without extinction or invariant
+failures. Small and medium worlds reached one founder under both treatments;
+64×64 worlds retained 1–3 founders with evolving traits and three in all neutral
+runs. Absolute counts and fractions tell different stories; report both.
+Neutral and evolving conditions also differ in realized population size, so their
+time differences are not a clean estimate of selection strength.
+
+Total formal experiments: 240 runs / 990,000 ticks. Added a six-panel trajectory
+figure with all seeds and pointwise medians, inspected visually. Optional Matplotlib
+analysis dependencies do not change the dependency-free engine. Figure provenance
+records library version, script hash and every input/output hash.
+
+Added atomic JSON replacement to the main run recorder; failed replacement tests
+preserve the preceding valid checkpoint. Twenty-five local tests pass. Earlier
+campaign scripts remain available exactly at their recorded commits; a saved
+`running` metadata flag must never substitute for a live process check.
+
+Next question: calibrate the bounded mutation kernel separately from selection,
+so clamping bias is explicit rather than an untested explanation of high traits.
