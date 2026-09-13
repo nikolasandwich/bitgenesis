@@ -9,13 +9,13 @@ It is included in the current page, but not in the eleven-campaign fixed archive
 The newest [genome-coverage report](campaign-013.md) adds ten verified 50000-tick
 worlds; it is included in the thirteen-campaign page and newest archive.
 The [frequency-cost report](campaign-014.md) adds 160 independently verified worlds;
-it is included in the fourteen-campaign page, but not the uploaded archive.
+it is included in the fourteen-campaign page and newest uploaded archive.
 Visual review entry `data/review-v0-14.html` covers all fourteen campaigns, including
 the allocation trajectories, threshold/cost survival curves, longitudinal follow-up
 and cumulative versus living genome coverage, plus the complete frequency-cost grid.
 It distinguishes executions from independent samples and identifies replayed prefixes.
 Earlier pages remain preserved. The uploaded nine-campaign archive excludes 010–011.
-Newest local archive: `data/bitgenesis-v0-fourteen-campaigns.zip`, source
+Newest uploaded archive: `data/bitgenesis-v0-fourteen-campaigns.zip`, source
 `6d98fb94dee3d07b09e5cd2edd1b9f383dd06c52`, 1044 payload files / 96,447,134 bytes.
 SHA-256: `0501fd0c6cf4d947ee26fb3fc107b592adf5f9c66d854531b7ef364ff6b6240a`.
 It contains all fourteen campaigns, the fourteen-campaign page and the newer
@@ -23,9 +23,14 @@ trait-change analyses and checkpoint validation code. Packaging reran eleven
 full-run audits and the selected 005/009–014 metric checks. Standalone expected-hash
 verification passed: 13 HTML pages and eleven local targets. Source
 [CI 34786711417](https://github.com/nikolasandwich/bitgenesis/actions/runs/34786711417) passed.
-This new local snapshot has not yet been uploaded; the current download follows.
+The [fourteen-campaign draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-5f2b766924cc208bb796)
+contains the archive and checksum; GitHub asset size and digest match the local copy.
+An extracted copy's archived 014 verifier ran under Python 3.12 with `-I -S` and
+reproduced the complete stored verification JSON (480160 rows, all 160 outcomes,
+input/script/metadata hashes). This reused an existing interpreter, not a fresh
+installation or new simulation. Earlier draft assets remain unchanged.
 
-Newest uploaded archive: `data/bitgenesis-v0-thirteen-campaigns.zip`, source
+Previous uploaded archive: `data/bitgenesis-v0-thirteen-campaigns.zip`, source
 `1fc1c30dfcb6bcccbc929c0ba75ea5957272bc60`, 853 payload files / 86,150,042 bytes.
 SHA-256: `ed6e90acda91f1b8e74f88acca5f246c03ee308c627cb611c3e2d180cd1383f2`.
 It adds campaign 013 raw birth catalogs and metrics, the thirteen-campaign page,

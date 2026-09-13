@@ -1332,3 +1332,17 @@ Source CI 34786711417 passed. The packaging process completed normally.
 Recorded local snapshot scope and checksum. Thirteen-campaign uploaded draft
 remains unchanged. Next: independent reanalysis of archived 014 inputs from an
 extracted copy before uploading this new draft. No new simulation.
+
+## 2026-09-14 — Autonomous cycle 89
+
+Revalidated the fourteen-campaign archive hash, extracted a new copy, and ran
+its archived 014 verifier using Python 3.12 -I -S. All 480160 metric rows passed;
+the complete report equals its archived reference, including all 160 outcomes
+and raw/metadata/script hashes. Existing interpreter, no new installation or
+simulation. The reanalysis output is retained under portable-recomputed-014.
+
+Uploaded archive/checksum to draft prerelease v0.0.1-preview.6, release 388054596,
+targeting 6d98fb9. GitHub reports both assets uploaded with matching archive
+96447134 bytes and SHA-256 0501fd0c6cf4d947ee26fb3fc107b592adf5f9c66d854531b7ef364ff6b6240a.
+Draft remains unpublished. Updated current download guides and snapshot/test
+scope; all earlier archives are unchanged.

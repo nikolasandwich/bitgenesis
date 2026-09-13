@@ -6,20 +6,20 @@
 
 ## 先打开哪里
 
-下载[十三轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-507ea861ad4cf6ec9e02)，
-完整解压 `bitgenesis-v0-thirteen-campaigns.zip`，从 `START-HERE.txt` 开始，
-再打开 `bitgenesis/data/review-v0-13.html`。本地最新入口为 `data/review-v0-14.html`，比下载包多第十四轮结果。
+下载[十四轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-5f2b766924cc208bb796)，
+完整解压 `bitgenesis-v0-fourteen-campaigns.zip`，从 `START-HERE.txt` 开始，
+再打开 `bitgenesis/data/review-v0-14.html`。本地入口为 `data/review-v0-14.html`。
 保留目录结构，页面中的世界回放、谱系与图表依赖相邻文件。
 草稿尚未正式发布，需要有权限的 GitHub 账号查看。
 
-归档约 86 MB，含 853 个文件，固定源码 `1fc1c30`，包含十三轮原始记录和当时的 64 项测试。
-上传后的大小、校验值与本地一致；解压副本重算第十三轮，744,901 条出生记录和
-500,010 行指标的完整验证结果与保存报告一致。整包校验值及历史归档见[完整检查点](ACCEPTANCE.md)。
+归档约 96 MB，含 1,044 个文件，固定源码 `6d98fb9`，包含十四轮原始记录和当时的 78 项测试。
+上传后的大小、校验值与本地一致；解压副本重算第十四轮，480,160 行指标的完整验证报告
+与保存版本一致，包括全部 160 个世界的结果和文件校验值。
+整包校验值及历史归档见[完整检查点](ACCEPTANCE.md)。
 
-**main 比归档更新。** [第十四轮](campaign-014.md)竞争对照已加入本地十四轮页面，尚未加入固定归档。
-后续断点校验、性状变化分解、突变参考和分时段分析在 main 中，尚未加入固定归档；
-这些事后分析也尚未进入 HTML 页面。归档不会随提交自动更新。
-复查旧实验使用其保存版本；验收最新代码使用 main。
+归档已包含断点校验、性状变化分解、突变参考和分时段分析的源码与报告；
+这些事后分析尚未进入 HTML 页面，可从报告链接查看。
+**归档不会随 main 的后续提交自动更新。** 复查旧实验使用其保存版本，验收最新代码使用 main。
 
 ## 最值得看的三个结果
 
@@ -41,8 +41,8 @@
 4. 如需长时间运行，按[断点指南](../design/checkpoints.md)保存并继续世界状态。
    断点恢复不续写旧回放或指标 CSV；需要保持兼容的引擎源码与 Python 主次版本。
 
-最新已核验测试源码 `707daec` 的 73 项测试在 Windows/Linux × Python 3.12/3.13/3.14
-六种组合通过（[CI 34785743212](https://github.com/nikolasandwich/bitgenesis/actions/runs/34785743212)）。
+最新已核验测试源码 `6d98fb9` 的 78 项测试在 Windows/Linux × Python 3.12/3.13/3.14
+六种组合通过（[CI 34786711417](https://github.com/nikolasandwich/bitgenesis/actions/runs/34786711417)）。
 测试覆盖能量收支、空间约束、遗传、记录核对和精确恢复等契约；通过测试不证明生物学真实性。
 冻结重放只对已检查的运行与环境提供证据，不保证所有版本任意运行都逐位一致。
 
