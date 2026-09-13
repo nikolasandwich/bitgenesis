@@ -1,13 +1,26 @@
 import csv
+from dataclasses import asdict
 from pathlib import Path
 import tempfile
 import unittest
 
 from bitgenesis.v0.engine import Config, World
-from scripts.summarize_v0_long_horizon import verify_run
+from scripts.summarize_v0_long_horizon import validate_fixed_parameters, verify_run
 
 
 class LongHorizonVerificationTests(unittest.TestCase):
+    def test_fixed_protocol_parameters_are_checked_independently_of_counts(self):
+        metadata = {"rules_version": "v0-darwin-1", "regrowth_probability": 15,
+                    "founder_trait": 250, "mutation_probability": 0, "baseline_config": asdict(Config())}
+        validate_fixed_parameters(metadata)
+        for key, value in (("movement_cost", 4), ("width", 64), ("basal_cost", True)):
+            with self.subTest(key=key):
+                changed = {**metadata, "baseline_config": {**metadata["baseline_config"], key: value}}
+                with self.assertRaisesRegex(ValueError, "fixed world parameter"):
+                    validate_fixed_parameters(changed)
+        with self.assertRaisesRegex(ValueError, "protocol parameter"):
+            validate_fixed_parameters({**metadata, "regrowth_probability": 40})
+
     def setUp(self):
         self.directory = tempfile.TemporaryDirectory()
         self.addCleanup(self.directory.cleanup)

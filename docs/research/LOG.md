@@ -682,3 +682,13 @@ fixture, altered reference, post-prefix intermediate corruption and truncated en
 All 52 local tests passed. An already completed 100000-tick food-160/900 run also
 passed the streaming check against its original prefix. The remaining campaign
 process is still live; this is not full-cohort acceptance or a survival conclusion.
+
+## 2026-09-14 — Autonomous cycle 41 (running)
+
+Strengthened the pending long-horizon verifier's protocol checks: fixed world size,
+population, capacity, regrowth amount, feeding and energy costs must match the
+declared design, alongside rules version, mutation setting and fixed trait.
+Counts and accounting alone could otherwise accept metadata describing a different
+experiment. A regression test rejects changed movement cost, dimensions, resource
+probability and a boolean disguised as an integer parameter. All 53 local tests
+passed. Campaign 011's original process remains live; no runner or engine change.

@@ -57,6 +57,20 @@ def file_hash(path):
         return hashlib.file_digest(stream, "sha256").hexdigest()
 
 
+def validate_fixed_parameters(metadata):
+    if metadata.get("rules_version") != "v0-darwin-1":
+        raise ValueError("Unexpected rules version")
+    for key, expected in {"regrowth_probability": 15, "founder_trait": 250, "mutation_probability": 0}.items():
+        if type(metadata.get(key)) is not int or metadata[key] != expected:
+            raise ValueError(f"Unexpected protocol parameter: {key}")
+    config = metadata.get("baseline_config", {})
+    for key, expected in {"width": 32, "height": 32, "initial_population": 80,
+                          "food_capacity": 24, "regrowth_amount": 4, "feeding_rate": 8,
+                          "basal_cost": 1, "movement_cost": 1, "birth_cost": 4}.items():
+        if type(config.get(key)) is not int or config[key] != expected:
+            raise ValueError(f"Unexpected fixed world parameter: {key}")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", type=Path, default=Path("data/campaign-011"))
@@ -64,6 +78,7 @@ def main():
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     metadata = json.loads((args.input / "metadata.json").read_text())
+    validate_fixed_parameters(metadata)
     treatments = [["food-160", 5, 24, 160], ["stored-160", 0, 88, 160]]
     if (metadata["status"] != "complete" or metadata["protocol"] != "campaign-011-long-horizon-1"
             or metadata["steps"] != 100000 or metadata["reference_prefix_ticks"] != 10000
