@@ -81,3 +81,24 @@ text in memory. A [retention benchmark](../research/retention-benchmark.md) meas
 smaller serialization peaks while preserving checkpoint bytes. Full historical
 state and checksum preparation still allocate memory; consult the measured scope
 before choosing long-run budgets.
+
+## Historical-file compatibility check
+
+After strengthening lineage and pending-event validation, source `043fad3`
+loaded all three preserved engineering checkpoints from the earlier recovery
+exercise (ticks 1000, 2500, 2500) under Python 3.12.10. Resuming the historical
+1000-tick state for another 1500 ticks produced a complete 2219615-byte file
+identical to both preserved 2500-tick states, including RNG and pending events.
+The old files were not rewritten. [Recorded hashes and scope](../research/results/checkpoint-compatibility-001.json).
+
+This is evidence for those compatible files, not a promise that incompatible
+engine revisions or Python minor versions will load. These 1500 replay ticks
+are an engineering check outside the formal campaign totals.
+
+```sh
+bitgenesis checkpoint --resume data/checkpoint-validation/first/state.json --steps 1500 --interval 500 --output data/my-historical-resume
+```
+
+The preserved local checkpoint inputs are not included in the thirteen-campaign
+review archive. The automated test suite provides separately generated recovery
+fixtures when those local historical files are unavailable.

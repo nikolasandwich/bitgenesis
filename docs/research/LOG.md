@@ -1229,3 +1229,17 @@ The shorter guide distinguishes the fixed 64-test archive from newer main
 validation/analyses, gives an explicit review path and three evidence/limitation
 comparisons, and links every deeper report. Confirmed all six jobs of 73-test
 source CI 34785743212 passed. Inventory recount agrees. V1 remains design only.
+
+## 2026-09-14 — Autonomous cycle 82
+
+Loaded three actual historical checkpoints with the strengthened current loader:
+tick 1000 (1641 lineage records, 3199 events), and two tick-2500 files (3860
+records, 7639 events each). Same engine hash and Python 3.12 minor as required.
+Resumed the preserved tick-1000 state through the CLI for 1500 more ticks into a
+new directory. Its complete 2219615-byte result is byte-identical to both older
+tick-2500 files, SHA-256 fb3b3bd325df3304d5337ae8f2fc55d658799af5b2646225390c1a0fa0779d41.
+
+Recorded source/runtime and all input/result hashes. No historical file modified;
+engineering replay only, outside formal counts. This validates acceptance of real
+compatible old records alongside rejection of malformed ones, not unrestricted
+cross-version compatibility. Documented the local-input and archive limits.

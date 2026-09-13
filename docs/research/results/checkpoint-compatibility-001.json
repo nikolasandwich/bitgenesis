@@ -1,0 +1,29 @@
+{
+  "analysis": "historical-checkpoint-compatibility-1",
+  "source_commit": "043fad352bb05d24e0a0c386f505cc505ad5c4d8",
+  "python": "3.12.10",
+  "scope": "Three preserved compatible checkpoints loaded; 1500 additional engineering replay ticks from the historical tick-1000 state reproduce both preserved tick-2500 files byte for byte. No new formal campaign or general cross-version guarantee.",
+  "files": {
+    "first": {
+      "sha256": "a7130dd3d98bcad9e0a64d77a87b49e1d4c8ce44fcca8dd2bd7192976fa96bac",
+      "bytes": 942568,
+      "tick": 1000
+    },
+    "resumed": {
+      "sha256": "fb3b3bd325df3304d5337ae8f2fc55d658799af5b2646225390c1a0fa0779d41",
+      "bytes": 2219615,
+      "tick": 2500
+    },
+    "continuous": {
+      "sha256": "fb3b3bd325df3304d5337ae8f2fc55d658799af5b2646225390c1a0fa0779d41",
+      "bytes": 2219615,
+      "tick": 2500
+    },
+    "current_resumed": {
+      "sha256": "fb3b3bd325df3304d5337ae8f2fc55d658799af5b2646225390c1a0fa0779d41",
+      "bytes": 2219615,
+      "tick": 2500
+    }
+  },
+  "byte_identical": true
+}
