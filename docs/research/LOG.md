@@ -527,3 +527,14 @@ basal/movement/reproduction accounting helper; its three contract tests passed.
 All-seed budgets and input/helper/script hashes are tracked. The report avoids
 equating world food totals with individual access or treating the observed early
 burst as an isolated causal explanation. No new simulations or changes to rules.
+
+## 2026-09-14 — Autonomous cycle 29
+
+Added a reproducible PNG/SVG figure of all thirty campaign-009 early population
+trajectories, with per-arm means, shared axes and explicit initial energy labels.
+It preserves seed variation and distinguishes the low-energy baseline from the
+equal-energy contrast. Raw trajectory hashes and plotting source hash accompany
+the figure. Visual inspection found an initial shared-axis clipping issue; fixed
+the common upper bound using the maximum across all traces, regenerated and
+visually verified the complete peaks and readable labels before committing.
+The figure is an exploratory first-100-tick view; no new simulations were added.

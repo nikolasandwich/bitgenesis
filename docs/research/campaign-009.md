@@ -56,6 +56,16 @@ All ten seeds per arm remain included. Values below are group means of per-world
 quantities; peak time is the mean of each world's first maximum, not the peak of
 an averaged population curve.
 
+![All thirty early population trajectories, with common axes](figures/campaign-009-early.png)
+
+Thin lines show individual worlds and thick lines show arm means. The low arm
+has less initial energy; only food and stored are equal-energy treatments.
+The figure covers the exploratory early window, not the full survival horizon.
+[Vector figure](figures/campaign-009-early.svg) and
+[input hashes](figures/campaign-009-early.json) are available. Regenerate with
+`python scripts/plot_v0_energy_allocation.py --output data/new-allocation-figure`
+after installing the optional analysis dependencies (`pip install -e ".[analysis]"`).
+
 | Quantity, first 100 ticks | low | food | stored |
 | --- | ---: | ---: | ---: |
 | Maximum population (including tick 0) | 80 | 84.7 | 295.4 |
