@@ -108,14 +108,23 @@ def _audit(directory):
             children[parent["id"]] += 1
     require(founder_count == initial_count, "Founder population mismatch")
     require(all(o["offspring"] == children[o["id"]] for o in records), "Direct offspring count mismatch")
+    frames = read("frames.json", list)
+    require(bool(frames) and frames[0]["tick"] == 0 and frames[-1]["tick"] == steps, "Replay endpoints missing")
+    require([f["tick"] for f in frames] == sorted({f["tick"] for f in frames}), "Replay ticks unordered or duplicated")
+    frames_by_tick = {f["tick"]: f for f in frames}
     total_births = total_deaths = 0
     live_genomes, live_founders, live_generations = Counter(), Counter(), Counter()
+    live_trait_founders = Counter()
     genome_sum = 0
     for row in metrics:
         tick = row["tick"]
         for sign, population in ((1, born_at[tick]), (-1, died_at[tick])):
             for o in population:
                 genome_sum += sign * o["genome"]
+                pair = (o["genome"], o["founder_id"])
+                live_trait_founders[pair] += sign
+                if live_trait_founders[pair] == 0:
+                    del live_trait_founders[pair]
                 for counter, key in ((live_genomes, "genome"), (live_founders, "founder_id"),
                                      (live_generations, "generation")):
                     counter[o[key]] += sign
@@ -131,6 +140,9 @@ def _audit(directory):
         require(row["genome_variants"] == len(live_genomes), f"Trait variant count mismatch at tick {tick}")
         require(row["founder_lineages"] == len(live_founders), f"Founder count mismatch at tick {tick}")
         require(row["max_generation"] == max(live_generations, default=None), f"Generation maximum mismatch at tick {tick}")
+        if tick in frames_by_tick:
+            shown = Counter((o[1], o[2]) for o in frames_by_tick[tick]["organisms"])
+            require(shown == live_trait_founders, f"Replay trait/founder pairs differ from lineage at tick {tick}")
     seen_births, seen_deaths = set(), set()
     last_event_tick = 0
     with (directory / "events.jsonl").open(encoding="utf-8") as stream:
@@ -158,9 +170,6 @@ def _audit(directory):
     require(seen_deaths == {o["id"] for o in records if o["death_tick"] is not None}, "Missing death events")
     living = [o for o in records if o["death_tick"] is None]
     require(sum(o["energy"] for o in living) == metrics[-1]["organism_energy"], "Final lineage energy mismatch")
-    frames = read("frames.json", list)
-    require(bool(frames) and frames[0]["tick"] == 0 and frames[-1]["tick"] == steps, "Replay endpoints missing")
-    require([f["tick"] for f in frames] == sorted({f["tick"] for f in frames}), "Replay ticks unordered or duplicated")
     for f in frames:
         require(0 <= f["tick"] <= steps, "Replay tick outside run")
         row = metrics[f["tick"]]

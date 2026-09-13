@@ -86,3 +86,18 @@ it does not independently replay the seed or authenticate who generated a file.
 The older fixed fifteen-campaign auditor did not reject all such type substitutions.
 Eleven saved full runs (campaign 001 plus the acceptance demo) pass the stricter
 checks unchanged.
+
+## Intermediate replay labels
+
+For each saved frame, the current recorded-run auditor reconstructs the living
+multiset of `(genome, founder_id)` pairs from birth/death records and compares it
+with the rendered organism triples. This rejects wrong intermediate trait or
+founder labels even when population, food and embedded summary metrics agree.
+The pair check preserves their association, not only separate marginal totals.
+
+Intermediate positions are checked for bounds and collisions, but their historical
+identity assignment cannot be recovered from these triples: replay frames omit
+individual IDs and movement events are not recorded. This is not an independent
+reconstruction of every movement or the spatial history between sampled frames.
+The stricter check passed all 1,111 saved frames across eleven historical full
+runs. It postdates the fixed fifteen-campaign archive; raw records are unchanged.

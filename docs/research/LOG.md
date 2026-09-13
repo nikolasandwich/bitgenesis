@@ -1557,3 +1557,17 @@ as part of the ten-test audit suite (100 tests now in total). Eleven historical
 full-record audits, campaign 001's ten worlds and the acceptance demo, pass without
 changes. No engine semantics, random draws or old records were modified. The
 checks validate metadata form, not independent seed replay or authenticity.
+
+## 2026-09-14 — Autonomous cycle 105
+
+A corruption probe changed one intermediate replay organism's genome or founder
+label while retaining valid bounds, population and embedded metrics. Both damaged
+frames incorrectly passed the prior auditor. Added per-frame joint trait/founder
+multiset reconciliation against the living lifecycle records, maintaining one
+rolling counter rather than copies of every historical population.
+
+The reproducing two-case regression now passes. All 101 tests pass, and eleven
+historical full-run audits reconcile all 1,111 stored frames unchanged. Documented
+that this does not independently reconstruct individual position histories or
+unsaved movement steps. The engine and replay format are unchanged; the stronger
+audit postdates the fixed archive.

@@ -21,6 +21,19 @@ class AuditTests(unittest.TestCase):
         self.assertEqual(result["status"], "verified")
         self.assertEqual(result["final_population"], self.summary["population"])
 
+    def test_intermediate_frame_trait_or_founder_corruption_is_detected(self):
+        path = self.output / "frames.json"
+        original = path.read_bytes()
+        for column in (1, 2):
+            frames = json.loads(original)
+            self.assertGreater(len(frames), 2)
+            self.assertTrue(frames[1]["organisms"])
+            frames[1]["organisms"][0][column] = (frames[1]["organisms"][0][column]+1) % 1001
+            path.write_text(json.dumps(frames), encoding="utf-8")
+            with self.subTest(column=column), self.assertRaisesRegex(ValueError, "Replay.*lineage"):
+                audit(self.output)
+        path.write_bytes(original)
+
     def test_energy_corruption_is_detected(self):
         path = self.output / "metrics.csv"
         with path.open(newline="", encoding="utf-8") as stream:
