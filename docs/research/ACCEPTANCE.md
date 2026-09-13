@@ -38,6 +38,12 @@ demo byte for byte; lineage and summary JSON match structurally. Pip resolved bu
 dependencies, so this is not an offline-install guarantee or a fourteen-campaign
 simulation rerun. [Recorded checks](results/portable-wheel-014.json).
 
+Browser checks of that freshly installed demo also passed: blank and fractional
+IDs clear stale details, valid Enter queries restore them, and parent navigation
+1640 -> 1618 shows the expected parent and three children. The values match raw
+lineage. [Manual browser evidence and limits](results/lineage-browser-014.json).
+This is not cross-browser or screen-reader speech certification.
+
 Previous uploaded archive: `data/bitgenesis-v0-thirteen-campaigns.zip`, source
 `1fc1c30dfcb6bcccbc929c0ba75ea5957272bc60`, 853 payload files / 86,150,042 bytes.
 SHA-256: `ed6e90acda91f1b8e74f88acca5f246c03ee308c627cb611c3e2d180cd1383f2`.

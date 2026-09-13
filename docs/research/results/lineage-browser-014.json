@@ -1,0 +1,16 @@
+{
+  "check": "installed-lineage-browser-014-1",
+  "artifact_source": "6d98fb94dee3d07b09e5cd2edd1b9f383dd06c52",
+  "method": "Manual in-app browser interaction with the freshly installed CLI demo, served locally. Accessible page state inspected after each action.",
+  "cases": [
+    "Blank input plus Inspect clears old detail/ancestry/children and shows invalid-ID message.",
+    "Valid 1640 plus Enter restores correct detail and ancestry.",
+    "Fractional 1.5 plus Enter after valid selection clears old detail and ancestry.",
+    "Valid 1640 restores again; clicking parent 1618 shows parent 1609 and children 1624,1631,1640."
+  ],
+  "limitations": "Not automated browser coverage, cross-browser certification or a screen-reader speech test.",
+  "artifact_sha256": {
+    "lineage.html": "aa8d9dffe14440305b5bd1fa5e7c47b28f233d544c77030436d308fb8e80fd10",
+    "lineage.json": "e6c22affb500a1958f35a0f230eb30748c9bbce0ea5bc7566691f56670a74bbc"
+  }
+}
