@@ -1054,3 +1054,16 @@ coverage from functional novelty and does not force a saturation conclusion.
 Compilation and 56 tests passed. Original process is live; outcomes are pending
 and excluded from validated campaign totals. Next: verify birth-table ancestry,
 first-seen coverage, energy accounts and declared horizon summaries.
+
+## 2026-09-14 — Autonomous cycle 69
+
+Extended campaign-013 verifier tests from birth catalogs to metric reconstruction:
+a real short world passes; an invented intermediate discovery, energy mismatch
+and truncated window are rejected. All 64 local tests pass. Independently checked
+the first completed full run (mutation/1100): 74704 birth records, 371 ever-seen
+values and two first appearances during the final 10000 ticks; all declared
+horizon observations match. This is a per-run check, not a final group result.
+
+The original experiment process remains live and continues the no-mutation arm.
+No restart, new seed or observation-window change; validated totals still exclude
+campaign 013 pending the complete-grid audit.
