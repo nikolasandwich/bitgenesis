@@ -2,6 +2,9 @@
 
 Use Python 3.12+ and install locally with `python -m pip install -e .`.
 Run `python -m unittest discover -s tests -v` before proposing a change.
+GitHub checks the installed package and frozen V0 replay on Windows/Linux with
+Python 3.12 and 3.13. A replay mismatch needs investigation, not a blind checksum
+update; keep the research rules version contract explicit.
 
 Keep changes small and explain the research question, the rules you changed,
 and the evidence supporting your conclusion. Add tests for meaningful invariants
