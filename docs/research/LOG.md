@@ -644,3 +644,16 @@ The plot helper checks the compact grid and survival/time consistency and saves
 curve coordinates with input/source hashes. PNG and SVG were generated and visually
 inspected for labels, legends, range and endpoint display. No new simulation,
 probability fitting or changes to accepted experiment totals.
+
+## 2026-09-14 — Autonomous cycle 38
+
+Extended the static review builder to optional ten-campaign scope, retaining
+eight-campaign defaults and older output files. Added threshold outcome table,
+survival figure and interpretation limits. Before rendering campaigns 009/010,
+the builder now validates their complete treatment/seed grids, rejecting duplicates
+even when the total count is unchanged. Two regression tests cover reordered
+complete data and same-count duplicate/wrong-seed failures; all 48 local tests pass.
+
+Generated review-v0-10.html and inspected the new table and figure in the browser.
+Current acceptance links now point to that page while the nine-campaign uploaded
+archive remains a fixed historical snapshot. No new experiment or engine change.

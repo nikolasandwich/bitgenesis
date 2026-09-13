@@ -2,10 +2,9 @@
 
 Current research: ten campaigns / 440 runs / 2,440,000 ticks; see the
 [research index](README.md). Latest report: [reproduction-threshold intervention](campaign-010.md).
-Visual review entry `data/review-v0-9.html` covers all nine campaigns, including
-the early allocation trajectories. The eight-campaign page remains preserved.
-Campaign 010 is available in its report and compact data; the existing page and
-local nine-campaign archive do not include it.
+Visual review entry `data/review-v0-10.html` covers all ten campaigns, including
+the allocation trajectories and threshold survival curves. Eight/nine-campaign
+pages remain preserved. The uploaded nine-campaign archive does not include 010.
 The latest uploaded review archive is `bitgenesis-v0-nine-campaigns.zip`, fixed
 source `c5975cd`, attached to the `v0.0.1-preview.2` GitHub draft release. The older
 eight-campaign `v0.0.1-preview.1` draft remains available. Draft attachments do not
