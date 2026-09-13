@@ -1,6 +1,6 @@
 # Research roadmap
 
-Only V0 has runtime code, currently initialization scaffolding. These stages are
+Only V0 has runtime code, including a minimal Darwinian world. These stages are
 research milestones, not release dates. Graduate only with reproducible evidence,
 documented assumptions, and preserved earlier experiments. Failure to meet a
 criterion is a useful result; do not add complexity just to move up a stage.

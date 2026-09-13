@@ -28,10 +28,38 @@ def main(argv: list[str] | None = None) -> int:
     stages = parser.add_subparsers(dest="stage", required=True)
     v0 = stages.add_parser("v0", help="Initialize the V0 scaffold (no time stepping yet)")
     v0.add_argument("--config", type=Path, help="Versioned TOML experiment definition")
+    v0.add_argument("--rules", choices=[RULES_VERSION, "v0-darwin-1"],
+                    help="Rules version; defaults to scaffold or the config's version")
+    v0.add_argument("--steps", type=int, default=1000, help="Darwin run duration (default 1000)")
+    v0.add_argument("--output", type=Path, help="New output directory, required for Darwin runs")
+    v0.add_argument("--frame-interval", type=int, default=10, help="Replay sampling interval")
     for name in ("seed", "width", "height"):
         v0.add_argument(f"--{name}", type=int, help=f"Override {name}")
     args = parser.parse_args(argv)
     try:
+        rules = args.rules
+        if args.config:
+            with args.config.open("rb") as stream:
+                configured_rules = tomllib.load(stream).get("rules_version")
+            if rules is not None and rules != configured_rules:
+                raise ValueError("--rules conflicts with experiment rules_version")
+            rules = configured_rules
+        if rules == "v0-darwin-1":
+            from dataclasses import replace
+            from bitgenesis.v0.engine import Config
+            from bitgenesis.v0.runner import load_config as load_darwin_config, run
+            config = load_darwin_config(args.config) if args.config else Config()
+            config = replace(config, **{name: getattr(args, name) for name in ("seed", "width", "height")
+                                       if getattr(args, name) is not None})
+            if args.output is None:
+                raise ValueError("Darwin runs require --output pointing to a new directory")
+            summary = run(config, args.steps, args.output, args.frame_interval)
+            print(f"BitGenesis V0 ({rules}) | tick: {summary['tick']} | "
+                  f"population: {summary['population']} | births: {summary['births']}")
+            print(f"Artifacts: {args.output.resolve()}")
+            return 0
+        if args.output is not None:
+            raise ValueError("Scaffold rules do not write run artifacts; use --rules v0-darwin-1")
         settings = load_config(args.config) if args.config else {}
         settings.update({name: getattr(args, name) for name in ("seed", "width", "height")
                          if getattr(args, name) is not None})

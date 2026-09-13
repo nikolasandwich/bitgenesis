@@ -1,0 +1,20 @@
+# Rules are fixed; CLI run duration is recorded separately in metadata.json.
+schema_version = 1
+rules_version = "v0-darwin-1"
+stage = "v0"
+seed = 42
+width = 32
+height = 32
+initial_population = 80
+initial_energy = 24
+initial_food = 8
+food_capacity = 24
+regrowth_probability = 40
+regrowth_amount = 4
+feeding_rate = 8
+basal_cost = 1
+movement_cost = 1
+birth_threshold = 40
+birth_cost = 4
+mutation_probability = 100
+mutation_step = 100

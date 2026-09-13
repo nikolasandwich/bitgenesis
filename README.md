@@ -11,10 +11,11 @@ is a research question, not a promised outcome.
 
 ## Current status
 
-V0 is the only runtime stage. This initial release is a **scaffold**: it creates
-an empty world and prints a text summary. Feeding, movement, reproduction,
-mutation, death, and time stepping are future V0 work. It does not yet demonstrate
-Darwinian evolution. No neural controllers or complex biology are implemented.
+V0 is the only runtime stage. It now supports an explicit-organism Darwinian
+world: resource growth, random movement, feeding, energy costs, reproduction,
+mutation, death, and lineage logging. Genomes encode movement probability, not
+a food-seeking strategy. No neural controllers or complex biology are implemented.
+The original empty-world scaffold remains available with its original rules.
 
 ## Quick start (Python 3.12+)
 
@@ -25,17 +26,20 @@ python -m venv .venv
 python -m pip install -e .
 bitgenesis v0 --seed 42 --width 16 --height 12
 python -m bitgenesis v0 --seed 42
+bitgenesis v0 --config experiments/v0/darwin-baseline.toml --steps 1000 --output data/first-run
 python -m unittest discover -s tests -v
 ```
 
-The CLI reports `scaffold`, tick zero, and an empty population. The seed is stored
-for future stochastic rules; the empty initialization itself uses no randomness.
+Without a Darwin configuration, the CLI still reports the original empty scaffold.
+The Darwin command writes `index.html` (open locally for replay), per-tick metrics,
+birth/death events, lineage records, sampled frames, and provenance metadata.
+Output directories must be new; previous runs are never overwritten.
 
 ## Research stages
 
 | Stage | Scope | Status |
 | --- | --- | --- |
-| V0 | Minimal Darwinian World | Runtime scaffold |
+| V0 | Minimal Darwinian World | Implemented; validation in progress |
 | V1 | Evolving Controllers | Planned |
 | V2 | Development: genome -> development -> organism | Planned |
 | V3 | Ecology | Planned |
@@ -49,7 +53,7 @@ See the [roadmap and graduation criteria](docs/roadmap/README.md),
 ## Repository layout
 
 ```text
-src/bitgenesis/   CLI and current V0 engine modules
+src/bitgenesis/   CLI, preserved scaffold, and versioned v0/ runtime
 experiments/v0/   Versioned experiment definitions and instructions
 docs/roadmap/    Stage goals and graduation criteria
 docs/design/     Assumptions, evidence, and compatibility decisions
@@ -58,7 +62,7 @@ data/            Local outputs (ignored except .gitkeep)
 scripts/         Developer and experiment helper instructions
 ```
 
-There is no explicit fitness score: planned selection operates through survival
+There is no explicit fitness score: selection operates through survival
 and offspring in a resource-limited world. We explicitly design V0 organisms,
 genomes, and reproduction; later stages will challenge those assumptions.
 

@@ -6,7 +6,9 @@ from interactions, inheritance, variation, and selection under those rules.
 
 V0 deliberately defines an organism, its energy, its genome, and eventually its
 reproduction mechanism. These are scaffolding assumptions, not emergent life.
-The current empty-world initialization supports no claim of evolution.
+The preserved empty-world initialization supports no claim of evolution. The
+Darwinian V0 adds inherited movement probability and mutation under explicit
+reproduction rules; empirical claims require its controlled run results.
 
 An energy cost for movement defines a constraint. `if food_nearby: move_to_food()`
 defines a strategy. Observing food seeking after writing that strategy is not
