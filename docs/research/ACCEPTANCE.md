@@ -10,6 +10,14 @@ Visual review entry `data/review-v0-12.html` covers all twelve campaigns, includ
 the allocation trajectories, threshold/cost survival curves and longitudinal follow-up.
 It distinguishes executions from independent samples and identifies replayed prefixes.
 Earlier pages remain preserved. The uploaded nine-campaign archive excludes 010–011.
+Latest local archive: `data/bitgenesis-v0-twelve-campaigns.zip`, source
+`11da88c6c19729b066a8ad4e30ca1362ae896c77`, 815 payload files / 70,481,664 bytes.
+SHA-256: `121e11e56b22cd20c2f584b2989e9c25d9348042208ba02232cc4d1bdfad7cd4`.
+It includes all twelve raw campaigns and the current review page. Packaging
+reran eleven full-run audits and metric verifiers for 005/009/010/011/012;
+the 012 report checks 800080 rows. Independent whole-archive verification passed.
+This new local snapshot is not yet uploaded; older download links below remain fixed.
+
 The latest uploaded review archive is `bitgenesis-v0-eleven-campaigns.zip`, fixed
 source `eba74b9`, attached to the `v0.0.1-preview.3` GitHub draft release. The older
 eight- and nine-campaign drafts remain available. Draft attachments do not
