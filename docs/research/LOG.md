@@ -1318,3 +1318,17 @@ Updated local page entries to fourteen. Download instructions still identify
 the fixed thirteen-campaign source and archive, which has not been replaced.
 Retrospective trait decompositions remain report-only, separately distinguished
 from the numbered formal experiment sections. No new simulation.
+
+## 2026-09-14 — Autonomous cycle 88
+
+Added explicit fourteen-campaign packaging, including the 014 verifier, while
+retaining default eight and exclusive output paths. Committed source 6d98fb9,
+then generated a new archive: 1044 files / 96447134 bytes, SHA-256
+0501fd0c6cf4d947ee26fb3fc107b592adf5f9c66d854531b7ef364ff6b6240a.
+All eleven full-run audits and selected 005/009–014 metric checks passed.
+Standalone expected-hash verification checked 13 HTML pages and eleven targets.
+Source CI 34786711417 passed. The packaging process completed normally.
+
+Recorded local snapshot scope and checksum. Thirteen-campaign uploaded draft
+remains unchanged. Next: independent reanalysis of archived 014 inputs from an
+extracted copy before uploading this new draft. No new simulation.

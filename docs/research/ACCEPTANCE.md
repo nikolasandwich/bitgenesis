@@ -15,6 +15,16 @@ the allocation trajectories, threshold/cost survival curves, longitudinal follow
 and cumulative versus living genome coverage, plus the complete frequency-cost grid.
 It distinguishes executions from independent samples and identifies replayed prefixes.
 Earlier pages remain preserved. The uploaded nine-campaign archive excludes 010–011.
+Newest local archive: `data/bitgenesis-v0-fourteen-campaigns.zip`, source
+`6d98fb94dee3d07b09e5cd2edd1b9f383dd06c52`, 1044 payload files / 96,447,134 bytes.
+SHA-256: `0501fd0c6cf4d947ee26fb3fc107b592adf5f9c66d854531b7ef364ff6b6240a`.
+It contains all fourteen campaigns, the fourteen-campaign page and the newer
+trait-change analyses and checkpoint validation code. Packaging reran eleven
+full-run audits and the selected 005/009–014 metric checks. Standalone expected-hash
+verification passed: 13 HTML pages and eleven local targets. Source
+[CI 34786711417](https://github.com/nikolasandwich/bitgenesis/actions/runs/34786711417) passed.
+This new local snapshot has not yet been uploaded; the current download follows.
+
 Newest uploaded archive: `data/bitgenesis-v0-thirteen-campaigns.zip`, source
 `1fc1c30dfcb6bcccbc929c0ba75ea5957272bc60`, 853 payload files / 86,150,042 bytes.
 SHA-256: `ed6e90acda91f1b8e74f88acca5f246c03ee308c627cb611c3e2d180cd1383f2`.
