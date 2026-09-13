@@ -1759,3 +1759,9 @@ seed quadruplets: identical founders and world RNG; same map within each layout;
 exact food multiset and total energy. Raising the threshold does not isolate a
 single mediator such as crowding or birth cost. Protocol and runner are committed
 before launch so the execution source is identifiable.
+
+Campaign 017 launched from clean source `05508f0fd1d933fbc318a80440e3990f698586b6` using
+Python 3.12.10. The live process has produced its first complete runs;
+no interpretation or completed-inventory change is made while it is running.
+All 115 local tests passed before launch. Next step is independent reconstruction
+of initial pairing, complete metrics and predeclared early/end observations.
