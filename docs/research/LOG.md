@@ -1243,3 +1243,18 @@ Recorded source/runtime and all input/result hashes. No historical file modified
 engineering replay only, outside formal counts. This validates acceptance of real
 compatible old records alongside rejection of malformed ones, not unrestricted
 cross-version compatibility. Documented the local-input and archive limits.
+
+## 2026-09-14 — Autonomous cycle 83
+
+Preregistered campaign 014 before running: costs 1/2/3/4, B initial fraction
+10%/90%, competition 250 versus 1000 and neutral 250/250 labels, mutation off,
+new seeds 1200–1209, 3000 ticks each. Planned 160 worlds / 480000 new ticks.
+The reversed majority tests finite-window frequency dependence; it is explicitly
+not equilibrated-resident invasion or a stable-coexistence assay. All endpoints,
+extinctions and matched-seed limitations are specified in advance.
+
+Committed protocol/runner as 7fabace and launched once from clean source into
+new data/campaign-014. The original process is active. Per-tick full metrics and
+group counts are retained, with runtime invariants; independent group/metric
+audit remains to be built before conclusions. Local 73 tests pass. Current formal
+inventory stays at thirteen campaigns until complete-grid verification succeeds.
