@@ -1,0 +1,795 @@
+{
+  "scope": "Retrospective initial-map geometry. Distances ignore occupancy, consumption, replenishment, movement probability and energy; they are not observed paths or expected arrival times. No new world executions or causal mechanism identification.",
+  "rows": [
+    {
+      "arm": "uniform",
+      "seed": 1300,
+      "founders_on_food": 80,
+      "food_under_founders": 400,
+      "mean_distance": 0.0,
+      "max_distance": 0,
+      "extinction_tick": 4273,
+      "founders_within_1": 80,
+      "founders_within_2": 80,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "uniform",
+      "seed": 1301,
+      "founders_on_food": 80,
+      "food_under_founders": 400,
+      "mean_distance": 0.0,
+      "max_distance": 0,
+      "extinction_tick": 148,
+      "founders_within_1": 80,
+      "founders_within_2": 80,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "uniform",
+      "seed": 1302,
+      "founders_on_food": 80,
+      "food_under_founders": 400,
+      "mean_distance": 0.0,
+      "max_distance": 0,
+      "extinction_tick": 785,
+      "founders_within_1": 80,
+      "founders_within_2": 80,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "uniform",
+      "seed": 1303,
+      "founders_on_food": 80,
+      "food_under_founders": 400,
+      "mean_distance": 0.0,
+      "max_distance": 0,
+      "extinction_tick": 235,
+      "founders_within_1": 80,
+      "founders_within_2": 80,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "uniform",
+      "seed": 1304,
+      "founders_on_food": 80,
+      "food_under_founders": 400,
+      "mean_distance": 0.0,
+      "max_distance": 0,
+      "extinction_tick": 2935,
+      "founders_within_1": 80,
+      "founders_within_2": 80,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "uniform",
+      "seed": 1305,
+      "founders_on_food": 80,
+      "food_under_founders": 400,
+      "mean_distance": 0.0,
+      "max_distance": 0,
+      "extinction_tick": 7892,
+      "founders_within_1": 80,
+      "founders_within_2": 80,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "uniform",
+      "seed": 1306,
+      "founders_on_food": 80,
+      "food_under_founders": 400,
+      "mean_distance": 0.0,
+      "max_distance": 0,
+      "extinction_tick": 2773,
+      "founders_within_1": 80,
+      "founders_within_2": 80,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "uniform",
+      "seed": 1307,
+      "founders_on_food": 80,
+      "food_under_founders": 400,
+      "mean_distance": 0.0,
+      "max_distance": 0,
+      "extinction_tick": 5787,
+      "founders_within_1": 80,
+      "founders_within_2": 80,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "uniform",
+      "seed": 1308,
+      "founders_on_food": 80,
+      "food_under_founders": 400,
+      "mean_distance": 0.0,
+      "max_distance": 0,
+      "extinction_tick": 8845,
+      "founders_within_1": 80,
+      "founders_within_2": 80,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "uniform",
+      "seed": 1309,
+      "founders_on_food": 80,
+      "food_under_founders": 400,
+      "mean_distance": 0.0,
+      "max_distance": 0,
+      "extinction_tick": 641,
+      "founders_within_1": 80,
+      "founders_within_2": 80,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1300,
+      "founders_on_food": 17,
+      "food_under_founders": 408,
+      "mean_distance": 1.1375,
+      "max_distance": 3,
+      "extinction_tick": 223,
+      "founders_within_1": 55,
+      "founders_within_2": 77,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1301,
+      "founders_on_food": 7,
+      "food_under_founders": 168,
+      "mean_distance": 1.25,
+      "max_distance": 3,
+      "extinction_tick": 1192,
+      "founders_within_1": 56,
+      "founders_within_2": 77,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1302,
+      "founders_on_food": 11,
+      "food_under_founders": 264,
+      "mean_distance": 1.2125,
+      "max_distance": 4,
+      "extinction_tick": 223,
+      "founders_within_1": 56,
+      "founders_within_2": 77,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1303,
+      "founders_on_food": 16,
+      "food_under_founders": 384,
+      "mean_distance": 1.0625,
+      "max_distance": 3,
+      "extinction_tick": 1142,
+      "founders_within_1": 62,
+      "founders_within_2": 77,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1304,
+      "founders_on_food": 16,
+      "food_under_founders": 384,
+      "mean_distance": 1.2375,
+      "max_distance": 3,
+      "extinction_tick": 3362,
+      "founders_within_1": 50,
+      "founders_within_2": 75,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1305,
+      "founders_on_food": 15,
+      "food_under_founders": 360,
+      "mean_distance": 1.15,
+      "max_distance": 3,
+      "extinction_tick": 152,
+      "founders_within_1": 57,
+      "founders_within_2": 76,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1306,
+      "founders_on_food": 24,
+      "food_under_founders": 576,
+      "mean_distance": 1.025,
+      "max_distance": 3,
+      "extinction_tick": 1604,
+      "founders_within_1": 58,
+      "founders_within_2": 76,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1307,
+      "founders_on_food": 14,
+      "food_under_founders": 336,
+      "mean_distance": 1.1625,
+      "max_distance": 3,
+      "extinction_tick": 610,
+      "founders_within_1": 57,
+      "founders_within_2": 76,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1308,
+      "founders_on_food": 11,
+      "food_under_founders": 264,
+      "mean_distance": 1.3125,
+      "max_distance": 3,
+      "extinction_tick": 2426,
+      "founders_within_1": 52,
+      "founders_within_2": 72,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1309,
+      "founders_on_food": 12,
+      "food_under_founders": 288,
+      "mean_distance": 1.2,
+      "max_distance": 3,
+      "extinction_tick": 638,
+      "founders_within_1": 56,
+      "founders_within_2": 76,
+      "founders_within_4": 80,
+      "founders_within_8": 80
+    },
+    {
+      "arm": "block",
+      "seed": 1300,
+      "founders_on_food": 13,
+      "food_under_founders": 312,
+      "mean_distance": 6.5125,
+      "max_distance": 13,
+      "extinction_tick": 147,
+      "founders_within_1": 17,
+      "founders_within_2": 19,
+      "founders_within_4": 28,
+      "founders_within_8": 51
+    },
+    {
+      "arm": "block",
+      "seed": 1301,
+      "founders_on_food": 15,
+      "food_under_founders": 360,
+      "mean_distance": 6.025,
+      "max_distance": 13,
+      "extinction_tick": 110,
+      "founders_within_1": 22,
+      "founders_within_2": 23,
+      "founders_within_4": 31,
+      "founders_within_8": 49
+    },
+    {
+      "arm": "block",
+      "seed": 1302,
+      "founders_on_food": 16,
+      "food_under_founders": 384,
+      "mean_distance": 5.2625,
+      "max_distance": 13,
+      "extinction_tick": 127,
+      "founders_within_1": 20,
+      "founders_within_2": 29,
+      "founders_within_4": 38,
+      "founders_within_8": 58
+    },
+    {
+      "arm": "block",
+      "seed": 1303,
+      "founders_on_food": 22,
+      "food_under_founders": 528,
+      "mean_distance": 5.2125,
+      "max_distance": 13,
+      "extinction_tick": 113,
+      "founders_within_1": 27,
+      "founders_within_2": 29,
+      "founders_within_4": 41,
+      "founders_within_8": 56
+    },
+    {
+      "arm": "block",
+      "seed": 1304,
+      "founders_on_food": 19,
+      "food_under_founders": 456,
+      "mean_distance": 5.05,
+      "max_distance": 13,
+      "extinction_tick": 145,
+      "founders_within_1": 25,
+      "founders_within_2": 28,
+      "founders_within_4": 37,
+      "founders_within_8": 61
+    },
+    {
+      "arm": "block",
+      "seed": 1305,
+      "founders_on_food": 20,
+      "food_under_founders": 480,
+      "mean_distance": 4.9875,
+      "max_distance": 13,
+      "extinction_tick": 150,
+      "founders_within_1": 25,
+      "founders_within_2": 27,
+      "founders_within_4": 43,
+      "founders_within_8": 59
+    },
+    {
+      "arm": "block",
+      "seed": 1306,
+      "founders_on_food": 19,
+      "food_under_founders": 440,
+      "mean_distance": 5.7625,
+      "max_distance": 13,
+      "extinction_tick": 169,
+      "founders_within_1": 22,
+      "founders_within_2": 28,
+      "founders_within_4": 36,
+      "founders_within_8": 55
+    },
+    {
+      "arm": "block",
+      "seed": 1307,
+      "founders_on_food": 16,
+      "food_under_founders": 384,
+      "mean_distance": 5.4375,
+      "max_distance": 13,
+      "extinction_tick": 136,
+      "founders_within_1": 22,
+      "founders_within_2": 29,
+      "founders_within_4": 38,
+      "founders_within_8": 55
+    },
+    {
+      "arm": "block",
+      "seed": 1308,
+      "founders_on_food": 11,
+      "food_under_founders": 264,
+      "mean_distance": 5.9375,
+      "max_distance": 13,
+      "extinction_tick": 112,
+      "founders_within_1": 18,
+      "founders_within_2": 24,
+      "founders_within_4": 34,
+      "founders_within_8": 54
+    },
+    {
+      "arm": "block",
+      "seed": 1309,
+      "founders_on_food": 15,
+      "food_under_founders": 344,
+      "mean_distance": 5.8625,
+      "max_distance": 13,
+      "extinction_tick": 138,
+      "founders_within_1": 19,
+      "founders_within_2": 22,
+      "founders_within_4": 32,
+      "founders_within_8": 56
+    }
+  ],
+  "groups": [
+    {
+      "arm": "uniform",
+      "founders_on_food": [
+        80,
+        80
+      ],
+      "food_under_founders": [
+        400,
+        400
+      ],
+      "mean_distance": [
+        0.0,
+        0.0
+      ],
+      "max_distance": [
+        0,
+        0
+      ],
+      "founders_within_1": [
+        80,
+        80
+      ],
+      "founders_within_2": [
+        80,
+        80
+      ],
+      "founders_within_4": [
+        80,
+        80
+      ],
+      "founders_within_8": [
+        80,
+        80
+      ]
+    },
+    {
+      "arm": "dispersed",
+      "founders_on_food": [
+        7,
+        24
+      ],
+      "food_under_founders": [
+        168,
+        576
+      ],
+      "mean_distance": [
+        1.025,
+        1.3125
+      ],
+      "max_distance": [
+        3,
+        4
+      ],
+      "founders_within_1": [
+        50,
+        62
+      ],
+      "founders_within_2": [
+        72,
+        77
+      ],
+      "founders_within_4": [
+        80,
+        80
+      ],
+      "founders_within_8": [
+        80,
+        80
+      ]
+    },
+    {
+      "arm": "block",
+      "founders_on_food": [
+        11,
+        22
+      ],
+      "food_under_founders": [
+        264,
+        528
+      ],
+      "mean_distance": [
+        4.9875,
+        6.5125
+      ],
+      "max_distance": [
+        13,
+        13
+      ],
+      "founders_within_1": [
+        17,
+        27
+      ],
+      "founders_within_2": [
+        19,
+        29
+      ],
+      "founders_within_4": [
+        28,
+        43
+      ],
+      "founders_within_8": [
+        49,
+        61
+      ]
+    }
+  ],
+  "paired": {
+    "block_more_founders_on_food": 7,
+    "block_fewer_founders_on_food": 2,
+    "equal_founders_on_food": 1,
+    "block_extinct_earlier": 10
+  },
+  "founder_distance_histograms": {
+    "uniform-seed-1300-initial.json": {
+      "0": 80
+    },
+    "uniform-seed-1301-initial.json": {
+      "0": 80
+    },
+    "uniform-seed-1302-initial.json": {
+      "0": 80
+    },
+    "uniform-seed-1303-initial.json": {
+      "0": 80
+    },
+    "uniform-seed-1304-initial.json": {
+      "0": 80
+    },
+    "uniform-seed-1305-initial.json": {
+      "0": 80
+    },
+    "uniform-seed-1306-initial.json": {
+      "0": 80
+    },
+    "uniform-seed-1307-initial.json": {
+      "0": 80
+    },
+    "uniform-seed-1308-initial.json": {
+      "0": 80
+    },
+    "uniform-seed-1309-initial.json": {
+      "0": 80
+    },
+    "dispersed-seed-1300-initial.json": {
+      "0": 17,
+      "1": 38,
+      "2": 22,
+      "3": 3
+    },
+    "dispersed-seed-1301-initial.json": {
+      "0": 7,
+      "1": 49,
+      "2": 21,
+      "3": 3
+    },
+    "dispersed-seed-1302-initial.json": {
+      "0": 11,
+      "1": 45,
+      "2": 21,
+      "3": 2,
+      "4": 1
+    },
+    "dispersed-seed-1303-initial.json": {
+      "0": 16,
+      "1": 46,
+      "2": 15,
+      "3": 3
+    },
+    "dispersed-seed-1304-initial.json": {
+      "0": 16,
+      "1": 34,
+      "2": 25,
+      "3": 5
+    },
+    "dispersed-seed-1305-initial.json": {
+      "0": 15,
+      "1": 42,
+      "2": 19,
+      "3": 4
+    },
+    "dispersed-seed-1306-initial.json": {
+      "0": 24,
+      "1": 34,
+      "2": 18,
+      "3": 4
+    },
+    "dispersed-seed-1307-initial.json": {
+      "0": 14,
+      "1": 43,
+      "2": 19,
+      "3": 4
+    },
+    "dispersed-seed-1308-initial.json": {
+      "0": 11,
+      "1": 41,
+      "2": 20,
+      "3": 8
+    },
+    "dispersed-seed-1309-initial.json": {
+      "0": 12,
+      "1": 44,
+      "2": 20,
+      "3": 4
+    },
+    "block-seed-1300-initial.json": {
+      "0": 13,
+      "1": 4,
+      "2": 2,
+      "3": 5,
+      "4": 4,
+      "5": 8,
+      "6": 3,
+      "7": 6,
+      "8": 6,
+      "9": 3,
+      "10": 3,
+      "11": 7,
+      "12": 8,
+      "13": 8
+    },
+    "block-seed-1301-initial.json": {
+      "0": 15,
+      "1": 7,
+      "2": 1,
+      "3": 6,
+      "4": 2,
+      "5": 5,
+      "6": 4,
+      "7": 4,
+      "8": 5,
+      "9": 10,
+      "10": 4,
+      "11": 8,
+      "12": 5,
+      "13": 4
+    },
+    "block-seed-1302-initial.json": {
+      "0": 16,
+      "1": 4,
+      "2": 9,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 1,
+      "7": 6,
+      "8": 7,
+      "9": 7,
+      "10": 5,
+      "11": 2,
+      "12": 6,
+      "13": 2
+    },
+    "block-seed-1303-initial.json": {
+      "0": 22,
+      "1": 5,
+      "2": 2,
+      "3": 5,
+      "4": 7,
+      "5": 3,
+      "6": 3,
+      "7": 5,
+      "8": 4,
+      "9": 4,
+      "10": 6,
+      "11": 5,
+      "12": 3,
+      "13": 6
+    },
+    "block-seed-1304-initial.json": {
+      "0": 19,
+      "1": 6,
+      "2": 3,
+      "3": 3,
+      "4": 6,
+      "5": 8,
+      "6": 6,
+      "7": 4,
+      "8": 6,
+      "9": 5,
+      "10": 3,
+      "11": 4,
+      "12": 3,
+      "13": 4
+    },
+    "block-seed-1305-initial.json": {
+      "0": 20,
+      "1": 5,
+      "2": 2,
+      "3": 6,
+      "4": 10,
+      "5": 3,
+      "6": 3,
+      "7": 5,
+      "8": 5,
+      "9": 5,
+      "10": 7,
+      "11": 1,
+      "12": 6,
+      "13": 2
+    },
+    "block-seed-1306-initial.json": {
+      "0": 19,
+      "1": 3,
+      "2": 6,
+      "3": 2,
+      "4": 6,
+      "5": 6,
+      "6": 2,
+      "7": 2,
+      "8": 9,
+      "9": 2,
+      "10": 1,
+      "11": 10,
+      "12": 6,
+      "13": 6
+    },
+    "block-seed-1307-initial.json": {
+      "0": 16,
+      "1": 6,
+      "2": 7,
+      "3": 4,
+      "4": 5,
+      "5": 3,
+      "6": 5,
+      "7": 4,
+      "8": 5,
+      "9": 4,
+      "10": 8,
+      "11": 5,
+      "12": 5,
+      "13": 3
+    },
+    "block-seed-1308-initial.json": {
+      "0": 11,
+      "1": 7,
+      "2": 6,
+      "3": 4,
+      "4": 6,
+      "5": 3,
+      "6": 5,
+      "7": 5,
+      "8": 7,
+      "9": 5,
+      "10": 2,
+      "11": 11,
+      "12": 6,
+      "13": 2
+    },
+    "block-seed-1309-initial.json": {
+      "0": 15,
+      "1": 4,
+      "2": 3,
+      "3": 3,
+      "4": 7,
+      "5": 5,
+      "6": 4,
+      "7": 4,
+      "8": 11,
+      "9": 6,
+      "10": 4,
+      "11": 8,
+      "12": 3,
+      "13": 3
+    }
+  },
+  "input_sha256": {
+    "uniform-seed-1300-initial.json": "fee7f96802d91ebaf25445c23924299dac58b81079bd53ea6f037e2b03a79220",
+    "uniform-seed-1301-initial.json": "a499d1bb08b4142457bc36154b4acfef1e369e311c31e31ed94313abbb197d14",
+    "uniform-seed-1302-initial.json": "45b0162f435c3243bdf1ddf4e0d1fded23774542b3b044bdb58cb8320ab31295",
+    "uniform-seed-1303-initial.json": "d5351b6f69442e6d1065c11d86bd5d43bc3aa9cf51b2628462157bd9a6941914",
+    "uniform-seed-1304-initial.json": "6d0e94231e0ad43fc139a59de8b4e99bbe8643e8941eac48a65828afd51d9dc9",
+    "uniform-seed-1305-initial.json": "193950dfab7e52d052fd463b8d547cd52235ee1acaaebd536a928cdc3dbf9b29",
+    "uniform-seed-1306-initial.json": "7c7120f804284ad8b040e3e69b36d57a1c1446aafe90d095b5242e0a9729ce30",
+    "uniform-seed-1307-initial.json": "3c5ec024d885ac9037c0e5c250d5bc2f82cd0b37a60f9e5511815110c58ca30c",
+    "uniform-seed-1308-initial.json": "0d4c9e251525c7b9e2233c2171a0f404b2628795d9a17aba2f7f3a59e9ee180f",
+    "uniform-seed-1309-initial.json": "75fec2c94fb3b0b96bd0205785232b57965e89e9fd33180fe26b888f598dc378",
+    "dispersed-seed-1300-initial.json": "6327b2c0d66d9c371adcd503fad36da8f671d4a1d455b4b2726e98e6d6682188",
+    "dispersed-seed-1301-initial.json": "4ec8b14e3865da1c128653609801b1e01bb74822c9ff08026527be162e7845a6",
+    "dispersed-seed-1302-initial.json": "5cda60c6924380b5cba12ce78b0481ad0be9356e6ab1d54ed415284afb9fde73",
+    "dispersed-seed-1303-initial.json": "2dfe0a5485b6f0fb57f5336cda51f8ad397fc2f3230f82abc2c6fd15d372db5d",
+    "dispersed-seed-1304-initial.json": "e3c29b6ac3440a9c0a1b880d1cca57ac6dc4e45b29ff23217368950007f03939",
+    "dispersed-seed-1305-initial.json": "624e5c0c4a75ebfc4fbaa6d7349d3c80f3956ca2d2da285907332308ea378be6",
+    "dispersed-seed-1306-initial.json": "21c2ea798c7713d6c9ec320c9eb5dd520eb45500c5218d8f29d7b2147a1c78df",
+    "dispersed-seed-1307-initial.json": "23bd036224c41e306ac51e0da62a73ffe1737483a8405483580fad5c0b12427d",
+    "dispersed-seed-1308-initial.json": "61a5afa535678db4a166b26b44b01230f0ed96c29d996fbd6862f0ac3bc8d770",
+    "dispersed-seed-1309-initial.json": "91ab6dbde1a40a468f0323ad7fadfa98e84898713f2af6db18305160ba74ad8c",
+    "block-seed-1300-initial.json": "a659b2a0c0a17d662897b0f1a0fc0056986c0f9cfbfe9faa9d10574d09244ed9",
+    "block-seed-1301-initial.json": "9a8e0d1641549d7141c9aba820a4fef2b447ddc9ebbf8534190bd718bb94acac",
+    "block-seed-1302-initial.json": "7b42bd71e249896c97b4149d24aa6b7cdb0b1d73c028ddb5eb08cde453474128",
+    "block-seed-1303-initial.json": "16b99305be68450b26121d67c4e1c233ded8a8479d3b39fa3b0f6d8249097712",
+    "block-seed-1304-initial.json": "6e21dc482f1ed9d78b6b34b199582011891cfa5fb6c70848240125d47d288703",
+    "block-seed-1305-initial.json": "5825961c869ad4c93dc2965f41ad3900267f9a2f4e07e110106a727e1e80270f",
+    "block-seed-1306-initial.json": "b66ae276040d6c4bab58095af616971a34bee58f4acbcf254dc868b9f00acfdc",
+    "block-seed-1307-initial.json": "483a0ab353ef44302c197fb416b9ca9d2199acaa8728e5321e92db4aee2495e7",
+    "block-seed-1308-initial.json": "71d99d86495df0de7f7aa2224aa449c3b6d1da555b052c2ce2c4386cc4aa4f94",
+    "block-seed-1309-initial.json": "586a68f5b4e1bf57b8e39adb1b8ebaf6fe120d6b927ab4a90bc854ed5382006e"
+  },
+  "verification_sha256": "53522c6e8fff00aa24532636325afb21d8c0af083e1142a11f2fe272aed2b0c7",
+  "script_sha256": "f43074fe53a2ffd01d7c755dbc312296b22f24e69492f7a960f23be640e94c80"
+}

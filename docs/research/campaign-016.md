@@ -83,3 +83,53 @@ The full local suite has 106 passing tests at this analysis checkpoint.
 This campaign adds 30 executions / 300,000 computed ticks, with no historical
 prefix replay. Formal totals are sixteen campaigns, 744 executions and 6,640,000
 computed ticks. The fixed fifteen-campaign archive does not contain this campaign.
+
+## Retrospective initial access analysis
+
+Counting founders already on food does not by itself explain the paired outcome
+ordering. In seven of ten block/dispersed pairs, the block map has **more**
+founders standing on initial food; in one pair the counts are equal, and in two
+it has fewer. The block world nevertheless goes extinct earlier in all ten pairs.
+This does not rule out a contribution from immediate food exposure; multiple
+features change together, and the comparison is retrospective.
+
+Shortest cardinal distance to any positive initial food cell reveals a different
+contrast. Distances wrap around the torus and ignore occupancy and later changes.
+The ranges below are across ten worlds in each arm, not confidence intervals.
+
+| Initial-map statistic | Uniform | Dispersed | Block |
+| --- | ---: | ---: | ---: |
+| Founders standing on food | 80 | 7–24 | 11–22 |
+| Food energy directly beneath founders | 400 | 168–576 | 264–528 |
+| Mean founder distance to nearest food (cells) | 0 | 1.025–1.3125 | 4.9875–6.5125 |
+| Maximum founder distance (cells) | 0 | 3–4 | 13 |
+| Founders within two cells of food | 80 | 72–77 | 19–29 |
+| Founders within four cells of food | 80 | 80 | 28–43 |
+
+Each world contributes 80 founder positions. All dispersed-arm founders are at
+most four cells from some initial food; every block world has a founder thirteen
+cells away. These are initial geometric distances, **not observed travel paths,
+expected arrival times, or proof of starvation**. The organisms choose random
+moves; occupancy, food depletion, regrowth, birth and energy use change access.
+The saved initial maps and aggregate metrics do not identify which transfer or
+interaction caused the population to collapse.
+
+The analysis checks all thirty initial file hashes against the campaign verifier,
+reconciles on-food counts and energy beneath founders, and retains every founder
+distance histogram plus all thirty run summaries. Distance computation is tested
+against an independent toroidal Manhattan-distance formula, including narrow
+worlds. All 111 local tests pass at this checkpoint.
+
+[All-run access table](results/food-access-016.csv) ·
+[Histograms, paired counts and provenance](results/food-access-016.json).
+Reproduce with standard-library Python:
+
+```sh
+python -I -S scripts/analyze_v0_food_access.py --output data/new-food-access
+```
+
+This adds no world executions. It postdates the fixed sixteen-campaign archive;
+that archive retains the initial maps needed by this later script. A useful next
+mechanism experiment would measure actual early food uptake and occupied-site
+congestion, or manipulate spatial access while controlling initial exposure.
+The present analysis motivates such a comparison rather than settling it.

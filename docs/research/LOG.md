@@ -1705,3 +1705,22 @@ frames, still pass the strengthened auditor. Engine code and raw records are
 unchanged. Updated the audit scope to separate valid parameter domains from
 proving the values were actually used. The fixed sixteen-campaign archive
 predates this correction and retains its original auditor and hashes.
+
+## 2026-09-14 — Autonomous cycle 115
+
+Retrospectively analyzed initial food access in campaign 016 without additional
+world runs. A standalone standard-library script hash-checks all thirty maps
+against the existing verification report, reconciles immediate exposure, and
+computes nearest-food distances on the torus while ignoring occupancy.
+
+Block has more founders initially on food in seven matched pairs, equal in one
+and fewer in two, yet goes extinct earlier in all ten. Dispersed maps put every
+founder within four cells of initial food; each block world has maximum founder
+distance thirteen. Recorded all thirty rows and distance histograms, and added
+an explicit distinction between geometric access and actual feeding trajectories.
+No unique causal mechanism, travel-time estimate or starvation claim is made.
+
+Three distance tests include independent toroidal Manhattan comparisons with
+single/multiple sources and narrow worlds, all-food maps and invalid/missing food.
+All 111 local tests pass. Updated campaign report; fixed sixteen-campaign archive
+remains unchanged and formal inventory totals do not increase.
