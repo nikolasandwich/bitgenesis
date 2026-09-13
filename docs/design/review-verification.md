@@ -37,17 +37,21 @@ energy accounting proves the scientific interpretation of a research result.
 
 ## Build a new review archive
 
-`python scripts/package_v0_review.py --campaigns 12` includes the local raw
-outputs for campaigns 001–012 and `data/review-v0-12.html`, along with tracked
+`python scripts/package_v0_review.py --campaigns 13` includes the local raw
+outputs for campaigns 001–013 and `data/review-v0-13.html`, along with tracked
 source, compact results and the acceptance demonstration. Generate the page first
-with `python scripts/build_v0_review.py --campaigns 12`. Both commands require
+with `python scripts/build_v0_review.py --campaigns 13`. Both commands require
 the complete local inputs; the packager also requires a clean committed checkout.
 An existing output is rejected; use `--output` for a distinct snapshot.
 
 The default remains eight campaigns. The manifest records the selected raw-data
 workload separately from all tracked source documents, which may discuss later
-campaigns. For twelve campaigns it identifies twenty longitudinal follow-ups
+campaigns. For thirteen campaigns it identifies twenty longitudinal follow-ups
 and 200000 replayed prefix ticks. Packaging reruns the existing full-run audits,
-campaign-005 audit, and selected 009–012 metric verifiers. The 011 verifier also
+campaign-005 audit, and selected 009–013 metric verifiers. The 011 verifier also
 compares all recorded prefixes with campaign 010. These are artifact consistency
 checks with the scope of each named verifier, not independent simulation reruns.
+
+The 013 verifier reconstructs cumulative genome coverage from the complete birth
+catalog and checks every recorded metric row. Its missing full death records
+limit independent reconstruction of living trait sets; see the campaign report.
