@@ -1,0 +1,11 @@
+{
+  "page": "data\\review-v0-16.html",
+  "page_sha256": "dc6e9c85aa745d911bb147ef0c47175edb6cc0198919e62478158393be3dcf4e",
+  "campaigns": 16,
+  "executions": 744,
+  "computed_ticks": 6640000,
+  "followups": 24,
+  "replayed_prefix_ticks": 212000,
+  "local_targets_checked": 11,
+  "scope": "Static counts/targets and in-app browser inspection of new table, description and image presence; not an all-browser certification."
+}

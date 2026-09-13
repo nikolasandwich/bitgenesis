@@ -1648,3 +1648,16 @@ two seeds. Applied small treatment offsets and rechecked the corrected figure;
 all points remain visible. Caption distinguishes illustrative maps, matched
 initial seeds and divergent later draws. Published PNG/SVG/provenance and linked
 from the report. No new simulation, summary change or stronger causal claim.
+
+## 2026-09-14 — Autonomous cycle 111
+
+Extended the local review builder to sixteen campaigns. It validates the full
+arm/seed grid and equality with the independent campaign-016 report before
+rendering all three observation horizons, extinction ranges and the map/outcome
+figure. The section preserves the uniform-arm confound and limits on paired RNG.
+
+Built data/review-v0-16.html. Checked workload counts and all eleven local targets;
+in-app browser inspection confirms the new section, table and image presence.
+Recorded page hash and inspection scope. Updated local entry guidance while
+retaining the fifteen-campaign download scope; source 114ad02 CI 34789702658 is
+successful with 106 tests. Existing generated pages and archives are unchanged.

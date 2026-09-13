@@ -30,7 +30,7 @@ def require_followup_records(records, reference, verified):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-root", type=Path, default=Path("data"))
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     args.output = args.output or args.data_root / f"review-v0-{args.campaigns}.html"
@@ -250,6 +250,27 @@ def main():
         followup_figure = link(Path(__file__).resolve().parents[1] / "docs/research/figures/campaign-015-followup.png")
         followup_section = f'''<section><h2>15 / 暂时两组都在，后来只剩一组</h2><p>把第十四轮终点仍有两组中性标签的全部四个世界延长观察到 30,000 步。两组移动性状相同，突变关闭；四个案例均在第 3,625—4,765 步失去一组，剩余组维持到新终点。</p>{followup_table}<img src="{followup_figure}" alt="四个条件选择世界的 B 标签比例：左列显示前六千步细节，右列显示完整三万步；灰区是原三千步观察窗，圆点标记标签消失。" style="width:100%;height:auto"><p>原来的双组终点没有持续下去，因此不能把它当作稳定共存的证据。0% 或 100% 的水平线只表示一个标签存活，不表示种群停止出生、死亡或数量变化。</p><p class="small">这是按既有终点选择的四个案例，不是新增独立种子；同一数值种子 1208 出现在两个不同条件。12,000 步重放原前缀，108,000 步增加观察时长。不能据此估计普遍共存率或证明所有世界最终必然只剩一组。</p></section>'''
         page = page.replace('<section><h2>复核与恢复</h2>', followup_section + '<section><h2>复核与恢复</h2>')
+    if args.campaigns >= 16:
+        records = campaigns[15]
+        require_run_grid([{"treatment":r["arm"],"seed":r["seed"]} for r in records],
+                         ("uniform","dispersed","block"), range(1300,1310))
+        verified_path = Path(__file__).resolve().parents[1] / "docs/research/results/campaign-016-verification.json"
+        verified = json.loads(verified_path.read_text(encoding="utf-8"))
+        if ({(r["arm"],r["seed"]):r for r in records}
+                != {(r["arm"],r["seed"]):r for r in verified["runs"]}):
+            raise ValueError("Food geometry records differ from independent verification")
+        geometry_rows = []
+        for arm,label in (("uniform","均匀铺开"),("dispersed","随机散布"),("block","集中成片")):
+            selected = [r for r in records if r["arm"] == arm]
+            deaths = [r["extinction_tick"] for r in selected if r["extinction_tick"] is not None]
+            geometry_rows.append([label,f"{sum(r['population_at_500']>0 for r in selected)}/10",
+                f"{sum(r['population_at_5000']>0 for r in selected)}/10",
+                f"{sum(r['population']>0 for r in selected)}/10",
+                f"{min(deaths):,}–{max(deaths):,}" if deaths else "没有观察到灭绝"])
+        geometry_table = table(["初始食物分布","活到 500 步","活到 5,000 步","活到 10,000 步","已灭绝世界的时间范围"],geometry_rows)
+        geometry_figure = link(Path(__file__).resolve().parents[1] / "docs/research/figures/campaign-016-geometry.png")
+        geometry_section = f'''<section><h2>16 / 食物总量相同，分布也会改变过程</h2><p>三组都从 5,120 食物能量与 1,920 个体能量开始，固定移动性状 250、关闭突变。每个种子的三组共享创始个体与初始世界随机状态，仅在开局放置不同食物地图，之后使用相同 V0 规则。</p>{geometry_table}<img src="{geometry_figure}" alt="上方是种子 1300 的三种初始食物地图，红圈表示相同创始个体；下方以对数时间轴展示全部三十个世界的灭绝时间。" style="width:100%;height:auto"><p>一万步时三组都已灭绝，但集中成片组在第 110–169 步就全部消失；只看最终结果会漏掉建立阶段和存活时长的差异。</p><p class="small">随机散布与集中成片共享相同食物取值集合，只改变位置。均匀组还改变了每格食物量，不能作为单纯的位置对照。上方地图只展示第一个预定种子，下方保留全部十组配对；初始随机状态相同不保证之后随机调用相同。这些有限种子结果不能证明食物集中总是有害，更没有检验感知能力。</p></section>'''
+        page = page.replace('<section><h2>复核与恢复</h2>',geometry_section+'<section><h2>复核与恢复</h2>')
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x", encoding="utf-8") as stream:
         stream.write(page)

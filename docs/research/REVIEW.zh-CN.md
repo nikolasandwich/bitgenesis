@@ -8,7 +8,7 @@
 
 下载[十五轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-00e18fdc0b94307ac16e)，
 完整解压 `bitgenesis-v0-fifteen-campaigns.zip`，从 `START-HERE.txt` 开始，
-再打开 `bitgenesis/data/review-v0-15.html`。本地入口也是 `data/review-v0-15.html`。
+再打开 `bitgenesis/data/review-v0-15.html`。最新本地入口为 `data/review-v0-16.html`，多出第十六轮；下载归档仍是十五轮。
 保留目录结构，页面中的世界回放、谱系与图表依赖相邻文件。
 草稿尚未正式发布，需要有权限的 GitHub 账号查看。
 
@@ -54,6 +54,8 @@
 
 十五轮归档源码 `0344839` 的 92 项测试在 Windows/Linux × Python 3.12/3.13/3.14
 六种组合通过（[CI 34788400431](https://github.com/nikolasandwich/bitgenesis/actions/runs/34788400431)）。
+后续源码 `114ad02` 的 106 项测试也已通过持续集成
+（[CI 34789702658](https://github.com/nikolasandwich/bitgenesis/actions/runs/34789702658)）。
 测试覆盖能量收支、空间约束、遗传、记录核对和精确恢复等契约；通过测试不证明生物学真实性。
 冻结重放只对已检查的运行与环境提供证据，不保证所有版本任意运行都逐位一致。
 
@@ -70,5 +72,5 @@
 阶段标准见[路线图](../roadmap/README.md)，逐项证据见[V0 验收对照](../roadmap/v0-evidence.md)，
 过程记录见[研究日志](LOG.md)。
 
-需要重新构建验收材料时，使用 `python scripts/build_v0_review.py --campaigns 15 --output data/my-review.html`；
+需要重新构建验收材料时，使用 `python scripts/build_v0_review.py --campaigns 16 --output data/my-review.html`；
 需要完整本地数据，输出路径必须是新路径。打包方式和检查范围见[归档核验指南](../design/review-verification.md)。
