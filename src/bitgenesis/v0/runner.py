@@ -87,6 +87,8 @@ def run(config, steps, output, frame_interval=10):
         save("summary.json", world.snapshot())
         from bitgenesis.v0.viewer import write_viewer
         write_viewer(output / "index.html", config, snapshots, frames)
+        from bitgenesis.v0.lineage_viewer import write_lineage_viewer
+        write_lineage_viewer(output / "lineage.html", world)
         metadata.update(status="complete", completed_steps=world.tick)
         save("metadata.json", metadata)
     except Exception as error:

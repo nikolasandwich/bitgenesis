@@ -85,6 +85,7 @@ class DarwinTests(unittest.TestCase):
             self.assertEqual(json.loads((target / "summary.json").read_text()), result)
             self.assertEqual([f["tick"] for f in json.loads((target / "frames.json").read_text())], [0, 2, 3])
             self.assertIn("World replay", (target / "index.html").read_text(encoding="utf-8"))
+            self.assertIn("Direct children", (target / "lineage.html").read_text(encoding="utf-8"))
             before = (target / "metadata.json").read_bytes()
             with self.assertRaises(FileExistsError):
                 run(Config(), 1, target)

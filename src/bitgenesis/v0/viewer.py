@@ -21,6 +21,7 @@ input{flex:1;min-width:40px;accent-color:#9be4c1}button,select{background:#233e4
 </style><main>
 <div class="eyebrow">BITGENESIS / EXPERIMENT OBSERVATORY</div>
 <h1>Life from simple rules?</h1>
+<a href="lineage.html" style="color:#9be4c1">Inspect individuals and ancestry →</a>
 <p>A minimal Darwinian world. Individuals inherit a probability of moving; energy, local food and space constrain survival and reproduction. No food-seeking controller is built in.</p>
 <div class="grid"><section class="panel"><h2>World replay</h2><div class="stats"><div><b id="tick"></b><span>TICK</span></div><div><b id="population"></b><span>POPULATION</span></div><div><b id="generation"></b><span>MAX GENERATION</span></div></div>
 <canvas id="world" width="640" height="640" aria-label="World replay: resources and organisms"></canvas>
