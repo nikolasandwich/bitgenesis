@@ -42,6 +42,48 @@ movement traits, food amounts and regrowth rates were not tested here.
 
 ## Verification and reproduction
 
+### Exploratory uncertainty supplement
+
+The following **post-experiment**, pointwise 95% Wilson intervals summarize the
+precision of each ten-world survival fraction. They were not preregistered tests.
+The calculation follows the [NIST binomial interval description](https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm).
+
+| Initial food | Horizon | Alive | Pointwise interval |
+| --- | --- | --- | --- |
+| 0 | 500, 5000 or 10000 | 0/10 at each horizon | 0.0%–27.8% |
+| 8 | 500 | 10/10 | 72.2%–100.0% |
+| 8 | 5000 | 8/10 | 49.0%–94.3% |
+| 8 | 10000 | 3/10 | 10.8%–60.3% |
+
+These are model-based intervals under independent, identically distributed
+Bernoulli outcomes across worlds within a treatment and fixed horizon. The
+preregistered consecutive seeds are deterministic replicates, not a random sample
+of all possible seeds; the independence model is an analysis assumption. The
+intervals quantify sampling uncertainty under that model, not its validity or
+uncertainty over untested world rules. Wilson coverage is approximate.
+
+The same ten worlds recur across horizons, so there are not thirty independent
+replicates. These are neither simultaneous confidence bands nor intervals for
+the paired treatment difference. Interval overlap is not a significance test.
+At these horizons every world has been observed, so administrative censoring at
+10000 does not leave endpoint survival unknown; survival beyond 10000 is unknown.
+Neither 0/10 nor 10/10 establishes an exact probability of zero or one. The broad
+3/10 interval reinforces the report's descriptive scope.
+
+Reproduce from the already verified compact outcomes, without rerunning worlds:
+
+```sh
+python scripts/analyze_v0_survival_uncertainty.py --output data/new-survival-uncertainty.json
+```
+
+The [result sidecar](results/survival-uncertainty-008.json) includes all six rows and
+input/script hashes. The helper checks the complete seed grid and consistency
+between survival counts and extinction times; it does not independently re-audit
+the raw metric tables. Tests verify interval endpoints against the binomial score
+equation, including all-success and all-failure cases.
+
+### Original run verification
+
 Engine invariants ran every tick. A separate helper read all 200,020 metric rows
 and checked the run grid, tick completeness, initial food/organism energy,
 population and energy accounting, fixed-trait constancy, extinction persistence,

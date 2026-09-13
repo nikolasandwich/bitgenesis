@@ -1,0 +1,77 @@
+{
+  "analysis": "campaign-008-survival-uncertainty-1",
+  "exploratory": true,
+  "assumption": "Independent Bernoulli world outcomes within each fixed treatment and horizon",
+  "scope": "Model-based, pointwise; not simultaneous, not a treatment-effect interval or permanence estimate",
+  "source": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm",
+  "input_sha256": "c40ef116ccee86a80f611b3a723e239433de857d3df199caf5f31dc55c7675dc",
+  "script_sha256": "f83cc67642b6ce49329d0116d665d35f50c0d0b0a1b09332fb18ad3bda66e8dd",
+  "groups": [
+    {
+      "initial_food": 0,
+      "horizon": 500,
+      "alive": 0,
+      "runs": 10,
+      "fraction": 0.0,
+      "wilson_95_pointwise": [
+        0.0,
+        0.27753279986288915
+      ]
+    },
+    {
+      "initial_food": 0,
+      "horizon": 5000,
+      "alive": 0,
+      "runs": 10,
+      "fraction": 0.0,
+      "wilson_95_pointwise": [
+        0.0,
+        0.27753279986288915
+      ]
+    },
+    {
+      "initial_food": 0,
+      "horizon": 10000,
+      "alive": 0,
+      "runs": 10,
+      "fraction": 0.0,
+      "wilson_95_pointwise": [
+        0.0,
+        0.27753279986288915
+      ]
+    },
+    {
+      "initial_food": 8,
+      "horizon": 500,
+      "alive": 10,
+      "runs": 10,
+      "fraction": 1.0,
+      "wilson_95_pointwise": [
+        0.7224672001371109,
+        1.0
+      ]
+    },
+    {
+      "initial_food": 8,
+      "horizon": 5000,
+      "alive": 8,
+      "runs": 10,
+      "fraction": 0.8,
+      "wilson_95_pointwise": [
+        0.49016247153664183,
+        0.9433178485456247
+      ]
+    },
+    {
+      "initial_food": 8,
+      "horizon": 10000,
+      "alive": 3,
+      "runs": 10,
+      "fraction": 0.3,
+      "wilson_95_pointwise": [
+        0.10779126740630102,
+        0.6032218525388546
+      ]
+    }
+  ]
+}

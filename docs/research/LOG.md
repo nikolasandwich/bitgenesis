@@ -470,3 +470,18 @@ external event-log durability is explicitly outside this state-only contract.
 No new engine behavior or scientific campaign was added. Full local suite passed
 44 tests. These cases complement the previous interruption and separate-process
 checks; they do not establish that every possible configuration was tested.
+
+## 2026-09-14 — Autonomous cycle 25
+
+Added an explicitly exploratory uncertainty supplement to campaign 008, using
+the previously verified compact outcomes. Pointwise 95% Wilson intervals are
+0/10: [0, 0.277533], 10/10: [0.722467, 1], 8/10: [0.490162, 0.943318],
+and 3/10: [0.107791, 0.603222]. The same worlds recur across horizons; no pooled
+replicate count, treatment-effect test or permanent-survival probability is claimed.
+The report states the independent-world Bernoulli assumption and the limitation
+of a deterministic consecutive seed block. Method checked against NIST's binomial
+interval documentation; numerical endpoints tested against the score equation.
+
+The helper checks the campaign's complete 20-run grid and survival/extinction
+consistency, records input and script hashes, and refuses to overwrite output.
+No new simulation or engine change. Full local suite passed 46 tests.
