@@ -12,6 +12,7 @@ import zipfile
 from bitgenesis.v0.audit import audit
 from audit_v0_world_sizes import audit as audit_world_sizes
 from verify_v0_review import verify
+from check_v0_campaign_inventory import check as check_inventory
 
 
 def sha256(path):
@@ -24,11 +25,13 @@ def sha256(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--campaigns", type=int, choices=(8, 9), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
-    args.output = args.output or Path("data/bitgenesis-v0-review-8.zip" if args.campaigns == 8
-                                      else "data/bitgenesis-v0-nine-campaigns.zip")
+    names = {8: "review-8", 9: "nine-campaigns", 10: "ten-campaigns", 11: "eleven-campaigns"}
+    args.output = args.output or Path(f"data/bitgenesis-v0-{names[args.campaigns]}.zip")
+    if args.output.exists():
+        raise ValueError("Review output already exists; choose a new path")
     review_page = f"review-v0-{args.campaigns}.html"
     root = Path(__file__).resolve().parents[1]
     def git(*arguments):
@@ -52,16 +55,28 @@ def main():
         if directory.is_dir():
             audited[f"campaign-001/{directory.name}"] = audit(directory)
     metric_audits = {"campaign-005": audit_world_sizes(root / "data" / "campaign-005")}
-    if args.campaigns == 9:
+    inventory = json.loads((root / "experiments/v0/campaign-inventory.json").read_text(encoding="utf-8"))
+    inventory["campaigns"] = inventory["campaigns"][:args.campaigns]
+    workload = check_inventory(root, inventory)
+    helpers = {9: "summarize_v0_energy_allocation.py",
+               10: "summarize_v0_reproduction_threshold.py",
+               11: "summarize_v0_long_horizon.py"}
+    for number, helper in helpers.items():
+        if number > args.campaigns:
+            continue
         with tempfile.TemporaryDirectory() as temporary:
             summary = Path(temporary) / "verification"
-            subprocess.run([sys.executable, str(root / "scripts/summarize_v0_energy_allocation.py"),
-                            "--input", str(root / "data/campaign-009"), "--output", str(summary)],
-                           check=True, stdout=subprocess.DEVNULL)
-            metric_audits["campaign-009"] = json.loads((summary / "summary.json").read_text())
+            command = [sys.executable, str(root / "scripts" / helper),
+                       "--input", str(root / "data" / f"campaign-{number:03d}"),
+                       "--output", str(summary)]
+            if number == 11:
+                command.extend(["--reference", str(root / "data/campaign-010")])
+            subprocess.run(command, check=True, stdout=subprocess.DEVNULL)
+            metric_audits[f"campaign-{number:03d}"] = json.loads((summary / "summary.json").read_text())
     manifest = {"format": "bitgenesis-review-1", "git_commit": git("rev-parse", "HEAD"),
-                "scope": f"Tracked source plus campaigns 001–{args.campaigns:03d}, mutation calibration, acceptance demonstration and Chinese review page. Other local data and environments are excluded.",
+                "scope": f"Tracked source plus campaigns 001鈥搟args.campaigns:03d}, mutation calibration, acceptance demonstration and Chinese review page. Other local data and environments are excluded.",
                 "audits": audited,
+                "raw_campaign_workload": workload,
                 "metric_campaign_audits": metric_audits,
                 "files": {"bitgenesis/" + p.relative_to(root).as_posix():
                           {"sha256": sha256(p), "bytes": p.stat().st_size} for p in files}}

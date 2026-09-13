@@ -34,3 +34,20 @@ payload, missing target and unlisted file fixtures are rejected by tests.
 The packager uses the same helper after writing future archives. Its full-run
 and metric audits remain separate checks. Neither file integrity nor simulated
 energy accounting proves the scientific interpretation of a research result.
+
+## Build a new review archive
+
+`python scripts/package_v0_review.py --campaigns 11` includes the local raw
+outputs for campaigns 001–011 and `data/review-v0-11.html`, along with tracked
+source, compact results and the acceptance demonstration. Generate the page first
+with `python scripts/build_v0_review.py --campaigns 11`. Both commands require
+the complete local inputs; the packager also requires a clean committed checkout.
+An existing output is rejected; use `--output` for a distinct snapshot.
+
+The default remains eight campaigns. The manifest records the selected raw-data
+workload separately from all tracked source documents, which may discuss later
+campaigns. For eleven campaigns it identifies twenty longitudinal follow-ups
+and 200000 replayed prefix ticks. Packaging reruns the existing full-run audits,
+campaign-005 audit, and selected 009–011 metric verifiers. The 011 verifier also
+compares all recorded prefixes with campaign 010. These are artifact consistency
+checks with the scope of each named verifier, not independent simulation reruns.
