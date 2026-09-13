@@ -849,3 +849,18 @@ metadata confirms git_dirty false and the registered source. The live process
 is producing per-seed outputs. Results are pending and are not yet included in
 validated totals or archives. Next: independently recompute declared observations
 from all raw metric tables once execution completes.
+
+## 2026-09-14 — Autonomous cycle 53
+
+Added the campaign-012 independent full-metric verifier while the original
+experiment process remains live. It validates the declared grid, fixed parameters,
+initial ledger, per-tick accounting/bounds, extinct living metrics, early peak,
+late turnover and summaries, then computes preregistered descriptive contrasts.
+Compilation and 53 contract tests passed.
+
+Disposable inputs confirmed rejection of a falsely completed empty grid, altered
+intermediate energy, an incorrect early-peak summary and a truncated first run.
+An unchanged completed first run advanced to the intentionally absent second
+file, distinguishing its validation from later missing-input failure. These are
+focused corruption probes, not verification of all eighty unfinished runs. Raw
+data and running engine were untouched; accepted totals remain eleven campaigns.

@@ -56,6 +56,9 @@ def main():
                 raise ValueError(f"Tick sequence: {path.name}")
             if rows[0]["food_energy"] != food * config["width"] * config["height"] or rows[0]["organism_energy"] != config["initial_population"] * energy:
                 raise ValueError(f"Initial energy: {path.name}")
+            if (rows[0]["population"], rows[0]["births"], rows[0]["deaths"],
+                    rows[0]["dissipated_energy"], rows[0]["supplied_energy"]) != (80, 0, 0, 0, 7040):
+                raise ValueError("Invalid initial population or energy ledger")
             previous = None
             for row in rows:
                 if any(row[k] < 0 for k in ("population", "births", "deaths", "food_energy", "organism_energy", "dissipated_energy", "supplied_energy")):
@@ -64,6 +67,9 @@ def main():
                     raise ValueError("Spatial or resource bounds")
                 if previous and any(row[k] < previous[k] for k in ("births", "deaths", "dissipated_energy", "supplied_energy")):
                     raise ValueError("Cumulative metric decreased")
+                if row["population"] == 0 and (row["organism_energy"] != 0
+                        or row["genome_variants"] != 0 or row["mean_genome"] is not None):
+                    raise ValueError("Extinct world retains living metrics")
                 previous = row
                 if (row["population"] != config["initial_population"] + row["births"] - row["deaths"]
                     or row["organism_energy"] + row["food_energy"] + row["dissipated_energy"] != row["supplied_energy"]
