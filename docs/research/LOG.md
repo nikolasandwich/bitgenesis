@@ -733,3 +733,11 @@ independent replicate count. Protocols remain the source of scientific design.
 All eleven committed CSVs passed. Disposable-copy checks rejected a duplicate row
 with unchanged total count and an incorrect replay-prefix declaration. Inventory,
 input and helper hashes are recorded. No original data or engine was changed.
+
+## 2026-09-14 — Autonomous cycle 45
+
+Added the compact campaign-inventory check to every existing CI environment after
+the contract suite. Future edits now automatically check declared execution counts,
+unique/balanced identities, horizons and follow-up prefixes against tracked CSVs.
+This requires no private/local raw artifacts and does not rerun scientific worlds.
+The step remains a counting check, not validation of every research conclusion.

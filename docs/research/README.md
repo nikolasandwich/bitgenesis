@@ -6,6 +6,7 @@
 可用 `python scripts/check_v0_campaign_inventory.py` 复算。
 [计数清单](../../experiments/v0/campaign-inventory.json)与[核对结果](results/campaign-inventory-verification.json)
 检查执行数、时间步、种子覆盖、重复身份和复查前缀；它们不替代各轮科学核验或预注册协议。
+该计数检查已加入 CI，使用仓库中的精简结果，不需要本地大体积逐步数据。
 
 首次验收可先阅读[中文指南](REVIEW.zh-CN.md)，再打开本地
 `data/review-v0-10.html`。这个视觉快照涵盖十轮，可用
