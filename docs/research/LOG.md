@@ -1598,3 +1598,19 @@ tests pass, including zero/nonaligned horizons; eleven historical full runs rema
 valid without edits. Updated the audit scope matrix to describe the stronger
 sampling guarantee and retain the limit on unobserved events between samples.
 No simulator, recording format or archived files changed.
+
+## 2026-09-14 — Autonomous cycle 108
+
+Preregistered campaign 016 and committed runner/protocol at d56af66 before launch.
+Thirty 10,000-tick executions cross ten new seeds (1300–1309) with uniform,
+dispersed and torus-translated block food maps. All begin with 5,120 food energy
+plus 1,920 organism energy; fixed trait 250, mutation disabled and regrowth 15.
+Dispersed/block maps share the exact value multiset; uniform changes both local
+amounts and arrangement and is not an arrangement-only contrast.
+
+Validated all thirty initial maps for total energy, bounds, repeated construction
+and shared concentrated multiset; all block maps are connected on the torus.
+Layout RNG is separate from world RNG. Initial food/founders and RNG-state digest
+are saved for independent pairing checks. Launched from clean source; results
+remain provisional until the whole grid and initial-state/metric records are
+independently verified. Formal inventory remains fifteen completed campaigns.
