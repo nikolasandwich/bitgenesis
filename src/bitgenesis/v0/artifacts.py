@@ -14,12 +14,12 @@ def write_json_atomic(path, value):
     it does not promise recovery from every filesystem or power-loss failure.
     """
     path = Path(path)
-    payload = json.dumps(value, indent=2, allow_nan=False) + "\n"
     descriptor, temporary = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
     temporary = Path(temporary)
     try:
         with os.fdopen(descriptor, "w", encoding="utf-8", newline="\n") as stream:
-            stream.write(payload)
+            json.dump(value, stream, indent=2, allow_nan=False)
+            stream.write("\n")
             stream.flush()
             os.fsync(stream.fileno())
         os.replace(temporary, path)
