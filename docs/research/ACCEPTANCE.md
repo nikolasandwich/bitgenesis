@@ -2,12 +2,19 @@
 
 Current research: eight campaigns / 370 runs / 1,740,000 ticks; see the
 [research index](README.md). Latest report: [initial food and establishment](campaign-008.md).
-Visual review entry `data/review-v0-8.html` and archive `data/bitgenesis-v0-review-8.zip`
-cover all eight campaigns (370 runs / 1,740,000 ticks).
-Earlier archive descriptions below refer to preserved historical snapshots.
+Visual review entry `data/review-v0-8.html` covers all eight campaigns.
+The latest uploaded review archive is `bitgenesis-v0-review-8b.zip`, fixed source
+`f389047`, attached to the `v0.0.1-preview.1` GitHub draft release. It includes the
+eight campaigns but predates the latest checkpoint validation and survival
+uncertainty supplement. The draft is not a published release; its attachments
+do not track main. See the [Chinese guide](REVIEW.zh-CN.md) for access and
+[archive verification](../design/review-verification.md) before using a snapshot.
+Earlier archive descriptions below are explicitly historical.
 
-Current compatibility evidence: 34 tests passed on Windows/Linux × Python
-3.12/3.13/3.14 in [run 34776314237](https://github.com/nikolasandwich/bitgenesis/actions/runs/34776314237).
+Verified compatibility checkpoint: source `1b8a2fd`, 46 tests passed on
+Windows/Linux × Python 3.12/3.13/3.14 in
+[run 34778435637](https://github.com/nikolasandwich/bitgenesis/actions/runs/34778435637).
+These counts describe named source checkpoints, not the test count of every archive.
 This covers the frozen fixture and CLI/recovery contracts; it is not all research
 campaigns replayed on six configurations. Checkpoint Python-version restrictions remain.
 
@@ -41,7 +48,9 @@ services. Use a new output path each time.
 | Basic world view and lineage inspection | Replay + clickable ancestry inspector | Met |
 | Explain designed rules | `docs/design/v0-rules.md` and emergence note | Met |
 
-Twenty-five checks passed at this checkpoint. Campaigns 001–005 cover 990,000
+### Historical five-campaign checkpoint
+
+Twenty-five checks passed at that checkpoint. Campaigns 001–005 cover 990,000
 simulation ticks. Campaign 001 finds lineage collapse; campaign 002 shows that
 the trait supporting more individuals in a fixed-trait assay need not match the trait favored in
 mixed populations; campaign 003 directly tests competition with neutral-label
@@ -59,7 +68,7 @@ campaign-001 runs and the acceptance demonstration, plus a sampled extinction
 run. It catches corrupted energy accounting, missing lifecycle events and broken
 parent references. This checks artifact consistency, not biological validity.
 
-The current Chinese entry point is `data/review-v0-5.html`. The local five-campaign
+The historical Chinese entry point is `data/review-v0-5.html`. The local five-campaign
 archive is `data/bitgenesis-v0-review-5.zip`, source checkpoint `54078bf`; its
 398 files were read back and matched against their manifest hashes. A refreshed
 documentation checkpoint can be packaged with `--output data/bitgenesis-v0-review-5b.zip`.
@@ -83,8 +92,8 @@ recording. Existing review archives retain their earlier source snapshots.
 - Organisms, inheritance, reproduction, resource rules and trait meaning are
   designed assumptions. No abiogenesis claim.
 - Stochastic treatments share initialization, not guaranteed identical future
-  environmental events. The frozen test matches on the four tested platform/
-  interpreter combinations; this is not a guarantee for every run or future version.
+  environmental events. The frozen test matches on the six tested platform/
+  interpreter combinations cited above; this is not a guarantee for every run or future version.
 - Complete lineage remains in memory; replay and chart retention are now bounded.
 - Trait mutation clamps at boundaries. Exact calibration found inward one-birth
   mean drift near the edges; it does not predict the selected population distribution.
@@ -94,3 +103,17 @@ Direct competition, a frozen replay regression, and installed-package provenance
 are now checked, as are longer-horizon/resource regimes, independent artifact
 auditing and portable review bundles. A V1 proposal is documented,
 but V0 remains the only runtime. Preserve existing rules and preregister experiments.
+
+## Supplements on main
+
+These analyses and engineering checks do not increase the formal campaign count:
+
+- [Energy budgets](energy-budget.md): reconstruct expenditure from existing fixed-trait runs.
+- [Retention benchmark](retention-benchmark.md): measured history and serialization memory limits.
+- [Encoded behavior ceiling](../design/emergence.md): movement-trait diversity is not new controller structure.
+- [Survival uncertainty](campaign-008.md#exploratory-uncertainty-supplement): pointwise, model-based intervals from ten worlds per treatment.
+- [Checkpoint contract](../design/checkpoints.md): structural validation and continuation across empty, extinct, saturated and event-drained states.
+
+The [continuous log](LOG.md) records source-specific validation and decisions.
+V1 remains a [design proposal](../design/v1-proposal.md), with a separate
+[experiment design](../design/v1-experiment-design.md), not an implemented runtime.

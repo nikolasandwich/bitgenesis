@@ -36,8 +36,10 @@ V0 已从骨架推进到可运行的最小达尔文世界。后续阶段尚未�
 - 阅读八个实验报告中的对照、灭绝和局限，不只看存活的动画。
 - 按 README 生成一个新实验，确认输出目录不可覆盖、记录来源清楚。
 
-原五轮实验检查点有 25 项测试；加入断点恢复和世界规模数据核验后，34 项测试已在
-Windows/Linux、Python 3.12/3.13/3.14 的六种组合通过（CI 34776314237）。
+已核验的代码检查点 `1b8a2fd` 有 46 项测试，在 Windows/Linux、Python
+3.12/3.13/3.14 的六种组合通过（[CI 34778435637](https://github.com/nikolasandwich/bitgenesis/actions/runs/34778435637)）。
+测试数属于对应代码版本，
+不代表历史归档也包含这些更新。
 每个正式实验时间步都检查能量收支与空间约束。
 同种子重放和冻结版本指纹已测试，但没有宣称所有平台/解释器版本都逐位一致。
 
@@ -60,3 +62,8 @@ Windows/Linux、Python 3.12/3.13/3.14 的六种组合通过（CI 34776314237）�
 仓库另有 [GitHub 草稿发布](https://github.com/nikolasandwich/bitgenesis/releases)
 `v0.0.1-preview.1`，附带 `bitgenesis-v0-review-8b.zip` 和校验文件，固定源代码 `f389047`。
 这是验收草稿；附件不会随 main 的后续提交自动更新。整包哈希与说明保存在草稿及 `LOG.md`。
+
+main 另有[能量预算](energy-budget.md)、[内存测量](retention-benchmark.md)和
+[存活比例不确定性](campaign-008.md#exploratory-uncertainty-supplement)等补充材料。
+它们没有增加正式实验次数；最新断点校验和存活区间分析晚于上述草稿附件。
+验收当前代码时请查看 main，复查某次归档时请以其源代码版本和清单为准。

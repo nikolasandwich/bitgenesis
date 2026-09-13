@@ -485,3 +485,17 @@ interval documentation; numerical endpoints tested against the score equation.
 The helper checks the campaign's complete 20-run grid and survival/extinction
 consistency, records input and script hashes, and refuses to overwrite output.
 No new simulation or engine change. Full local suite passed 46 tests.
+
+## 2026-09-14 — Autonomous cycle 26
+
+Reviewed the acceptance documents against current repository and release state.
+Corrected a stale claim naming the five-campaign visual page as current; marked
+that section as historical and distinguished the eight-campaign main working
+tree from the uploaded fixed-source 8b draft archive. Linked the later energy,
+memory, expressive-ceiling, survival-uncertainty and checkpoint supplements without
+counting them as new formal campaigns. V1 is still explicitly design-only.
+
+Source 1b8a2fd passed all six Windows/Linux × Python 3.12/3.13/3.14 jobs in
+CI run 34778435637, including the 46-test suite. Acceptance guides now cite this
+specific source and run instead of implying historical archive test counts are
+current. No runtime or experiment data changed.
