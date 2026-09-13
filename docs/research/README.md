@@ -4,7 +4,9 @@
 这些数字不包括回放演示、断点验证和精确数学枚举。各轮数量与保存的结果 CSV 核对。
 
 首次验收可先阅读[中文指南](REVIEW.zh-CN.md)，再打开本地
-`data/review-v0-8.html`。这个视觉快照涵盖八轮。
+`data/review-v0-9.html`。这个视觉快照涵盖九轮，可用
+`python scripts/build_v0_review.py --campaigns 9` 在完整本地数据上重建。
+旧 `data/review-v0-8.html` 保留为八轮快照。
 `data/bitgenesis-v0-review-8.zip` 是同一八轮范围的可携带归档，不代表后续提交。
 GitHub 保存代码、协议、报告和精简结果；大体积逐步数据保存在本地或对应归档中。
 

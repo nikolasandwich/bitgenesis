@@ -2,8 +2,8 @@
 
 Current research: nine campaigns / 400 runs / 2,040,000 ticks; see the
 [research index](README.md). Latest report: [equal-energy allocation](campaign-009.md).
-Visual review entry `data/review-v0-8.html` covers all eight campaigns.
-It predates campaign 009, which is available in the linked report and compact data.
+Visual review entry `data/review-v0-9.html` covers all nine campaigns, including
+the early allocation trajectories. The eight-campaign page remains preserved.
 The latest uploaded review archive is `bitgenesis-v0-review-8b.zip`, fixed source
 `f389047`, attached to the `v0.0.1-preview.1` GitHub draft release. It includes the
 eight campaigns but predates the latest checkpoint validation and survival

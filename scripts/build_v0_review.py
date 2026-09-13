@@ -13,13 +13,15 @@ from urllib.parse import quote
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-root", type=Path, default=Path("data"))
-    parser.add_argument("--output", type=Path, default=Path("data/review-v0-8.html"))
+    parser.add_argument("--campaigns", type=int, choices=(8, 9), default=8)
+    parser.add_argument("--output", type=Path)
     args = parser.parse_args()
+    args.output = args.output or args.data_root / f"review-v0-{args.campaigns}.html"
     campaigns = [json.loads((args.data_root / f"campaign-{i:03d}" / "results.json").read_text(encoding="utf-8"))
-                 for i in range(1, 9)]
-    if [len(c) for c in campaigns] != [10, 100, 80, 20, 30, 50, 60, 20]:
-        raise ValueError("Expected complete campaigns 001–008")
-    for i in range(2, 9):
+                 for i in range(1, args.campaigns + 1)]
+    if [len(c) for c in campaigns] != [10, 100, 80, 20, 30, 50, 60, 20, 30][:args.campaigns]:
+        raise ValueError("Expected complete campaign counts")
+    for i in range(2, args.campaigns + 1):
         metadata = json.loads((args.data_root / f"campaign-{i:03d}" / "metadata.json").read_text(encoding="utf-8"))
         if metadata["status"] != "complete":
             raise ValueError(f"Campaign {i} is not marked complete")
@@ -115,6 +117,19 @@ def main():
 <section><h2>08 / 开局资源帮助建立，却不保证维持</h2><p>固定性状 250、关闭突变，保持持续食物再生不变。每种初始食物条件十个种子、10,000 步。没有初始食物的种群全部在第 30–65 步灭绝；有初始食物的种群全部建立，但随后仍有不少灭绝。</p>{table_initial_food}<p class="small">空食物开局仍有能量为 24 的创始个体；这不是无资源或生命起源实验。终点存活者的后续寿命仍未知。</p></section>
 <section><h2>复核与恢复</h2><p>完整演示支持独立核对指标、事件和谱系。后续指标实验分别复算了其声明的观测量与能量收支。断点工具可精确继续世界状态，旧回放和指标文件不会被续写。</p><p class="small">核验检查记录是否一致，不证明生物学真实性。当前核心仍未实现食物感知、记忆或神经控制器。</p></section>
 <section><h2>接下来如何继续</h2><p>保持 V0 规则与旧实验可重放，区分稀缺资源下的早期建立过程和后续适应，再决定是否进入可进化控制器阶段。先增加证据，再增加生物复杂度。</p><p class="small">详细协议与报告位于仓库的 <code>experiments/v0/</code>、<code>docs/research/</code>；当前验收检查点见 <code>ACCEPTANCE.md</code>。本页为本地静态研究快照。</p></section></main></html>'''
+    if args.campaigns == 9:
+        allocations = defaultdict(list)
+        for row in campaigns[8]:
+            allocations[row["treatment"]].append(row)
+        labels = {"low": "低能量基线", "food": "环境食物", "stored": "体内储能"}
+        allocation_table = table(["条件", "初始总能量", "活到 500 步", "活到 5,000 步", "活到 10,000 步"],
+            [[labels[name], 1920 if name == "low" else 7040,
+              f"{sum(r['population_at_500'] > 0 for r in allocations[name])}/10",
+              f"{sum(r['population_at_5000'] > 0 for r in allocations[name])}/10",
+              f"{sum(r['population'] > 0 for r in allocations[name])}/10"] for name in ("low", "food", "stored")])
+        allocation_figure = link(Path(__file__).resolve().parents[1] / "docs/research/figures/campaign-009-early.png")
+        allocation_section = f'''<section><h2>09 / 总能量相同，分配方式也重要</h2><p>两个主要组的初始总能量同为 7040，分别放在环境食物中或个体体内；低能量基线为 1920。每组十个新种子、10,000 步，持续资源再生参数相同。</p>{allocation_table}<img src="{allocation_figure}" alt="三十个世界前一百步的种群轨迹；体内储能组先快速繁殖，再灭绝。各图使用相同坐标。" style="width:100%;height:auto"><p class="small">图中细线为全部种子，粗线为组平均。早期窗口是事后分析。体内储能组灭绝时世界仍有食物，但这些总量不能说明个体当时是否能获取食物，也没有单独证明繁殖高峰导致灭绝。初始总量相同不保证后续实际输入相同。</p></section>'''
+        page = page.replace('<section><h2>复核与恢复</h2>', allocation_section + '<section><h2>复核与恢复</h2>')
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x", encoding="utf-8") as stream:
         stream.write(page)

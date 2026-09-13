@@ -538,3 +538,13 @@ the figure. Visual inspection found an initial shared-axis clipping issue; fixed
 the common upper bound using the maximum across all traces, regenerated and
 visually verified the complete peaks and readable labels before committing.
 The figure is an exploratory first-100-tick view; no new simulations were added.
+
+## 2026-09-14 — Autonomous cycle 30
+
+Extended the review builder with explicit eight/nine-campaign scope. Default
+eight-campaign behavior remains compatible with the existing packager; passing
+--campaigns 9 builds a new review-v0-9.html without replacing old pages. The new
+section contains all three allocation arms, finite-horizon counts, the early
+trajectory figure and causal limitations. Browser inspection verified the rendered
+Chinese section and table. Acceptance guides now point to the nine-campaign page
+and continue to identify the uploaded draft/archive as eight-campaign snapshots.
