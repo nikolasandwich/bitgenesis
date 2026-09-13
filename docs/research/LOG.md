@@ -403,3 +403,10 @@ Verified existing eight-campaign archive against its recorded external hash:
 target, unlisted payload and wrong expected archive hash are detected in tests.
 All 42 local tests passed. Future packaging invokes the helper; prior archives
 remain immutable. This operational verification adds no formal experiment runs.
+
+Rebuilt the eight-campaign bundle with the integrated verifier from clean source
+`f389047`: `data/bitgenesis-v0-review-8b.zip`, 576 files / 31,425,729 bytes,
+SHA-256 `cc81e02cae90d8d72117d41310bc85c5051a7697391f96bb097f0210e510832d`.
+The integrated packaging path passed, including 11 full-run audits and the
+campaign-005 metric audit. It now includes energy/retention analysis, streamed
+JSON code and the standalone verifier; earlier `review-8.zip` remains preserved.
