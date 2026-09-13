@@ -61,6 +61,14 @@ this checklist does not certify realism or open-ended evolution.
 
 ## Limits and next work
 
+Since the five-campaign archive, state-only checkpoint recovery was added at
+`0ad9f86`. All 30 tests passed locally, and all four CI jobs passed in
+[run 34774790013](https://github.com/nikolasandwich/bitgenesis/actions/runs/34774790013).
+A 1,000 + 1,500 tick continuation produced a byte-identical complete state file
+to a continuous 2,500 tick run. See the [recovery guide](../design/checkpoints.md)
+for its compatibility requirements and limits; this does not resume replay/CSV
+recording. Existing review archives retain their earlier source snapshots.
+
 - Organisms, inheritance, reproduction, resource rules and trait meaning are
   designed assumptions. No abiogenesis claim.
 - Stochastic treatments share initialization, not guaranteed identical future

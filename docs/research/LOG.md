@@ -191,3 +191,11 @@ recorded source revisions, before this feature.
 All 30 local tests passed, including unchanged frozen-engine regression. The
 preceding source revision `13a7b7a` also passed CI run 34774421613 on all four
 OS/Python combinations; the checkpoint revision will receive its own CI run.
+
+Checkpoint source `0ad9f86` subsequently passed all four CI jobs in run
+34774790013. A baseline seed-42 demonstration used separate processes for 1,000
+then 1,500 ticks versus a continuous 2,500 ticks. Both final state files have
+SHA-256 `fb3b3bd325df3304d5337ae8f2fc55d658799af5b2646225390c1a0fa0779d41`.
+Final population is 81, with 3,780 births and 3,779 deaths. These are operational
+validation runs, not additional independent research trials. Local outputs are
+preserved under `data/checkpoint-validation/`.
