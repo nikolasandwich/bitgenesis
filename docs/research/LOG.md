@@ -1001,3 +1001,17 @@ Verified in a fresh browser demo: ID 0 initially visible, nonexistent 99999
 clears the old record, then ID 1 restores its details and child 179. All 54
 tests passed. Only newly generated lineage pages change; historical artifacts
 and simulation rules remain fixed.
+
+## 2026-09-14 — Autonomous cycle 65
+
+Replayed the first hundred ticks of all twenty stored/40 worlds at costs 0/4
+with a read-only death observer around the original removal routine. All 2020
+metrics match verified prefixes. Observed 3175/2962 deaths; 45/53 respectively
+had food on the current cell, and 1166/1110 had food in cardinal neighbors.
+Counts are nested death events, not independent samples. Existing charge-before-
+feeding order explains how local food can coexist with a zero-energy death; no
+counterfactual benefit from changing order was tested.
+
+Tracked all-world counts, reference hashes, method and limits. The retrospective
+diagnostic adds 2000 replay computation ticks and zero new independent seeds,
+reported separately from formal campaign workloads. Engine and archives unchanged.

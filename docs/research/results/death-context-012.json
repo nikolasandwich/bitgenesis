@@ -1,0 +1,262 @@
+{
+  "analysis": "retrospective-death-context-012-1",
+  "prefix_ticks": 100,
+  "replayed_worlds": 20,
+  "computed_replay_ticks": 2000,
+  "matched_metric_rows": 2020,
+  "new_independent_replicates": 0,
+  "runs": [
+    {
+      "treatment": "stored-40-cost-0",
+      "seed": 1000,
+      "deaths": 317,
+      "deaths_with_cell_food": 6,
+      "deaths_with_neighbor_food": 120,
+      "deaths_with_world_food": 317
+    },
+    {
+      "treatment": "stored-40-cost-0",
+      "seed": 1001,
+      "deaths": 318,
+      "deaths_with_cell_food": 3,
+      "deaths_with_neighbor_food": 119,
+      "deaths_with_world_food": 318
+    },
+    {
+      "treatment": "stored-40-cost-0",
+      "seed": 1002,
+      "deaths": 317,
+      "deaths_with_cell_food": 3,
+      "deaths_with_neighbor_food": 110,
+      "deaths_with_world_food": 317
+    },
+    {
+      "treatment": "stored-40-cost-0",
+      "seed": 1003,
+      "deaths": 316,
+      "deaths_with_cell_food": 5,
+      "deaths_with_neighbor_food": 107,
+      "deaths_with_world_food": 316
+    },
+    {
+      "treatment": "stored-40-cost-0",
+      "seed": 1004,
+      "deaths": 318,
+      "deaths_with_cell_food": 3,
+      "deaths_with_neighbor_food": 133,
+      "deaths_with_world_food": 318
+    },
+    {
+      "treatment": "stored-40-cost-0",
+      "seed": 1005,
+      "deaths": 317,
+      "deaths_with_cell_food": 5,
+      "deaths_with_neighbor_food": 126,
+      "deaths_with_world_food": 317
+    },
+    {
+      "treatment": "stored-40-cost-0",
+      "seed": 1006,
+      "deaths": 317,
+      "deaths_with_cell_food": 3,
+      "deaths_with_neighbor_food": 106,
+      "deaths_with_world_food": 317
+    },
+    {
+      "treatment": "stored-40-cost-0",
+      "seed": 1007,
+      "deaths": 319,
+      "deaths_with_cell_food": 6,
+      "deaths_with_neighbor_food": 119,
+      "deaths_with_world_food": 319
+    },
+    {
+      "treatment": "stored-40-cost-0",
+      "seed": 1008,
+      "deaths": 318,
+      "deaths_with_cell_food": 6,
+      "deaths_with_neighbor_food": 106,
+      "deaths_with_world_food": 318
+    },
+    {
+      "treatment": "stored-40-cost-0",
+      "seed": 1009,
+      "deaths": 318,
+      "deaths_with_cell_food": 5,
+      "deaths_with_neighbor_food": 120,
+      "deaths_with_world_food": 318
+    },
+    {
+      "treatment": "stored-40-cost-4",
+      "seed": 1000,
+      "deaths": 294,
+      "deaths_with_cell_food": 6,
+      "deaths_with_neighbor_food": 111,
+      "deaths_with_world_food": 294
+    },
+    {
+      "treatment": "stored-40-cost-4",
+      "seed": 1001,
+      "deaths": 295,
+      "deaths_with_cell_food": 7,
+      "deaths_with_neighbor_food": 121,
+      "deaths_with_world_food": 295
+    },
+    {
+      "treatment": "stored-40-cost-4",
+      "seed": 1002,
+      "deaths": 289,
+      "deaths_with_cell_food": 1,
+      "deaths_with_neighbor_food": 122,
+      "deaths_with_world_food": 289
+    },
+    {
+      "treatment": "stored-40-cost-4",
+      "seed": 1003,
+      "deaths": 298,
+      "deaths_with_cell_food": 6,
+      "deaths_with_neighbor_food": 94,
+      "deaths_with_world_food": 298
+    },
+    {
+      "treatment": "stored-40-cost-4",
+      "seed": 1004,
+      "deaths": 299,
+      "deaths_with_cell_food": 1,
+      "deaths_with_neighbor_food": 104,
+      "deaths_with_world_food": 299
+    },
+    {
+      "treatment": "stored-40-cost-4",
+      "seed": 1005,
+      "deaths": 289,
+      "deaths_with_cell_food": 6,
+      "deaths_with_neighbor_food": 108,
+      "deaths_with_world_food": 289
+    },
+    {
+      "treatment": "stored-40-cost-4",
+      "seed": 1006,
+      "deaths": 297,
+      "deaths_with_cell_food": 6,
+      "deaths_with_neighbor_food": 117,
+      "deaths_with_world_food": 297
+    },
+    {
+      "treatment": "stored-40-cost-4",
+      "seed": 1007,
+      "deaths": 298,
+      "deaths_with_cell_food": 8,
+      "deaths_with_neighbor_food": 109,
+      "deaths_with_world_food": 298
+    },
+    {
+      "treatment": "stored-40-cost-4",
+      "seed": 1008,
+      "deaths": 298,
+      "deaths_with_cell_food": 5,
+      "deaths_with_neighbor_food": 109,
+      "deaths_with_world_food": 298
+    },
+    {
+      "treatment": "stored-40-cost-4",
+      "seed": 1009,
+      "deaths": 305,
+      "deaths_with_cell_food": 7,
+      "deaths_with_neighbor_food": 115,
+      "deaths_with_world_food": 305
+    }
+  ],
+  "input_sha256": {
+    "stored-40-cost-0-seed-1000.csv": "f2c09551e6e38ac9bdad08f7e0ddbfb2e50f28e3e83b9361c72f69efc0c690fa",
+    "stored-40-cost-0-seed-1001.csv": "ddb9c5cc2ccc07537bcbfab8f84d24e432af41cf3b61ce2c10db4df7a1363634",
+    "stored-40-cost-0-seed-1002.csv": "7098ff7349da454f0c145e92434c33a14e2de8dfe40c19d1d78f0edf112e44e4",
+    "stored-40-cost-0-seed-1003.csv": "ff09801793863884b9ba31a492ac556f8f34ed9e6eb4597dc7a3ca0627239d64",
+    "stored-40-cost-0-seed-1004.csv": "3d1f379a23997fb1c4b4ed082fb9930b24760a2d6a7a71a9c573e870d14bd011",
+    "stored-40-cost-0-seed-1005.csv": "56770fd3c9316005e79ac5d09a57f83941355ef2f47746e4aa18f2d28ce9352e",
+    "stored-40-cost-0-seed-1006.csv": "a009683be8ce365e41261b038b4f195cfe121a70d1736c263f0593f54a2cd8b0",
+    "stored-40-cost-0-seed-1007.csv": "26b8345b2a0ed08e65a21dd329d7927a1222e33989a2ebcc06fa191d33a68c40",
+    "stored-40-cost-0-seed-1008.csv": "c380902693a3e1edc126b50dc8548c4b4f41371aae2f94395f31fb3e3d14c914",
+    "stored-40-cost-0-seed-1009.csv": "eff04138a4c23e65e532f6b52f6f5b3f38a5c6e261356338c5329031f21561bf",
+    "stored-40-cost-4-seed-1000.csv": "59de9f92d91a5081a1307e6228480241c1db1352ff07789846c02e01ff0a7b74",
+    "stored-40-cost-4-seed-1001.csv": "15e6a1606a376a9f09ff6eb8e3bfacb892142629d9727ac67f5c341710ca8f95",
+    "stored-40-cost-4-seed-1002.csv": "50dfe325b3ab1acb21cdd868633c9dec5eac6e5b0cac1b404904f46ce6c14a4b",
+    "stored-40-cost-4-seed-1003.csv": "21d184c0e98f381680ad7dbabd1caeb9c8a8c3590da91d819731c5a5fd16b3d5",
+    "stored-40-cost-4-seed-1004.csv": "b09ae3e69f851834d5f78d82f481e9112fe525475f3a523b93d4a7d2004a3635",
+    "stored-40-cost-4-seed-1005.csv": "3cde61827c2b22dbfd8e202e206a876dca8611c869ff584c339bd12b81ff37ae",
+    "stored-40-cost-4-seed-1006.csv": "0401cf04bdafda26fd656bdcc65e42c01bfa6fef5b716c366bf09bade53b193e",
+    "stored-40-cost-4-seed-1007.csv": "49605707ea27fda4bcda3843fd6b6d39c815f5354e96ebdedc132c5bbcacaee2",
+    "stored-40-cost-4-seed-1008.csv": "28b8b917ca66dae75b532da92eacd8fcc2394f58d521e1538b64e0c601b2e749",
+    "stored-40-cost-4-seed-1009.csv": "448bddde840028aefa3d48292f8eb62e05834bf7a134bbe16c108c19d90f1f6e"
+  },
+  "git_commit": "da74b5792ffe688ef9b0962000e91c830f895eba",
+  "git_dirty": false,
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_sha256": {
+    "src/bitgenesis/__init__.py": "c801e4abc65939ebcf4c3f48087542e18dea1d697898fd86248599719d90d033",
+    "src/bitgenesis/__main__.py": "573929cfab987618ea0d0918438d90bf77b4602f1614a38d97e25b0b18c5408b",
+    "src/bitgenesis/cli.py": "3c5508c8e2242bf76217c8ad6850c659858348edec1e0ae9ecf11f2621051d6f",
+    "src/bitgenesis/genome.py": "d083de908ddfedb58cb628b77cf87c762a63f2d4027ce317f265964509ed1432",
+    "src/bitgenesis/lineage.py": "2a5e192f9f22b79a0e66fa08b14f9b456e59e24d45efebf4cfaa742819b171dc",
+    "src/bitgenesis/metrics.py": "ac5fae8dfab72c554a7f85ebfa80adcfa29cb14f8da0059fb7b771db950fd7ab",
+    "src/bitgenesis/organism.py": "5455b8c7677369c816139683d3806e44b01540b2f1d8b571c3d14ee560123128",
+    "src/bitgenesis/resources.py": "c6b5136a7dfdeca046ffdbbce8b17e78abd7b3f27eb5e336199738ac13f0e0e2",
+    "src/bitgenesis/simulation.py": "6042085d7477ec0e58376218fd3c8bbba5195c99967c6d2c627156a78a14605d",
+    "src/bitgenesis/v0/__init__.py": "1ebbc092d3ccd428b66d0c10ca60a24cddd02786a53e047706221011cc23c03d",
+    "src/bitgenesis/v0/artifacts.py": "3b01e45ccaf50fbc7d980b0e947d236d6709944f7a5ef92327c1d320c2af6131",
+    "src/bitgenesis/v0/audit.py": "da5f64aaaa2aefb17cacc15025879b789c06a203e8d8c72d14a288c0fad4d311",
+    "src/bitgenesis/v0/checkpoint.py": "0f3f9fe9dc76ee46ce0773b69c31971bbe07b9a3789f296ddbadd91943649a4f",
+    "src/bitgenesis/v0/engine.py": "8f3ed33ad0ebe802c099e3e6f8ae61f9bcc526b98512f31f48ec40478fbfa7ff",
+    "src/bitgenesis/v0/lineage_viewer.py": "700c06bfde000841e8052454a93e1be1c463dbaa5125e9d20c31ef6d752288e8",
+    "src/bitgenesis/v0/runner.py": "0e1979e62e3d131aed3a3369685a2a958da71961cf78429314e4acc535157b70",
+    "src/bitgenesis/v0/viewer.py": "975e11c399335bdee0e01442d32e71621f81935d3272d66391abab3d1c5df222",
+    "src/bitgenesis/visualization.py": "b310e6a69546decb0f94df900bce9481e360183b6e6e26a6104c5502dc9fed1b",
+    "src/bitgenesis/world.py": "784090938f95a8d58102e431daebf6f93e11dafab27a592175a60483c7404de0"
+  },
+  "research_scripts_sha256": {
+    "scripts/analyze_v0_birth_cost_budget.py": "81c74244cfce36a11a20b049a961f54e6dd11d99add9caa2f548374af2037979",
+    "scripts/analyze_v0_death_context.py": "49e4bc8177311eb37149746f8a0bf1e307e8d0ec2914a04628473b5e4500176e",
+    "scripts/analyze_v0_energy_budget.py": "efd3492963d54a20e2a35c343e6bbbbe89a54edc965b5c00827611de808d78db",
+    "scripts/analyze_v0_establishment_budget.py": "428ec1f1d33c5922ca7ef6e501e635ab62b880ce71ca3d3e9c35f746d0c94aff",
+    "scripts/analyze_v0_long_lineages.py": "5e66c52938167803d6d81a609e4aec7eacb34d4c99d4c5e2e4a27cc1dff5e0ad",
+    "scripts/analyze_v0_survival_uncertainty.py": "f83cc67642b6ce49329d0116d665d35f50c0d0b0a1b09332fb18ad3bda66e8dd",
+    "scripts/analyze_v0_trait_coverage.py": "041f891613dba89b7c8329b037bd756762f8c7a1d8b42bbd8c35feed5d91db51",
+    "scripts/audit_v0_world_sizes.py": "80b93713bebc4aea1f85a2e0e3a4d80e6fb12b576038fc88753eb433bb8c4a09",
+    "scripts/benchmark_v0_retention.py": "0f9ade0f5ed5df348f444774738e5d4570cc73919850d6d15a7ccd1d72193823",
+    "scripts/build_v0_review.py": "895b153d395f03db1de1701b74d68f7c82266e7b3950aed00a9a43637c7bf774",
+    "scripts/calibrate_v0_mutation.py": "3667c911624e429fc16aec1489f3ceaa49281be7992c4ba3a045003808db935e",
+    "scripts/check_v0_campaign_inventory.py": "e4e6db86356697187094627f8af1fcf0547979beaf7582e764c327d2f8d85874",
+    "scripts/package_v0_review.py": "6004c16ce1f2901848fcb9f54bb64d4486d28793145b5c8fb1d5f85034571e00",
+    "scripts/plot_v0_birth_cost.py": "e2b6614ce95606ffdbe868210ddfdb4c42104dc06d111a1932e26d162c32af85",
+    "scripts/plot_v0_energy_allocation.py": "bffc7f1d089685e55b58152001144d0a3c2f5cc0e4195ba82dacfd03570a222e",
+    "scripts/plot_v0_extinction.py": "914f32adcd0e2fc27920165c4c820c066f6c8f8f2fda990869f4d71eaa571b84",
+    "scripts/plot_v0_reproduction_threshold.py": "91c2a12031f3c4ed93e5f8f3ac31bdd774c645988b067bfc9a8483223577af37",
+    "scripts/plot_v0_world_sizes.py": "cd40cac50847b74280f554917f673ca9d0c916fe05d28b17b6adcf6dc438fa68",
+    "scripts/run_v0_birth_cost.py": "abd3a9201c835b82e57d837a348170e7a91b2bd5698dd67724dd35791bd62454",
+    "scripts/run_v0_campaign.py": "26351c01d0f3d32bcd8664f47afc95e8c80ee7953b4008b115f9f3b84dc3eb04",
+    "scripts/run_v0_competition.py": "85f27b3c8683a362df6713a25b7d523b7fd2d056c1e78a8d3cd6d345caca2e62",
+    "scripts/run_v0_energy_allocation.py": "7f5633a13b4194ef2264e74ffde759693ad7a27e0997cbd6440b0619aa3b2dbe",
+    "scripts/run_v0_establishment.py": "aafe4a6b7610d066107a66f3f47270cb83e6bf0487da970915852c1d672b5c37",
+    "scripts/run_v0_extinction.py": "f89b1c494312eee35ea79cc32f944cb31562900657f8f6de2b78a3fe02ee5329",
+    "scripts/run_v0_initial_food.py": "e143cb239f6f87500aed11f43342e4d724c0585bcd0db85ada53143c6dff099d",
+    "scripts/run_v0_long_horizon.py": "9fd9e5601628f1328226a978a0f9a13f2d027e6e4ec42263f436ac9a0574af04",
+    "scripts/run_v0_reproduction_threshold.py": "18de6524127d58053fd9fa8cf850225b694dce9c4515c8680745df950dc357d1",
+    "scripts/run_v0_resource_regimes.py": "9bfd1898d3332bfb944a84977f38f4807caea7776ebe3ddcb65a86c930e0232c",
+    "scripts/run_v0_trait_assay.py": "ce655e70cbb8fe0ab8a1342c949c493437324b6e506e0f33fee592ae17d5a890",
+    "scripts/run_v0_world_sizes.py": "6193ec80ffb41e05c674ee9df38b5653a02b1fb724bb957673dd32a84063d630",
+    "scripts/summarize_v0_birth_cost.py": "973054fc810de9d479580f75f614ab3eb81ab01f4e8ad59b272776757e7777d5",
+    "scripts/summarize_v0_energy_allocation.py": "2dbfccf12a026afd4071e1d1d6b4a2e92896d79ad77bb7ce23beb9ddd56c89b7",
+    "scripts/summarize_v0_establishment.py": "29718c650288fc55ce5e254261a38d8e5561378226cf895e4b0805ee168857c2",
+    "scripts/summarize_v0_initial_food.py": "6830d45f01a466b5c9629263bf722d23cd257a410946c8d5ec0409296c7917ef",
+    "scripts/summarize_v0_long_horizon.py": "89183edf6bbbe8eeefa80f65cc72b73a9c271d2a74f639c00a89a3a9aa8d91b3",
+    "scripts/summarize_v0_reproduction_threshold.py": "ca221e9412b7a712466186833abd8e3b231a709009617c6d22f5db0645948ceb",
+    "scripts/verify_v0_review.py": "f804290f74b32bddcc415881a2bfebd811270671b8e428adbd02c07077a7f283"
+  },
+  "installation_kind": "source",
+  "invocation": [
+    "scripts/analyze_v0_death_context.py",
+    "--output",
+    "data/death-context-012"
+  ]
+}

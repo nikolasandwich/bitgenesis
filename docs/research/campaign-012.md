@@ -128,3 +128,41 @@ early ledger means within each allocation; later results need not match.
 ```sh
 python scripts/analyze_v0_birth_cost_budget.py --output data/my-birth-cost-budget
 ```
+
+## Retrospective death-site observations
+
+Replayed ticks 0–100 of all twenty stored/40 worlds at costs 0 and 4, observing
+food immediately before the original death routine removes each organism.
+The observer reads state, appends an external record and calls the original
+routine; it draws no randomness and changes no action or energy rule. All 2020
+recorded metric rows match the previously verified prefixes. This checks the
+saved metrics, not unavailable original per-death spatial logs.
+
+| Direct cost | Recorded deaths | Food on death cell | Food in cardinal neighbors | Food anywhere |
+| --- | ---: | ---: | ---: | ---: |
+| 0 | 3175 | 45 | 1166 | 3175 |
+| 4 | 2962 | 53 | 1110 | 2962 |
+
+These are counts of death events nested within ten worlds per arm, not thousands
+of independent replicates. The columns overlap. Neighbor food does not imply an
+available destination or the ability to survive movement. Food anywhere is the
+least specific observation.
+
+Even food on the death cell does not guarantee feeding: the existing engine
+charges basal energy, may charge movement, and handles zero-energy death before
+feeding. Thus these 98 deaths with local food are consistent with the explicit
+action schedule. Most recorded deaths have no food on the current cell. Neither
+count establishes the effect of changing that schedule; a rescue claim would
+require a separate intervention and new rules semantics. No such change was made.
+
+This diagnosis uses 2000 extra computational replay ticks, all within existing
+prefixes, and zero new independent seeds. It is outside the twelve formal
+campaign workload total, like engineering checks; it adds death-site observations,
+not observation duration. Source `da74b5792ffe688ef9b0962000e91c830f895eba`, clean.
+The [all-world counts and reference hashes](results/death-context-012.json) are
+tracked; the detailed `deaths.csv` stays in local generated data and can be
+recreated with:
+
+```sh
+python scripts/analyze_v0_death_context.py --output data/my-death-context
+```
