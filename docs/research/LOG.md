@@ -59,3 +59,12 @@ environment; standard isolated build succeeded without changing runtime deps.
 
 Next: assemble a concise Chinese acceptance entry point; then continue robustness
 and mechanism experiments while preserving the initial V0 rules and results.
+
+Chinese acceptance page generated at `data/review-v0.html` and visually checked;
+its statistics are computed from campaigns 001–003. Source generator and Chinese
+review guide are committed. This is a fixed checkpoint, not a live experiment.
+
+Campaign 004 preregistered: 20 longer runs across scarce, baseline, abundant and
+guaranteed-per-tick regrowth. Measure late birth/death activity to distinguish
+demographic persistence from evolutionary turnover. Do not add aging or energy
+caps mid-experiment if crowding freezes reproduction.
