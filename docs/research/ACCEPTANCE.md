@@ -30,6 +30,14 @@ reproduced the complete stored verification JSON (480160 rows, all 160 outcomes,
 input/script/metadata hashes). This reused an existing interpreter, not a fresh
 installation or new simulation. Earlier draft assets remain unchanged.
 
+Fresh-install check of the fourteen-campaign source: built and installed a
+noneditable wheel in a new Python 3.12.10 environment, confirmed imports from its
+site-packages, and passed all 78 archived tests. A new 1000-tick installed-CLI
+run passed its full artifact audit. Metrics/events match the archived acceptance
+demo byte for byte; lineage and summary JSON match structurally. Pip resolved build
+dependencies, so this is not an offline-install guarantee or a fourteen-campaign
+simulation rerun. [Recorded checks](results/portable-wheel-014.json).
+
 Previous uploaded archive: `data/bitgenesis-v0-thirteen-campaigns.zip`, source
 `1fc1c30dfcb6bcccbc929c0ba75ea5957272bc60`, 853 payload files / 86,150,042 bytes.
 SHA-256: `ed6e90acda91f1b8e74f88acca5f246c03ee308c627cb611c3e2d180cd1383f2`.

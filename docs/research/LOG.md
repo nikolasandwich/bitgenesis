@@ -1346,3 +1346,18 @@ targeting 6d98fb9. GitHub reports both assets uploaded with matching archive
 96447134 bytes and SHA-256 0501fd0c6cf4d947ee26fb3fc107b592adf5f9c66d854531b7ef364ff6b6240a.
 Draft remains unpublished. Updated current download guides and snapshot/test
 scope; all earlier archives are unchanged.
+
+## 2026-09-14 — Autonomous cycle 90
+
+Created a fresh Python 3.12.10 venv beside the extracted fourteen-campaign source
+and installed its noneditable wheel. Confirmed imports resolve to the new
+site-packages rather than the development tree. All 78 archived tests pass.
+The installed CLI generated a new 1000-tick demo, and its full audit passed:
+1641 individuals, 1561 births, 1558 deaths, 83 final population, 101 frames.
+Metrics/events are byte-identical to the archived acceptance demo; lineage and
+summary JSON equal structurally. Recorded hashes and exact scope.
+
+Pip resolved build dependencies, not an offline guarantee. This adds only 1000
+engineering replay ticks outside formal campaign totals. Archived files and
+draft assets unchanged. Fresh installation complements the earlier raw-data
+reanalysis rather than claiming every formal simulation was rerun.

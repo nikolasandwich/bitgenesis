@@ -1,0 +1,23 @@
+{
+  "analysis": "portable-wheel-review-014-1",
+  "archive_source": "6d98fb94dee3d07b09e5cd2edd1b9f383dd06c52",
+  "archive_sha256": "0501fd0c6cf4d947ee26fb3fc107b592adf5f9c66d854531b7ef364ff6b6240a",
+  "python": "3.12.10",
+  "installation": "Fresh venv, noneditable wheel built from extracted archive; import path confirmed under that venv site-packages. Build dependencies resolved by pip; not an offline-install claim.",
+  "archived_tests_passed": 78,
+  "new_demo_ticks": 1000,
+  "artifact_audit": "passed",
+  "matches_archived_demo": {
+    "metrics.csv": true,
+    "events.jsonl": true,
+    "lineage.json": true,
+    "summary.json": true
+  },
+  "raw_sha256": {
+    "metrics.csv": "bfe942d0f265bdf5811bea9c1420cffebcc40e1578e52b05b2905b9abc6e3c1b",
+    "events.jsonl": "1a9181eb3f14b6f37b26f40869f8b65137d0f6d23c707489375714f7c3c6285f",
+    "lineage.json": "e6c22affb500a1958f35a0f230eb30748c9bbce0ea5bc7566691f56670a74bbc",
+    "summary.json": "56c1522dd5828ebb7dae20fa3c9d676e37af3da61406e34875a525ea293879a7"
+  },
+  "scope": "Installed artifact and one new engineering demo, not a rerun of all fourteen campaigns. Engineering ticks excluded from formal totals."
+}
