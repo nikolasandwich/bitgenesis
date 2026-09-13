@@ -1,0 +1,290 @@
+{
+  "scope": "Cross-arm equality of all saved non-label metric fields and nested group counts; unsaved spatial and RNG states are not compared.",
+  "pairs": [
+    {
+      "movement_cost": 1,
+      "seed": 1200,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 1,
+      "seed": 1201,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 1,
+      "seed": 1202,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 1,
+      "seed": 1203,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 1,
+      "seed": 1204,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 1,
+      "seed": 1205,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 1,
+      "seed": 1206,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 1,
+      "seed": 1207,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 1,
+      "seed": 1208,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 1,
+      "seed": 1209,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 2,
+      "seed": 1200,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 2,
+      "seed": 1201,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 2,
+      "seed": 1202,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 2,
+      "seed": 1203,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 2,
+      "seed": 1204,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 2,
+      "seed": 1205,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 2,
+      "seed": 1206,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 2,
+      "seed": 1207,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 2,
+      "seed": 1208,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 2,
+      "seed": 1209,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 3,
+      "seed": 1200,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 3,
+      "seed": 1201,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 3,
+      "seed": 1202,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 3,
+      "seed": 1203,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 3,
+      "seed": 1204,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 3,
+      "seed": 1205,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 3,
+      "seed": 1206,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 3,
+      "seed": 1207,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 3,
+      "seed": 1208,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 3,
+      "seed": 1209,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 4,
+      "seed": 1200,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 4,
+      "seed": 1201,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 4,
+      "seed": 1202,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 4,
+      "seed": 1203,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 4,
+      "seed": 1204,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 4,
+      "seed": 1205,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 4,
+      "seed": 1206,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 4,
+      "seed": 1207,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 4,
+      "seed": 1208,
+      "paired_rows_checked": 3001
+    },
+    {
+      "movement_cost": 4,
+      "seed": 1209,
+      "paired_rows_checked": 3001
+    }
+  ],
+  "paired_rows_checked": 120040,
+  "input_sha256": {
+    "cost-1-b-8-neutral-seed-1200.csv": "7361fefbf144d97e816e483212dc67431a7b7b35e3849239e513ade624dcb6a6",
+    "cost-1-b-72-neutral-seed-1200.csv": "d4345c87cc5bbab35926ebd060d91c3d7caf92db0c4d5611f0999c4632d4e1dc",
+    "cost-1-b-8-neutral-seed-1201.csv": "979655d1afe54e5673d103c45d88da4cf6d2d1d12aaec93005594b5d8db50215",
+    "cost-1-b-72-neutral-seed-1201.csv": "1d48b86ac9b1c2b3a98634862ffc65cfd57975f29513dd82ccd1e6d1808be387",
+    "cost-1-b-8-neutral-seed-1202.csv": "e09f4646417c98948a88c2b8f42ca450fb71af4b6a7d6e4ff01f10abace05e0a",
+    "cost-1-b-72-neutral-seed-1202.csv": "23dddb4f39fe43cef083a64fddc6b97f9f2a57acafee5df7ed7effe092cf7c8c",
+    "cost-1-b-8-neutral-seed-1203.csv": "52f4e5274285db992b1d2924acf37fcda05555f72307da01ea4ed72b4420d372",
+    "cost-1-b-72-neutral-seed-1203.csv": "09aa7c81f9b8d5c95db4dd76d23a49a2b300475e090b7085765e08bb21015ea4",
+    "cost-1-b-8-neutral-seed-1204.csv": "6035c6b658cf08f31fdad9234685c848d8880f8c6e0b7d7224b0b6ebac19fe9d",
+    "cost-1-b-72-neutral-seed-1204.csv": "9b720c680ec5990938dc4e96f863fe2b335e7ca7272c3591a79131dac7b236ec",
+    "cost-1-b-8-neutral-seed-1205.csv": "404dfbe2552e9e56561f8d980ada63fe9fe68610e21adaaa1df51faabf7a1696",
+    "cost-1-b-72-neutral-seed-1205.csv": "f60e6f25531983d801c5b01578ea115724a27b8686152a5516b0b85bacb0311a",
+    "cost-1-b-8-neutral-seed-1206.csv": "8e97399713f364cca03d19ba76d9fe470e6d7ca7e7a334241e3c1dfbb4355680",
+    "cost-1-b-72-neutral-seed-1206.csv": "0e5a8a43731fc3851da9bf910bd77a2b7835c01a7741b64364e94dea0e344c71",
+    "cost-1-b-8-neutral-seed-1207.csv": "96c865f69aac0cde0c9a456481772f48b6437fc70feab8e65198bc18cd936839",
+    "cost-1-b-72-neutral-seed-1207.csv": "fb9d56556c02169a5df8bd64a1d32a74c530e6c44e895dbf3e2f40a3bfe192b7",
+    "cost-1-b-8-neutral-seed-1208.csv": "dc64c33ccb91994051adb90e67a412ce51927cccde069ba464abbf284df23c30",
+    "cost-1-b-72-neutral-seed-1208.csv": "f5fe60c7eb1bb605c1e6c474d4f3c1db55fe5317e4cfe1576d5d365d6fc3cdc1",
+    "cost-1-b-8-neutral-seed-1209.csv": "ce4e722a1651c71528bcf8359754789d7bbee917d43d1a4eae7a0be492ee99ec",
+    "cost-1-b-72-neutral-seed-1209.csv": "d104e8272f8664cac6287427590090d1dfa2b3d6f7f80fb82d890f92d15ad3af",
+    "cost-2-b-8-neutral-seed-1200.csv": "92d013befa03cf167683e2773cbb345641ea2e300686f2a6d97186fc5708177a",
+    "cost-2-b-72-neutral-seed-1200.csv": "5d04771ed5232e2e08eaae221ac224ce3d84f2c0d51c16fcbeaffd9fab0a35ff",
+    "cost-2-b-8-neutral-seed-1201.csv": "b0d56ce8a93f47bff38ccd5e302b647b58db825edda0b6567908eefe9b58a407",
+    "cost-2-b-72-neutral-seed-1201.csv": "06040eaeeda83ff8bd19cdf8221f0a0a20d53c5eea052317a82ca7dfeec2a615",
+    "cost-2-b-8-neutral-seed-1202.csv": "fd6bd6aa99e9c2b74e977159f422c0c9c3cceb27db3aae94a0205a129f999866",
+    "cost-2-b-72-neutral-seed-1202.csv": "8102f0319cba63c40899ba15af7eabc4f43e71598c6c0d34341f0a63e02cfd99",
+    "cost-2-b-8-neutral-seed-1203.csv": "b4355a5369beafb0cafb52159749f0f99e373c4c7f377367b4125952ceea89e3",
+    "cost-2-b-72-neutral-seed-1203.csv": "a39a98d38bb2eaa5a41e27f6eaabd32f79c3e4ff5f8519a1c4aa70043cbdf28b",
+    "cost-2-b-8-neutral-seed-1204.csv": "ead07038864a799d7e948172487d1524133d373fd622108a724261c992efba59",
+    "cost-2-b-72-neutral-seed-1204.csv": "e5876f67c300a680a6cd185c9c9eb1b8907f0e3fd31e82497cc7923909d8f7b3",
+    "cost-2-b-8-neutral-seed-1205.csv": "4ae29c6842df5f131d7c1b82104590f541475a228b9294cb04f052bd4902c0fb",
+    "cost-2-b-72-neutral-seed-1205.csv": "5698ac0c6521b46e8c37a072b154935f4236bc27d68eab5c815cdfe97c16c71a",
+    "cost-2-b-8-neutral-seed-1206.csv": "f2711362d651b8077fc6c89f2e9cf3eba9ef3171943dee654d8dc93f380f05a9",
+    "cost-2-b-72-neutral-seed-1206.csv": "6fb13088fce23789f230fb0eff07371f9fe713d2a6c7688ec595e115fb27dbcc",
+    "cost-2-b-8-neutral-seed-1207.csv": "2d9fbe4758845aa01edf1cb1df2ba435c89a30a737e928faf54ef606a6d77ee7",
+    "cost-2-b-72-neutral-seed-1207.csv": "3b4b92794773ca8a9563e94a4646140795feec018d462000d5c6626fa5503ea2",
+    "cost-2-b-8-neutral-seed-1208.csv": "eaed4f1d97dafb0c7a35be93e2e62a8bd9f017997b209f96f4744d9711b81e36",
+    "cost-2-b-72-neutral-seed-1208.csv": "908ef4d00cec252f99cb53b850f84a054a935b0a28d31a0d8b2e0412638532ee",
+    "cost-2-b-8-neutral-seed-1209.csv": "6da0a5e38b3fa889360aa35a1e1b2441752620d4e30fdbf40dedbdb9acf26b3b",
+    "cost-2-b-72-neutral-seed-1209.csv": "f792aa32dcc86d4acd09474ce2a58877294b7cebdddc7230f862f3eb0384a65b",
+    "cost-3-b-8-neutral-seed-1200.csv": "f31b7a7b4bbc4e75d62de428500d69f54d624706910b28a98a050bc8dc045964",
+    "cost-3-b-72-neutral-seed-1200.csv": "7d2690b009d4a3c80dc620bb0d2c56b82f31d329e5a71cd2e650e8f8ae80fa41",
+    "cost-3-b-8-neutral-seed-1201.csv": "ed79fc7c09a462ad9b01a0615d6a471cd87ec64b79839441db9d4ecb162cdcb2",
+    "cost-3-b-72-neutral-seed-1201.csv": "c2aa95de0e6fb4ab1a6f04f0cc7b991aefda84b82df3d5715f5280600f5bc5a0",
+    "cost-3-b-8-neutral-seed-1202.csv": "24cdd730cf9535731df4e6d78015b4cb7e7bcaa1ebd65d0db27275935651da81",
+    "cost-3-b-72-neutral-seed-1202.csv": "80b9f8c1a130cde8da614b6e1d1b1500936db6f9d16a050d0f20544e4709384d",
+    "cost-3-b-8-neutral-seed-1203.csv": "adf615eafe49bf8df9cad76bb9009149389fe5f9e62e6d16030422c9f040cf88",
+    "cost-3-b-72-neutral-seed-1203.csv": "7870e92fcef19ae64d56c4e8013eabd38560469847878bc53c58ab463a7c9a27",
+    "cost-3-b-8-neutral-seed-1204.csv": "85da7b8ceda1bbab8f48e54de4b50c6640abbf32d0d48b08bfd4d9537fef3827",
+    "cost-3-b-72-neutral-seed-1204.csv": "337411512cfee8b193d52d834a5735b89593821f56e429eb1ef9b516989308bf",
+    "cost-3-b-8-neutral-seed-1205.csv": "fa584c01c8badb84776acf593671fa342cf433efb875ec091518875b010761cf",
+    "cost-3-b-72-neutral-seed-1205.csv": "f7999b8b78b457e284ef565eb6798b2f4c19c1d55464f1218b5b5476bbec8787",
+    "cost-3-b-8-neutral-seed-1206.csv": "ce2e144e0b72286a95e1fce4180bc966b3125fcb569f0d0a4f824aca626ee88f",
+    "cost-3-b-72-neutral-seed-1206.csv": "bb78c481cddaca759cc9140e62b3626f8b1bc2a73eb732786c50b151ac355c2d",
+    "cost-3-b-8-neutral-seed-1207.csv": "73f40de70be256d5672117ca8eb352ee3a17e299c106aa7e1a60c5f169865eb1",
+    "cost-3-b-72-neutral-seed-1207.csv": "7174409653e79ef4d746d6e8b62dd1942af3d818afd39b7d10820fd67a0ad922",
+    "cost-3-b-8-neutral-seed-1208.csv": "9a4db99e9b84dd668f0c090f8f944806f4bf5a14b2d46f72eb6cad8e609d41a7",
+    "cost-3-b-72-neutral-seed-1208.csv": "6d443506a62bf2e5559a3bf6da7e2f963b6c86732a4ed394d04283293f5ebab1",
+    "cost-3-b-8-neutral-seed-1209.csv": "45f95596f8cdb37a06bdec13d6ff71eca31e764f50f541d6ccfe0e79babd52f1",
+    "cost-3-b-72-neutral-seed-1209.csv": "f77ce89ded3c474216e2cd4041cffbddd437470e1810a0ccc0ef8ebe53581bbc",
+    "cost-4-b-8-neutral-seed-1200.csv": "9b9905e4a0d270356f12cc7bac8d30bf64adaf62f38040b2bce81edc94df17f8",
+    "cost-4-b-72-neutral-seed-1200.csv": "d91388bc69ae03da0c53b84c84a89ae30de2c6d3f0673433484a78338a9d96b2",
+    "cost-4-b-8-neutral-seed-1201.csv": "50d2c33dc001c4dda1eb6f14887ab8e09cc67b9b9e3930bdae9c61c1ea28dfe5",
+    "cost-4-b-72-neutral-seed-1201.csv": "8cad6d0cf8fb17e065761659fb0a6f51fa722f7f2b990e111ec08cbacadad456",
+    "cost-4-b-8-neutral-seed-1202.csv": "d170531703b59ae0d19559201d1106f3689bd55f235e7e1f47f73e9e45bab197",
+    "cost-4-b-72-neutral-seed-1202.csv": "f6168a798088b943e6e9ba4967deb75a9ffd3e69cd0df73f0181f57da091e532",
+    "cost-4-b-8-neutral-seed-1203.csv": "58aecd3eec2222d856457f438b53a48e16acadcfba9a1ebfa54528e154cb8442",
+    "cost-4-b-72-neutral-seed-1203.csv": "6f69f5d64104107ebc735940feed8aa987fa629d3cfc588fc5ba9b7eec955af5",
+    "cost-4-b-8-neutral-seed-1204.csv": "15c34dbd79123727d2f34555f12b03b1f5a993bf0b49b812a6c3a62add35d280",
+    "cost-4-b-72-neutral-seed-1204.csv": "9f4346c763320748f88337efe3d76e1316604c698551915cb79ab4954d2b6e9a",
+    "cost-4-b-8-neutral-seed-1205.csv": "ecd083a2aa6a263dda0269841fdea129e8d48114527ceb0af92245846be36780",
+    "cost-4-b-72-neutral-seed-1205.csv": "b16171dce69caa1ced6495ee02ec3f27fe635d15893c2b1a090253e086ea37d0",
+    "cost-4-b-8-neutral-seed-1206.csv": "162b64ee37772d61acf689336363fb6d0e2dcce51bf6ce1f7068ca66f4dcec7f",
+    "cost-4-b-72-neutral-seed-1206.csv": "787694a699d70e9da79ba3743e20842b0c7849c6a2dd38ec4c91c419b7f9b9be",
+    "cost-4-b-8-neutral-seed-1207.csv": "4f287959da88f5aabea75e9504c2f50ed43a040ece7f1b0a2d6d2779cb443cca",
+    "cost-4-b-72-neutral-seed-1207.csv": "e013fafaf6ab984b3f3fdd5f487c83c07f816826d7e24e53765729f8009f156b",
+    "cost-4-b-8-neutral-seed-1208.csv": "296279a7c69da73814fb9469db86b697d66ed7d861b7f19702479e0b0d4d4a26",
+    "cost-4-b-72-neutral-seed-1208.csv": "1fbac200999c6f8e04ed8597c898d4f38714e96c683d219d0a65531c5a2f2a42",
+    "cost-4-b-8-neutral-seed-1209.csv": "de0493512dde119a06765b775d2dc0eb5e6cdadcb077f60738e3d22c12b33010",
+    "cost-4-b-72-neutral-seed-1209.csv": "2bf67f0af943d875cd89ba0a1c5ac73ebb0e0c1ded926e52620a1446401b0432"
+  },
+  "reference_sha256": "c300b8ce180a3d0d155d471556fc9e30f948c7b26cb0ddffd6c604ae44139330",
+  "script_sha256": "5d76c7d4eb9354277acf61a830af3b5f0a9e59ef82fe99610f5c522d9a9b9068"
+}

@@ -1361,3 +1361,16 @@ Pip resolved build dependencies, not an offline guarantee. This adds only 1000
 engineering replay ticks outside formal campaign totals. Archived files and
 draft assets unchanged. Fresh installation complements the earlier raw-data
 reanalysis rather than claiming every formal simulation was rerun.
+
+## 2026-09-14 — Autonomous cycle 91
+
+Checked the neutral-label invariance implied by campaign 014's design. At each
+cost/seed, B=8 and B=72 runs have identical all-250 genomes and differ only in
+observer labels. All 40 pairs / 120040 paired rows exactly match every saved
+non-label field; nested founder-group counts also hold. Inputs match prior
+independent-audit hashes. No unsaved spatial/RNG comparison or new simulation.
+
+Report now explicitly distinguishes eighty neutral executions from independent
+physical trajectory samples. Saved paired-check hashes and added tests rejecting
+changed physical metrics, truncated pairs and reversed subset counts; all 81
+local tests pass. The supplement postdates the fixed fourteen-campaign archive.

@@ -105,3 +105,28 @@ python scripts/summarize_v0_frequency_cost.py --input data/my-campaign-014 --out
 Output paths must be new. This adds 160 executions and 480000 computed ticks,
 with no repeated historical prefix. The fourteen-campaign HTML and uploaded draft include this result. Older
 thirteen-campaign snapshots predate it and remain unchanged.
+
+## Neutral-label cross-arm consistency
+
+A supplementary check compares the two initial B label fractions within every
+neutral cost/seed pair. All founders have trait 250 in both runs; changing labels
+must not affect dynamics. All 40 pairs / 120040 paired rows have exactly equal
+saved fields after excluding only `a`, `b`, and `b_fraction`. This includes
+population, energy, births/deaths, trait metrics and surviving founder count.
+B founders 0–7 are a subset of founders 0–71, and recorded descendant group counts
+respect that nesting at every tick.
+
+This validates a cross-arm negative control beyond checking each run separately.
+The paired neutral executions are repeated observations of the same recorded
+non-label trajectory, not eighty independent physical samples. Formal totals
+still count actual executions and compute; they are not independent sample counts.
+Unsaved spatial and RNG states were not compared by this check.
+
+```sh
+python scripts/audit_v0_neutral_labels.py --output data/my-neutral-label-audit
+```
+
+The helper matches all input hashes to the earlier complete audit and records
+[the paired checks and hashes](results/neutral-label-audit-014.json). This supplement
+postdates the fixed fourteen-campaign archive; its required raw inputs are included
+there. No new simulations were run.
