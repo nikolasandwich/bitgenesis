@@ -670,3 +670,15 @@ The runner compares every tick-0–10000 snapshot with campaign 010 before proce
 and records reference CSV hashes. First-world prefix check passed and execution
 is live. Accepted totals remain ten campaigns / 440 runs / 2440000 ticks pending
 complete execution and independent metric verification. No partial survival claim.
+
+## 2026-09-14 — Autonomous cycle 40 (running)
+
+Prepared a streaming verifier for campaign 011. It compares the saved observable
+prefix, checks every tick's accounting and cumulative-counter monotonicity,
+retains extinction failures and recomputes observation/late-window summaries.
+Its report distinguishes computational ticks, repeated prefixes, later observations
+and zero new independent seed replicates. Four regression cases cover a complete
+fixture, altered reference, post-prefix intermediate corruption and truncated end.
+All 52 local tests passed. An already completed 100000-tick food-160/900 run also
+passed the streaming check against its original prefix. The remaining campaign
+process is still live; this is not full-cohort acceptance or a survival conclusion.
