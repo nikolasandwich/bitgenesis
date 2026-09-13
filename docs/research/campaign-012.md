@@ -1,0 +1,72 @@
+# Campaign 012: direct birth cost does not explain early failure alone
+
+Protocol: [campaign 012](../../experiments/v0/campaign-012.md). Source
+`b963348dc346969fb688d9d8c12235524c9d1493`, clean at launch. Eight arms,
+seeds 1000–1009, 10000 ticks each: 80 executions / 800000 ticks.
+Unchanged V0 rules; fixed movement trait 250 and mutation off. Both initial
+allocations have total energy 7040. This is a parameter intervention, not evolution.
+
+## Results
+
+All denominators are ten worlds. Late means include extinct worlds as zeros.
+Extinction ranges include failures only; survivors are censored at 10000.
+
+| Allocation / threshold / cost | Alive 500 | Alive 5000 | Alive 10000 | Extinction ticks | Mean births by 100 | Mean early peak | Late mean population |
+| --- | ---: | ---: | ---: | --- | ---: | ---: | ---: |
+| food-40-cost-0 | 9/10 | 3/10 | 0/10 | 219–7613 | 13.2 | 85.3 | 0.0000 |
+| food-40-cost-4 | 9/10 | 5/10 | 1/10 | 144–9439 | 13.4 | 85.3 | 5.2975 |
+| food-160-cost-0 | 10/10 | 10/10 | 10/10 | none | 0.0 | 80.0 | 41.3826 |
+| food-160-cost-4 | 10/10 | 10/10 | 10/10 | none | 0.0 | 80.0 | 41.1479 |
+| stored-40-cost-0 | 0/10 | 0/10 | 0/10 | 37–59 | 237.5 | 317.5 | 0.0000 |
+| stored-40-cost-4 | 0/10 | 0/10 | 0/10 | 46–63 | 216.2 | 296.2 | 0.0000 |
+| stored-160-cost-0 | 9/10 | 9/10 | 9/10 | 220–220 | 0.0 | 80.0 | 37.9981 |
+| stored-160-cost-4 | 9/10 | 9/10 | 9/10 | 220–220 | 0.0 | 80.0 | 37.7632 |
+
+The stored/40 worlds all fail with either cost. Cost zero produces a larger
+early birth burst (237.5 versus 216.2 births by tick 100) and failures at 37–59
+rather than 46–63. These observations do not establish which indirect mechanism
+caused each death. Stored/160 retains nine worlds at each horizon for both costs;
+seed 1007 dies at 220 in both. Food/160 retains all ten; food/40 retains zero
+(cost 0) or one (cost 4) at 10000. Small observed differences are not estimates
+of a universally optimal cost.
+
+## Predeclared descriptive contrasts
+
+Threshold contrast is survival fraction at 160 minus survival fraction at 40.
+Difference of contrasts is that contrast at cost 0 minus the contrast at cost 4.
+Values below are percentage points, not significance tests.
+
+| Allocation | Horizon | Threshold contrast, cost 0 | Threshold contrast, cost 4 | Difference |
+| --- | ---: | ---: | ---: | ---: |
+| food | 500 | 10 | 10 | 0 |
+| food | 5000 | 70 | 50 | 20 |
+| food | 10000 | 100 | 90 | 10 |
+| stored | 500 | 90 | 90 | 0 |
+| stored | 5000 | 90 | 90 | 0 |
+| stored | 10000 | 90 | 90 | 0 |
+
+## Interpretation and verification
+
+Positive direct birth deduction is not necessary for the observed low-threshold
+stored-energy failure: it persists when that deduction is zero. Zero direct cost
+still divides parental energy, creates another consumer and occupies space.
+The threshold effect persists with either direct cost in this sample. This does
+not isolate splitting, basal demand, movement or local access as the unique cause.
+Both parameters act throughout life; random-number consumption and realized
+resource input can diverge. No permanence, evolved strategy, sensory function or
+biological generality follows from this assay.
+
+All 800080 metric rows passed independent checks of the declared grid, fixed
+parameters, initial ledger, tick sequence, accounting/bounds, fixed living trait,
+extinction, terminal summaries, early peak and late turnover. Engine invariants
+were checked during execution. Full events and genealogy were not exported.
+Per-arm late births/deaths, every seed and input hashes are retained in
+[results](results/campaign-012.csv) and [verification](results/campaign-012-verification.json).
+
+Preregistered-source CI [34782507452](https://github.com/nikolasandwich/bitgenesis/actions/runs/34782507452)
+and verifier CI [34782708374](https://github.com/nikolasandwich/bitgenesis/actions/runs/34782708374) passed.
+These checks do not rerun all eighty worlds on the CI matrix.
+
+```sh
+python scripts/summarize_v0_birth_cost.py --input data/campaign-012 --output data/campaign-012-check
+```

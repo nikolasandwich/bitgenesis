@@ -1,9 +1,11 @@
 # V0 acceptance checkpoint
 
-Current research: eleven campaigns / 460 executions / 4,440,000 computed ticks;
+Current research: twelve campaigns / 540 executions / 5,240,000 computed ticks;
 20 executions are longer follow-ups with 200,000 repeated prefix ticks, not new
 independent seed replicates. See the [research index](README.md) and latest
 [long-horizon report](campaign-011.md).
+The latest [birth-cost report](campaign-012.md) adds eighty verified executions.
+It is not included in the eleven-campaign page or fixed archive.
 Visual review entry `data/review-v0-11.html` covers all eleven campaigns, including
 the allocation trajectories, threshold survival curves and longitudinal follow-up.
 It distinguishes executions from independent samples and identifies replayed prefixes.

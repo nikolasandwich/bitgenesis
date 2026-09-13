@@ -864,3 +864,20 @@ An unchanged completed first run advanced to the intentionally absent second
 file, distinguishing its validation from later missing-input failure. These are
 focused corruption probes, not verification of all eighty unfinished runs. Raw
 data and running engine were untouched; accepted totals remain eleven campaigns.
+
+## 2026-09-14 — Autonomous cycle 54
+
+Campaign 012 completed all eighty runs in the original process. Independent
+verification checked 800080 metric rows and all declared observations. Stored/40
+worlds all fail at either direct cost; cost zero failures span ticks 37–59, cost
+four 46–63. Stored/160 survives 9/10 at both costs; food/160 10/10 at both.
+Food/40 ends 0/10 at cost zero and 1/10 at cost four. All results and descriptive
+contrasts, including null/reversed differences, are retained in report and CSV.
+
+This rejects positive direct birth deduction as necessary for the observed early
+stored/40 failures; it does not isolate indirect costs or imply universal optimal
+parameters. Verified totals now twelve campaigns, 540 executions, 5240000 computed
+ticks, including the existing twenty follow-ups and 200000 replayed prefixes.
+Inventory check passed. Original source CI 34782507452 and verifier CI 34782708374
+passed. Eleven-campaign pages/draft archives remain fixed and explicitly exclude
+this new campaign.
