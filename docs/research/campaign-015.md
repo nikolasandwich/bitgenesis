@@ -73,3 +73,34 @@ sibling verification script. The fifteen-campaign results postdate that archive.
 
 [Compact records](results/campaign-015.csv) ·
 [Verification and hashes](results/campaign-015-verification.json)
+
+## Retrospective supplement: one label, continuing turnover
+
+The horizontal fraction lines conceal substantial demographic activity. Using
+all four audited trajectories, the common window counts events at ticks
+5,001–30,000 and population states at ticks 5,000–30,000:
+
+| Cost | Initial B | Seed | Births | Deaths | Population start → end | Population range |
+| --- | ---: | ---: | ---: | ---: | --- | --- |
+| 1 | 72 | 1206 | 46,148 | 46,148 | 110 → 110 | 66–173 |
+| 2 | 8 | 1200 | 44,233 | 44,270 | 116 → 79 | 42–153 |
+| 2 | 72 | 1208 | 44,097 | 44,054 | 75 → 118 | 33–172 |
+| 4 | 72 | 1208 | 33,623 | 33,617 | 36 → 42 | 5–121 |
+
+Each retains exactly one founder lineage and one genome value throughout this
+window. In the first case, equal endpoint populations and equal total births and
+deaths coexist with large intermediate fluctuations. Neither equality establishes
+a stationary distribution or ecological equilibrium. Continued birth and death
+here are demographic turnover, not new inherited traits or functional innovation.
+
+The [complete table](results/neutral-turnover-015.csv) also includes each world's
+own post-loss window, excluding events on the loss tick itself. Those windows
+have unequal lengths and overlap the common late window; they are not eight
+independent observations. This is retrospective descriptive analysis of a selected
+cohort, with no new simulation and no causal test of movement cost.
+
+Reproduce with `python scripts/analyze_v0_neutral_turnover.py --output data/new-turnover`.
+The standard-library script checks raw hashes against the prior audit, retained
+label absence and population/birth/death accounting. [Provenance](results/neutral-turnover-015.json)
+identifies the inputs and script. This supplement postdates the fixed
+fifteen-campaign archive; that archive contains the raw data needed to recompute it.

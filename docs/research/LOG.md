@@ -1501,3 +1501,17 @@ asset states, archive bytes and SHA-256, and the checksum asset's bytes/digest.
 Source 0344839 CI is successful. Updated acceptance entry to the fifteen-campaign
 download, retaining explicit source and prior-archive limits. Build dependency
 resolution is not an offline-install guarantee; this is not every-campaign replay.
+
+## 2026-09-14 — Autonomous cycle 101
+
+Quantified demographic turnover after neutral label loss using only the four
+already audited campaign-015 trajectories. Common ticks 5,001–30,000 contain
+33,623–46,148 births per world, with substantial population ranges despite fixed
+labels and genomes. Cost-1 seed 1206 starts/ends with 110 individuals but ranges
+66–173 and has 46,148 births plus 46,148 deaths. Equal endpoints are not stasis.
+
+Saved common-window and per-world post-loss counts, with exact event/state window
+conventions and overlapping-observation limits. Verified raw input hashes and
+accounting; three tests cover window boundaries and corrupted/truncated input.
+This is demographic turnover, not new genetic or functional innovation. No formal
+execution counts changed; the supplement postdates the fixed uploaded archive.

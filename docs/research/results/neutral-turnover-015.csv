@@ -1,0 +1,9 @@
+movement_cost,initial_b,seed,window,start_tick,end_tick,births,deaths,population_start,population_end,population_min,population_max,founders_min,founders_max,variants_min,variants_max
+1,72,1206,after_group_loss,4765,30000,46608,46638,140,110,66,173,1,1,1,1
+1,72,1206,common_late_window,5000,30000,46148,46148,110,110,66,173,1,1,1,1
+2,8,1200,after_group_loss,3625,30000,46643,46642,78,79,42,153,1,1,1,1
+2,8,1200,common_late_window,5000,30000,44233,44270,116,79,42,153,1,1,1,1
+2,72,1208,after_group_loss,4551,30000,44905,44838,51,118,33,172,1,1,1,1
+2,72,1208,common_late_window,5000,30000,44097,44054,75,118,33,172,1,1,1,1
+4,72,1208,after_group_loss,3812,30000,35180,35177,39,42,5,121,1,1,1,1
+4,72,1208,common_late_window,5000,30000,33623,33617,36,42,5,121,1,1,1,1
