@@ -175,3 +175,17 @@ Reproduce using `python scripts/analyze_v0_trait_windows.py --output data/my-tra
 The [sidecar](results/trait-windows-001.json) records raw-file, reference, helper
 and script hashes. No new simulation was performed. The uploaded fixed archive
 predates this analysis but contains the required campaign-001 raw events.
+
+## Portable archive reanalysis
+
+The fourteen-campaign source snapshot `6d98fb9` contains all three analyses above.
+Using its extracted scripts, raw records and references with a fresh-installed
+archived wheel, all three JSON reports match their archived counterparts exactly;
+all three CSVs are byte-identical. JSON equality includes recorded provenance
+hashes. [Recorded comparison and launch modes](results/portable-trait-analysis-014.json).
+
+The main decomposition uses the installed package audit; the window helper also
+imports its sibling script and therefore uses normal script mode. The local
+kernel-reference analysis ran with isolated mode and site packages disabled.
+This verifies reanalysis under Python 3.12.10, not a new simulation or a claim
+that every script is independent of its package/helper dependencies.

@@ -1,0 +1,32 @@
+{
+  "check": "portable-trait-analysis-014-1",
+  "archive_source": "6d98fb94dee3d07b09e5cd2edd1b9f383dd06c52",
+  "python": "3.12.10",
+  "environment": "Previously created fresh venv and noneditable archived wheel. All scripts, raw data and references from extracted archive.",
+  "launch_modes": {
+    "trait-change": "-I; installed package imported",
+    "mutation-reference": "-I -S; standard library only",
+    "trait-windows": "normal script mode; sibling helper and installed package required"
+  },
+  "checks": [
+    {
+      "analysis": "trait-change-001",
+      "full_json_equal": true,
+      "csv_byte_identical": true,
+      "csv_sha256": "513bd0c3bd9fda247746f8a6b74451719bce0767dc9aceb62cfe9dcaea7ba512"
+    },
+    {
+      "analysis": "mutation-reference-001",
+      "full_json_equal": true,
+      "csv_byte_identical": true,
+      "csv_sha256": "9f1b4655c9992d39ab6aa263c96882c24612668e5cf2ac0ba5675560a8df659f"
+    },
+    {
+      "analysis": "trait-windows-001",
+      "full_json_equal": true,
+      "csv_byte_identical": true,
+      "csv_sha256": "d04490203a402e2bbacc20b36690deac11978f718e958c4d7f5d1d477ad9c96e"
+    }
+  ],
+  "scope": "Reanalysis of original campaign-001 records, no new simulations. Exact JSON comparisons include input/reference/helper/script hashes where recorded."
+}

@@ -1402,3 +1402,16 @@ All 83 tests pass, including frozen engine replay and prior interruption cases.
 No engine source, random draws or successful-run schema changed. Documented
 that retained partial files are diagnostic and not crash-safe/resumable records.
 The fourteen-campaign fixed archive predates this runner-status correction.
+
+## 2026-09-14 — Autonomous cycle 94
+
+Recomputed all three trait-change supplements from the extracted fourteen-campaign
+archive using its installed wheel and saved raw records. Full-run decomposition,
+local mutation reference and five-window decomposition all reproduce complete
+archived JSON reports exactly, including their input/script/helper/reference
+hashes, and CSVs byte for byte. Recorded comparison hashes and invocation modes.
+
+The kernel reference ran -I -S with standard library only; full decomposition
+used -I plus the installed package audit; windows used normal script mode for
+the sibling helper and installed package. Dependency scope is explicit. No new
+simulation, changed source or broad cross-platform portability claim.
