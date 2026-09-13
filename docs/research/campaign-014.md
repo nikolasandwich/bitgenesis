@@ -103,5 +103,5 @@ python scripts/summarize_v0_frequency_cost.py --input data/my-campaign-014 --out
 ```
 
 Output paths must be new. This adds 160 executions and 480000 computed ticks,
-with no repeated historical prefix. Current fixed thirteen-campaign HTML and
-uploaded archive predate this campaign and remain unchanged.
+with no repeated historical prefix. The local fourteen-campaign HTML includes this result; the fixed thirteen-campaign
+HTML and uploaded archive predate it and remain unchanged.

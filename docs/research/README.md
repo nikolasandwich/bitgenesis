@@ -9,8 +9,8 @@
 该计数检查已加入 CI，使用仓库中的精简结果，不需要本地大体积逐步数据。
 
 首次验收可先阅读[中文指南](REVIEW.zh-CN.md)，再打开本地
-`data/review-v0-13.html`。这个视觉快照涵盖十三轮，可用
-`python scripts/build_v0_review.py --campaigns 13` 在完整本地数据上重建。
+`data/review-v0-14.html`。这个视觉快照涵盖十四轮，可用
+`python scripts/build_v0_review.py --campaigns 14` 在完整本地数据上重建。
 十三轮完整数据可从[十三轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-507ea861ad4cf6ec9e02)下载；
 旧页面和已上传的八轮、九轮归档继续保留原范围。
 旧 `data/review-v0-8.html` 保留为八轮快照。
@@ -103,4 +103,4 @@ GitHub 保存代码、协议、报告和精简结果；大体积逐步数据保�
 直接传递的突变项却累计为负；出生与死亡的组成变化不可与突变的因果总效应混淆。
 这是事后记账，不增加实验数量。
 
-第十四轮已核对全部 160 个世界、480,160 行指标；当前十三轮 HTML 页面与下载归档尚未包含。
+第十四轮已核对全部 160 个世界、480,160 行指标；当前十四轮 HTML 页面已包含；十三轮下载归档尚未包含。

@@ -1305,3 +1305,16 @@ reconciles tile outcomes with verified group totals.
 Saved PNG/SVG and outcome/input/script hashes; visually inspected titles, seed
 labels, symbols and legend. Linked figure and regeneration command from the full
 report. No new simulation or changed interpretation of finite endpoint survival.
+
+## 2026-09-14 — Autonomous cycle 87
+
+Extended the review builder to fourteen campaigns while preserving default eight
+and all existing pages. The new section checks the full 160-key grid and includes
+the sixteen condition totals, all-seed figure and explicit extinction/endpoint
+limitations. Generated review-v0-14.html as a new file. Browser inspection confirmed
+the complete section and the cost-4 majority-B extinction count; all 78 tests pass.
+
+Updated local page entries to fourteen. Download instructions still identify
+the fixed thirteen-campaign source and archive, which has not been replaced.
+Retrospective trait decompositions remain report-only, separately distinguished
+from the numbered formal experiment sections. No new simulation.

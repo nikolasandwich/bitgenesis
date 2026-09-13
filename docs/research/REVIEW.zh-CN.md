@@ -8,7 +8,7 @@
 
 下载[十三轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-507ea861ad4cf6ec9e02)，
 完整解压 `bitgenesis-v0-thirteen-campaigns.zip`，从 `START-HERE.txt` 开始，
-再打开 `bitgenesis/data/review-v0-13.html`。本地仓库对应入口为 `data/review-v0-13.html`。
+再打开 `bitgenesis/data/review-v0-13.html`。本地最新入口为 `data/review-v0-14.html`，比下载包多第十四轮结果。
 保留目录结构，页面中的世界回放、谱系与图表依赖相邻文件。
 草稿尚未正式发布，需要有权限的 GitHub 账号查看。
 
@@ -16,8 +16,9 @@
 上传后的大小、校验值与本地一致；解压副本重算第十三轮，744,901 条出生记录和
 500,010 行指标的完整验证结果与保存报告一致。整包校验值及历史归档见[完整检查点](ACCEPTANCE.md)。
 
-**main 比归档更新。** [第十四轮](campaign-014.md)竞争对照、后续断点校验、性状变化分解、突变参考和分时段分析在 main 中，
-尚未加入这份固定归档或十三轮 HTML 页面。归档不会随提交自动更新。
+**main 比归档更新。** [第十四轮](campaign-014.md)竞争对照已加入本地十四轮页面，尚未加入固定归档。
+后续断点校验、性状变化分解、突变参考和分时段分析在 main 中，尚未加入固定归档；
+这些事后分析也尚未进入 HTML 页面。归档不会随提交自动更新。
 复查旧实验使用其保存版本；验收最新代码使用 main。
 
 ## 最值得看的三个结果
@@ -56,5 +57,5 @@
 祖先、随机控制器和感官屏蔽对照，但尚未实现。单纯增加网络规模不会证明涌现。
 阶段标准见[路线图](../roadmap/README.md)，过程记录见[研究日志](LOG.md)。
 
-需要重新构建验收材料时，使用 `python scripts/build_v0_review.py --campaigns 13 --output data/my-review.html`；
+需要重新构建验收材料时，使用 `python scripts/build_v0_review.py --campaigns 14 --output data/my-review.html`；
 需要完整本地数据，输出路径必须是新路径。打包方式和检查范围见[归档核验指南](../design/review-verification.md)。

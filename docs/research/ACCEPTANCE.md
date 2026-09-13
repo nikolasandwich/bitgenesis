@@ -9,10 +9,10 @@ It is included in the current page, but not in the eleven-campaign fixed archive
 The newest [genome-coverage report](campaign-013.md) adds ten verified 50000-tick
 worlds; it is included in the thirteen-campaign page and newest archive.
 The [frequency-cost report](campaign-014.md) adds 160 independently verified worlds;
-it is not yet included in the thirteen-campaign page or uploaded archive.
-Visual review entry `data/review-v0-13.html` covers all thirteen campaigns, including
+it is included in the fourteen-campaign page, but not the uploaded archive.
+Visual review entry `data/review-v0-14.html` covers all fourteen campaigns, including
 the allocation trajectories, threshold/cost survival curves, longitudinal follow-up
-and cumulative versus living genome coverage.
+and cumulative versus living genome coverage, plus the complete frequency-cost grid.
 It distinguishes executions from independent samples and identifies replayed prefixes.
 Earlier pages remain preserved. The uploaded nine-campaign archive excludes 010–011.
 Newest uploaded archive: `data/bitgenesis-v0-thirteen-campaigns.zip`, source

@@ -20,7 +20,7 @@ def require_run_grid(records, treatments, seeds):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-root", type=Path, default=Path("data"))
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     args.output = args.output or args.data_root / f"review-v0-{args.campaigns}.html"
@@ -203,6 +203,28 @@ def main():
         coverage_figure = link(Path(__file__).resolve().parents[1] / "docs/research/figures/campaign-013-coverage.png")
         coverage_section = f'''<section><h2>13 / 更多基因取值，不等于新的功能</h2><p>有突变与无突变各五个新种子，每个世界观察 50,000 步，并记录所有出生个体的基因。累计取值从出生表独立重建；全部十个世界活到终点，且最终都只剩一个创始谱系。</p>{coverage_table}<img src="{coverage_figure}" alt="累计基因取值与活体基因取值对照；左图保留累计变化点，右图每百步采样，纵轴范围不同。" style="width:100%;height:auto"><p>有突变组末一万步新增 0–22 个取值，四个世界仍出现新数值；这既不能证明永远创新，也不能证明已经永久停滞。无突变组始终局限于初始取值。</p><p class="small">V0 的基因仍只编码 1001 种移动概率。更长谱系和新的数值不会自动增加感觉、记忆或行动种类；这个限制针对遗传控制方式，不是说整个世界只有 1001 种状态。图中两面板纵轴不同，活体曲线可能省略短暂波动。</p></section>'''
         page = page.replace('<section><h2>复核与恢复</h2>', coverage_section + '<section><h2>复核与恢复</h2>')
+    if args.campaigns >= 14:
+        records = campaigns[13]
+        keys = [(r["movement_cost"], r["initial_b"], r["treatment"], r["seed"]) for r in records]
+        expected = {(c, b, t, seed) for c in (1, 2, 3, 4) for b in (8, 72)
+                    for t in ("competition", "neutral") for seed in range(1200, 1210)}
+        if len(keys) != 160 or set(keys) != expected:
+            raise ValueError("Review requires complete frequency-cost seed grid")
+        frequency_rows = []
+        for cost in (1, 2, 3, 4):
+            for initial_b in (8, 72):
+                for treatment in ("competition", "neutral"):
+                    selected = [r for r in records if (r["movement_cost"], r["initial_b"], r["treatment"])
+                                == (cost, initial_b, treatment)]
+                    frequency_rows.append([cost, f"{initial_b}/80", "不同移动性状" if treatment == "competition" else "相同性状标签",
+                        sum(r["a"] > 0 and r["b"] == 0 for r in selected),
+                        sum(r["b"] > 0 and r["a"] == 0 for r in selected),
+                        sum(r["a"] > 0 and r["b"] > 0 for r in selected),
+                        sum(r["population"] == 0 for r in selected)])
+        frequency_table = table(["移动成本", "初始 B", "条件", "仅 A 存活", "仅 B 存活", "两组仍在", "整体灭绝"], frequency_rows)
+        frequency_figure = link(Path(__file__).resolve().parents[1] / "docs/research/figures/campaign-014-outcomes.png")
+        frequency_section = f'''<section><h2>14 / 初始多数，也可能一起灭绝</h2><p>四档移动成本、两种初始比例，每种条件十个新种子，观察 3,000 步。不同性状组中 A 为 25% 移动、B 为 100%；中性标签对照中两者均为 25%，所有条件关闭突变。</p>{frequency_table}<img src="{frequency_figure}" alt="第十四轮全部一百六十个世界的逐种子结果；A、B 表示单独存活，AB 表示两组仍在，X 表示整体灭绝。" style="width:100%;height:auto"><p>成本 1、2 时，两种比例的竞争组都由 B 单独存活到终点；成本 4 且 B 起初占 90% 时，十个世界中五个整体灭绝。不能只看幸存者来比较胜负。</p><p class="small">图中每格是一个世界，六个灭绝案例和四个中性对照的双群体终点全部保留。起初占多数不是持续存活的保证；终点两组仍在不证明稳定共存。这些是从开局共同建立的群体，尚未检验向稳定居民种群引入稀有类型的结果。</p></section>'''
+        page = page.replace('<section><h2>复核与恢复</h2>', frequency_section + '<section><h2>复核与恢复</h2>')
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x", encoding="utf-8") as stream:
         stream.write(page)
