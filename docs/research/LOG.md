@@ -288,3 +288,16 @@ Simplified the root README to one current total and an index link. Acceptance an
 Chinese review guides now distinguish current seven-campaign research from the
 preserved six-campaign visual archive. This avoids interpreting older bundle scope
 as the latest research state. No simulation rules, tests or experimental data changed.
+
+## 2026-09-14 — Autonomous cycle 14
+
+Campaign 008 completed from clean preregistered source `ff63d73`: initial food
+0 versus 8/cell, fixed genome 250, mutation off, regrowth 15/1000, seeds 700–709,
+10,000 ticks. Empty-food runs all died by tick 65 (range 30–65). Baseline-food
+survival was 10/10 at 500, 8/10 at 5000, 3/10 at 10000; extinct-only times ranged
+3053–8685. Initial resource supply helps establishment here but not permanence.
+
+All 200,020 metric rows were independently checked for initial conditions,
+accounting, fixed traits and declared outcomes. Compact results and hash sidecar
+are tracked. Total formal research: 370 runs / 1,740,000 ticks. Source CI passed
+in 34775932916. No runtime-stage or engine change; historical archives are preserved.

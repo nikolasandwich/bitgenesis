@@ -1,7 +1,7 @@
 # V0 acceptance checkpoint
 
-Current research: seven campaigns / 350 runs / 1,540,000 ticks; see the
-[research index](README.md). Latest report: [founder traits and mutation](campaign-007.md).
+Current research: eight campaigns / 370 runs / 1,740,000 ticks; see the
+[research index](README.md). Latest report: [initial food and establishment](campaign-008.md).
 Visual review entry `data/review-v0-6.html` and archive `data/bitgenesis-v0-review-6.zip`
 cover the preceding six campaigns (290 runs / 1,240,000 ticks).
 Earlier archive descriptions below refer to preserved historical snapshots.

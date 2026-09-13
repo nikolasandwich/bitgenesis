@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "initial_food": 0,
+      "runs": 10,
+      "alive_at_500": 0,
+      "alive_at_5000": 0,
+      "alive_at_10000": 0,
+      "extinct_only_range": [
+        30,
+        65
+      ],
+      "late_mean_population": 0
+    },
+    {
+      "initial_food": 8,
+      "runs": 10,
+      "alive_at_500": 10,
+      "alive_at_5000": 8,
+      "alive_at_10000": 3,
+      "extinct_only_range": [
+        3053,
+        8685
+      ],
+      "late_mean_population": 11.5527
+    }
+  ],
+  "metric_rows_checked": 200020,
+  "input_sha256": {
+    "food-0-seed-700.csv": "f151fa259e5f3a186633dbef31b6425840d9e3f5940c4c860d554e08316f1e3c",
+    "food-0-seed-701.csv": "b7ec5f7cc499bff205610899eef60d02794ebf7cfd7c684449641d0415070757",
+    "food-0-seed-702.csv": "9a4ca70fcfb7c0765c5e016d7f9cb0738978547c046c530e394adaf433d33bf3",
+    "food-0-seed-703.csv": "3308f28aceb1d73e498ffc0ed7358b05d060443984ef60bb0708d841848bc0ed",
+    "food-0-seed-704.csv": "2a7615feeedd8bca04a739f9de0c989a0de91520833beaa0dfd0db774e612239",
+    "food-0-seed-705.csv": "87700a1a05ef3ec1b50db22167b70d0e67c8ab9ef445a0c4ee14fceea3427b48",
+    "food-0-seed-706.csv": "d3cd1124c714d6658c34b238b35a177d7756da89cdb2f78ec5ed58dd1243cc4d",
+    "food-0-seed-707.csv": "122761c7e99a7ef186fcea5c00c72c1ff9ca32ae052bd0f774b1ac81400618a3",
+    "food-0-seed-708.csv": "224eb120ad449cf21aa38fa3abd3bd972c7e9452ca91d168354abc54fe3311fb",
+    "food-0-seed-709.csv": "3030d2d5ed289851526c05e3d58447d3055dc165f49e268021b8c07d4b8a31c6",
+    "food-8-seed-700.csv": "02f5e4b879a175e2a580abbadce8cc02ff4481e4a4496ee2908920f4187c064f",
+    "food-8-seed-701.csv": "cc08993250d6f86228d6e3158c7cc129ccd9c8d7f2b7540575635214fea6e3dd",
+    "food-8-seed-702.csv": "6dee06f6de801d7d7421389f209c6b69c71336f9d3d1dfff94afd30013e1e2ad",
+    "food-8-seed-703.csv": "ac9c59921452a77e300cc18844e1ec1a37d18711af3d327a8707ab1360b21975",
+    "food-8-seed-704.csv": "fbe5e73f9ea49be2d9d785e8bce4ee2166844486289fa7c805a46fd80f022f60",
+    "food-8-seed-705.csv": "cf4dbe87b989fc8278b01e5deb234fbe5d4b9fbd544f8769c0fa219db0aa524b",
+    "food-8-seed-706.csv": "0977742b4c1644390c047c036c5fa34777a087521b4208e3900ca6223153f881",
+    "food-8-seed-707.csv": "8ab56aca6d036d3ebf8435991eb0bd56664a556aeeaee27a02f5d7e69e5121d8",
+    "food-8-seed-708.csv": "7a8bf49f9afb49f42e0a290fc9308cbb5d41ead26cb24a87752bb89e0ebacaec",
+    "food-8-seed-709.csv": "f3352f70d184a3fa9855877ff032d90321fdd90018c78cb6a539aed76ef048c2"
+  },
+  "script_sha256": "6830d45f01a466b5c9629263bf722d23cd257a410946c8d5ec0409296c7917ef"
+}
