@@ -340,3 +340,19 @@ at `5fda3b95a4ea91299a34e894583c3862153e4b97`; both declare Node 24.
 Source `4039b54` passed run 34776427675 on all six jobs. Inspected logs confirm
 34 tests in every job and no preceding Node 20 deprecation message. Core engine,
 research outcomes and eight-campaign archive remain unchanged.
+
+## 2026-09-14 — Autonomous cycle 17
+
+Retrospectively decomposed campaign-002 energy over ticks 1501–2000. Basal cost
+one permits exact reconstruction from pre-tick populations; reproduction is the
+known birth cost times births, and movement is remaining dissipation. Every one
+of the 100 allocations closes, using 200,100 source metric rows. Actual charged
+energy was independently matched in an instrumented test with distinct costs.
+All 37 local tests pass. No engine changes or new formal world trials.
+
+At movement cost one, trait 250 spends 28.3956 energy/tick on movement versus
+77.9058 for trait 1000, while actual inputs are 149.3776 versus 162.5624. The
+allocation supports the cost explanation of lower fixed-trait population, without
+predicting mixed competition. The report explains capped input and pre/post-tick
+mean differences, preserves extinction zeros, and identifies the analysis as
+retrospective rather than preregistered. Counts remain 370 runs / 1,740,000 ticks.
