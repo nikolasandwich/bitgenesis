@@ -821,3 +821,17 @@ This exercises the delivered snapshot in Windows/Python 3.12, not all research
 campaigns or offline dependency installation. Installation resolved build
 dependencies. New disposable outputs remain ignored; the ZIP and draft assets
 were not modified. Acceptance notes record the scope of this check.
+
+## 2026-09-14 — Autonomous cycle 51
+
+Updated the research index to the actual eleven-campaign page and uploaded draft.
+Added a prioritized unresolved-mechanism decision alongside the existing evidence
+table: cross existing birth-threshold and direct birth-cost parameters in both
+allocation backgrounds. This remains a design candidate, not a preregistered or
+executed campaign. Checked engine reproduction: zero direct birth cost still
+splits parental energy and adds an individual with basal/movement and space costs.
+
+Specified what persistence of early failure under zero direct cost would falsify,
+and why a survival improvement would not isolate all indirect mechanisms. Any
+execution requires a new protocol, seed block and verification plan. No scientific
+counts, runtime rules or archive assets changed.
