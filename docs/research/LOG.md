@@ -1431,3 +1431,17 @@ Inventory now records 15 campaigns / 714 executions / 6,340,000 computed ticks,
 including 24 follow-ups and 212,000 replayed prefix ticks. Raw observation
 extension is 108,000 ticks for this campaign. Published compact results, hashes
 and finite-horizon limitations; the fixed fourteen-campaign archive is unchanged.
+
+## 2026-09-14 — Autonomous cycle 96
+
+Confirmed CI 34788020711 for source 8cbbadf completed successfully across all
+six Windows/Linux and Python 3.12–3.14 jobs. Updated the Chinese acceptance guide
+with fifteen-campaign counts, conditional follow-up findings and the explicit
+boundary between current main and the fixed fourteen-campaign archive.
+
+Added a V0 graduation evidence matrix mapping all six roadmap criteria to engine,
+tests, declared-seed experiments, saved records and browser/portable checks. The
+matrix distinguishes historical artifact scope from later code and identifies
+V1–V4 evidence as missing. V0's minimal milestone does not establish sensing,
+intelligence or open-ended evolution. Checked relative links in the changed
+acceptance/roadmap documents. No new simulation or runtime change this cycle.

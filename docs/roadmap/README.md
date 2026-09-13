@@ -23,6 +23,9 @@ Graduation criteria:
   reproductive success; include a no-mutation control and report extinctions.
 - Provide a basic world view and lineage inspection. Explain every designed rule.
 
+The [V0 evidence matrix](v0-evidence.md) maps each criterion to code, records,
+tests and explicit limits.
+
 The current scalar-genome implementation has 1001 encoded movement settings.
 Generation count and newly visited settings do not establish new functions; see
 the [expressive-boundary analysis](../design/emergence.md#v0s-encoded-behavior-ceiling).
