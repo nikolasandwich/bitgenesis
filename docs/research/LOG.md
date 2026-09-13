@@ -1292,3 +1292,16 @@ ticks, including the same twenty follow-ups and 200000 historical prefix ticks.
 Current guides updated; fixed thirteen-campaign page/archive explicitly exclude
 014. Verifier CI 34786356370 passed. Original experiment process was terminal;
 no active simulation remains from this campaign.
+
+## 2026-09-14 — Autonomous cycle 86
+
+Added a four-panel tile chart for all 160 campaign-014 endpoints. Costs and seed
+labels remain explicit; competition and neutral labels are separate panels at
+both initial fractions. A/B/AB/X symbols supplement colors. All six extinctions
+and four neutral both-present endpoints are included. No survivor-only filtering
+or uncertainty interval. The plotter validates the complete identity grid and
+reconciles tile outcomes with verified group totals.
+
+Saved PNG/SVG and outcome/input/script hashes; visually inspected titles, seed
+labels, symbols and legend. Linked figure and regeneration command from the full
+report. No new simulation or changed interpretation of finite endpoint survival.

@@ -38,6 +38,15 @@ become the sole survivor. Both-present is a finite endpoint observation.
 | 4 | 72/80 | competition | 4 | 1 | 0 | 5 |
 | 4 | 72/80 | neutral | 1 | 8 | 1 | 0 |
 
+![All 160 endpoint outcomes by seed, movement cost, initial group fraction and treatment; A/B are sole surviving groups, AB means both present, X means total extinction.](figures/campaign-014-outcomes.png)
+
+Each tile is one world, with symbols as well as colors. All six extinctions and
+four both-present neutral endpoints remain visible. Columns reuse seed labels
+across arms but do not imply synchronized subsequent trajectories. [Vector figure](figures/campaign-014-outcomes.svg)
+and [plotted outcomes with hashes](figures/campaign-014-outcomes.json) are retained.
+Regenerate with `python scripts/plot_v0_frequency_cost.py --output data/my-frequency-cost-figure`
+after installing the optional analysis dependencies.
+
 The cost-1/2 competition rows each have 10/10 B-only endpoints, while the neutral
 controls retain strong differences between the initial label fractions. At cost
 3, B starts rare and survives alone in 6/10 worlds versus 9/10 when initially

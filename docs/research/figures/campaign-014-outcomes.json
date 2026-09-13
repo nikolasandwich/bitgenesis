@@ -1,0 +1,1127 @@
+{
+  "figure": "campaign-014-outcomes-1",
+  "outcomes": [
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1200,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1201,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1202,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1203,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1204,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1205,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1206,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1207,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1208,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1209,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1200,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1201,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1202,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1203,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1204,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1205,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1206,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1207,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1208,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1209,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1200,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1201,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1202,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1203,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1204,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1205,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1206,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1207,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1208,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1209,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1200,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1201,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1202,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1203,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1204,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1205,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1206,
+      "outcome": "both_present"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1207,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1208,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 1,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1209,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1200,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1201,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1202,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1203,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1204,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1205,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1206,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1207,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1208,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1209,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1200,
+      "outcome": "both_present"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1201,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1202,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1203,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1204,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1205,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1206,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1207,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1208,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1209,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1200,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1201,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1202,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1203,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1204,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1205,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1206,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1207,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1208,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1209,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1200,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1201,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1202,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1203,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1204,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1205,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1206,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1207,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1208,
+      "outcome": "both_present"
+    },
+    {
+      "movement_cost": 2,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1209,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1200,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1201,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1202,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1203,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1204,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1205,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1206,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1207,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1208,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1209,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1200,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1201,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1202,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1203,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1204,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1205,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1206,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1207,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1208,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1209,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1200,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1201,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1202,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1203,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1204,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1205,
+      "outcome": "extinct"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1206,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1207,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1208,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1209,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1200,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1201,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1202,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1203,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1204,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1205,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1206,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1207,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1208,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 3,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1209,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1200,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1201,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1202,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1203,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1204,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1205,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1206,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1207,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1208,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "competition",
+      "seed": 1209,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1200,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1201,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1202,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1203,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1204,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1205,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1206,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1207,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1208,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 8,
+      "treatment": "neutral",
+      "seed": 1209,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1200,
+      "outcome": "extinct"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1201,
+      "outcome": "extinct"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1202,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1203,
+      "outcome": "extinct"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1204,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1205,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1206,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1207,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1208,
+      "outcome": "extinct"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "competition",
+      "seed": 1209,
+      "outcome": "extinct"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1200,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1201,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1202,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1203,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1204,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1205,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1206,
+      "outcome": "b_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1207,
+      "outcome": "a_only"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1208,
+      "outcome": "both_present"
+    },
+    {
+      "movement_cost": 4,
+      "initial_b": 72,
+      "treatment": "neutral",
+      "seed": 1209,
+      "outcome": "b_only"
+    }
+  ],
+  "input_sha256": "c300b8ce180a3d0d155d471556fc9e30f948c7b26cb0ddffd6c604ae44139330",
+  "script_sha256": "9e1b9974a63f2973ce3948071fc758f180eead84d2b8d4c19de3f0d71cc29632"
+}
