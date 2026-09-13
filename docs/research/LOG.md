@@ -1276,3 +1276,19 @@ campaign-014-analysis; next step is the complete report, compact data and formal
 inventory update. No run restarted, dropped or extended. Group membership is
 checked for consistency with saved trait summaries, not reconstructed from
 unsaved full individual histories; this limitation remains explicit.
+
+## 2026-09-14 — Autonomous cycle 85
+
+Committed campaign-014's full report, 160-row compact results and independent
+480160-row verification. Costs 1/2 yield all B-only competition endpoints at
+both initial fractions. Cost 3 gives mixed outcomes; cost 4 with initially common
+B includes five extinctions. All six total extinctions are reported individually,
+including first group loss and later total loss; no survivor-only denominator.
+All neutral and competition endpoints remain separate. No critical-cost,
+stable-coexistence or rare-invasion conclusion.
+
+Inventory now validates fourteen campaigns / 710 executions / 6220000 computed
+ticks, including the same twenty follow-ups and 200000 historical prefix ticks.
+Current guides updated; fixed thirteen-campaign page/archive explicitly exclude
+014. Verifier CI 34786356370 passed. Original experiment process was terminal;
+no active simulation remains from this campaign.
