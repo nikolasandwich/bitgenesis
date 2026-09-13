@@ -12,6 +12,7 @@ import sys
 
 from bitgenesis.v0 import RULES_VERSION
 from bitgenesis.v0.engine import Config, World
+from bitgenesis.v0.artifacts import write_json_atomic
 
 
 def load_config(path):
@@ -78,7 +79,7 @@ def run(config, steps, output, frame_interval=10, max_frames=1001):
                 "requested_frame_interval": frame_interval, "max_frames": max_frames,
                 "chart_interval": chart_interval, **provenance(), "status": "running"}
     def save(name, value):
-        (output / name).write_text(json.dumps(value, indent=2, allow_nan=False) + "\n", encoding="utf-8")
+        write_json_atomic(output / name, value)
     save("metadata.json", metadata)
     world = World(config)
     snapshots, frames = [], []

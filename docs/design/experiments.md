@@ -47,6 +47,13 @@ records still grow with births. Prior output files and generated viewers are not
 rewritten. Interrupted recorded runs mark status `interrupted` and retain the
 completed CSV/event prefix rather than claiming completion.
 
+JSON checkpoints use a temporary file in the same directory, flush it, then
+replace the previous checkpoint. A failed replacement leaves the preceding JSON
+intact. This reduces partial-write exposure; it is not a blanket power-loss
+guarantee. CSV/event streams still represent a growing prefix during a run.
+Metadata saying `running` describes its last saved state, not proof that the
+process is currently alive. Check a live process/job handle before resuming work.
+
 Store generated runs in ignored `data/` directories. Keep small definitions and
 necessary regression fixtures in Git; archive large research datasets separately
 with checksums and retrieval instructions. Do not overwrite past experiment runs.
