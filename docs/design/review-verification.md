@@ -40,18 +40,18 @@ energy accounting proves the scientific interpretation of a research result.
 
 ## Build a new review archive
 
-`python scripts/package_v0_review.py --campaigns 15` includes the local raw
-outputs for campaigns 001–015 and `data/review-v0-15.html`, along with tracked
+`python scripts/package_v0_review.py --campaigns 16` includes the local raw
+outputs for campaigns 001–016 and `data/review-v0-16.html`, along with tracked
 source, compact results and the acceptance demonstration. Generate the page first
-with `python scripts/build_v0_review.py --campaigns 15`. Both commands require
+with `python scripts/build_v0_review.py --campaigns 16`. Both commands require
 the complete local inputs; the packager also requires a clean committed checkout.
 An existing output is rejected; use `--output` for a distinct snapshot.
 
 The default remains eight campaigns. The manifest records the selected raw-data
 workload separately from all tracked source documents, which may discuss later
-campaigns. For fifteen campaigns it identifies twenty-four longitudinal follow-ups
+campaigns. For sixteen campaigns it identifies twenty-four longitudinal follow-ups
 and 212000 replayed prefix ticks. Packaging reruns the existing full-run audits,
-campaign-005 audit, and selected 009–015 metric verifiers. The 011 verifier also
+campaign-005 audit, and selected 009–016 metric verifiers. The 011 verifier also
 compares all recorded prefixes with campaign 010. These are artifact consistency
 checks with the scope of each named verifier, not independent simulation reruns.
 
@@ -114,3 +114,7 @@ integer. A missing intermediate frame is rejected even when endpoints and all
 remaining frames are individually consistent. A zero-step run has one frame.
 This catches lost samples, not hidden events between the advertised samples.
 The fixed fifteen-campaign archive predates this additional check.
+
+The 016 verifier checks all thirty initial food maps, founder/RNG-state pairing
+for ten seed triplets, and 300,030 metric rows before packaging. This verifies
+retained initialization and observations without stepping the simulator.

@@ -25,10 +25,10 @@ def sha256(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
-    names = {8: "review-8", 9: "nine-campaigns", 10: "ten-campaigns", 11: "eleven-campaigns", 12: "twelve-campaigns", 13: "thirteen-campaigns", 14: "fourteen-campaigns", 15: "fifteen-campaigns"}
+    names = {8: "review-8", 9: "nine-campaigns", 10: "ten-campaigns", 11: "eleven-campaigns", 12: "twelve-campaigns", 13: "thirteen-campaigns", 14: "fourteen-campaigns", 15: "fifteen-campaigns", 16: "sixteen-campaigns"}
     args.output = args.output or Path(f"data/bitgenesis-v0-{names[args.campaigns]}.zip")
     if args.output.exists():
         raise ValueError("Review output already exists; choose a new path")
@@ -64,7 +64,8 @@ def main():
                12: "summarize_v0_birth_cost.py",
                13: "summarize_v0_genome_coverage.py",
                14: "summarize_v0_frequency_cost.py",
-               15: "summarize_v0_neutral_followup.py"}
+               15: "summarize_v0_neutral_followup.py",
+               16: "summarize_v0_food_geometry.py"}
     for number, helper in helpers.items():
         if number > args.campaigns:
             continue
