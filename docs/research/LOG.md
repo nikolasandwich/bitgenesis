@@ -631,3 +631,16 @@ Draft URL: https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-f0
 Notes explicitly exclude campaign 010 and later main changes. The eight-campaign
 draft remains untouched, and neither release has been published. Acceptance
 guides distinguish current ten-campaign research from the downloadable snapshot.
+
+## 2026-09-14 — Autonomous cycle 37
+
+Added a full-horizon survival figure for campaign 010, paired with an early-window
+zoom of the same forty observations. Each arm retains ten worlds, step locations
+come directly from recorded extinction times, and endpoint survivors are marked
+as administratively censored. Line styles distinguish reproduction thresholds;
+colors distinguish allocation. Overlaps are retained and disclosed.
+
+The plot helper checks the compact grid and survival/time consistency and saves
+curve coordinates with input/source hashes. PNG and SVG were generated and visually
+inspected for labels, legends, range and endpoint display. No new simulation,
+probability fitting or changes to accepted experiment totals.

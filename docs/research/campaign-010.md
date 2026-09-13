@@ -24,6 +24,18 @@ All means include every seed and extinction zeros. Surviving worlds are
 right-censored at tick 10000, not assumed immortal. Stored-160 failures are seeds
 901, 906 and 908; these were retained in every group summary.
 
+![Full-window and early-window survival fractions for all four treatment arms](figures/campaign-010-survival.png)
+
+Each curve retains all ten worlds in its denominator. Steps occur at recorded
+extinctions; right-edge marks denote survivors censored at 10000. The right panel
+zooms into the same observations, without adding replicates. Some segments overlap.
+These empirical fractions are not fitted probabilities or evidence of permanence.
+[SVG](figures/campaign-010-survival.svg) and [curve/hash sidecar](figures/campaign-010-survival.json)
+are available. Reproduce using `python scripts/plot_v0_reproduction_threshold.py
+--output data/new-threshold-figure` with the optional analysis dependencies.
+The plot helper checks the complete compact run grid and endpoint/time consistency;
+the separate metric verifier below provides the raw-record accounting checks.
+
 ## What the intervention establishes
 
 Raising the existing threshold suppressed the early stored-energy birth burst
