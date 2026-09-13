@@ -907,3 +907,17 @@ Saved all-run budgets and hashes and marked the window analysis retrospective.
 Also noted that cumulative spending is affected by time alive: high-threshold
 worlds spend more basal/movement energy in this window while retaining organisms.
 No new scientific executions were added.
+
+## 2026-09-14 — Autonomous cycle 57
+
+Added a meaningful zero-direct-birth-cost regression for the budget helper used
+in campaign 012. Instrumented actual World._pay deductions in a world with
+confirmed births and deaths, separate basal/movement charge amounts, initial
+stored energy and sparse resources. Reconstructed category totals match actual
+deductions exactly; zero-cost payment calls match births while reproduction
+spending remains zero and other spending remains positive. Engine code unchanged.
+
+All 54 local tests and source/script compilation passed. This new regression
+extends direct accounting evidence to the zero-cost branch; it is an engineering
+check, not an extra scientific replicate. Historical archives still contain
+their previously recorded test suites.
