@@ -243,3 +243,19 @@ scope is explicitly historical. CI for preregistered source passed in 3477514487
 Next useful mechanism question: distinguish founder establishment effects from
 later adaptation under scarce resources, with an explicitly controlled treatment
 rather than attributing mixed outcomes to either cause from this assay alone.
+
+## 2026-09-14 — Autonomous cycle 11
+
+Integrated campaign 006 into the Chinese static review: `data/review-v0-6.html`
+now shows all 290 runs / 1,240,000 ticks, the extinction table and figure, and
+explicit finite-horizon language. Browser inspection confirmed the displayed
+totals, new table and rendered figure; replay and lineage destinations remain
+the original acceptance demonstration.
+
+Built `data/bitgenesis-v0-review-6.zip` from clean source `02419ac`. It contains
+464 files / 25,673,634 bytes. SHA-256:
+`d8d6a923b5eed8c831c4b01d1b19524b2017fc5628f832ec18dc5d8611776972`.
+Every archived file was read back and hash-checked. All four local targets from
+the entry page (replay, lineage, two figures) resolve within the archive without
+requiring an absolute workspace path. The manifest records 11 full-run audits
+and the separate campaign-005 metric audit. Previous archives remain preserved.
