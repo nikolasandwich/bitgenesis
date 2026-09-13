@@ -64,7 +64,7 @@ V0 已从骨架推进到可运行的最小达尔文世界。后续阶段尚未�
 九轮本地归档已生成：`data/bitgenesis-v0-nine-campaigns.zip`，固定代码 `c5975cd`。
 使用 `python scripts/package_v0_review.py --campaigns 9 --output data/my-nine-campaigns.zip`
 可重新打包到新路径。整包哈希与核验范围见[验收检查点](ACCEPTANCE.md)。
-GitHub 草稿附件仍为原八轮版本。
+GitHub 新增独立九轮草稿 `v0.0.1-preview.2`，旧八轮草稿保留。
 归档命令 `python scripts/package_v0_review.py --output data/my-new-review.zip` 打包源代码、八轮数据和验收页面，
 附带文件哈希；不包含虚拟环境或其他本地数据。解压后从 `START-HERE.txt` 开始。
 
@@ -74,6 +74,10 @@ GitHub 草稿附件仍为原八轮版本。
 仓库另有 [GitHub 草稿发布](https://github.com/nikolasandwich/bitgenesis/releases)
 `v0.0.1-preview.1`，附带 `bitgenesis-v0-review-8b.zip` 和校验文件，固定源代码 `f389047`。
 这是验收草稿；附件不会随 main 的后续提交自动更新。整包哈希与说明保存在草稿及 `LOG.md`。
+
+最新[九轮草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-f053eec4d3332539ca25)
+为 `v0.0.1-preview.2`，附件是 `bitgenesis-v0-nine-campaigns.zip` 和校验文件，
+固定源代码 `c5975cd`。它包含九轮数据，尚不包含第十轮及之后的主分支改动。
 
 main 另有[能量预算](energy-budget.md)、[内存测量](retention-benchmark.md)和
 [存活比例不确定性](campaign-008.md#exploratory-uncertainty-supplement)等补充材料。

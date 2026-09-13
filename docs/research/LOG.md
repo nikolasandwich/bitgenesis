@@ -618,3 +618,16 @@ threshold, so a threshold intervention would also change controller input meanin
 Replaced that with a separately declared fixed scale (candidate 160), matched
 across arms and not presented as empirically optimized. Added birth tempo and late
 turnover reporting alongside survival and competition. No V1 code or V0 change.
+
+## 2026-09-14 — Autonomous cycle 36
+
+Created a separate GitHub draft prerelease v0.0.1-preview.2 (release 388019032),
+fixed to c5975cd5785e7f1ed784382810314545a9076b91, and uploaded the already verified
+nine-campaign archive plus checksum file. GitHub reports uploaded state, 32997186
+bytes and SHA-256 8bf359d6f156ea71d0f15c6d5eee5f087e86af30e6d4db94562fe38c398895a6,
+matching the local archive. Source CI 34779146296 passed all six environments.
+
+Draft URL: https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-f053eec4d3332539ca25
+Notes explicitly exclude campaign 010 and later main changes. The eight-campaign
+draft remains untouched, and neither release has been published. Acceptance
+guides distinguish current ten-campaign research from the downloadable snapshot.

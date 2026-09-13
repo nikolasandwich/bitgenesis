@@ -6,11 +6,10 @@ Visual review entry `data/review-v0-9.html` covers all nine campaigns, including
 the early allocation trajectories. The eight-campaign page remains preserved.
 Campaign 010 is available in its report and compact data; the existing page and
 local nine-campaign archive do not include it.
-The latest uploaded review archive is `bitgenesis-v0-review-8b.zip`, fixed source
-`f389047`, attached to the `v0.0.1-preview.1` GitHub draft release. It includes the
-eight campaigns but predates the latest checkpoint validation and survival
-uncertainty supplement. The draft is not a published release; its attachments
-do not track main. See the [Chinese guide](REVIEW.zh-CN.md) for access and
+The latest uploaded review archive is `bitgenesis-v0-nine-campaigns.zip`, fixed
+source `c5975cd`, attached to the `v0.0.1-preview.2` GitHub draft release. The older
+eight-campaign `v0.0.1-preview.1` draft remains available. Draft attachments do not
+track main and neither draft is a published release. See the [Chinese guide](REVIEW.zh-CN.md) for access and
 [archive verification](../design/review-verification.md) before using a snapshot.
 Earlier archive descriptions below are explicitly historical.
 
@@ -20,7 +19,9 @@ The latest **local** nine-campaign archive is
 SHA-256: `8bf359d6f156ea71d0f15c6d5eee5f087e86af30e6d4db94562fe38c398895a6`.
 It includes campaign 009, its raw metrics and the new page. Packaging reran 11
 full-run audits plus campaign-005 and campaign-009 metric verification. Independent
-ZIP verification passed. It has not replaced the GitHub draft's eight-campaign asset.
+ZIP verification passed. A separate [nine-campaign draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-f053eec4d3332539ca25)
+now holds this archive and checksum file. GitHub's uploaded asset digest matches
+the hash above; the eight-campaign draft was not replaced.
 
 Verified compatibility checkpoint: source `1b8a2fd`, 46 tests passed on
 Windows/Linux × Python 3.12/3.13/3.14 in
