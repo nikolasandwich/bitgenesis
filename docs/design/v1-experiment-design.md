@@ -19,6 +19,8 @@ must be measured separately from its consequences for reproduction.
 | [Neutral founder labels disappear](../research/campaign-005.md) | Keep equal-controller label controls; lineage fixation is not proof of a superior policy. |
 | [Finite-trait worlds persist without mutation](../research/campaign-007.md) | Require an information intervention, not survival alone. |
 | [Initial food changes establishment](../research/campaign-008.md) | Fix and report initial energy/food; retain failed training worlds in the accounting. |
+| [Equal initial energy has different allocation effects](../research/campaign-009.md) | Match food and founder energy separately, not just their sum. |
+| [Reproduction threshold changes survival and birth tempo](../research/campaign-010.md) | Match reproduction parameters across sensory controls; survival alone does not identify information value. |
 | [Energy allocation explains substantial population differences](../research/energy-budget.md) | Charge matched controller costs in every relevant comparison. |
 | [Complete history keeps growing](../research/retention-benchmark.md) | Bound planned trials and recording budgets; do not promise indefinite runs. |
 
@@ -26,7 +28,11 @@ must be measured separately from its consequences for reproduction.
 
 Use seven integer inputs: food at the current site and east/west/south/north sites,
 current energy, and a constant bias. Scale food to 0–1000 using capacity (zero if
-capacity is zero), energy to 0–1000 clipped at birth threshold, and bias to 1000.
+capacity is zero), energy to 0–1000 using a separately declared fixed energy scale
+(candidate: 160 units, clipping at 1000), and bias to 1000. Keep this scale identical
+across treatment arms; changing a reproduction threshold must not silently change
+the meaning of a controller input. The candidate scale is a design choice, not a
+value optimized or validated by a V1 trial.
 Absolute cardinal directions keep the first version free of orientation state.
 
 Five outputs are rest/east/west/south/north. Each output is the dot product of its
@@ -103,6 +109,36 @@ alongside actions under sensor interventions. Observe them; never feed these mea
 back as an external reproductive reward or ranking function.
 
 ## Gates before interpretation
+
+### Separate information value from reproductive physiology
+
+Campaign 010 changed only existing allocation/threshold parameters and produced
+large survival differences with a fixed movement trait and no mutation. Therefore
+the first V1 information contrast must lock the following within each comparison:
+founder number and positions, initial food and founder energy separately, resource
+parameters, basal/movement/decision costs, birth threshold/cost, energy division,
+action schedule and input normalization. Save them in trial metadata.
+
+The same sampled controller is evaluated under intact and intervened food inputs
+with those parameters unchanged. Do not let the blind control use threshold 40
+while the intact controller uses 160, or select different viability settings after
+seeing either outcome. A later robustness experiment may cross sensory treatment
+with thresholds, but its complete factorial grid and comparisons must be declared
+before running, and each information contrast remains within one physiology.
+
+The viability pilot can select a usable shared environment before the held-out
+evaluation protocol is fixed. It does not justify changing V0 defaults or choosing
+only favorable controller samples. Pilot outcomes and subsequent choices should
+be recorded explicitly, including failed pilot conditions.
+
+Report birth tempo and late birth/death turnover beside offspring and survival.
+Campaign 010 shows that fewer cumulative births can accompany more endpoint
+survival, and that late survival can include turnover without new functional
+variation. These are distinct observations. Retain the direct competition and
+information-intervention requirements above instead of turning survival into a
+proxy for controller quality.
+
+### Implementation and evidence gates
 
 - First verify energy accounting, input/output bounds, mutation inheritance,
   tie behavior, observational isolation, same-seed replay and preserved V0 tests.

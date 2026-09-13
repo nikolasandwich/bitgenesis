@@ -604,3 +604,17 @@ This distinguishes the observed persistence from campaign 004's crowded arrest,
 without claiming permanent survival or new functions. Forty per-run count pairs,
 input hashes and the extended helper hash are saved in a separate sidecar. No
 simulation or engine change; accepted campaign totals remain unchanged.
+
+## 2026-09-14 — Autonomous cycle 35
+
+Fed campaigns 009–010 back into the design-only V1 contract. Sensory controls must
+match initial food and organism energy separately, reproduction parameters and
+all costs/schedules. Any later sensory × threshold robustness experiment needs a
+declared factorial grid; information effects are compared within one physiology.
+Pilot choices remain separate from held-out outcome trials.
+
+Identified a design coupling: energy-input normalization previously used the birth
+threshold, so a threshold intervention would also change controller input meaning.
+Replaced that with a separately declared fixed scale (candidate 160), matched
+across arms and not presented as empirically optimized. Added birth tempo and late
+turnover reporting alongside survival and competition. No V1 code or V0 change.
