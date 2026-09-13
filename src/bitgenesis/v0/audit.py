@@ -15,12 +15,16 @@ def audit(directory):
 
 def _audit(directory):
     directory = Path(directory)
-    def read(name):
-        return json.loads((directory / name).read_text(encoding="utf-8"))
+    def read(name, expected_type):
+        value = json.loads((directory / name).read_text(encoding="utf-8"))
+        if type(value) is not expected_type:
+            kind = "object" if expected_type is dict else "array"
+            raise ValueError(f"Malformed run artifact {name}: expected JSON {kind}")
+        return value
     def require(condition, message):
         if not condition:
             raise ValueError(message)
-    metadata = read("metadata.json")
+    metadata = read("metadata.json", dict)
     require(metadata.get("status") == "complete", "Run is not marked complete")
     require(metadata.get("rules_version") == "v0-darwin-1", "Unsupported rules version")
     schema = metadata.get("output_schema_version", 1)
@@ -53,7 +57,7 @@ def _audit(directory):
                 f"Cumulative energy decreased at tick {tick}")
         previous_supply, previous_dissipation = row["supplied_energy"], row["dissipated_energy"]
         require(0 <= row["population"] <= config["width"] * config["height"], "Population outside cell bounds")
-    records = read("lineage.json")
+    records = read("lineage.json", list)
     by_id = {o["id"]: o for o in records}
     require(len(by_id) == len(records), "Duplicate organism IDs")
     births, deaths, children = Counter(), Counter(), Counter()
@@ -143,7 +147,7 @@ def _audit(directory):
     require(seen_deaths == {o["id"] for o in records if o["death_tick"] is not None}, "Missing death events")
     living = [o for o in records if o["death_tick"] is None]
     require(sum(o["energy"] for o in living) == metrics[-1]["organism_energy"], "Final lineage energy mismatch")
-    frames = read("frames.json")
+    frames = read("frames.json", list)
     require(bool(frames) and frames[0]["tick"] == 0 and frames[-1]["tick"] == steps, "Replay endpoints missing")
     require([f["tick"] for f in frames] == sorted({f["tick"] for f in frames}), "Replay ticks unordered or duplicated")
     for f in frames:
@@ -160,7 +164,7 @@ def _audit(directory):
             require(f["metrics"] == row, "Embedded replay metrics mismatch")
     require(sorted(frames[-1]["organisms"]) == sorted([[o["position"], o["genome"], o["founder_id"]] for o in living]),
             "Final replay/lineage mismatch")
-    require(read("summary.json") == metrics[-1], "Summary/metrics mismatch")
+    require(read("summary.json", dict) == metrics[-1], "Summary/metrics mismatch")
     return {"status": "verified", "rules_version": metadata["rules_version"], "ticks": steps,
             "organisms_recorded": len(records), "births": total_births, "deaths": total_deaths,
             "final_population": len(living), "replay_frames": len(frames)}

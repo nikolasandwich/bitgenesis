@@ -1530,3 +1530,16 @@ reports its own revision. A regression test preserves support for .git worktree
 files. No engine rules or RNG changes. Documented the fixed archive's direct-src
 limitation; its tested noneditable installation route remains unaffected. Old
 records and uploaded snapshots remain unchanged.
+
+## 2026-09-14 — Autonomous cycle 103
+
+Malformed-artifact review reproduced an uncaught AttributeError for metadata
+containing a JSON list or null. Added explicit expected top-level object/array
+checks for metadata, summary, lineage and frames, with filenames in error text.
+The new multi-case regression failed before the change and passes afterward.
+
+All 98 tests pass. A real CLI invocation on malformed metadata exits 2, names
+metadata.json and its expected JSON object, emits no traceback, and leaves the
+file hash and directory contents unchanged. No simulator rules, successful output
+schema or historical files changed. Documented the old fixed archive's error-path
+limitation without implying its valid-run verification is invalidated.

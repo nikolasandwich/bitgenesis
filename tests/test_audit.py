@@ -71,6 +71,20 @@ class AuditTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "not marked complete"):
             audit(self.output)
 
+    def test_wrong_json_container_has_a_readable_error(self):
+        for filename, value in (("metadata.json", []), ("metadata.json", None),
+                                ("lineage.json", {}), ("frames.json", {}),
+                                ("summary.json", [])):
+            path = self.output / filename
+            original = path.read_bytes()
+            try:
+                path.write_text(json.dumps(value), encoding="utf-8")
+                with self.subTest(filename=filename, value=value):
+                    with self.assertRaisesRegex(ValueError, filename):
+                        audit(self.output)
+            finally:
+                path.write_bytes(original)
+
     def test_missing_field_has_a_readable_error(self):
         path = self.output / "lineage.json"
         records = json.loads(path.read_text())

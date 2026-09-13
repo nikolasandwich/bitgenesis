@@ -64,3 +64,16 @@ The 015 verifier checks the complete selected neutral cohort, all 120,004 metric
 rows and all 12,004 prefix rows against the hashed campaign-014 reference. This
 is a conditional extension, not a new independent sample or stable-coexistence
 claim. The corresponding raw reference directory is explicitly supplied.
+
+## Malformed recorded-run JSON
+
+The current `bitgenesis audit DIRECTORY` first checks that `metadata.json` and
+`summary.json` contain JSON objects and that `lineage.json` and `frames.json`
+contain JSON arrays. Wrong top-level types are rejected with the file name and
+expected type; the CLI exits with code 2 and leaves inputs unchanged. This is a
+format check before the lifecycle and energy consistency checks, not a guarantee
+that every syntactically valid object represents a valid experiment.
+
+This error-reporting improvement postdates the fixed fifteen-campaign archive.
+That snapshot can show an AttributeError traceback for list/null metadata; its
+valid recorded runs and prior verification results are unaffected.
