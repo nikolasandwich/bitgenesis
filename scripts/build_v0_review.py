@@ -13,12 +13,16 @@ from urllib.parse import quote
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-root", type=Path, default=Path("data"))
-    parser.add_argument("--output", type=Path, default=Path("data/review-v0-4.html"))
+    parser.add_argument("--output", type=Path, default=Path("data/review-v0-5.html"))
     args = parser.parse_args()
     campaigns = [json.loads((args.data_root / f"campaign-{i:03d}" / "results.json").read_text(encoding="utf-8"))
-                 for i in (1, 2, 3, 4)]
-    if [len(c) for c in campaigns] != [10, 100, 80, 20]:
-        raise ValueError("Expected complete campaigns 001–004 (10/100/80/20 runs)")
+                 for i in (1, 2, 3, 4, 5)]
+    if [len(c) for c in campaigns] != [10, 100, 80, 20, 30]:
+        raise ValueError("Expected complete campaigns 001–005 (10/100/80/20/30 runs)")
+    for i in (2, 3, 4, 5):
+        metadata = json.loads((args.data_root / f"campaign-{i:03d}" / "metadata.json").read_text(encoding="utf-8"))
+        if metadata["status"] != "complete":
+            raise ValueError(f"Campaign {i} is not marked complete")
     if not (args.data_root / "acceptance-v0" / "lineage.html").exists():
         raise ValueError("Generate the acceptance-v0 demonstration before building the review")
     def link(path):
@@ -57,6 +61,15 @@ def main():
                          [[f"{p/10:g}%", span(rows, "population"), span(rows, "late_births"),
                            span(rows, "founder_lineages"), f"{sum(r['extinction_tick'] is not None for r in rows)}/5"]
                           for p, rows in sorted(regimes.items())])
+    sizes = defaultdict(list)
+    for row in campaigns[4]:
+        sizes[(row["width"], row["treatment"])].append(row)
+    table_sizes = table(["世界大小", "条件", "初始谱系", "终点谱系", "到达单一谱系"],
+                       [[f"{width}×{width}", "可变性状＋突变" if treatment == "evolving" else "相同性状、中性标签",
+                         rows[0]["initial_population"], span(rows, "founder_lineages"),
+                         f"{sum(r['first_single_founder_tick'] is not None for r in rows)}/5"]
+                        for (width, treatment), rows in sorted(sizes.items())])
+    lineage_figure = link(args.data_root.parent / "docs/research/figures/campaign-005-lineages.png")
     page = f'''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>BitGenesis · V0 研究验收</title><style>
 *{{box-sizing:border-box}}body{{margin:0;background:#f4f2e9;color:#263b34;font:16px system-ui,"Microsoft YaHei",sans-serif}}main{{max-width:1120px;margin:auto;padding:48px 26px 80px}}.eyebrow{{font-size:12px;letter-spacing:3px;color:#557364}}h1{{font-size:48px;line-height:1.2;letter-spacing:-2px;margin:14px 0 20px}}h2{{font-size:26px;line-height:1.3;margin:0 0 18px}}h3{{font-size:17px}}p{{line-height:1.8;max-width:920px;color:#50665c}}.lead{{font-size:19px}}.rule{{font-family:monospace;font-size:18px;color:#557364}}.stats{{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin:30px 0}}.stat{{background:#e5ebdf;border-radius:12px;padding:22px}}.stat b{{font-size:36px;display:block;font-weight:600}}.stat span{{font-size:13px;color:#597060}}.actions{{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0 38px}}.button{{padding:14px 20px;border-radius:7px;background:#2d5948;color:white;text-decoration:none;font-weight:600}}.button.secondary{{background:transparent;color:#2d5948;border:1px solid #789383}}section{{padding:32px 0;border-top:1px solid #ced8cb}}.badge{{display:inline-block;font-size:12px;background:#dbe8d6;color:#346242;border-radius:20px;padding:5px 10px}}.columns{{display:grid;grid-template-columns:1fr 1fr;gap:26px}}.card{{padding:22px;background:#fffef8;border:1px solid #d8dfd1;border-radius:12px}}.scroll{{overflow-x:auto}}table{{width:100%;border-collapse:collapse;font-size:14px;margin:15px 0 25px}}th,td{{text-align:left;padding:12px 10px;border-bottom:1px solid #d8dfd1;white-space:nowrap}}th{{color:#5c7566;font-size:12px}}.small{{font-size:13px}}a{{color:#25634d}}code{{background:#e5ebdf;padding:2px 5px;border-radius:3px}}@media(max-width:700px){{h1{{font-size:35px}}.stats,.columns{{grid-template-columns:1fr}}main{{padding:30px 18px}}.stat b{{font-size:28px}}}}
@@ -70,6 +83,7 @@ def main():
 <section><h2>02 / 固定策略，比较生存</h2><p>每种条件用十个独立种子运行 2,000 步，关闭突变。表中后期种群为最后 500 步均值，灭绝后的零值也计入。</p>{table_traits}<p class="small">完全不移动的种群在这些条件下全部灭绝；移动越频繁，并不意味着能维持越多个体。</p></section>
 <section><h2>03 / 让策略直接竞争</h2><p>A 为 25% 移动，B 为 100% 移动；中性对照中两组都为 25%，标签本身没有作用。每行十个种子，每次 3,000 步。“两组存活”只是终点状态，不表示永久共存。</p>{table_competition}<p class="small">整体灭绝与某一谱系胜出分开记录。样本支持初步比较，不能把十次实验的频率当成精确概率。</p></section>
 <section><h2>04 / 活着，也可能停止演化</h2><p>每种资源条件运行五个种子、10,000 步。极充足条件下，世界在第 22–24 步就被填满，之后没有新的出生和死亡，个体仅继续积累能量。</p>{table_regimes}<p class="small">80 个创始谱系全部保留，并不表示创新更丰富：它们都没有死亡。这是当前“无衰老、无能量储存上限、繁殖需要空位”规则的边界情况，保留为反例。</p></section>
+<section><h2>05 / 世界大小会改变观察结果</h2><p>保持初始密度不变，每种条件五个种子、10,000 步。大世界保留更多祖先标签，但保留比例并不更高。相同行为的中性标签也会消失，单一谱系胜出不等于策略优越。</p>{table_sizes}<img src="{lineage_figure}" alt="不同世界规模下五个种子的创始谱系数量随时间变化；粗线是中位数，不是置信区间。" style="width:100%;height:auto"><p class="small">这些是有限时长的祖先数量，不是物种数量或开放式创新。完整报告解释了种群规模和行为差异之间的混杂因素。</p></section>
 <section><h2>接下来如何继续</h2><p>保持 V0 规则与旧实验可重放，继续检查更长时间和不同资源条件下的结果，再决定是否进入可进化控制器阶段。先增加证据，再增加生物复杂度。</p><p class="small">详细协议与报告位于仓库的 <code>experiments/v0/</code>、<code>docs/research/</code>；当前验收检查点见 <code>ACCEPTANCE.md</code>。本页为本地静态研究快照。</p></section></main></html>'''
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x", encoding="utf-8") as stream:
