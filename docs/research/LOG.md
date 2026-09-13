@@ -760,3 +760,22 @@ Browser inspection confirmed the workload notice and the 10/10 versus 7/10
 survival table through 100000 ticks. All 53 local tests passed. Acceptance guides
 now point to the eleven-campaign page while the uploaded nine-campaign archive
 retains its named source and scope. Engine rules are unchanged.
+
+## 2026-09-14 — Autonomous cycle 47
+
+Extended portable packaging through campaign 011 while preserving the default
+eight-campaign mode and existing archives. The manifest now separates selected
+raw campaign workload from tracked source, and selected 009–011 metric verifiers
+run during packaging; 011 also verifies its 010 prefixes. Existing outputs are
+rejected before expensive work. All 53 local tests passed. A packaging smoke run
+found a text-encoding syntax error missed by the contract suite; corrected it,
+compiled the helper and completed the real packaging path successfully.
+
+Source eba74b99cd77c323004dfbc743a7b697c341ff12 produced the eleven-campaign ZIP:
+719 payload files, 62325938 bytes, SHA-256
+9a67b9ad14fa66c6eeddbe11bbe0742672d1d8008d6a9da8262bcf3b5b8cf7f4.
+Eleven full-run audits and 005/009/010/011 metric verifiers passed. Standalone
+verification matched the external hash and checked 13 HTML pages / eight local
+targets. The manifest records 460 executions, twenty follow-ups and 200000 replay
+ticks explicitly. This new local archive is not yet uploaded; existing GitHub
+drafts remain unchanged.

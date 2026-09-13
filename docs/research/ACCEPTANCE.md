@@ -15,7 +15,16 @@ track main and neither draft is a published release. See the [Chinese guide](REV
 [archive verification](../design/review-verification.md) before using a snapshot.
 Earlier archive descriptions below are explicitly historical.
 
-The latest **local** nine-campaign archive is
+A newer **local** eleven-campaign archive is `data/bitgenesis-v0-eleven-campaigns.zip`,
+source `eba74b99cd77c323004dfbc743a7b697c341ff12`, 719 payload files / 62,325,938 bytes.
+SHA-256: `9a67b9ad14fa66c6eeddbe11bbe0742672d1d8008d6a9da8262bcf3b5b8cf7f4`.
+It includes all eleven raw campaigns and the latest review page. Packaging reran
+11 full-run audits plus the 005/009/010/011 metric verifiers and recorded the
+follow-up workload in its manifest. Independent verification matched the expected
+whole-file hash and checked 13 HTML pages / eight local targets. It has not yet
+been attached to a GitHub draft.
+
+The preserved local nine-campaign archive is
 `data/bitgenesis-v0-nine-campaigns.zip`, source
 `c5975cd5785e7f1ed784382810314545a9076b91`, 628 payload files / 32,997,186 bytes.
 SHA-256: `8bf359d6f156ea71d0f15c6d5eee5f087e86af30e6d4db94562fe38c398895a6`.
