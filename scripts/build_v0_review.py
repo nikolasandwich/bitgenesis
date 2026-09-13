@@ -1,0 +1,70 @@
+"""Build a local Chinese review page from completed campaign artifacts."""
+
+import argparse
+from collections import defaultdict
+from html import escape
+import json
+import os
+from pathlib import Path
+from statistics import mean
+from urllib.parse import quote
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--data-root", type=Path, default=Path("data"))
+    parser.add_argument("--output", type=Path, default=Path("data/review-v0.html"))
+    args = parser.parse_args()
+    campaigns = [json.loads((args.data_root / f"campaign-{i:03d}" / "results.json").read_text(encoding="utf-8"))
+                 for i in (1, 2, 3)]
+    if [len(c) for c in campaigns] != [10, 100, 80]:
+        raise ValueError("Expected complete campaigns 001, 002 and 003 (10/100/80 runs)")
+    if not (args.data_root / "acceptance-v0" / "lineage.html").exists():
+        raise ValueError("Generate the acceptance-v0 demonstration before building the review")
+    def link(path):
+        return quote(os.path.relpath(path, args.output.parent).replace("\\", "/"), safe="/.-")
+    def table(headers, rows):
+        return '<div class="scroll"><table><thead><tr>' + ''.join(f'<th>{escape(str(h))}</th>' for h in headers) + '</tr></thead><tbody>' + ''.join('<tr>'+''.join(f'<td>{escape(str(c))}</td>' for c in row)+'</tr>' for row in rows) + '</tbody></table></div>'
+    groups = defaultdict(list)
+    for row in campaigns[1]:
+        groups[(row["movement_cost"], row["trait"])].append(row)
+    trait_rows = [[cost, f"{trait/10:g}%", f"{mean(r['late_mean_population'] for r in rows):.2f}",
+                   f"{sum(r['extinction_tick'] is not None for r in rows)}/{len(rows)}"]
+                  for (cost, trait), rows in sorted(groups.items())]
+    groups = defaultdict(list)
+    for row in campaigns[2]:
+        groups[(row["movement_cost"], row["initial_b"], row["treatment"])].append(row)
+    competition_rows = []
+    for (cost, initial, treatment), rows in sorted(groups.items()):
+        competition_rows.append([cost, f"{initial/80:.0%}", "高移动 vs 低移动" if treatment == "competition" else "相同策略、中性标签",
+                                 sum(r["b"] > 0 and r["a"] == 0 for r in rows),
+                                 sum(r["a"] > 0 and r["b"] == 0 for r in rows),
+                                 sum(r["a"] > 0 and r["b"] > 0 for r in rows),
+                                 sum(r["population"] == 0 for r in rows)])
+    runs = sum(len(c) for c in campaigns)
+    ticks = sum(r["tick"] for c in campaigns for r in c)
+    replay = link(args.data_root / "acceptance-v0" / "index.html")
+    lineage = link(args.data_root / "acceptance-v0" / "lineage.html")
+    table_traits = table(["移动成本", "每步移动概率", "后期平均种群", "灭绝次数"], trait_rows)
+    table_competition = table(["移动成本", "B 初始比例", "实验", "仅 B 存活", "仅 A 存活", "两组存活", "整体灭绝"], competition_rows)
+    page = f'''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BitGenesis · V0 研究验收</title><style>
+*{{box-sizing:border-box}}body{{margin:0;background:#f4f2e9;color:#263b34;font:16px system-ui,"Microsoft YaHei",sans-serif}}main{{max-width:1120px;margin:auto;padding:48px 26px 80px}}.eyebrow{{font-size:12px;letter-spacing:3px;color:#557364}}h1{{font-size:48px;line-height:1.2;letter-spacing:-2px;margin:14px 0 20px}}h2{{font-size:26px;line-height:1.3;margin:0 0 18px}}h3{{font-size:17px}}p{{line-height:1.8;max-width:920px;color:#50665c}}.lead{{font-size:19px}}.rule{{font-family:monospace;font-size:18px;color:#557364}}.stats{{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin:30px 0}}.stat{{background:#e5ebdf;border-radius:12px;padding:22px}}.stat b{{font-size:36px;display:block;font-weight:600}}.stat span{{font-size:13px;color:#597060}}.actions{{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0 38px}}.button{{padding:14px 20px;border-radius:7px;background:#2d5948;color:white;text-decoration:none;font-weight:600}}.button.secondary{{background:transparent;color:#2d5948;border:1px solid #789383}}section{{padding:32px 0;border-top:1px solid #ced8cb}}.badge{{display:inline-block;font-size:12px;background:#dbe8d6;color:#346242;border-radius:20px;padding:5px 10px}}.columns{{display:grid;grid-template-columns:1fr 1fr;gap:26px}}.card{{padding:22px;background:#fffef8;border:1px solid #d8dfd1;border-radius:12px}}.scroll{{overflow-x:auto}}table{{width:100%;border-collapse:collapse;font-size:14px;margin:15px 0 25px}}th,td{{text-align:left;padding:12px 10px;border-bottom:1px solid #d8dfd1;white-space:nowrap}}th{{color:#5c7566;font-size:12px}}.small{{font-size:13px}}a{{color:#25634d}}code{{background:#e5ebdf;padding:2px 5px;border-radius:3px}}@media(max-width:700px){{h1{{font-size:35px}}.stats,.columns{{grid-template-columns:1fr}}main{{padding:30px 18px}}.stat b{{font-size:28px}}}}
+</style><main><div class="eyebrow">BITGENESIS / RESEARCH NOTEBOOK / V0</div><h1>先造世界，再观察生命。</h1>
+<div class="rule">Simple Rules + Energy + Information + Time → ?</div>
+<p class="lead">最小达尔文世界已经运行。个体会进食、消耗能量、复制、突变和死亡；研究开始从“它动起来了”转向“为什么是这种行为留下了后代”。</p>
+<div class="stats"><div class="stat"><b>{runs}</b><span>已完成的受控实验</span></div><div class="stat"><b>{ticks:,}</b><span>累计实验时间步，每步检查能量和空间约束</span></div><div class="stat"><b>V0</b><span>当前唯一运行阶段；后续阶段仍为研究路线图</span></div></div>
+<div class="actions"><a class="button" href="{replay}">打开世界回放 →</a><a class="button secondary" href="{lineage}">追踪个体谱系 →</a><a class="button secondary" href="https://github.com/nikolasandwich/bitgenesis">查看 GitHub 仓库 ↗</a></div>
+<section><span class="badge">先看这三点</span><div class="columns"><div><h3>繁殖成功不等于种群最大</h3><p>低成本时，高移动类型能在竞争中取代低移动类型；但单独运行的低移动种群，能维持更多个体。没有人为给“种群数量”打分。</p><h3>优势取决于世界规则</h3><p>提高移动成本后，竞争结果通常反转。这里出现的是特定环境中的选择，不是通用智能。</p></div><div><h3>持续繁殖不等于开放式进化</h3><p>第一轮十个长跑实验最后都只剩一个创始谱系。突变仍会产生差异，但还没有持续形成丰富的新功能或生态。</p><p class="small">个体、基因含义、繁殖方式和能量规则都是明确设计的。未实现食物感知、记忆、神经控制器或复杂生物学。</p></div></div></section>
+<section><h2>01 / 一个可复核的世界</h2><div class="columns"><div class="card"><h3>回放里看什么</h3><p>拖动时间轴，观察食物与个体分布。切换基因和创始谱系着色，查看种群、移动概率和谱系数量随时间变化。</p></div><div class="card"><h3>谱系里查什么</h3><p>示例运行可查个体 <code>1640</code>：它的父代是 <code>1618</code>，创始祖先是 <code>24</code>。点击祖先按钮查看每一代的出生、死亡、遗传值和直接子代。</p></div></div><p class="small">演示是种子 42、1,000 步的独立运行。每个实验目录同时保存配置、代码来源、逐步指标和原始记录；验收页来自已完成的实验结果，不会修改模拟状态。</p></section>
+<section><h2>02 / 固定策略，比较生存</h2><p>每种条件用十个独立种子运行 2,000 步，关闭突变。表中后期种群为最后 500 步均值，灭绝后的零值也计入。</p>{table_traits}<p class="small">完全不移动的种群在这些条件下全部灭绝；移动越频繁，并不意味着能维持越多个体。</p></section>
+<section><h2>03 / 让策略直接竞争</h2><p>A 为 25% 移动，B 为 100% 移动；中性对照中两组都为 25%，标签本身没有作用。每行十个种子，每次 3,000 步。“两组存活”只是终点状态，不表示永久共存。</p>{table_competition}<p class="small">整体灭绝与某一谱系胜出分开记录。样本支持初步比较，不能把十次实验的频率当成精确概率。</p></section>
+<section><h2>接下来如何继续</h2><p>保持 V0 规则与旧实验可重放，继续检查更长时间和不同资源条件下的结果，再决定是否进入可进化控制器阶段。先增加证据，再增加生物复杂度。</p><p class="small">详细协议与报告位于仓库的 <code>experiments/v0/</code>、<code>docs/research/</code>；当前验收检查点见 <code>ACCEPTANCE.md</code>。本页为本地静态研究快照。</p></section></main></html>'''
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    with args.output.open("x", encoding="utf-8") as stream:
+        stream.write(page)
+    print(args.output.resolve())
+
+
+if __name__ == "__main__":
+    main()
