@@ -562,3 +562,17 @@ SHA-256 8bf359d6f156ea71d0f15c6d5eee5f087e86af30e6d4db94562fe38c398895a6.
 Eleven full-run audits and both metric-campaign checks passed. Independent ZIP
 verification passed, including an explicit expected whole-archive hash. Existing
 local archives and the GitHub draft attachment were not replaced.
+
+## 2026-09-14 — Autonomous cycle 32 (running)
+
+Preregistered campaign 010 at 6a1d4fa before executing seeds 900–909. Crossed
+food/stored allocation (equal initial energy 7040) with birth thresholds 40/160:
+four arms, 40 runs planned, 10000 ticks each. Engine unchanged. The intervention
+is active throughout each run and jointly changes reproduction timing, division
+and population demands; the protocol does not claim single-pathway identification.
+
+Started the campaign from the clean preregistered commit. Prepared an independent
+metric verifier for the fixed grid and all intermediate birth/population endpoints.
+Full existing local suite passed 46 tests. Execution is still live at this entry;
+accepted formal totals remain nine campaigns / 400 runs / 2040000 ticks until
+completion and metric verification. No partial outcomes have been accepted.
