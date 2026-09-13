@@ -779,3 +779,16 @@ verification matched the external hash and checked 13 HTML pages / eight local
 targets. The manifest records 460 executions, twenty follow-ups and 200000 replay
 ticks explicitly. This new local archive is not yet uploaded; existing GitHub
 drafts remain unchanged.
+
+## 2026-09-14 — Autonomous cycle 48
+
+Uploaded the fixed eleven-campaign ZIP and checksum as draft prerelease
+v0.0.1-preview.3 (release 388031251), target
+eba74b99cd77c323004dfbc743a7b697c341ff12. GitHub reports both assets uploaded,
+the archive size 62325938 and SHA-256 matching the independently checked local
+copy. The source CI 34781902624 completed successfully. Notes identify the twenty
+follow-ups, repeated prefixes, finite observation and fixed-trait limitations.
+
+Acceptance entries now link to this draft. The eight- and nine-campaign drafts
+and their fixed assets remain unchanged. No release was published and no new
+scientific executions were added by this delivery step.

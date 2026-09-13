@@ -8,10 +8,10 @@ Visual review entry `data/review-v0-11.html` covers all eleven campaigns, includ
 the allocation trajectories, threshold survival curves and longitudinal follow-up.
 It distinguishes executions from independent samples and identifies replayed prefixes.
 Earlier pages remain preserved. The uploaded nine-campaign archive excludes 010–011.
-The latest uploaded review archive is `bitgenesis-v0-nine-campaigns.zip`, fixed
-source `c5975cd`, attached to the `v0.0.1-preview.2` GitHub draft release. The older
-eight-campaign `v0.0.1-preview.1` draft remains available. Draft attachments do not
-track main and neither draft is a published release. See the [Chinese guide](REVIEW.zh-CN.md) for access and
+The latest uploaded review archive is `bitgenesis-v0-eleven-campaigns.zip`, fixed
+source `eba74b9`, attached to the `v0.0.1-preview.3` GitHub draft release. The older
+eight- and nine-campaign drafts remain available. Draft attachments do not
+track main and none is a published release. See the [Chinese guide](REVIEW.zh-CN.md) for access and
 [archive verification](../design/review-verification.md) before using a snapshot.
 Earlier archive descriptions below are explicitly historical.
 
@@ -21,8 +21,10 @@ SHA-256: `9a67b9ad14fa66c6eeddbe11bbe0742672d1d8008d6a9da8262bcf3b5b8cf7f4`.
 It includes all eleven raw campaigns and the latest review page. Packaging reran
 11 full-run audits plus the 005/009/010/011 metric verifiers and recorded the
 follow-up workload in its manifest. Independent verification matched the expected
-whole-file hash and checked 13 HTML pages / eight local targets. It has not yet
-been attached to a GitHub draft.
+whole-file hash and checked 13 HTML pages / eight local targets. The [eleven-campaign draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-83f2a58ad0f9613a370b)
+holds this archive and checksum file. GitHub reports both assets uploaded, with
+the archive size and digest matching the local result. Source CI
+[34781902624](https://github.com/nikolasandwich/bitgenesis/actions/runs/34781902624) passed.
 
 The preserved local nine-campaign archive is
 `data/bitgenesis-v0-nine-campaigns.zip`, source
