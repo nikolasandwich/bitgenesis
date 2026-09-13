@@ -104,3 +104,13 @@ individual IDs and movement events are not recorded. This is not an independent
 reconstruction of every movement or the spatial history between sampled frames.
 The stricter check passed all 1,111 saved frames across eleven historical full
 runs. It postdates the fixed fifteen-campaign archive; raw records are unchanged.
+
+## Replay sampling completeness
+
+The current auditor compares stored frame ticks with the exact schedule implied
+by the recorded effective `frame_interval`: tick zero, interval-aligned ticks,
+and the final tick if not already included. The interval must be a positive
+integer. A missing intermediate frame is rejected even when endpoints and all
+remaining frames are individually consistent. A zero-step run has one frame.
+This catches lost samples, not hidden events between the advertised samples.
+The fixed fifteen-campaign archive predates this additional check.

@@ -2,7 +2,7 @@
 
 `bitgenesis audit DIRECTORY` checks consistency among saved records without
 stepping the world. It does not regenerate the experiment from its seed. The
-scope below describes source `3dbadf40d1554520701942cf89e2cb89ff51fc61`;
+scope below includes the sampling-completeness extension after source `3dbadf4`;
 fixed archives retain the auditor shipped with their own source revision.
 
 ## Recorded-run checks
@@ -14,7 +14,7 @@ fixed archives retain the auditor shipped with their own source revision.
 | Lineage | Unique IDs, founder/parent relationships, birth/death ordering, generations, bounded genomes and mutation steps, no-mutation inheritance, direct offspring counts | Differential offspring counts do not isolate a causal benefit of the inherited trait. Founder labels are not species. |
 | Lifecycle reconstruction | Birth/death totals, living trait mean and distinct values, founder counts and maximum living generation match each metric row | Aggregate values do not reconstruct movement or access to food. |
 | Birth/death event stream | Events match lineage, occur in tick order, have valid positions, and contain the required births/deaths without duplicates; birth energy positive; death energy zero and last position consistent | Positive birth energy alone does not independently verify the exact parental split. Movements and feeding transfers are not in this event stream. |
-| Every saved replay frame | Endpoints and tick ordering; resource dimensions/bounds/total; occupancy bounds/no collisions; population count; joint `(genome, founder_id)` multiset reconstructed from lifecycle; embedded metrics when present | No individual ID appears in a replay triple. Intermediate position-to-identity assignment and unsaved movements cannot be reconstructed. The audit does not certify that every advertised intermediate sampling point was retained. |
+| Every saved replay frame | Endpoints, tick ordering and the complete metadata sampling schedule; resource dimensions/bounds/total; occupancy bounds/no collisions; population count; joint `(genome, founder_id)` multiset reconstructed from lifecycle; embedded metrics when present | No individual ID appears in a replay triple. Intermediate position-to-identity assignment and unsaved movements cannot be reconstructed. |
 | Final frame and summary | Final organism triples and total living energy agree with lineage; summary agrees with final metrics | Agreement among files does not establish an external truth about how they were produced. |
 
 For example, a changed intermediate founder label now fails even when the frame's
@@ -39,3 +39,8 @@ from later main changes. Source `3dbadf4` passed the six Windows/Linux × Python
 3.12/3.13/3.14 jobs in [CI 34789147628](https://github.com/nikolasandwich/bitgenesis/actions/runs/34789147628).
 The strengthened auditor also passed eleven historical full runs and 1,111 saved
 frames. Those successful checks do not broaden the scope stated in this document.
+
+The sampling extension checks every interval-aligned frame plus the final tick
+when it is not interval-aligned; zero-step runs contain only tick zero. It passed
+103 local tests and the same eleven historical runs. This is additional evidence
+after the CI revision above, not a claim that the older CI job tested the new code.

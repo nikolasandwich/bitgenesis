@@ -111,6 +111,12 @@ def _audit(directory):
     frames = read("frames.json", list)
     require(bool(frames) and frames[0]["tick"] == 0 and frames[-1]["tick"] == steps, "Replay endpoints missing")
     require([f["tick"] for f in frames] == sorted({f["tick"] for f in frames}), "Replay ticks unordered or duplicated")
+    interval = metadata["frame_interval"]
+    require(type(interval) is int and interval > 0, "Replay sampling interval must be a positive integer")
+    expected_ticks = list(range(0, steps+1, interval))
+    if expected_ticks[-1] != steps:
+        expected_ticks.append(steps)
+    require([f["tick"] for f in frames] == expected_ticks, "Replay sampling schedule differs from metadata")
     frames_by_tick = {f["tick"]: f for f in frames}
     total_births = total_deaths = 0
     live_genomes, live_founders, live_generations = Counter(), Counter(), Counter()

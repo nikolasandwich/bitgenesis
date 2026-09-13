@@ -1585,3 +1585,16 @@ no independent exact birth-energy split verification, no certification of every
 advertised intermediate sample, no seed authentication and no causal inference
 from offspring totals. Confirmed source 3dbadf4 CI 34789147628 succeeded across the
 configured matrix. Documentation links resolve; no new simulation or code change.
+
+## 2026-09-14 — Autonomous cycle 107
+
+Deleting a saved intermediate replay frame reproduced another audit gap: endpoints
+and remaining frame consistency alone did not detect missing advertised samples.
+Added exact frame schedule comparison using the effective recorded interval,
+including final nonaligned ticks and the single initial frame for zero-step runs.
+
+The missing-frame regression failed before the fix and passes afterward. All 103
+tests pass, including zero/nonaligned horizons; eleven historical full runs remain
+valid without edits. Updated the audit scope matrix to describe the stronger
+sampling guarantee and retain the limit on unobserved events between samples.
+No simulator, recording format or archived files changed.

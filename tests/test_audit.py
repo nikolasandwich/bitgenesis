@@ -34,6 +34,21 @@ class AuditTests(unittest.TestCase):
                 audit(self.output)
         path.write_bytes(original)
 
+    def test_missing_intermediate_frame_is_detected(self):
+        path = self.output / "frames.json"
+        frames = json.loads(path.read_text(encoding="utf-8"))
+        del frames[1]
+        path.write_text(json.dumps(frames), encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "sampling"):
+            audit(self.output)
+
+    def test_zero_and_nonaligned_horizons_keep_exact_sampling(self):
+        for steps in (0, 23):
+            output = Path(self.temp.name) / f"sampling-{steps}"
+            run(Config(width=8,height=8,initial_population=12), steps, output, frame_interval=10)
+            result = audit(output)
+            self.assertEqual(result["replay_frames"], 1 if steps == 0 else 4)
+
     def test_energy_corruption_is_detected(self):
         path = self.output / "metrics.csv"
         with path.open(newline="", encoding="utf-8") as stream:
