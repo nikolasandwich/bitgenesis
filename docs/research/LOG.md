@@ -259,3 +259,20 @@ Every archived file was read back and hash-checked. All four local targets from
 the entry page (replay, lineage, two figures) resolve within the archive without
 requiring an absolute workspace path. The manifest records 11 full-run audits
 and the separate campaign-005 metric audit. Previous archives remain preserved.
+
+## 2026-09-14 — Autonomous cycle 12
+
+Preregistered and completed campaign 007 from clean source `0b73705`: founder
+genomes random/250/1000 × mutation attempt 0/100 per 1000 births, regrowth 15/1000,
+seeds 600–609, 5000 ticks. All 60 runs completed (300,000 ticks). Final survivors
+per ten runs: random 7 without / 9 with mutation; initially 250, 7 / 7; initially
+1000, 4 / 2. Intermediate survival and extinction times differ substantially even
+where terminal counts match. No significance or general mutation benefit claim.
+
+Fixed-trait, mutation-free populations supply direct counterexamples to the claim
+that new or standing movement-trait variation is necessary for 5000-tick persistence
+in this condition. They do not prove indefinite persistence. All 300,060 metric
+rows were independently checked for accounting and declared outcomes; a sidecar
+records raw CSV and script hashes. Formal totals: 350 runs / 1,540,000 ticks.
+Source CI passed in 34775566923. Six-campaign review artifacts remain historical;
+the seventh report and all-seed CSV are tracked alongside them.

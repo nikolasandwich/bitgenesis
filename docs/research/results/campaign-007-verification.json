@@ -1,0 +1,165 @@
+{
+  "groups": [
+    {
+      "founder_trait": "1000",
+      "mutation_probability": 0,
+      "surviving_at_500": 4,
+      "surviving_at_5000": 4,
+      "runs": 10,
+      "extinct_only_tick_range": [
+        63,
+        87
+      ],
+      "final_population_range": [
+        0,
+        80
+      ],
+      "late_mean_population": 11.7818
+    },
+    {
+      "founder_trait": "1000",
+      "mutation_probability": 100,
+      "surviving_at_500": 3,
+      "surviving_at_5000": 2,
+      "runs": 10,
+      "extinct_only_tick_range": [
+        83,
+        3169
+      ],
+      "final_population_range": [
+        0,
+        37
+      ],
+      "late_mean_population": 5.7636
+    },
+    {
+      "founder_trait": "250",
+      "mutation_probability": 0,
+      "surviving_at_500": 10,
+      "surviving_at_5000": 7,
+      "runs": 10,
+      "extinct_only_tick_range": [
+        2054,
+        4120
+      ],
+      "final_population_range": [
+        0,
+        80
+      ],
+      "late_mean_population": 27.5463
+    },
+    {
+      "founder_trait": "250",
+      "mutation_probability": 100,
+      "surviving_at_500": 10,
+      "surviving_at_5000": 7,
+      "runs": 10,
+      "extinct_only_tick_range": [
+        576,
+        959
+      ],
+      "final_population_range": [
+        0,
+        68
+      ],
+      "late_mean_population": 22.258000000000003
+    },
+    {
+      "founder_trait": "random",
+      "mutation_probability": 0,
+      "surviving_at_500": 9,
+      "surviving_at_5000": 7,
+      "runs": 10,
+      "extinct_only_tick_range": [
+        127,
+        1198
+      ],
+      "final_population_range": [
+        0,
+        30
+      ],
+      "late_mean_population": 22.9116
+    },
+    {
+      "founder_trait": "random",
+      "mutation_probability": 100,
+      "surviving_at_500": 10,
+      "surviving_at_5000": 9,
+      "runs": 10,
+      "extinct_only_tick_range": [
+        3897,
+        3897
+      ],
+      "final_population_range": [
+        0,
+        46
+      ],
+      "late_mean_population": 27.6514
+    }
+  ],
+  "metric_rows_checked": 300060,
+  "scope": "Accounting and endpoint consistency only; no dynamics replay or lifecycle validation.",
+  "input_sha256": {
+    "founder-1000-mutation-0-seed-600.csv": "7979e8d07bbfcbbe4029888a8a79fc086b1b7eb15b4bf02b9bb7dfb7c1726ab6",
+    "founder-1000-mutation-0-seed-601.csv": "eb87979cea66d35d0e2249e109e9508eb129c5ab9905d3b61e302add20e0dfdf",
+    "founder-1000-mutation-0-seed-602.csv": "e610fe740aaa50fc321c8d98a2648c346010ddd8ae99a277cdc130c61af3cd2e",
+    "founder-1000-mutation-0-seed-603.csv": "8f28a47e9a8011b5e630f1aeb7385b6ee795028746152ae88609831938cd50f4",
+    "founder-1000-mutation-0-seed-604.csv": "97a89124659eebd62e2947abc3f36fddde73fba8b26bba225e5dbd5bf9c0ebb4",
+    "founder-1000-mutation-0-seed-605.csv": "67b3374bfa156a5e2cdd6634fadce76c5d67b54f7b1814bf20587993ec722d05",
+    "founder-1000-mutation-0-seed-606.csv": "dd1c99d454a6b0387f387bf487f488fb196987940514e8d8788ba1c46becb05c",
+    "founder-1000-mutation-0-seed-607.csv": "1e961b94468b90546751c2d3257fc6fa01dcfb2868fa68f4b7164e7ade4813d4",
+    "founder-1000-mutation-0-seed-608.csv": "cb6c6cf67263a8ab98c74f7221d9c74cf5bc2ac3cd9e22958d04a4c64d179315",
+    "founder-1000-mutation-0-seed-609.csv": "6ec5624e89f957629ecfefae755eea056f8c11603746360b561c6d0da95360b4",
+    "founder-1000-mutation-100-seed-600.csv": "b49be24d4cba3566d11a7975fdfaa1205e7760e894a8b4015ba0c3d944645569",
+    "founder-1000-mutation-100-seed-601.csv": "468debbda0650bcb3c53a9a9fb6af3f8a5c5edb7b3b1a36504ce3985b972ece9",
+    "founder-1000-mutation-100-seed-602.csv": "b93add4de8dff9f19d337a0dd926d6bdd5ece35cf4ea35cf62d7c6cde1f1bc3e",
+    "founder-1000-mutation-100-seed-603.csv": "2a0967b56691cb4ba7aefe2b83bc088ba9f711872fe2e7f535a6b3a0641a0712",
+    "founder-1000-mutation-100-seed-604.csv": "8749b747d910ac714512b48a72f550af1dd899a0be61f2a76900e172eebd7444",
+    "founder-1000-mutation-100-seed-605.csv": "9c6c51eb2ee2af3c255a90933a265a3513480fe79ddf3ab960c508652d0ab885",
+    "founder-1000-mutation-100-seed-606.csv": "c36e7609dc04572259286d2eb7832d3b292450dcced1db93b8132bfc1a7f2082",
+    "founder-1000-mutation-100-seed-607.csv": "32fd0e7cca3d80eafb16725656ef8ef1f306f48adb7f84047f362965a5f43709",
+    "founder-1000-mutation-100-seed-608.csv": "092666b0fd8503d4560bf2be7883fa9428e29d5779bde461b28f874e1343eb6e",
+    "founder-1000-mutation-100-seed-609.csv": "6c3b83672d619f199fbc202f9e9c23dabe578a6281c0ab1c944c86191d333130",
+    "founder-250-mutation-0-seed-600.csv": "4a9166a375a5d54420effa6df6d843eb686333ad7228672497608b97ddb177a6",
+    "founder-250-mutation-0-seed-601.csv": "f57a9b027aa7270477dc7b9f3abd0f0c1c9d470b7dea032f3401ac9d7b5a982c",
+    "founder-250-mutation-0-seed-602.csv": "690df63dcd9b83f66bb7095bc2b8284fbd04b970b5cb677b1ed0890c3a70b4e4",
+    "founder-250-mutation-0-seed-603.csv": "1f1e87dc1c27b8c2c4d9df7d5424c5b0cd422fc3b8875aa8008c0dbcf31d5e4a",
+    "founder-250-mutation-0-seed-604.csv": "7cecda6320a17ae5ac6fbbc70fde37e7d6f8862f4f343ff2e62d2c8ceb6b7594",
+    "founder-250-mutation-0-seed-605.csv": "62a6826d4cafa531029be7b75ce8a41faba1e903deb7911d675962003ced5249",
+    "founder-250-mutation-0-seed-606.csv": "48763745a654f94fb27906344af7943368fb9a8037e7e1240f9f159dd6ea66cb",
+    "founder-250-mutation-0-seed-607.csv": "c5834037f10fd31dce2cef2b452fcb0c029240efd3bfe014c6deacef865f2214",
+    "founder-250-mutation-0-seed-608.csv": "a203adfe401cbde37e24a8284edba0ec7c2a2d1dac2b178d9cd721851333dc76",
+    "founder-250-mutation-0-seed-609.csv": "c98f5826b97f88fd26a789c521962ebe2a863fa12b1f1e07aef5128e6fbe631f",
+    "founder-250-mutation-100-seed-600.csv": "fe71d4c7b1699d6eec6a5bef13a5e5243e236ca57264ec6b30fee5b1cb64bee5",
+    "founder-250-mutation-100-seed-601.csv": "78f5a61c4de5e341d06ea48bded00e673251ad12db1a01a01597f6c2e7f1a50a",
+    "founder-250-mutation-100-seed-602.csv": "dd9a88b8ce2d063e494e6e6fd2214110b2b1ed733b71a80614933c96e0e1fe2e",
+    "founder-250-mutation-100-seed-603.csv": "ec1b155141e165723ed67df2cdaa1c78b82b011f8e98c6365d023b0730dba631",
+    "founder-250-mutation-100-seed-604.csv": "db46bc1133633307ebbf970dce6076a1f9c96c13dc9a698249353bc096c6c80a",
+    "founder-250-mutation-100-seed-605.csv": "de77db4c78cb7ab01837c88cf7638b3cf9b90a55bac3e5aa577b3236371ca4cc",
+    "founder-250-mutation-100-seed-606.csv": "3b251e60ec4bc129b2d42b0ce15a9ffcb8e306b08b4512c4a0162cc2fcdf698c",
+    "founder-250-mutation-100-seed-607.csv": "a9cfc27d66fbdf5c739bf3d5b3f6af65f76a9236ccc57db87fc1739aab0dfdd4",
+    "founder-250-mutation-100-seed-608.csv": "97ca92a5080afa3435ef811ee91272ecc5ef1dcabb24001a5bb78dec5bfec955",
+    "founder-250-mutation-100-seed-609.csv": "8b43fdf1f50f3cf57dbdbdde05552a5cf199c472a4e8377817e53d22508d7729",
+    "founder-random-mutation-0-seed-600.csv": "b35137431ec48598af717d29baf5c2a27c4ff911af0649ce3ac43997fbc03806",
+    "founder-random-mutation-0-seed-601.csv": "a9953810ba7cd8abcc25eb784d32c39113c94966014ec0ddf5959215bbab6ead",
+    "founder-random-mutation-0-seed-602.csv": "6f0ec4aa02c373b769f283fff2090a6d8df8d09466c3759ae5417358fa70cdf8",
+    "founder-random-mutation-0-seed-603.csv": "026dc8f96117c7f532ef65a8928483b0f77a5f40c2cf0f2ab799d9ebde5fa489",
+    "founder-random-mutation-0-seed-604.csv": "8d3ca9c9f4bd64ee3731f65ec3073e6ab0dfd5817cdc614f6b7e9c06681c0156",
+    "founder-random-mutation-0-seed-605.csv": "5cb23d2aaff50ba4ae3c447b3d301a8de6d0fdbff31a7cc9bafabd2acad0b155",
+    "founder-random-mutation-0-seed-606.csv": "f3a6a8696a078f7fa5df56225a0e5ca3843392dcd5da04ddb6932d8fd53c47b6",
+    "founder-random-mutation-0-seed-607.csv": "67c445a8a5924087167d94de03900321838e2b3647e6f092be06de3a2c720768",
+    "founder-random-mutation-0-seed-608.csv": "3719bba40dbc087c05e275a56c40ec546bb73c6a2a3d25a8707985d759084fd9",
+    "founder-random-mutation-0-seed-609.csv": "ae4609faca82a5ae2d677f4062492a6ac31c609b118a1591c25d28fe77e1a9d6",
+    "founder-random-mutation-100-seed-600.csv": "4abaddc18ca6cc766f568ea7d289e56359a1979ceb6d7f0b8476fb3dfb4a447b",
+    "founder-random-mutation-100-seed-601.csv": "b1a52ac550c21fb68770cc96b26ccf249f258afb3b7f39cb41f5a6a478bbae1a",
+    "founder-random-mutation-100-seed-602.csv": "6a7e10706447179cd2d3a454e664263b41ddbb78e4cb2dcf31684c911754ec43",
+    "founder-random-mutation-100-seed-603.csv": "7ff94d01ec9a1b580cb2b282ded95b37ee4be2dae9a38835cbd6b4c63a7e4eae",
+    "founder-random-mutation-100-seed-604.csv": "8ff5873fb974fab185f5877cff791be53df8fcf4d68fb16b4477aaec6631bcfb",
+    "founder-random-mutation-100-seed-605.csv": "dcde35038df5df49f50bde1ce0b4d0b8dd80f89c7c12a99ef7b5dda08c9ed369",
+    "founder-random-mutation-100-seed-606.csv": "e4ce8ab3bcb14768f39c41c40bff72ecabb3ff4e13445c0ac6e537a5537e00ca",
+    "founder-random-mutation-100-seed-607.csv": "5ca1a44bb13e5f8423065f9d79ed21075ace3d619cafef3885b0f4bc5cd84187",
+    "founder-random-mutation-100-seed-608.csv": "ed6b0a4e753e957c641c9d0377c52c79b9468382c8918ecebea8e1e4563a8f49",
+    "founder-random-mutation-100-seed-609.csv": "32f8245e7c7eff574a1ad28c90c8d0dea995a62fd84810214e969a7218f68f2a"
+  },
+  "script_sha256": "29718c650288fc55ce5e254261a38d8e5561378226cf895e4b0805ee168857c2"
+}

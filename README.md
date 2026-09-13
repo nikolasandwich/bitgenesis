@@ -72,6 +72,9 @@ individual-seed trajectory figures and qualifies how founder loss depends on sca
 The [scarce-resource follow-up](docs/research/campaign-006.md) measures delayed
 extinction and mixed outcomes at intermediate supply. Six campaigns now total
 290 runs / 1,240,000 ticks; earlier review archives retain their original scope.
+The [founder-trait and mutation assay](docs/research/campaign-007.md) then tests
+whether persistence requires new variants. Seven campaigns total 350 runs /
+1,540,000 ticks; the six-campaign visual review remains a preserved snapshot.
 
 ## Repository layout
 
