@@ -27,6 +27,14 @@ harmless source edit. Keep the original commit and Python environment when resum
 an old experiment. The format uses JSON, without executable object serialization.
 A SHA-256 digest detects accidental corruption; it is not an authenticity guarantee.
 
+Loading also validates historical lineage, independently of the checksum: scalar
+types/bounds, founders, earlier parent IDs, generation and founder inheritance,
+birth/death chronology, one birth per parent per tick, and offspring totals.
+Dead individuals must have zero energy under these rules. A syntactically valid
+file with a recomputed checksum is still rejected if those structural conditions
+fail. This is not exhaustive replay of every historical transition. The checks
+remain active with Python optimization enabled.
+
 Tests compare continued state with uninterrupted state, including random state,
 events, lineage and spatial state. A CLI test compares complete checkpoint payloads
 across three separate processes. Existing frozen-rule regression tests remain in

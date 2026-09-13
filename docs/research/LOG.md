@@ -440,3 +440,18 @@ matching the local verified archive. Draft page:
 https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-25033c66c4d616cc9048
 Later main commits are explicitly outside this fixed snapshot. Existing local
 archives and formal experiment counts are unchanged.
+
+## 2026-09-14 — Autonomous cycle 23
+
+Found and reproduced a checkpoint validation gap: a recomputed checksum could
+allow self-parent references, inconsistent generations/founders/offspring counts,
+invalid dead-record genomes/energy or fractional positions. Added regression
+cases first; all eight malformed examples were previously accepted.
+
+The loader now validates all historical lineage scalars, ancestry and chronology,
+single reproduction per parent/tick, offspring counts and integer member IDs.
+Format and engine rules are unchanged. Full local suite passed 43 tests; focused
+checkpoint tests also pass with Python optimization enabled. Fifteen historical
+checkpoint files (original continuation demonstrations and retention measurements)
+still load successfully, and existing exact-resume tests remain green.
+This checks structural plausibility, not full historical transition replay.
