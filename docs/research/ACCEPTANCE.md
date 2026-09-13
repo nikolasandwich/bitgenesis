@@ -30,12 +30,15 @@ services. Use a new output path each time.
 | Basic world view and lineage inspection | Replay + clickable ancestry inspector | Met |
 | Explain designed rules | `docs/design/v0-rules.md` and emergence note | Met |
 
-Fourteen checks passed at this checkpoint. Campaigns 001–003 cover 490,000
+Sixteen checks passed at this checkpoint. Campaigns 001–004 cover 690,000
 simulation ticks. Campaign 001 finds lineage collapse; campaign 002 shows that
 the trait maximizing population abundance need not match the trait favored in
 mixed populations; campaign 003 directly tests competition with neutral-label
-controls and confirms dependence on movement cost. Read the reports before
+controls and confirms dependence on movement cost. Campaign 004 separates
+extinction, turnover and crowded persistence without reproduction. Read the reports before
 interpreting animations. An installed wheel and its provenance were also tested.
+GitHub CI verified Windows/Linux and Python 3.12/3.13, including the frozen replay:
+[run 34773024529](https://github.com/nikolasandwich/bitgenesis/actions/runs/34773024529).
 
 V0's minimal milestone is reached. Continue V0 mechanism/robustness experiments
 before deciding whether a V1 controller adds a useful research question. Meeting
@@ -47,10 +50,11 @@ this checklist does not certify realism or open-ended evolution.
   designed assumptions. No abiogenesis claim.
 - Stochastic treatments share initialization, not guaranteed identical future
   environmental events. Cross-platform bitwise replay is not established.
-- Lineage and frame data are retained in memory; long runs need a bounded recorder.
+- Complete lineage remains in memory; replay and chart retention are now bounded.
 - Trait mutation clamps at boundaries; this may affect endpoint distributions.
 - Whole-population fixed-trait results do not replace direct competition tests.
 
 Direct competition, a frozen replay regression, and installed-package provenance
-are now checked. Next: longer-horizon/resource-regime robustness and recorder
-limits. Preserve existing rules and predeclare new experiment protocols.
+are now checked, as are longer-horizon/resource regimes. Next: independent
+artifact auditing and a portable review bundle. A V1 proposal is documented,
+but V0 remains the only runtime. Preserve existing rules and preregister experiments.

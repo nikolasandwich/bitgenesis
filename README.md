@@ -57,6 +57,8 @@ Research reports: [initial selection](docs/research/campaign-001.md) and
 [fixed-trait interventions](docs/research/campaign-002.md), and
 [direct competition](docs/research/campaign-003.md). These results expose
 limits as well as successful reproduction; no intelligence claim is made.
+Also see [resource regimes and demographic arrest](docs/research/campaign-004.md)
+and the [Chinese review guide](docs/research/REVIEW.zh-CN.md).
 
 ## Repository layout
 

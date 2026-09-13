@@ -74,3 +74,25 @@ while keeping every raw metric tick. Exact frame metrics remain available even
 when charts are thinned. Interrupted runs record `interrupted` rather than a
 false successful status. Sixteen tests pass, including the unchanged V0 dynamics
 fingerprint. Full lineage memory remains an explicit limitation.
+
+## 2026-09-14 — Autonomous cycle 4
+
+Campaign 004 complete: 20 runs / 200,000 ticks. Scarce supply extinguished all
+five populations by tick 136; baseline retained turnover with one founder;
+abundant stochastic supply retained 3–4 founders at 10,000 ticks. Guaranteed
+supply filled all sites by tick 24, then produced no turnover; all original
+founders survived while energy accumulated. Preserve this counterexample.
+
+Total formal campaigns: 210 runs / 690,000 ticks. Reports and compact CSVs are
+committed; the Chinese review HTML remains the earlier three-campaign checkpoint.
+
+CI run 34773024529 succeeded on Ubuntu/Windows with Python 3.12/3.13, including
+installed-package CLI and frozen V0 replay. Sampled long-run viewer also checked
+in-browser: final tick 10,001, zero population and no defined generation, matching
+its recorded data. Sixteen current tests pass.
+
+Read two primary research publications to contextualize the next decision;
+`docs/design/research-context.md` separates their claims from our interpretations.
+Added a V1 proposal focused on sensory ablation and held-out reproductive outcomes.
+No V1 runtime implemented. Next useful work: independent artifact auditing and
+a reproducible local review bundle; retain counterexamples rather than tuning them away.
