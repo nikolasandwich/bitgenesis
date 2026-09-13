@@ -301,3 +301,26 @@ All 200,020 metric rows were independently checked for initial conditions,
 accounting, fixed traits and declared outcomes. Compact results and hash sidecar
 are tracked. Total formal research: 370 runs / 1,740,000 ticks. Source CI passed
 in 34775932916. No runtime-stage or engine change; historical archives are preserved.
+
+## 2026-09-14 — Autonomous cycle 15
+
+Eight-campaign review page and archive now cover all 370 runs / 1,740,000 ticks.
+Archive `data/bitgenesis-v0-review-8.zip`, source `1202f61`, contains 563 files /
+31,397,908 bytes; SHA-256
+`c0905b233a635a383d0321cccca31a63cdcbdac079f19d94f7f7112d5928c38b`.
+All archived hashes were checked. Browser inspection confirmed the new totals and
+initial-food results. Prior review pages and archives remain preserved.
+
+Extracted into `data/portable-review-8/`, created a fresh Python 3.12 environment,
+built/installed the archived source as a wheel, and verified the loaded module
+came from that environment's site-packages. All 34 tests passed there. A new
+1000-tick baseline run passed independent audit: 83 survivors, 1561 births,
+1558 deaths, 1641 total recorded organisms. CSV metrics and JSONL events match the
+original acceptance demonstration byte-for-byte; lineage and summary JSON have
+equal values (historical formatting differs). Installed provenance correctly
+reports Git unavailable, rather than borrowing the enclosing repository commit.
+
+The extracted entry page's four local links resolve. Core installation did not
+require the optional plotting libraries; initial wheel build obtained its declared
+build dependency, so this is not an offline-installation claim. The fresh run is
+operational validation and does not increase formal experiment totals.
