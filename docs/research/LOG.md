@@ -881,3 +881,14 @@ ticks, including the existing twenty follow-ups and 200000 replayed prefixes.
 Inventory check passed. Original source CI 34782507452 and verifier CI 34782708374
 passed. Eleven-campaign pages/draft archives remain fixed and explicitly exclude
 this new campaign.
+
+## 2026-09-14 — Autonomous cycle 55
+
+Added a reproducible campaign-012 survival figure: allocation separated by row,
+full horizon and early-window zoom by column, threshold by color and direct
+cost by line style. All eighty seeds are represented. Explicitly notes that
+overlapping high-threshold survival curves do not establish identical dynamics.
+Saved PNG/SVG and curve values with input/script hashes; visually checked axes,
+legend, censor markers and annotations. The helper checks the complete grid and
+survival/extinction consistency before plotting. Compilation passed. No new
+worlds or scientific endpoints were added.

@@ -30,6 +30,20 @@ seed 1007 dies at 220 in both. Food/160 retains all ten; food/40 retains zero
 (cost 0) or one (cost 4) at 10000. Small observed differences are not estimates
 of a universally optimal cost.
 
+![All eighty worlds: survival by allocation, threshold and direct birth cost. Right panels enlarge the first 500 ticks.](figures/campaign-012-survival.png)
+
+The high-threshold cost curves coincide within each allocation in this sample.
+This is overlap in the survival observation, not equivalence of population or
+energy trajectories. Dashed lines denote cost zero; solid lines cost four.
+Colors denote threshold and rows denote allocation. Every seed is included;
+endpoint markers indicate survivors whose later lifetime is unknown. Figure
+construction checks the complete grid and horizon/extinction consistency in the
+verified compact results. The [curve values and hashes](figures/campaign-012-survival.json)
+are saved; the right-hand zoom adds no observations.
+
+Rebuild with `python scripts/plot_v0_birth_cost.py --output data/my-birth-cost-figure`
+after installing the optional analysis dependencies.
+
 ## Predeclared descriptive contrasts
 
 Threshold contrast is survival fraction at 160 minus survival fraction at 40.
