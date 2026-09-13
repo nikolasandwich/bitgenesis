@@ -921,3 +921,13 @@ All 54 local tests and source/script compilation passed. This new regression
 extends direct accounting evidence to the zero-cost branch; it is an engineering
 check, not an extra scientific replicate. Historical archives still contain
 their previously recorded test suites.
+
+## 2026-09-14 — Autonomous cycle 58
+
+Extended the local Chinese review page through campaign 012 with its complete
+eight-arm grid, finite-horizon survival figure and bounded mechanism conclusion.
+The follow-up counting notice remains present for the inherited 011 cohort.
+Generated review-v0-12.html as a new file and checked its browser content and
+rendering. All 54 local tests passed. Acceptance and index entries now distinguish
+the twelve-campaign current page from the fixed eleven-campaign downloadable
+archive. Earlier pages and draft assets were not overwritten.

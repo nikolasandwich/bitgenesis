@@ -20,7 +20,7 @@ def require_run_grid(records, treatments, seeds):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-root", type=Path, default=Path("data"))
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     args.output = args.output or args.data_root / f"review-v0-{args.campaigns}.html"
@@ -158,7 +158,7 @@ def main():
         threshold_figure = link(Path(__file__).resolve().parents[1] / "docs/research/figures/campaign-010-survival.png")
         threshold_section = f'''<section><h2>10 / 繁殖阈值会改变存活结果</h2><p>初始总能量相同，交叉比较能量分配与繁殖阈值。每组十个新种子、10,000 步。提高阈值后，两种分配的终点存活均增加，但这来自人为参数干预，没有进化出新的繁殖策略。</p>{threshold_table}<img src="{threshold_figure}" alt="四组完整观察期与早期放大的存活比例曲线；终点存活者的后续寿命未知。" style="width:100%;height:auto"><p class="small">较高阈值下的 17 个终点存活世界，在最后 1,000 步都仍有出生和死亡。阈值会共同影响繁殖时间、能量分配和竞争，不能据此认定单一机制或普适最优阈值。每条曲线保留全部十次运行，右图是同一数据的放大。</p></section>'''
         page = page.replace('<section><h2>复核与恢复</h2>', threshold_section + '<section><h2>复核与恢复</h2>')
-    if args.campaigns == 11:
+    if args.campaigns >= 11:
         require_run_grid(campaigns[10], ("food-160", "stored-160"), range(900, 910))
         long_groups = defaultdict(list)
         for row in campaigns[10]:
@@ -175,6 +175,24 @@ def main():
         page = page.replace("已完成的受控实验", "已完成的执行（含延长复查）")
         workload_note = f'<p class="small">工作量统计包含 {followups} 次既有队列复查和 {replayed:,} 步前缀重放。执行次数不等于独立样本数。</p>'
         page = page.replace('<div class="actions">', workload_note + '<div class="actions">', 1)
+    if args.campaigns >= 12:
+        treatments = tuple(f"{a}-{t}-cost-{c}" for a in ("food", "stored") for t in (40, 160) for c in (0, 4))
+        require_run_grid(campaigns[11], treatments, range(1000, 1010))
+        cost_groups = defaultdict(list)
+        for row in campaigns[11]:
+            cost_groups[row["treatment"]].append(row)
+        cost_rows = []
+        for treatment in treatments:
+            allocation, threshold, _, cost = treatment.split("-")
+            rows = cost_groups[treatment]
+            cost_rows.append(["环境食物" if allocation == "food" else "体内储能", threshold, cost,
+                              f"{sum(r['population_at_500'] > 0 for r in rows)}/10",
+                              f"{sum(r['population'] > 0 for r in rows)}/10",
+                              f"{mean(r['births_at_100'] for r in rows):.1f}"])
+        cost_table = table(["能量分配", "繁殖阈值", "直接出生扣费", "活到 500 步", "活到 10,000 步", "前 100 步平均出生数"], cost_rows)
+        cost_figure = link(Path(__file__).resolve().parents[1] / "docs/research/figures/campaign-012-survival.png")
+        cost_section = f'''<section><h2>12 / 免除出生扣费，仍可能早期灭绝</h2><p>在两种能量分配下，交叉比较繁殖阈值 40/160 与直接出生扣费 0/4。每组十个新种子、10,000 步，移动性状固定且没有突变。</p>{cost_table}<img src="{cost_figure}" alt="八组存活曲线，按能量分配分行；右列放大前五百步。高阈值的两种扣费曲线重合。" style="width:100%;height:auto"><p>体内储能、低阈值组在零扣费下仍十次全部早期灭绝，说明正的直接出生扣费不是这些失败的必要条件。零扣费仍会分割亲代能量、增加消费者并占据空间，不能据此确定唯一致死机制。</p><p class="small">高阈值的存活曲线重合，不等于内部过程相同。事后开局能量账显示：储能低阈值组免除平均 864.8 单位出生扣费后，基础生存与移动支出合计增加 885.6 单位；这是动态账目，不是单一路径的因果估计。全部种子和灭绝均保留。</p></section>'''
+        page = page.replace('<section><h2>复核与恢复</h2>', cost_section + '<section><h2>复核与恢复</h2>')
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x", encoding="utf-8") as stream:
         stream.write(page)

@@ -9,9 +9,9 @@
 该计数检查已加入 CI，使用仓库中的精简结果，不需要本地大体积逐步数据。
 
 首次验收可先阅读[中文指南](REVIEW.zh-CN.md)，再打开本地
-`data/review-v0-11.html`。这个视觉快照涵盖十一轮，可用
-`python scripts/build_v0_review.py --campaigns 11` 在完整本地数据上重建。
-完整数据可从[十一轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-83f2a58ad0f9613a370b)下载；
+`data/review-v0-12.html`。这个视觉快照涵盖十二轮，可用
+`python scripts/build_v0_review.py --campaigns 12` 在完整本地数据上重建。
+前十一轮完整数据可从[十一轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-83f2a58ad0f9613a370b)下载；
 旧页面和已上传的八轮、九轮归档继续保留原范围。
 旧 `data/review-v0-8.html` 保留为八轮快照。
 `data/bitgenesis-v0-review-8.zip` 是同一八轮范围的可携带归档，不代表后续提交。
@@ -75,7 +75,7 @@ GitHub 保存代码、协议、报告和精简结果；大体积逐步数据保�
 没有消除本样本中的阈值差异，也不保证改善存活。详细的三个观察窗口和描述性差异见报告。
 零直接开销不等于繁殖没有后续成本：子代仍分走亲代能量、消耗资源并占据空间。
 
-当前十一轮页面和归档尚不包含第十二轮原始记录。V0 基本验收证据见[检查点](ACCEPTANCE.md)。
+当前十二轮页面已包含第十二轮摘要；十一轮下载归档尚不包含其原始记录。V0 基本验收证据见[检查点](ACCEPTANCE.md)。
 若后续进入控制器阶段，仍需[匹配生理参数并干预感觉输入](../design/v1-experiment-design.md)，
 检验信息是否改变繁殖结果；这些生理实验不构成 V1 已成功的证据。
 
