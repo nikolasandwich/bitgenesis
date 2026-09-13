@@ -214,3 +214,13 @@ It cannot validate unavailable lifecycle records or establish biological truth.
 Corrupted intermediate energy, altered summary mean and a truncated CSV are rejected
 by tests. All 34 local tests pass. Future portable review archives include this
 additional metric audit separately from their 11 full-lifecycle run audits.
+
+Archive `data/bitgenesis-v0-review-9.zip` was built from committed source `4cabc6b`:
+403 files, 21,239,792 bytes, SHA-256
+`6452f736682589de618cd4d3b14901cc003d30d8be3797ab78ea9733b7979be9`.
+All archived file hashes were read back and checked, with 11 full-run audits and
+the separate 30-run metric audit recorded in its manifest. It retains the existing
+five-campaign visual review page; later documentation updates are in Git.
+
+Source `4cabc6b` passed CI run 34775013482 across the four OS/Python combinations.
+The current suite has 34 tests. No formal campaign was rerun or added this cycle.

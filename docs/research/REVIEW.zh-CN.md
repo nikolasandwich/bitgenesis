@@ -27,7 +27,8 @@ V0 已从骨架推进到可运行的最小达尔文世界。后续阶段尚未�
 - 阅读五个实验报告中的对照、灭绝和局限，不只看存活的动画。
 - 按 README 生成一个新实验，确认输出目录不可覆盖、记录来源清楚。
 
-25 项测试已在 Windows/Linux、Python 3.12/3.13 的四种组合通过；普通安装包也能运行。
+原五轮实验检查点有 25 项测试；加入断点恢复和世界规模数据核验后，34 项测试已在
+Windows/Linux、Python 3.12/3.13 的四种组合通过（CI 34775013482）。
 每个正式实验时间步都检查能量收支与空间约束。
 同种子重放和冻结版本指纹已测试，但没有宣称所有平台/解释器版本都逐位一致。
 
@@ -35,5 +36,11 @@ V0 已从骨架推进到可运行的最小达尔文世界。后续阶段尚未�
 完整检查点见 `ACCEPTANCE.md`；连续决策记录见 `LOG.md`。
 
 可用 `bitgenesis audit data/acceptance-v0` 独立核对已保存的指标、事件、谱系和回放。
-归档命令 `python scripts/package_v0_review.py --output data/bitgenesis-v0-review-5b.zip` 打包源代码、五轮数据和验收页面，
+新增 `bitgenesis checkpoint` 可保存并精确继续世界状态；它不续写旧回放或指标 CSV，
+使用方法与限制见 `../design/checkpoints.md`。30 次世界规模实验的 300,030 行指标已独立核对，
+两份汇总的终点、末期平均值与谱系首次归一时间都与逐步数据一致。
+
+最新本地归档为 `data/bitgenesis-v0-review-9.zip`，包含检查点代码及独立指标核验工具，
+源代码版本 `4cabc6b`。之前的归档保留。归档命令
+`python scripts/package_v0_review.py --output data/my-new-review.zip` 打包源代码、五轮数据和验收页面，
 附带文件哈希；不包含虚拟环境或其他本地数据。解压后从 `START-HERE.txt` 开始。
