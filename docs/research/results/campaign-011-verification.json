@@ -1,0 +1,76 @@
+{
+  "groups": [
+    {
+      "treatment": "food-160",
+      "runs": 10,
+      "alive_at_10000": 10,
+      "alive_at_50000": 10,
+      "alive_at_100000": 10,
+      "extinct_only_range": null,
+      "late_mean_population": 41.5739
+    },
+    {
+      "treatment": "stored-160",
+      "runs": 10,
+      "alive_at_10000": 7,
+      "alive_at_50000": 7,
+      "alive_at_100000": 7,
+      "extinct_only_range": [
+        167,
+        214
+      ],
+      "late_mean_population": 28.3673
+    }
+  ],
+  "metric_rows_checked": 2000020,
+  "prefix_rows_matched": 200020,
+  "computational_ticks": 2000000,
+  "repeated_prefix_ticks": 200000,
+  "additional_observation_ticks": 1800000,
+  "new_independent_seed_replicates": 0,
+  "input_sha256": {
+    "food-160-seed-900.csv": "eec03662d2c8e640e61dea37e77842061e43d77c5009e1df19dd0c8215a7f0c0",
+    "food-160-seed-901.csv": "6ea9c3befa2a0374e8b681b2d92731f7bd9ba6178a0f4b15d1fd6af64e3ac6ed",
+    "food-160-seed-902.csv": "4dbd6b8bdfb72390a9dba26b997272d9711f1566da750fb508f85d6d2c7c9d83",
+    "food-160-seed-903.csv": "5c3fba0ab0b3fe5bcb716275b4b24ddaba03e47c3cca572eacf6ef82e01357ea",
+    "food-160-seed-904.csv": "55072581a4e2ffb86224fb4fc264fb41c29ab93adde6c99933c67564a5ae0160",
+    "food-160-seed-905.csv": "5c1d26f56677b7790da471859c6cf14b5ad45e174f3baf4bc098e09f3627c872",
+    "food-160-seed-906.csv": "18e12a45183cdb837eefe3708b0edc432db6d0a8d2e3cfe40ee77d8612fb890a",
+    "food-160-seed-907.csv": "75c732dc4d65471de344df4a05a293ce6df45703d4d7deb86017f1d95f2505ee",
+    "food-160-seed-908.csv": "6d6f35f7a030beb8f86708e1ca1624b65884f7909eb7a040c70cf87c2c527a27",
+    "food-160-seed-909.csv": "e9de30def1c78831548029c8a79dc15efabc598d4cc5d4124e0eea0b8529be43",
+    "stored-160-seed-900.csv": "c0f6532293c247e0a59dca4af3746eec37750660fae3abaa3a6b855a155effdd",
+    "stored-160-seed-901.csv": "9a37a88a19aaf9866304f1b265306bbc7f07a2f639b8cf2919bf820604ecb707",
+    "stored-160-seed-902.csv": "8e943eeb2fe873123f49d9268817dfbff01cc9bd7572a301de0b840d52e9d36b",
+    "stored-160-seed-903.csv": "758e15b9573feda1ee272f7ea3175a030a5934a880cde9d58a01e9b1ebcbdb53",
+    "stored-160-seed-904.csv": "0309cb60de4663fa7319c46c97b0237311e8ac3e92b36264d3e37d3e08ce6c17",
+    "stored-160-seed-905.csv": "6625d8f137349dc3cf990f9d5b803dcee210aac3ce7f8e0dc9437f0edfdfb22f",
+    "stored-160-seed-906.csv": "6e9fcf9ee54b7ea37ee78881027a4df5a0987513ca72a0661bf9ae622f97b5e0",
+    "stored-160-seed-907.csv": "f9f0e0d92927eee11bcd5a9b805ecc933e6ce87e521e601376ba73607eb1648f",
+    "stored-160-seed-908.csv": "a39bc3f4e7d2334e17339be362b23ccf79e657b0b46fe5306fb843ac5e609e84",
+    "stored-160-seed-909.csv": "27219fe47c7a3a635cf1044b1dc99b782cb940b5ddee07b95b55d6e6f7851185"
+  },
+  "reference_sha256": {
+    "food-160-seed-900.csv": "ced0449e6fbef33bdc3130a129b6ca1ecdedaab9628651d0e4400bec5b3085a5",
+    "food-160-seed-901.csv": "4cd3c946b78539e09d656d636add8587defcb900b68c599b6d96c05c7269f875",
+    "food-160-seed-902.csv": "cdc006aa8833c268e3a4c725de0fcc7724dbf68e529ab1e0ef03d14487f1a89a",
+    "food-160-seed-903.csv": "0f6d1151b01c120f514a1c338430fc05a9798f53d6b59db781409f7eb1c742f3",
+    "food-160-seed-904.csv": "2cc7bb484de5cd20f98ebd6e6fb7275833eb6fc5338934ff1680b6a971270701",
+    "food-160-seed-905.csv": "d12c27212a6b3738f287fe0857792bd980c76e8563a788a70a652c98c16d64b1",
+    "food-160-seed-906.csv": "f59d758b59468b51bfce85081c19a46f51369c48a8b025af8ab6abeb6b652159",
+    "food-160-seed-907.csv": "62b5ecab11dd9588b2c6c8df2f6d1aca7f368b6d1081ca457942e9823cc85fe5",
+    "food-160-seed-908.csv": "3e6d4a3126aed076cb6e3100577c9cb0c16b337f7ba48db962d413bc31aaf145",
+    "food-160-seed-909.csv": "700d542aa0ae6800d906e9f979e6852258c59b4a91479cc42b64bdfe1b3b8bd0",
+    "stored-160-seed-900.csv": "2d911bded2539ab57714b83e4a4b8fdf11faabf59d66bbbb36dfcbbaf4029749",
+    "stored-160-seed-901.csv": "0dc147800d8ca508aba039c85c376a640d5ecccc3f489dab01441a7349aee3b2",
+    "stored-160-seed-902.csv": "8a957469d6339a79be33dfb9785eded14a25acf5047eaa7754961ebac1ed228c",
+    "stored-160-seed-903.csv": "09aca8402ccaa50648131b693ccfdca0ce8e10a0430bdfc2713cc1125c3e2f7d",
+    "stored-160-seed-904.csv": "a550acefdf7afea10bfb81f814a479fc000d17b1f5838e6bcbe4c15d3b6a4edd",
+    "stored-160-seed-905.csv": "2322249c8d3c96c14a0d90aeebc25b46596946798f6ad19ec16292e0b27c4a6e",
+    "stored-160-seed-906.csv": "9d0393fe3719b334b8879c4502faaadbac13e2da7997bff962e43d8f426f4470",
+    "stored-160-seed-907.csv": "7e1b34365f337868a4b0f57d5f3ba26e502ca3b32a346e12e942fc9f5f2794da",
+    "stored-160-seed-908.csv": "a113b82e0ba2bae1980de586c12383a54f1c567f82637a4bd92380266c77e4ee",
+    "stored-160-seed-909.csv": "ec903c38f20408f8375e4ff78f04be7b3c8ac679cf067d6849bc50261ee04ca6"
+  },
+  "script_sha256": "89183edf6bbbe8eeefa80f65cc72b73a9c271d2a74f639c00a89a3a9aa8d91b3"
+}

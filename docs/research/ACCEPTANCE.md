@@ -1,10 +1,13 @@
 # V0 acceptance checkpoint
 
-Current research: ten campaigns / 440 runs / 2,440,000 ticks; see the
-[research index](README.md). Latest report: [reproduction-threshold intervention](campaign-010.md).
+Current research: eleven campaigns / 460 executions / 4,440,000 computed ticks;
+20 executions are longer follow-ups with 200,000 repeated prefix ticks, not new
+independent seed replicates. See the [research index](README.md) and latest
+[long-horizon report](campaign-011.md).
 Visual review entry `data/review-v0-10.html` covers all ten campaigns, including
 the allocation trajectories and threshold survival curves. Eight/nine-campaign
 pages remain preserved. The uploaded nine-campaign archive does not include 010.
+The ten-campaign page also predates the longitudinal follow-up in campaign 011.
 The latest uploaded review archive is `bitgenesis-v0-nine-campaigns.zip`, fixed
 source `c5975cd`, attached to the `v0.0.1-preview.2` GitHub draft release. The older
 eight-campaign `v0.0.1-preview.1` draft remains available. Draft attachments do not

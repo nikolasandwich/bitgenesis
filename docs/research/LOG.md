@@ -692,3 +692,18 @@ Counts and accounting alone could otherwise accept metadata describing a differe
 experiment. A regression test rejects changed movement cost, dimensions, resource
 probability and a boolean disguised as an integer parameter. All 53 local tests
 passed. Campaign 011's original process remains live; no runner or engine change.
+
+## 2026-09-14 — Autonomous cycle 42
+
+Waited on the original campaign process until terminal completion; no restarts or
+extra seeds. All twenty follow-ups reached 100000 ticks. Independent streaming
+verification passed 2000020 rows and 200020 historical prefix rows. Food/stored
+survival at 10000, 50000 and 100000 stayed 10/10 and 7/10; the three early failures
+were retained. No additional extinction occurred in the extended interval.
+
+Report, all-run CSV and hash sidecar are committed. Computation is explicitly
+2000000 ticks, including 200000 repeated prefixes and 1800000 later observations;
+these twenty executions introduce zero independent seed replicates. Project totals
+become eleven campaigns / 460 executions / 4440000 computed ticks with that caveat.
+No permanence or adaptation claim. Preregistered source CI 34780086318 and verifier
+CI 34780384606 passed; existing pages and archives retain their prior scope.

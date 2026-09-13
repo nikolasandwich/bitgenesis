@@ -5,6 +5,8 @@ All 40 preregistered runs / 400,000 ticks completed from clean source
 total 7040; only allocation and birth threshold vary. Other V0 parameters remain
 fixed, including genome 250 and no mutation. Seeds 900–909 are shared across arms.
 See [protocol](../../experiments/v0/campaign-010.md) and [all-seed outcomes](results/campaign-010.csv).
+The [later longitudinal follow-up](campaign-011.md) extends both complete
+threshold-160 cohorts to 100,000; it is not an independent replication of this contrast.
 
 | Allocation | Threshold | Alive 500 / 5000 / 10000 | Extinct-only ticks | Mean births by 10 / 100 |
 | --- | ---: | --- | --- | --- |
