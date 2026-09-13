@@ -222,3 +222,25 @@ These analyses and engineering checks do not increase the formal campaign count:
 The [continuous log](LOG.md) records source-specific validation and decisions.
 V1 remains a [design proposal](../design/v1-proposal.md), with a separate
 [experiment design](../design/v1-experiment-design.md), not an implemented runtime.
+
+## Fifteen-campaign local archive — 2026-09-14
+
+`data/bitgenesis-v0-fifteen-campaigns.zip` contains source
+`0344839a39bf943bc2634583b04ee2b496c94a13`, all fifteen campaigns, the
+fifteen-campaign page, latest failure-status fix and 92 tests. This is a new local
+snapshot; it does not change the uploaded fourteen-campaign draft.
+
+- 1,071 payload files; 100,031,797 bytes.
+- SHA-256: `a98e0f3427a21dc93376453063ad280cd930da00ca779eba2687ff3701a936df`.
+- Eleven full recorded-run audits plus campaign-005 and 009–015 metric audits.
+- Standalone standard-library verification with the expected hash passes:
+  thirteen HTML pages and twelve local targets.
+- Manifest workload: 714 executions / 6,340,000 ticks, including 24 follow-ups
+  and 212,000 replayed prefix ticks.
+
+Campaign 015's audit rechecks 120,004 metric rows and 12,004 reference-prefix
+rows. This confirms consistency of recorded artifacts, not independent reruns
+or a biological interpretation. Fresh extracted installation and upload remain
+separate follow-up checks. The packaging command documentation was refreshed on
+main after this fixed source snapshot; its included fourteen-campaign example
+remains a valid older-scope command, while `--campaigns 15` is supported.

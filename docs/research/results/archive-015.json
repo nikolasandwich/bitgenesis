@@ -1,0 +1,16 @@
+{
+  "archive": "bitgenesis-v0-fifteen-campaigns.zip",
+  "source_commit": "0344839a39bf943bc2634583b04ee2b496c94a13",
+  "sha256": "a98e0f3427a21dc93376453063ad280cd930da00ca779eba2687ff3701a936df",
+  "bytes": 100031797,
+  "payload_files": 1071,
+  "full_record_audits": 11,
+  "html_pages": 13,
+  "local_html_targets": 12,
+  "expected_hash_matched": true,
+  "campaigns": 15,
+  "executions": 714,
+  "computed_ticks": 6340000,
+  "replayed_prefix_ticks": 212000,
+  "scope": "Local archive integrity and named artifact audits; fresh extracted installation and remote upload not yet checked for this snapshot."
+}

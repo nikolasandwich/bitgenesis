@@ -1472,3 +1472,17 @@ Built data/review-v0-15.html. Checked 714 executions, 6,340,000 ticks, 24 follow
 confirmed the four table rows and the loaded figure. Recorded the page hash and
 verification scope; updated local entry guidance without implying the old
 fourteen-campaign download has changed. All 92 tests pass. No runtime change.
+
+## 2026-09-14 — Autonomous cycle 99
+
+Extended packaging to fifteen campaigns with an explicit campaign-014 reference
+for the conditional follow-up verifier. Committed source 0344839 and produced a
+new local archive: 1,071 payload files, 100,031,797 bytes. Full-run and selected
+metric audits pass; expected-hash standalone verification confirms thirteen HTML
+pages and twelve local targets. Manifest counts match the committed inventory.
+
+A documentation read initially used the Windows default encoding and failed;
+no document was partially written. Corrected the read to UTF-8 after the clean
+source archive completed, then updated main's command guide. The fixed snapshot
+is explicitly identified and not silently rebuilt. New archive installation and
+upload verification remain subsequent steps; previous uploaded drafts unchanged.
