@@ -53,3 +53,6 @@ Windows/Linux、Python 3.12/3.13/3.14 的六种组合通过（CI 34776314237）�
 当前打包器生成八轮归档，默认路径为 `data/bitgenesis-v0-review-8.zip`。
 归档命令 `python scripts/package_v0_review.py --output data/my-new-review.zip` 打包源代码、八轮数据和验收页面，
 附带文件哈希；不包含虚拟环境或其他本地数据。解压后从 `START-HERE.txt` 开始。
+
+可先按[归档核验说明](../design/review-verification.md)独立检查文件清单、哈希和静态页面链接。
+核验工具不运行压缩包中的代码；要确认收到的是某次已记录的归档，使用对应的整包哈希。

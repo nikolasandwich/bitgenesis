@@ -390,3 +390,16 @@ The six design constraints link directly to completed V0 analyses; all links res
 No training seeds are selected or reused for hypothetical results. V0 remains the
 only runtime. The 38-test source `0fca4d9` passed CI run 34776989101; logs confirm
 38 tests in each Windows/Linux × Python 3.12/3.13/3.14 job.
+
+## 2026-09-14 — Autonomous cycle 20
+
+Added a standard-library-only ZIP verifier that executes/extracts nothing. It checks
+member paths, exact manifest coverage, payload sizes/hashes and static local HTML
+targets, with an optional externally recorded archive SHA-256. The distinction
+between internal consistency and identity/authenticity is explicit in the guide.
+
+Verified existing eight-campaign archive against its recorded external hash:
+563 payload files, 13 HTML pages, six local targets. Corrupt payload, missing HTML
+target, unlisted payload and wrong expected archive hash are detected in tests.
+All 42 local tests passed. Future packaging invokes the helper; prior archives
+remain immutable. This operational verification adds no formal experiment runs.

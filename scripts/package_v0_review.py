@@ -9,6 +9,7 @@ import zipfile
 
 from bitgenesis.v0.audit import audit
 from audit_v0_world_sizes import audit as audit_world_sizes
+from verify_v0_review import verify
 
 
 def sha256(path):
@@ -55,12 +56,7 @@ def main():
             archive.write(path, "bitgenesis/" + path.relative_to(root).as_posix())
         archive.writestr("MANIFEST.json", json.dumps(manifest, indent=2) + "\n")
         archive.writestr("START-HERE.txt", "BitGenesis V0 review\n\nUnzip the whole archive. Open bitgenesis/data/review-v0-8.html in a browser.\nThe review links to the world replay and lineage inspector; keep the folder structure.\n\nSource and experiment protocols are included under bitgenesis/. See README.md to rerun with Python 3.12+.\nMANIFEST.json records the source commit, file hashes and artifact-consistency checks.\nConsistency checks do not establish biological realism or scientific generality.\n")
-    with zipfile.ZipFile(args.output) as archive:
-        for name, entry in manifest["files"].items():
-            with archive.open(name) as stream:
-                digest = hashlib.file_digest(stream, "sha256").hexdigest()
-            if digest != entry["sha256"]:
-                raise ValueError(f"Archive verification failed: {name}")
+    verify(args.output)
     print(json.dumps({"archive": str(args.output.resolve()), "sha256": sha256(args.output),
                       "files": len(files), "bytes": args.output.stat().st_size,
                       "audited_full_runs": len(audited)}, indent=2))
