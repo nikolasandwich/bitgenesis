@@ -499,3 +499,18 @@ Source 1b8a2fd passed all six Windows/Linux × Python 3.12/3.13/3.14 jobs in
 CI run 34778435637, including the 46-test suite. Acceptance guides now cite this
 specific source and run instead of implying historical archive test counts are
 current. No runtime or experiment data changed.
+
+## 2026-09-14 — Autonomous cycle 27
+
+Preregistered campaign 009 and its runner at clean 0639fd6 before executing seeds
+800–809. Compared initial food/energy allocations low (0/24), food (5/24), stored
+(0/88), with the latter two sharing initial total 7040. Other V0 rules unchanged.
+All 30 × 10000-tick runs completed; independent metric verification checked
+300030 rows and accepted all saved summaries. Source CI 34778593278 passed.
+
+Alive at 500/5000/10000: low 0/0/0, food 9/3/1, stored 0/0/0 (each of ten).
+Stored worlds produced mean 215.4 births yet all went extinct at ticks 51–73.
+Report distinguishes allocation effects from an unisolated reproduction mechanism
+and documents capacity-limited resource-input feedback. All-seed results and hash
+sidecar are tracked. Formal totals become nine campaigns / 400 runs / 2040000 ticks;
+the existing eight-campaign visual pages, packager and release remain historical.

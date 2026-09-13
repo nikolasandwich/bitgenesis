@@ -1,0 +1,86 @@
+{
+  "groups": [
+    {
+      "treatment": "low",
+      "initial_food": 0,
+      "initial_energy": 24,
+      "runs": 10,
+      "alive_at_500": 0,
+      "alive_at_5000": 0,
+      "alive_at_10000": 0,
+      "extinct_only_range": [
+        32,
+        49
+      ],
+      "late_mean_population": 0,
+      "mean_supplied_energy": 26779.6,
+      "mean_births": 0
+    },
+    {
+      "treatment": "food",
+      "initial_food": 5,
+      "initial_energy": 24,
+      "runs": 10,
+      "alive_at_500": 9,
+      "alive_at_5000": 3,
+      "alive_at_10000": 1,
+      "extinct_only_range": [
+        218,
+        8398
+      ],
+      "late_mean_population": 3.8863999999999996,
+      "mean_supplied_energy": 199383.2,
+      "mean_births": 2733.4
+    },
+    {
+      "treatment": "stored",
+      "initial_food": 0,
+      "initial_energy": 88,
+      "runs": 10,
+      "alive_at_500": 0,
+      "alive_at_5000": 0,
+      "alive_at_10000": 0,
+      "extinct_only_range": [
+        51,
+        73
+      ],
+      "late_mean_population": 0,
+      "mean_supplied_energy": 32315.2,
+      "mean_births": 215.4
+    }
+  ],
+  "metric_rows_checked": 300030,
+  "input_sha256": {
+    "low-seed-800.csv": "e1fff347440f42dcf36dcb023c1874e05f4e451cc155d121470d524f1ec3d6b9",
+    "low-seed-801.csv": "3a8a58520b5b1d06ed05421851f06e554cc76dd188e0f211e678626127bb77e5",
+    "low-seed-802.csv": "2a6a5edfe8b9aef7afa0bbe0b7e60b727316d507a2927f91a92d4c306e793f9a",
+    "low-seed-803.csv": "b96c26102b07b043ad1d71c07fd11d15a09f1d0b76f5b05eee1db0d67aefc3de",
+    "low-seed-804.csv": "e4e30c0f6630bc344c869b9a7e3c4388a396fb93fb40cc3c59c3811e86f2d289",
+    "low-seed-805.csv": "5534219f6e6f6ee8f263c339bdea149075aaadf05956a32428d4aa2cb78ead74",
+    "low-seed-806.csv": "6254e121b066a2dd1a0c42625b443a7f06f18f0841f30a8d75528d034ea95a79",
+    "low-seed-807.csv": "e04a09831aa09f6303cbb29cb5023eabdb2efc7d689b7ee0966e9e72510f40cb",
+    "low-seed-808.csv": "8721ff727c13453bcfb1a8772bf4259ba7214761608caceb49af7495dd616711",
+    "low-seed-809.csv": "d34d5eefaadce866c7daaf0dec09afc92d9801a5f7d3a28bbb5f07f5a68ac9f7",
+    "food-seed-800.csv": "01631573f6c3daba4ac4441e837e0ef8878153384319b7dad7652341ffc5195c",
+    "food-seed-801.csv": "3b9f9124ac61582e9099480fb72d587451b198dcad25d2866707638905c79bd4",
+    "food-seed-802.csv": "e6aa1e774ebadfbd16bc41e850ff91e20f152efe95b0b7b717643f78dfaed4ad",
+    "food-seed-803.csv": "40497001bdc494fbfaff8204866cb2b361ef25b8528bcdd1db17dcb29cc6c5e9",
+    "food-seed-804.csv": "da3c011256bf6259b1fb2b3d115fad0f101f821707712783cce03c6f6e61932f",
+    "food-seed-805.csv": "4a042b39eddf9e57d4afe637026ccd0bbadb58f8911a3f21cdae0dbdbc11486f",
+    "food-seed-806.csv": "3f4269c1dd4470dad7aa9642bb356f6438d5d16e376646a6e67599935adae752",
+    "food-seed-807.csv": "b41548110fd9cf445b590e62b56a76ead38b53af79e9af6392a226e02c2144ab",
+    "food-seed-808.csv": "99edf755c1285c3c3397d73053c1743d0323a616c5ac029e5fe283a78fdb546d",
+    "food-seed-809.csv": "2db98036e3bdfaba3102768fd14f0c1e34a5d114ba584f7e21d7e0db13ad5eef",
+    "stored-seed-800.csv": "2d3e5ac784ba0208477454deb77ef71671e293bf3efbb6dda174a191782978cc",
+    "stored-seed-801.csv": "0ac48a021b9ffdf22db055541b7b644f17ce310ed9abaacc66354e92f7bd8f64",
+    "stored-seed-802.csv": "0d421620f7882c49ab3154c2f93ed6c710ec40668101f8598215998908a3607c",
+    "stored-seed-803.csv": "6a2eb1c92962b5721196244b2c7e47b02984a9a3f2ba503db081b289edb88dec",
+    "stored-seed-804.csv": "2d4e8faa0853c9992980da9baf609a03c79d7d6220d6f7ce37dc8f252bca179f",
+    "stored-seed-805.csv": "43f29c517bf10b67a8efb98a8c934e1e131b1c7d63d8e55aa9862da02ed3056b",
+    "stored-seed-806.csv": "d046383c0e6c8cc20eb68128e9630aa7983b79f70904c40caf5abcde3ae18a23",
+    "stored-seed-807.csv": "e6b0aab18b09420910455e98cca91e62267f33dd3d5fdfebcb74fe3dc1f06b4a",
+    "stored-seed-808.csv": "e94bc277ab39c100ff3df3ede3b5d49588501e751abf01309b0144307947e379",
+    "stored-seed-809.csv": "9c90e9cfcde0b9f0b405b0b6f8bb81c7e453cbeeeef6eabf4b1ade08e38f5806"
+  },
+  "script_sha256": "2dbfccf12a026afd4071e1d1d6b4a2e92896d79ad77bb7ce23beb9ddd56c89b7"
+}

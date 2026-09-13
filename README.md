@@ -60,7 +60,7 @@ See the [roadmap and graduation criteria](docs/roadmap/README.md),
 [emergence design note](docs/design/emergence.md), and
 [experiment compatibility policy](docs/design/experiments.md).
 
-Eight campaigns total **370 runs / 1,740,000 ticks**. The
+Nine campaigns total **400 runs / 2,040,000 ticks**. The
 [research index](docs/research/README.md) links every protocol, report and compact
 dataset, and distinguishes supported observations from untested explanations.
 Start hands-on review with the [Chinese guide](docs/research/REVIEW.zh-CN.md) or
