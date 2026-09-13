@@ -1015,3 +1015,16 @@ counterfactual benefit from changing order was tested.
 Tracked all-world counts, reference hashes, method and limits. The retrospective
 diagnostic adds 2000 replay computation ticks and zero new independent seeds,
 reported separately from formal campaign workloads. Engine and archives unchanged.
+
+## 2026-09-14 — Autonomous cycle 66
+
+Added boundary contracts for the execution-order interpretation raised by death
+observations. A one-energy resting organism and a two-energy always-moving
+organism both die before feeding despite food everywhere; food remains untouched
+and dissipation matches the initial energy. A three-energy always-moving control
+survives the charges, feeds and ends with nine energy. These distinguish zero
+from positive post-charge energy and cover both death paths.
+
+All 56 local tests, including the frozen historical trajectory, and compilation
+passed. No engine behavior changed. This records an intentionally designed rule,
+not a claim that this schedule is biologically correct or optimal.
