@@ -1,4 +1,5 @@
 from dataclasses import asdict, replace
+import hashlib
 import json
 from pathlib import Path
 import tempfile
@@ -9,6 +10,18 @@ from bitgenesis.v0.runner import run
 
 
 class DarwinTests(unittest.TestCase):
+    def test_frozen_v0_darwin_1_replay(self):
+        # Captured at d789db1 / Python 3.12.10. Changing this digest requires a
+        # deliberate rules-version decision, never a routine fixture refresh.
+        world = World(Config(seed=314159, width=8, height=8, initial_population=12))
+        for _ in range(120):
+            world.step()
+        payload = {"food": world.food, "snapshot": world.snapshot(),
+                   "lineage": [asdict(o) for o in world.lineage.values()], "events": world.events}
+        digest = hashlib.sha256(json.dumps(payload, sort_keys=True, separators=(",", ":"),
+                                          allow_nan=False).encode()).hexdigest()
+        self.assertEqual(digest, "eb92249f0d711cbd6d354ad61fe04498333dad1582c40d613fa7555ec8e46b69")
+
     def test_replay_matches_events_and_state(self):
         a, b = World(Config(seed=18)), World(Config(seed=18))
         for _ in range(100):
@@ -82,6 +95,7 @@ class DarwinTests(unittest.TestCase):
             metadata = json.loads((target / "metadata.json").read_text())
             self.assertEqual(metadata["status"], "complete")
             self.assertEqual(metadata["completed_steps"], 3)
+            self.assertIn("src/bitgenesis/v0/engine.py", metadata["source_sha256"])
             self.assertEqual(json.loads((target / "summary.json").read_text()), result)
             self.assertEqual([f["tick"] for f in json.loads((target / "frames.json").read_text())], [0, 2, 3])
             self.assertIn("World replay", (target / "index.html").read_text(encoding="utf-8"))

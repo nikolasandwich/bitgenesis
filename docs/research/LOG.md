@@ -41,3 +41,21 @@ at `data/acceptance-v0/` uses clean commit `27b2137` and records 1,000 ticks.
 
 V0 minimal graduation conditions now have bounded evidence; see `ACCEPTANCE.md`.
 Keep exploring V0 mechanisms and hardening reproducibility before adding V1.
+
+## 2026-09-14 — Autonomous cycle 3
+
+Campaign 003 completed: 80 direct-competition/neutral-control runs, 240,000 ticks.
+Low movement cost: high trait won 20/20 competition runs. High movement cost:
+low trait won 17/20, high trait won 1/20, whole-world extinction in 2/20. Neutral
+controls separately show label drift. Report finite frequencies, not universal
+optimality. See `campaign-003.md` and its compact CSV evidence.
+
+Added a frozen V0 replay checksum covering lifecycle events, lineage, resources
+and metrics. Fourteen tests pass. Built a regular wheel in an isolated build
+environment, installed into a fresh environment, and ran its CLI. Fixed installed
+package provenance to hash actual source and avoid claiming an enclosing repo's
+Git revision. A first no-build-isolation attempt lacked setuptools in the test
+environment; standard isolated build succeeded without changing runtime deps.
+
+Next: assemble a concise Chinese acceptance entry point; then continue robustness
+and mechanism experiments while preserving the initial V0 rules and results.

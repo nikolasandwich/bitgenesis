@@ -52,7 +52,8 @@ See the [roadmap and graduation criteria](docs/roadmap/README.md),
 
 Start review with the [V0 acceptance checkpoint](docs/research/ACCEPTANCE.md).
 Research reports: [initial selection](docs/research/campaign-001.md) and
-[fixed-trait interventions](docs/research/campaign-002.md). These results expose
+[fixed-trait interventions](docs/research/campaign-002.md), and
+[direct competition](docs/research/campaign-003.md). These results expose
 limits as well as successful reproduction; no intelligence claim is made.
 
 ## Repository layout

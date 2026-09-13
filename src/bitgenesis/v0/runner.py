@@ -29,20 +29,29 @@ def load_config(path):
 
 
 def provenance():
-    root = Path(__file__).resolve().parents[3]
+    package_root = Path(__file__).resolve().parents[1]
+    root = package_root.parent.parent
+    source_checkout = package_root == root / "src" / "bitgenesis"
     def git(*arguments):
+        if not source_checkout:
+            return None
         try:
             return subprocess.check_output(["git", "-C", str(root), *arguments],
                                            text=True, stderr=subprocess.DEVNULL).strip()
         except (OSError, subprocess.CalledProcessError):
             return None
-    hashes = {str(p.relative_to(root)).replace("\\", "/"): hashlib.sha256(p.read_bytes()).hexdigest()
-              for p in sorted((root / "src" / "bitgenesis").rglob("*.py"))}
+    hashes = {"src/bitgenesis/" + p.relative_to(package_root).as_posix():
+              hashlib.sha256(p.read_bytes()).hexdigest()
+              for p in sorted(package_root.rglob("*.py"))}
+    script_hashes = {p.relative_to(root).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+                     for p in sorted((root / "scripts").glob("*.py"))} if source_checkout else {}
     dirty = git("status", "--porcelain")
     return {"git_commit": git("rev-parse", "HEAD"),
             "git_dirty": None if dirty is None else bool(dirty),
             "python": platform.python_version(), "platform": platform.platform(),
-            "source_sha256": hashes, "invocation": sys.argv}
+            "source_sha256": hashes, "research_scripts_sha256": script_hashes,
+            "installation_kind": "source" if source_checkout else "installed",
+            "invocation": sys.argv}
 
 
 def frame(world):

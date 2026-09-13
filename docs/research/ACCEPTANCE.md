@@ -30,10 +30,12 @@ services. Use a new output path each time.
 | Basic world view and lineage inspection | Replay + clickable ancestry inspector | Met |
 | Explain designed rules | `docs/design/v0-rules.md` and emergence note | Met |
 
-Thirteen checks passed at this checkpoint. Campaigns 001 and 002 cover 250,000
+Fourteen checks passed at this checkpoint. Campaigns 001–003 cover 490,000
 simulation ticks. Campaign 001 finds lineage collapse; campaign 002 shows that
 the trait maximizing population abundance need not match the trait favored in
-mixed populations. Read both reports before interpreting animations.
+mixed populations; campaign 003 directly tests competition with neutral-label
+controls and confirms dependence on movement cost. Read the reports before
+interpreting animations. An installed wheel and its provenance were also tested.
 
 V0's minimal milestone is reached. Continue V0 mechanism/robustness experiments
 before deciding whether a V1 controller adds a useful research question. Meeting
@@ -49,5 +51,6 @@ this checklist does not certify realism or open-ended evolution.
 - Trait mutation clamps at boundaries; this may affect endpoint distributions.
 - Whole-population fixed-trait results do not replace direct competition tests.
 
-Next: direct competition, a frozen V0 replay regression, and recorder/provenance
-hardening. Preserve existing rules and predeclare new experiment protocols.
+Direct competition, a frozen replay regression, and installed-package provenance
+are now checked. Next: longer-horizon/resource-regime robustness and recorder
+limits. Preserve existing rules and predeclare new experiment protocols.
