@@ -1,6 +1,7 @@
 """Versioned JSON world checkpoints. No executable serialization is loaded."""
 
 from dataclasses import asdict
+from collections import Counter
 import hashlib
 import json
 from pathlib import Path
@@ -35,6 +36,49 @@ def save_world(path, world):
     write_json_atomic(path, {"payload": payload, "sha256": digest(payload)})
 
 
+def validate_lineage(world, records):
+    """Check historical structure as well as currently living state."""
+    initial = world.config.initial_population
+    cells = world.config.width * world.config.height
+    if len(records) < initial:
+        raise ValueError("Checkpoint is missing founding individuals")
+    children = Counter()
+    birth_slots = set()
+    for organism in records:
+        for field in ("id", "founder_id", "generation", "birth_tick", "genome", "position", "energy", "offspring"):
+            value = getattr(organism, field)
+            if type(value) is not int or value < 0:
+                raise ValueError(f"Invalid checkpoint lineage {field}")
+        if not (organism.founder_id < initial and organism.position < cells
+                and organism.genome <= 1000 and organism.birth_tick <= world.tick):
+            raise ValueError("Checkpoint lineage value outside world bounds")
+        if organism.death_tick is None:
+            if organism.energy <= 0:
+                raise ValueError("Checkpoint living individual has no energy")
+        elif (type(organism.death_tick) is not int or not organism.birth_tick < organism.death_tick <= world.tick
+              or organism.energy != 0):
+            raise ValueError("Invalid checkpoint death state")
+        if organism.id < initial:
+            if (organism.parent_id is not None or organism.founder_id != organism.id
+                    or organism.generation != 0 or organism.birth_tick != 0):
+                raise ValueError("Invalid checkpoint founder ancestry")
+        else:
+            if type(organism.parent_id) is not int or not 0 <= organism.parent_id < organism.id:
+                raise ValueError("Invalid checkpoint parent reference")
+            parent = world.lineage[organism.parent_id]
+            if (organism.generation != parent.generation + 1 or organism.founder_id != parent.founder_id
+                    or organism.birth_tick <= parent.birth_tick
+                    or (parent.death_tick is not None and organism.birth_tick >= parent.death_tick)):
+                raise ValueError("Inconsistent checkpoint ancestry or birth time")
+            slot = (organism.parent_id, organism.birth_tick)
+            if slot in birth_slots:
+                raise ValueError("Checkpoint parent reproduced twice in one tick")
+            birth_slots.add(slot)
+            children[organism.parent_id] += 1
+    if any(organism.offspring != children[organism.id] for organism in records):
+        raise ValueError("Checkpoint offspring counts differ from lineage")
+
+
 def load_world(path):
     try:
         envelope = json.loads(Path(path).read_text(encoding="utf-8"))
@@ -57,17 +101,21 @@ def load_world(path):
         world.food = payload["food"]
         records = [Individual(**record) for record in payload["lineage"]]
         world.lineage = {o.id: o for o in records}
-        if len(world.lineage) != len(records) or list(world.lineage) != list(range(world.next_id)):
+        if (len(world.lineage) != len(records) or len(records) != world.next_id
+                or any(identity != index for index, identity in enumerate(world.lineage))):
             raise ValueError("Checkpoint organism IDs are duplicated or discontinuous")
+        validate_lineage(world, records)
         living_ids = payload["living_ids"]
-        if len(set(living_ids)) != len(living_ids):
-            raise ValueError("Checkpoint has duplicate living IDs")
+        if (not isinstance(living_ids, list) or any(type(identity) is not int for identity in living_ids)
+                or len(set(living_ids)) != len(living_ids)):
+            raise ValueError("Checkpoint has invalid or duplicate living IDs")
         world.living = {identity: world.lineage[identity] for identity in living_ids}
         if set(living_ids) != {o.id for o in records if o.death_tick is None}:
             raise ValueError("Checkpoint living/dead membership mismatch")
         world.occupied = {o.position: o.id for o in world.living.values()}
         world.events = payload["events"]
-        if not isinstance(world.events, list) or any(e["id"] not in world.lineage for e in world.events):
+        if not isinstance(world.events, list) or any(not isinstance(e, dict) or type(e.get("id")) is not int
+                                                   or e["id"] not in world.lineage for e in world.events):
             raise ValueError("Invalid checkpoint pending events")
         def tuples(value):
             return tuple(tuples(item) for item in value) if isinstance(value, list) else value
