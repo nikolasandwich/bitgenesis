@@ -236,6 +236,21 @@
       ],
       "followup_of": "014",
       "replayed_prefix_ticks_per_execution": 3000
+    },
+    {
+      "id": "016",
+      "executions": 30,
+      "ticks_per_execution": 10000,
+      "seed_range": [
+        1300,
+        1309
+      ],
+      "identity_fields": [
+        "arm",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
     }
   ]
 }

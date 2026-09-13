@@ -1614,3 +1614,23 @@ Layout RNG is separate from world RNG. Initial food/founders and RNG-state diges
 are saved for independent pairing checks. Launched from clean source; results
 remain provisional until the whole grid and initial-state/metric records are
 independently verified. Formal inventory remains fifteen completed campaigns.
+
+## 2026-09-14 — Autonomous cycle 109
+
+Campaign 016 completed all thirty runs. Built an independent standard-library
+verifier for the declared initial layouts, exact founders/world RNG pairing,
+initial exposure and all 300,030 metric rows. All thirty initial states and ten
+matched seed triplets pass, as do terminal and observation summaries. Three new
+helper tests pass; full suite 106 tests. This verifier does not step the engine.
+
+At tick 500, uniform/dispersed/block have 8/7/0 surviving worlds; at 5,000 they
+have 3/0/0; at 10,000 all are extinct. Block extinction times are 110–169,
+dispersed 152–3,362, uniform 148–8,845. Block dies earlier than dispersed in all
+ten matched pairs. Reported controls, absence of dynamic RNG matching after
+initialization, and uniform's additional local-amount confound. No universal
+geometry or evolved-sensing claim.
+
+Committed compact data and verification hashes; inventory now sixteen campaigns,
+744 executions and 6,640,000 computed ticks (212,000 declared prefix replays
+unchanged). The fixed fifteen-campaign archive remains unchanged and excludes
+this new campaign. Raw full death/movement histories were not retained.
