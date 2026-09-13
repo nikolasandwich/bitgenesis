@@ -82,6 +82,28 @@ class CheckpointTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, "living IDs"):
                     load_world(path)
 
+    def test_checkpoint_rejects_impossible_inherited_genomes(self):
+        # A matching checksum checks bytes, not whether inheritance obeys the rules.
+        for probability, step in ((0, 100), (100, 0), (1000, 100)):
+            with self.subTest(probability=probability, step=step), tempfile.TemporaryDirectory() as directory:
+                world = World(Config(width=8, height=8, initial_population=12,
+                                     mutation_probability=probability, mutation_step=step))
+                for _ in range(40):
+                    world.step()
+                world.events.clear()  # Historical lineage must stand on its own.
+                child = next(o for o in world.lineage.values() if o.parent_id is not None)
+                parent = world.lineage[child.parent_id]
+                path = Path(directory) / "state.json"
+                save_world(path, world)
+                self.assertEqual(load_world(path).snapshot(), world.snapshot())
+                envelope = json.loads(path.read_text(encoding="utf-8"))
+                # Still inside 0..1000, but impossible under this reproduction rule.
+                envelope["payload"]["lineage"][child.id]["genome"] = 0 if parent.genome > 500 else 1000
+                envelope["sha256"] = digest(envelope["payload"])
+                path.write_text(json.dumps(envelope), encoding="utf-8")
+                with self.assertRaisesRegex(ValueError, "inheritance"):
+                    load_world(path)
+
     def test_cli_separate_process_resume_matches_complete_state(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

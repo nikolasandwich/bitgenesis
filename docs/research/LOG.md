@@ -1129,3 +1129,18 @@ Uploaded the archive and checksum to draft prerelease v0.0.1-preview.5, release
 bytes and matching SHA-256. Draft remains unpublished; older drafts are unchanged.
 Updated acceptance and research download entries to the new thirteen-campaign
 snapshot while preserving historical archive scopes and hashes.
+
+## 2026-09-14 — Autonomous cycle 75
+
+Found a checkpoint validation gap: an in-range child genome impossible under the
+configured inheritance rule was accepted after recomputing the checksum. Added
+a reproducing test with mutation disabled, zero mutation step, and positive
+mutation bounded at 100; all three cases failed before the fix. Loading now
+checks every child's change against its parent's genome and configured mutation
+bounds, including historical dead descendants and drained event buffers.
+
+All 65 tests pass after the fix; all eight checkpoint tests also pass under -O.
+Existing continuation tests compare RNG, events, lineage, space and complete
+checkpoint bytes. No engine source, rules, random draws or checkpoint schema
+changed. This strengthens consistency checks, not authenticity or exhaustive
+history reconstruction. The fixed thirteen-campaign archive predates this fix.

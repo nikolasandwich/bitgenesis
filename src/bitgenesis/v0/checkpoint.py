@@ -70,6 +70,9 @@ def validate_lineage(world, records):
                     or organism.birth_tick <= parent.birth_tick
                     or (parent.death_tick is not None and organism.birth_tick >= parent.death_tick)):
                 raise ValueError("Inconsistent checkpoint ancestry or birth time")
+            max_change = world.config.mutation_step if world.config.mutation_probability else 0
+            if abs(organism.genome - parent.genome) > max_change:
+                raise ValueError("Checkpoint genome inheritance violates mutation bounds")
             slot = (organism.parent_id, organism.birth_tick)
             if slot in birth_slots:
                 raise ValueError("Checkpoint parent reproduced twice in one tick")

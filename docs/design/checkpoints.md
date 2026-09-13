@@ -30,6 +30,9 @@ A SHA-256 digest detects accidental corruption; it is not an authenticity guaran
 Loading also validates historical lineage, independently of the checksum: scalar
 types/bounds, founders, earlier parent IDs, generation and founder inheritance,
 birth/death chronology, one birth per parent per tick, and offspring totals.
+Each child genome must be within the configured mutation step of its parent;
+with mutation disabled or step zero it must be identical. Boundary clipping does
+not permit a larger change. This checks both living and dead descendants.
 Dead individuals must have zero energy under these rules. A syntactically valid
 file with a recomputed checksum is still rejected if those structural conditions
 fail. This is not exhaustive replay of every historical transition. The checks
