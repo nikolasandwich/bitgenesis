@@ -20,5 +20,8 @@ Validation so far: 13 unit/integration tests pass, including deterministic repla
 energy accounting across five seeds, inheritance, mutation, newborn scheduling,
 torus boundaries, extinction without resources, and output preservation.
 
-Pending: a predeclared multi-seed baseline/control campaign, replay visual check,
-evidence report and assessment of remaining V0 graduation criteria.
+Campaign 001 completed: ten 5,000-tick runs, no extinction; all converged to one
+founder lineage. Mutation and no-mutation treatments both concentrated near high
+movement probabilities. See `campaign-001.md`; do not interpret mutation as
+necessary for this initial selection. Replay controls and terminal values checked
+in a browser. Next: the preregistered fixed-trait/cost assay (campaign 002).
