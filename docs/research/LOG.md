@@ -1144,3 +1144,19 @@ Existing continuation tests compare RNG, events, lineage, space and complete
 checkpoint bytes. No engine source, rules, random draws or checkpoint schema
 changed. This strengthens consistency checks, not authenticity or exhaustive
 history reconstruction. The fixed thirteen-campaign archive predates this fix.
+
+## 2026-09-14 — Autonomous cycle 76
+
+Extended the checkpoint review to pending events. Eleven corruption cases were
+accepted by the prior loader: unsupported event kind, inconsistent birth/death
+fields, invalid birth position/energy, duplicate events and reverse chronology.
+Each case recomputed the envelope checksum, isolating structural validation.
+The new event validator rejects these while retaining empty/drained buffers.
+Birth ancestry/genome/tick and death energy/location/tick match lineage; founder
+birth energy matches configuration. Child birth energy and historical birth
+location are only bounded because full transition reconstruction is unavailable.
+
+All 66 local tests pass, including exact continuation comparisons; all nine
+checkpoint tests pass under -O. Engine source, rules and checkpoint schema remain
+unchanged. No claim of buffer completeness or authenticity. The fixed uploaded
+thirteen-campaign snapshot predates this validation improvement.

@@ -82,6 +82,43 @@ def validate_lineage(world, records):
         raise ValueError("Checkpoint offspring counts differ from lineage")
 
 
+def validate_events(world):
+    """Validate retained events; a drained buffer need not contain full history."""
+    if not isinstance(world.events, list):
+        raise ValueError("Invalid checkpoint pending events")
+    seen = set()
+    previous_tick = -1
+    for event in world.events:
+        if (not isinstance(event, dict) or type(event.get("id")) is not int
+                or event["id"] not in world.lineage
+                or event.get("event") not in ("birth", "death")):
+            raise ValueError("Invalid checkpoint pending event")
+        kind = event["event"]
+        expected = {"tick", "event", "id", "energy", "position"}
+        if kind == "birth":
+            expected |= {"parent_id", "genome"}
+        if set(event) != expected or any(type(event[k]) is not int for k in ("tick", "energy", "position")):
+            raise ValueError("Invalid checkpoint event fields")
+        identity = (kind, event["id"])
+        if identity in seen or not previous_tick <= event["tick"] <= world.tick:
+            raise ValueError("Duplicate or out-of-order checkpoint event")
+        seen.add(identity)
+        previous_tick = event["tick"]
+        organism = world.lineage[event["id"]]
+        if not 0 <= event["position"] < world.config.width * world.config.height:
+            raise ValueError("Checkpoint event position outside world")
+        if kind == "birth":
+            if (event["tick"] != organism.birth_tick or type(event["genome"]) is not int
+                    or event["genome"] != organism.genome
+                    or (event["parent_id"] is not None and type(event["parent_id"]) is not int)
+                    or event["parent_id"] != organism.parent_id or event["energy"] <= 0
+                    or (organism.parent_id is None and event["energy"] != world.config.initial_energy)):
+                raise ValueError("Checkpoint birth event differs from lineage or configuration")
+        elif (event["tick"] != organism.death_tick or event["energy"] != 0
+              or event["position"] != organism.position):
+            raise ValueError("Checkpoint death event differs from lineage")
+
+
 def load_world(path):
     try:
         envelope = json.loads(Path(path).read_text(encoding="utf-8"))
@@ -117,9 +154,7 @@ def load_world(path):
             raise ValueError("Checkpoint living/dead membership mismatch")
         world.occupied = {o.position: o.id for o in world.living.values()}
         world.events = payload["events"]
-        if not isinstance(world.events, list) or any(not isinstance(e, dict) or type(e.get("id")) is not int
-                                                   or e["id"] not in world.lineage for e in world.events):
-            raise ValueError("Invalid checkpoint pending events")
+        validate_events(world)
         def tuples(value):
             return tuple(tuples(item) for item in value) if isinstance(value, list) else value
         world.rng = random.Random(0)

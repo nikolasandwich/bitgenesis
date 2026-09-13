@@ -104,6 +104,41 @@ class CheckpointTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, "inheritance"):
                     load_world(path)
 
+    def test_pending_events_must_agree_with_lineage(self):
+        with tempfile.TemporaryDirectory() as directory:
+            world = World(Config(width=8, height=8, initial_population=12))
+            for _ in range(40):
+                world.step()
+            path = Path(directory) / "state.json"
+            save_world(path, world)
+            original = json.loads(path.read_text(encoding="utf-8"))
+            death_index = next(i for i, e in enumerate(world.events) if e["event"] == "death")
+            changes = [(0, "event", "unknown"), (0, "tick", 1),
+                       (0, "genome", (world.events[0]["genome"] + 1) % 1001),
+                       (0, "parent_id", 0), (0, "energy", 0), (0, "position", 64),
+                       (death_index, "energy", 1), (death_index, "tick", 0),
+                       (death_index, "position", (world.events[death_index]["position"] + 1) % 64)]
+            for index, key, value in changes:
+                with self.subTest(index=index, key=key):
+                    envelope = json.loads(json.dumps(original))
+                    envelope["payload"]["events"][index][key] = value
+                    envelope["sha256"] = digest(envelope["payload"])
+                    path.write_text(json.dumps(envelope), encoding="utf-8")
+                    with self.assertRaisesRegex(ValueError, "event"):
+                        load_world(path)
+            for kind in ("duplicate", "out-of-order"):
+                with self.subTest(kind=kind):
+                    envelope = json.loads(json.dumps(original))
+                    events = envelope["payload"]["events"]
+                    if kind == "duplicate":
+                        events.insert(0, events[0].copy())
+                    else:
+                        events.reverse()
+                    envelope["sha256"] = digest(envelope["payload"])
+                    path.write_text(json.dumps(envelope), encoding="utf-8")
+                    with self.assertRaisesRegex(ValueError, "event"):
+                        load_world(path)
+
     def test_cli_separate_process_resume_matches_complete_state(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

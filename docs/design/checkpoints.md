@@ -38,6 +38,14 @@ file with a recomputed checksum is still rejected if those structural conditions
 fail. This is not exhaustive replay of every historical transition. The checks
 remain active with Python optimization enabled.
 
+Retained pending events are checked for supported fields, integer types, bounds,
+chronological order and duplicate birth/death identities. Birth ticks, parent IDs
+and genomes must match lineage; founder energy must match configuration. Death
+ticks, zero energy and final positions must match the dead individual. Buffers
+may be empty after draining: these checks do not certify a complete event history.
+Historical child birth energy and birth location are bounded but cannot be fully
+reconstructed from final lineage alone. No authenticity claim follows from loading.
+
 Tests compare continued state with uninterrupted state, including random state,
 events, lineage and spatial state. A CLI test compares complete checkpoint payloads
 across three separate processes. Existing frozen-rule regression tests remain in
