@@ -91,3 +91,45 @@ results are in [the CSV](results/trait-change-001.csv). Hand-computed tests cove
 mixed birth/death/mutation, population growth, no-event and extinction boundaries.
 This analysis postdates the thirteen-campaign fixed archive; its required raw
 campaign-001 records are included there, but this new script/report are not.
+
+## Local mutation-kernel reference along the realized trajectory
+
+A further post hoc diagnostic evaluates the known single-birth expectation at
+each recorded parent genome g, mutation probability q and mutation step s:
+
+```
+local_reference(g) = q/(2*s+1) * sum(clip(g+d, 0, 1000)-g, d=-s..s)
+weighted_reference = sum(local_reference(parent) / recorded_post_tick_population)
+```
+
+Here q is the probability as a fraction, not the per-thousand integer. Exact
+rational enumeration precedes the weighted sum. The five mutation runs have the
+following results; all five no-mutation runs have exactly zero observed and
+reference increments. Full ten-world data are retained in
+[the CSV](results/mutation-reference-001.csv) and [hash sidecar](results/mutation-reference-001.json).
+
+| Seed | Births | Births from parent >900 | Observed weighted mutation | Kernel reference | Difference |
+|---|---:|---:|---:|---:|---:|
+| 0 | 7519 | 6317 | -135.22 | -135.15 | -0.07 |
+| 1 | 7684 | 5099 | -77.35 | -60.52 | -16.83 |
+| 2 | 7532 | 6257 | -142.47 | -137.36 | -5.11 |
+| 3 | 7615 | 6219 | -111.49 | -134.42 | 22.94 |
+| 4 | 7512 | 6582 | -126.59 | -143.03 | 16.43 |
+
+All reference sums are negative, consistent with many births having parents near
+the upper bound where clipping creates an inward local expectation. Differences
+have both signs; no significance test is attached to them. Repeated births from
+the same parent and related descendants are not independent observations.
+
+This is a reference evaluated on *observed* parents and post-tick populations.
+Those quantities arise from the evolving world and shared random stream. The
+weighted reference is not asserted to be an unbiased unconditional expectation
+of the complete trajectory, and its difference is not assumed to have zero mean
+or independent increments. It does not isolate the total causal effect of clipping:
+changing the kernel would change later genomes, births, deaths and random draws.
+
+The helper verifies raw-file hashes against the earlier audited decomposition
+and reproduces its observed transmission term exactly. It also saves unweighted
+raw increments and references, which have different units from changes in mean.
+Run `python scripts/analyze_v0_mutation_reference.py --output data/my-mutation-reference`
+with campaign-001 inputs present. This remains a reanalysis, with no new worlds.

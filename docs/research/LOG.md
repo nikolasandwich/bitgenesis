@@ -1187,3 +1187,17 @@ Validated complete seed grid, finite values and rounded decomposition totals
 before plotting. Saved PNG/SVG and the plotted data/input/script hashes; visual
 inspection confirms readable axes, labels and legend. No new simulation or test
 of statistical significance. The diagram is linked from the derivation/report.
+
+## 2026-09-14 — Autonomous cycle 79
+
+Evaluated the exact one-birth mutation-kernel expectation at each observed
+campaign-001 parent, then weighted it using the recorded post-tick population.
+Raw hashes match the prior audited decomposition; its observed mutation terms
+are reproduced exactly. All five mutation reference sums are negative, and the
+observed-minus-reference differences have both signs. Most births come from
+parents above 900. All no-mutation reference and observed terms are exactly zero.
+
+Report states that observed parents and denominators are trajectory-dependent:
+this is neither an unbiased full-path expectation nor a clipping counterfactual.
+Saved every run, unweighted increments and input/reference/script hashes. Added
+hand-enumerated kernel boundary and disabled-mutation tests. No new simulations.
