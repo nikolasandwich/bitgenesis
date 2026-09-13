@@ -514,3 +514,16 @@ Report distinguishes allocation effects from an unisolated reproduction mechanis
 and documents capacity-limited resource-input feedback. All-seed results and hash
 sidecar are tracked. Formal totals become nine campaigns / 400 runs / 2040000 ticks;
 the existing eight-campaign visual pages, packager and release remain historical.
+
+## 2026-09-14 — Autonomous cycle 28
+
+Reconstructed first-100-tick energy budgets and population peaks from campaign
+009's existing metrics, explicitly as a post-experiment analysis. Stored-energy
+worlds had mean peak population 295.4 at mean first-peak tick 3.9 and mean 215.4
+births by tick 10; at tick 100 all were extinct with mean 5496 food energy left.
+The food arm had mean peak 84.7 and 13.8 births by tick 100. Reused the exact
+basal/movement/reproduction accounting helper; its three contract tests passed.
+
+All-seed budgets and input/helper/script hashes are tracked. The report avoids
+equating world food totals with individual access or treating the observed early
+burst as an isolated causal explanation. No new simulations or changes to rules.

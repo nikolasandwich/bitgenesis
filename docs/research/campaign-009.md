@@ -48,6 +48,51 @@ response test. No new trait, controller, life origin or open-ended evolution is 
 
 ## Verification
 
+### Exploratory early-window accounting
+
+After seeing the extinction results, we examined ticks 1–100. This is a
+post-experiment window, not an additional preregistered endpoint or campaign.
+All ten seeds per arm remain included. Values below are group means of per-world
+quantities; peak time is the mean of each world's first maximum, not the peak of
+an averaged population curve.
+
+| Quantity, first 100 ticks | low | food | stored |
+| --- | ---: | ---: | ---: |
+| Maximum population (including tick 0) | 80 | 84.7 | 295.4 |
+| First tick of maximum | 0 | 20.4 | 3.9 |
+| Births by tick 10 | 0 | 1.4 | 215.4 |
+| Births by tick 100 | 0 | 13.8 | 215.4 |
+| Basal energy spent | 1776.9 | 4996.2 | 5551.9 |
+| Movement energy spent | 426.7 | 1248.4 | 1325.7 |
+| Reproduction energy spent | 0 | 55.2 | 861.6 |
+| New supplied energy | 6182.4 | 6164.2 | 6195.2 |
+| Population at tick 100 | 0 | 11.5 | 0 |
+| Food energy remaining at tick 100 | 5898.8 | 6726 | 5496 |
+
+The stored arm shows an early population expansion followed by extinction while
+food remains in the world. Aggregate world-energy exhaustion is therefore not a
+sufficient description. This does not establish whether any dying individual had
+nearby usable food: per-tick totals lack that spatial history. The accounting does
+not isolate a causal effect of birth cost, energy splitting or population size.
+
+Basal cost is exactly one per individual alive before a tick, so it can be
+reconstructed by summing pre-tick populations. Reproduction cost is four times new
+births; movement is residual dissipation. These are exact integer decompositions
+per run under the unchanged rules, using the previously tested
+[budget identity](energy-budget.md). Initial stock plus new input equals costs
+plus final food/organism stock. New input here excludes the initial endowment.
+
+```sh
+python scripts/analyze_v0_establishment_budget.py --output data/new-early-budget
+```
+
+[All-seed budgets](results/early-budget-009.csv) and the
+[hash/summary sidecar](results/early-budget-009.json) preserve the analysis.
+The script reads complete metric tables, checks accounting, and reuses the budget
+helper; no worlds were rerun. Three existing budget contract tests passed.
+
+### Original run verification
+
 Every simulated tick checked engine invariants. A separate helper checked all
 300,030 metric rows: fixed protocol and complete grid, initial energy components,
 tick sequence, population/energy accounting, fixed trait, persistent extinction,
