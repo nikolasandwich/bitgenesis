@@ -1,7 +1,7 @@
 # BitGenesis 研究索引
 
-当前只有 V0 运行阶段。十四轮共 **710 次执行、6,220,000 个计算时间步**。
-其中 20 次是既有世界的延长复查，包含 200,000 步前缀重放，不是新增独立种子。
+当前只有 V0 运行阶段。十五轮共 **714 次执行、6,340,000 个计算时间步**。
+其中 24 次是既有世界的延长复查，包含 212,000 步前缀重放，不是新增独立种子。
 这些数字不包括回放演示、断点验证和精确数学枚举。各轮数量与保存的结果 CSV 核对。
 可用 `python scripts/check_v0_campaign_inventory.py` 复算。
 [计数清单](../../experiments/v0/campaign-inventory.json)与[核对结果](results/campaign-inventory-verification.json)
@@ -35,6 +35,9 @@ GitHub 保存代码、协议、报告和精简结果；大体积逐步数据保�
 | 012 | 零直接繁殖开销能否消除低阈值的早期失败？ | 80 | 800,000 | [协议](../../experiments/v0/campaign-012.md) · [报告](campaign-012.md) · [数据](results/campaign-012.csv) |
 | 013 | 长观察中，新基因取值是否继续出现？ | 10 | 500,000 | [协议](../../experiments/v0/campaign-013.md) · [报告](campaign-013.md) · [数据](results/campaign-013.csv) |
 | 014 | 中间移动成本与初始比例如何影响竞争？ | 160 | 480,000 | [协议](../../experiments/v0/campaign-014.md) · [报告](campaign-014.md) · [数据](results/campaign-014.csv) |
+| 015 | 两组都在的中性世界，延长观察后如何？ | 4（条件选择的复查） | 120,000（含 12,000 重放） | [协议](../../experiments/v0/campaign-015.md) · [报告](campaign-015.md) · [数据](results/campaign-015.csv) |
+
+第十五轮是后续报告，不在上述十四轮固定页面和归档中。
 
 另有[突变核精确校准](mutation-calibration.md)：枚举边界裁剪的单次遗传偏移，
 不运行数字世界，也不计入上面的实验总数。

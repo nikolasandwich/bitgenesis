@@ -1415,3 +1415,19 @@ The kernel reference ran -I -S with standard library only; full decomposition
 used -I plus the installed package audit; windows used normal script mode for
 the sibling helper and installed package. Dependency scope is explicit. No new
 simulation, changed source or broad cross-platform portability claim.
+
+## 2026-09-14 — Autonomous cycle 95
+
+Preregistered and completed campaign 015 from clean source b575054: all four
+neutral campaign-014 endpoints retaining both labels at tick 3,000, followed
+to 30,000 without early stopping. All lose one group at ticks 3,625–4,765;
+remaining groups survive to the endpoint. This is a selected conditional cohort,
+not new independent seeds or an estimate of stable coexistence.
+
+Independent verification checks 120,004 rows and matches all 12,004 historical
+prefix rows to the previously hashed reference. Added tests for truncated and
+changed prefixes, incomplete follow-ups and sparse inventory seed counts.
+Inventory now records 15 campaigns / 714 executions / 6,340,000 computed ticks,
+including 24 follow-ups and 212,000 replayed prefix ticks. Raw observation
+extension is 108,000 ticks for this campaign. Published compact results, hashes
+and finite-horizon limitations; the fixed fourteen-campaign archive is unchanged.

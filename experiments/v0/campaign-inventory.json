@@ -218,6 +218,24 @@
       ],
       "followup_of": null,
       "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "015",
+      "executions": 4,
+      "ticks_per_execution": 30000,
+      "seed_counts": {
+        "1200": 1,
+        "1206": 1,
+        "1208": 2
+      },
+      "identity_fields": [
+        "movement_cost",
+        "initial_b",
+        "treatment",
+        "seed"
+      ],
+      "followup_of": "014",
+      "replayed_prefix_ticks_per_execution": 3000
     }
   ]
 }

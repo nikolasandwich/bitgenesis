@@ -23,14 +23,19 @@ def check(root, inventory):
         with path.open(newline="", encoding="utf-8") as stream:
             rows = list(csv.DictReader(stream))
         expected_count, horizon = entry["executions"], entry["ticks_per_execution"]
-        start, end = entry["seed_range"]
         keys = [tuple(row[field] for field in entry["identity_fields"]) for row in rows]
         seeds = Counter(int(row["seed"]) for row in rows)
+        if "seed_counts" in entry:
+            if "seed_range" in entry or any(type(v) is not int or v <= 0 for v in entry["seed_counts"].values()):
+                raise ValueError("Ambiguous or invalid explicit seed counts")
+            expected_seeds = {int(k): v for k, v in entry["seed_counts"].items()}
+        else:
+            start, end = entry["seed_range"]
+            expected_seeds = {s: expected_count / (end-start+1) for s in range(start, end+1)}
         if (len(rows) != expected_count or len(set(keys)) != expected_count
                 or any(int(row["tick"]) != horizon for row in rows)
-                or set(seeds) != set(range(start, end + 1))
-                or set(seeds.values()) != {expected_count / (end - start + 1)}):
-            raise ValueError(f"Count, horizon or unique/balanced seed grid differs: {identity}")
+                or seeds != expected_seeds):
+            raise ValueError(f"Count, horizon or unique seed grid differs: {identity}")
         prefix = entry["replayed_prefix_ticks_per_execution"]
         if not 0 <= prefix <= horizon:
             raise ValueError("Invalid replayed prefix length")

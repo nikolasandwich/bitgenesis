@@ -1,0 +1,5 @@
+movement_cost,initial_b,treatment,b_trait,seed,tick,population,births,deaths,organism_energy,food_energy,supplied_energy,dissipated_energy,mean_genome,genome_variants,founder_lineages,max_generation,a,b,b_fraction,a_loss_tick,b_loss_tick,extinction_tick
+1,72,neutral,250,1206,30000,110,55496,55466,1921,7020,4456144,4447203,250.0,1,1,675,110,0,0.0,,4765,
+2,8,neutral,250,1200,30000,79,53085,53086,1455,9116,4127280,4116709,250.0,1,1,813,0,79,1.0,3625,,
+2,72,neutral,250,1208,30000,118,52874,52836,2268,9696,4105184,4093220,250.0,1,1,884,118,0,0.0,,4551,
+4,72,neutral,250,1208,30000,42,40168,40206,732,13596,3068544,3054216,250.0,1,1,1297,0,42,1.0,3812,,
