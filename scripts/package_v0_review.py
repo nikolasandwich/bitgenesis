@@ -25,10 +25,10 @@ def sha256(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
-    names = {8: "review-8", 9: "nine-campaigns", 10: "ten-campaigns", 11: "eleven-campaigns", 12: "twelve-campaigns", 13: "thirteen-campaigns", 14: "fourteen-campaigns"}
+    names = {8: "review-8", 9: "nine-campaigns", 10: "ten-campaigns", 11: "eleven-campaigns", 12: "twelve-campaigns", 13: "thirteen-campaigns", 14: "fourteen-campaigns", 15: "fifteen-campaigns"}
     args.output = args.output or Path(f"data/bitgenesis-v0-{names[args.campaigns]}.zip")
     if args.output.exists():
         raise ValueError("Review output already exists; choose a new path")
@@ -63,7 +63,8 @@ def main():
                11: "summarize_v0_long_horizon.py",
                12: "summarize_v0_birth_cost.py",
                13: "summarize_v0_genome_coverage.py",
-               14: "summarize_v0_frequency_cost.py"}
+               14: "summarize_v0_frequency_cost.py",
+               15: "summarize_v0_neutral_followup.py"}
     for number, helper in helpers.items():
         if number > args.campaigns:
             continue
@@ -74,6 +75,8 @@ def main():
                        "--output", str(summary)]
             if number == 11:
                 command.extend(["--reference", str(root / "data/campaign-010")])
+            if number == 15:
+                command.extend(["--reference", str(root / "data/campaign-014")])
             subprocess.run(command, check=True, stdout=subprocess.DEVNULL)
             metric_audits[f"campaign-{number:03d}"] = json.loads((summary / "summary.json").read_text())
     manifest = {"format": "bitgenesis-review-1", "git_commit": git("rev-parse", "HEAD"),
