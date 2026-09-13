@@ -17,10 +17,20 @@ def require_run_grid(records, treatments, seeds):
         raise ValueError("Review requires a complete, unique treatment/seed grid")
 
 
+def require_followup_records(records, reference, verified):
+    def key(row):
+        return (row["movement_cost"], row["initial_b"], row["treatment"], row["seed"])
+    selected = {key(r) for r in reference if r["treatment"] == "neutral" and r["a"] > 0 and r["b"] > 0}
+    indexed = {key(r): r for r in records}
+    audited = {key(r): r for r in verified}
+    if len(records) != 4 or len(verified) != 4 or len(selected) != 4 or set(indexed) != selected or indexed != audited:
+        raise ValueError("Review requires the complete verified conditional follow-up cohort")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-root", type=Path, default=Path("data"))
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     args.output = args.output or args.data_root / f"review-v0-{args.campaigns}.html"
@@ -225,6 +235,21 @@ def main():
         frequency_figure = link(Path(__file__).resolve().parents[1] / "docs/research/figures/campaign-014-outcomes.png")
         frequency_section = f'''<section><h2>14 / 初始多数，也可能一起灭绝</h2><p>四档移动成本、两种初始比例，每种条件十个新种子，观察 3,000 步。不同性状组中 A 为 25% 移动、B 为 100%；中性标签对照中两者均为 25%，所有条件关闭突变。</p>{frequency_table}<img src="{frequency_figure}" alt="第十四轮全部一百六十个世界的逐种子结果；A、B 表示单独存活，AB 表示两组仍在，X 表示整体灭绝。" style="width:100%;height:auto"><p>成本 1、2 时，两种比例的竞争组都由 B 单独存活到终点；成本 4 且 B 起初占 90% 时，十个世界中五个整体灭绝。不能只看幸存者来比较胜负。</p><p class="small">图中每格是一个世界，六个灭绝案例和四个中性对照的双群体终点全部保留。起初占多数不是持续存活的保证；终点两组仍在不证明稳定共存。这些是从开局共同建立的群体，尚未检验向稳定居民种群引入稀有类型的结果。</p></section>'''
         page = page.replace('<section><h2>复核与恢复</h2>', frequency_section + '<section><h2>复核与恢复</h2>')
+    if args.campaigns >= 15:
+        verified_path = Path(__file__).resolve().parents[1] / "docs/research/results/campaign-015-verification.json"
+        verified = json.loads(verified_path.read_text(encoding="utf-8"))
+        records = campaigns[14]
+        require_followup_records(records, campaigns[13], verified["runs"])
+        followup_rows = []
+        for r in sorted(records, key=lambda r: (r["movement_cost"], r["initial_b"], r["seed"])):
+            loss = f"A / {r['a_loss_tick']:,}" if r["a_loss_tick"] is not None else f"B / {r['b_loss_tick']:,}"
+            start = r["observations"]["3000"]
+            followup_rows.append([r["movement_cost"], f"{r['initial_b']}/80", r["seed"],
+                                  f"{start['a']} / {start['b']}", loss, f"{r['a']} / {r['b']}"])
+        followup_table = table(["移动成本", "初始 B", "种子", "3,000 步 A / B", "消失组 / 时间步", "30,000 步 A / B"], followup_rows)
+        followup_figure = link(Path(__file__).resolve().parents[1] / "docs/research/figures/campaign-015-followup.png")
+        followup_section = f'''<section><h2>15 / 暂时两组都在，后来只剩一组</h2><p>把第十四轮终点仍有两组中性标签的全部四个世界延长观察到 30,000 步。两组移动性状相同，突变关闭；四个案例均在第 3,625—4,765 步失去一组，剩余组维持到新终点。</p>{followup_table}<img src="{followup_figure}" alt="四个条件选择世界的 B 标签比例：左列显示前六千步细节，右列显示完整三万步；灰区是原三千步观察窗，圆点标记标签消失。" style="width:100%;height:auto"><p>原来的双组终点没有持续下去，因此不能把它当作稳定共存的证据。0% 或 100% 的水平线只表示一个标签存活，不表示种群停止出生、死亡或数量变化。</p><p class="small">这是按既有终点选择的四个案例，不是新增独立种子；同一数值种子 1208 出现在两个不同条件。12,000 步重放原前缀，108,000 步增加观察时长。不能据此估计普遍共存率或证明所有世界最终必然只剩一组。</p></section>'''
+        page = page.replace('<section><h2>复核与恢复</h2>', followup_section + '<section><h2>复核与恢复</h2>')
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x", encoding="utf-8") as stream:
         stream.write(page)

@@ -8,7 +8,7 @@
 
 下载[十四轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-5f2b766924cc208bb796)，
 完整解压 `bitgenesis-v0-fourteen-campaigns.zip`，从 `START-HERE.txt` 开始，
-再打开 `bitgenesis/data/review-v0-14.html`。本地入口为 `data/review-v0-14.html`。
+再打开 `bitgenesis/data/review-v0-14.html`。最新本地入口为 `data/review-v0-15.html`，多出第十五轮；下载归档仍是十四轮。
 保留目录结构，页面中的世界回放、谱系与图表依赖相邻文件。
 草稿尚未正式发布，需要有权限的 GitHub 账号查看。
 
@@ -67,5 +67,5 @@ main 的已核验源码 `8cbbadf` 则有 89 项测试，同样通过上述六种
 阶段标准见[路线图](../roadmap/README.md)，逐项证据见[V0 验收对照](../roadmap/v0-evidence.md)，
 过程记录见[研究日志](LOG.md)。
 
-需要重新构建验收材料时，使用 `python scripts/build_v0_review.py --campaigns 14 --output data/my-review.html`；
+需要重新构建验收材料时，使用 `python scripts/build_v0_review.py --campaigns 15 --output data/my-review.html`；
 需要完整本地数据，输出路径必须是新路径。打包方式和检查范围见[归档核验指南](../design/review-verification.md)。

@@ -1,0 +1,11 @@
+{
+  "page": "data/review-v0-15.html",
+  "page_sha256": "ee0ff94cb7485c1b379b86f4759ab5b8c660b3583312ee2fd493f51e9d21183d",
+  "campaigns": 15,
+  "executions": 714,
+  "computed_ticks": 6340000,
+  "followups": 24,
+  "replayed_prefix_ticks": 212000,
+  "local_targets_checked": 10,
+  "browser_check": "In-app browser: all four table rows, loss annotations and loaded trajectory figure inspected. Not a cross-browser or assistive-technology certification."
+}

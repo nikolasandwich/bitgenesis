@@ -1457,3 +1457,18 @@ Visual inspection caught clipped right-edge tick labels; widened the margin and
 rechecked the corrected PNG before committing PNG/SVG/provenance. Caption states
 that boundary fractions mean one label, not demographic stasis, and preserves the
 conditional-cohort limitation. No new experimental executions or engine changes.
+
+## 2026-09-14 — Autonomous cycle 98
+
+Extended the review builder to campaign 015 while preserving existing generated
+pages and the default eight-campaign route. New section includes all four cases,
+first group losses, original/final counts and the complete trajectory figure.
+A guard compares the selected historical cohort and all saved result fields
+against the independent audit; reordered input is accepted, duplicate records,
+changed outcomes and an unselected reference are rejected in three new tests.
+
+Built data/review-v0-15.html. Checked 714 executions, 6,340,000 ticks, 24 follow-ups,
+212,000 prefix replays and all ten local targets. In-app browser inspection
+confirmed the four table rows and the loaded figure. Recorded the page hash and
+verification scope; updated local entry guidance without implying the old
+fourteen-campaign download has changed. All 92 tests pass. No runtime change.
