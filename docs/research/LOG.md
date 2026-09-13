@@ -1387,3 +1387,18 @@ raw lineage. The existing behavior passed, so no UI code change was necessary.
 Recorded artifact hashes and manual-check limits. This is new browser evidence,
 not added automated test coverage, cross-browser testing or screen-reader speech
 verification. The browser remains on the valid parent record for continued work.
+
+## 2026-09-14 — Autonomous cycle 93
+
+Review of failure reporting found two concrete defects in recorded runs:
+initialization exceptions escaped the status handler, leaving metadata "running";
+and exceptions inside a step could count the already-incremented world tick as
+completed. Reproducing tests failed for both. Moved world construction inside
+the handler and track completion only after the loop's record handling finishes.
+Initialization failures now report failed/zero, and a partial third tick after
+two completed ticks reports failed/two. Original errors are re-raised.
+
+All 83 tests pass, including frozen engine replay and prior interruption cases.
+No engine source, random draws or successful-run schema changed. Documented
+that retained partial files are diagnostic and not crash-safe/resumable records.
+The fourteen-campaign fixed archive predates this runner-status correction.

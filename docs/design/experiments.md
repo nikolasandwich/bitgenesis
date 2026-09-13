@@ -51,8 +51,17 @@ contains every tick and `events.jsonl` every lifecycle event.
 
 This bounds replay/plot retention, not total engine memory: complete lineage
 records still grow with births. Prior output files and generated viewers are not
-rewritten. Interrupted recorded runs mark status `interrupted` and retain the
-completed CSV/event prefix rather than claiming completion.
+rewritten. Caught interruptions mark status `interrupted`; other caught runtime
+errors mark `failed`, including failures during world initialization. Metadata
+`completed_steps` records the last tick whose loop and record handling finished,
+not the mutable world tick if the next step fails halfway through. An initialization
+failure reports zero completed steps and does not claim a valid tick-zero world.
+
+Partial outputs are retained for diagnosis, not accepted as complete audit inputs.
+A recording failure can leave an incomplete trailing record or an unflushed buffer;
+the completion count is not a crash-safe storage guarantee. The recorded-run command
+does not resume that prefix. Use the separate checkpoint route for recoverable
+world state, and a new directory for a new recorded run.
 
 JSON checkpoints use a temporary file in the same directory, flush it, then
 replace the previous checkpoint. A failed replacement leaves the preceding JSON

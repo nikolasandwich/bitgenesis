@@ -160,6 +160,33 @@ class DarwinTests(unittest.TestCase):
             self.assertEqual(metadata["frame_interval"], 4)
             self.assertEqual(metadata["requested_frame_interval"], 1)
 
+    def test_partial_tick_failure_does_not_count_unfinished_step(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "partial"
+            original_step = World.step
+            def fail_inside_step(world):
+                if world.tick == 2:
+                    world.tick += 1
+                    raise RuntimeError("partial tick")
+                original_step(world)
+            with patch.object(World, "step", fail_inside_step), self.assertRaisesRegex(RuntimeError, "partial tick"):
+                run(Config(), 10, output)
+            metadata = json.loads((output / "metadata.json").read_text())
+            self.assertEqual(metadata["status"], "failed")
+            self.assertEqual(metadata["completed_steps"], 2)
+            self.assertEqual(len((output / "metrics.csv").read_text().splitlines()), 4)
+            self.assertFalse((output / "index.html").exists())
+
+    def test_initialization_failure_is_recorded(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "initialization"
+            with patch("bitgenesis.v0.runner.World", side_effect=RuntimeError("initialization failed")), self.assertRaises(RuntimeError):
+                run(Config(), 10, output)
+            metadata = json.loads((output / "metadata.json").read_text())
+            self.assertEqual(metadata["status"], "failed")
+            self.assertEqual(metadata["completed_steps"], 0)
+            self.assertFalse((output / "index.html").exists())
+
     def test_interruption_is_recorded_without_success_claim(self):
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory) / "interrupted"

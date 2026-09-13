@@ -81,9 +81,10 @@ def run(config, steps, output, frame_interval=10, max_frames=1001):
     def save(name, value):
         write_json_atomic(output / name, value)
     save("metadata.json", metadata)
-    world = World(config)
     snapshots, frames = [], []
+    completed_steps = 0
     try:
+        world = World(config)
         with (output / "metrics.csv").open("w", newline="", encoding="utf-8") as metrics_file, \
                 (output / "events.jsonl").open("w", encoding="utf-8") as events_file:
             writer = csv.DictWriter(metrics_file, fieldnames=list(world.snapshot()))
@@ -101,6 +102,7 @@ def run(config, steps, output, frame_interval=10, max_frames=1001):
                 world.events.clear()
                 if tick % effective_frame_interval == 0 or tick == steps:
                     frames.append(frame(world))
+                completed_steps = tick
         save("lineage.json", [asdict(o) for o in world.lineage.values()])
         save("frames.json", frames)
         save("summary.json", world.snapshot())
@@ -112,7 +114,7 @@ def run(config, steps, output, frame_interval=10, max_frames=1001):
         save("metadata.json", metadata)
     except (Exception, KeyboardInterrupt) as error:
         metadata.update(status="interrupted" if isinstance(error, KeyboardInterrupt) else "failed",
-                        error=f"{type(error).__name__}: {error}", completed_steps=world.tick)
+                        error=f"{type(error).__name__}: {error}", completed_steps=completed_steps)
         save("metadata.json", metadata)
         raise
     return world.snapshot()
