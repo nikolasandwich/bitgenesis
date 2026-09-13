@@ -942,3 +942,14 @@ Eleven full-run audits and 005/009/010/011/012 metric checks passed during
 packaging; the manifest includes the 800080-row campaign-012 verification.
 Independent ZIP verification matched the external hash. The twelve-campaign
 archive and checksum are local; existing draft assets remain unchanged.
+
+## 2026-09-14 — Autonomous cycle 60
+
+Uploaded twelve-campaign ZIP and checksum to draft prerelease v0.0.1-preview.4,
+release 388038285, fixed source 11da88c6c19729b066a8ad4e30ca1362ae896c77.
+GitHub reports both assets uploaded; archive size 70481664 and digest
+121e11e56b22cd20c2f584b2989e9c25d9348042208ba02232cc4d1bdfad7cd4 match
+the local verified copy. Source CI 34783294636 passed. Notes retain follow-up
+counting, bounded mechanism claims and retrospective-analysis labels. Updated
+current download entries; all older drafts/assets remain unchanged and no
+release was published.

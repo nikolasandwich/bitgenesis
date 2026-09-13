@@ -16,19 +16,22 @@ SHA-256: `121e11e56b22cd20c2f584b2989e9c25d9348042208ba02232cc4d1bdfad7cd4`.
 It includes all twelve raw campaigns and the current review page. Packaging
 reran eleven full-run audits and metric verifiers for 005/009/010/011/012;
 the 012 report checks 800080 rows. Independent whole-archive verification passed.
-This new local snapshot is not yet uploaded; older download links below remain fixed.
+The [twelve-campaign draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-ef4c16aafc92a5c2bb8e)
+now holds this archive and checksum. GitHub reports both uploaded with the
+archive size and digest matching the local copy. Source CI
+[34783294636](https://github.com/nikolasandwich/bitgenesis/actions/runs/34783294636) passed.
 
-The latest uploaded review archive is `bitgenesis-v0-eleven-campaigns.zip`, fixed
-source `eba74b9`, attached to the `v0.0.1-preview.3` GitHub draft release. The older
-eight- and nine-campaign drafts remain available. Draft attachments do not
+The latest uploaded review archive is `bitgenesis-v0-twelve-campaigns.zip`, fixed
+source `11da88c`, attached to the `v0.0.1-preview.4` GitHub draft release. The older
+eight-, nine- and eleven-campaign drafts remain available. Draft attachments do not
 track main and none is a published release. See the [Chinese guide](REVIEW.zh-CN.md) for access and
 [archive verification](../design/review-verification.md) before using a snapshot.
 Earlier archive descriptions below are explicitly historical.
 
-A newer **local** eleven-campaign archive is `data/bitgenesis-v0-eleven-campaigns.zip`,
+The preserved eleven-campaign archive is `data/bitgenesis-v0-eleven-campaigns.zip`,
 source `eba74b99cd77c323004dfbc743a7b697c341ff12`, 719 payload files / 62,325,938 bytes.
 SHA-256: `9a67b9ad14fa66c6eeddbe11bbe0742672d1d8008d6a9da8262bcf3b5b8cf7f4`.
-It includes all eleven raw campaigns and the latest review page. Packaging reran
+It includes all eleven raw campaigns and its eleven-campaign review page. Packaging reran
 11 full-run audits plus the 005/009/010/011 metric verifiers and recorded the
 follow-up workload in its manifest. Independent verification matched the expected
 whole-file hash and checked 13 HTML pages / eight local targets. The [eleven-campaign draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-83f2a58ad0f9613a370b)
