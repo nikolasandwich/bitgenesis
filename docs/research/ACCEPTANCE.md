@@ -271,3 +271,22 @@ GitHub API archive size 100,031,797 and SHA-256 match the verified local file.
 The 103-byte checksum asset also matches local SHA-256
 `5b8c873fa74c84ce0d22332bd442376f2870a56b09d292829e5e9591eb54bb00`.
 Source CI 34788400431 is successful. Prior draft assets remain unchanged.
+
+## Sixteen-campaign local archive — 2026-09-14
+
+`data/bitgenesis-v0-sixteen-campaigns.zip` fixes source
+`8acb86c8c81f8a5ec7ed0ad29760a809999e53fa`, all sixteen raw campaigns and the
+sixteen-campaign page. It includes 106 tests and the subsequent-to-fifteen-archive
+provenance and audit corrections. The simulator rules are unchanged.
+
+- 1,154 payload files; 101,914,494 bytes.
+- SHA-256: `765f6995fc9ca7a03ea9c8e5d0d80779e93bb8b93faa89092b48885038b37c11`.
+- Eleven full-run audits plus campaign-005 and 009–016 metric audits pass.
+- Independent expected-hash verification confirms thirteen HTML pages and
+  thirteen local targets. This is file integrity, not a simulation rerun.
+- Manifest workload: 744 executions / 6,640,000 computed ticks, including
+  24 follow-ups and 212,000 replayed prefix ticks.
+
+Campaign-016 initialization and metric checks cover thirty initial states and
+300,030 rows. Fresh extracted installation and remote upload are separate next
+checks; the existing fifteen-campaign download remains unchanged.
