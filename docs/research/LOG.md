@@ -720,3 +720,16 @@ is not equated with maintenance or superiority.
 Saved every world's comparison and hash sidecar. Streaming checks cover complete
 ticks, count bounds/monotonicity and fixed-variant consistency; unavailable full
 genealogy was not reconstructed. This retrospective view adds no new executions.
+
+## 2026-09-14 — Autonomous cycle 44
+
+Added a retrospective machine-readable campaign inventory and compact-CSV counting
+checker. It verifies counts, horizons, balanced seed coverage, unique run identities
+and declared follow-up references/prefix lengths. Result: eleven campaigns, 460
+executions, 4440000 computed ticks, twenty follow-ups and 200000 replayed prefixes;
+excluding declared replay work gives 4240000 computed ticks. None is labelled an
+independent replicate count. Protocols remain the source of scientific design.
+
+All eleven committed CSVs passed. Disposable-copy checks rejected a duplicate row
+with unchanged total count and an incorrect replay-prefix declaration. Inventory,
+input and helper hashes are recorded. No original data or engine was changed.

@@ -3,6 +3,9 @@
 当前只有 V0 运行阶段。十一轮共 **460 次执行、4,440,000 个计算时间步**。
 其中 20 次是既有世界的延长复查，包含 200,000 步前缀重放，不是新增独立种子。
 这些数字不包括回放演示、断点验证和精确数学枚举。各轮数量与保存的结果 CSV 核对。
+可用 `python scripts/check_v0_campaign_inventory.py` 复算。
+[计数清单](../../experiments/v0/campaign-inventory.json)与[核对结果](results/campaign-inventory-verification.json)
+检查执行数、时间步、种子覆盖、重复身份和复查前缀；它们不替代各轮科学核验或预注册协议。
 
 首次验收可先阅读[中文指南](REVIEW.zh-CN.md)，再打开本地
 `data/review-v0-10.html`。这个视觉快照涵盖十轮，可用

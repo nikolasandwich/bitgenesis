@@ -1,0 +1,176 @@
+{
+  "format": "bitgenesis-campaign-inventory-1",
+  "scope": "Retrospective counting inventory, not a replacement for preregistered protocols or scientific audits. Execution counts do not imply independent replicates.",
+  "campaigns": [
+    {
+      "id": "001",
+      "executions": 10,
+      "ticks_per_execution": 5000,
+      "seed_range": [
+        0,
+        4
+      ],
+      "identity_fields": [
+        "treatment",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "002",
+      "executions": 100,
+      "ticks_per_execution": 2000,
+      "seed_range": [
+        100,
+        109
+      ],
+      "identity_fields": [
+        "movement_cost",
+        "trait",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "003",
+      "executions": 80,
+      "ticks_per_execution": 3000,
+      "seed_range": [
+        200,
+        209
+      ],
+      "identity_fields": [
+        "movement_cost",
+        "initial_b",
+        "treatment",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "004",
+      "executions": 20,
+      "ticks_per_execution": 10000,
+      "seed_range": [
+        300,
+        304
+      ],
+      "identity_fields": [
+        "regrowth_probability",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "005",
+      "executions": 30,
+      "ticks_per_execution": 10000,
+      "seed_range": [
+        400,
+        404
+      ],
+      "identity_fields": [
+        "width",
+        "treatment",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "006",
+      "executions": 50,
+      "ticks_per_execution": 5000,
+      "seed_range": [
+        500,
+        509
+      ],
+      "identity_fields": [
+        "regrowth_probability",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "007",
+      "executions": 60,
+      "ticks_per_execution": 5000,
+      "seed_range": [
+        600,
+        609
+      ],
+      "identity_fields": [
+        "founder_trait",
+        "mutation_probability",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "008",
+      "executions": 20,
+      "ticks_per_execution": 10000,
+      "seed_range": [
+        700,
+        709
+      ],
+      "identity_fields": [
+        "initial_food",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "009",
+      "executions": 30,
+      "ticks_per_execution": 10000,
+      "seed_range": [
+        800,
+        809
+      ],
+      "identity_fields": [
+        "treatment",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "010",
+      "executions": 40,
+      "ticks_per_execution": 10000,
+      "seed_range": [
+        900,
+        909
+      ],
+      "identity_fields": [
+        "treatment",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "011",
+      "executions": 20,
+      "ticks_per_execution": 100000,
+      "seed_range": [
+        900,
+        909
+      ],
+      "identity_fields": [
+        "treatment",
+        "seed"
+      ],
+      "followup_of": "010",
+      "replayed_prefix_ticks_per_execution": 10000
+    }
+  ]
+}
