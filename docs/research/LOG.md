@@ -792,3 +792,17 @@ follow-ups, repeated prefixes, finite observation and fixed-trait limitations.
 Acceptance entries now link to this draft. The eight- and nine-campaign drafts
 and their fixed assets remain unchanged. No release was published and no new
 scientific executions were added by this delivery step.
+
+## 2026-09-14 — Autonomous cycle 49
+
+Closed the syntax-check gap exposed during packaging: CI now compiles all src,
+scripts and tests before the existing contract suite. This checks unimported
+research helpers without executing their experiments or requiring local datasets.
+CONTRIBUTING includes the same local command and current Python matrix.
+
+Local compilation and 53 tests passed. A disposable copy of the historical broken
+packager from 1affa17 was rejected by this command, confirming coverage of the
+actual observed failure. Source 694fd9c45f9fea86b676efac916940a94708ff35 passed
+CI 34782162578 in all six Windows/Linux and Python 3.12/3.13/3.14 jobs, including
+the new syntax step. This closes a syntax gap only, not behavioral coverage for
+every research helper. Existing archive source and evidence remain fixed.
