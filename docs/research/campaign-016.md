@@ -15,6 +15,23 @@ The block world died earlier than its dispersed counterpart in all ten seed
 pairs. This is descriptive evidence in the declared seed block and settings,
 not a claim that concentration always harms survival or a test of evolved sensing.
 
+## Initial maps and every seed's outcome
+
+![Three illustrative food maps and all thirty extinction times](figures/campaign-016-geometry.png)
+
+The maps show seed 1300, the first declared seed, with the same founder positions
+in red rings; they are an illustration, not an average across layouts. One shared
+color scale runs from zero to 24 food units. The lower panel includes all thirty
+worlds, with a logarithmic time axis and a small vertical offset by treatment to
+keep nearly equal outcomes visible. Gray lines group the same seed across arms;
+they do not imply matched later random draws or temporal interpolation.
+
+[Vector figure](figures/campaign-016-geometry.svg) ·
+[Figure provenance](figures/campaign-016-geometry.json).
+Rebuild using `python scripts/plot_v0_food_geometry.py --output data/new-geometry-figure`.
+The script checks the complete outcome grid and illustrative map hashes against
+the independent audit. It uses the optional Matplotlib plotting dependency.
+
 ## What was controlled
 
 The [preregistered protocol](../../experiments/v0/campaign-016.md) used ten new

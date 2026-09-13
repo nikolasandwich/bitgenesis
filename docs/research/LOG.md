@@ -1634,3 +1634,17 @@ Committed compact data and verification hashes; inventory now sixteen campaigns,
 744 executions and 6,640,000 computed ticks (212,000 declared prefix replays
 unchanged). The fixed fifteen-campaign archive remains unchanged and excludes
 this new campaign. Raw full death/movement histories were not retained.
+
+## 2026-09-14 — Autonomous cycle 110
+
+Added campaign-016 figure combining the first declared seed's three initial food
+maps with all thirty extinction times. Shared map color scale and identical
+founder rings show the intervention; outcome points retain all ten seed triplets
+on an explicitly logarithmic time axis. Inputs match the independent audit and
+illustrative map hashes.
+
+Visual inspection found nearly equal outcome markers obscuring one another for
+two seeds. Applied small treatment offsets and rechecked the corrected figure;
+all points remain visible. Caption distinguishes illustrative maps, matched
+initial seeds and divergent later draws. Published PNG/SVG/provenance and linked
+from the report. No new simulation, summary change or stronger causal claim.

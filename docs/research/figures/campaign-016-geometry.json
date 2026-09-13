@@ -1,0 +1,163 @@
+{
+  "figure": "campaign-016-geometry-1",
+  "illustrative_map_seed": 1300,
+  "extinction_points": [
+    {
+      "arm": "uniform",
+      "seed": 1300,
+      "extinction_tick": 4273
+    },
+    {
+      "arm": "uniform",
+      "seed": 1301,
+      "extinction_tick": 148
+    },
+    {
+      "arm": "uniform",
+      "seed": 1302,
+      "extinction_tick": 785
+    },
+    {
+      "arm": "uniform",
+      "seed": 1303,
+      "extinction_tick": 235
+    },
+    {
+      "arm": "uniform",
+      "seed": 1304,
+      "extinction_tick": 2935
+    },
+    {
+      "arm": "uniform",
+      "seed": 1305,
+      "extinction_tick": 7892
+    },
+    {
+      "arm": "uniform",
+      "seed": 1306,
+      "extinction_tick": 2773
+    },
+    {
+      "arm": "uniform",
+      "seed": 1307,
+      "extinction_tick": 5787
+    },
+    {
+      "arm": "uniform",
+      "seed": 1308,
+      "extinction_tick": 8845
+    },
+    {
+      "arm": "uniform",
+      "seed": 1309,
+      "extinction_tick": 641
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1300,
+      "extinction_tick": 223
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1301,
+      "extinction_tick": 1192
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1302,
+      "extinction_tick": 223
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1303,
+      "extinction_tick": 1142
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1304,
+      "extinction_tick": 3362
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1305,
+      "extinction_tick": 152
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1306,
+      "extinction_tick": 1604
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1307,
+      "extinction_tick": 610
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1308,
+      "extinction_tick": 2426
+    },
+    {
+      "arm": "dispersed",
+      "seed": 1309,
+      "extinction_tick": 638
+    },
+    {
+      "arm": "block",
+      "seed": 1300,
+      "extinction_tick": 147
+    },
+    {
+      "arm": "block",
+      "seed": 1301,
+      "extinction_tick": 110
+    },
+    {
+      "arm": "block",
+      "seed": 1302,
+      "extinction_tick": 127
+    },
+    {
+      "arm": "block",
+      "seed": 1303,
+      "extinction_tick": 113
+    },
+    {
+      "arm": "block",
+      "seed": 1304,
+      "extinction_tick": 145
+    },
+    {
+      "arm": "block",
+      "seed": 1305,
+      "extinction_tick": 150
+    },
+    {
+      "arm": "block",
+      "seed": 1306,
+      "extinction_tick": 169
+    },
+    {
+      "arm": "block",
+      "seed": 1307,
+      "extinction_tick": 136
+    },
+    {
+      "arm": "block",
+      "seed": 1308,
+      "extinction_tick": 112
+    },
+    {
+      "arm": "block",
+      "seed": 1309,
+      "extinction_tick": 138
+    }
+  ],
+  "map_sha256": {
+    "uniform-seed-1300-initial.json": "fee7f96802d91ebaf25445c23924299dac58b81079bd53ea6f037e2b03a79220",
+    "dispersed-seed-1300-initial.json": "6327b2c0d66d9c371adcd503fad36da8f671d4a1d455b4b2726e98e6d6682188",
+    "block-seed-1300-initial.json": "a659b2a0c0a17d662897b0f1a0fc0056986c0f9cfbfe9faa9d10574d09244ed9"
+  },
+  "verification_sha256": "53522c6e8fff00aa24532636325afb21d8c0af083e1142a11f2fe272aed2b0c7",
+  "script_sha256": "2139a0bf22d593c2364ef4038b48f1f9cea010884418ce5d87e86ffe62a924a0"
+}
