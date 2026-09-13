@@ -30,6 +30,17 @@ def _audit(directory):
     schema = metadata.get("output_schema_version", 1)
     require(type(schema) is int and schema in (1, 2), "Unsupported output schema")
     config = metadata["config"]
+    required_config = {"seed", "width", "height", "initial_population", "initial_energy",
+                       "initial_food", "food_capacity", "regrowth_probability", "regrowth_amount",
+                       "feeding_rate", "basal_cost", "movement_cost", "birth_threshold",
+                       "birth_cost", "mutation_probability", "mutation_step"}
+    require(type(config) is dict and set(config) == required_config,
+            "metadata.json config must contain the complete V0 configuration keys")
+    for name, value in config.items():
+        require(type(value) is int, f"metadata.json config {name} must be an integer")
+    for name in ("completed_steps", "requested_steps"):
+        require(type(metadata[name]) is int and metadata[name] >= 0,
+                f"metadata.json {name} must be a nonnegative integer")
     steps = metadata["completed_steps"]
     require(steps == metadata["requested_steps"], "Incomplete requested tick range")
     with (directory / "metrics.csv").open(encoding="utf-8", newline="") as stream:

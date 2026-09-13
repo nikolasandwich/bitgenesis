@@ -1543,3 +1543,17 @@ metadata.json and its expected JSON object, emits no traceback, and leaves the
 file hash and directory contents unchanged. No simulator rules, successful output
 schema or historical files changed. Documented the old fixed archive's error-path
 limitation without implying its valid-run verification is invalidated.
+
+## 2026-09-14 — Autonomous cycle 104
+
+Demonstrated that the auditor accepted metadata substitutions such as 50.0 for
+requested/completed steps, true for seed and 8.0 for width. Added strict integer
+checks and the complete fixed V0 config key set; missing seed and unknown keys
+are rejected too. Numeric equality is no longer sufficient for integer metadata.
+
+The five substitution cases failed their rejection test before the fix and pass
+afterward. All 99 tests then passed; added and ran the further key-set regression
+as part of the ten-test audit suite (100 tests now in total). Eleven historical
+full-record audits, campaign 001's ten worlds and the acceptance demo, pass without
+changes. No engine semantics, random draws or old records were modified. The
+checks validate metadata form, not independent seed replay or authenticity.

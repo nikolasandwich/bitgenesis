@@ -71,6 +71,33 @@ class AuditTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "not marked complete"):
             audit(self.output)
 
+    def test_incomplete_or_unknown_config_keys_are_rejected(self):
+        path = self.output / "metadata.json"
+        original = path.read_bytes()
+        for missing in (True, False):
+            metadata = json.loads(original)
+            if missing:
+                del metadata["config"]["seed"]
+            else:
+                metadata["config"]["unused_setting"] = 1
+            path.write_text(json.dumps(metadata), encoding="utf-8")
+            with self.subTest(missing=missing), self.assertRaisesRegex(ValueError, "configuration keys"):
+                audit(self.output)
+        path.write_bytes(original)
+
+    def test_noninteger_metadata_is_rejected(self):
+        path = self.output / "metadata.json"
+        original = path.read_bytes()
+        for field, value in (("completed_steps", 50.0), ("requested_steps", 50.0),
+                             ("seed", True), ("width", 8.0), ("mutation_probability", 100.0)):
+            metadata = json.loads(original)
+            target = metadata if field.endswith("steps") else metadata["config"]
+            target[field] = value
+            path.write_text(json.dumps(metadata), encoding="utf-8")
+            with self.subTest(field=field), self.assertRaisesRegex(ValueError, "integer"):
+                audit(self.output)
+        path.write_bytes(original)
+
     def test_wrong_json_container_has_a_readable_error(self):
         for filename, value in (("metadata.json", []), ("metadata.json", None),
                                 ("lineage.json", {}), ("frames.json", {}),

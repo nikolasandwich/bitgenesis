@@ -77,3 +77,12 @@ that every syntactically valid object represents a valid experiment.
 This error-reporting improvement postdates the fixed fifteen-campaign archive.
 That snapshot can show an AttributeError traceback for list/null metadata; its
 valid recorded runs and prior verification results are unaffected.
+
+The current auditor also requires the complete fixed V0 configuration key set,
+integer configuration values, and nonnegative integer requested/completed ticks.
+JSON booleans and numerically equal floating-point values do not satisfy integer
+fields. This aligns artifact types with the engine's configuration contract;
+it does not independently replay the seed or authenticate who generated a file.
+The older fixed fifteen-campaign auditor did not reject all such type substitutions.
+Eleven saved full runs (campaign 001 plus the acceptance demo) pass the stricter
+checks unchanged.
