@@ -1743,3 +1743,19 @@ A direct food-removal observer test agrees with reconstructed uptake while
 preserving snapshots and RNG relative to an uninstrumented reference; invalid
 accounting cases fail. All 113 local tests pass. Saved every run and provenance,
 updated the report, and preserved fixed archive scope and formal inventory totals.
+
+## 2026-09-14 — Autonomous cycle 117: campaign 017 protocol
+
+Prepared a new 2-by-2 experiment motivated by campaign-016 retrospective results:
+dispersed/block food crossed with reproduction threshold 40/160, all seeds
+1400–1409, fixed 10,000-tick horizon. Primary survival/extinction observations
+and secondary first-100-tick feeding/birth/peak measures are declared before
+execution. No rescue, replacement or optional extension. Forty planned runs are
+not yet included in completed inventory totals.
+
+The runner reuses the frozen food-map helper, keeps V0 dynamics unchanged, and
+saves full initial states and metric tables. Initialization tests check all ten
+seed quadruplets: identical founders and world RNG; same map within each layout;
+exact food multiset and total energy. Raising the threshold does not isolate a
+single mediator such as crowding or birth cost. Protocol and runner are committed
+before launch so the execution source is identifiable.
