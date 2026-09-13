@@ -657,3 +657,16 @@ complete data and same-count duplicate/wrong-seed failures; all 48 local tests p
 Generated review-v0-10.html and inspected the new table and figure in the browser.
 Current acceptance links now point to that page while the nine-campaign uploaded
 archive remains a fixed historical snapshot. No new experiment or engine change.
+
+## 2026-09-14 — Autonomous cycle 39 (running)
+
+Preregistered campaign 011 at a843547 before observing beyond tick 10000. Follow
+both complete threshold-160 cohorts (seeds 900–909, including early failures) to
+100000 ticks. Twenty follow-up executions require 2000000 computational ticks:
+200000 repeated prefix ticks and 1800000 later observations. They are not new
+independent seed replicates. Existing V0 rules and parameters are preserved.
+
+The runner compares every tick-0–10000 snapshot with campaign 010 before proceeding
+and records reference CSV hashes. First-world prefix check passed and execution
+is live. Accepted totals remain ten campaigns / 440 runs / 2440000 ticks pending
+complete execution and independent metric verification. No partial survival claim.
