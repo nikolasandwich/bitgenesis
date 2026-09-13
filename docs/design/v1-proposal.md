@@ -2,6 +2,10 @@
 
 Status: design only. V0 remains the only implemented runtime stage.
 
+The [V0-informed design contract](v1-experiment-design.md) now specifies candidate
+integer inputs/weights, decision costs, ablations, sampling and interpretation
+gates. It is a design, not a completed preregistration or implemented stage.
+
 ## Question and minimum change
 
 V0 permits inherited variation in random movement but cannot express a response

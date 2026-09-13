@@ -375,3 +375,18 @@ Full local tests passed (38); strengthened nonfinite-write cleanup assertion als
 passed focused artifact tests. The report preserves exact measurements and hashes.
 Full historical-state growth remains unresolved; no bounded-memory or ultra-long
 capacity claim. Operational benchmarks do not alter formal experiment totals.
+
+## 2026-09-14 — Autonomous cycle 19
+
+Consolidated a V0-informed V1 design contract without implementing another stage.
+The candidate is a 35-integer-weight linear food/energy-to-action controller with
+explicit matched decision costs. Controls distinguish directional information,
+all-food information, initial variation, within-lineage change and direct competition.
+Sampling uses an observer-only RNG and independent training worlds as replicate
+units; failed training worlds remain in reporting. A separate viability pilot and
+future preregistration are required before outcome interpretation.
+
+The six design constraints link directly to completed V0 analyses; all links resolve.
+No training seeds are selected or reused for hypothetical results. V0 remains the
+only runtime. The 38-test source `0fca4d9` passed CI run 34776989101; logs confirm
+38 tests in each Windows/Linux × Python 3.12/3.13/3.14 job.
