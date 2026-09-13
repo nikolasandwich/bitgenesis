@@ -1,8 +1,9 @@
 # V0 acceptance checkpoint
 
-Current review entry: `data/review-v0-6.html`, with six campaigns totaling 290 runs
-/ 1,240,000 ticks. The latest report is [scarce-resource extinction](campaign-006.md).
-The packager now includes all six campaigns in `data/bitgenesis-v0-review-6.zip`.
+Current research: seven campaigns / 350 runs / 1,540,000 ticks; see the
+[research index](README.md). Latest report: [founder traits and mutation](campaign-007.md).
+Visual review entry `data/review-v0-6.html` and archive `data/bitgenesis-v0-review-6.zip`
+cover the preceding six campaigns (290 runs / 1,240,000 ticks).
 Earlier archive descriptions below refer to preserved historical snapshots.
 
 ## What runs now

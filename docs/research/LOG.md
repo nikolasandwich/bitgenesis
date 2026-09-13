@@ -276,3 +276,15 @@ rows were independently checked for accounting and declared outcomes; a sidecar
 records raw CSV and script hashes. Formal totals: 350 runs / 1,540,000 ticks.
 Source CI passed in 34775566923. Six-campaign review artifacts remain historical;
 the seventh report and all-seed CSV are tracked alongside them.
+
+## 2026-09-14 — Autonomous cycle 13
+
+Added a Chinese research index linking all seven protocols, reports and compact
+datasets. Recomputed counts from the seven saved result CSVs: 350 runs / 1,540,000
+ticks. The index separates observations, bounded interpretations and unsupported
+claims, and gives a concise replication route. All 29 index links resolve locally.
+
+Simplified the root README to one current total and an index link. Acceptance and
+Chinese review guides now distinguish current seven-campaign research from the
+preserved six-campaign visual archive. This avoids interpreting older bundle scope
+as the latest research state. No simulation rules, tests or experimental data changed.

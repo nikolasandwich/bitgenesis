@@ -60,21 +60,12 @@ See the [roadmap and graduation criteria](docs/roadmap/README.md),
 [emergence design note](docs/design/emergence.md), and
 [experiment compatibility policy](docs/design/experiments.md).
 
-Start review with the [V0 acceptance checkpoint](docs/research/ACCEPTANCE.md).
-Research reports: [initial selection](docs/research/campaign-001.md) and
-[fixed-trait interventions](docs/research/campaign-002.md), and
-[direct competition](docs/research/campaign-003.md). These results expose
-limits as well as successful reproduction; no intelligence claim is made.
-Also see [resource regimes and demographic arrest](docs/research/campaign-004.md)
-and the [Chinese review guide](docs/research/REVIEW.zh-CN.md).
-The latest [world-size experiment](docs/research/campaign-005.md) includes
-individual-seed trajectory figures and qualifies how founder loss depends on scale.
-The [scarce-resource follow-up](docs/research/campaign-006.md) measures delayed
-extinction and mixed outcomes at intermediate supply. Six campaigns now total
-290 runs / 1,240,000 ticks; earlier review archives retain their original scope.
-The [founder-trait and mutation assay](docs/research/campaign-007.md) then tests
-whether persistence requires new variants. Seven campaigns total 350 runs /
-1,540,000 ticks; the six-campaign visual review remains a preserved snapshot.
+Seven campaigns total **350 runs / 1,540,000 ticks**. The
+[research index](docs/research/README.md) links every protocol, report and compact
+dataset, and distinguishes supported observations from untested explanations.
+Start hands-on review with the [Chinese guide](docs/research/REVIEW.zh-CN.md) or
+[V0 acceptance checkpoint](docs/research/ACCEPTANCE.md). Preserved visual reviews
+and archives identify the campaigns and source revisions they include.
 
 ## Repository layout
 
