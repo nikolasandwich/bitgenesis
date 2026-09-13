@@ -25,3 +25,19 @@ founder lineage. Mutation and no-mutation treatments both concentrated near high
 movement probabilities. See `campaign-001.md`; do not interpret mutation as
 necessary for this initial selection. Replay controls and terminal values checked
 in a browser. Next: the preregistered fixed-trait/cost assay (campaign 002).
+
+## 2026-09-14 — Autonomous cycle 2
+
+Campaign 002 completed: 100 runs / 200,000 ticks, no invariant failures. Fixed
+trait 250 supported larger populations than 1000 under both costs; expensive
+movement at trait 1000 caused extinction in 8/10 seeds. Report all outcomes in
+`campaign-002.md`. Do not confuse demographic productivity with individual
+reproductive success. Next causal question: direct trait competition.
+
+Added standalone lineage inspection: ID lookup, ancestry navigation, direct
+children and founder outcomes. Browser check: individual 1640 -> parent 1618,
+founder 24, generation 23; parent showed children 1624, 1631, 1640. New replay
+at `data/acceptance-v0/` uses clean commit `27b2137` and records 1,000 ticks.
+
+V0 minimal graduation conditions now have bounded evidence; see `ACCEPTANCE.md`.
+Keep exploring V0 mechanisms and hardening reproducibility before adding V1.

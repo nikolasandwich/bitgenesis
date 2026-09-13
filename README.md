@@ -39,7 +39,7 @@ Output directories must be new; previous runs are never overwritten.
 
 | Stage | Scope | Status |
 | --- | --- | --- |
-| V0 | Minimal Darwinian World | Implemented; validation in progress |
+| V0 | Minimal Darwinian World | Minimal milestone validated; research continues |
 | V1 | Evolving Controllers | Planned |
 | V2 | Development: genome -> development -> organism | Planned |
 | V3 | Ecology | Planned |
@@ -49,6 +49,11 @@ Output directories must be new; previous runs are never overwritten.
 See the [roadmap and graduation criteria](docs/roadmap/README.md),
 [emergence design note](docs/design/emergence.md), and
 [experiment compatibility policy](docs/design/experiments.md).
+
+Start review with the [V0 acceptance checkpoint](docs/research/ACCEPTANCE.md).
+Research reports: [initial selection](docs/research/campaign-001.md) and
+[fixed-trait interventions](docs/research/campaign-002.md). These results expose
+limits as well as successful reproduction; no intelligence claim is made.
 
 ## Repository layout
 
