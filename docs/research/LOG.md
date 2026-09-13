@@ -1028,3 +1028,16 @@ from positive post-charge energy and cover both death paths.
 All 56 local tests, including the frozen historical trajectory, and compilation
 passed. No engine behavior changed. This records an intentionally designed rule,
 not a claim that this schedule is biologically correct or optimal.
+
+## 2026-09-14 — Autonomous cycle 67
+
+Connected the death-site evidence to the explicit V0 action-order rules and
+boundary examples. Clarified that feed-before-charge would be a separately
+versioned intervention, not a bug fix, and that future information comparisons
+must match action order. Updated the storage note to distinguish bounded replay
+sampling from growing lineage/raw records.
+
+Source 12982c715964a57109493dcbbcf1e3e9f3955bdc passed all six CI environments
+in run 34783952259, including the 56-test suite. Current acceptance guides cite
+this checkpoint; archived source/test counts remain historical. No runtime or
+experimental observations were changed.

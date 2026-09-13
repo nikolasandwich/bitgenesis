@@ -60,8 +60,8 @@ GitHub 上传后的大小和校验值与本地一致。
 - 阅读十二轮实验报告中的对照、灭绝和局限，不只看存活的动画。
 - 按 README 生成一个新实验，确认输出目录不可覆盖、记录来源清楚。
 
-已核验的代码检查点 `7f8fd4d` 有 53 项测试，在 Windows/Linux、Python
-3.12/3.13/3.14 的六种组合通过（[CI 34781320417](https://github.com/nikolasandwich/bitgenesis/actions/runs/34781320417)），
+已核验的代码检查点 `12982c7` 有 56 项测试，在 Windows/Linux、Python
+3.12/3.13/3.14 的六种组合通过（[CI 34783952259](https://github.com/nikolasandwich/bitgenesis/actions/runs/34783952259)），
 实验计数清单检查也在全部环境通过。
 测试数属于对应代码版本，
 不代表历史归档也包含这些更新。

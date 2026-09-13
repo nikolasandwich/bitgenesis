@@ -52,6 +52,28 @@ realizations. Long-run causal claims need multiple seeds and targeted controls.
 Lineage records preserve genome, parent/founder IDs, generation, birth/death ticks,
 offspring count, and final or last-observed energy/position. Events log births and
 deaths; frames sample spatial states; aggregate metrics cover every tick. Detailed
-movement/feeding event logging is not implemented. In-memory lineage and replay
-storage currently bound practical run length; this is not a million-generation
-engine yet.
+movement/feeding event logging is not implemented. Replay frames and embedded charts are sampled with configured bounds; full
+lineage history and raw lifecycle/metric output still grow with the run. Practical
+run length remains limited; this is not a million-generation engine yet.
+
+## Food availability and the order of actions
+
+Food on a cell is a resource stock, not permission to survive until feeding.
+With basal and movement costs both one, an organism starting with one energy
+dies on basal payment; an always-moving organism starting with two dies on
+movement payment before choosing a destination. Both can die with food under
+foot. An otherwise identical organism starting with three retains one energy
+and can then eat. Boundary tests explicitly preserve these cases.
+
+The [campaign-012 retrospective death-site observation](../research/campaign-012.md#retrospective-death-site-observations)
+found deaths with food on the current cell in both stored-energy low-threshold
+arms. These are observations under the designed schedule. They do not demonstrate
+an inability to sense food, deliberate avoidance, or the benefit of an alternative
+schedule. Neighbor food does not establish reachable or unoccupied space either.
+
+Changing to feed-before-charge would change the transition rule and the meaning
+of energy reserves. Treat it as a separately versioned intervention with explicit
+controls, not a bug fix or a silent improvement to v0-darwin-1. Preserve original
+replays and checkpoints. If a later controller sees food, it must still be tested
+under matched action order and physiology so apparent information value is not
+actually an advantage from a different survival schedule.

@@ -66,9 +66,9 @@ ZIP verification passed. A separate [nine-campaign draft](https://github.com/nik
 now holds this archive and checksum file. GitHub's uploaded asset digest matches
 the hash above; the eight-campaign draft was not replaced.
 
-Verified compatibility checkpoint: source `7f8fd4d`, 53 tests passed on
+Verified compatibility checkpoint: source `12982c7`, 56 tests passed on
 Windows/Linux × Python 3.12/3.13/3.14 in
-[run 34781320417](https://github.com/nikolasandwich/bitgenesis/actions/runs/34781320417).
+[run 34783952259](https://github.com/nikolasandwich/bitgenesis/actions/runs/34783952259).
 The tracked campaign-inventory check also passed in all six jobs.
 These counts describe named source checkpoints, not the test count of every archive.
 This covers the frozen fixture and CLI/recovery contracts; it is not all research
