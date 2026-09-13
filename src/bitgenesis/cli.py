@@ -28,7 +28,13 @@ def main(argv: list[str] | None = None) -> int:
     stages = parser.add_subparsers(dest="stage", required=True)
     audit_command = stages.add_parser("audit", help="Read-only consistency audit of a recorded Darwin run")
     audit_command.add_argument("directory", type=Path)
-    v0 = stages.add_parser("v0", help="Initialize the V0 scaffold (no time stepping yet)")
+    checkpoint_command = stages.add_parser("checkpoint", help="Advance V0 with periodic recoverable world states")
+    checkpoint_command.add_argument("--resume", type=Path, help="Previous state.json to continue")
+    checkpoint_command.add_argument("--config", type=Path, help="Darwin config for a new state")
+    checkpoint_command.add_argument("--steps", type=int, default=1000, help="Additional ticks to run")
+    checkpoint_command.add_argument("--interval", type=int, default=1000, help="Save every N completed ticks")
+    checkpoint_command.add_argument("--output", type=Path, required=True, help="New checkpoint directory")
+    v0 = stages.add_parser("v0", help="Run the selected V0 rules or preserved scaffold")
     v0.add_argument("--config", type=Path, help="Versioned TOML experiment definition")
     v0.add_argument("--rules", choices=[RULES_VERSION, "v0-darwin-1"],
                     help="Rules version; defaults to scaffold or the config's version")
@@ -40,6 +46,13 @@ def main(argv: list[str] | None = None) -> int:
         v0.add_argument(f"--{name}", type=int, help=f"Override {name}")
     args = parser.parse_args(argv)
     try:
+        if args.stage == "checkpoint":
+            import json
+            from bitgenesis.v0.checkpoint import advance
+            from bitgenesis.v0.runner import load_config as load_darwin_config
+            config = load_darwin_config(args.config) if args.config else None
+            print(json.dumps(advance(args.output, args.steps, args.interval, config, args.resume), indent=2))
+            return 0
         if args.stage == "audit":
             import json
             from bitgenesis.v0.audit import audit

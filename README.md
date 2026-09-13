@@ -40,6 +40,11 @@ are sampled, while CSV metrics retain every tick. Sampling intervals are recorde
 The read-only audit reconciles saved metrics, lifecycle events, lineage and replay
 without stepping the simulator. It checks consistency, not biological realism.
 
+For recoverable state-only runs, use `bitgenesis checkpoint`; see the
+[checkpoint and recovery guide](docs/design/checkpoints.md). This separate command
+preserves complete world and random-generator state, but does not produce replay
+or per-tick CSV artifacts.
+
 ## Research stages
 
 | Stage | Scope | Status |

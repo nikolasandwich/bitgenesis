@@ -173,3 +173,21 @@ finished; no experiment process remains to be awaited or restarted.
 
 Next: improve experiment recovery/operational ergonomics where evidence warrants
 it; keep the V1 proposal as design until a new runtime stage is deliberately scoped.
+
+## 2026-09-14 — Autonomous cycle 8
+
+Added versioned, checksummed JSON state checkpoints with periodic atomic saving
+and exact continuation in a new output directory. The existing engine is unchanged.
+Recovery retains RNG state and dictionary ordering, and requires matching engine
+source and Python major/minor version. An interrupted partial tick is discarded;
+the preceding successfully saved complete state remains recoverable.
+
+This is explicitly a state-only command. Existing replay/CSV runs are not resumed
+or repaired, and full lineage/event memory remains unbounded. A separate-process
+CLI comparison supplements state equivalence, interruption, corruption and
+no-overwrite tests. Earlier research bundles remain immutable and represent their
+recorded source revisions, before this feature.
+
+All 30 local tests passed, including unchanged frozen-engine regression. The
+preceding source revision `13a7b7a` also passed CI run 34774421613 on all four
+OS/Python combinations; the checkpoint revision will receive its own CI run.

@@ -1,0 +1,124 @@
+"""Versioned JSON world checkpoints. No executable serialization is loaded."""
+
+from dataclasses import asdict
+import hashlib
+import json
+from pathlib import Path
+import platform
+import random
+import sys
+
+from bitgenesis.v0 import RULES_VERSION, engine
+from bitgenesis.v0.artifacts import write_json_atomic
+from bitgenesis.v0.engine import Config, Individual, World
+
+
+def engine_hash():
+    # Normalize source line endings so the same checkout on Windows/Linux agrees.
+    return hashlib.sha256(Path(engine.__file__).read_text(encoding="utf-8").encode()).hexdigest()
+
+
+def digest(payload):
+    return hashlib.sha256(json.dumps(payload, sort_keys=True, separators=(",", ":"),
+                                     allow_nan=False).encode()).hexdigest()
+
+
+def save_world(path, world):
+    world.check_invariants()
+    payload = {"format": "bitgenesis-state-1", "rules_version": RULES_VERSION,
+               "engine_sha256": engine_hash(), "python_minor": list(sys.version_info[:2]),
+               "config": asdict(world.config), "tick": world.tick, "food": world.food,
+               "lineage": [asdict(o) for o in world.lineage.values()],
+               "living_ids": list(world.living), "events": world.events,
+               "supplied_energy": world.supplied_energy, "dissipated_energy": world.dissipated_energy,
+               "next_id": world.next_id, "rng_state": world.rng.getstate()}
+    write_json_atomic(path, {"payload": payload, "sha256": digest(payload)})
+
+
+def load_world(path):
+    try:
+        envelope = json.loads(Path(path).read_text(encoding="utf-8"))
+        payload = envelope["payload"]
+        if digest(payload) != envelope["sha256"]:
+            raise ValueError("Checkpoint checksum mismatch")
+        if payload["format"] != "bitgenesis-state-1" or payload["rules_version"] != RULES_VERSION:
+            raise ValueError("Unsupported checkpoint format or rules version")
+        if payload["engine_sha256"] != engine_hash():
+            raise ValueError("Checkpoint requires a different engine source revision")
+        if payload["python_minor"] != list(sys.version_info[:2]):
+            raise ValueError("Checkpoint requires the same Python major/minor version")
+        world = World.__new__(World)  # Do not create fresh founders or consume RNG draws.
+        world.config = Config(**payload["config"])
+        for name in ("tick", "supplied_energy", "dissipated_energy", "next_id"):
+            value = payload[name]
+            if type(value) is not int or value < 0:
+                raise ValueError(f"Invalid checkpoint {name}")
+            setattr(world, name, value)
+        world.food = payload["food"]
+        records = [Individual(**record) for record in payload["lineage"]]
+        world.lineage = {o.id: o for o in records}
+        if len(world.lineage) != len(records) or list(world.lineage) != list(range(world.next_id)):
+            raise ValueError("Checkpoint organism IDs are duplicated or discontinuous")
+        living_ids = payload["living_ids"]
+        if len(set(living_ids)) != len(living_ids):
+            raise ValueError("Checkpoint has duplicate living IDs")
+        world.living = {identity: world.lineage[identity] for identity in living_ids}
+        if set(living_ids) != {o.id for o in records if o.death_tick is None}:
+            raise ValueError("Checkpoint living/dead membership mismatch")
+        world.occupied = {o.position: o.id for o in world.living.values()}
+        world.events = payload["events"]
+        if not isinstance(world.events, list) or any(e["id"] not in world.lineage for e in world.events):
+            raise ValueError("Invalid checkpoint pending events")
+        def tuples(value):
+            return tuple(tuples(item) for item in value) if isinstance(value, list) else value
+        world.rng = random.Random(0)
+        world.rng.setstate(tuples(payload["rng_state"]))
+        # Explicit checks remain active under python -O; engine assertions also run normally.
+        if len(world.food) != world.config.width * world.config.height or any(
+                type(value) is not int or not 0 <= value <= world.config.food_capacity for value in world.food):
+            raise ValueError("Checkpoint resources violate world bounds")
+        if len(world.occupied) != len(world.living) or any(
+                type(o.energy) is not int or o.energy <= 0 or not 0 <= o.position < len(world.food)
+                or type(o.genome) is not int or not 0 <= o.genome <= 1000 for o in world.living.values()):
+            raise ValueError("Checkpoint living state violates world bounds")
+        if sum(world.food) + sum(o.energy for o in world.living.values()) + world.dissipated_energy != world.supplied_energy:
+            raise ValueError("Checkpoint energy accounting mismatch")
+        world.check_invariants()
+        return world
+    except (KeyError, TypeError, IndexError, AssertionError) as error:
+        raise ValueError(f"Malformed checkpoint: {error}") from error
+
+
+def advance(output, steps, interval=1000, config=None, resume=None):
+    """Advance into a new directory, preserving the last completed checkpoint on interruption."""
+    if type(steps) is not int or steps < 0 or type(interval) is not int or interval < 1:
+        raise ValueError("steps must be nonnegative and checkpoint interval must be positive")
+    if resume is not None and config is not None:
+        raise ValueError("A resumed state cannot override its configuration")
+    world = load_world(resume) if resume is not None else World(config or Config())
+    output = Path(output)
+    output.mkdir(parents=True, exist_ok=False)
+    start = world.tick
+    metadata = {"format": "bitgenesis-checkpoint-run-1", "start_tick": start,
+                "target_tick": start + steps, "checkpoint_interval": interval,
+                "python": platform.python_version(), "status": "running",
+                "resume_sha256": hashlib.sha256(Path(resume).read_bytes()).hexdigest() if resume else None}
+    try:
+        save_world(output / "state.json", world)
+        metadata["saved_tick"] = world.tick
+        write_json_atomic(output / "metadata.json", metadata)
+        for elapsed in range(1, steps + 1):
+            world.step()
+            world.check_invariants()
+            if elapsed % interval == 0 or elapsed == steps:
+                save_world(output / "state.json", world)
+                metadata["saved_tick"] = world.tick
+                write_json_atomic(output / "metadata.json", metadata)
+        metadata["status"] = "complete"
+        write_json_atomic(output / "metadata.json", metadata)
+    except (Exception, KeyboardInterrupt) as error:
+        metadata["status"] = "interrupted" if isinstance(error, KeyboardInterrupt) else "failed"
+        metadata["error"] = type(error).__name__ + ": " + str(error)
+        write_json_atomic(output / "metadata.json", metadata)
+        raise
+    return world.snapshot()
