@@ -1445,3 +1445,15 @@ matrix distinguishes historical artifact scope from later code and identifies
 V1–V4 evidence as missing. V0's minimal milestone does not establish sensing,
 intelligence or open-ended evolution. Checked relative links in the changed
 acceptance/roadmap documents. No new simulation or runtime change this cycle.
+
+## 2026-09-14 — Autonomous cycle 97
+
+Added all-four-world campaign-015 trajectory figures with early-detail and full
+30,000-tick panels. Raw CSV hashes match the independent audit; observation and
+first-loss annotations are checked. All saved points are supplied with path
+simplification disabled. The repeated early panels are explicitly identified.
+
+Visual inspection caught clipped right-edge tick labels; widened the margin and
+rechecked the corrected PNG before committing PNG/SVG/provenance. Caption states
+that boundary fractions mean one label, not demographic stasis, and preserves the
+conditional-cohort limitation. No new experimental executions or engine changes.

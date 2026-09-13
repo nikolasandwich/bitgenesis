@@ -1,0 +1,36 @@
+{
+  "figure": "campaign-015-followup-1",
+  "cases": [
+    [
+      1,
+      72,
+      1206
+    ],
+    [
+      2,
+      8,
+      1200
+    ],
+    [
+      2,
+      72,
+      1208
+    ],
+    [
+      4,
+      72,
+      1208
+    ]
+  ],
+  "rows_per_full_panel": 30001,
+  "rows_per_detail_panel": 6001,
+  "downsampling": false,
+  "input_sha256": {
+    "cost-1-b-72-neutral-seed-1206.csv": "f87e3944677341277d37838df278a7f999ad8106ecad2418942583280bfce561",
+    "cost-2-b-8-neutral-seed-1200.csv": "b0fd766f2debd3f373b3c2824f594a14a0cd5fcbb082542c4ea0afd88a9bbc55",
+    "cost-2-b-72-neutral-seed-1208.csv": "7604157601b4834716d5ffb0656faa71486990e737b46e5fc4a9e42aef03c76c",
+    "cost-4-b-72-neutral-seed-1208.csv": "d09453251aafa27f04a3f5fe56c11925b332ee12c5199e7cba60dcbb1a36da7f"
+  },
+  "verification_sha256": "3fc4223e457c77b57acc8d72d137fd55a4dc496aba5b4583f93718b2a3f3b408",
+  "script_sha256": "c2f217bdf9f166719a5032ab15d6db02f198337809df0f2030a11cade911ede5"
+}

@@ -16,6 +16,24 @@ At the final endpoint each world had one founder lineage and one genome value.
 A and B are inherited founder labels with the identical fixed movement trait
 250 and mutation disabled; they are not species or different functions.
 
+## Complete trajectories
+
+![All four B-label fraction trajectories, early detail and full observation](figures/campaign-015-followup.png)
+
+Each row is one selected world. The left panel repeats ticks 0–6,000 in detail;
+the right panel includes all 30,001 recorded states through tick 30,000. Gray
+shading identifies the original observation window; the dot marks first group
+loss. All y-axes show the B fraction, not population size. A flat line at 0% or
+100% means a single surviving label; it does not imply no births, deaths or
+population fluctuation. Labels share the same trait throughout.
+
+[Vector figure](figures/campaign-015-followup.svg) ·
+[Plot provenance](figures/campaign-015-followup.json).
+Rebuild with `python scripts/plot_v0_neutral_followup.py --output data/new-followup-figure`.
+The plotting script checks raw hashes against the independent audit and verifies
+observation snapshots and loss annotations. Matplotlib is an optional plotting
+dependency; the engine and record verifier do not require it.
+
 ## Design and limits
 
 The [protocol](../../experiments/v0/campaign-015.md) selected **every** qualifying
