@@ -964,3 +964,16 @@ all eighty budget CSV rows match byte-for-byte. This uses the existing Python
 3.12 interpreter and does not claim a fresh package installation. No unarchived
 analysis files or simulation reruns were needed. Acceptance evidence updated;
 draft assets and scientific counts remain unchanged.
+
+## 2026-09-14 — Autonomous cycle 62
+
+Profiled a baseline 2000-tick loop with invariants, snapshots and event draining,
+plus one unprofiled comparison. Selected final-state digests match. Observed
+1.3141 seconds unprofiled and 4.5793 profiled; these are single local operational
+samples, not before/after optimization. Random sampling is prominent and neighbor
+queries modest. Recorded methods, raw profile summary and limitations.
+
+Decision: retain the engine rather than change random draws or add caching for
+an unproven gain. Exact historical streams and checkpoint compatibility matter;
+any optimization needs repeated representative measurement and replay evidence.
+No code behavior or scientific count changed.
