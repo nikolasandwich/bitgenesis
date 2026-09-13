@@ -1,0 +1,166 @@
+{
+  "drained-before": {
+    "source_commit": "1afd161eeb2a25b99f7cc01185bdb665dbc4b6da",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "measurements": [
+      {
+        "tick": 1000,
+        "population": 83,
+        "lineage_records": 1641,
+        "pending_events": 0,
+        "traced_live_bytes": 457996,
+        "traced_save_peak_bytes": 3918229,
+        "checkpoint_bytes": 450201,
+        "instrumented_stepping_seconds": 2.6869542999993428,
+        "instrumented_save_seconds": 0.19551969999884022
+      },
+      {
+        "tick": 5000,
+        "population": 75,
+        "lineage_records": 7582,
+        "pending_events": 0,
+        "traced_live_bytes": 2052124,
+        "traced_save_peak_bytes": 17562135,
+        "checkpoint_bytes": 2019533,
+        "instrumented_stepping_seconds": 13.90372749999733,
+        "instrumented_save_seconds": 0.7492457000007562
+      },
+      {
+        "tick": 10000,
+        "population": 68,
+        "lineage_records": 14993,
+        "pending_events": 0,
+        "traced_live_bytes": 4062553,
+        "traced_save_peak_bytes": 34774174,
+        "checkpoint_bytes": 3995214,
+        "instrumented_stepping_seconds": 27.80696419999731,
+        "instrumented_save_seconds": 1.5296932999990531
+      }
+    ],
+    "final_checkpoint_sha256": "855bc6cf350b9e5c1394df6eab5627e863b2e5f5df8ac50c2299fc58e388e9ea"
+  },
+  "drained-streamed": {
+    "source_commit": "f0befe42a8b87f4c1159369329ea9fc0cfefc44d",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "measurements": [
+      {
+        "tick": 1000,
+        "population": 83,
+        "lineage_records": 1641,
+        "pending_events": 0,
+        "traced_live_bytes": 457996,
+        "traced_save_peak_bytes": 1447174,
+        "checkpoint_bytes": 450201,
+        "instrumented_stepping_seconds": 2.8091238000015437,
+        "instrumented_save_seconds": 0.17952999999761232
+      },
+      {
+        "tick": 5000,
+        "population": 75,
+        "lineage_records": 7582,
+        "pending_events": 0,
+        "traced_live_bytes": 2052131,
+        "traced_save_peak_bytes": 6493831,
+        "checkpoint_bytes": 2019533,
+        "instrumented_stepping_seconds": 13.881670300001133,
+        "instrumented_save_seconds": 0.7588046000018949
+      },
+      {
+        "tick": 10000,
+        "population": 68,
+        "lineage_records": 14993,
+        "pending_events": 0,
+        "traced_live_bytes": 4062560,
+        "traced_save_peak_bytes": 12835957,
+        "checkpoint_bytes": 3995214,
+        "instrumented_stepping_seconds": 27.821450999999797,
+        "instrumented_save_seconds": 1.4705916999992041
+      }
+    ],
+    "final_checkpoint_sha256": "855bc6cf350b9e5c1394df6eab5627e863b2e5f5df8ac50c2299fc58e388e9ea"
+  },
+  "retained-before": {
+    "source_commit": "1afd161eeb2a25b99f7cc01185bdb665dbc4b6da",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "measurements": [
+      {
+        "tick": 1000,
+        "population": 83,
+        "lineage_records": 1641,
+        "pending_events": 3199,
+        "traced_live_bytes": 1254340,
+        "traced_save_peak_bytes": 8281456,
+        "checkpoint_bytes": 942568,
+        "instrumented_stepping_seconds": 2.7277614999984507,
+        "instrumented_save_seconds": 0.34791199999745004
+      },
+      {
+        "tick": 5000,
+        "population": 75,
+        "lineage_records": 7582,
+        "pending_events": 15089,
+        "traced_live_bytes": 5795358,
+        "traced_save_peak_bytes": 38082871,
+        "checkpoint_bytes": 4360929,
+        "instrumented_stepping_seconds": 13.99834969999938,
+        "instrumented_save_seconds": 1.6042919999999867
+      },
+      {
+        "tick": 10000,
+        "population": 68,
+        "lineage_records": 14993,
+        "pending_events": 29918,
+        "traced_live_bytes": 11486199,
+        "traced_save_peak_bytes": 74166347,
+        "checkpoint_bytes": 8658533,
+        "instrumented_stepping_seconds": 27.914979099998163,
+        "instrumented_save_seconds": 3.139494499999273
+      }
+    ],
+    "final_checkpoint_sha256": "43faaa33e7690573e0d43f31898f945edea5ae421c2e59cd01fa08babb383867"
+  },
+  "retained-streamed": {
+    "source_commit": "f0befe42a8b87f4c1159369329ea9fc0cfefc44d",
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "measurements": [
+      {
+        "tick": 1000,
+        "population": 83,
+        "lineage_records": 1641,
+        "pending_events": 3199,
+        "traced_live_bytes": 1254404,
+        "traced_save_peak_bytes": 2753194,
+        "checkpoint_bytes": 942568,
+        "instrumented_stepping_seconds": 2.8296664000008604,
+        "instrumented_save_seconds": 0.35150229999999283
+      },
+      {
+        "tick": 5000,
+        "population": 75,
+        "lineage_records": 7582,
+        "pending_events": 15089,
+        "traced_live_bytes": 5795488,
+        "traced_save_peak_bytes": 12685297,
+        "checkpoint_bytes": 4360929,
+        "instrumented_stepping_seconds": 13.893211400001746,
+        "instrumented_save_seconds": 1.5974725999985822
+      },
+      {
+        "tick": 10000,
+        "population": 68,
+        "lineage_records": 14993,
+        "pending_events": 29918,
+        "traced_live_bytes": 11486329,
+        "traced_save_peak_bytes": 25157129,
+        "checkpoint_bytes": 8658533,
+        "instrumented_stepping_seconds": 27.719355400000495,
+        "instrumented_save_seconds": 3.001861299999291
+      }
+    ],
+    "final_checkpoint_sha256": "43faaa33e7690573e0d43f31898f945edea5ae421c2e59cd01fa08babb383867"
+  }
+}

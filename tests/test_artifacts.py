@@ -26,8 +26,6 @@ class ArtifactCheckpointTests(unittest.TestCase):
                 with self.assertRaises(OSError):
                     write_json_atomic(path, {"status": "complete", "completed_steps": 100})
             self.assertEqual(path.read_bytes(), previous)
-
-            self.assertEqual(list(Path(directory).iterdir()), [path])
             self.assertEqual(list(Path(directory).iterdir()), [path])
             write_json_atomic(path, {"status": "complete", "completed_steps": 100})
             self.assertEqual(json.loads(path.read_text())["completed_steps"], 100)
@@ -40,6 +38,7 @@ class ArtifactCheckpointTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 write_json_atomic(path, {"mean_genome": float("nan")})
             self.assertEqual(path.read_bytes(), previous)
+            self.assertEqual(list(Path(directory).iterdir()), [path])
 
 
 if __name__ == "__main__":

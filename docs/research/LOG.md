@@ -356,3 +356,22 @@ allocation supports the cost explanation of lower fixed-trait population, withou
 predicting mixed competition. The report explains capped input and pre/post-tick
 mean differences, preserves extinction zeros, and identifies the analysis as
 retrospective rather than preregistered. Counts remain 370 runs / 1,740,000 ticks.
+
+## 2026-09-14 — Autonomous cycle 18
+
+The preceding 37-test suite passed all six CI jobs in run 34776692127. Measured
+retention with clean source `1afd161`, baseline seed 42, two separate event-drained
+/ event-retained processes through 10000 ticks. Complete lineage reached 14,993
+records despite only 68 survivors; retained events reached 29,918.
+
+Inspection showed the atomic writer built the entire formatted JSON in memory.
+Changed it to stream encoder chunks into the temporary file (`f0befe4`), preserving
+sync/replace behavior. Repeating the same benchmark reduced traced serialization
+peaks from 34.774 to 12.836 MB drained and 74.166 to 25.157 MB retained at tick 10000.
+All six new/old checkpoint files are byte-identical; the two modes' non-event state
+matches. This is traced Python allocation, not RSS, and timings include tracing.
+
+Full local tests passed (38); strengthened nonfinite-write cleanup assertion also
+passed focused artifact tests. The report preserves exact measurements and hashes.
+Full historical-state growth remains unresolved; no bounded-memory or ultra-long
+capacity claim. Operational benchmarks do not alter formal experiment totals.

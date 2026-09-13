@@ -49,3 +49,9 @@ This command retains full lineage and pending events in memory and each checkpoi
 It is not a bounded-memory solution for millions of generations. It does not append
 to, repair, or reconstruct a previous run's CSV, replay or event files. Recoverable
 recorded runs would need a separate segment format and corresponding audit support.
+
+The atomic writer streams JSON chunks to avoid building the entire pretty-printed
+text in memory. A [retention benchmark](../research/retention-benchmark.md) measured
+smaller serialization peaks while preserving checkpoint bytes. Full historical
+state and checksum preparation still allocate memory; consult the measured scope
+before choosing long-run budgets.
