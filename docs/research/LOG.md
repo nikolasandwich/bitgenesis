@@ -835,3 +835,17 @@ Specified what persistence of early failure under zero direct cost would falsify
 and why a survival improvement would not isolate all indirect mechanisms. Any
 execution requires a new protocol, seed block and verification plan. No scientific
 counts, runtime rules or archive assets changed.
+
+## 2026-09-14 — Autonomous cycle 52
+
+Preregistered campaign 012 and its runner at source b963348 before execution:
+eight allocation × threshold × direct-cost arms, fresh seeds 1000–1009, 10000
+ticks each. Confirmed the seed block was absent from prior registered campaigns.
+Specified survival contrasts, early peak/births and late turnover, including
+all failures and the limits of zero direct cost. No engine changes.
+
+Compilation and 53 tests passed. Started the actual run from clean source;
+metadata confirms git_dirty false and the registered source. The live process
+is producing per-seed outputs. Results are pending and are not yet included in
+validated totals or archives. Next: independently recompute declared observations
+from all raw metric tables once execution completes.
