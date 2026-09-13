@@ -30,7 +30,7 @@ services. Use a new output path each time.
 | Basic world view and lineage inspection | Replay + clickable ancestry inspector | Met |
 | Explain designed rules | `docs/design/v0-rules.md` and emergence note | Met |
 
-Sixteen checks passed at this checkpoint. Campaigns 001–004 cover 690,000
+Twenty local checks passed at this checkpoint. Campaigns 001–004 cover 690,000
 simulation ticks. Campaign 001 finds lineage collapse; campaign 002 shows that
 the trait maximizing population abundance need not match the trait favored in
 mixed populations; campaign 003 directly tests competition with neutral-label
@@ -39,6 +39,19 @@ extinction, turnover and crowded persistence without reproduction. Read the repo
 interpreting animations. An installed wheel and its provenance were also tested.
 GitHub CI verified Windows/Linux and Python 3.12/3.13, including the frozen replay:
 [run 34773024529](https://github.com/nikolasandwich/bitgenesis/actions/runs/34773024529).
+That earlier CI run covered 16 checks; the added artifact-audit suite brings the
+current local total to 20 and is included in subsequent CI runs.
+
+The read-only `bitgenesis audit` command independently reconciled all ten full
+campaign-001 runs and the acceptance demonstration, plus a sampled extinction
+run. It catches corrupted energy accounting, missing lifecycle events and broken
+parent references. This checks artifact consistency, not biological validity.
+
+A portable local bundle, `data/bitgenesis-v0-review.zip`, contains tracked source,
+four campaigns, the demonstration and the Chinese review page. Its manifest
+lists 348 source/artifact files and checksums; all archived files were read back
+and matched their hashes. Bundle source checkpoint: `925b031`. Existing archives
+are never overwritten; use a new `--output` for a later checkpoint.
 
 V0's minimal milestone is reached. Continue V0 mechanism/robustness experiments
 before deciding whether a V1 controller adds a useful research question. Meeting

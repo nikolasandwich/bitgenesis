@@ -96,3 +96,23 @@ Read two primary research publications to contextualize the next decision;
 Added a V1 proposal focused on sensory ablation and held-out reproductive outcomes.
 No V1 runtime implemented. Next useful work: independent artifact auditing and
 a reproducible local review bundle; retain counterexamples rather than tuning them away.
+
+## 2026-09-14 — Autonomous cycle 5
+
+Added a read-only artifact auditor independent of the stepping engine. It checks
+energy and population identities, chronology, inheritance, parent/child counts,
+lifecycle completeness, summary equality, replay occupancy/resources and terminal
+lineage agreement. Corruption tests cover wrong energy, missing events and orphan
+parents. Twenty local checks pass. All ten campaign-001 runs, acceptance-v0 and
+sampling-check pass auditing, supporting both legacy and current recording schemas.
+
+Generated the updated Chinese entry point `data/review-v0-4.html` from all four
+campaigns. Packaged 348 tracked/source/artifact files into
+`data/bitgenesis-v0-review.zip` (14,760,677 bytes), source checkpoint `925b031`.
+SHA-256: `68ca58ac879549b4d5754332515942530fe5dd4ebc7f12cebd3a6c5577c02322`.
+The packager audited 11 complete runs and verified every archived file hash after
+writing. It excludes virtual environments, build intermediates and unrelated data.
+
+Next: check current CI, inspect malformed/partial artifact handling, and improve
+operational usability without changing the frozen V0 dynamics. Do not interpret
+a successful integrity audit as external validation of the scientific model.
