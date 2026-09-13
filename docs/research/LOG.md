@@ -1041,3 +1041,16 @@ Source 12982c715964a57109493dcbbcf1e3e9f3955bdc passed all six CI environments
 in run 34783952259, including the 56-test suite. Current acceptance guides cite
 this checkpoint; archived source/test counts remain historical. No runtime or
 experimental observations were changed.
+
+## 2026-09-14 — Autonomous cycle 68
+
+Preregistered campaign 013 and runner, then launched from clean source
+f3f35e5850b1a358dc7b9c94692d5f1686057e1d. Fresh seeds 1100–1104, mutation 100/1000
+versus zero, 50000 ticks each, ordinary random founders and unchanged V0 defaults.
+Records every birth genome plus per-tick ever-seen diversity so first appearance
+can be reconstructed independently. Explicitly distinguishes scalar vocabulary
+coverage from functional novelty and does not force a saturation conclusion.
+
+Compilation and 56 tests passed. Original process is live; outcomes are pending
+and excluded from validated campaign totals. Next: verify birth-table ancestry,
+first-seen coverage, energy accounts and declared horizon summaries.
