@@ -989,3 +989,15 @@ A fresh 100-tick demo was checked in the browser: Home then Right selects tick
 10/population 144; End selects tick 100/population 56. All 54 tests passed.
 This verifies keyboard behavior and page updates, not independent screen-reader
 speech output. No simulation rules or recording schema changed.
+
+## 2026-09-14 — Autonomous cycle 64
+
+Fixed stale individual details after an invalid lineage query. Failed lookup
+now clears the previous detail row, ancestry and child controls, labels the
+selection empty and marks the input invalid with its message linked. Successful
+lookup restores details and removes the invalid state.
+
+Verified in a fresh browser demo: ID 0 initially visible, nonexistent 99999
+clears the old record, then ID 1 restores its details and child 179. All 54
+tests passed. Only newly generated lineage pages change; historical artifacts
+and simulation rules remain fixed.
