@@ -1,11 +1,13 @@
 # V0 acceptance checkpoint
 
-Current research: twelve campaigns / 540 executions / 5,240,000 computed ticks;
+Current research: thirteen campaigns / 550 executions / 5,740,000 computed ticks;
 20 executions are longer follow-ups with 200,000 repeated prefix ticks, not new
 independent seed replicates. See the [research index](README.md) and latest
 [long-horizon report](campaign-011.md).
 The latest [birth-cost report](campaign-012.md) adds eighty verified executions.
 It is included in the current page, but not in the eleven-campaign fixed archive.
+The newest [genome-coverage report](campaign-013.md) adds ten verified 50000-tick
+worlds; it is not included in the twelve-campaign page or fixed archive.
 Visual review entry `data/review-v0-12.html` covers all twelve campaigns, including
 the allocation trajectories, threshold/cost survival curves and longitudinal follow-up.
 It distinguishes executions from independent samples and identifies replayed prefixes.

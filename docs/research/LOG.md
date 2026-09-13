@@ -1067,3 +1067,18 @@ horizon observations match. This is a per-run check, not a final group result.
 The original experiment process remains live and continues the no-mutation arm.
 No restart, new seed or observation-window change; validated totals still exclude
 campaign 013 pending the complete-grid audit.
+
+## 2026-09-14 — Autonomous cycle 70
+
+Campaign 013 completed in the original process. Independent verification checked
+744901 birth records and 500010 metric rows. Mutation worlds reach 340–371
+ever-seen values, adding 0/2/7/12/22 during the final ten thousand ticks; four
+of five add values. No-mutation worlds stay at the initial 77–78 values. All
+ten survive 50000, each with one founder lineage. Neither permanent saturation
+nor functional novelty is inferred. Report preserves all seeds and horizons.
+
+Committed compact results, verification hashes and limitations of missing full
+death/spatial records. Inventory now validates thirteen campaigns / 550 executions
+/ 5740000 computed ticks, retaining twenty follow-ups and 200000 prefix replays.
+Preregistered-source CI 34784159894 and 64-test verifier CI 34784386963 passed.
+Twelve-campaign pages and downloadable archive retain their explicit scope.

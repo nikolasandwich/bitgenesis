@@ -186,6 +186,21 @@
       ],
       "followup_of": null,
       "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "013",
+      "executions": 10,
+      "ticks_per_execution": 50000,
+      "seed_range": [
+        1100,
+        1104
+      ],
+      "identity_fields": [
+        "treatment",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
     }
   ]
 }
