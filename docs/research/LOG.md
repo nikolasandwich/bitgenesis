@@ -1201,3 +1201,18 @@ Report states that observed parents and denominators are trajectory-dependent:
 this is neither an unbiased full-path expectation nor a clipping counterfactual.
 Saved every run, unweighted increments and input/reference/script hashes. Added
 hand-enumerated kernel boundary and disabled-mutation tests. No new simulations.
+
+## 2026-09-14 — Autonomous cycle 80
+
+Partitioned each of ten campaign-001 trajectories into all five contiguous
+1000-tick windows, using the tested exact decomposition helper. All fifty window
+identities telescope and their component sums equal each prior full-run result.
+Raw hashes match the audited analysis. First windows all rise; final mutation
+windows decline in three worlds and rise in two. Final control windows have zero
+trait change despite each retaining over 1400 births and deaths.
+
+Preserved every window, raw/helper/reference/script hashes, and explicit start
+boundary semantics. Report distinguishes whole-run direction from late trends,
+trait fixation from demographic arrest, and repeated windows from independent
+replicates. No new simulation, stationarity or equilibrium claim. Existing
+73-test analysis-source CI 34785743212 passed.

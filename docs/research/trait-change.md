@@ -133,3 +133,45 @@ and reproduces its observed transmission term exactly. It also saves unweighted
 raw increments and references, which have different units from changes in mean.
 Run `python scripts/analyze_v0_mutation_reference.py --output data/my-mutation-reference`
 with campaign-001 inputs present. This remains a reanalysis, with no new worlds.
+
+## Whole-run direction is not a persistent late trend
+
+A subsequent post hoc analysis partitions every world into all five contiguous
+1000-tick windows: 1–1000, 1001–2000, 2001–3000, 3001–4000 and 4001–5000.
+A window starting at tick 4001 compares the mean at tick 4000 with that at 5000.
+No windows or seeds are omitted from [the full CSV](results/trait-windows-001.csv).
+Each window's identity and all five windows' sum are checked exactly; total
+components reproduce the earlier full-run decomposition. These are repeated
+observations of the same worlds, not fifty independent replicates.
+
+During the first thousand ticks, every world increases mean trait: mutation
+403.51–496.46 and no mutation 415.27–520.50. The last thousand differ:
+
+| Treatment | Seed | Births | Deaths | Birth sorting | Death sorting | Mutation | Net change |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Mutation | 0 | 1440 | 1440 | -10.10 | 13.94 | -44.68 | -40.84 |
+| Mutation | 1 | 1521 | 1483 | 67.58 | -28.42 | -24.88 | 14.29 |
+| Mutation | 2 | 1500 | 1492 | 31.18 | 3.36 | -36.13 | -1.59 |
+| Mutation | 3 | 1486 | 1507 | 29.35 | -13.22 | -30.63 | -14.50 |
+| Mutation | 4 | 1494 | 1500 | 30.67 | 9.83 | -22.33 | 18.16 |
+| No mutation | 0 | 1469 | 1452 | 0.00 | 0.00 | 0.00 | 0.00 |
+| No mutation | 1 | 1454 | 1446 | 0.00 | 0.00 | 0.00 | 0.00 |
+| No mutation | 2 | 1490 | 1476 | 0.00 | 0.00 | 0.00 | 0.00 |
+| No mutation | 3 | 1485 | 1462 | 0.00 | 0.00 | 0.00 | 0.00 |
+| No mutation | 4 | 1452 | 1457 | 0.00 | 0.00 | 0.00 | 0.00 |
+
+Three mutation worlds decrease their mean late and two increase it, despite all
+five having positive full-run changes. Mutation seed 0 even has negative late
+birth sorting, whereas its full-run birth sorting is positive. A full-run sum
+must not be presented as evidence of a constant direction of change at every time.
+
+No-mutation worlds have zero late trait contributions while each records over
+1400 births and 1400 deaths. Trait fixation therefore coexists with demographic
+turnover; it does not imply frozen spatial, energy or population state. Neither
+the late variation nor the flat controls establish statistical stationarity,
+permanent stability or mutation-selection equilibrium.
+
+Reproduce using `python scripts/analyze_v0_trait_windows.py --output data/my-trait-windows`.
+The [sidecar](results/trait-windows-001.json) records raw-file, reference, helper
+and script hashes. No new simulation was performed. The uploaded fixed archive
+predates this analysis but contains the required campaign-001 raw events.
