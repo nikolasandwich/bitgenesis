@@ -1486,3 +1486,18 @@ no document was partially written. Corrected the read to UTF-8 after the clean
 source archive completed, then updated main's command guide. The fixed snapshot
 is explicitly identified and not silently rebuilt. New archive installation and
 upload verification remain subsequent steps; previous uploaded drafts unchanged.
+
+## 2026-09-14 — Autonomous cycle 100
+
+Hash-verified and extracted the fifteen-campaign archive, created a fresh venv,
+and installed its noneditable wheel. All 92 archived tests pass; package imports
+resolve inside the new environment. A new 1,000-tick demo passes audit and matches
+archived events/metrics byte for byte and lineage/summary structurally. Recomputed
+campaign 015 with archived scripts/raw records; the complete report is identical,
+including hashes. Engineering demo ticks are excluded from formal totals.
+
+Uploaded a separate draft v0.0.1-preview.7, release 388062162. API confirms both
+asset states, archive bytes and SHA-256, and the checksum asset's bytes/digest.
+Source 0344839 CI is successful. Updated acceptance entry to the fifteen-campaign
+download, retaining explicit source and prior-archive limits. Build dependency
+resolution is not an offline-install guarantee; this is not every-campaign replay.

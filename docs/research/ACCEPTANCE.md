@@ -244,3 +244,30 @@ or a biological interpretation. Fresh extracted installation and upload remain
 separate follow-up checks. The packaging command documentation was refreshed on
 main after this fixed source snapshot; its included fourteen-campaign example
 remains a valid older-scope command, while `--campaigns 15` is supported.
+
+### Independent installation of the fifteen-campaign archive
+
+Extracted the hash-verified archive into `data/portable-review-15`, created a new
+virtual environment and installed a noneditable wheel from its source. Confirmed
+imports come from that environment's site-packages. All 92 archived tests pass.
+The new 1,000-tick demo passes the artifact audit: 83 living, 1,561 births,
+1,558 deaths, 1,641 recorded individuals and 101 frames. Metrics/events match the
+archived acceptance demo byte for byte; lineage/summary JSON agree structurally.
+Installed metadata correctly does not attribute the enclosing checkout's Git ID.
+
+Using extracted scripts and raw records, the campaign-015 verifier reproduces the
+complete saved report, including all input and helper hashes. Its 120,004 metric
+rows and 12,004 reference-prefix rows are checked. The script ran with `-S` and
+its normal script-directory import path; the simulation demo ran with `-I`.
+Build dependencies were resolved by pip, so this is not an offline-install claim.
+These 1,000 engineering ticks do not increase formal experiment totals.
+See [portable installation record](results/portable-wheel-015.json).
+
+### Fifteen-campaign uploaded draft
+
+[Draft v0.0.1-preview.7](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-00e18fdc0b94307ac16e) (release 388062162)
+remains a draft/prerelease targeting source `0344839`. Both assets are uploaded;
+GitHub API archive size 100,031,797 and SHA-256 match the verified local file.
+The 103-byte checksum asset also matches local SHA-256
+`5b8c873fa74c84ce0d22332bd442376f2870a56b09d292829e5e9591eb54bb00`.
+Source CI 34788400431 is successful. Prior draft assets remain unchanged.
