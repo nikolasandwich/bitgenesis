@@ -74,7 +74,7 @@ def main():
             subprocess.run(command, check=True, stdout=subprocess.DEVNULL)
             metric_audits[f"campaign-{number:03d}"] = json.loads((summary / "summary.json").read_text())
     manifest = {"format": "bitgenesis-review-1", "git_commit": git("rev-parse", "HEAD"),
-                "scope": f"Tracked source plus campaigns 001鈥搟args.campaigns:03d}, mutation calibration, acceptance demonstration and Chinese review page. Other local data and environments are excluded.",
+                "scope": f"Tracked source plus campaigns 001-{args.campaigns:03d}, mutation calibration, acceptance demonstration and Chinese review page. Other local data and environments are excluded.",
                 "audits": audited,
                 "raw_campaign_workload": workload,
                 "metric_campaign_audits": metric_audits,
