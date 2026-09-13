@@ -746,3 +746,17 @@ CI run 34781320417 completed successfully for source 7f8fd4d in all six
 Windows/Linux × Python 3.12/3.13/3.14 jobs: 53 tests, the new inventory check,
 installed CLI smoke run and independent artifact audit. Acceptance guides now
 cite this specific checkpoint without changing historical archive test counts.
+
+## 2026-09-14 — Autonomous cycle 46
+
+Extended the Chinese review builder through campaign 011. Expected execution
+counts and horizons now come from the tracked campaign inventory. The follow-up
+table retains all twenty worlds, including the original three early extinctions.
+The page explicitly separates execution workload, replayed prefixes and independent
+seed samples; no extra independent replication is claimed.
+
+Generated a new local review-v0-11.html without overwriting earlier snapshots.
+Browser inspection confirmed the workload notice and the 10/10 versus 7/10
+survival table through 100000 ticks. All 53 local tests passed. Acceptance guides
+now point to the eleven-campaign page while the uploaded nine-campaign archive
+retains its named source and scope. Engine rules are unchanged.

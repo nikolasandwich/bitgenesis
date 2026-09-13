@@ -20,14 +20,20 @@ def require_run_grid(records, treatments, seeds):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-root", type=Path, default=Path("data"))
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     args.output = args.output or args.data_root / f"review-v0-{args.campaigns}.html"
     campaigns = [json.loads((args.data_root / f"campaign-{i:03d}" / "results.json").read_text(encoding="utf-8"))
                  for i in range(1, args.campaigns + 1)]
-    if [len(c) for c in campaigns] != [10, 100, 80, 20, 30, 50, 60, 20, 30, 40][:args.campaigns]:
+    inventory_path = Path(__file__).resolve().parents[1] / "experiments/v0/campaign-inventory.json"
+    inventory = json.loads(inventory_path.read_text(encoding="utf-8"))["campaigns"][:args.campaigns]
+    if [entry["id"] for entry in inventory] != [f"{i:03d}" for i in range(1, args.campaigns + 1)]:
+        raise ValueError("Review scope differs from campaign inventory")
+    if [len(c) for c in campaigns] != [entry["executions"] for entry in inventory]:
         raise ValueError("Expected complete campaign counts")
+    if any(row["tick"] != entry["ticks_per_execution"] for rows, entry in zip(campaigns, inventory) for row in rows):
+        raise ValueError("Review horizons differ from campaign inventory")
     for i in range(2, args.campaigns + 1):
         metadata = json.loads((args.data_root / f"campaign-{i:03d}" / "metadata.json").read_text(encoding="utf-8"))
         if metadata["status"] != "complete":
@@ -138,7 +144,7 @@ def main():
         allocation_figure = link(Path(__file__).resolve().parents[1] / "docs/research/figures/campaign-009-early.png")
         allocation_section = f'''<section><h2>09 / 总能量相同，分配方式也重要</h2><p>两个主要组的初始总能量同为 7040，分别放在环境食物中或个体体内；低能量基线为 1920。每组十个新种子、10,000 步，持续资源再生参数相同。</p>{allocation_table}<img src="{allocation_figure}" alt="三十个世界前一百步的种群轨迹；体内储能组先快速繁殖，再灭绝。各图使用相同坐标。" style="width:100%;height:auto"><p class="small">图中细线为全部种子，粗线为组平均。早期窗口是事后分析。体内储能组灭绝时世界仍有食物，但这些总量不能说明个体当时是否能获取食物，也没有单独证明繁殖高峰导致灭绝。初始总量相同不保证后续实际输入相同。</p></section>'''
         page = page.replace('<section><h2>复核与恢复</h2>', allocation_section + '<section><h2>复核与恢复</h2>')
-    if args.campaigns == 10:
+    if args.campaigns >= 10:
         treatments = ("food-40", "stored-40", "food-160", "stored-160")
         require_run_grid(campaigns[9], treatments, range(900, 910))
         thresholds = defaultdict(list)
@@ -152,6 +158,23 @@ def main():
         threshold_figure = link(Path(__file__).resolve().parents[1] / "docs/research/figures/campaign-010-survival.png")
         threshold_section = f'''<section><h2>10 / 繁殖阈值会改变存活结果</h2><p>初始总能量相同，交叉比较能量分配与繁殖阈值。每组十个新种子、10,000 步。提高阈值后，两种分配的终点存活均增加，但这来自人为参数干预，没有进化出新的繁殖策略。</p>{threshold_table}<img src="{threshold_figure}" alt="四组完整观察期与早期放大的存活比例曲线；终点存活者的后续寿命未知。" style="width:100%;height:auto"><p class="small">较高阈值下的 17 个终点存活世界，在最后 1,000 步都仍有出生和死亡。阈值会共同影响繁殖时间、能量分配和竞争，不能据此认定单一机制或普适最优阈值。每条曲线保留全部十次运行，右图是同一数据的放大。</p></section>'''
         page = page.replace('<section><h2>复核与恢复</h2>', threshold_section + '<section><h2>复核与恢复</h2>')
+    if args.campaigns == 11:
+        require_run_grid(campaigns[10], ("food-160", "stored-160"), range(900, 910))
+        long_groups = defaultdict(list)
+        for row in campaigns[10]:
+            long_groups[row["treatment"]].append(row)
+        long_table = table(["原队列", "活到 10,000 步", "活到 50,000 步", "活到 100,000 步"],
+            [["环境食物" if name == "food-160" else "体内储能",
+              f"{sum(r['population_at_10000'] > 0 for r in rows)}/10",
+              f"{sum(r['population_at_50000'] > 0 for r in rows)}/10",
+              f"{sum(r['population'] > 0 for r in rows)}/10"] for name, rows in sorted(long_groups.items())])
+        long_section = f'''<section><h2>11 / 同一批世界，观察得更久</h2><p>复查第十轮两组较高阈值的全部 20 个世界，包括原先早期灭绝的三个种子。逐步核对前 10,000 步后，延长到 100,000 步。原先 17 个存活世界均维持到新终点。</p>{long_table}<p class="small">这是同一队列的纵向观察，不增加独立种子样本。20 次执行包含 200 万个计算步，其中 20 万步重放原前缀、180 万步增加观察时长。终点存活仍不证明永久稳定；长期存活世界最终都只有一个创始谱系，且没有新移动性状产生。</p></section>'''
+        page = page.replace('<section><h2>复核与恢复</h2>', long_section + '<section><h2>复核与恢复</h2>')
+        replayed = sum(entry["executions"] * entry["replayed_prefix_ticks_per_execution"] for entry in inventory)
+        followups = sum(entry["executions"] for entry in inventory if entry["followup_of"] is not None)
+        page = page.replace("已完成的受控实验", "已完成的执行（含延长复查）")
+        workload_note = f'<p class="small">工作量统计包含 {followups} 次既有队列复查和 {replayed:,} 步前缀重放。执行次数不等于独立样本数。</p>'
+        page = page.replace('<div class="actions">', workload_note + '<div class="actions">', 1)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x", encoding="utf-8") as stream:
         stream.write(page)
