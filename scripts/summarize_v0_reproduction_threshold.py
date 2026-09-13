@@ -31,6 +31,7 @@ def main():
         raise ValueError("Unexpected world size or founding population")
     hashes = {}
     groups = []
+    late_turnover = []
     for treatment, food, energy, threshold in metadata["treatments"]:
         verified = []
         for seed in metadata["seeds"]:
@@ -63,16 +64,29 @@ def main():
                 values[f"births_at_{tick}"] = rows[tick]["births"]
             if any(indexed[treatment, seed][k] != v for k, v in values.items()):
                 raise ValueError(f"Summary differs: {path.name}")
+            late_births = rows[10000]["births"] - rows[9000]["births"]
+            late_deaths = rows[10000]["deaths"] - rows[9000]["deaths"]
+            if (min(late_births, late_deaths) < 0
+                    or rows[10000]["population"] - rows[9000]["population"] != late_births - late_deaths):
+                raise ValueError("Invalid late-window turnover")
+            values.update(late_births=late_births, late_deaths=late_deaths)
+            late_turnover.append({"treatment": treatment, "seed": seed,
+                                  "start_population": rows[9000]["population"],
+                                  "end_population": rows[10000]["population"],
+                                  "births": late_births, "deaths": late_deaths})
             verified.append(values)
         deaths = [r["extinction_tick"] for r in verified if r["extinction_tick"] is not None]
         groups.append({"treatment": treatment, "initial_food": food, "initial_energy": energy, "birth_threshold": threshold, "runs": len(verified), "mean_births_at_10": mean(r["births_at_10"] for r in verified), "mean_births_at_100": mean(r["births_at_100"] for r in verified),
                        "alive_at_500": sum(r["population_at_500"] > 0 for r in verified),
                        "alive_at_5000": sum(r["population_at_5000"] > 0 for r in verified),
                        "alive_at_10000": sum(r["population"] > 0 for r in verified),
+                       "mean_late_births": mean(r["late_births"] for r in verified),
+                       "mean_late_deaths": mean(r["late_deaths"] for r in verified),
                        "extinct_only_range": [min(deaths), max(deaths)] if deaths else None,
                        "late_mean_population": mean(r["late_mean_population"] for r in verified), "mean_supplied_energy": mean(r["supplied_energy"] for r in verified), "mean_births": mean(r["births"] for r in verified)})
     args.output.mkdir(parents=True, exist_ok=False)
-    report = {"groups": groups, "metric_rows_checked": len(expected) * (metadata["steps"] + 1),
+    report = {"groups": groups, "late_turnover_window": [9001, 10000], "late_turnover": late_turnover,
+              "metric_rows_checked": len(expected) * (metadata["steps"] + 1),
               "input_sha256": hashes, "script_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
     (args.output / "summary.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(groups, indent=2))

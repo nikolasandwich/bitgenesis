@@ -49,6 +49,34 @@ a new universal default or demonstrate open-ended evolution.
 
 ## Verification
 
+### Exploratory late turnover
+
+An additional accounting check asks whether higher-threshold survival merely
+resembles the no-turnover crowded state in campaign 004. Subtracting cumulative
+births/deaths at tick 9000 from tick 10000 gives the following group means over
+all ten worlds per arm, including extinct zeros:
+
+| Allocation | Threshold | Births, ticks 9001–10000 | Deaths, same window |
+| --- | ---: | ---: | ---: |
+| food | 40 | 114.9 | 113.4 |
+| stored | 40 | 0 | 0 |
+| food | 160 | 84.1 | 93.8 |
+| stored | 160 | 57.6 | 58.6 |
+
+All seventeen higher-threshold endpoint survivors record both births and deaths
+within this window. Thus the observed persistence includes late turnover, unlike
+the full-occupancy arrest previously observed under extreme regrowth. This does
+not prove replacement of every individual, permanent viability or innovation;
+genomes still encode the same fixed movement trait. Population changes match
+births minus deaths in every run. Group means are not survivor-conditioned rates.
+
+The [per-run turnover sidecar](results/campaign-010-turnover.json) includes the
+window, all forty pairs of counts and input/helper hashes. The updated verification
+command below emits these additional retrospective fields. The original
+verification sidecar remains preserved at its earlier helper revision.
+
+### Original run verification
+
 Engine invariants ran each tick. Independent verification checked all **400,040
 metric rows** against the preregistered grid, initial energy components, complete
 tick sequence, energy/population identities, fixed-trait constancy, extinction

@@ -591,3 +591,16 @@ and defaults unchanged. All-seed outcomes and verification hashes committed;
 formal totals become ten campaigns / 440 runs / 2440000 ticks. Existing nine-
 campaign portable snapshot remains explicitly historical. Source and verifier
 CI runs 34779261990 and 34779319289 both passed six environments.
+
+## 2026-09-14 — Autonomous cycle 34
+
+Checked campaign 010's late turnover from existing cumulative counts (ticks
+9001–10000), preserving the original verification sidecar. All seventeen
+threshold-160 endpoint survivors had both births and deaths in this window.
+All-seed mean births/deaths: food-40 114.9/113.4, stored-40 0/0, food-160
+84.1/93.8, stored-160 57.6/58.6. Net population changes reconcile in every run.
+
+This distinguishes the observed persistence from campaign 004's crowded arrest,
+without claiming permanent survival or new functions. Forty per-run count pairs,
+input hashes and the extended helper hash are saved in a separate sidecar. No
+simulation or engine change; accepted campaign totals remain unchanged.
