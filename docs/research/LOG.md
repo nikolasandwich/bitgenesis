@@ -224,3 +224,22 @@ five-campaign visual review page; later documentation updates are in Git.
 
 Source `4cabc6b` passed CI run 34775013482 across the four OS/Python combinations.
 The current suite has 34 tests. No formal campaign was rerun or added this cycle.
+
+## 2026-09-14 — Autonomous cycle 10
+
+Preregistered and completed campaign 006 from clean source `d692b09`: 50 new runs,
+250,000 ticks, seeds 500–509, regrowth 10/15/20/30/40 per 1000. Extinction by tick
+5000 was respectively 10/10, 4/10, 0/10, 0/10, 0/10. At 10/1000 extinction ranged
+93–1806 ticks, extending the earlier five-seed observed range. At 15/1000 early
+extinction coexisted with persistence to the horizon. Surviving times are censored,
+not proof of permanence. No infinite-time threshold claim is made.
+
+The plot helper independently recomputed key outcomes and accounting from all
+250,050 metric rows. Committed compact CSV and a visually inspected two-panel
+figure preserve every seed, including extinct worlds. Formal totals now 290 runs
+/ 1,240,000 ticks. Existing five-campaign review archives remain untouched; their
+scope is explicitly historical. CI for preregistered source passed in 34775144877.
+
+Next useful mechanism question: distinguish founder establishment effects from
+later adaptation under scarce resources, with an explicitly controlled treatment
+rather than attributing mixed outcomes to either cause from this assay alone.

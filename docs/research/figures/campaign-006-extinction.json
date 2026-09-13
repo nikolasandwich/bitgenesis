@@ -1,0 +1,125 @@
+{
+  "input_sha256": {
+    "metadata.json": "9a5eb1baa6e7daf5cfb53a745c9fe03b2c29b40565f1b24b2cbe8cb1758d664e",
+    "results.json": "92c4c451254069030d755c4c9a4ca98bd645a1c4a11f9eee71537fea8e45fd49",
+    "regrowth-10-seed-500.csv": "fae632a5964785f620308bdf4def6552cc23fd728fc394cc64497f3494b82da7",
+    "regrowth-10-seed-501.csv": "2d1695bc0cf406a5adb3835da5209fd2ea429c2772d8d94cd905dda8c8adf925",
+    "regrowth-10-seed-502.csv": "2bc0b5ef88517eb25edd7da3112425a3e3a05bf6115fa972b17177e67a28c9eb",
+    "regrowth-10-seed-503.csv": "12fab347ee91b6413dc1313308d7ffe06a1e9a58ac068d0fdcb14a3ef40eda8d",
+    "regrowth-10-seed-504.csv": "33ad7341ad4f55aad86399b51d4ba6022581ed7f991fb1f9480eb7709c239d02",
+    "regrowth-10-seed-505.csv": "29bb9e25e58084488e25aa045813d3f76f51a729d3c56a4aaa9dbe94f609d5da",
+    "regrowth-10-seed-506.csv": "a96f8491a42ea64787e3d52bb148df86bf23b842efdc26aecc1179fbeef238e8",
+    "regrowth-10-seed-507.csv": "41800335b233e816e1733cb490599d4b9c3f2dee02c34356daa46bc344de7cf1",
+    "regrowth-10-seed-508.csv": "fb806e722ffc29c9828374642da1da8da16138a279060737626e30e74da96168",
+    "regrowth-10-seed-509.csv": "2538df3dce24f20f1e3d080c8c5c9cc3efb296411499c72be91baf6006c2c20c",
+    "regrowth-15-seed-500.csv": "1acabb6607689f06a0d16dc136b6e56a88f9eb298b2dfb9c4dea04635f70d611",
+    "regrowth-15-seed-501.csv": "20ec50c5691df3fcf8167d99cd07f813ad8a59dd09b4dc82db172772ea913278",
+    "regrowth-15-seed-502.csv": "2f8151a0af1cb69458e388a52ead3f4e54addb8e9d83ef200ca8a32f450bb3c4",
+    "regrowth-15-seed-503.csv": "6ada0134d7a4e308ad432df11a0e407c1a8b862d7758a93acbadec60b72999ce",
+    "regrowth-15-seed-504.csv": "dc2a4b085f58dd98bbfc9746d1dfc00a7a56be26465af34c84d0630b807531f8",
+    "regrowth-15-seed-505.csv": "c5ddd402b0856152b617a551f8b17f1dd045b9c752c32ffb2be51d1191bae913",
+    "regrowth-15-seed-506.csv": "aa10fe1574c2f982ea78e59cbb4ea9f89a1d24b6fc9defc60ef4501833366baa",
+    "regrowth-15-seed-507.csv": "11c396a866f52daf887a22b50be1584b7ef42828fc0a761e645ca53080e17fb4",
+    "regrowth-15-seed-508.csv": "1b577c0d9f368e093d541f9ed3c13aa441e6f87619973d2d73052824d2278842",
+    "regrowth-15-seed-509.csv": "72057ab7e697e8a7055a61a1276b761558727f8b6f4866178b67d110b8f5a86d",
+    "regrowth-20-seed-500.csv": "c774326ff1450f7e74b2a2402198e8f419a3944bb4247925a3931fd62c470c4d",
+    "regrowth-20-seed-501.csv": "f432f2c565fb65e746b80a9dd512da85e6c84c7e8f48379d2f6ac5a08304ca55",
+    "regrowth-20-seed-502.csv": "b89ee630cbafa2310dde4365793c74b6304fa1dd63a355d79d083b6d8dd7a990",
+    "regrowth-20-seed-503.csv": "3dba94abedfe914b95b83678d99c221c7eb399519bb27ed34c9b43b91d2348e5",
+    "regrowth-20-seed-504.csv": "cbeb4d62a2ac66f2b8558bd60c66ebc02cc1693cf44c673c01e99b9f82768f4a",
+    "regrowth-20-seed-505.csv": "09feb8cc9212c3fdf3e0de133e376b190f9d3835c0612564ddb9cd0f21f1ceb7",
+    "regrowth-20-seed-506.csv": "2007275b7f61a33e0bb03c89bb45eedc5e826c8fdb7c806e059e096b63fe9853",
+    "regrowth-20-seed-507.csv": "5cf7b660aa0ec0d14e5926b13a66d0b43039ffcd8a6ea7eabd058c3d6ba3c0cc",
+    "regrowth-20-seed-508.csv": "95bc57b3c79c34cae073738e317356c131bfc79f39767b983eb638460953fdcc",
+    "regrowth-20-seed-509.csv": "5eb189871de7cfb78892a58e3db00a0215232d5fc2baec8b92a11fead76448c2",
+    "regrowth-30-seed-500.csv": "3c543cdcfdcdc04616d8c0ced609c229e529387a55cb26402c3c5964af9756e3",
+    "regrowth-30-seed-501.csv": "767d43898fa368ab8e9c65b34c1d7936f4cf8d51d2afd947481850e5e8201bb4",
+    "regrowth-30-seed-502.csv": "660ddd2b95393658b16ab23b3a8efe84a79f36f5802397397ae7062dec58ab96",
+    "regrowth-30-seed-503.csv": "5d7a02fbe57177884783244832abcfbd576c003dab4b99b0861b8b0a7dc6a9b9",
+    "regrowth-30-seed-504.csv": "f5e5b49a93f0e51ac1bb302a41b743fad08f09fb6660dfc5152bb1cfc1457148",
+    "regrowth-30-seed-505.csv": "94341c13381ecc8ffcbb77fdf3a4e5f744b59a989e15bddf4a972d042a1ca08e",
+    "regrowth-30-seed-506.csv": "77bc3cda1862f20511c0f2df90d3051e5facc309405c66676d262e047d358570",
+    "regrowth-30-seed-507.csv": "652795fb220042cf363b4c7866339acde032f69658a822e6d89b7c38f5818e2d",
+    "regrowth-30-seed-508.csv": "95b143382e39cc52f3401a0f91bd45d990cc0fc3230d29587d87237a0e6afe2e",
+    "regrowth-30-seed-509.csv": "6adca93bd39ded26d534452ed75985d7ed52746605a737875eba54087632e891",
+    "regrowth-40-seed-500.csv": "2f6b989a59150f3de41f4330eea5761035342f39eeac301e8703cf5084db1d29",
+    "regrowth-40-seed-501.csv": "316eac68d53d0b4e68e8a60c9bc042d3aa9a04f1e695ad24b9f817b18d8e639b",
+    "regrowth-40-seed-502.csv": "0f5a19790fd667f1913a118c1ed05cdb36524c9128f18fd1a7934215c0894dbb",
+    "regrowth-40-seed-503.csv": "ac72c3d0d1be6f6f11a56abc2a8dcafaca7092530ab638ad32f14e2f6afbc135",
+    "regrowth-40-seed-504.csv": "e7f3a74606e8dee31a85d5e1918025334611a90e0440d358ec63977e07924afe",
+    "regrowth-40-seed-505.csv": "cc0fd104986ff60799f9c12e2625a65a9a99346d839a6c02b716cc4ef8557f76",
+    "regrowth-40-seed-506.csv": "ccc66f34843aa15defa066b35479a9e4cdbd8b498e71123c2e7f91ef2102daeb",
+    "regrowth-40-seed-507.csv": "2c0601a493bf50528e6a3f1dab8b96fe731da486878d1c50447a96ae442a8714",
+    "regrowth-40-seed-508.csv": "248a330b228c4968c95680e0d01ce26bd67d1b0dee79ed6416a0ea628ed7c74d",
+    "regrowth-40-seed-509.csv": "20aa8ab60f6488c05f5d4089e5fa4de9dd1e2207e8724b81c3455f3001bf40a2"
+  },
+  "script_sha256": "914f32adcd0e2fc27920165c4c820c066f6c8f8f2fda990869f4d71eaa571b84",
+  "matplotlib": "3.11.2",
+  "groups": [
+    {
+      "regrowth_probability": 10,
+      "extinct": 10,
+      "runs": 10,
+      "extinct_only_tick_range": [
+        93,
+        1806
+      ],
+      "final_population_range": [
+        0,
+        0
+      ],
+      "late_mean_population": 0
+    },
+    {
+      "regrowth_probability": 15,
+      "extinct": 4,
+      "runs": 10,
+      "extinct_only_tick_range": [
+        103,
+        432
+      ],
+      "final_population_range": [
+        0,
+        50
+      ],
+      "late_mean_population": 17.9301
+    },
+    {
+      "regrowth_probability": 20,
+      "extinct": 0,
+      "runs": 10,
+      "extinct_only_tick_range": null,
+      "final_population_range": [
+        28,
+        59
+      ],
+      "late_mean_population": 39.5899
+    },
+    {
+      "regrowth_probability": 30,
+      "extinct": 0,
+      "runs": 10,
+      "extinct_only_tick_range": null,
+      "final_population_range": [
+        49,
+        75
+      ],
+      "late_mean_population": 59.8804
+    },
+    {
+      "regrowth_probability": 40,
+      "extinct": 0,
+      "runs": 10,
+      "extinct_only_tick_range": null,
+      "final_population_range": [
+        61,
+        112
+      ],
+      "late_mean_population": 80.5074
+    }
+  ],
+  "output_sha256": {
+    "campaign-006-extinction.png": "825f90685dc743174f3a1e5f25673b798d800b64ea5416bda10fcaa29bfb5899",
+    "campaign-006-extinction.svg": "4332fe17d0ad49fc2949bbc4e714629d0dbaab8d785f56ff6ed14b3a9c324722"
+  }
+}

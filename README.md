@@ -69,6 +69,9 @@ Also see [resource regimes and demographic arrest](docs/research/campaign-004.md
 and the [Chinese review guide](docs/research/REVIEW.zh-CN.md).
 The latest [world-size experiment](docs/research/campaign-005.md) includes
 individual-seed trajectory figures and qualifies how founder loss depends on scale.
+The [scarce-resource follow-up](docs/research/campaign-006.md) measures delayed
+extinction and mixed outcomes at intermediate supply. Six campaigns now total
+290 runs / 1,240,000 ticks; earlier review archives retain their original scope.
 
 ## Repository layout
 
