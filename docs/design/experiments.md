@@ -21,6 +21,13 @@ terminal metrics for a declared seed/configuration. Do not update its checksum t
 hide changed dynamics: introduce a new rules version or document an interpreter
 compatibility boundary. Its reference was captured on Python 3.12.10 at `d789db1`.
 
+CI run [34776314237](https://github.com/nikolasandwich/bitgenesis/actions/runs/34776314237)
+passed the 34-test suite on Windows/Linux × Python 3.12/3.13/3.14. The frozen fixture
+is a seed-314159, 8×8, 12-founder, 120-tick world; equality there is a useful
+compatibility check, not a rerun of every research campaign on every interpreter.
+Use the recorded interpreter for exact historical work. Checkpoint loading still
+requires matching Python major/minor versions despite this passing fixture.
+
 Every Darwinian run saves the full
 configuration, seed, rules/schema versions, Git commit (and dirty state), Python
 version, invocation, source file hashes, and output schema version alongside raw events and metrics.

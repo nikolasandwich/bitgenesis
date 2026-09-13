@@ -324,3 +324,19 @@ The extracted entry page's four local links resolve. Core installation did not
 require the optional plotting libraries; initial wheel build obtained its declared
 build dependency, so this is not an offline-installation claim. The fresh run is
 operational validation and does not increase formal experiment totals.
+
+## 2026-09-14 — Autonomous cycle 16
+
+Extended CI to Windows/Linux × Python 3.12/3.13/3.14. Source `9c1ac4b` passed all
+six jobs in run 34776314237. The frozen engine fingerprint was unchanged. This
+fixture-level compatibility evidence does not mean all campaigns were rerun on
+all interpreters; cross-minor checkpoint loading remains deliberately rejected.
+
+CI emitted Node 20 deprecation notices for its old pinned actions. Queried official
+GitHub release/tag/action metadata and pinned [checkout v7.0.1](https://github.com/actions/checkout/releases/tag/v7.0.1)
+at `3d3c42e5aac5ba805825da76410c181273ba90b1` and
+[setup-python v7.0.0](https://github.com/actions/setup-python/releases/tag/v7.0.0)
+at `5fda3b95a4ea91299a34e894583c3862153e4b97`; both declare Node 24.
+Source `4039b54` passed run 34776427675 on all six jobs. Inspected logs confirm
+34 tests in every job and no preceding Node 20 deprecation message. Core engine,
+research outcomes and eight-campaign archive remain unchanged.

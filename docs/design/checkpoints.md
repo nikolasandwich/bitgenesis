@@ -30,7 +30,7 @@ A SHA-256 digest detects accidental corruption; it is not an authenticity guaran
 Tests compare continued state with uninterrupted state, including random state,
 events, lineage and spatial state. A CLI test compares complete checkpoint payloads
 across three separate processes. Existing frozen-rule regression tests remain in
-place, and the cross-platform CI runs these tests on Python 3.12 and 3.13.
+place, and the cross-platform CI runs these tests on Python 3.12, 3.13 and 3.14.
 
 ## Interrupted work
 

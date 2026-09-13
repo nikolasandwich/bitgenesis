@@ -6,6 +6,11 @@ Visual review entry `data/review-v0-8.html` and archive `data/bitgenesis-v0-revi
 cover all eight campaigns (370 runs / 1,740,000 ticks).
 Earlier archive descriptions below refer to preserved historical snapshots.
 
+Current compatibility evidence: 34 tests passed on Windows/Linux × Python
+3.12/3.13/3.14 in [run 34776314237](https://github.com/nikolasandwich/bitgenesis/actions/runs/34776314237).
+This covers the frozen fixture and CLI/recovery contracts; it is not all research
+campaigns replayed on six configurations. Checkpoint Python-version restrictions remain.
+
 ## What runs now
 
 Python 3.12+ package and CLI, original scaffold compatibility, finite toroidal
