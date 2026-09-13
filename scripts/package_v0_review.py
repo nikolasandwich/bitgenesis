@@ -25,10 +25,10 @@ def sha256(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
-    names = {8: "review-8", 9: "nine-campaigns", 10: "ten-campaigns", 11: "eleven-campaigns"}
+    names = {8: "review-8", 9: "nine-campaigns", 10: "ten-campaigns", 11: "eleven-campaigns", 12: "twelve-campaigns"}
     args.output = args.output or Path(f"data/bitgenesis-v0-{names[args.campaigns]}.zip")
     if args.output.exists():
         raise ValueError("Review output already exists; choose a new path")
@@ -60,7 +60,8 @@ def main():
     workload = check_inventory(root, inventory)
     helpers = {9: "summarize_v0_energy_allocation.py",
                10: "summarize_v0_reproduction_threshold.py",
-               11: "summarize_v0_long_horizon.py"}
+               11: "summarize_v0_long_horizon.py",
+               12: "summarize_v0_birth_cost.py"}
     for number, helper in helpers.items():
         if number > args.campaigns:
             continue
