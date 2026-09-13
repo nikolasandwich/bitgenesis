@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from bitgenesis.v0.engine import Config, World
 from bitgenesis.v0.runner import run
@@ -111,6 +112,28 @@ class DarwinTests(unittest.TestCase):
                        {"initial_food": 25}, {"birth_threshold": 5}):
             with self.subTest(change=change), self.assertRaises(ValueError):
                 replace(Config(), **change)
+
+    def test_frame_budget_preserves_endpoints_and_exact_frame_metrics(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "bounded"
+            run(Config(width=3, height=3, initial_population=2), 11, output, 1, max_frames=4)
+            frames = json.loads((output / "frames.json").read_text())
+            self.assertEqual([f["tick"] for f in frames], [0, 4, 8, 11])
+            self.assertTrue(all(f["metrics"]["tick"] == f["tick"] for f in frames))
+            self.assertEqual(len((output / "metrics.csv").read_text().splitlines()), 13)
+            metadata = json.loads((output / "metadata.json").read_text())
+            self.assertEqual(metadata["frame_interval"], 4)
+            self.assertEqual(metadata["requested_frame_interval"], 1)
+
+    def test_interruption_is_recorded_without_success_claim(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "interrupted"
+            with patch.object(World, "step", side_effect=KeyboardInterrupt), self.assertRaises(KeyboardInterrupt):
+                run(Config(), 10, output)
+            metadata = json.loads((output / "metadata.json").read_text())
+            self.assertEqual(metadata["status"], "interrupted")
+            self.assertEqual(metadata["completed_steps"], 0)
+            self.assertFalse((output / "index.html").exists())
 
 
 if __name__ == "__main__":

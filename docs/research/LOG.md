@@ -68,3 +68,9 @@ Campaign 004 preregistered: 20 longer runs across scarce, baseline, abundant and
 guaranteed-per-tick regrowth. Measure late birth/death activity to distinguish
 demographic persistence from evolutionary turnover. Do not add aging or energy
 caps mid-experiment if crowding freezes reproduction.
+
+Recorder hardening: output schema 2 caps retained replay frames and chart samples
+while keeping every raw metric tick. Exact frame metrics remain available even
+when charts are thinned. Interrupted runs record `interrupted` rather than a
+false successful status. Sixteen tests pass, including the unchanged V0 dynamics
+fingerprint. Full lineage memory remains an explicit limitation.

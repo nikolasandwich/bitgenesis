@@ -4,6 +4,7 @@ import csv
 from dataclasses import asdict, fields
 import hashlib
 import json
+import math
 from pathlib import Path
 import platform
 import subprocess
@@ -56,19 +57,26 @@ def provenance():
 
 def frame(world):
     return {"tick": world.tick, "food": world.food.copy(),
-            "organisms": [[o.position, o.genome, o.founder_id] for o in world.living.values()]}
+            "organisms": [[o.position, o.genome, o.founder_id] for o in world.living.values()],
+            "metrics": world.snapshot()}
 
 
-def run(config, steps, output, frame_interval=10):
+def run(config, steps, output, frame_interval=10, max_frames=1001):
     if type(steps) is not int or steps < 0:
         raise ValueError("steps must be a nonnegative integer")
     if type(frame_interval) is not int or frame_interval < 1:
         raise ValueError("frame_interval must be a positive integer")
+    if type(max_frames) is not int or max_frames < 2:
+        raise ValueError("max_frames must be an integer of at least 2")
+    effective_frame_interval = max(frame_interval, math.ceil(steps / (max_frames - 1)))
+    chart_interval = max(1, math.ceil(steps / 10000))
     output = Path(output)
     output.mkdir(parents=True, exist_ok=False)
-    metadata = {"schema_version": 1, "rules_version": RULES_VERSION,
+    metadata = {"schema_version": 1, "output_schema_version": 2, "rules_version": RULES_VERSION,
                 "config": asdict(config), "requested_steps": steps,
-                "frame_interval": frame_interval, **provenance(), "status": "running"}
+                "frame_interval": effective_frame_interval,
+                "requested_frame_interval": frame_interval, "max_frames": max_frames,
+                "chart_interval": chart_interval, **provenance(), "status": "running"}
     def save(name, value):
         (output / name).write_text(json.dumps(value, indent=2, allow_nan=False) + "\n", encoding="utf-8")
     save("metadata.json", metadata)
@@ -85,11 +93,12 @@ def run(config, steps, output, frame_interval=10):
                 world.check_invariants()
                 snapshot = world.snapshot()
                 writer.writerow(snapshot)
-                snapshots.append(snapshot)
+                if tick % chart_interval == 0 or tick == steps:
+                    snapshots.append(snapshot)
                 for event in world.events:
                     events_file.write(json.dumps(event, separators=(",", ":")) + "\n")
                 world.events.clear()
-                if tick % frame_interval == 0 or tick == steps:
+                if tick % effective_frame_interval == 0 or tick == steps:
                     frames.append(frame(world))
         save("lineage.json", [asdict(o) for o in world.lineage.values()])
         save("frames.json", frames)
@@ -100,8 +109,9 @@ def run(config, steps, output, frame_interval=10):
         write_lineage_viewer(output / "lineage.html", world)
         metadata.update(status="complete", completed_steps=world.tick)
         save("metadata.json", metadata)
-    except Exception as error:
-        metadata.update(status="failed", error=f"{type(error).__name__}: {error}", completed_steps=world.tick)
+    except (Exception, KeyboardInterrupt) as error:
+        metadata.update(status="interrupted" if isinstance(error, KeyboardInterrupt) else "failed",
+                        error=f"{type(error).__name__}: {error}", completed_steps=world.tick)
         save("metadata.json", metadata)
         raise
     return world.snapshot()

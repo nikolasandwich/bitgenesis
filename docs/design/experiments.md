@@ -31,6 +31,22 @@ Installed wheels also hash their package source. They report Git provenance as
 unavailable rather than accidentally attributing code to an unrelated enclosing
 checkout. Source installs additionally hash committed research helper scripts.
 
+## Recorder output schema 2
+
+Dynamics remain `v0-darwin-1`; recording changes have a separate
+`output_schema_version`. Schema 2 embeds exact metrics in each replay frame.
+The recorder retains at most `--max-frames` frames (default 1,001), including
+initial/final states, increasing the effective interval when necessary. Charts
+retain at most 10,001 evenly sampled tick observations; their horizontal positions
+use actual tick numbers. Metadata records requested/effective replay intervals
+and chart interval. Sampling can omit brief changes; raw `metrics.csv` still
+contains every tick and `events.jsonl` every lifecycle event.
+
+This bounds replay/plot retention, not total engine memory: complete lineage
+records still grow with births. Prior output files and generated viewers are not
+rewritten. Interrupted recorded runs mark status `interrupted` and retain the
+completed CSV/event prefix rather than claiming completion.
+
 Store generated runs in ignored `data/` directories. Keep small definitions and
 necessary regression fixtures in Git; archive large research datasets separately
 with checksums and retrieval instructions. Do not overwrite past experiment runs.

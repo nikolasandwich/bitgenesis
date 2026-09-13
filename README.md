@@ -34,6 +34,8 @@ Without a Darwin configuration, the CLI still reports the original empty scaffol
 The Darwin command writes `index.html` (open locally for replay), per-tick metrics,
 birth/death events, lineage records, sampled frames, and provenance metadata.
 Output directories must be new; previous runs are never overwritten.
+Replay retains up to 1,001 frames by default (`--max-frames`); long-run charts
+are sampled, while CSV metrics retain every tick. Sampling intervals are recorded.
 
 ## Research stages
 

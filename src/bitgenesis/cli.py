@@ -33,6 +33,7 @@ def main(argv: list[str] | None = None) -> int:
     v0.add_argument("--steps", type=int, default=1000, help="Darwin run duration (default 1000)")
     v0.add_argument("--output", type=Path, help="New output directory, required for Darwin runs")
     v0.add_argument("--frame-interval", type=int, default=10, help="Replay sampling interval")
+    v0.add_argument("--max-frames", type=int, default=1001, help="Maximum stored replay frames (default 1001)")
     for name in ("seed", "width", "height"):
         v0.add_argument(f"--{name}", type=int, help=f"Override {name}")
     args = parser.parse_args(argv)
@@ -53,7 +54,7 @@ def main(argv: list[str] | None = None) -> int:
                                        if getattr(args, name) is not None})
             if args.output is None:
                 raise ValueError("Darwin runs require --output pointing to a new directory")
-            summary = run(config, args.steps, args.output, args.frame_interval)
+            summary = run(config, args.steps, args.output, args.frame_interval, args.max_frames)
             print(f"BitGenesis V0 ({rules}) | tick: {summary['tick']} | "
                   f"population: {summary['population']} | births: {summary['births']}")
             print(f"Artifacts: {args.output.resolve()}")
