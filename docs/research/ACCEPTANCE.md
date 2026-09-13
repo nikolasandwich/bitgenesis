@@ -1,5 +1,10 @@
 # V0 acceptance checkpoint
 
+Current review entry: `data/review-v0-6.html`, with six campaigns totaling 290 runs
+/ 1,240,000 ticks. The latest report is [scarce-resource extinction](campaign-006.md).
+The packager now includes all six campaigns in `data/bitgenesis-v0-review-6.zip`.
+Earlier archive descriptions below refer to preserved historical snapshots.
+
 ## What runs now
 
 Python 3.12+ package and CLI, original scaffold compatibility, finite toroidal
