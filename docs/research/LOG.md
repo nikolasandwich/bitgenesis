@@ -410,3 +410,17 @@ SHA-256 `cc81e02cae90d8d72117d41310bc85c5051a7697391f96bb097f0210e510832d`.
 The integrated packaging path passed, including 11 full-run audits and the
 campaign-005 metric audit. It now includes energy/retention analysis, streamed
 JSON code and the standalone verifier; earlier `review-8.zip` remains preserved.
+
+## 2026-09-14 — Autonomous cycle 21
+
+Clarified V0's inherited controller vocabulary directly from engine code: exactly
+1001 scalar movement settings, with no genotype mechanism for adding sensing,
+memory, actions or topology. This is not a bound on total world states or collective
+patterns. It distinguishes genealogical growth, scalar variation and new functions.
+
+Retrospectively counted all campaign-001 lineage genomes. Mutation-enabled runs
+visited 241–303 values, retained 7–19 at the endpoint and reached living generations
+110–143. No-mutation runs visited only their initial 76–79 values, retained one and
+reached generations 101–115. Bounds, unique IDs, terminal counts and no-mutation
+closure passed; raw input hashes and ten seed records are tracked. No new formal
+world runs. Earlier archive-verifier source passed CI in 34777333414.

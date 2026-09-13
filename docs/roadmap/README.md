@@ -23,6 +23,11 @@ Graduation criteria:
   reproductive success; include a no-mutation control and report extinctions.
 - Provide a basic world view and lineage inspection. Explain every designed rule.
 
+The current scalar-genome implementation has 1001 encoded movement settings.
+Generation count and newly visited settings do not establish new functions; see
+the [expressive-boundary analysis](../design/emergence.md#v0s-encoded-behavior-ceiling).
+This bounds the inherited controller vocabulary, not every collective world pattern.
+
 ## V1 — Evolving Controllers
 
 Genomes encode a small sensor-to-action controller. Start from random parameters;
