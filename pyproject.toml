@@ -11,6 +11,9 @@ requires-python = ">=3.12"
 license = {text = "MIT"}
 dependencies = []
 
+[project.optional-dependencies]
+analysis = ["matplotlib>=3.8,<4"]
+
 [project.scripts]
 bitgenesis = "bitgenesis.cli:main"
 
