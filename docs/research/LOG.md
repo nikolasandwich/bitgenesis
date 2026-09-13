@@ -1114,3 +1114,18 @@ Independent expected-hash verification checked 13 HTML pages and ten local
 targets. Local 64 tests and source CI 34785000803 passed. Archive remains local;
 the published download instructions still identify the twelve-campaign draft.
 Next: recompute campaign 013 from an extracted archive before uploading a new draft.
+
+## 2026-09-14 — Autonomous cycle 74
+
+Revalidated the thirteen-campaign archive hash before extracting a new portable
+copy. Ran its archived 013 verifier with the existing Python 3.12 interpreter
+using -I -S: no site packages or working-directory imports. All 744901 birth
+records and 500010 metric rows passed. Recomputed JSON equals the archived
+verification JSON exactly, including every run, observation and input/script
+hash. This was a record reanalysis, not a new simulation or fresh Python install.
+
+Uploaded the archive and checksum to draft prerelease v0.0.1-preview.5, release
+388046564, targeting 1fc1c30. API confirms both assets uploaded, 86150042 archive
+bytes and matching SHA-256. Draft remains unpublished; older drafts are unchanged.
+Updated acceptance and research download entries to the new thirteen-campaign
+snapshot while preserving historical archive scopes and hashes.

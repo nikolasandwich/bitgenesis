@@ -7,13 +7,13 @@ independent seed replicates. See the [research index](README.md) and latest
 The latest [birth-cost report](campaign-012.md) adds eighty verified executions.
 It is included in the current page, but not in the eleven-campaign fixed archive.
 The newest [genome-coverage report](campaign-013.md) adds ten verified 50000-tick
-worlds; it is included in the thirteen-campaign page, but not the fixed archive.
+worlds; it is included in the thirteen-campaign page and newest archive.
 Visual review entry `data/review-v0-13.html` covers all thirteen campaigns, including
 the allocation trajectories, threshold/cost survival curves, longitudinal follow-up
 and cumulative versus living genome coverage.
 It distinguishes executions from independent samples and identifies replayed prefixes.
 Earlier pages remain preserved. The uploaded nine-campaign archive excludes 010–011.
-Newest local archive: `data/bitgenesis-v0-thirteen-campaigns.zip`, source
+Newest uploaded archive: `data/bitgenesis-v0-thirteen-campaigns.zip`, source
 `1fc1c30dfcb6bcccbc929c0ba75ea5957272bc60`, 853 payload files / 86,150,042 bytes.
 SHA-256: `ed6e90acda91f1b8e74f88acca5f246c03ee308c627cb611c3e2d180cd1383f2`.
 It adds campaign 013 raw birth catalogs and metrics, the thirteen-campaign page,
@@ -21,9 +21,14 @@ and the corresponding verifier. Packaging reran eleven full-run audits and
 metric verifiers for 005/009–013. Standalone expected-hash verification passed:
 13 HTML pages and ten local targets. Source CI
 [34785000803](https://github.com/nikolasandwich/bitgenesis/actions/runs/34785000803) passed.
-This new local archive has not yet been uploaded; the download below remains twelve campaigns.
+The [thirteen-campaign draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-507ea861ad4cf6ec9e02)
+contains both archive and checksum. GitHub reports matching size and SHA-256.
+An extracted copy recomputed the complete 013 verification JSON exactly,
+including all input and script hashes, using Python 3.12 with `-I -S`.
+This used the existing interpreter, not a new installation or a new simulation.
+It checked 744901 birth rows and 500010 metric rows using archived code/data.
 
-Latest uploaded archive: `data/bitgenesis-v0-twelve-campaigns.zip`, source
+Previous uploaded archive: `data/bitgenesis-v0-twelve-campaigns.zip`, source
 `11da88c6c19729b066a8ad4e30ca1362ae896c77`, 815 payload files / 70,481,664 bytes.
 SHA-256: `121e11e56b22cd20c2f584b2989e9c25d9348042208ba02232cc4d1bdfad7cd4`.
 It includes all twelve raw campaigns and the twelve-campaign review page. Packaging
