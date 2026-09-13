@@ -52,6 +52,22 @@ family, not a sensor, memory, new action or functional innovation. Large birth
 counts and long genealogies do not enlarge the mapping. Conversely, this is not
 a bound of 1001 on collective world states.
 
+![Cumulative and living genome values for every world, with the fixed 1001-setting vocabulary marked.](figures/campaign-013-coverage.png)
+
+Left: exact cumulative change points from the verified per-tick metrics; right:
+living diversity sampled every 100 ticks, which can omit brief fluctuations.
+The panels have different vertical scales. All five worlds in each arm are
+shown, with overlapping controls retained. The dotted bound applies to encoded
+movement settings, not all possible world states. Curve data, sampling interval
+and source hashes are saved in the [figure record](figures/campaign-013-coverage.json).
+No fitted plateau or extrapolation is shown.
+
+```sh
+python scripts/plot_v0_genome_coverage.py --output data/my-coverage-figure
+```
+
+Install the optional analysis dependencies to regenerate the PNG/SVG.
+
 ## Verification and limits
 
 Independently checked 744901 birth records and 500010 metric rows. Reconstructed

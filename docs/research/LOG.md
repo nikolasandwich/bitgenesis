@@ -1082,3 +1082,13 @@ death/spatial records. Inventory now validates thirteen campaigns / 550 executio
 / 5740000 computed ticks, retaining twenty follow-ups and 200000 prefix replays.
 Preregistered-source CI 34784159894 and 64-test verifier CI 34784386963 passed.
 Twelve-campaign pages and downloadable archive retain their explicit scope.
+
+## 2026-09-14 — Autonomous cycle 71
+
+Added a two-panel genome-coverage figure from verified raw metrics: exact
+cumulative change points versus living diversity sampled every hundred ticks.
+All ten worlds are included; different vertical scales and sampling omissions
+are explicit. The 1001 reference bounds the inherited movement vocabulary only.
+No plateau fit or future extrapolation. Input hashes match the independent
+verification report. Saved PNG/SVG, curve data and hash sidecar, and visually
+checked axes, labels and legend. No new simulation or hypothesis test.
