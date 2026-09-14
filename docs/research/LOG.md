@@ -2325,3 +2325,15 @@ Added a 100-tick observer/reference case with both charges zero on engineering s
 5. Preserved source/RNG/lineage/event and energy checks. No campaign-019 outcome
 world has been run; inventory remains eighteen verified campaigns. Old metric
 helpers' birth-cost-4 assumptions require explicit new verification support.
+
+## 2026-09-14 — Autonomous cycle 159
+
+Implemented the preregistered campaign-019 runner: block layout, zero movement
+charge, threshold × birth-cost treatments, forty new-seed worlds. Saves full metrics
+and early feeding/terminal/energy records, with explicit zero-movement and zero-birth
+payment checks. Clean-source enforcement and new output paths preserve provenance.
+
+Engineering seed 23 confirms all four initial founder/RNG/map pairings and exact
+instrumented/reference state, lineage, events and RNG over short trajectories.
+All 144 local tests pass. Commit before outcome launch; full verification and
+completed workload accounting remain separate steps. Earlier runners are unchanged.

@@ -78,3 +78,9 @@ labels, energy reconstruction and zero-cost semantics. Reconstruct all published
 summaries from raw records before updating formal workload totals. Older helpers
 that assume birth_cost=4 must not be used unchanged to validate this experiment.
 Earlier experiments, their verifiers and fixed archives retain their semantics.
+
+Run the committed implementation from the repository root:
+
+```sh
+python -m scripts.run_v0_joint_zero_charge --output data/campaign-019
+```
