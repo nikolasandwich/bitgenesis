@@ -165,6 +165,7 @@ cohort at equal uncapped nominal supply, varying renewal probability and packet
 size together. This differs from the earlier supply-rate sweeps. It explicitly
 retains capacity/feeding truncation as intervention consequences and measures
 realized supply, rather than calling the comparison a pure variance manipulation.
-Only the protocol is committed at registration; runner engineering and outcome
-execution remain pending. This supersedes earlier statements in this note that no
+The protocol preceded runner engineering and outcome execution. All sixty worlds
+have now completed; independent metric verification passes. Early observer-stream
+verification and full result synthesis remain pending. This supersedes earlier statements in this note that no
 new V0 campaign had yet been registered. V1 remains design only.

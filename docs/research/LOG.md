@@ -2721,3 +2721,23 @@ Runner saves all metric rows, early observation streams, registered resource/upt
 checkpoints and status/provenance. Original campaign runners are unchanged.
 Commit clean source before launching the sixty-world outcome cohort; independent
 full-grid and observation verification remains a separate gate after execution.
+
+
+## 2026-09-14 — Autonomous cycle 184
+
+Previous turn answered the user's planning question without changing project state.
+Revalidated the live campaign-020 process and implemented a separate independent
+metric verifier. It checks actual renewal configuration before construction-only
+normalization, all six initial states per seed, packet-specific supply bounds,
+zero-charge basal accounting and uptake limits over every transition. It reconstructs
+all registered endpoints, checks JSON/CSV agreement, and reports both renewal-versus-
+reference and within-renewal threshold pairs. Three adversarial tests reject excess
+supply, hidden energy charges and impossible uptake; all 170 tests pass.
+
+The original process completed normally: sixty worlds / 600,000 simulation ticks.
+The standard-library verifier passes all 600,060 metric rows, sixty initial states,
+forty renewal pairs and thirty threshold pairs. Saved its hash-bound report as
+results/campaign-020-verification.json. Early observer streams remain a separate
+uncompleted verification gate; no full campaign acceptance, updated formal inventory,
+new archive or causal mediation claim is made in this cycle. Existing protocols,
+runners and V0 engine semantics remain unchanged.
