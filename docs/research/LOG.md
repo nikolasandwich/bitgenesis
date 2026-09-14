@@ -4094,3 +4094,9 @@ Four tests cover paid founder/child builds and newborn timing, failed-child allo
 Previous turn integrated V2 construction. Added separate V2 CLI/persisted runner with complete successful/failed attempt records, initial/final construction history, streamed actor/events, explicit attempted/successful founder counts, construction/failure losses, V2 source plus V1 controller hashes. V0/V1 unchanged. Initial output failure is inside failure-status handling.
 
 Two tests verify byte-identical runs, initial and tick energy balances from serialized data, attempt allocation partition, failed-founder denominator, direct mode and overwrite rejection. Full246 tests pass. Actual CLI engineering seed81100/default50 steps:80 founder attempts,6 successful,74 failed,zero births,6 terminal living; construction27066,failure loss22580. All failure records retained. This highlights a viability calibration need, not evidence of evolved development. Next independent V2 development/history audit before a registered calibration grid.
+
+## 2026-09-14 — Autonomous cycle 268
+
+Previous turn completed V2 persisted runner. Added independent construction audit without simulator/development imports. Rebuilds fields using a separately expressed local-difference update, exact truncation/decay, round/expression budgets, direct read/padding budgets, final coefficients and attempt validity/loss. CLI binds final and metadata hashes and retains explicit construction-only scope.
+
+Compared100 random genomes over6 budgets plus direct controls over budgets/padding, and rejected corrupted history/charge/loss/living-energy records. Engineering001 all80 attempts pass independently:6 successful,74 failed,construction27066,loss22580. Report archived. Full248 tests pass. Next reconcile V2 attempts with founder/child life history, actor transfers and global ledger before registering viability calibration. No V2 outcomes inferred.

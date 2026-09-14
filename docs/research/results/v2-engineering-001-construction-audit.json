@@ -1,0 +1,11 @@
+{
+  "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+  "attempts": 80,
+  "successful": 6,
+  "failed": 74,
+  "construction_cost": 27066,
+  "failure_loss": 22580,
+  "final_sha256": "7a52e96bd803f04e3f8b8fcec47fa22e1e8a63bed4d84838325d6233fc94e958",
+  "metadata_sha256": "128de82ad60337ad31e2de72d602f6737f9338e951042e648fed30799d3ec0a4",
+  "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+}

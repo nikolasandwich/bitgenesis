@@ -27,6 +27,16 @@ The seed81100/default50-step smoke check recorded80 founder attempts,6 successfu
 observation from one configuration, not a comparative evolutionary result.
 Engineering seeds80000..81102 must be excluded from subsequent unseen evaluation.
 
-Next: independently reconstruct development from genes and recorded budgets,
-validate V2 life-history/energy records, then preregister a viability calibration
+Independent construction audit is available:
+
+```console
+python -m bitgenesis.v2.construction_audit data/my-v2-check --output data/my-v2-construction-audit.json
+```
+
+It independently reconstructs every development round, expressed coefficients,
+budget stop, cost and failure loss from genes and budgets, including direct
+construction/padding. It does not yet verify world life history, spatial events
+or RNG streams. The engineering001 record passes all80 construction attempts.
+
+Next: validate V2 life-history/energy records, then preregister a viability calibration
 that retains all failed development rather than analyzing only successful births.
