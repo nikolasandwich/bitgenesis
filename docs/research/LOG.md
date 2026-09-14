@@ -3327,3 +3327,24 @@ creating data/campaign-022 (confirmed absent). Correct module invocation
 successfully from clean c63a72e; source and registered outcomes were unchanged.
 The first two worlds completed; the same process continues. This is execution
 progress only, not independently verified cohort completion.
+
+
+## 2026-09-14 — Autonomous cycle 215
+
+Previous cycle launched campaign 022 from clean c63a72e. Re-polled the same live
+process without restarting. Added independent initialization and aggregate-metric
+verification, using the historical independent geometry constructor rather than
+the runner. It verifies the actual mutation/configuration, founder/map/RNG identity,
+initial energy, complete paired states, per-step population/energy/uptake accounts,
+trait bounds and no-mutation closure, registered checkpoint aggregates, terminal
+summary, and per-world/cohort CSV/JSON equality. Full gate requires all forty
+completed worlds and preserved protocol/clean provenance.
+
+New corruption test exercises real engineering records under both arms and rejects
+wrong founder genome, capacity/energy corruption, invalid changed-birth count,
+nonfinite mean, tick-order damage and truncated horizon. All 190 tests pass.
+Independently checked the completed prefix of 37 worlds / 370,037 metric rows;
+this is not full-cohort certification. The event/lineage/histogram gate remains
+explicitly separate and required before scientific completion. Source/runtime and
+registered experiment unchanged; formal completed totals remain at 21 campaigns.
+Autonomous goal stays active. Next finish cohort and reconstruct individual histories.
