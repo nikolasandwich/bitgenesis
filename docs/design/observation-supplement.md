@@ -66,3 +66,12 @@ unchanged feeding/terminal streams to make its verification self-contained.
 This is a new archive, never an overwrite of revision 1. A revision-2 build,
 fresh-extraction result and upload must each have their own evidence record.
 It still excludes campaigns 001–016 raw data and generated HTML review pages.
+
+## Verified revision-2 download
+
+[Revision-2 draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-c9fe26b8ca6cb88bead1) (repository permissions required).
+The ZIP is 17,503,463 bytes with 738 payload files from source `02df9c1`.
+All eight complete reports matched after fresh extraction. Both remote asset
+sizes and SHA256 values match local files. See the
+[extraction record](../research/results/observation-supplement-017-r2.json) and
+[upload record](../research/results/release-observations-017-r2.json).

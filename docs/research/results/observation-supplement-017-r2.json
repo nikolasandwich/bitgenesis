@@ -1,0 +1,19 @@
+{
+  "archive": "bitgenesis-v0-observations-017-r2.zip",
+  "sha256": "48d613d4189acc84fe878b5199bca682fb164a9abd5baaaa80081a47df053377",
+  "bytes": 17503463,
+  "payload_files": 738,
+  "source_commit": "02df9c1143c066dec89cc21ab6ff6da9633e6ec5",
+  "observation_revision": 2,
+  "fresh_extracted_reports_equal": [
+    "feeding-attempts-017.json",
+    "birth-opportunities-017.json",
+    "movement-observations-017.json",
+    "action-replay-017.json",
+    "complete-movement-017.json",
+    "individual-intake-017.json",
+    "energy-replay-017.json",
+    "cohort-energy-017.json"
+  ],
+  "scope": "Eight archived scripts executed with isolated standard-library Python from fresh extraction; exact complete report equality. No installation, new simulation, or remote upload claim."
+}

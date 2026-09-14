@@ -53,3 +53,7 @@ python -I -S scripts/analyze_v0_individual_intake.py --input data/action-replay-
 完整报告见[逐世界结果](results/individual-intake-017.json)。分析只用标准库，不运行引擎。
 [观测补充包](../design/observation-supplement.md)包含所需输入，但其固定源码早于本分析；
 使用当前分析脚本和结果文件，不能声称旧包内已经包含这项新分析。
+
+更新：以上关于固定补充包缺少后续工具或数据的说明指第一版。
+[第二版补充包](../design/observation-supplement.md#verified-revision-2-download)
+现已包含能量账本和八项复算所需输入，旧版未被覆盖。

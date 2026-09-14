@@ -2141,3 +2141,16 @@ Added analysis, complete report, Chinese interpretation and boundary tests for
 internal transfers, endpoint births and rejection of unbalanced records.
 
 All 137 local tests pass.
+
+## 2026-09-14 — Autonomous cycle 145
+
+Built observation supplement revision 2 from clean source 02df9c1, adding the
+energy replay dataset and three analyses to the five existing checks. The archive
+contains 738 payload files / 17,503,463 bytes. Eight analyses match complete saved
+reports before packaging and again from a fresh extracted directory with isolated
+standard-library Python. No package installation or new simulation was required.
+
+Uploaded separate draft v0.0.1-observations.2 and verified both asset sizes and
+SHA256 values through the GitHub API against local files. Linked extraction/upload
+evidence and updated review entry points. Revision 1 and the full seventeen-campaign
+archive retain their original scopes; no independent remote download claimed.

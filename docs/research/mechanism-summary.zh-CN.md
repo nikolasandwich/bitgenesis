@@ -60,3 +60,7 @@ V1 设计则需要固定各感官对照的繁殖条件与初始地图，避免�
 [代际能量账目](cohort-energy-017.md)进一步区分直接消耗和传给后代的能量：
 原阈值成片组到百步时创始个体全部死亡，剩余能量在后代中。后代内部转移不计为新增资源；
 账目解释了代际构成，却没有识别提高繁殖阈值的唯一因果机制。
+
+最新[第二版观测补充包](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-c9fe26b8ca6cb88bead1)（约 17.5 MB，草稿需要仓库权限）
+已包含个体摄食、能量账本与代际收支分析，八项解压复算全部一致。
+第一版与十七轮完整包保持原范围；核验说明见[补充包指南](../design/observation-supplement.md)。

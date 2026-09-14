@@ -44,3 +44,7 @@ python -I -S scripts/analyze_v0_cohort_energy.py --output data/my-cohort-energy
 
 账本本身的独立重建范围见[观测工具说明](../design/feeding-observer.md)。
 这是旧轨迹的补充分析，不增加正式实验数；现有固定下载包尚未包含新能量账本与本分析。
+
+更新：以上关于固定补充包缺少后续工具或数据的说明指第一版。
+[第二版补充包](../design/observation-supplement.md#verified-revision-2-download)
+现已包含能量账本和八项复算所需输入，旧版未被覆盖。

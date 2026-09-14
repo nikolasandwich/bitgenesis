@@ -1,0 +1,20 @@
+{
+  "id": 388174229,
+  "tag_name": "v0.0.1-observations.2",
+  "html_url": "https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-c9fe26b8ca6cb88bead1",
+  "draft": true,
+  "target_commitish": "02df9c1143c066dec89cc21ab6ff6da9633e6ec5",
+  "assets": [
+    {
+      "name": "bitgenesis-v0-observations-017-r2.zip",
+      "size": 17503463,
+      "digest": "sha256:48d613d4189acc84fe878b5199bca682fb164a9abd5baaaa80081a47df053377"
+    },
+    {
+      "name": "bitgenesis-v0-observations-017-r2.zip.sha256",
+      "size": 105,
+      "digest": "sha256:d3ee98efd335b4e767685b49113e73e3a02bed9e3a286e7cea9065cbf44cd1c5"
+    }
+  ],
+  "scope": "Remote API sizes and SHA256 values match local files. No independent remote download."
+}

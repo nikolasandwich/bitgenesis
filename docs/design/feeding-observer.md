@@ -204,3 +204,7 @@ See the [complete verification report](../research/results/energy-replay-017.jso
 This is independent arithmetic over retained observations, not an independent
 historical action reference. The fixed observation supplement predates this tool
 and dataset; earlier feeding/terminal bytes and world rules remain unchanged.
+
+Revision 2 now includes the energy dataset and eight reanalyses; the earlier
+fixed-download limitations above refer to revision 1. See the
+[revision-2 guide](observation-supplement.md#verified-revision-2-download).

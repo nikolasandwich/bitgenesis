@@ -72,3 +72,7 @@
 
 需要重新构建验收材料时，使用 `python scripts/build_v0_review.py --campaigns 17 --output data/my-review.html`；
 需要完整本地数据，输出路径必须是新路径。打包方式和检查范围见[归档核验指南](../design/review-verification.md)。
+
+最新[第二版观测补充包](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-c9fe26b8ca6cb88bead1)（约 17.5 MB，草稿需要仓库权限）
+已包含个体摄食、能量账本与代际收支分析，八项解压复算全部一致。
+第一版与十七轮完整包保持原范围；核验说明见[补充包指南](../design/observation-supplement.md)。
