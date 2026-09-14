@@ -87,3 +87,5 @@ python scripts/build_v0_review.py --campaigns 19 --output data/my-review-19.html
 阶段证据见[V0 验收对照](../roadmap/v0-evidence.md)，历史交付记录见[检查点](ACCEPTANCE.md)。
 
 最新[六项V0标准复核](../roadmap/v0-review-023.zh-CN.md)说明阶段已具备的证据与尚无感知、适应性改善证明的边界；本次复核不增加模拟数量。
+
+最新浏览器复查尝试被工具的本地文件URL访问策略拒绝，未重新验证交互；见[检查记录](results/review-browser-023.json)。这不代表页面报错，也不改变已通过的归档、静态链接和独立安装核验。

@@ -1,0 +1,12 @@
+{
+  "page": "data/review-v0-23.html",
+  "page_sha256": "bef767b723d14bdcdf729ce4ded196f47dacf37a0d7492c73d278f8ace87e0e2",
+  "static_local_targets_checked": 24,
+  "browser": "Codex In-app Browser",
+  "tab_title": "BitGenesis \u00b7 V0 \u7814\u7a76\u9a8c\u6536",
+  "attempt": "Select existing scope23 file URL tab for interactive review",
+  "status": "blocked_by_browser_url_policy",
+  "tool_message": "Blocked browser navigation by Browser Use URL policy: file:///[local workspace]/bitgenesis/data/review-v0-23.html",
+  "interactions_verified": [],
+  "scope": "Browser inventory confirms the existing page tab. Selecting it was rejected by URL policy; no playback, lineage, image-load or console interaction result is claimed from this attempt. Static verification remains separate."
+}

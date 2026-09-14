@@ -3763,3 +3763,19 @@ fixed-state probes as the direct behavioral comparison and nested actual-ancesto
 controls for reproduction. Exact RNG/protocol fields remain future preregistration
 work; no V1 runtime, pilot or new V0 experiment. Linked design sources checked.
 Autonomous goal active; prior archives and V0 semantics unchanged.
+
+## 2026-09-14 — Autonomous cycle 237
+
+Previous cycle clarified V1 control design without introducing a runtime. Attempted
+interactive scope23 review to address the explicit browser-QA gap. Read the available
+computer-use skill; used the browser-specific CUA surface (no native app actions).
+Browser inventory confirmed the existing scope23 in-app tab; selecting that file
+URL was rejected by Browser Use URL policy. Did not bypass the restriction or claim
+interactive success. Saved the observed limitation and verified that the current
+page hash still matches its24-target static check. Guide links the scoped attempt.
+
+This is a tooling constraint on one verification route, not evidence of a page
+failure or a blocker for the overall research goal. No new simulations or runtime
+changes. Existing archive and installation evidence remains valid. Continue useful
+research/verification within accessible interfaces; do not repeat the same rejected
+navigation or count an inventory listing as browser interaction QA. Goal active.
