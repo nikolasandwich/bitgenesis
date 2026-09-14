@@ -28,7 +28,7 @@ def state(world):
 
 
 def run(output, config, seed, steps, mode='intact', max_actor_records=1000000,
-        encoding='developmental'):
+        encoding='developmental', founder_genomes=None):
     output = Path(output)
     if type(steps) is not int or not 0 <= steps <= 100000:
         raise ValueError('steps must be in 0..100000')
@@ -38,7 +38,7 @@ def run(output, config, seed, steps, mode='intact', max_actor_records=1000000,
     # bound deliberately counts every site at every tick, even after extinction.
     if config.width * config.height * steps > max_actor_records:
         raise ValueError('worst-case actor count exceeds recording budget')
-    world = World(config, seed, mode, encoding)
+    world = World(config, seed, mode, encoding, founder_genomes)
     output.mkdir(parents=True, exist_ok=False)
     source = Path(__file__).parent
     hashes = {p.name: sha256(p.read_bytes()).hexdigest() for p in sorted(source.glob('*.py'))}
@@ -56,6 +56,8 @@ def run(output, config, seed, steps, mode='intact', max_actor_records=1000000,
                 'implementation': platform.python_implementation(), 'source_sha256': hashes,
                 'git_commit': revision, 'git_dirty': dirty, 'status': 'running',
                 'max_actor_records': max_actor_records, 'completed_steps': 0}
+    if founder_genomes is not None:
+        metadata['founder_genomes'] = [asdict(g) for g in founder_genomes]
     save(output / 'metadata.json', metadata)
     count = 0
     try:

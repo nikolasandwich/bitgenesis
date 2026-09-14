@@ -53,7 +53,9 @@ count. Optional explicit padding can match a reference development's spending;
 the engineered equivalence test uses35*(rounds-1). This is an accounting/action
 control, not an independently evolved direct-encoding population. Invalid read,
 expression or padding budgets retain actual incurred costs and yield no controller.
-World-level controls still need their own fixed matching policy before outcomes.
+The [fixed-genome world control](v2-matched-world.md) now matches completed
+construction costs and physical trajectories without mutation. Evolving-population
+controls still need their own fixed matching policy before outcomes.
 
 An [in-memory world](v2-world.md) now charges construction at founder and child
 attempts and retains persisted invalid-attempt records. Still outstanding:

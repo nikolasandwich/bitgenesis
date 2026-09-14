@@ -21,6 +21,8 @@ def audit(directory):
     attempts=final['attempts']
     require(initial['tick']==0 and final['tick']==meta['steps']==meta['completed_steps'],'horizon')
     require(initial['attempts']==attempts[:c['founders']] and len(initial['attempts'])==c['founders'],'initial attempts')
+    if 'founder_genomes' in meta:
+        require(meta['founder_genomes']==[a['genome'] for a in initial['attempts']],'assigned founder genomes')
     require(initial['food']==[c['initial_food']]*(c['width']*c['height']),'initial food')
     initial_cost=sum(a['construction_cost']+a['failure_loss'] for a in initial['attempts'])
     require(initial_cost==initial['initialization_spent']==final['initialization_spent'],'initial expense')

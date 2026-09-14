@@ -63,10 +63,15 @@ class Organism:
 
 
 class World:
-    def __init__(self, config: Config, seed: int, mode: str = "intact", encoding: str = "developmental"):
+    def __init__(self, config: Config, seed: int, mode: str = "intact", encoding: str = "developmental",
+                 founder_genomes=None):
         if encoding not in ("developmental", "direct"):
             raise ValueError("invalid encoding")
         self.encoding = encoding
+        genetic_type = DevelopmentGenome if encoding == "developmental" else Genome
+        if founder_genomes is not None and (len(founder_genomes) != config.founders or
+                any(type(g) is not genetic_type for g in founder_genomes)):
+            raise ValueError("one correctly typed genome per attempted founder required")
         if type(seed) is not int or mode not in ("intact", "blind", "shuffled"):
             raise ValueError("invalid seed or intervention")
         self.config, self.seed, self.tick = config, seed, 0
@@ -80,9 +85,11 @@ class World:
         self.attempts = []
         self.initialization_spent = 0
         sites = self.rng["initial"].sample(range(len(self.food)), config.founders)
-        for site in sites:
+        for founder_index, site in enumerate(sites):
             genetic_type = DevelopmentGenome if encoding == "developmental" else Genome
             genes = genetic_type.random(self.rng["initial"])
+            if founder_genomes is not None:
+                genes = founder_genomes[founder_index]
             _, attempt = self._construct(None, site % config.width, site // config.width,
                                          config.initial_energy, genes, mode)
             self.initialization_spent += attempt['construction_cost'] + attempt['failure_loss']
