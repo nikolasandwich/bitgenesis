@@ -2461,3 +2461,21 @@ is excluded for these events; local accessibility and the prior causes of energy
 loss remain unknown. The next measurement priority is local resources/positions
 with observer noninterference gates, before choosing any spatial intervention.
 No new simulation, formal campaign, runtime rule or fixed archive changed.
+
+## 2026-09-14 — Autonomous cycle 167
+
+Previous cycle audited terminal global food and identified missing spatial evidence.
+Implemented a research-only local-resource stream before each actor's basal payment,
+after regrowth/earlier actions. Recorded values include the current site and unique
+neighbors, food and occupant IDs; no information is passed to organism behavior.
+Parity tests compare plain World, earlier EnergyWorld and new observer over births,
+zero/positive costs, full occupancy and lethal phases; old streams remain identical.
+A width-one fixture was rejected by existing config validation and corrected to
+valid 2-by-2 geometry; rules are unchanged. All 153 tests pass.
+
+Registered a bounded retrospective all-forty-world campaign-019 replay: final twenty
+action ticks and twenty-one full boundary states, aligned to recorded extinction or
+10,000 for survivors. Explicitly conditional/descriptive, not new independent seed
+evidence. The observer exists; recording-window controls and replay runner still
+need implementation and verification before this replay starts. No outcomes from
+this new spatial observation have been examined or claimed.
