@@ -8,7 +8,7 @@
 
 下载[十六轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-c526b608b2e4ff9bd666)，
 完整解压 `bitgenesis-v0-sixteen-campaigns.zip`，从 `START-HERE.txt` 开始，
-再打开 `bitgenesis/data/review-v0-16.html`。
+再打开 `bitgenesis/data/review-v0-16.html`。最新本地页面为 `data/review-v0-17.html`，新增第十七轮；下载归档仍是十六轮。
 保留目录结构，页面中的世界回放、谱系与图表依赖相邻文件。
 草稿尚未正式发布，需要有权限的 GitHub 账号查看。
 
@@ -68,5 +68,5 @@
 阶段标准见[路线图](../roadmap/README.md)，逐项证据见[V0 验收对照](../roadmap/v0-evidence.md)，
 过程记录见[研究日志](LOG.md)。
 
-需要重新构建验收材料时，使用 `python scripts/build_v0_review.py --campaigns 16 --output data/my-review.html`；
+需要重新构建验收材料时，使用 `python scripts/build_v0_review.py --campaigns 17 --output data/my-review.html`；
 需要完整本地数据，输出路径必须是新路径。打包方式和检查范围见[归档核验指南](../design/review-verification.md)。

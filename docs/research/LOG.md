@@ -1798,3 +1798,16 @@ PNG/SVG. Visually inspected the layout, then clarified the subtitle to distingui
 matching founders/RNG from food maps that match only within each layout.
 Added the figure and interpretation to the report. No new simulation runs or
 runtime changes; the sixteen-campaign archive remains unchanged.
+
+## 2026-09-14 — Autonomous cycle 120
+
+Extended the Chinese review builder through campaign 017. It validates all forty
+arm/threshold/seed identities and exact equality with the independent report
+before displaying the four treatment rows and all-seed figure. Censoring, paired
+seed scope and the threshold intervention's multiple consequences are explicit.
+
+Generated data/review-v0-17.html. Static HTML inspection verifies all four table
+rows, workload counts and twelve local targets. Saved page hash and the limited
+verification scope; this turn adds no browser interaction certification. Updated
+local review entries while preserving the sixteen-campaign download scope and
+all old generated pages. No new simulation runs or runtime changes.

@@ -1,0 +1,10 @@
+{
+  "page": "data/review-v0-17.html",
+  "sha256": "6e2569ad5dfaffe17feb993a05012f3f7aeb03a7dad5f4263eeb3d55049c6937",
+  "campaigns": 17,
+  "executions": 784,
+  "computed_ticks": 7040000,
+  "local_targets_checked": 12,
+  "four_result_rows_checked": true,
+  "scope": "Static HTML parsing, local target existence and campaign-017 table values. No new browser interaction check."
+}

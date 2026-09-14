@@ -30,7 +30,7 @@ def require_followup_records(records, reference, verified):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-root", type=Path, default=Path("data"))
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16, 17), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     args.output = args.output or args.data_root / f"review-v0-{args.campaigns}.html"
@@ -271,6 +271,27 @@ def main():
         geometry_figure = link(Path(__file__).resolve().parents[1] / "docs/research/figures/campaign-016-geometry.png")
         geometry_section = f'''<section><h2>16 / 食物总量相同，分布也会改变过程</h2><p>三组都从 5,120 食物能量与 1,920 个体能量开始，固定移动性状 250、关闭突变。每个种子的三组共享创始个体与初始世界随机状态，仅在开局放置不同食物地图，之后使用相同 V0 规则。</p>{geometry_table}<img src="{geometry_figure}" alt="上方是种子 1300 的三种初始食物地图，红圈表示相同创始个体；下方以对数时间轴展示全部三十个世界的灭绝时间。" style="width:100%;height:auto"><p>一万步时三组都已灭绝，但集中成片组在第 110–169 步就全部消失；只看最终结果会漏掉建立阶段和存活时长的差异。</p><p class="small">随机散布与集中成片共享相同食物取值集合，只改变位置。均匀组还改变了每格食物量，不能作为单纯的位置对照。上方地图只展示第一个预定种子，下方保留全部十组配对；初始随机状态相同不保证之后随机调用相同。这些有限种子结果不能证明食物集中总是有害，更没有检验感知能力。</p></section>'''
         page = page.replace('<section><h2>复核与恢复</h2>',geometry_section+'<section><h2>复核与恢复</h2>')
+    if args.campaigns >= 17:
+        records = campaigns[16]
+        treatments = tuple(f"{a}-{t}" for a in ("dispersed","block") for t in (40,160))
+        require_run_grid([{**r,"treatment":f"{r['arm']}-{r['birth_threshold']}"} for r in records], treatments, range(1400,1410))
+        verified_path = Path(__file__).resolve().parents[1] / "docs/research/results/campaign-017-verification.json"
+        verified = json.loads(verified_path.read_text(encoding="utf-8"))
+        key = lambda r: (r["arm"],r["birth_threshold"],r["seed"])
+        if len(verified["runs"]) != 40 or {key(r):r for r in records} != {key(r):r for r in verified["runs"]}:
+            raise ValueError("Geometry-threshold records differ from independent verification")
+        threshold_rows = []
+        for arm,label in (("dispersed","随机散布"),("block","集中成片")):
+            for threshold in (40,160):
+                selected = [r for r in records if r["arm"]==arm and r["birth_threshold"]==threshold]
+                births = [r["births_at_100"] for r in selected]
+                threshold_rows.append([label,threshold,f"{sum(r['population_at_500']>0 for r in selected)}/10",
+                    f"{sum(r['population_at_5000']>0 for r in selected)}/10",
+                    f"{sum(r['population']>0 for r in selected)}/10",f"{min(births)}–{max(births)}"])
+        threshold_table = table(["食物布局","繁殖阈值","活到 500 步","活到 5,000 步","活到 10,000 步","前百步出生数范围"],threshold_rows)
+        threshold_figure = link(Path(__file__).resolve().parents[1] / "docs/research/figures/campaign-017-threshold.png")
+        threshold_section = f'''<section><h2>17 / 改变繁殖条件，改变存活结果</h2><p>用十个新种子交叉比较两种布局与繁殖阈值 40/160，共四十个世界。各组都观察 10,000 步；早期指标和观察窗口在运行前固定。</p>{threshold_table}<img src="{threshold_figure}" alt="全部四十个世界：上方圆点为实际灭绝时间，三角形为万步时仍存活；下方为前百步出生数，细线连接同一种子的两档阈值。" style="width:100%;height:auto"><p>较高阈值下二十个世界全部存活到万步，原阈值下只有两个。较高阈值也压低早期繁殖高峰，但它同时改变个体储能、种群数量和之后的互动，不能只归因于拥挤或某一种能量开销。</p><p class="small">上图三角形不是在万步灭绝；下图连线不是时间轨迹。四十次执行对应十组配对种子，初始个体与随机状态相同不保证后续随机调用相同。新种子下原阈值食物块组有世界活到 3,903 步，说明第十六轮的灭绝范围不能推广为普遍上限。仍没有感知、记忆或永久稳定的证据。</p></section>'''
+        page = page.replace('<section><h2>复核与恢复</h2>',threshold_section+'<section><h2>复核与恢复</h2>')
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x", encoding="utf-8") as stream:
         stream.write(page)
