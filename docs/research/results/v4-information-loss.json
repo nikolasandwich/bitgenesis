@@ -1,0 +1,57 @@
+{
+  "scope": "constructed information-erasure counterexample, not a scientific recovery cohort",
+  "seed": 90902,
+  "steps": 128,
+  "width": 5,
+  "height": 5,
+  "patch": [
+    6,
+    7,
+    11,
+    12
+  ],
+  "first_labels": [
+    2,
+    3,
+    3,
+    0
+  ],
+  "second_labels": [
+    3,
+    0,
+    0,
+    1
+  ],
+  "equal_after_damage": true,
+  "observer_records_differ": true,
+  "identical_continued_transitions": 128,
+  "final_labels": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "trajectory_sha256": "ddb2e3c948d6184b8f79a980ec03ed10a491e9687fdb1cbb2640ffe017c54392",
+  "script_sha256": "10362d4551864b3a5a02738b94e08e0b8c0c696c178898708daa19ed01231bec",
+  "source_sha256": {
+    "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+    "branches.py": "556fbd148f0d33a348c27b0747d37e40da641a688393eb69f571da6235b85717",
+    "branch_audit.py": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+    "damage.py": "1ff70a4e8d70dbad02688ef2a49c900faf1f64739630ed43ceac2a0d8dc062ba",
+    "damage_audit.py": "157c13e4828bd7ec31f16e479618ba0051c5ca55e84feb080d29a6769a0869c5",
+    "damage_branches.py": "ec46b9047f75f8a4836fae8687f337b7b1c2d82f3b04c8e2ddcb1254cfaf0779",
+    "driven.py": "113c9c25f422bc6954402625814b384003d27e119b49c1f2881ff507021642e0",
+    "driven_audit.py": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+    "driven_runner.py": "d8fbcba012575706373b8ae14a30275506c5377b15c5397b115e7581c8dcc377",
+    "growing.py": "c0552db57f0c88b039f826dab3b514c74d66891ede505a0d26815c4e7fd06821",
+    "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303",
+    "growing_runner.py": "92f0ca5ac29be358f8575248ffff290a3f889a0a413524f42cfaa78742870a49",
+    "local.py": "32d0d4c8f3682c6ca1126e21d4a050502cbb74134c33dc91d6009ce65dfe5362",
+    "material.py": "b592375186c1bad8e7ab89e72e5f4b72fef154390e0f4601083b697cfa45921f",
+    "perturbation.py": "2b7250f2f63c62029e54540a64de5ad20616667a7d7eeda47f0a5899e721ca28",
+    "recovery.py": "fad6b85c26c3fe0e1ae3b6f13b3b2ac2c711f20a4218f4d220609a46e23297af",
+    "runner.py": "74f57d1e47c7fc433a8a4305ada3064ddd5b9c37fdbdbb893bf3807b75a1b5c9",
+    "__init__.py": "cb3e6af7caad4609f86b6817b97a289395d279a4633d04bbfa9643dae0adebe1",
+    "__main__.py": "982976b5921afbc741885fea6bf3377366cd60bec745f35f456b973dc67f08cd"
+  }
+}
