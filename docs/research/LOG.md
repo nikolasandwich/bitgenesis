@@ -1783,3 +1783,18 @@ Saved report/results and added campaign 017 to the completed inventory only afte
 verification. Totals: 784 executions / 7,040,000 computed ticks; 24 historical
 follow-ups and 212,000 replayed ticks unchanged. Updated research entries while
 keeping the sixteen-campaign page/download scope explicit.
+
+## 2026-09-14 — Autonomous cycle 119
+
+Added the campaign-017 figure for all forty worlds. Top panels explicitly
+separate observed extinction from right-censored survivors at 10,000; bottom
+panels show predeclared early births with paired thresholds. Shared axes,
+small treatment offsets and censoring symbols retain the two low-threshold
+survivors without treating their observation limit as an extinction event.
+
+The plotting script validates the full outcome grid and endpoint/censoring
+consistency, records source/report hashes and every plotted outcome, and writes
+PNG/SVG. Visually inspected the layout, then clarified the subtitle to distinguish
+matching founders/RNG from food maps that match only within each layout.
+Added the figure and interpretation to the report. No new simulation runs or
+runtime changes; the sixteen-campaign archive remains unchanged.

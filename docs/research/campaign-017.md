@@ -19,6 +19,25 @@ comparisons; right-censored high-threshold runs do not provide their eventual
 extinction times. Twenty high-threshold executions are ten seed quadruplets,
 not twenty independent seed blocks or evidence of permanent stability.
 
+## All seeds in the comparison
+
+![Extinction or censoring and early birth counts for all forty worlds](figures/campaign-017-threshold.png)
+
+Top panels retain all forty outcomes: circles are observed extinction times,
+triangles are worlds still alive at the 10,000-tick observation limit. The time
+axis is logarithmic; the triangles do not impute extinction at 10,000. Bottom
+panels show the predeclared first-hundred-tick birth counts. Thin lines connect
+the two thresholds for the same seed, not a trajectory through time. Small
+vertical offsets separate overlapping points. Initial founders and RNG match by
+seed, while food maps match only within each layout.
+
+[Vector figure](figures/campaign-017-threshold.svg) ·
+[Figure data and provenance](figures/campaign-017-threshold.json).
+Rebuild with `python scripts/plot_v0_geometry_threshold.py --output data/new-threshold-figure`.
+The optional Matplotlib dependency is required. The plot checks the complete
+four-treatment grid and consistency of censoring with endpoint population before
+rendering; it relies on the separately verified campaign records.
+
 ## Predeclared early observations
 
 Ranges below are across ten worlds per treatment during ticks 0–100. Food uptake
