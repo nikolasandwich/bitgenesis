@@ -3112,3 +3112,18 @@ individual ledgers. The last full suite remains 185 passing tests. Full wrappers
 remain gated on complete cohort evidence; process synthesis will run only after
 both full verified reports exist. Original outcome process re-polled live without
 restart. No full-cohort result or new formal completion claim.
+
+
+## 2026-09-14 — Autonomous cycle 205
+
+Previous cycle prepared early-record verification while campaign 021 ran. Re-polled
+the original live process. Prepared the complete-cohort survival plot: two threshold
+rows, three renewal columns, paired seed rows and distinct capacity colors, with
+explicit extinction/right-censoring symbols. Axis bounds retain any valid early
+extinction. The plot requires all 120 unique identities and valid censoring data.
+
+CLI loads; an explicit partial input with the first 57 completed worlds is rejected
+as incomplete without producing an image. No formal plot or visual-QA claim yet;
+generate and inspect only after full verified results exist. Running source and
+protocol unchanged, full cohort pending. Last full suite remains 185 passing tests;
+no runtime changes or extra simulation introduced by this plotting preparation.
