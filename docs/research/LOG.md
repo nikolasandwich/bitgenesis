@@ -4176,3 +4176,9 @@ Two new tests cover byte-identical replay, source/output hashes, independent agg
 Previous turn added persisted V3 execution and completed engineering001 (d154d0e), a substantive progress turn. Added independent resource replay without world/resource-engine imports: exact resource RNG renewal, substrate transfers at recorded sites, lineage-record allocation binding, actor/world arithmetic, terminal grids/RNG and summary equality. Scope explicitly excludes movement, decision/eligibility, construction and ancestry proof.
 
 Two focused tests pass for births, recycling controls, failed founders and rehashed semantic corruption of releases/renewal/site bounds. Engineering001 passes50 ticks/450 feedings:1472 A plus242 B consumed,706 energy gained,860 B released,148 dissipated. Archived the audit; runtime unchanged since268 full tests. Next complete spatial and history verification, then register ecological viability experiments.
+
+## 2026-09-14 — Autonomous cycle 281
+
+Previous turn independently verified V3 resource transfers (dc205e7), a substantive progress turn. Added independent spatial replay composed with the resource gate and existing independent decision arithmetic: total-substrate inputs, five RNG streams, actor order, movement blocking, feeding sites, attempted/successful birth positions and terminal positions. Recorded lineage/controllers/charges remain inputs pending life-history construction audit; no full-audit claim.
+
+Expanded resource fixtures to include spatial replay with births, recycling removal and failed founders. Three focused tests pass, including rehashed false terminal position accepted by resource-only scope but rejected spatially. Engineering001 passes450 decisions and all five random endpoints; report archived. Next independently verify V3 development, inheritance, charging and full life history before ecological pilot execution.

@@ -7,6 +7,7 @@ import unittest
 from bitgenesis.v2.development import DevelopmentGenome
 from bitgenesis.v3.genome import EcologyGenome
 from bitgenesis.v3.resource_audit import audit
+from bitgenesis.v3.spatial_audit import reconstruct
 from bitgenesis.v3.runner import run
 from bitgenesis.v3.world import Config
 
@@ -23,9 +24,27 @@ class ResourceAuditTests(unittest.TestCase):
                 summary=run(path,config,85200,80,founder_genomes=[genome]*4)
                 self.assertGreater(summary['births'],0)
                 self.assertGreater(audit(path)['feedings'],0)
+                self.assertTrue(reconstruct(path)['spatial_reconstruction'])
             path=root/'failed'
             run(path,Config(width=3,height=3,founders=2,initial_energy=1),85201,5)
             self.assertEqual(audit(path)['actors'],0)
+            self.assertEqual(reconstruct(path)['decisions'],0)
+
+    def test_rehashed_wrong_final_position_rejected(self):
+        genome=EcologyGenome(DevelopmentGenome((6,100,0,0,0,0,0,0,1,1)),16)
+        with tempfile.TemporaryDirectory() as directory:
+            path=Path(directory)/'run'
+            run(path,Config(width=3,height=3,founders=1),85300,3,founder_genomes=[genome])
+            final=json.loads((path/'final.json').read_text())
+            final['lineage'][0]['x']=(final['lineage'][0]['x']+1)%3
+            data=json.dumps(final).encode()
+            (path/'final.json').write_bytes(data)
+            meta=json.loads((path/'metadata.json').read_text())
+            meta['output_sha256']['final.json']=sha256(data).hexdigest()
+            (path/'metadata.json').write_text(json.dumps(meta),encoding='utf-8')
+            audit(path)  # Resource-only scope intentionally does not certify position.
+            with self.assertRaisesRegex(ValueError,'final position'):
+                reconstruct(path)
 
     def test_rehashed_semantic_corruptions_rejected(self):
         genome=EcologyGenome(DevelopmentGenome((6,100,0,0,0,0,0,0,1,1)),16)

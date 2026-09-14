@@ -39,3 +39,17 @@ recorded final lineage but does not yet independently establish that lineage,
 actor eligibility, movement, decisions or construction. The engineering001
 50-step run passes450 feeding records. This is a resource audit, not a full-world
 audit. Additional engineering seeds85200..85202 are reserved for audit tests.
+
+Spatial and decision replay composes the resource check:
+
+```console
+python -m bitgenesis.v3.spatial_audit data/my-v3-check --output data/my-v3-spatial-audit.json
+```
+
+This reconstructs five random streams, actor order, total-substrate observations,
+controller arithmetic, movement blocking, feeding sites, attempted/successful
+birth positions and terminal positions. It still relies on recorded lineage,
+controller construction and charges; full life-history validation is pending.
+Engineering001 passes450 decisions. A rehashed false terminal position passes
+resource-only checks but is rejected by the spatial check, documenting the scope
+boundary. Seed85300 is reserved for this engineering corruption test.
