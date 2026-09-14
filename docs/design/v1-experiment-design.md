@@ -24,6 +24,7 @@ must be measured separately from its consequences for reproduction.
 | [Energy allocation explains substantial population differences](../research/energy-budget.md) | Charge matched controller costs in every relevant comparison. |
 | [Spatial access and early aggregate uptake differ](../research/campaign-016.md#retrospective-early-energy-accounting) | Measure information-dependent behavior separately from global food intake; match initial layouts between sensory arms. |
 | [Threshold × layout experiment](../research/campaign-017.md) | Fix reproduction threshold across ablations; reduced early births and improved survival do not by themselves imply sensory value. |
+| [Zero-charge extinction counterexamples](../research/campaign-018.md) | Match movement charge within information contrasts; treat free movement as a declared environment choice |
 | [Complete history keeps growing](../research/retention-benchmark.md) | Bound planned trials and recording budgets; do not promise indefinite runs. |
 
 ## Smallest candidate controller
@@ -139,6 +140,22 @@ survival, and that late survival can include turnover without new functional
 variation. These are distinct observations. Retain the direct competition and
 information-intervention requirements above instead of turning survival into a
 proxy for controller quality.
+
+### Do not confuse cheaper movement with information use
+
+Campaign 018 improved low-threshold survival by removing movement payment without
+adding sensing, yet retained three block-layout failures. Thus free movement is
+neither proof of useful information nor a guarantee of viability. Its early records
+retain blocked attempts and changed birth/expenditure totals. Those quantities
+must be interpreted in their changed trajectories, not as fixed-exposure effects.
+
+If the separate viability pilot chooses movement cost zero, all information arms
+in the main comparison still use zero, with the same decision charge and other
+physiology. Do not compare an intact free-moving controller against a charged
+blind controller. A later cost-robustness experiment must cross cost with all
+information conditions, fix every cell and seed before execution, and retain null
+or reversed contrasts. This does not change the proposed controller architecture
+or authorize implementation of a new runtime stage.
 
 ### Implementation and evidence gates
 

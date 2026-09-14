@@ -1,6 +1,6 @@
-# Decisions after the seventeen-campaign V0 checkpoint
+# Decisions after the eighteen-campaign V0 checkpoint
 
-V0 now has a fixed, independently installable review of seventeen campaigns.
+V0 now has a fixed, independently installable review of eighteen campaigns.
 Keep it as the experimental baseline. The next useful milestone is evidence
 about inherited use of information, not a larger V0 execution count. Only V0
 runtime is currently in scope; the V1 documents specify future work, not results.
@@ -12,6 +12,7 @@ runtime is currently in scope; the V1 documents specify future work, not results
 | Campaign 016 block worlds consume more early food and have more early births, yet die sooner | Do not interpret initial food distance or total consumption as individual information value | We did not retain individual feeding paths or local congestion |
 | Campaign 017 high thresholds improve finite-horizon survival in both layouts | Keep reproduction threshold and initial energy identical across future sensory controls | The intervention changes multiple processes; the mediator is unidentified |
 | Campaign 017 new block seeds exceed the earlier extinction-time range | Use new held-out seeds and retain every failure; do not promote a sampled range into a world law | Generality across settings remains untested |
+| Campaign 018 retains three low-threshold block extinctions with zero movement charge; all paired high-threshold worlds survive | Reject positive movement charge as necessary for every failure in this design; lock movement cost across sensory comparisons | The finite sample does not identify a unique mediator or show costs never contribute |
 | V0 can persist, sort traits and lose founder labels without sensors | Require a direct information intervention for V1 | No V1 controller or sensory-advantage evidence exists |
 
 ## A bounded V0 mechanism study, if needed
@@ -49,7 +50,32 @@ Before another mechanism experiment, specify a falsifiable intervention and its
 side effects. A separate per-action energy ledger is now implemented and tested, including
 actual phase payments and transfer to newborns. Historical replay now covers all forty early prefixes, with 171,207 energy
 records independently reconciled against the retained observations and original
-energy totals. Existing fixed downloads predate this additional dataset.
+energy totals. The revision-2 observation supplement contains this campaign-017 energy dataset;
+the separate eighteen-campaign full archive includes the formal campaign-018
+early observations. See the guide for exact download scopes.
+
+## What the completed movement-charge probe changes
+
+[Campaign 018](../research/campaign-018.md) completed the preregistered layout ×
+threshold × movement-charge grid, including all early observer records. Zero charge
+improved low-threshold finite-horizon survival, but three block worlds still died.
+This answers the registered necessary-condition question; repeating the same grid
+only to obtain a stronger-looking survival percentage is not the next priority.
+
+The early process table also shows that free movement retains blocked destinations
+and can accompany more births and greater basal expenditure. A new mechanism
+proposal must therefore name the intervention, all processes it changes, the
+competing predictions and what observation would reject its claim. Neither higher
+blocked fraction nor greater total expenditure alone qualifies as a causal target.
+Do not select only the three counterexamples and present them as an unbiased
+sample of all worlds. Any case study must include its outcome-selection rule.
+
+For a future sensory experiment, keep movement payment equal across intact,
+blind, permuted and ancestor controls, as well as reproduction and decision costs.
+A zero-charge viability pilot is an allowed design option, not evidence that a
+controller found food. If a later robustness grid includes both movement charges,
+compare information treatments within each charge and report the complete grid.
+No new formal V0 campaign or V1 outcome run is preregistered by this decision note.
 
 ## V1 implementation sequence when runtime scope expands
 
@@ -75,7 +101,7 @@ Development, ecology and self-organization keep their existing graduation gates.
 ## Reviewable checkpoint
 
 The [Chinese review guide](../research/REVIEW.zh-CN.md) points to the fixed
-seventeen-campaign archive and explains installation checks. The full
+eighteen-campaign archive and explains installation checks. The full
 [research index](../research/README.md) contains all protocols and results.
 The latest engine is still V0; documentation or packaging work does not advance
 the runtime stage or prove emergence of life, sensing or intelligence.

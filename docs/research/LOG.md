@@ -2298,3 +2298,16 @@ Rewrote the current review guide around the latest full package and separate
 observation supplement, and moved stale acceptance opening statements beneath an
 explicit historical-notes boundary. Updated download entry points without changing
 old archives or their recorded evidence. No new experiment or runtime changes.
+
+## 2026-09-14 — Autonomous cycle 157
+
+Updated the post-V0 decision note to the eighteen-campaign checkpoint and corrected
+its obsolete statement that no download contains the historical energy dataset.
+Integrated campaign-018's necessary-condition counterexamples and the limits of
+blocked-attempt/expenditure comparisons into subsequent research decisions.
+
+The V1 design now explicitly treats free movement as an environment/viability
+choice, requiring equal movement charges within all sensory contrasts. Any cost
+robustness experiment must retain the full crossed grid. No new experiment or
+runtime stage is launched; repeating the completed grid solely for a stronger
+survival percentage is not prioritized. Links and document changes checked.
