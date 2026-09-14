@@ -3023,3 +3023,21 @@ No independent remote redownload or new runtime/replay claim. Immutable suppleme
 source remains 99c4f62 and its archived guide predates upload evidence. Formal
 counts and engine semantics unchanged. This completes this bounded supplementary
 data delivery, not the ongoing research objective or user acceptance.
+
+
+## 2026-09-14 — Autonomous cycle 200
+
+Previous cycle delivered the renewal-stock supplement. Reworked the mechanism
+brief into a current twenty-campaign synthesis rather than retaining conflicting
+"current" seventeen/eighteen/nineteen-campaign totals in one document. Retained
+specific earlier evidence and linked every claim to its actual cohort or analysis.
+Integrated supply-window, exact-capacity and measured-discard findings, distinguishing
+rule-level conditional expectations, observed paths and still-untested causal
+interventions. All local source links resolve.
+
+Updated decision notes to mark the twenty-campaign archive and stock supplement as
+delivered, with matching scope limits. The synthesis explains why capacity increases,
+spillover redistribution or adaptive loss replacement are not automatically isolated
+loss interventions. No new campaign registered or simulation launched; runtime,
+fixed archives and formal counts unchanged. This is evidence consolidation for
+review and future experimental choice, not V1 graduation or user acceptance.

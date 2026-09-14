@@ -178,8 +178,10 @@ Low-threshold survival is 3/10, 1/10, 3/10 across renewal treatments, with oppos
 paired outcomes for rare-large versus reference. All high-threshold worlds survive,
 but realized supply differs despite equal nominal means. Do not infer a pure-variance
 mechanism, a universal ranking, or sensory value from this fixed-policy cohort.
-The next delivery is a twenty-campaign review and reproducible archive, followed by
-an updated V0 evidence synthesis. No campaign 021 is registered by this note.
+The twenty-campaign review/archive and subsequent stock supplement have been
+delivered with fresh-extraction verification. The updated
+[mechanism synthesis](../research/mechanism-summary.zh-CN.md) separates descriptive
+resource effects from untested causal interventions. No campaign 021 is registered by this note.
 Keep V1 design-only under the current runtime scope.
 
 
@@ -189,6 +191,7 @@ The [campaign-020 stock protocol](../../experiments/v0/observation-020-renewal-s
 now fixes all sixty worlds and ticks 1–100 before new stock capture. It connects
 the exact capacity law to observed stock histograms and separates sampled discard
 from expected cap loss with a read-only RNG clone. Conditional calculations do not
-simulate alternate trajectories. Implement parity checks and the independent
-verifier before interpreting this supplementary dataset; no new formal cohort or
-V1 runtime follows from this registration.
+simulate alternate trajectories. Parity and independent verification now pass; all sixty windows and the seven-report
+[reproducible supplement](../design/renewal-stock-supplement.md) are delivered.
+The completed observation does not isolate a survival mediator. No new formal
+cohort or V1 runtime follows from it.
