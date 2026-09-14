@@ -2556,3 +2556,13 @@ report. Payload includes tracked source, original campaign 019 and all forty
 terminal-window records; historical raw campaigns and review pages are excluded.
 Source must be clean and output must be new. Commit before packaging; fresh
 extracted results and any upload are separate evidence, not assumed here.
+
+
+Supplement packaging completed from source 779a28dfa3edc467b294050c06a470622d13dbbe:
+798 payload files / 19,103,056 bytes, SHA-256
+8527875a92462c238f8cc5b7442f14894a6e61be35eb5c2afc077ea07dfd879e.
+Expected-hash verification passes. A new-directory extraction reproduced all five
+complete reports exactly, including hashes, using archived standard-library scripts.
+No fresh runtime installation or full simulation rerun was needed for these
+reanalyses. Upload remains pending; original full review/supplement archives stay
+immutable. Evidence is recorded in local-supplement-019.json.

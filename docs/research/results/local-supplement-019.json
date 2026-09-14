@@ -1,0 +1,22 @@
+{
+  "archive": "bitgenesis-v0-local-resources-019.zip",
+  "bytes": 19103056,
+  "verification": {
+    "status": "verified",
+    "sha256": "8527875a92462c238f8cc5b7442f14894a6e61be35eb5c2afc077ea07dfd879e",
+    "expected_hash_matched": true,
+    "source_commit": "779a28dfa3edc467b294050c06a470622d13dbbe",
+    "files": 798,
+    "html_pages": 0,
+    "local_html_targets": 0,
+    "scope": "Stored file integrity and static HTML targets; no scripts executed or scientific claims validated."
+  },
+  "fresh_extracted_reports_equal": [
+    "campaign-019-verification.json",
+    "local-boundaries-019.json",
+    "local-actions-019.json",
+    "local-resources-019.json",
+    "terminal-resources-019.json"
+  ],
+  "scope": "Fresh extracted standard-library reanalyses, exact full JSON equality. No full simulation replay, fresh package installation or remote upload in this check."
+}
