@@ -336,6 +336,21 @@
       ],
       "followup_of": null,
       "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "022",
+      "executions": 40,
+      "ticks_per_execution": 10000,
+      "seed_range": [
+        1900,
+        1919
+      ],
+      "identity_fields": [
+        "seed",
+        "mutation_probability"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
     }
   ]
 }

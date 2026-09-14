@@ -244,3 +244,16 @@ primary signed survival contrast, complete lineage/trait reconstruction and
 400,000-tick budget precede engineering and execution. No outcomes have launched
 at this registration. New trait values or treatment survival alone will not be
 called adaptive improvement; no new genome vocabulary or V1 runtime is introduced.
+
+
+## Campaign 022 completed and verified
+
+The [formal report](../research/campaign-022.md) now covers all forty worlds and
+240 registered checkpoints. Complete aggregate and life-history gates pass:
+148,821 individuals reconstructed, mutation-only survivors 6, no-mutation-only 4,
+both alive 4 and both extinct 6. The +2 signed result supports the finite-cohort
+directional prediction but not monotone rescue or adaptive improvement. This
+supersedes the launch status in the registration note. Next provide the paired
+visualization and reproducible campaign evidence, keeping old archives unchanged.
+Any common-environment descendant/ancestor assay needs a separate prospective
+sampling and extinction policy; no such assay is registered here. V1 remains design.

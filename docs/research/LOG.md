@@ -3370,3 +3370,23 @@ four monotone-rescue counterexamples, not significance or adaptive improvement.
 Saved both full gate reports. Full Chinese synthesis and inventory publication
 remain next; formal published totals unchanged at this checkpoint. No runtime
 change, protocol revision, additional simulation or V1 implementation. Goal active.
+
+
+## 2026-09-14 — Autonomous cycle 217
+
+Previous cycle passed all campaign-022 individual histories and aggregate metrics.
+Added checkpoint synthesis requiring both linked full-cohort reports and original
+per-world result hashes; retained all 240 predeclared observations with living and
+ever-born histograms, explicit null means/generations and full-cohort ranges.
+Saved JSON and compact CSV. Published the Chinese report with all twenty paired
+outcomes, all registered checkpoint groups, treatment details and scope limits.
+The +2 finite-cohort directional result is distinguished from significance,
+monotone rescue, adaptive improvement and new sensory capability.
+
+Copied the verified raw result CSV and updated the independent inventory:
+22 campaigns / 1,124 executions / 10,440,000 computed ticks; follow-ups remain
+24 and declared replayed prefix ticks remain 212,000. All report links resolve,
+240-observation coverage and final 8/20 versus 10/20 survival counts rechecked.
+Prior 191-test evidence remains applicable; no runtime change or new simulation.
+Existing scope-21 download retains its scope; campaign-022 visualization and
+portable evidence remain next. Autonomous goal active, V1 design only.
