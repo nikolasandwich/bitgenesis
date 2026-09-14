@@ -3867,3 +3867,20 @@ metric tests pass. This is a metric gate, not full parent/event reconstruction o
 complete-cohort verification. Next implement the independent life-history gate
 and full cohort wrapper before scientific interpretation. No outcome directory,
 new execution count or V1 runtime; autonomous goal active.
+
+## 2026-09-14 — Autonomous cycle 243
+
+Previous cycle added independent mixed-group metric checks. Implemented direct
+birth/death reconstruction with actual founder genotype assignment, strict mutation0
+inheritance, event-derived ancestry/group membership, per-tick group counts and
+checkpoint histograms. Final lineage parent/founder/generation/offspring/death
+fields and group endpoint energies are reconciled. Does not claim complete
+individual energy or movement histories from boundary accounts.
+
+Twelve engineering fixtures pass. Corrupt founder, offspring, genotype, inherited
+child trait and truncated event records rejected. Full suite205 tests passed before
+adding the exact nested-contrast helper; both focused history tests pass afterward.
+The new test checks swap-then-replicate-then-source arithmetic, contrasts exceeding
+one, both-extinct null fractions, incomplete grids and no-source undefined mean.
+No formal runs started. Next add complete-cohort verification wrappers and launch
+only committed source under the registered protocol. V0 frozen; goal active.
