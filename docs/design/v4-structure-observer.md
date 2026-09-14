@@ -1,6 +1,8 @@
 # Next gate: passive structure boundaries and continuity
 
-Status: design only, following completed study008. Do not interpret a positive
+Status: snapshot partition and surviving-member overlap primitives implemented
+in `v4.structure`, following completed study008. Audited trajectory phase mapping
+and scientific cohort observations remain pending. Do not interpret a positive
 unit competition score as reproduction of a multi-unit organization. The next
 implementation observes existing trajectories without changing their dynamics.
 
@@ -50,3 +52,22 @@ Start with engineering fixtures and an already retained short trajectory, not a
 new parameter sweep. Freeze descriptive windows and trajectory selection before
 examining cohort structure outcomes. This gate establishes a measurement tool,
 not self-organization, recovery or structural heredity by itself.
+
+## Primitive implementation
+
+`snapshot` consumes serialized units, unique birth identities and an explicit
+interaction/final phase. Interaction requires supplied realized bonds; final
+rejects them. It validates identity/occupation agreement and restricts supplied
+bonds to matching-material periodic contacts. It does not infer bond eligibility
+from post-charge energy: the trajectory audit must supply valid phase records.
+Partitions include isolates, canonical member lists, size distributions and
+exact disagreement numerators/denominators. Empty fractions are null.
+
+`continuity` emits all surviving-member intersections and split/merge indices,
+added/lost members and components without overlap. Indices are local to input
+snapshots. No-overlap does not mean no genealogical relation, and overlap does
+not establish structural reproduction. Four tests cover periodic/material/bond
+differences, passive inputs, phase rejection, empty fractions, split/merge/site
+replacement and partition comparison against independent union-find fixtures.
+Seed102000 is engineering-only. Next implement audited phase mapping on a
+retained trajectory and check immutable input hashes before any cohort claim.
