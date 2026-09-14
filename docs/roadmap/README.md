@@ -78,8 +78,10 @@ Graduation criteria:
 
 An experimental [two-substrate resource kernel](../design/v3-ecology.md) now
 implements conservative feeding and a recycling-removal control. An in-memory
-world now includes inherited allocation and a bounded persisted runner; independent
-world audits and ecological evidence remain pending.
+world includes inherited allocation and a bounded persisted runner. Ordinary
+world audits and a removal/replay study are complete; stable coexistence and
+evolved ecological differentiation remain unproven. See the
+[stage evidence](stage-status.zh-CN.md) for audit scope and negative results.
 
 Investigate multiple niches and interactions such as competition, predation,
 cooperation, or parasitism without assigning desired ecological roles.
@@ -95,8 +97,13 @@ Graduation criteria:
 
 ## V4 — Self-Organization
 
-An exploratory [local-unit kernel](../design/v4-local-units.md) now supports
-energy-dependent bonds and conservative transport. It does not reproduce or move.
+The original [local-unit kernel](../design/v4-local-units.md) supports
+energy-dependent bonds and conservative transport with fixed occupation.
+Separate versioned extensions add driven input, local material formation,
+hereditary construction programs and passive unit ancestry. Damage and paired
+competition experiments are recorded in the [stage evidence](stage-status.zh-CN.md).
+Unit formation and competitive advantage do not establish reproduction of an
+organized multi-unit structure; those graduation criteria remain below.
 
 Weaken explicit organism boundaries using interacting local units. Challenge
 assumptions one at a time rather than deleting all scaffolding simultaneously.

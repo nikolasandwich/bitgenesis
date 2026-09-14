@@ -1,9 +1,10 @@
 # Next mechanism: inherited local construction rules
 
-Status: deterministic conversion primitive `v4-heredity-1` implemented after the
-information-erasure counterexample. Existing local/driven/growing and intervention
-versions are unchanged. Composed driven steps and a bounded hereditary runner
-are now available; no independent hereditary audit or scientific cohort yet.
+Status: deterministic conversion primitive `v4-heredity-1`, composed driven
+steps, bounded runner and independent hereditary audit are implemented. Existing
+local/driven/growing and intervention versions remain unchanged. Study005 tested
+variation persistence; studies006/007 measured frozen descendant/actual-founder
+expansion and competition. See the [current evidence](../roadmap/stage-status.zh-CN.md).
 
 Separate a unit's expressed material label from a small inherited construction
 program. The first candidate program has four entries (east, west, south, north),
@@ -61,9 +62,9 @@ charge is an explicit modeling assumption, not a physically derived bit cost.
 
 Tests cover four directions, deferred mutation expression, unchanged parents,
 constant-program zero-overhead baseline projection, collisions and invalid tickets.
-Next compose driven interaction using expressed material, preserve programs on
-survivors, and independently reconstruct inheritance/expression/mutation before
-an evolutionary experiment. Mutation availability alone is not adaptation.
+The composed driven interaction below preserves survivor programs and has an
+independent inheritance/expression/mutation audit. Mutation availability alone
+is not adaptation.
 
 ## Driven hereditary trajectories
 
@@ -89,8 +90,8 @@ Run an engineering trajectory with
 Default copy cost1 and mutation10/1000 are engineering settings. Python arguments
 expose program mode, copy cost and mutation probability; the CLI retains output,
 seed, steps, no-drive and no-exchange controls. Seeds95000..95004 are engineering.
-Independent hereditary reconstruction is the next gate; ordinary growing audits
-do not accept this new schema. Full-state replay alone is not that gate.
+Ordinary growing audits do not accept this new schema. Use the independent
+hereditary reconstruction below; full-state replay alone is not that gate.
 
 
 Independent reconstruction is now available through v4.hereditary_audit. It
@@ -99,5 +100,7 @@ local/material reconstruction, and derives child expression and mutation from
 serialized parent programs. It checks every recorded state and cost. Engineering
 95004 passes100 steps,79 formations,79 copy-energy spent and1 mutation. Tests
 reject rehashed child-program and mutation-ticket corruption; seed95005 is
-reserved. Study005 preregisters bounded variation persistence before scientific
-seeds are run. This gate does not claim adaptive value or lineage identity.
+reserved. Study005 completed its preregistered bounded variation-persistence
+experiment. This dynamics gate itself does not claim adaptive value or lineage
+identity; the separate passive lineage observer and matched assays supply those
+additional measurements with the limitations stated in their reports.
