@@ -1,0 +1,23 @@
+{
+  "archive": "bitgenesis-v0-twenty-one-campaigns.zip",
+  "sha256": "a72916f80bd9b5f4a59842732144dcc09a30bde15ce29dd9d8d3411e27a4e161",
+  "bytes": 179498867,
+  "payload_files": 2975,
+  "source_commit": "9fb1bb37503c35831309b5d03c796afa647e9a23",
+  "archive_verification": {
+    "status": "verified",
+    "sha256": "a72916f80bd9b5f4a59842732144dcc09a30bde15ce29dd9d8d3411e27a4e161",
+    "expected_hash_matched": true,
+    "source_commit": "9fb1bb37503c35831309b5d03c796afa647e9a23",
+    "files": 2975,
+    "html_pages": 13,
+    "local_html_targets": 22,
+    "scope": "Stored file integrity and static HTML targets; no scripts executed or scientific claims validated."
+  },
+  "fresh_extracted_reports_equal": [
+    "campaign-021-verification.json",
+    "campaign-021-observations.json",
+    "campaign-021-processes.json"
+  ],
+  "scope": "New-directory extraction and archived standard-library campaign-021 reanalyses including sibling helpers. No fresh runtime installation or remote upload yet."
+}

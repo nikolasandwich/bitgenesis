@@ -3170,3 +3170,28 @@ not a renewed interactive browser acceptance claim. Packaging now reruns all thr
 campaign-021 reports and requires exact agreement, preserving previous gates.
 Commit this source before running the new archive; extraction, installation and
 remote publication remain separate subsequent checks. Old archives are unchanged.
+
+
+## 2026-09-14 — Autonomous cycle 208
+
+Previous cycle added and committed scope-21 packaging as 9fb1bb3 and launched one
+packager. Re-polled that same process to exit 0 without restart. It generated
+bitgenesis-v0-twenty-one-campaigns.zip with 2,975 payload files / 179,498,867 bytes,
+SHA256 a72916f80bd9b5f4a59842732144dcc09a30bde15ce29dd9d8d3411e27a4e161,
+source 9fb1bb37503c35831309b5d03c796afa647e9a23. Source CI run 34825175457 passed.
+Internal archive checks cover all payload hashes, 13 HTML pages and 22 static
+local targets. Existing archives retain their original bytes and scope.
+
+Extracted to new data/portable-review-21 and independently reran all three
+campaign-021 reports using extracted standard-library scripts/data, including
+sibling helpers. All three JSON reports exactly match the archived reports.
+A fresh virtual environment installed the extracted package noneditably; import
+resolves to its site-packages. All 185 archived tests passed. Installed 1,000-tick
+demo has 83 survivors, 1,561 births, 1,558 deaths, 1,641 lineage records and 101
+frames; audit passes. Metrics/events match reference bytes, lineage/summary match
+JSON, and installed source metadata has git_commit null. Pip resolved build
+dependencies, so no offline installation guarantee is claimed.
+
+Saved portable-review-021.json and portable-wheel-021.json; archive SHA sidecar is
+local. Remote upload and updated download instructions remain next. This is a
+verified local portable checkpoint, not user acceptance or goal completion.
