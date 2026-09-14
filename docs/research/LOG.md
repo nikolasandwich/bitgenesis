@@ -3319,3 +3319,11 @@ record-only alias does not change engine state. Frozen protocol and historical
 runners are unchanged. Commit clean source before launching all forty worlds.
 Full independent event/lineage/metric verification remains a separate gate before
 any formal completion or scientific result claim. Goal active, V1 design only.
+
+
+Campaign-022 launch note: direct script-path invocation failed at import before
+creating data/campaign-022 (confirmed absent). Correct module invocation
+`python -m scripts.run_v0_monomorphic_mutation --output data/campaign-022` launched
+successfully from clean c63a72e; source and registered outcomes were unchanged.
+The first two worlds completed; the same process continues. This is execution
+progress only, not independently verified cohort completion.
