@@ -30,7 +30,7 @@ def require_followup_records(records, reference, verified):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-root", type=Path, default=Path("data"))
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     args.output = args.output or args.data_root / f"review-v0-{args.campaigns}.html"
@@ -338,6 +338,29 @@ def main():
         charge_report=link(root/'docs/research/campaign-019.md')
         charge_section=f'''<section><h2>19 / 移动与出生都免费，仍可能灭绝</h2><p>十个新种子，每个包含繁殖阈值与出生扣费的四种组合，共四十个世界。移动扣费始终为零，基础消耗仍为每个体每步 1。</p>{charge_table}<img src="{charge_figure}" alt="全部四十个世界：圆点为灭绝时间，三角为万步时仍存活；左右面板为出生扣费零和四，颜色区分繁殖阈值。" style="width:100%;height:auto"><p>两种直接扣费都为零时，低阈值组 4/10 灭绝，高阈值组全部活到万步。这排除了至少一种正直接扣费作为本设计所有失败的必要条件。</p><p>低阈值的扣费配对中，五组双方存活、一组仅免费存活、两组仅收费存活、两组双方灭绝。免除费用不能保证每个世界都改善；免费出生仍分割亲代能量、占据空间并增加后续基础需求。</p><p class="small">十组初始配对的后续轨迹可以分化。终点存活不等于永久存活，过程差异尚未确定唯一灭绝机制。<a href="{charge_report}">完整四十个结局、早期过程与核验说明</a>。十八轮固定下载包尚不包含本轮。</p></section>'''
         page=page.replace('<section><h2>复核与恢复</h2>',charge_section+'<section><h2>复核与恢复</h2>')
+    if args.campaigns >= 20:
+        records=campaigns[19]
+        labels={'frequent-small':'频繁少量','reference':'基准','rare-large':'稀疏大量'}
+        treatments=[f'{t}-{n}' for t in (40,160) for n in labels]
+        require_run_grid([{**r,'treatment':f"{r['birth_threshold']}-{r['renewal']}"} for r in records],treatments,range(1700,1710))
+        root=Path(__file__).resolve().parents[1]
+        verification=json.loads((root/'docs/research/results/campaign-020-verification.json').read_text(encoding='utf-8'))
+        key=lambda r:(r['arm'],r['birth_threshold'],r['renewal'],r['seed'])
+        if sorted(records,key=key)!=sorted(verification['runs'],key=key):
+            raise ValueError('Renewal records differ from independent verification')
+        renewal_rows=[]
+        for threshold in (40,160):
+            for renewal,label in labels.items():
+                selected=[r for r in records if (r['birth_threshold'],r['renewal'])==(threshold,renewal)]
+                renewal_rows.append([threshold,label,
+                    f"{sum(r['population_at_500']>0 for r in selected)}/10",
+                    f"{sum(r['population_at_5000']>0 for r in selected)}/10",
+                    f"{sum(r['population']>0 for r in selected)}/10"])
+        renewal_table=table(['繁殖阈值','补给方式','活到 500 步','活到 5,000 步','活到 10,000 步'],renewal_rows)
+        renewal_figure=link(root/'docs/research/figures/campaign-020-survival.png')
+        renewal_report=link(root/'docs/research/campaign-020.md')
+        renewal_section=f'''<section><h2>20 / 相同名义平均补给，不同到达方式</h2><p>十个新种子，每个包含三种补给方式与两种繁殖阈值，共六十个世界。频繁少量、基准、稀疏大量的每格每步名义平均补给均为 0.06；移动和出生直接扣费均为零。</p>{renewal_table}<img src="{renewal_figure}" alt="全部六十个世界，三个面板区分补给方式；圆点为灭绝，三角为万步右删失，颜色区分繁殖阈值。" style="width:100%;height:auto"><p>低阈值下，稀疏大量与基准既有仅前者存活，也有仅后者存活的种子，未形成每个种子都受益的排序。高阈值三组全部存活。</p><p class="small">资源容量和摄食上限使实际供给并不相同，不能把差异解释为纯波动效应。所有世界均继续计算至一万步，灭绝后的补给不代表供应给活种群。<a href="{renewal_report}">完整配对结果、实际供给与摄食检查点及早期过程核验</a>。十九轮固定下载包尚未包含本轮。</p></section>'''
+        page=page.replace('<section><h2>复核与恢复</h2>',renewal_section+'<section><h2>复核与恢复</h2>')
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x", encoding="utf-8") as stream:
         stream.write(page)

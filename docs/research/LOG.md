@@ -2770,3 +2770,21 @@ not another unregistered parameter sweep. V1 remains design-only.
 
 All 170 tests pass after these changes; report links and saved observation counts
 were checked. No engine or historical runner changes.
+
+
+## 2026-09-14 — Autonomous cycle 186
+
+Previous cycle completed campaign-020 observation verification and result synthesis.
+Added a three-panel survival figure retaining all sixty worlds, paired seed rows,
+explicit censoring and nominal-versus-realized-supply caveats. PNG inspected:
+labels, legend and marks are legible. Figure data exactly match the verified cohort.
+Added campaign-20 review support with raw-versus-verified row equality and full-grid
+checks, preserving historical pages and the default eight-campaign option.
+
+Generated data/review-v0-20.html; eighteen local targets exist, sixty figure rows
+match, static page SHA-256 is
+8459cd02d0534ec90f65868988896baa51790cc667211ea741681c695f963f16.
+No new browser-interaction claim. Added twenty-campaign packaging support with exact
+metric, early-observation and process-report gates. All 170 tests pass. Commit
+clean source before packaging; fresh extraction and remote upload remain separate
+subsequent gates. Historical fixed archives remain immutable.
