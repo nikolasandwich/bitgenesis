@@ -4254,3 +4254,9 @@ Study001 execution follow-up: original process99514 exited0 after5/5 sources. So
 Previous turn executed all5 study001 sources including one unavailable (cf5716f), a substantive progress turn. Complete verifier47897 exited0 after exact protocol/source/config checks, independent prefix target and lagged reference schedule reconstruction, prefix audit, origin equality and all12 branch replays/outcomes. Focused grid test passes for missing/duplicate source rejection. Archived full gate and Chinese report.
 
 Other-lineage population and new-birth contrasts coincide: removed-minus-intact[2,0,0,0], replayed-minus-removed[0,0,0,1], conditional means0.5/0.25;88003 remains null. No observed removal detriment on these endpoints, no cooperation claim. Imported/rejected B retained; removal changes competition/occupancy and legacy deposits remain. Branch replay uses the same engine, explicitly not independent world dynamics. Next consolidate stage evidence and begin bounded V4 local-unit exploration while keeping unresolved V3 criteria open.
+
+## 2026-09-14 — Autonomous cycle 294
+
+Previous turn published complete V3 mechanism outcomes (7035459), a substantive progress turn. Began separate V4 local-unit kernel with engineered material affinity, local affordability reservations, synchronous bond costs and conservative transport; observer components do not drive dynamics or carry organism IDs. Fixed occupancy/no replication explicitly documented. Added stage evidence matrix preserving unmet V1-V3 criteria rather than declaring graduation.
+
+Three new tests cover100 random energy configurations, periodic bonds, transport-removal control, affordability and component observation. Full287 tests pass in31.947 seconds. Older stage runtimes unchanged. Next bounded recorded local-unit sequences and independent bond/energy reconstruction, followed by predeclared persistence/perturbation measurements; component splits are not reproduction.

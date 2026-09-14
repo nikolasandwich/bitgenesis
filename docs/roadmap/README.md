@@ -1,5 +1,7 @@
 # Research roadmap
 
+See the [current stage evidence and open criteria](stage-status.zh-CN.md).
+
 V0 has a complete research runtime. V1 now has an experimental controller, world
 and bounded persisted runner with independent ledger, ancestry, decision and spatial
 audit. [Study001](../research/v1-study-001.zh-CN.md) completed540 verified assays;
@@ -92,6 +94,9 @@ Graduation criteria:
 - Reproduce earlier single-population experiments.
 
 ## V4 — Self-Organization
+
+An exploratory [local-unit kernel](../design/v4-local-units.md) now supports
+energy-dependent bonds and conservative transport. It does not reproduce or move.
 
 Weaken explicit organism boundaries using interacting local units. Challenge
 assumptions one at a time rather than deleting all scaffolding simultaneously.
