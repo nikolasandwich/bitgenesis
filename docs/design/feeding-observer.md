@@ -187,5 +187,20 @@ ending parent energy plus child transfers equals living energy. Separate example
 cover zero costs, odd division and capped lethal basal/movement payments. These
 checks establish the tested cases, not arbitrary future engine compatibility.
 
-No historical energy replay dataset has yet been generated. The fixed observation
-supplement predates this tool; earlier feeding/terminal bytes remain unchanged.
+The historical energy replay is now complete for all forty campaign-017 worlds,
+ticks 1–100, from clean source `be4ad5a`. All 4,040 original metric rows agree;
+feeding and terminal files retain their previous SHA-256 values. The new ledger
+has 171,207 records, one for each actor (166,886 feeding plus 4,321 terminal).
+
+`python -m scripts.replay_v0_energy --output data/new-energy-replay` generates the
+bounded dataset from original inputs and requires a clean committed checkout.
+`python -I -S scripts/verify_v0_energy_replay.py --output data/new-energy-check`
+reads the saved dataset without importing or running the engine. From initial
+individual energies, it reconstructs payments, intake, birth splits and ending
+energy using the already verified feeding/terminal observations and configuration.
+All 4,000 actor steps reconcile with original population and energy totals.
+See the [complete verification report](../research/results/energy-replay-017.json).
+
+This is independent arithmetic over retained observations, not an independent
+historical action reference. The fixed observation supplement predates this tool
+and dataset; earlier feeding/terminal bytes and world rules remain unchanged.

@@ -1,0 +1,651 @@
+{
+  "source_commit": "be4ad5a99165fe9535c7e5ef7bedfc906551e722",
+  "results": [
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1400,
+      "energy_records": 4268,
+      "totals": {
+        "basal_paid": 4268,
+        "movement_paid": 1079,
+        "birth_paid": 188,
+        "eaten": 3700,
+        "child_energy": 902
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1401,
+      "energy_records": 3959,
+      "totals": {
+        "basal_paid": 3959,
+        "movement_paid": 946,
+        "birth_paid": 168,
+        "eaten": 3208,
+        "child_energy": 802
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1402,
+      "energy_records": 4494,
+      "totals": {
+        "basal_paid": 4494,
+        "movement_paid": 1108,
+        "birth_paid": 168,
+        "eaten": 3980,
+        "child_energy": 803
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1403,
+      "energy_records": 3757,
+      "totals": {
+        "basal_paid": 3757,
+        "movement_paid": 966,
+        "birth_paid": 140,
+        "eaten": 3016,
+        "child_energy": 669
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1404,
+      "energy_records": 3970,
+      "totals": {
+        "basal_paid": 3970,
+        "movement_paid": 945,
+        "birth_paid": 156,
+        "eaten": 3336,
+        "child_energy": 736
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1405,
+      "energy_records": 3763,
+      "totals": {
+        "basal_paid": 3763,
+        "movement_paid": 906,
+        "birth_paid": 132,
+        "eaten": 2936,
+        "child_energy": 639
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1406,
+      "energy_records": 4105,
+      "totals": {
+        "basal_paid": 4105,
+        "movement_paid": 992,
+        "birth_paid": 204,
+        "eaten": 3432,
+        "child_energy": 984
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1407,
+      "energy_records": 4073,
+      "totals": {
+        "basal_paid": 4073,
+        "movement_paid": 1006,
+        "birth_paid": 144,
+        "eaten": 3484,
+        "child_energy": 699
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1408,
+      "energy_records": 4146,
+      "totals": {
+        "basal_paid": 4146,
+        "movement_paid": 1011,
+        "birth_paid": 152,
+        "eaten": 3528,
+        "child_energy": 719
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1409,
+      "energy_records": 3657,
+      "totals": {
+        "basal_paid": 3657,
+        "movement_paid": 890,
+        "birth_paid": 156,
+        "eaten": 2856,
+        "child_energy": 740
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1400,
+      "energy_records": 4003,
+      "totals": {
+        "basal_paid": 4003,
+        "movement_paid": 976,
+        "birth_paid": 0,
+        "eaten": 3236,
+        "child_energy": 0
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1401,
+      "energy_records": 3711,
+      "totals": {
+        "basal_paid": 3711,
+        "movement_paid": 944,
+        "birth_paid": 0,
+        "eaten": 3132,
+        "child_energy": 0
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1402,
+      "energy_records": 4159,
+      "totals": {
+        "basal_paid": 4159,
+        "movement_paid": 989,
+        "birth_paid": 0,
+        "eaten": 3716,
+        "child_energy": 0
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1403,
+      "energy_records": 3985,
+      "totals": {
+        "basal_paid": 3985,
+        "movement_paid": 1031,
+        "birth_paid": 0,
+        "eaten": 3632,
+        "child_energy": 0
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1404,
+      "energy_records": 3954,
+      "totals": {
+        "basal_paid": 3954,
+        "movement_paid": 972,
+        "birth_paid": 0,
+        "eaten": 3652,
+        "child_energy": 0
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1405,
+      "energy_records": 4123,
+      "totals": {
+        "basal_paid": 4123,
+        "movement_paid": 1025,
+        "birth_paid": 0,
+        "eaten": 3540,
+        "child_energy": 0
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1406,
+      "energy_records": 4161,
+      "totals": {
+        "basal_paid": 4161,
+        "movement_paid": 995,
+        "birth_paid": 0,
+        "eaten": 3848,
+        "child_energy": 0
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1407,
+      "energy_records": 3948,
+      "totals": {
+        "basal_paid": 3948,
+        "movement_paid": 981,
+        "birth_paid": 0,
+        "eaten": 3588,
+        "child_energy": 0
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1408,
+      "energy_records": 3621,
+      "totals": {
+        "basal_paid": 3621,
+        "movement_paid": 924,
+        "birth_paid": 0,
+        "eaten": 3028,
+        "child_energy": 0
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1409,
+      "energy_records": 4072,
+      "totals": {
+        "basal_paid": 4072,
+        "movement_paid": 1014,
+        "birth_paid": 0,
+        "eaten": 3780,
+        "child_energy": 0
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1400,
+      "energy_records": 5805,
+      "totals": {
+        "basal_paid": 5805,
+        "movement_paid": 1418,
+        "birth_paid": 436,
+        "eaten": 5796,
+        "child_energy": 2076
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1401,
+      "energy_records": 5864,
+      "totals": {
+        "basal_paid": 5864,
+        "movement_paid": 1379,
+        "birth_paid": 480,
+        "eaten": 5848,
+        "child_energy": 2289
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1402,
+      "energy_records": 6038,
+      "totals": {
+        "basal_paid": 6038,
+        "movement_paid": 1484,
+        "birth_paid": 416,
+        "eaten": 6164,
+        "child_energy": 1972
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1403,
+      "energy_records": 5674,
+      "totals": {
+        "basal_paid": 5674,
+        "movement_paid": 1397,
+        "birth_paid": 424,
+        "eaten": 5612,
+        "child_energy": 2008
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1404,
+      "energy_records": 5999,
+      "totals": {
+        "basal_paid": 5999,
+        "movement_paid": 1400,
+        "birth_paid": 464,
+        "eaten": 5984,
+        "child_energy": 2201
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1405,
+      "energy_records": 5552,
+      "totals": {
+        "basal_paid": 5552,
+        "movement_paid": 1336,
+        "birth_paid": 432,
+        "eaten": 5676,
+        "child_energy": 2070
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1406,
+      "energy_records": 5576,
+      "totals": {
+        "basal_paid": 5576,
+        "movement_paid": 1398,
+        "birth_paid": 400,
+        "eaten": 5484,
+        "child_energy": 1906
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1407,
+      "energy_records": 5919,
+      "totals": {
+        "basal_paid": 5919,
+        "movement_paid": 1441,
+        "birth_paid": 464,
+        "eaten": 5924,
+        "child_energy": 2207
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1408,
+      "energy_records": 5866,
+      "totals": {
+        "basal_paid": 5866,
+        "movement_paid": 1399,
+        "birth_paid": 472,
+        "eaten": 5848,
+        "child_energy": 2255
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1409,
+      "energy_records": 5739,
+      "totals": {
+        "basal_paid": 5739,
+        "movement_paid": 1394,
+        "birth_paid": 472,
+        "eaten": 5704,
+        "child_energy": 2248
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1400,
+      "energy_records": 3200,
+      "totals": {
+        "basal_paid": 3200,
+        "movement_paid": 813,
+        "birth_paid": 36,
+        "eaten": 4100,
+        "child_energy": 714
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1401,
+      "energy_records": 3008,
+      "totals": {
+        "basal_paid": 3008,
+        "movement_paid": 766,
+        "birth_paid": 16,
+        "eaten": 3176,
+        "child_energy": 315
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1402,
+      "energy_records": 3115,
+      "totals": {
+        "basal_paid": 3115,
+        "movement_paid": 771,
+        "birth_paid": 28,
+        "eaten": 3832,
+        "child_energy": 550
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1403,
+      "energy_records": 3713,
+      "totals": {
+        "basal_paid": 3713,
+        "movement_paid": 931,
+        "birth_paid": 12,
+        "eaten": 4336,
+        "child_energy": 238
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1404,
+      "energy_records": 3218,
+      "totals": {
+        "basal_paid": 3218,
+        "movement_paid": 775,
+        "birth_paid": 24,
+        "eaten": 3884,
+        "child_energy": 476
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1405,
+      "energy_records": 3184,
+      "totals": {
+        "basal_paid": 3184,
+        "movement_paid": 783,
+        "birth_paid": 16,
+        "eaten": 3772,
+        "child_energy": 316
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1406,
+      "energy_records": 3835,
+      "totals": {
+        "basal_paid": 3835,
+        "movement_paid": 950,
+        "birth_paid": 12,
+        "eaten": 4508,
+        "child_energy": 236
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1407,
+      "energy_records": 3362,
+      "totals": {
+        "basal_paid": 3362,
+        "movement_paid": 844,
+        "birth_paid": 20,
+        "eaten": 4236,
+        "child_energy": 395
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1408,
+      "energy_records": 3777,
+      "totals": {
+        "basal_paid": 3777,
+        "movement_paid": 931,
+        "birth_paid": 16,
+        "eaten": 4600,
+        "child_energy": 318
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1409,
+      "energy_records": 2834,
+      "totals": {
+        "basal_paid": 2834,
+        "movement_paid": 693,
+        "birth_paid": 8,
+        "eaten": 2508,
+        "child_energy": 157
+      }
+    }
+  ],
+  "input_sha256": {
+    "dispersed-threshold-40-seed-1400-feeding.jsonl": "ba1661ada68510f58a448e4a73ff88896f1da733b6fa8a7b1cb075c35f948abb",
+    "dispersed-threshold-40-seed-1400-terminal.jsonl": "cd1fc123bb61c36120c3bad0cb8151ba9f50ba55137fcb632bf195c9422fac8d",
+    "dispersed-threshold-40-seed-1400-energy.jsonl": "3f6720ad4dafc1d4e03ec5be7a72d4afb5672f7d2d69537265079e6abc2c96f1",
+    "dispersed-threshold-40-seed-1401-feeding.jsonl": "f52ce59c76ce951b959d9fa451fee1c6726a53a09aae9ed6ab18f657f76ebffa",
+    "dispersed-threshold-40-seed-1401-terminal.jsonl": "ae2416f6602c457c7bce48e85b9a31ce30fe8d4b3b0b15a9b8cac9736741eb76",
+    "dispersed-threshold-40-seed-1401-energy.jsonl": "92ea83b31a6548da42977c0c1bc67f2aacbecf813da14092566cd73a1b6f4fa4",
+    "dispersed-threshold-40-seed-1402-feeding.jsonl": "771ea86a8f63a3b411d35c246848366bc5cc993b013901ea9c1cfe4f2cafb15c",
+    "dispersed-threshold-40-seed-1402-terminal.jsonl": "87b68982568bea15e6e24e259f1a74ed44cecc41856b3de859d4d38c56f3707c",
+    "dispersed-threshold-40-seed-1402-energy.jsonl": "3a0302e68b9d16ed460ec8eacae6b5a50a473e3a3ce96975f0a1a6983297ab8f",
+    "dispersed-threshold-40-seed-1403-feeding.jsonl": "9c1bf69a5b66bf86b3631be5d4dded28c2a0807cef4b1d94cd23ab2f22012b18",
+    "dispersed-threshold-40-seed-1403-terminal.jsonl": "ef8d06aed89a1cc767bc05b789758f22458caa28efcb03511fe5c9c1dd6215e3",
+    "dispersed-threshold-40-seed-1403-energy.jsonl": "41d645f1a3ee8af317e8188d4845264428c1174946ee1749af698b1b2031507c",
+    "dispersed-threshold-40-seed-1404-feeding.jsonl": "14b688402a3d44e5843abf7082ad68449859f684f97d87771b5a870481fc4fc8",
+    "dispersed-threshold-40-seed-1404-terminal.jsonl": "aa33337f1053e4465d794331afaf96db00d563bbfefee5d79e86f982105332f6",
+    "dispersed-threshold-40-seed-1404-energy.jsonl": "be2a9ee92450555a1c566a1fa29cdb72a3db861ad55446cf6a5c551853511ca9",
+    "dispersed-threshold-40-seed-1405-feeding.jsonl": "6496fa95d9ae6fc6d840ee6bc564406c2582fcaecd2220dde87bfdcb82fdd3de",
+    "dispersed-threshold-40-seed-1405-terminal.jsonl": "f9c0808c0088dda7159dde47eb15e15a89b8edda095fadf8894e611b17050a7f",
+    "dispersed-threshold-40-seed-1405-energy.jsonl": "fa1e9872ca9bfced2413148ab74065b399420009c9c6427d4d42897923868c51",
+    "dispersed-threshold-40-seed-1406-feeding.jsonl": "f85ccc8d9c897a51540abccb603d934e5892c899cbaf4c8e45c21cfbc69d4090",
+    "dispersed-threshold-40-seed-1406-terminal.jsonl": "3b12f745334986dde0cd7f83979be76b80b26c590791e44e2c3d6efd553c9eed",
+    "dispersed-threshold-40-seed-1406-energy.jsonl": "d104670d58ffa6b83e36dfea8e135323d69203a89c0903165cbfbb4e277fa707",
+    "dispersed-threshold-40-seed-1407-feeding.jsonl": "6b6291cdf7455c0e9c0bb20c0b3482994eddb9ea608938d533a8f463f678c65a",
+    "dispersed-threshold-40-seed-1407-terminal.jsonl": "5faa0655cd64bbc7d9dfe2d6e52abd6169165977bc0a9e5f627183b23b0ae716",
+    "dispersed-threshold-40-seed-1407-energy.jsonl": "dd56c2f5b2cf7ddac905f6c2dd0f0849f7b69e6d7a1bce66c1abff18efebfe38",
+    "dispersed-threshold-40-seed-1408-feeding.jsonl": "ecf8b9e11cf9457e378b7e37a60b2dae3b1ab08ddb57812cf204d4556ea11c5d",
+    "dispersed-threshold-40-seed-1408-terminal.jsonl": "76ed5fb8ace8cb14fe84f6c69f5f97d8a2e1e8b3f25c9788912d34056222152f",
+    "dispersed-threshold-40-seed-1408-energy.jsonl": "0665311a8d998fc794cd86a44523ce87e24b8042344a71ec00b00aaaf4761c8e",
+    "dispersed-threshold-40-seed-1409-feeding.jsonl": "0487dd225b904cfb65339e2c6432c07e9a8ed96dc44f569a545776d93a9c8b21",
+    "dispersed-threshold-40-seed-1409-terminal.jsonl": "a74b99f56cdc7b5902854f656cc85ce2cfc301082db8153d52e762a095939b8e",
+    "dispersed-threshold-40-seed-1409-energy.jsonl": "d0e0a81ac554ddf044c958745836798d7e24072f448c2f1c6bce401197632177",
+    "dispersed-threshold-160-seed-1400-feeding.jsonl": "702141fdbd1d8478a338b7c29d44b29548fc1881721eecfd71f553e565422e22",
+    "dispersed-threshold-160-seed-1400-terminal.jsonl": "dece1ab12d3ec3adb64d3718d75ed7e21961fb662ce9da34f629c51c8b12d6e7",
+    "dispersed-threshold-160-seed-1400-energy.jsonl": "fa187c228d24f3673ac3ca4ee6fc2363400263c2a2552087ddfd4bceb1842615",
+    "dispersed-threshold-160-seed-1401-feeding.jsonl": "5656e34ced2bd9bd78ae472639a2ddd4e27f9cd0ad2f1454c9f1266bce17c47b",
+    "dispersed-threshold-160-seed-1401-terminal.jsonl": "e52162f5964a5fe981ac217dede3a76ca5300f7229030cab6a01618e7b043527",
+    "dispersed-threshold-160-seed-1401-energy.jsonl": "c8a4892ba16794d9d20639ca4bbf3c73c1961aa04f2daf23f79c9e0bfd47e77c",
+    "dispersed-threshold-160-seed-1402-feeding.jsonl": "9ad8979571e80c40829bebed6047552c56d4e6a66736495cce862264ced38bba",
+    "dispersed-threshold-160-seed-1402-terminal.jsonl": "befd5bca35406aaac947940a03a100c4fda73da89da08bb66f6dc01f2b440e9c",
+    "dispersed-threshold-160-seed-1402-energy.jsonl": "34eca800b2299d328c91d7ae60a990791607507f6acf7822f7acbc912c583405",
+    "dispersed-threshold-160-seed-1403-feeding.jsonl": "a67fef18fc2595fe82a512c475d2f9ce38b0e5def7f72d64b73ee81f6b708293",
+    "dispersed-threshold-160-seed-1403-terminal.jsonl": "815ff156fad6f589ba93aafe60fa627616f5071f5b61004224ed74ea903f2ccd",
+    "dispersed-threshold-160-seed-1403-energy.jsonl": "319c4cb21e3d7ee88cfc92853a23e13c71a02e7609ae98616c9bea876ca537b5",
+    "dispersed-threshold-160-seed-1404-feeding.jsonl": "7c26b0cf8a452ffd8786ca75078d89f45ab97fe201ece9a2d97456c2a64c8d99",
+    "dispersed-threshold-160-seed-1404-terminal.jsonl": "caff0aa647e643c36c0e2ff4822e14f92c1004f3515e64abeb7dc57a6d865cf8",
+    "dispersed-threshold-160-seed-1404-energy.jsonl": "e6fcf4a4d92071f07145ab518260d6ed39405e373de626d8f6d507ddf6ff5bfb",
+    "dispersed-threshold-160-seed-1405-feeding.jsonl": "743d26aed8ad7d76ec8db53992298522c7141de6b8d5973fcf7140a1083d9a5c",
+    "dispersed-threshold-160-seed-1405-terminal.jsonl": "9ce71f4a255f0c8e3c19e0505bc70f0aca266b546723d3b48a183d04148e44e2",
+    "dispersed-threshold-160-seed-1405-energy.jsonl": "e1bba87fa634dc74174b419aa2107e534c030b6e2d0be33f8000a1d37c536390",
+    "dispersed-threshold-160-seed-1406-feeding.jsonl": "986d336cdd6ab31349ddaa0b535e718f8e9cb490d9b2eb85b234d5581bb08ee9",
+    "dispersed-threshold-160-seed-1406-terminal.jsonl": "5bc2219f5b69aaf0c0872798068bb12813df0ef16260c152b652a57f4ff8fb59",
+    "dispersed-threshold-160-seed-1406-energy.jsonl": "27c4b5d6d9f17d5c212f2dc4dc2b1a5f24f32a99f77a868d9f1f539138c11715",
+    "dispersed-threshold-160-seed-1407-feeding.jsonl": "4faff0c40648af7ce3e0211bf68d13eef062b4df31a987e4c6c33b8b6e82aad0",
+    "dispersed-threshold-160-seed-1407-terminal.jsonl": "3cd41634db40acfdaaf0d151da882d71f10c41f065f7d86a866896fe647a2135",
+    "dispersed-threshold-160-seed-1407-energy.jsonl": "6437aed72d12e2e7c7e91295696b8532b6c952d34ae828f958a1c2081a633bcb",
+    "dispersed-threshold-160-seed-1408-feeding.jsonl": "7ffa347b3c5f771c6c8688065e73f806e6db41b82d7ac1e9b35701d96e9c9cad",
+    "dispersed-threshold-160-seed-1408-terminal.jsonl": "db82a4a4517e85091779b69a6a36bfde80b87a2f258005d2d6525f941fc98b6a",
+    "dispersed-threshold-160-seed-1408-energy.jsonl": "1b8b38ebce12bd6d6de1a634145fd62c45c0ef18cef2bc9a55f3e181b4df4d2c",
+    "dispersed-threshold-160-seed-1409-feeding.jsonl": "bc1b0fdcf6e3e7eada687ddfe674d241978240fb1f2ac0af05ff64d24b5769b0",
+    "dispersed-threshold-160-seed-1409-terminal.jsonl": "e9d5ca17b35a32d9e179de2630d63fc3dd240fa60db951678e935670932872c0",
+    "dispersed-threshold-160-seed-1409-energy.jsonl": "a33a7e14737a90a0622c7ba63169b8d4514f70dfe7d1f9cd2922a5a48f4443cf",
+    "block-threshold-40-seed-1400-feeding.jsonl": "a852c6df3c1981714bca44d390d88eeaf452e9abc9f9a8cc00d72ec4e61ba90b",
+    "block-threshold-40-seed-1400-terminal.jsonl": "092bd79b3a812b17b6c0f5962d2ee7afa336ba795ec52f9ee83ec5e18e140979",
+    "block-threshold-40-seed-1400-energy.jsonl": "8084a34930c548a4ace7325091174faa94157254601c158e8c36ca91ef82eb81",
+    "block-threshold-40-seed-1401-feeding.jsonl": "31dca542a575d28185f02fd35a0852d8f092ed804a968307b07df39e53f736a4",
+    "block-threshold-40-seed-1401-terminal.jsonl": "223f3fde551538e05cb8c3b89a3106445768ca7ed0c5aed66c5cec841b74c462",
+    "block-threshold-40-seed-1401-energy.jsonl": "c2a7b7e99aefdc0500424c3fbf4589387912fde7735e0dacae8b32c3687446fc",
+    "block-threshold-40-seed-1402-feeding.jsonl": "8e0fd4496543d9eca2f1795165e020daa1c4ed91cd8a55b59a27f48bc2851745",
+    "block-threshold-40-seed-1402-terminal.jsonl": "632182181d70d4e9b295e6131bd475789d2e974b9914f2b7cda4d974f9a80d01",
+    "block-threshold-40-seed-1402-energy.jsonl": "37667defc028bbb8d930aba158a6d07857c0b2f74cacdd582d54d336fafdd2f9",
+    "block-threshold-40-seed-1403-feeding.jsonl": "c2f64aa11d872413ced28eec8a6c125811b332a563ef1d0ad485c7f0d8dda378",
+    "block-threshold-40-seed-1403-terminal.jsonl": "ea760beb987accfa2d3d8913c234722740ed593d99b597df86f692ce20d42061",
+    "block-threshold-40-seed-1403-energy.jsonl": "738924ad109df7d5162405bc18931175d2c4238b36521018e2295227c4612007",
+    "block-threshold-40-seed-1404-feeding.jsonl": "0c6ba7e11ffeaa6cf0408383a96f7ef05fa907624e85b5edec768418099cc72b",
+    "block-threshold-40-seed-1404-terminal.jsonl": "58a72d9f71afe2cc23736a9112bbfb4b34e8ee14006d4408c28c39ed187981bd",
+    "block-threshold-40-seed-1404-energy.jsonl": "3f79ba15a0a4b8764edb6c0604d1bbfeda378019d5068ec826ed03aa3c2163a3",
+    "block-threshold-40-seed-1405-feeding.jsonl": "8f56d0da309e86542cae213df7d4ca7e93b0bfc4306285750095fc739fce6ee9",
+    "block-threshold-40-seed-1405-terminal.jsonl": "cbc8c823ced0d6b0aa501773fc8ad874a7f70dc054f95f85adf158fc900bb15d",
+    "block-threshold-40-seed-1405-energy.jsonl": "7fe0c888c6898b93951c6e32c161d9f51dd39d4146e6bcb8bccb0081d41211d4",
+    "block-threshold-40-seed-1406-feeding.jsonl": "0ae9d98fd6770a29be9151e0e9f1a1b07f57a985951ec596afb977e065bd7ed7",
+    "block-threshold-40-seed-1406-terminal.jsonl": "41a0fb7b6101f755b5ac9473b42e01bfc0fc5a095d7772d46a8b312b115d5312",
+    "block-threshold-40-seed-1406-energy.jsonl": "ea3eb5135a080bbf4535ca686022f4c2383263142625b51c89861ce267050a6a",
+    "block-threshold-40-seed-1407-feeding.jsonl": "96e8bdb6942c5b19fe3a8d2a7b921234e669e74490432264e47370f31102d9ad",
+    "block-threshold-40-seed-1407-terminal.jsonl": "3f99b180b9f48614701c55033d6f1b00f7fe4abf5c28f187abc29e35ca9b7b93",
+    "block-threshold-40-seed-1407-energy.jsonl": "1a1f7c07dd3f5c5c4a6a4bfa65f8812315004aecc29963ef030b80ab57e3ef88",
+    "block-threshold-40-seed-1408-feeding.jsonl": "0f9688d63fe844745f6db16f96cf045cd766ce3414a34a5377266723075aab27",
+    "block-threshold-40-seed-1408-terminal.jsonl": "5de9f6527bbe539b67bdf528c0ba235f95cc54f8cb3ebe9c7ff170ad6466c534",
+    "block-threshold-40-seed-1408-energy.jsonl": "1d592989186256e4c36135031883d3a66a92958e7d71071ef0b00ad1867de2c8",
+    "block-threshold-40-seed-1409-feeding.jsonl": "3805e9d759095cb47394981684ef50c18493c8799d53d9204d1824a65e44e413",
+    "block-threshold-40-seed-1409-terminal.jsonl": "b2dddafed620bb51d4936657dfb24f0e4342e71af5eb3bf471775c05ebdbef32",
+    "block-threshold-40-seed-1409-energy.jsonl": "6d1a5fc889db3aa7c28876082012350cd6723aff8673606a1c8382e0d8c003d5",
+    "block-threshold-160-seed-1400-feeding.jsonl": "2e4ac3d3af5da02c897ba3b468a8d58a9fa0f768a5e3b174afb6a516dc1bbddf",
+    "block-threshold-160-seed-1400-terminal.jsonl": "a78a02ed2a80d7fa4848e18a0ee1d5814b6e2f318691b8db049a7104885639e2",
+    "block-threshold-160-seed-1400-energy.jsonl": "eac408c0aa543d414a59be588a9218c1794ede5f2a5403705291c7b7f80621f6",
+    "block-threshold-160-seed-1401-feeding.jsonl": "02d6b5cd0b53f04d2ddfc3b929ceb336f8eb25bc93019c8d74f97cae4b804cae",
+    "block-threshold-160-seed-1401-terminal.jsonl": "b97cbfa0d9118fc2e8191e99a4aa0cd8704a186a8cf2ad0522264e11d6e06548",
+    "block-threshold-160-seed-1401-energy.jsonl": "3ec82621b9bba8b84cc4621e5f4fe7fedab68a2e037b0bddd48909bdc1135f3b",
+    "block-threshold-160-seed-1402-feeding.jsonl": "491f1988f4a37065bcf20540f82a7e9cf2b44761d9da1c700373c69371ee9d92",
+    "block-threshold-160-seed-1402-terminal.jsonl": "311d073d72cc521764356b9400d56250120561a29a3e9aff4143f86f78947b21",
+    "block-threshold-160-seed-1402-energy.jsonl": "e3160bfb77d00f6ed2cf6ea0ca208afe942a23c0c899af2820af1f3046c3d9fd",
+    "block-threshold-160-seed-1403-feeding.jsonl": "c25ee41f8ea7d5673b4f4fce9a7fbe502e78b4d643dd0698337a4f33cd9ea6c6",
+    "block-threshold-160-seed-1403-terminal.jsonl": "4ddc4718c779aa7b381145de143445eba9ad03341556c0304e24c6e81f09721a",
+    "block-threshold-160-seed-1403-energy.jsonl": "1cb1a6a96f81d14acf78697c94d760dbd7bc2304cda66390c8258a6ed449f977",
+    "block-threshold-160-seed-1404-feeding.jsonl": "49c84f12cdd743e2200fadd4263a9e855dc145b6462789f9efb369875f77a0b9",
+    "block-threshold-160-seed-1404-terminal.jsonl": "8110ee9ec8e176e19c5380aeb2dc803c26f83ca857cf92a9f58c793fbac7e0f4",
+    "block-threshold-160-seed-1404-energy.jsonl": "96f471a0225761d67aa4c53a17d5ffea9d7884a5931f6746484d4431acb9c23a",
+    "block-threshold-160-seed-1405-feeding.jsonl": "38b23631176aa1646db29b7ab367270bb165b4e56d552e95b3b4842997f524ba",
+    "block-threshold-160-seed-1405-terminal.jsonl": "244fe6fecc3da51afb6cbc2664d0336efb28d48afa024b38c272f388b3dc57bc",
+    "block-threshold-160-seed-1405-energy.jsonl": "28f2cb1e082556a9c0472a1800d098676fbc4ad16fa0b7ce1b073b08de8dc13f",
+    "block-threshold-160-seed-1406-feeding.jsonl": "9d6f3223188d774b209e9fbddef186935a01e6a6448f03eb4186e687709cbc93",
+    "block-threshold-160-seed-1406-terminal.jsonl": "e0d271ee17b5a9b20a8ca088e9806da6b1987e56d400c0ce77ab7af5f1283f4c",
+    "block-threshold-160-seed-1406-energy.jsonl": "16951e1c3fd746bfabef02e81178ecdb342f4ea5ac911cdfa27c31ef11593aa4",
+    "block-threshold-160-seed-1407-feeding.jsonl": "cbe6867bfca50de1b89703bb231a8b2c2ae39ca81c4f08d3407bde09ee27498e",
+    "block-threshold-160-seed-1407-terminal.jsonl": "cc8f7eab592efc0bb85282ed574c46f0a44b7af82d336c81a91f0263f8909dfa",
+    "block-threshold-160-seed-1407-energy.jsonl": "a352e0812ff9d38c016c0ed1b2598fcfd3eb46b2c87830023c7641443ac2ac77",
+    "block-threshold-160-seed-1408-feeding.jsonl": "0ac8eeb092ed6e125acad1ea09924160e11e5a3b89170bd6513850b229d1a319",
+    "block-threshold-160-seed-1408-terminal.jsonl": "a4c74a39005c15d520427fe3c3f34a370caeb2553e1d78ad9ef5465184d82dc2",
+    "block-threshold-160-seed-1408-energy.jsonl": "61752783175fc25c9e59bfe89cffbdd4adc64aafc8f7addeb230bf5bbe263a6a",
+    "block-threshold-160-seed-1409-feeding.jsonl": "16b0d1df0323897a5a7106e9fe08eeccb2cea24514d6155a069b682f4ed12564",
+    "block-threshold-160-seed-1409-terminal.jsonl": "7af8f4fb95d8272c3bec9493766cd7affa888f9e181849b298a50461336ecca5",
+    "block-threshold-160-seed-1409-energy.jsonl": "a323b0639657a87d2d9571c16c1028c95d72b08fe69bbc7fbcf2f418ddd6616b"
+  },
+  "reconstructed_ticks": 4000,
+  "energy_records": 171207,
+  "scope": "Stored energy reconstructed from initial states and verified feeding/birth/death records under pinned payment/split rules. No simulation rerun or causal claim.",
+  "script_sha256": "86c008a9555739777393eb399d1132dc5806485d3f697a3935edfeb3c9149c26"
+}

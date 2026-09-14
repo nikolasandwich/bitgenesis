@@ -2114,3 +2114,17 @@ Focused examples cover zero costs, odd child splits and capped lethal payments.
 No historical energy replay was run and fixed supplement contents are unchanged.
 
 All 135 local tests pass.
+
+## 2026-09-14 — Autonomous cycle 143
+
+Committed the bounded energy replay writer and launched it from clean source
+be4ad5a. All forty campaign-017 prefixes completed, matching 4,040 original metric
+rows and the prior feeding/terminal byte hashes. Recorded 171,207 per-action energy
+ledgers, including 4,321 terminal actions; 4,000 replayed ticks are historical
+observation work, not new formal worlds or independent seeds.
+
+A standalone isolated standard-library verifier then reconstructed individual
+energies from original initial states and the verified feeding/terminal records:
+actual capped payments, food intake, child splits, ending stocks, population and
+global dissipation all reconcile for every tick. Saved complete report and input
+hashes. Existing fixed observation ZIP does not include the new ledger dataset.
