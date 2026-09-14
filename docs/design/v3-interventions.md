@@ -69,3 +69,15 @@ reference; final-step releases are outside the treatment horizon and excluded.
 Full reference validation belongs to the upcoming assay gate. Engineering85600
 checks neutral continuation equality, common initial bytes, branch isolation,
 lagged schedule, removal exports, accepted imports and invalid horizon rejection.
+
+## Boundary verification and continuation replay
+
+boundary_audit reconstructs the serialized post-boundary state without importing
+World or the intervention implementation. branch_replay compares it with the
+saved boundary and checks complete event/step/final records by replay from a
+supplied origin. Tests include rehashed exported-energy corruption. This proves
+boundary arithmetic independently and deterministic continuation against the
+current engine; it is not an independent world implementation. Origin provenance,
+target selection and reference schedule hashes belong to the forthcoming assay
+orchestrator. Do not treat the replay report as a standalone causal experiment or
+as proof of independently reconstructed intervened ancestry and spatial history.

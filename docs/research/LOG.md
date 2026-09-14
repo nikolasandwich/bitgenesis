@@ -4230,3 +4230,9 @@ Two focused tests cover descendant removal, preserved stocks/RNG, next-step acco
 Previous turn implemented boundary interventions (18832e4), a substantive progress turn. Added v3-branch-1 persisted isolated continuations, common pre-boundary state, explicit per-step intervention records, event history, source hashes and import/export summaries. donor_schedule prepares fixed reference-lineage retained releases with one-step lag and excludes final-step releases outside horizon. Caller still must verify/persist prefix and reference provenance; independent branch audit pending.
 
 Two focused tests cover neutral versus uninterrupted state equality, identical branch starts, untouched origin, removal exports, scheduled imports and pre-output horizon rejection. Full280 tests pass in31.150 seconds. No ecological inference or registered scientific execution yet. Next independently reconstruct boundary changes and branch histories, then assemble a bounded common-prefix assay.
+
+## 2026-09-14 — Autonomous cycle 290
+
+Previous turn persisted isolated branches (6208cf7), a substantive progress turn. Added independent serialized boundary reconstruction (no world/intervention imports) and explicit same-engine continuation replay from supplied origin, covering hashes, boundary records, full events/steps/final state and summary. Reports clearly exclude origin provenance and independently reconstructed intervened world history.
+
+Three focused branch tests pass for intact/removal/replay verification, common origin isolation and rehashed exported-energy corruption rejection. No scientific branch assay yet; base runtime unchanged since280 full tests. Next assemble verified common-prefix origin, prefix-only target choice, reference schedule binding and persisted three-arm assay before preregistering sources.
