@@ -1,0 +1,27 @@
+{
+  "scope": "independent initialization/drive/direction RNG, input/leak, local interaction and material conversion",
+  "summary": {
+    "steps": 100,
+    "units": 256,
+    "initial_energy": 6413,
+    "final_energy": 14840,
+    "spent": 62827,
+    "imported": 71254,
+    "rejected_import": 31026,
+    "leakage": 25471,
+    "construction_spent": 224,
+    "formations": 56,
+    "dissolutions": 5,
+    "initial_material": 461,
+    "final_material": 461,
+    "final_raw": 205
+  },
+  "output_sha256": {
+    "initial.json": "0518dde23fdb29d3b68dcc044b8cc9423ab249f68b56dd2bbc01430d5f0589b6",
+    "steps.jsonl": "71351d96ec255d1508d434a1d058cbd7d905ba2794a75a3cd0a1373159984398",
+    "final.json": "a26b3b477d04d891afd1f0917b803272300cdfa3de606f2ca4948c3123767a96",
+    "summary.json": "b8c7f350301e6271065f2e9b55d1019f94ef40e0ee7e393e87a719721b4b2000"
+  },
+  "audit_sha256": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303",
+  "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+}

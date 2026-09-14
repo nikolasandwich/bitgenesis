@@ -4,6 +4,7 @@ import tempfile
 import unittest
 
 from bitgenesis.v4.growing_runner import run
+from bitgenesis.v4.growing_audit import audit
 
 
 class GrowingRunnerTests(unittest.TestCase):
@@ -16,6 +17,7 @@ class GrowingRunnerTests(unittest.TestCase):
             ):
                 summary = run(root/name, 90601, 30, width=5, height=5,
                               drive_per_thousand=probability, exchange=exchange)
+                self.assertEqual(audit(root/name)['summary'], summary)
                 initial = json.loads((root/name/'initial.json').read_text())
                 population = sum(u is not None for u in initial['units'])
                 mass = sum(initial['raw']) + population
@@ -49,6 +51,7 @@ class GrowingRunnerTests(unittest.TestCase):
                     run(root, 90602, **config)
                 self.assertFalse(root.exists())
             summary = run(root, 90602, steps=0, occupancy=0)
+            self.assertEqual(audit(root)['summary'], summary)
             self.assertEqual(summary['formations'], 0)
             self.assertEqual(summary['dissolutions'], 0)
             self.assertEqual(summary['units'], 0)

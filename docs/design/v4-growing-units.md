@@ -50,7 +50,12 @@ capacity prevents formation while retaining dissolution, without changing RNG
 consumption; this is a candidate formation-disabled control, not an experiment
 already performed. Material conversion remains an explicit templating mechanism.
 
-Next independently reconstruct inputs, interaction and conversion from saved
-states before registering scientific comparisons. Replay equality and energy
+Independent reconstruction is available through `v4.growing_audit`. It rebuilds
+initialization, both ticket streams, input/leakage, local interaction and material
+conversion using dictionaries and target buckets, without importing the runtime
+steps. The 100-step engineering run passes; tests reject rehashed direction,
+raw-stock, conversion and intermediate-state corruption. The audit checks the
+declared run against its configuration; cohort verification must separately bind
+the frozen scientific protocol and source commit. Replay equality and energy
 tests alone do not certify independent reconstruction, structural reproduction,
 evolution or open-ended novelty. Engineering seeds 90600–90603 are reserved.

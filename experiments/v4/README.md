@@ -69,3 +69,15 @@ It reconstructs both random streams, all proposed/accepted/rejected input,
 leakage and local interaction/component states. Engineering001 passes100 steps;
 seed90500 tests rehashed input corruption. The [first activity study](study-001.md)
 registers20 cases and fixed early/middle/late windows, without replication claims.
+
+## Local material conversion
+
+`python -m bitgenesis.v4.growing_runner --seed 90603 --steps 100 --output data/my-v4-growing`
+records driven interactions followed by dissolution and local formation.
+`python -m bitgenesis.v4.growing_audit data/my-v4-growing --output data/my-v4-growing-audit.json`
+independently reconstructs the complete trajectory. Use new output paths.
+Engineering001 ends with256 units after56 formations and5 dissolutions from205
+initial units; conserved material461. Its independent audit is archived under
+docs/research/results. Seeds90600..90603 and90700/90701 are engineering-only.
+The [second study](study-002.md) preregisters formation/input/exchange controls
+and spatial occupation measurements. Its scientific cases have not yet run.
