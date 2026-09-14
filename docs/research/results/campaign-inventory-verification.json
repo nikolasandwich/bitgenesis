@@ -1,10 +1,10 @@
 {
-  "campaigns": 19,
-  "executions": 904,
-  "computed_ticks": 8240000,
+  "campaigns": 20,
+  "executions": 964,
+  "computed_ticks": 8840000,
   "followup_executions": 24,
   "replayed_prefix_ticks": 212000,
-  "computed_ticks_excluding_declared_replays": 8028000,
+  "computed_ticks_excluding_declared_replays": 8628000,
   "scope": "Counting and identity checks only; these totals are not independent replicate counts.",
   "input_sha256": {
     "campaign-001.csv": "f9acde6e21ac82c7f929101722d36156c29a44809be4c142fbbbac483d665d10",
@@ -25,8 +25,9 @@
     "campaign-016.csv": "a1dd51bf5fb98e948e3535dc5395a6fe24358a246b55c96715e7934d0f7f6ab5",
     "campaign-017.csv": "2b2588ba8ffe9d159648578e67109e8719bf99bf90cc31de83909ba0882b22bf",
     "campaign-018.csv": "fb5b507c8fa5151617fa122e03de5bcba090cbf7135472f7c5a2856e385c5067",
-    "campaign-019.csv": "9e1743e0491008526822197315647c705c2da4d5abe044acbee5125d92212035"
+    "campaign-019.csv": "9e1743e0491008526822197315647c705c2da4d5abe044acbee5125d92212035",
+    "campaign-020.csv": "06f9f17f685bab3a962b36c218c2bd611ea1d7316ff5370e1fb9357a109774b4"
   },
-  "inventory_sha256": "818ccb4b6867ec9264fe5127d3cd8f84a6daaa923d68c4c75e98b1d5b6071d15",
+  "inventory_sha256": "95e808fc3bfa36d022b19d8aaeea30fc110cc2ac90e60fc18ebe5c714d31d278",
   "script_sha256": "ab725c9e3dd82a2e12952a3372f88e2317db4344408269b8116fe0aaa0b8027e"
 }

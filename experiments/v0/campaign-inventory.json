@@ -301,6 +301,23 @@
       ],
       "followup_of": null,
       "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "020",
+      "executions": 60,
+      "ticks_per_execution": 10000,
+      "seed_range": [
+        1700,
+        1709
+      ],
+      "identity_fields": [
+        "arm",
+        "birth_threshold",
+        "renewal",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
     }
   ]
 }

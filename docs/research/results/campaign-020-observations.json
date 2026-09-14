@@ -1,0 +1,2714 @@
+{
+  "results": [
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1700,
+      "counts": {
+        "feeding": 8082,
+        "terminal": 235,
+        "energy": 8317,
+        "attempted_moves": 1985,
+        "successful_moves": 1280,
+        "occupied_target_blocks": 705,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 235
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1787,
+          "basal_paid": 2922,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 778,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 7,
+          "total_paid": 2922
+        },
+        "descendants": {
+          "eaten": 4660,
+          "basal_paid": 5395,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2540,
+          "initial_energy": 0,
+          "received_from_founders": 778,
+          "ending_energy": 43,
+          "total_paid": 5395
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1701,
+      "counts": {
+        "feeding": 7842,
+        "terminal": 241,
+        "energy": 8083,
+        "attempted_moves": 1947,
+        "successful_moves": 1205,
+        "occupied_target_blocks": 742,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 241
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1791,
+          "basal_paid": 2696,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 1015,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2696
+        },
+        "descendants": {
+          "eaten": 4386,
+          "basal_paid": 5387,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2422,
+          "initial_energy": 0,
+          "received_from_founders": 1015,
+          "ending_energy": 14,
+          "total_paid": 5387
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1702,
+      "counts": {
+        "feeding": 7975,
+        "terminal": 223,
+        "energy": 8198,
+        "attempted_moves": 2005,
+        "successful_moves": 1284,
+        "occupied_target_blocks": 721,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 223
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1598,
+          "basal_paid": 2770,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 748,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2770
+        },
+        "descendants": {
+          "eaten": 4714,
+          "basal_paid": 5428,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2299,
+          "initial_energy": 0,
+          "received_from_founders": 748,
+          "ending_energy": 34,
+          "total_paid": 5428
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1703,
+      "counts": {
+        "feeding": 7913,
+        "terminal": 235,
+        "energy": 8148,
+        "attempted_moves": 2006,
+        "successful_moves": 1195,
+        "occupied_target_blocks": 811,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 235
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1833,
+          "basal_paid": 2851,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 902,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2851
+        },
+        "descendants": {
+          "eaten": 4395,
+          "basal_paid": 5297,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2348,
+          "initial_energy": 0,
+          "received_from_founders": 902,
+          "ending_energy": 0,
+          "total_paid": 5297
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1704,
+      "counts": {
+        "feeding": 7910,
+        "terminal": 231,
+        "energy": 8141,
+        "attempted_moves": 1989,
+        "successful_moves": 1264,
+        "occupied_target_blocks": 725,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 231
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1700,
+          "basal_paid": 2671,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 949,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2671
+        },
+        "descendants": {
+          "eaten": 4542,
+          "basal_paid": 5470,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2290,
+          "initial_energy": 0,
+          "received_from_founders": 949,
+          "ending_energy": 21,
+          "total_paid": 5470
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1705,
+      "counts": {
+        "feeding": 8117,
+        "terminal": 221,
+        "energy": 8338,
+        "attempted_moves": 2093,
+        "successful_moves": 1479,
+        "occupied_target_blocks": 614,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 221
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1169,
+          "basal_paid": 2568,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 521,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2568
+        },
+        "descendants": {
+          "eaten": 5354,
+          "basal_paid": 5770,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2613,
+          "initial_energy": 0,
+          "received_from_founders": 521,
+          "ending_energy": 105,
+          "total_paid": 5770
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1706,
+      "counts": {
+        "feeding": 7983,
+        "terminal": 233,
+        "energy": 8216,
+        "attempted_moves": 1950,
+        "successful_moves": 1341,
+        "occupied_target_blocks": 609,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 233
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1399,
+          "basal_paid": 2674,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 645,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2674
+        },
+        "descendants": {
+          "eaten": 4912,
+          "basal_paid": 5542,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2596,
+          "initial_energy": 0,
+          "received_from_founders": 645,
+          "ending_energy": 15,
+          "total_paid": 5542
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1707,
+      "counts": {
+        "feeding": 8069,
+        "terminal": 232,
+        "energy": 8301,
+        "attempted_moves": 2023,
+        "successful_moves": 1290,
+        "occupied_target_blocks": 733,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 232
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1714,
+          "basal_paid": 2679,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 955,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2679
+        },
+        "descendants": {
+          "eaten": 4704,
+          "basal_paid": 5622,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2318,
+          "initial_energy": 0,
+          "received_from_founders": 955,
+          "ending_energy": 37,
+          "total_paid": 5622
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1708,
+      "counts": {
+        "feeding": 8100,
+        "terminal": 231,
+        "energy": 8331,
+        "attempted_moves": 2041,
+        "successful_moves": 1405,
+        "occupied_target_blocks": 636,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 231
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1570,
+          "basal_paid": 2715,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 775,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2715
+        },
+        "descendants": {
+          "eaten": 4854,
+          "basal_paid": 5616,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2439,
+          "initial_energy": 0,
+          "received_from_founders": 775,
+          "ending_energy": 13,
+          "total_paid": 5616
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1709,
+      "counts": {
+        "feeding": 7960,
+        "terminal": 236,
+        "energy": 8196,
+        "attempted_moves": 1980,
+        "successful_moves": 1252,
+        "occupied_target_blocks": 728,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 236
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1464,
+          "basal_paid": 2652,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 732,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2652
+        },
+        "descendants": {
+          "eaten": 4843,
+          "basal_paid": 5544,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2583,
+          "initial_energy": 0,
+          "received_from_founders": 732,
+          "ending_energy": 31,
+          "total_paid": 5544
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1700,
+      "counts": {
+        "feeding": 8226,
+        "terminal": 232,
+        "energy": 8458,
+        "attempted_moves": 2059,
+        "successful_moves": 1378,
+        "occupied_target_blocks": 681,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 232
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1908,
+          "basal_paid": 2981,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 799,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 48,
+          "total_paid": 2981
+        },
+        "descendants": {
+          "eaten": 4688,
+          "basal_paid": 5477,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2499,
+          "initial_energy": 0,
+          "received_from_founders": 799,
+          "ending_energy": 10,
+          "total_paid": 5477
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1701,
+      "counts": {
+        "feeding": 7980,
+        "terminal": 227,
+        "energy": 8207,
+        "attempted_moves": 1978,
+        "successful_moves": 1244,
+        "occupied_target_blocks": 734,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 227
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 2100,
+          "basal_paid": 2820,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 1186,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 14,
+          "total_paid": 2820
+        },
+        "descendants": {
+          "eaten": 4240,
+          "basal_paid": 5387,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2030,
+          "initial_energy": 0,
+          "received_from_founders": 1186,
+          "ending_energy": 39,
+          "total_paid": 5387
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1702,
+      "counts": {
+        "feeding": 7991,
+        "terminal": 236,
+        "energy": 8227,
+        "attempted_moves": 2029,
+        "successful_moves": 1281,
+        "occupied_target_blocks": 748,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 236
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1532,
+          "basal_paid": 2679,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 773,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2679
+        },
+        "descendants": {
+          "eaten": 4808,
+          "basal_paid": 5548,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2526,
+          "initial_energy": 0,
+          "received_from_founders": 773,
+          "ending_energy": 33,
+          "total_paid": 5548
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1703,
+      "counts": {
+        "feeding": 7892,
+        "terminal": 236,
+        "energy": 8128,
+        "attempted_moves": 1979,
+        "successful_moves": 1203,
+        "occupied_target_blocks": 776,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 236
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1656,
+          "basal_paid": 2692,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 858,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 26,
+          "total_paid": 2692
+        },
+        "descendants": {
+          "eaten": 4604,
+          "basal_paid": 5436,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2491,
+          "initial_energy": 0,
+          "received_from_founders": 858,
+          "ending_energy": 26,
+          "total_paid": 5436
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1704,
+      "counts": {
+        "feeding": 8062,
+        "terminal": 229,
+        "energy": 8291,
+        "attempted_moves": 1989,
+        "successful_moves": 1245,
+        "occupied_target_blocks": 744,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 229
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1764,
+          "basal_paid": 2754,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 930,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2754
+        },
+        "descendants": {
+          "eaten": 4624,
+          "basal_paid": 5537,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2292,
+          "initial_energy": 0,
+          "received_from_founders": 930,
+          "ending_energy": 17,
+          "total_paid": 5537
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1705,
+      "counts": {
+        "feeding": 7821,
+        "terminal": 232,
+        "energy": 8053,
+        "attempted_moves": 1891,
+        "successful_moves": 1299,
+        "occupied_target_blocks": 592,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 232
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1156,
+          "basal_paid": 2535,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 541,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2535
+        },
+        "descendants": {
+          "eaten": 4996,
+          "basal_paid": 5518,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2694,
+          "initial_energy": 0,
+          "received_from_founders": 541,
+          "ending_energy": 19,
+          "total_paid": 5518
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1706,
+      "counts": {
+        "feeding": 7774,
+        "terminal": 232,
+        "energy": 8006,
+        "attempted_moves": 1879,
+        "successful_moves": 1230,
+        "occupied_target_blocks": 649,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 232
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1308,
+          "basal_paid": 2543,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 685,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2543
+        },
+        "descendants": {
+          "eaten": 4808,
+          "basal_paid": 5463,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2534,
+          "initial_energy": 0,
+          "received_from_founders": 685,
+          "ending_energy": 30,
+          "total_paid": 5463
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1707,
+      "counts": {
+        "feeding": 8023,
+        "terminal": 225,
+        "energy": 8248,
+        "attempted_moves": 2039,
+        "successful_moves": 1379,
+        "occupied_target_blocks": 660,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 225
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1720,
+          "basal_paid": 2733,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 907,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2733
+        },
+        "descendants": {
+          "eaten": 4672,
+          "basal_paid": 5515,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2216,
+          "initial_energy": 0,
+          "received_from_founders": 907,
+          "ending_energy": 64,
+          "total_paid": 5515
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1708,
+      "counts": {
+        "feeding": 8034,
+        "terminal": 223,
+        "energy": 8257,
+        "attempted_moves": 2012,
+        "successful_moves": 1293,
+        "occupied_target_blocks": 719,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 223
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1492,
+          "basal_paid": 2728,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 684,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2728
+        },
+        "descendants": {
+          "eaten": 4940,
+          "basal_paid": 5529,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2482,
+          "initial_energy": 0,
+          "received_from_founders": 684,
+          "ending_energy": 95,
+          "total_paid": 5529
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1709,
+      "counts": {
+        "feeding": 7870,
+        "terminal": 238,
+        "energy": 8108,
+        "attempted_moves": 2001,
+        "successful_moves": 1290,
+        "occupied_target_blocks": 711,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 238
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1616,
+          "basal_paid": 2702,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 834,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2702
+        },
+        "descendants": {
+          "eaten": 4572,
+          "basal_paid": 5406,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2488,
+          "initial_energy": 0,
+          "received_from_founders": 834,
+          "ending_energy": 0,
+          "total_paid": 5406
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1700,
+      "counts": {
+        "feeding": 8128,
+        "terminal": 228,
+        "energy": 8356,
+        "attempted_moves": 2003,
+        "successful_moves": 1367,
+        "occupied_target_blocks": 636,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 228
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1856,
+          "basal_paid": 2835,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 923,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 18,
+          "total_paid": 2835
+        },
+        "descendants": {
+          "eaten": 4752,
+          "basal_paid": 5521,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2399,
+          "initial_energy": 0,
+          "received_from_founders": 923,
+          "ending_energy": 154,
+          "total_paid": 5521
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1701,
+      "counts": {
+        "feeding": 7959,
+        "terminal": 236,
+        "energy": 8195,
+        "attempted_moves": 1978,
+        "successful_moves": 1277,
+        "occupied_target_blocks": 701,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 236
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 2000,
+          "basal_paid": 2795,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 1125,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2795
+        },
+        "descendants": {
+          "eaten": 4316,
+          "basal_paid": 5400,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2236,
+          "initial_energy": 0,
+          "received_from_founders": 1125,
+          "ending_energy": 41,
+          "total_paid": 5400
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1702,
+      "counts": {
+        "feeding": 8167,
+        "terminal": 237,
+        "energy": 8404,
+        "attempted_moves": 2005,
+        "successful_moves": 1296,
+        "occupied_target_blocks": 709,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 237
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1672,
+          "basal_paid": 2808,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 772,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 12,
+          "total_paid": 2808
+        },
+        "descendants": {
+          "eaten": 4888,
+          "basal_paid": 5596,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2626,
+          "initial_energy": 0,
+          "received_from_founders": 772,
+          "ending_energy": 64,
+          "total_paid": 5596
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1703,
+      "counts": {
+        "feeding": 7594,
+        "terminal": 229,
+        "energy": 7823,
+        "attempted_moves": 1907,
+        "successful_moves": 1274,
+        "occupied_target_blocks": 633,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 229
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1604,
+          "basal_paid": 2600,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 924,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2600
+        },
+        "descendants": {
+          "eaten": 4368,
+          "basal_paid": 5223,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2285,
+          "initial_energy": 0,
+          "received_from_founders": 924,
+          "ending_energy": 69,
+          "total_paid": 5223
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1704,
+      "counts": {
+        "feeding": 7924,
+        "terminal": 232,
+        "energy": 8156,
+        "attempted_moves": 2028,
+        "successful_moves": 1323,
+        "occupied_target_blocks": 705,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 232
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1648,
+          "basal_paid": 2681,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 887,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2681
+        },
+        "descendants": {
+          "eaten": 4624,
+          "basal_paid": 5475,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2345,
+          "initial_energy": 0,
+          "received_from_founders": 887,
+          "ending_energy": 36,
+          "total_paid": 5475
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1705,
+      "counts": {
+        "feeding": 8203,
+        "terminal": 228,
+        "energy": 8431,
+        "attempted_moves": 2074,
+        "successful_moves": 1538,
+        "occupied_target_blocks": 536,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 228
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1240,
+          "basal_paid": 2616,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 544,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2616
+        },
+        "descendants": {
+          "eaten": 5448,
+          "basal_paid": 5815,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2793,
+          "initial_energy": 0,
+          "received_from_founders": 544,
+          "ending_energy": 177,
+          "total_paid": 5815
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1706,
+      "counts": {
+        "feeding": 7894,
+        "terminal": 241,
+        "energy": 8135,
+        "attempted_moves": 1931,
+        "successful_moves": 1214,
+        "occupied_target_blocks": 717,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 241
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1268,
+          "basal_paid": 2470,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 707,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 11,
+          "total_paid": 2470
+        },
+        "descendants": {
+          "eaten": 5008,
+          "basal_paid": 5665,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2743,
+          "initial_energy": 0,
+          "received_from_founders": 707,
+          "ending_energy": 50,
+          "total_paid": 5665
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1707,
+      "counts": {
+        "feeding": 7772,
+        "terminal": 238,
+        "energy": 8010,
+        "attempted_moves": 1958,
+        "successful_moves": 1255,
+        "occupied_target_blocks": 703,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 238
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1692,
+          "basal_paid": 2643,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 969,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2643
+        },
+        "descendants": {
+          "eaten": 4412,
+          "basal_paid": 5367,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2372,
+          "initial_energy": 0,
+          "received_from_founders": 969,
+          "ending_energy": 14,
+          "total_paid": 5367
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1708,
+      "counts": {
+        "feeding": 7873,
+        "terminal": 234,
+        "energy": 8107,
+        "attempted_moves": 1941,
+        "successful_moves": 1281,
+        "occupied_target_blocks": 660,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 234
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1424,
+          "basal_paid": 2592,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 752,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2592
+        },
+        "descendants": {
+          "eaten": 4788,
+          "basal_paid": 5515,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2588,
+          "initial_energy": 0,
+          "received_from_founders": 752,
+          "ending_energy": 25,
+          "total_paid": 5515
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1709,
+      "counts": {
+        "feeding": 7620,
+        "terminal": 238,
+        "energy": 7858,
+        "attempted_moves": 1925,
+        "successful_moves": 1211,
+        "occupied_target_blocks": 714,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 238
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1356,
+          "basal_paid": 2565,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 711,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2565
+        },
+        "descendants": {
+          "eaten": 4616,
+          "basal_paid": 5293,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2646,
+          "initial_energy": 0,
+          "received_from_founders": 711,
+          "ending_energy": 34,
+          "total_paid": 5293
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1700,
+      "counts": {
+        "feeding": 4226,
+        "terminal": 58,
+        "energy": 4284,
+        "attempted_moves": 1004,
+        "successful_moves": 952,
+        "occupied_target_blocks": 52,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 58
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4666,
+          "basal_paid": 3887,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 648,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 2051,
+          "total_paid": 3887
+        },
+        "descendants": {
+          "eaten": 485,
+          "basal_paid": 397,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 648,
+          "ending_energy": 736,
+          "total_paid": 397
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1701,
+      "counts": {
+        "feeding": 4551,
+        "terminal": 54,
+        "energy": 4605,
+        "attempted_moves": 1201,
+        "successful_moves": 1129,
+        "occupied_target_blocks": 72,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 54
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4702,
+          "basal_paid": 4380,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 324,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1918,
+          "total_paid": 4380
+        },
+        "descendants": {
+          "eaten": 383,
+          "basal_paid": 225,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 80,
+          "initial_energy": 0,
+          "received_from_founders": 324,
+          "ending_energy": 482,
+          "total_paid": 225
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1702,
+      "counts": {
+        "feeding": 4030,
+        "terminal": 60,
+        "energy": 4090,
+        "attempted_moves": 991,
+        "successful_moves": 899,
+        "occupied_target_blocks": 92,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 60
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3628,
+          "basal_paid": 3818,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 405,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1325,
+          "total_paid": 3818
+        },
+        "descendants": {
+          "eaten": 575,
+          "basal_paid": 272,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 165,
+          "initial_energy": 0,
+          "received_from_founders": 405,
+          "ending_energy": 708,
+          "total_paid": 272
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1703,
+      "counts": {
+        "feeding": 4195,
+        "terminal": 58,
+        "energy": 4253,
+        "attempted_moves": 1003,
+        "successful_moves": 933,
+        "occupied_target_blocks": 70,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 58
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4639,
+          "basal_paid": 4106,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 405,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 2048,
+          "total_paid": 4106
+        },
+        "descendants": {
+          "eaten": 214,
+          "basal_paid": 147,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 405,
+          "ending_energy": 472,
+          "total_paid": 147
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1704,
+      "counts": {
+        "feeding": 4067,
+        "terminal": 63,
+        "energy": 4130,
+        "attempted_moves": 1016,
+        "successful_moves": 951,
+        "occupied_target_blocks": 65,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 63
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3949,
+          "basal_paid": 3843,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 567,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1459,
+          "total_paid": 3843
+        },
+        "descendants": {
+          "eaten": 541,
+          "basal_paid": 287,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 567,
+          "ending_energy": 821,
+          "total_paid": 287
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1705,
+      "counts": {
+        "feeding": 3482,
+        "terminal": 67,
+        "energy": 3549,
+        "attempted_moves": 936,
+        "successful_moves": 865,
+        "occupied_target_blocks": 71,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 67
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3239,
+          "basal_paid": 3309,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 484,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1366,
+          "total_paid": 3309
+        },
+        "descendants": {
+          "eaten": 524,
+          "basal_paid": 240,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 163,
+          "initial_energy": 0,
+          "received_from_founders": 484,
+          "ending_energy": 768,
+          "total_paid": 240
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1706,
+      "counts": {
+        "feeding": 3766,
+        "terminal": 63,
+        "energy": 3829,
+        "attempted_moves": 890,
+        "successful_moves": 847,
+        "occupied_target_blocks": 43,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 63
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3427,
+          "basal_paid": 3615,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 404,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1328,
+          "total_paid": 3615
+        },
+        "descendants": {
+          "eaten": 424,
+          "basal_paid": 214,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 162,
+          "initial_energy": 0,
+          "received_from_founders": 404,
+          "ending_energy": 614,
+          "total_paid": 214
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1707,
+      "counts": {
+        "feeding": 4256,
+        "terminal": 59,
+        "energy": 4315,
+        "attempted_moves": 1113,
+        "successful_moves": 1037,
+        "occupied_target_blocks": 76,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 59
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4480,
+          "basal_paid": 4012,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 649,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1739,
+          "total_paid": 4012
+        },
+        "descendants": {
+          "eaten": 368,
+          "basal_paid": 303,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 649,
+          "ending_energy": 714,
+          "total_paid": 303
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1708,
+      "counts": {
+        "feeding": 4176,
+        "terminal": 58,
+        "energy": 4234,
+        "attempted_moves": 1055,
+        "successful_moves": 975,
+        "occupied_target_blocks": 80,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 58
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4132,
+          "basal_paid": 4042,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 322,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1688,
+          "total_paid": 4042
+        },
+        "descendants": {
+          "eaten": 312,
+          "basal_paid": 192,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 81,
+          "initial_energy": 0,
+          "received_from_founders": 322,
+          "ending_energy": 442,
+          "total_paid": 192
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1709,
+      "counts": {
+        "feeding": 4022,
+        "terminal": 59,
+        "energy": 4081,
+        "attempted_moves": 1000,
+        "successful_moves": 926,
+        "occupied_target_blocks": 74,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 59
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4149,
+          "basal_paid": 3945,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 490,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1634,
+          "total_paid": 3945
+        },
+        "descendants": {
+          "eaten": 220,
+          "basal_paid": 136,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 490,
+          "ending_energy": 574,
+          "total_paid": 136
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1700,
+      "counts": {
+        "feeding": 4023,
+        "terminal": 60,
+        "energy": 4083,
+        "attempted_moves": 980,
+        "successful_moves": 920,
+        "occupied_target_blocks": 60,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 60
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4360,
+          "basal_paid": 3936,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 568,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1776,
+          "total_paid": 3936
+        },
+        "descendants": {
+          "eaten": 192,
+          "basal_paid": 147,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 568,
+          "ending_energy": 613,
+          "total_paid": 147
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1701,
+      "counts": {
+        "feeding": 4631,
+        "terminal": 52,
+        "energy": 4683,
+        "attempted_moves": 1209,
+        "successful_moves": 1124,
+        "occupied_target_blocks": 85,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 52
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4876,
+          "basal_paid": 4592,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 243,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1961,
+          "total_paid": 4592
+        },
+        "descendants": {
+          "eaten": 96,
+          "basal_paid": 91,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 243,
+          "ending_energy": 248,
+          "total_paid": 91
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1702,
+      "counts": {
+        "feeding": 3867,
+        "terminal": 61,
+        "energy": 3928,
+        "attempted_moves": 939,
+        "successful_moves": 876,
+        "occupied_target_blocks": 63,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 61
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3956,
+          "basal_paid": 3744,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 486,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1646,
+          "total_paid": 3744
+        },
+        "descendants": {
+          "eaten": 292,
+          "basal_paid": 184,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 486,
+          "ending_energy": 594,
+          "total_paid": 184
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1703,
+      "counts": {
+        "feeding": 4342,
+        "terminal": 57,
+        "energy": 4399,
+        "attempted_moves": 1095,
+        "successful_moves": 1025,
+        "occupied_target_blocks": 70,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 57
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4932,
+          "basal_paid": 4136,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 570,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 2146,
+          "total_paid": 4136
+        },
+        "descendants": {
+          "eaten": 292,
+          "basal_paid": 263,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 570,
+          "ending_energy": 599,
+          "total_paid": 263
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1704,
+      "counts": {
+        "feeding": 4250,
+        "terminal": 61,
+        "energy": 4311,
+        "attempted_moves": 1042,
+        "successful_moves": 984,
+        "occupied_target_blocks": 58,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 61
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4172,
+          "basal_paid": 3976,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 567,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1549,
+          "total_paid": 3976
+        },
+        "descendants": {
+          "eaten": 644,
+          "basal_paid": 335,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 324,
+          "initial_energy": 0,
+          "received_from_founders": 567,
+          "ending_energy": 876,
+          "total_paid": 335
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1705,
+      "counts": {
+        "feeding": 3578,
+        "terminal": 66,
+        "energy": 3644,
+        "attempted_moves": 925,
+        "successful_moves": 865,
+        "occupied_target_blocks": 60,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 66
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3172,
+          "basal_paid": 3356,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 565,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1171,
+          "total_paid": 3356
+        },
+        "descendants": {
+          "eaten": 684,
+          "basal_paid": 288,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 163,
+          "initial_energy": 0,
+          "received_from_founders": 565,
+          "ending_energy": 961,
+          "total_paid": 288
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1706,
+      "counts": {
+        "feeding": 3492,
+        "terminal": 66,
+        "energy": 3558,
+        "attempted_moves": 790,
+        "successful_moves": 744,
+        "occupied_target_blocks": 46,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 66
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 2864,
+          "basal_paid": 3524,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 242,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1018,
+          "total_paid": 3524
+        },
+        "descendants": {
+          "eaten": 128,
+          "basal_paid": 34,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 242,
+          "ending_energy": 336,
+          "total_paid": 34
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1707,
+      "counts": {
+        "feeding": 4350,
+        "terminal": 55,
+        "energy": 4405,
+        "attempted_moves": 1107,
+        "successful_moves": 1019,
+        "occupied_target_blocks": 88,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 55
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4676,
+          "basal_paid": 4208,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 488,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1900,
+          "total_paid": 4208
+        },
+        "descendants": {
+          "eaten": 220,
+          "basal_paid": 197,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 488,
+          "ending_energy": 511,
+          "total_paid": 197
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1708,
+      "counts": {
+        "feeding": 4131,
+        "terminal": 59,
+        "energy": 4190,
+        "attempted_moves": 1046,
+        "successful_moves": 970,
+        "occupied_target_blocks": 76,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 59
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4356,
+          "basal_paid": 3964,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 490,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1822,
+          "total_paid": 3964
+        },
+        "descendants": {
+          "eaten": 352,
+          "basal_paid": 226,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 490,
+          "ending_energy": 616,
+          "total_paid": 226
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1709,
+      "counts": {
+        "feeding": 4216,
+        "terminal": 57,
+        "energy": 4273,
+        "attempted_moves": 1032,
+        "successful_moves": 949,
+        "occupied_target_blocks": 83,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 57
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4364,
+          "basal_paid": 3960,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 488,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1836,
+          "total_paid": 3960
+        },
+        "descendants": {
+          "eaten": 472,
+          "basal_paid": 313,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 82,
+          "initial_energy": 0,
+          "received_from_founders": 488,
+          "ending_energy": 647,
+          "total_paid": 313
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1700,
+      "counts": {
+        "feeding": 4282,
+        "terminal": 57,
+        "energy": 4339,
+        "attempted_moves": 1033,
+        "successful_moves": 959,
+        "occupied_target_blocks": 74,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 57
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4524,
+          "basal_paid": 3984,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 730,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1730,
+          "total_paid": 3984
+        },
+        "descendants": {
+          "eaten": 492,
+          "basal_paid": 355,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 80,
+          "initial_energy": 0,
+          "received_from_founders": 730,
+          "ending_energy": 867,
+          "total_paid": 355
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1701,
+      "counts": {
+        "feeding": 4520,
+        "terminal": 57,
+        "energy": 4577,
+        "attempted_moves": 1139,
+        "successful_moves": 1061,
+        "occupied_target_blocks": 78,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 57
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4672,
+          "basal_paid": 4356,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 572,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1664,
+          "total_paid": 4356
+        },
+        "descendants": {
+          "eaten": 344,
+          "basal_paid": 221,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 572,
+          "ending_energy": 695,
+          "total_paid": 221
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1702,
+      "counts": {
+        "feeding": 3734,
+        "terminal": 62,
+        "energy": 3796,
+        "attempted_moves": 912,
+        "successful_moves": 847,
+        "occupied_target_blocks": 65,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 62
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3720,
+          "basal_paid": 3616,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 491,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1533,
+          "total_paid": 3616
+        },
+        "descendants": {
+          "eaten": 296,
+          "basal_paid": 180,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 491,
+          "ending_energy": 607,
+          "total_paid": 180
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1703,
+      "counts": {
+        "feeding": 4421,
+        "terminal": 57,
+        "energy": 4478,
+        "attempted_moves": 1116,
+        "successful_moves": 1032,
+        "occupied_target_blocks": 84,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 57
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4656,
+          "basal_paid": 4180,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 487,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1909,
+          "total_paid": 4180
+        },
+        "descendants": {
+          "eaten": 432,
+          "basal_paid": 298,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 487,
+          "ending_energy": 621,
+          "total_paid": 298
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1704,
+      "counts": {
+        "feeding": 4165,
+        "terminal": 62,
+        "energy": 4227,
+        "attempted_moves": 1032,
+        "successful_moves": 964,
+        "occupied_target_blocks": 68,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 62
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4180,
+          "basal_paid": 3840,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 807,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1453,
+          "total_paid": 3840
+        },
+        "descendants": {
+          "eaten": 444,
+          "basal_paid": 387,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 807,
+          "ending_energy": 864,
+          "total_paid": 387
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1705,
+      "counts": {
+        "feeding": 3647,
+        "terminal": 64,
+        "energy": 3711,
+        "attempted_moves": 936,
+        "successful_moves": 876,
+        "occupied_target_blocks": 60,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 64
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3308,
+          "basal_paid": 3368,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 729,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1131,
+          "total_paid": 3368
+        },
+        "descendants": {
+          "eaten": 464,
+          "basal_paid": 343,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 729,
+          "ending_energy": 850,
+          "total_paid": 343
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1706,
+      "counts": {
+        "feeding": 3853,
+        "terminal": 61,
+        "energy": 3914,
+        "attempted_moves": 913,
+        "successful_moves": 847,
+        "occupied_target_blocks": 66,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 61
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3652,
+          "basal_paid": 3716,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 486,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1370,
+          "total_paid": 3716
+        },
+        "descendants": {
+          "eaten": 352,
+          "basal_paid": 198,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 486,
+          "ending_energy": 640,
+          "total_paid": 198
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1707,
+      "counts": {
+        "feeding": 4402,
+        "terminal": 58,
+        "energy": 4460,
+        "attempted_moves": 1176,
+        "successful_moves": 1087,
+        "occupied_target_blocks": 89,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 58
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4468,
+          "basal_paid": 4056,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 488,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1844,
+          "total_paid": 4056
+        },
+        "descendants": {
+          "eaten": 760,
+          "basal_paid": 404,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 243,
+          "initial_energy": 0,
+          "received_from_founders": 488,
+          "ending_energy": 844,
+          "total_paid": 404
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1708,
+      "counts": {
+        "feeding": 4102,
+        "terminal": 60,
+        "energy": 4162,
+        "attempted_moves": 1005,
+        "successful_moves": 955,
+        "occupied_target_blocks": 50,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 60
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4204,
+          "basal_paid": 4020,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 323,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1781,
+          "total_paid": 4020
+        },
+        "descendants": {
+          "eaten": 220,
+          "basal_paid": 142,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 323,
+          "ending_energy": 401,
+          "total_paid": 142
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1709,
+      "counts": {
+        "feeding": 4027,
+        "terminal": 58,
+        "energy": 4085,
+        "attempted_moves": 954,
+        "successful_moves": 884,
+        "occupied_target_blocks": 70,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 58
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4116,
+          "basal_paid": 4012,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 322,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1702,
+          "total_paid": 4012
+        },
+        "descendants": {
+          "eaten": 128,
+          "basal_paid": 73,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 322,
+          "ending_energy": 377,
+          "total_paid": 73
+        }
+      }
+    }
+  ],
+  "input_sha256": {
+    "block-threshold-40-renewal-frequent-small-seed-1700-initial.json": "4bf1af687572ee7ea9d94e43435d72827274cad0106cfe380c89c0c97b00b6c5",
+    "block-threshold-40-renewal-frequent-small-seed-1700.csv": "f182bc89d35e6b9222fe7efa13db1a45c70699b2ff952c326bfdeeeb9bf4c2f1",
+    "block-threshold-40-renewal-frequent-small-seed-1700-feeding.jsonl": "be805ec319de46ef9f232de90a6601b7c9a938dd30487d761ca2ece5361c2610",
+    "block-threshold-40-renewal-frequent-small-seed-1700-terminal.jsonl": "cdab2bbbf30adae6b4c6a6757b7ed7607622f34551fbe3289a0cde99d4bd53f3",
+    "block-threshold-40-renewal-frequent-small-seed-1700-energy.jsonl": "b6cda80ea0eaa9708a1e404f66e89b2fd77115d994a2d33d0259081d4c3ecb27",
+    "block-threshold-40-renewal-frequent-small-seed-1701-initial.json": "796a6bde5de509b19155f190cbcdf116c39a9ca26f13064f8ee51312c3575706",
+    "block-threshold-40-renewal-frequent-small-seed-1701.csv": "3e26d06ee6a64ecf3158c54e128494684595ef3d403e86aa95d7ca7fd0d2b533",
+    "block-threshold-40-renewal-frequent-small-seed-1701-feeding.jsonl": "1dede573a12b2c7fd22d44d3e77afe9735f2ee21402c39e758a67eebb6a3ed11",
+    "block-threshold-40-renewal-frequent-small-seed-1701-terminal.jsonl": "308ba7f1fdf1e8aadb7084bf6df76fdd953af7e6a142de7aee3b931c6e4aa228",
+    "block-threshold-40-renewal-frequent-small-seed-1701-energy.jsonl": "21e6e53216ad3625d7e635f35b5fafc9cdd49a35beec1c302b6ab5ce7b733b37",
+    "block-threshold-40-renewal-frequent-small-seed-1702-initial.json": "4c7824f7904c8544bb4fac7cae92540e4e21a41ef24e5ad332aea60aa7fb0d57",
+    "block-threshold-40-renewal-frequent-small-seed-1702.csv": "e7994c3ee34eeb767593d8b2f52a1ee53f676e04875d712dde0fd3a5d9c0e0f8",
+    "block-threshold-40-renewal-frequent-small-seed-1702-feeding.jsonl": "6a832ead98474ef026e9c792682514502e25f659b3c3eaa78f0aef4857194a33",
+    "block-threshold-40-renewal-frequent-small-seed-1702-terminal.jsonl": "fcb51cefddb3ff70aa4b072737c2b77787c69f4d0d38b97b1b89ec0a0930ed9f",
+    "block-threshold-40-renewal-frequent-small-seed-1702-energy.jsonl": "ae0bdcf0614f9b936918cf7daa7ce2cd6211f503fbaeccf86fc7ac347d63704e",
+    "block-threshold-40-renewal-frequent-small-seed-1703-initial.json": "00795d351abdd8d604e45da46e7222057cfa28c1af9dedba6468caa4d492826f",
+    "block-threshold-40-renewal-frequent-small-seed-1703.csv": "aa17a55a809a0c185cbe12bc72682a4ca1e28aae8acf0ce6f6a040917dec1a49",
+    "block-threshold-40-renewal-frequent-small-seed-1703-feeding.jsonl": "f41d22a2cb44847991de08157d5aeb36c1bfa08868ca0e720593bc789f7845e5",
+    "block-threshold-40-renewal-frequent-small-seed-1703-terminal.jsonl": "f8c5d90b388122dd7e23ff58c2a14c989cc8b09769ffd7786c13a43907ccc0ad",
+    "block-threshold-40-renewal-frequent-small-seed-1703-energy.jsonl": "659af1cf735e2662f50a704a5f268d3e0503733617df2c02324359289b1719e2",
+    "block-threshold-40-renewal-frequent-small-seed-1704-initial.json": "858baed5212fbf3bc029e0263a45f68b5737e5ea126a23182f15a942f9c1e70c",
+    "block-threshold-40-renewal-frequent-small-seed-1704.csv": "7ab37492c797ca761b9392e79ab4017aad09aca4d93a4183291178ef57074acc",
+    "block-threshold-40-renewal-frequent-small-seed-1704-feeding.jsonl": "ff6d512da2d42ca9687376a76908f5e11e750fd09ddf349e354bd9ffb1fb1944",
+    "block-threshold-40-renewal-frequent-small-seed-1704-terminal.jsonl": "85fb002320b72d1b840d2b632a83134eae9738a6dbd360fa7e68d6b51b1c0902",
+    "block-threshold-40-renewal-frequent-small-seed-1704-energy.jsonl": "eea4beae26001eeab8671a6e18fbbd70022048b93a0d1dd62d32910c7beae44d",
+    "block-threshold-40-renewal-frequent-small-seed-1705-initial.json": "e9af7f3ff33f301bf01ddac8b426685c2ce91410d23566f46539e693b5135f1a",
+    "block-threshold-40-renewal-frequent-small-seed-1705.csv": "810bc91afc3e1185a8665805ab63d370fbb3ef77ef0ea0d827722728f935d538",
+    "block-threshold-40-renewal-frequent-small-seed-1705-feeding.jsonl": "cbe7313bb4d7ce197375bcd9fa1ed3f66d2d79afca3ec27599bfefb870d41587",
+    "block-threshold-40-renewal-frequent-small-seed-1705-terminal.jsonl": "9bde62b2d0de04779e20a6c4c193b4945d9cdbd58f8da239dc47d6fd142fa8a5",
+    "block-threshold-40-renewal-frequent-small-seed-1705-energy.jsonl": "aca98e26ebf8aba5af4a89e3df7aaa3af3582ce15f72b8866211d7bd66e53e77",
+    "block-threshold-40-renewal-frequent-small-seed-1706-initial.json": "7e6b71d840622efa056fdb4b5bab0ae0c2f95414b0dd595dbed3665abd0a4756",
+    "block-threshold-40-renewal-frequent-small-seed-1706.csv": "c05d9fab62675e70b3f163f0e466367b4baee86c2e765eba905761025f7639ee",
+    "block-threshold-40-renewal-frequent-small-seed-1706-feeding.jsonl": "cbffba8c694208e454801837aa74427f8351686b4114871b9f7202812c50ebaf",
+    "block-threshold-40-renewal-frequent-small-seed-1706-terminal.jsonl": "79f9bc64b96e823d545fc1f956a77e2d741bfd8ed2a34ad854adb2bf21dca509",
+    "block-threshold-40-renewal-frequent-small-seed-1706-energy.jsonl": "7bba60bcad8a3f5c80e70d027bbcdfabea9a76542074351bb55960f656a2d5cc",
+    "block-threshold-40-renewal-frequent-small-seed-1707-initial.json": "f2e85280c5f691437bf7ca41f68be36a37b6665ac40dc16d708bb7cb39ee9e48",
+    "block-threshold-40-renewal-frequent-small-seed-1707.csv": "a9fed3bcc23195983f64986072c9aa0292526eaa8698be1df423db69559eebc1",
+    "block-threshold-40-renewal-frequent-small-seed-1707-feeding.jsonl": "e0c2a0a5250152b50f27e67d956ee5ddf75288ef225242d26e962a80e4797dce",
+    "block-threshold-40-renewal-frequent-small-seed-1707-terminal.jsonl": "4934ed63508679aff5927a40aaa3ac2ffbcec7bcc098f0f38ae1317e9e06a769",
+    "block-threshold-40-renewal-frequent-small-seed-1707-energy.jsonl": "7e03d8d668188d9c85cdcdba3585d6b323d7e45286628b170b715b752f801fd2",
+    "block-threshold-40-renewal-frequent-small-seed-1708-initial.json": "382d237b586c861e82289972e2940cf6a900b295f53a2be75c705792cab0f96a",
+    "block-threshold-40-renewal-frequent-small-seed-1708.csv": "e4b1095803987671238f133a8fc65257a31bcaff859ffe798494cdcb25ce2548",
+    "block-threshold-40-renewal-frequent-small-seed-1708-feeding.jsonl": "c30f42aab3c89f063705f37d3a3425cfe9a68e9016d80c708aeee13222abb036",
+    "block-threshold-40-renewal-frequent-small-seed-1708-terminal.jsonl": "b36fb3f5cd1ce7b354d67f70c5fe0982d3431dd8c6104473874c0a8e631e951e",
+    "block-threshold-40-renewal-frequent-small-seed-1708-energy.jsonl": "29c2ecb1f4245696b88a19106cb77126ab9e5ee34fb2b7c6bf33f56d3402800e",
+    "block-threshold-40-renewal-frequent-small-seed-1709-initial.json": "677df84b18b31a0d7f40d3ddb4bf46d91d593c605dc52c9653970bcc65474b62",
+    "block-threshold-40-renewal-frequent-small-seed-1709.csv": "bb89f284e2101b1e4e597276bbf9f9949e9402a830ff0bcb469c672221ed479b",
+    "block-threshold-40-renewal-frequent-small-seed-1709-feeding.jsonl": "3d5e69109d48a024fadae527f7b2b65bf099503683bf65f2fa56e9e8851a27ff",
+    "block-threshold-40-renewal-frequent-small-seed-1709-terminal.jsonl": "18272c1079546879a9766e38cb2b935d80cd7f234077572f9c21427e9bd9f89f",
+    "block-threshold-40-renewal-frequent-small-seed-1709-energy.jsonl": "47f59e32580ae5cf5a82ed47207e1b250e13029797e640c20810c5a90e1c0023",
+    "block-threshold-40-renewal-reference-seed-1700-initial.json": "dfafb7af86aadf154e838844f34c5467cd2bbf5b939f45a8c2e847777579115e",
+    "block-threshold-40-renewal-reference-seed-1700.csv": "17281acbb0d05cb16cd77769712e8cfc6061789498f14402106063a8d0747e23",
+    "block-threshold-40-renewal-reference-seed-1700-feeding.jsonl": "a40bc9e75beba21ccec5fc31d3973f0560878b770ad5eed6a2203e146c0edcc3",
+    "block-threshold-40-renewal-reference-seed-1700-terminal.jsonl": "c649dc3145465841e9adbf5b784c77b34a37ed871c81c4721a3176a73a177d96",
+    "block-threshold-40-renewal-reference-seed-1700-energy.jsonl": "d0ddf751504c34655764726bb157b00bc88ec45441fdbe6be53a1e4a256b9189",
+    "block-threshold-40-renewal-reference-seed-1701-initial.json": "6e92b961889a426c9a86c21e943ecb2442ade94b96180fb1cf1cc6a0821afdd3",
+    "block-threshold-40-renewal-reference-seed-1701.csv": "6ccc0eabc796c3b3142267b4e63b52dbc37872b2c34659696c27b9816c4f88ea",
+    "block-threshold-40-renewal-reference-seed-1701-feeding.jsonl": "9a4cc0983a0e1f851ba0463da9af44ce1fb4cabeb38c7c3af8cb73aee4ed3870",
+    "block-threshold-40-renewal-reference-seed-1701-terminal.jsonl": "2ee7ab0b8667d115f64b526dd8590740e93c766a1c04c5059e1307b0a038dc17",
+    "block-threshold-40-renewal-reference-seed-1701-energy.jsonl": "619afa0b6d1fcb12e9a108073b9f52b5ddcfab931b13f6bd43280f5fc1e4782d",
+    "block-threshold-40-renewal-reference-seed-1702-initial.json": "0d998331451291105dfcebc307319dca57428cfb530f3e7c474713e366e4a2f2",
+    "block-threshold-40-renewal-reference-seed-1702.csv": "0387677fbbbe5e493d4bc757efb0f4edb6fff80b6836a05802c0500f7565b1eb",
+    "block-threshold-40-renewal-reference-seed-1702-feeding.jsonl": "4469595da5e9f9223e719e5a462498c7a4843c971356de42c21e6b3c550b73d6",
+    "block-threshold-40-renewal-reference-seed-1702-terminal.jsonl": "abd977208afb38b1bf81311871bfbca39256d7ac076c92615d82dcde59a7638c",
+    "block-threshold-40-renewal-reference-seed-1702-energy.jsonl": "6dc6b968024d31af1cbccab4eb69aa5360386d0cafb98908ecfe4c831d5cfaf4",
+    "block-threshold-40-renewal-reference-seed-1703-initial.json": "010de18b0039aa12499ddde7e622b5c823782b01bbe5d872ae8d39c2757433f7",
+    "block-threshold-40-renewal-reference-seed-1703.csv": "6f7965678c61991eac22dce4894f40f132424039828a3aff1b0a51b720f47932",
+    "block-threshold-40-renewal-reference-seed-1703-feeding.jsonl": "8639666a842c920eccd397157be4dede6dbdca7fd69bd13e19696512584ed6bb",
+    "block-threshold-40-renewal-reference-seed-1703-terminal.jsonl": "429da57dfc6e3827b27f6afae35df1d944b359a41c9c812aafe2405ec1b8fe07",
+    "block-threshold-40-renewal-reference-seed-1703-energy.jsonl": "fd6cad644438d702e619694f751376e1b892e611a443db4bfa893fe06ef57e0f",
+    "block-threshold-40-renewal-reference-seed-1704-initial.json": "0824821a5a8c568a7f462d17567e3dc1ba8f26d2c19fe0bd89684f7c343a17ce",
+    "block-threshold-40-renewal-reference-seed-1704.csv": "2089832ab2ac0cdfc35c09a03180aa6cfea58aeb75a1cf0efc09524e73b77c63",
+    "block-threshold-40-renewal-reference-seed-1704-feeding.jsonl": "ddb65c26fbf549e5d6dad3df433324794555e5236fe0c42ec7184083fa86af9e",
+    "block-threshold-40-renewal-reference-seed-1704-terminal.jsonl": "9b95351c503f4a730a79b32ff620e85ccd84389e52cb1583a3b4915a0088af34",
+    "block-threshold-40-renewal-reference-seed-1704-energy.jsonl": "d9895eb1a066ae4b3482a5d61f61f60fa0f9bca72583cd962126148539c1f169",
+    "block-threshold-40-renewal-reference-seed-1705-initial.json": "a2dbd225e816e95a44960794c734c8aae1fc428e07ea650c198aac9c2882bc27",
+    "block-threshold-40-renewal-reference-seed-1705.csv": "900588cb8cb717206b35fef2ea1d7061a3c3d6a2fda9bb5a62c058e50eba1208",
+    "block-threshold-40-renewal-reference-seed-1705-feeding.jsonl": "57d61c77a1414391371d8ee91713019b43ed0ce0cc92d175eb763354ad8a5a31",
+    "block-threshold-40-renewal-reference-seed-1705-terminal.jsonl": "47745b5264887056612738d3baacd16d5179904c990dcdc9f72a98c798a720bd",
+    "block-threshold-40-renewal-reference-seed-1705-energy.jsonl": "d311b6d1e31a89c68f10ddb37a3ea3b885adfcf6debe7245c93b973a173e09a4",
+    "block-threshold-40-renewal-reference-seed-1706-initial.json": "57508c3ec3175c621b6d493d732c6e2ecb523e46bd8de1e04c0c5a42923f7783",
+    "block-threshold-40-renewal-reference-seed-1706.csv": "143a67f6f21b8662644cce4f0c078313e1aab6292d70d1506809634815268db8",
+    "block-threshold-40-renewal-reference-seed-1706-feeding.jsonl": "5936d40e1fbd002224742d85e7b67471602c730e1af21b389488329209cafcb1",
+    "block-threshold-40-renewal-reference-seed-1706-terminal.jsonl": "1943fb9c4c445e3ca245acd1c153c254d999497f061dc4e8b6113b45a3e633c4",
+    "block-threshold-40-renewal-reference-seed-1706-energy.jsonl": "4e98b459aabcf397a6da11b465d6e60295a8e57738be10005b2fd4eff1c922f6",
+    "block-threshold-40-renewal-reference-seed-1707-initial.json": "25cd1437ce257da9bebb4410f5607172c5f44efc28d07e861a188b963effa045",
+    "block-threshold-40-renewal-reference-seed-1707.csv": "6f64cb3a445047feee51866ca770961b21e5349d09da4371ec8e88dda77ceb76",
+    "block-threshold-40-renewal-reference-seed-1707-feeding.jsonl": "54391cad91d5c9cf9650b62025a153339ec9c5bcd911d7f0c2600663c7f01333",
+    "block-threshold-40-renewal-reference-seed-1707-terminal.jsonl": "da6d5bf59dc376daf95613321750d794338d3c1105be29a0a79ae7bc0113839c",
+    "block-threshold-40-renewal-reference-seed-1707-energy.jsonl": "66fa72dfa7f35d44d2c1c7326a0b7690840e79e68ab92041f12e9f1972cc4b77",
+    "block-threshold-40-renewal-reference-seed-1708-initial.json": "d38718df0a0c11353345621fc09c0f8bbdfd934629bac8f62a4a657f8522615a",
+    "block-threshold-40-renewal-reference-seed-1708.csv": "39f0dd587fd66b09aefc055980ce7db6ab8ba8e405813d9486d35725ecd63666",
+    "block-threshold-40-renewal-reference-seed-1708-feeding.jsonl": "5acbe9266fa01e56b87a6b2e75778f6dda30150fd5561291ef9c72bcb015dc8e",
+    "block-threshold-40-renewal-reference-seed-1708-terminal.jsonl": "fd0f4f9b1b3a38d3f015f87eb1aeeded23eaddc1f9a4e1ba60ee6bd3cf1d57e3",
+    "block-threshold-40-renewal-reference-seed-1708-energy.jsonl": "b6b419fc7aa6dd4471fcd8ba6c45b93bcb7dfbf822bba18e44d16751ba50e348",
+    "block-threshold-40-renewal-reference-seed-1709-initial.json": "800a349064d83225c181ea098a0c2464b7801c4baf43dd571eac5be59278cc66",
+    "block-threshold-40-renewal-reference-seed-1709.csv": "0da56a538ce62d27b158a563161ccb812f4834800644dc80d2a82a9ade0d84b1",
+    "block-threshold-40-renewal-reference-seed-1709-feeding.jsonl": "34faad0619099d00966f13f9f5ac41cae8f7620c537331a44a3cc8547b8e688a",
+    "block-threshold-40-renewal-reference-seed-1709-terminal.jsonl": "a4d325f7df7a5a59ed390357781de03b787c36097d81a4c0cf81d6f43ddbb6c4",
+    "block-threshold-40-renewal-reference-seed-1709-energy.jsonl": "1dc4396d180c81d56c8384e8b6444f76e11878d68befcc05dfefa97d96c450b4",
+    "block-threshold-40-renewal-rare-large-seed-1700-initial.json": "09b97eb97d1777fefaaa1c2cb8059e1fcbfcbd438fb3ae49df20ca8c8f05d6be",
+    "block-threshold-40-renewal-rare-large-seed-1700.csv": "8dd25f96bf8491b70d960e464d403c40029891b4b3f7063690a8a062234c3a82",
+    "block-threshold-40-renewal-rare-large-seed-1700-feeding.jsonl": "edd1ca7b38179c9bd7ac5b16f00a96236b5a6ba4f8d2e4fbcf20fec56a39f7bf",
+    "block-threshold-40-renewal-rare-large-seed-1700-terminal.jsonl": "d273ca7df6ffcf9f7f30c7b1ac4c8975e8b1e9c197faf6327fde8dd3458e8dc5",
+    "block-threshold-40-renewal-rare-large-seed-1700-energy.jsonl": "f5ace6af821df33d10b8442c76dfe90d962eda1dbe36192dedca9f3bccda4d86",
+    "block-threshold-40-renewal-rare-large-seed-1701-initial.json": "35c40c00093b6cc34967989a5c5cb12b0fd95b57e96331407edfc3ea4d8003b7",
+    "block-threshold-40-renewal-rare-large-seed-1701.csv": "292d8551873a9cc874cdc7205a23c587d18ded7d28db0d11ef0b0e95bbec6dab",
+    "block-threshold-40-renewal-rare-large-seed-1701-feeding.jsonl": "4034794934f7064050012b495eb90125282bcdb67ca47acee08e30928e89b97c",
+    "block-threshold-40-renewal-rare-large-seed-1701-terminal.jsonl": "856c6527e263a5cd9846dadfeb57b1f06b08f3317aa30d72ffb65b44f1f78654",
+    "block-threshold-40-renewal-rare-large-seed-1701-energy.jsonl": "2d0f2b27938a49caeda17e9650567575dfbe73934588fc2701f2394be0fbddac",
+    "block-threshold-40-renewal-rare-large-seed-1702-initial.json": "a2811db51056c202d607cb7564c129eb34d061217559984222ed7891c7e85973",
+    "block-threshold-40-renewal-rare-large-seed-1702.csv": "acacaf9aa14f381c2a2183fa8abc15e32678e9c36996cf6f9f15731b06423294",
+    "block-threshold-40-renewal-rare-large-seed-1702-feeding.jsonl": "a4367b560a5503168918a05ff63d371614ff095f4f8c3698d42eb62dc6d10d98",
+    "block-threshold-40-renewal-rare-large-seed-1702-terminal.jsonl": "50f1dfc651c645ba844720d24c4dacaf9c2a3dc3ea4b424fe0b2ae6be13ca3ae",
+    "block-threshold-40-renewal-rare-large-seed-1702-energy.jsonl": "d5f80c1d4b4aa83fb0b2a4b04ac34cace5f96f82a45ef2de154f238c3083e2b6",
+    "block-threshold-40-renewal-rare-large-seed-1703-initial.json": "a6fd721612e619fef124aca267651b89df50afc2d8eea291631edb863c08f1a3",
+    "block-threshold-40-renewal-rare-large-seed-1703.csv": "fa4c6c944f3ef445221f2e0b6a2a2b30bde6a9afb5567dd1080871041e838118",
+    "block-threshold-40-renewal-rare-large-seed-1703-feeding.jsonl": "3780b62f08c221ef04bcb64816f49948ed07a1eecaab0106a885e8df90a7227a",
+    "block-threshold-40-renewal-rare-large-seed-1703-terminal.jsonl": "d089d570fa8acd1209f15afd67a8197d4463cba0d55bd0892a109423f97d6afd",
+    "block-threshold-40-renewal-rare-large-seed-1703-energy.jsonl": "1c0382c6f9e6879847ab344956d54924f85f5c471608ecb9f712736c33a0cb66",
+    "block-threshold-40-renewal-rare-large-seed-1704-initial.json": "214849c8ffcd973a20a15d31fa54db007b41e255559de6d4691940a2133d94a5",
+    "block-threshold-40-renewal-rare-large-seed-1704.csv": "acd2885768720e78ff91444598fd57838c4959e34c267e618f929d0f268dfe3f",
+    "block-threshold-40-renewal-rare-large-seed-1704-feeding.jsonl": "93963f2ca6f5d9888ac3ad97b0340d753238c7f34c9b31fe6b7295c49e5d41b3",
+    "block-threshold-40-renewal-rare-large-seed-1704-terminal.jsonl": "88f80e4b8dcac2243b641eac43937ea4877879bcdd8d57c1cd64921e506ca01b",
+    "block-threshold-40-renewal-rare-large-seed-1704-energy.jsonl": "5d21d171ebfc794be5346438499906aa34c6bcbee9135541b91a14f44c01875c",
+    "block-threshold-40-renewal-rare-large-seed-1705-initial.json": "952e4ac2d1b19889579884fd17846be6cc04cc65458e39283af19d25a34e56a7",
+    "block-threshold-40-renewal-rare-large-seed-1705.csv": "262ab2bcea29e24aa081766b8fb3d30e54ceba4febb996f93669500c338df799",
+    "block-threshold-40-renewal-rare-large-seed-1705-feeding.jsonl": "ade131ab4a78040a72d769008a1cdddb39f20670e219a9e0fe9bbd566547f0a9",
+    "block-threshold-40-renewal-rare-large-seed-1705-terminal.jsonl": "c3fd63eaf5fe33a85bb4e0ef2f048081e9daf27fb63a04ed7e7b7280650816bd",
+    "block-threshold-40-renewal-rare-large-seed-1705-energy.jsonl": "aed58942009f10e1d8f4eea067ddba87d198540755e0b2c084e647f7c4874190",
+    "block-threshold-40-renewal-rare-large-seed-1706-initial.json": "30ea9983641a9cfb1a85b907233bb787068e651e270bba4bd2e1b333d2600bdc",
+    "block-threshold-40-renewal-rare-large-seed-1706.csv": "e97f240f03482a98604228b621b1865bac8fe34e76ba2d3dc509db38bda81770",
+    "block-threshold-40-renewal-rare-large-seed-1706-feeding.jsonl": "bac6f342265ee188e74f5a8d289852f4fb290d688661451ebd603dee424e03c0",
+    "block-threshold-40-renewal-rare-large-seed-1706-terminal.jsonl": "93f729f7f75410033af7e0c4b5edfd901538532100f11cb1258d0a861071bf06",
+    "block-threshold-40-renewal-rare-large-seed-1706-energy.jsonl": "4bf3dd2fed170f5e99912e5ba0337f399b1e141c98addbe9cb865cfaa385010c",
+    "block-threshold-40-renewal-rare-large-seed-1707-initial.json": "f159bd05b04d5b6161f8b1a7114fed62d923a4f25b4bc0aede6f16908beef247",
+    "block-threshold-40-renewal-rare-large-seed-1707.csv": "ccdeeb5b88ca33f9ecf29056788e5e22b7e172da0cec0a51f5cf8ad477ff4915",
+    "block-threshold-40-renewal-rare-large-seed-1707-feeding.jsonl": "788a719954ff3ede173a28928cfa537880b633aba1e303031dc1e382144bf41d",
+    "block-threshold-40-renewal-rare-large-seed-1707-terminal.jsonl": "1ef4944af805a512465231fce6562bd9b8fbe524fafef70a6a3c17f4e3de6708",
+    "block-threshold-40-renewal-rare-large-seed-1707-energy.jsonl": "7c51b91e8da698443a998236a07f6f915d891af7c10e1d3d38960a72799a0442",
+    "block-threshold-40-renewal-rare-large-seed-1708-initial.json": "f8eb9598942a1e99db1c5ba64cc0775f6c845c502ab4f111c70f758d7a583f19",
+    "block-threshold-40-renewal-rare-large-seed-1708.csv": "6bcb715f87e84bf0f8bf28fd901f3faecb85c4ed41269630dbb10cdea54586a3",
+    "block-threshold-40-renewal-rare-large-seed-1708-feeding.jsonl": "58e2d2f998bb28daf84c4e29bae7b9de2346877241e8a6cd1500a82d71f29c1e",
+    "block-threshold-40-renewal-rare-large-seed-1708-terminal.jsonl": "0d6311ef5b6bb3a5f05ab0b875a7d86ec340acc7a500a4e2845e478f4dda1f5f",
+    "block-threshold-40-renewal-rare-large-seed-1708-energy.jsonl": "a6272b062d923e6a65f4ef7dc2cc74765bab256e6f6935372a3873bd4a90aef0",
+    "block-threshold-40-renewal-rare-large-seed-1709-initial.json": "54b43aed2503444002cc10e326eca6ef3bdc9b46e70eacd75f63a57e571575ec",
+    "block-threshold-40-renewal-rare-large-seed-1709.csv": "5a4da012d46bb2fc83467cfa30a1306a962d963ae3e8d5f86309a30c89843dbc",
+    "block-threshold-40-renewal-rare-large-seed-1709-feeding.jsonl": "ff1b7683130da942fee51832939ec4b3240f115228ff7d4f04dd2e78147594e8",
+    "block-threshold-40-renewal-rare-large-seed-1709-terminal.jsonl": "9b39f0de28d3ac73b761982f2c02ef39632496f0012ace9680022f6f95175a8c",
+    "block-threshold-40-renewal-rare-large-seed-1709-energy.jsonl": "e4c81ccdc362262a2a6e6a1b06737925a0e1f7501d7ba7dd24393a702693386e",
+    "block-threshold-160-renewal-frequent-small-seed-1700-initial.json": "3f2e521220595123450e16384124206c0d2b80990a35fe41ca64c3460bc5510b",
+    "block-threshold-160-renewal-frequent-small-seed-1700.csv": "8f0a9bbf58f280571c04e1b9ca70675a7794bd04e5bf4d06608096de6be94dd8",
+    "block-threshold-160-renewal-frequent-small-seed-1700-feeding.jsonl": "f48a5a898bff2cc8aecb28778d9e0460e5dd3e70490ca895f60d49d45e7ad32e",
+    "block-threshold-160-renewal-frequent-small-seed-1700-terminal.jsonl": "e5c5e3fad99ee74cc606bd8c05a2dce84185bce7751e1764a730e489e8a2e7c5",
+    "block-threshold-160-renewal-frequent-small-seed-1700-energy.jsonl": "fcce739b3f2b3cfb2b68184557387dd63f6e6d0166b27b9acd4774955a6dff6e",
+    "block-threshold-160-renewal-frequent-small-seed-1701-initial.json": "4518f2572d058c4a8e4fdbf170d6bb604dc378d57171442492d08c5d7e0ea936",
+    "block-threshold-160-renewal-frequent-small-seed-1701.csv": "b7dfb919b6c019b91dd22ff7554e7b673297056639a63efc86a965c24c65e0da",
+    "block-threshold-160-renewal-frequent-small-seed-1701-feeding.jsonl": "1b9756c8f19bb5ecf4f020fad5f933a3a4e3de1790c5420604d3868306f7f194",
+    "block-threshold-160-renewal-frequent-small-seed-1701-terminal.jsonl": "1fe80b015e3c4f85d612d809533673ae037c38a8a6b593a141eb057d5780c060",
+    "block-threshold-160-renewal-frequent-small-seed-1701-energy.jsonl": "48d3781be79f7c8691190730ca8f7061f91308d05034b6ba582903cce501d027",
+    "block-threshold-160-renewal-frequent-small-seed-1702-initial.json": "f5c29419db9c9a76fd7e75cb31176550c397e20074a32b41a480b109102508c5",
+    "block-threshold-160-renewal-frequent-small-seed-1702.csv": "d9da89471f76c6b68b82c1b6833911e5f9123780ec9bf7cf141887da821db39b",
+    "block-threshold-160-renewal-frequent-small-seed-1702-feeding.jsonl": "a79e905a4591c5a60522959524b71dae1693d4ebb358a079beafd8fb07e067cc",
+    "block-threshold-160-renewal-frequent-small-seed-1702-terminal.jsonl": "3ef6474a24c174900b575ca285256f0da5af29eebd78979954a470d166ebd1a1",
+    "block-threshold-160-renewal-frequent-small-seed-1702-energy.jsonl": "6999da69b0d76df08264471a407e2c3ca07ef595aab7fc181ac44fa302900cb0",
+    "block-threshold-160-renewal-frequent-small-seed-1703-initial.json": "179968a27e4ae75e9a88e237ca7bb9724298c524ac7dd08587d66ae0cf4f624d",
+    "block-threshold-160-renewal-frequent-small-seed-1703.csv": "e6319d6311bfd3739810493cce23f394692ef581e23369332f472b57e3f20f7f",
+    "block-threshold-160-renewal-frequent-small-seed-1703-feeding.jsonl": "e135f18eccb506932dfe523e99247ab92a56f62e5cb5a74b72851545c6bc76bb",
+    "block-threshold-160-renewal-frequent-small-seed-1703-terminal.jsonl": "ae059affd5815977b6059de563df524f84de08782ebe6db4ea1c789e4d2a94d4",
+    "block-threshold-160-renewal-frequent-small-seed-1703-energy.jsonl": "1efbc3201705c44e2aea4efb096d7d12ab843adcf8c8c6f66b2c468e741814bb",
+    "block-threshold-160-renewal-frequent-small-seed-1704-initial.json": "cbe695a86e572f96ad7289d1971afca7fd6a0845c74dfdad6b8dab6e3bcb034e",
+    "block-threshold-160-renewal-frequent-small-seed-1704.csv": "5056e2c694679ff09c662f4373907f378110a85341e7dd7f869f65551c762818",
+    "block-threshold-160-renewal-frequent-small-seed-1704-feeding.jsonl": "417efc38db6c01298d9484cd29391433649688b69075b5bf049d37766e93bbb7",
+    "block-threshold-160-renewal-frequent-small-seed-1704-terminal.jsonl": "168c3b2f0645be93c365ba03ce59629b0b91adf4eda63558533a9af4d3ed73be",
+    "block-threshold-160-renewal-frequent-small-seed-1704-energy.jsonl": "481f77f1d0ae68a1ee810f56ef283ab578d23ca75ec4fb7a16e64b0e116bfecd",
+    "block-threshold-160-renewal-frequent-small-seed-1705-initial.json": "e81eb445ef5f9013ba82201dbf4a256f1585695bea64b5c45d5db0fa576e0e15",
+    "block-threshold-160-renewal-frequent-small-seed-1705.csv": "f6eef86bf09b60d9756dc5dcdc57415af752c510c8e146d074747a68cf57cf32",
+    "block-threshold-160-renewal-frequent-small-seed-1705-feeding.jsonl": "3191c544600e8622f676e3a050bd1a2aedf1abd73b2188625f11728fbbe3d7a1",
+    "block-threshold-160-renewal-frequent-small-seed-1705-terminal.jsonl": "afde6d11eea3fdf534c052a2522e5dbfd88b4896079cb880d059c79d090fd011",
+    "block-threshold-160-renewal-frequent-small-seed-1705-energy.jsonl": "b99ab421d83f274ec1677342dbb0251214df1eb8db5e7d25074ad23e3413282e",
+    "block-threshold-160-renewal-frequent-small-seed-1706-initial.json": "2be47b0358a345ee49f32c78aefff1fb3d0bb7fa28afdf39a5fe44af30f1634f",
+    "block-threshold-160-renewal-frequent-small-seed-1706.csv": "0588eaced563d2d5622d3ffc74f5b6d6ae0f2dfbb98e1a629a18eae4da74b240",
+    "block-threshold-160-renewal-frequent-small-seed-1706-feeding.jsonl": "12c3411d333e3716718c8911ce0bdae078c487c2790148927f52198a42b01261",
+    "block-threshold-160-renewal-frequent-small-seed-1706-terminal.jsonl": "ef56e449c51e9fd65bc43b1423b480ecf3e44f21f16d8a579922753a6fad908d",
+    "block-threshold-160-renewal-frequent-small-seed-1706-energy.jsonl": "dc9248981354fe514ab88a9f5fb9994b310c2e9f34aebe9f8951a4502fd77123",
+    "block-threshold-160-renewal-frequent-small-seed-1707-initial.json": "05c21950fb90da19ede9bc6feb6ab9673008b4f9e976596a580017df15432eb9",
+    "block-threshold-160-renewal-frequent-small-seed-1707.csv": "2e13c493720a7af8149b52d30547b45af0171f36517c412e6b06ccd13f480b51",
+    "block-threshold-160-renewal-frequent-small-seed-1707-feeding.jsonl": "eb5086e82da59d2875b9257a70021e0caf4b423b9a733f22396a426aa30ed154",
+    "block-threshold-160-renewal-frequent-small-seed-1707-terminal.jsonl": "1a1b3043fe01d91e497c53c72047a44a202e7f92001a3d1586b66133c093aad0",
+    "block-threshold-160-renewal-frequent-small-seed-1707-energy.jsonl": "9a0693571182c77430571670dfd37e7b6a027302f2f1e73a61692c3b5433ff77",
+    "block-threshold-160-renewal-frequent-small-seed-1708-initial.json": "b5d76396543450f87cb6b2ec22219f05ab0ee1c6bf8148b165aa97ec9686c31b",
+    "block-threshold-160-renewal-frequent-small-seed-1708.csv": "2efed5e8c050cec7524da1974bd314e95a8a5cdf75d29d5ee483fd4914cbfc93",
+    "block-threshold-160-renewal-frequent-small-seed-1708-feeding.jsonl": "acb7d09d9e0f8e27e5ea9744f7fdff186dd75f746edaacadcad3b61fd295940f",
+    "block-threshold-160-renewal-frequent-small-seed-1708-terminal.jsonl": "b5862e634895497fceacfcde3af8fd6b75d45252a86d46025b40cfd1a22549c7",
+    "block-threshold-160-renewal-frequent-small-seed-1708-energy.jsonl": "1a896cfaf29a9add133a16a5e31505700bc5116fe097923bf32cdf4cb81bc67b",
+    "block-threshold-160-renewal-frequent-small-seed-1709-initial.json": "dcee9342ccf1518ff7a9680bf09e06d3ada5e8863f6937e62613459e20982c57",
+    "block-threshold-160-renewal-frequent-small-seed-1709.csv": "ab3d5516c58b4882f129a78433637d5cc70cd578577b5ec1aace2f763fcbee3e",
+    "block-threshold-160-renewal-frequent-small-seed-1709-feeding.jsonl": "c613eec763529fe59b62cc2a76287e0bc337145e758becc9652b58819dab1c52",
+    "block-threshold-160-renewal-frequent-small-seed-1709-terminal.jsonl": "f53685f79c9c5e256d8123a98df50fb0b406f740d70c1dbbec6472dd7fb17e17",
+    "block-threshold-160-renewal-frequent-small-seed-1709-energy.jsonl": "aab2ad4eadaca3f156f4a01ad580a5cdb4c18c45f03ebcaf98993fc7d4436769",
+    "block-threshold-160-renewal-reference-seed-1700-initial.json": "3554ac8924c4cf9965bde4e842fc26296447a03ed89f0e609daa7572f68cfee1",
+    "block-threshold-160-renewal-reference-seed-1700.csv": "13279e3d8f2536e4a682c0cb194a3c66fe6d5a34d930690d91e92d17b5f35acc",
+    "block-threshold-160-renewal-reference-seed-1700-feeding.jsonl": "3dea507347a68d12715b25aa1fb7eba0960272afd14a726035cae9e4fd585669",
+    "block-threshold-160-renewal-reference-seed-1700-terminal.jsonl": "e8a5ee10af4afc4a4102ce34939a7d221a7eb57da740b022dfd3ba4b842d5b88",
+    "block-threshold-160-renewal-reference-seed-1700-energy.jsonl": "6d3dab301568b564fd3234d5d3d887389add7719cea5058cf7e614d8b5cbcba6",
+    "block-threshold-160-renewal-reference-seed-1701-initial.json": "4a746bd53dd742e84e2f71ba2009065d5ffd5c2b38da1483bb8f467456960f18",
+    "block-threshold-160-renewal-reference-seed-1701.csv": "dc3c252e170e30da5c13b146cfe4c8747990992b8e95d41b0a977d1dc577739f",
+    "block-threshold-160-renewal-reference-seed-1701-feeding.jsonl": "d3341d933054bb73b84321e85f23dbd7cb29682306146ddc8c2bcc13d8ecf041",
+    "block-threshold-160-renewal-reference-seed-1701-terminal.jsonl": "774c7ffa8d7fb195e081447ff759b5e70cf385541814fb352fe50fbffd30155b",
+    "block-threshold-160-renewal-reference-seed-1701-energy.jsonl": "bb0feb3aa11c6d7ff41f1889ec14e5fed46ef5942edd8c60b40aa60c4f3c72a9",
+    "block-threshold-160-renewal-reference-seed-1702-initial.json": "80f542f669d44ef1959c2659359712a441d9cec05f02bc5909874f18d626b1e3",
+    "block-threshold-160-renewal-reference-seed-1702.csv": "e480c5cb0fafa9309f14f2d76e959aae926d37761c65d591f90d165cdae1331f",
+    "block-threshold-160-renewal-reference-seed-1702-feeding.jsonl": "245b3968b65aaae74cfa24b73a7ebcab300476d5764ed199dc6287b0131ca2a9",
+    "block-threshold-160-renewal-reference-seed-1702-terminal.jsonl": "e64a4b533ef88fb87269715ea70a28a122af3aac1693d46262a16a45d5c7fcab",
+    "block-threshold-160-renewal-reference-seed-1702-energy.jsonl": "2be416a22e1738051d23a3a1acf34e075bc622062abf508cb007d9c7268daa98",
+    "block-threshold-160-renewal-reference-seed-1703-initial.json": "6ef6d517069eeb80df49fb57b5e71232d4305e02b8b0554f2d795dbdcbc2c71a",
+    "block-threshold-160-renewal-reference-seed-1703.csv": "98ceb4246e2cfbf748aca9ba0d4489bc893f08c30c8a06e91c8a1b89a715e4c0",
+    "block-threshold-160-renewal-reference-seed-1703-feeding.jsonl": "1248188af0cd6a2bbc50f0e397d8dc1c31ef7a0903e601451e6533e6dc2a7e08",
+    "block-threshold-160-renewal-reference-seed-1703-terminal.jsonl": "156eaf02b5af0734d69c5aae97ff529ca7fc8d78a0a9ac44daa37279248ebe9d",
+    "block-threshold-160-renewal-reference-seed-1703-energy.jsonl": "6d8e8495f920a6fef09553a4d2cbd3d7ee731334d719c4a9156e6da2e92d7c4f",
+    "block-threshold-160-renewal-reference-seed-1704-initial.json": "28bffa22c2591acb9f2781d66c11643201f079ac31bc53f5cd9c39077b9417fb",
+    "block-threshold-160-renewal-reference-seed-1704.csv": "b5ba1e5d19959f398b772975adbab18deb1fe8334c099982de884483434ddb8b",
+    "block-threshold-160-renewal-reference-seed-1704-feeding.jsonl": "303df8e3ed7a22c25123612c9a0322bc2c34d8a82eb9f2adf62f1fac13f21d92",
+    "block-threshold-160-renewal-reference-seed-1704-terminal.jsonl": "0fafdc35b2d6513f21e575994593a593fa64bef41c05826ba023193428adf698",
+    "block-threshold-160-renewal-reference-seed-1704-energy.jsonl": "a735f1e9ba2a5efa35403e0eb6fcca2e6ce3646e2ed7ed815ba896ccd4a52638",
+    "block-threshold-160-renewal-reference-seed-1705-initial.json": "9e40899b32e516623f54273a201327f06f76d9968892a87d58bd760e1585a2cb",
+    "block-threshold-160-renewal-reference-seed-1705.csv": "c9ddbc3dd80008a7e0f51f559431c307704ce51a397dcbdae2217fb6d031f27f",
+    "block-threshold-160-renewal-reference-seed-1705-feeding.jsonl": "ddb272ca1553a9bc4563047578085da085c9f861046e15fa81502f19ec425360",
+    "block-threshold-160-renewal-reference-seed-1705-terminal.jsonl": "471892e96b37ea5988cb2666b35e8b0e3c7e4a100a29993ca180e65a4a121018",
+    "block-threshold-160-renewal-reference-seed-1705-energy.jsonl": "859adea9088ee1f1c4ad017235c12ef053e33d9e35d808bc0d981e25745b383c",
+    "block-threshold-160-renewal-reference-seed-1706-initial.json": "2ebfcc354b49cbd65242ef99a5e52e6fa74217fbdcb887eedbbafdd99f290ae8",
+    "block-threshold-160-renewal-reference-seed-1706.csv": "b7d1db4198a3455c4ee880d6d38f7c3b03ea5040401900c04209546b1193882c",
+    "block-threshold-160-renewal-reference-seed-1706-feeding.jsonl": "04e466d0fece693572740e14e822c88a16061875e3e4ea7817d9ea79dde97e25",
+    "block-threshold-160-renewal-reference-seed-1706-terminal.jsonl": "b6a9100e2299d22c7f21a85e247e2ec6cbdd492c9e08c3b72e0327859420feac",
+    "block-threshold-160-renewal-reference-seed-1706-energy.jsonl": "aed92dba83103b6d1ee6d507117a770ca299af59a7c697b4df684a2355287d12",
+    "block-threshold-160-renewal-reference-seed-1707-initial.json": "f7f5e762d62899650ade132f171710f4eb965b2737982475f92fa740c034763b",
+    "block-threshold-160-renewal-reference-seed-1707.csv": "af3b80d735643dfece73aa0180ddf3e4bd94741ec0517142eb305fa885f5170a",
+    "block-threshold-160-renewal-reference-seed-1707-feeding.jsonl": "ff5097e07614760fc77e16d5dffc15678ab162905b3374ba4488059e084545cd",
+    "block-threshold-160-renewal-reference-seed-1707-terminal.jsonl": "656efb9e6c232c0b693fc6b7126c2bf4d6de581995ca6ba96f3272cbf565b88b",
+    "block-threshold-160-renewal-reference-seed-1707-energy.jsonl": "d0463a1ef0322084fa7e92f67ac86a016724e6310b913509d8d4f52f06951d19",
+    "block-threshold-160-renewal-reference-seed-1708-initial.json": "dd1601688bfc485d85881bec60a4f940ab33e0cf6ba3f68abf63410ea259f5bd",
+    "block-threshold-160-renewal-reference-seed-1708.csv": "fb4ed5c136a9d21c3f9f9905e2c8c48935e163a5b46f92258619609b2c880e41",
+    "block-threshold-160-renewal-reference-seed-1708-feeding.jsonl": "357848c624a03ee449f8f8eed63520d2abbb2f78b1f625acad3c4f627e16c859",
+    "block-threshold-160-renewal-reference-seed-1708-terminal.jsonl": "74c4fe571d5f16135b6ae64f69ac792d348a1824a39c42f1b5e5bfd3bbe90fdb",
+    "block-threshold-160-renewal-reference-seed-1708-energy.jsonl": "7d65c4d77b6e688f1785f66a314b0d644b12e7b55f11cca795a9413d1694e195",
+    "block-threshold-160-renewal-reference-seed-1709-initial.json": "2fca40861269d69478062d3098341c67f7185c1f313387e0c1764867d4749326",
+    "block-threshold-160-renewal-reference-seed-1709.csv": "2ac6d66d75b8362eab8956891a01b576a61c381107e596334ac6e9db66f9dfb4",
+    "block-threshold-160-renewal-reference-seed-1709-feeding.jsonl": "81f17fb20ae296824571e97572d4d8d72787a8086e955dae88016a85b10821f2",
+    "block-threshold-160-renewal-reference-seed-1709-terminal.jsonl": "344223a4ec1a7150369ea1c340995dc32b8bd96f7561f8a825375a1165281d7a",
+    "block-threshold-160-renewal-reference-seed-1709-energy.jsonl": "385546abb9697cc3f2dace15a9ceaeef0b20924c743bc1999c6bd91b51191c53",
+    "block-threshold-160-renewal-rare-large-seed-1700-initial.json": "7460ace72b870bdbafa7ed2798f6eec1a501ce98b0b61c1034c62459db253c21",
+    "block-threshold-160-renewal-rare-large-seed-1700.csv": "c540433ae3de705cf898614a70a00186bc170b2c2f2b42b48c82292550a90d79",
+    "block-threshold-160-renewal-rare-large-seed-1700-feeding.jsonl": "3a688b5fa7f11fabb38677a300190c9509db1e6affd70b3c8addf176a320a456",
+    "block-threshold-160-renewal-rare-large-seed-1700-terminal.jsonl": "f8071b6f52628d84043be588359fa262e6ebdafe8244b6d4cb99c10494ff11f0",
+    "block-threshold-160-renewal-rare-large-seed-1700-energy.jsonl": "e84250211581758879b26c1afd891c0a6e92a664f9a3eecd10f7cb965db924d3",
+    "block-threshold-160-renewal-rare-large-seed-1701-initial.json": "83fcda50e3c126f365da20cfb55b50f968f052e7b872f44ea8cfc09316df7e20",
+    "block-threshold-160-renewal-rare-large-seed-1701.csv": "6d7a9f86bc3804d9e35a8ee1d88b9562cd2f752464ad151a865c03f7794b4491",
+    "block-threshold-160-renewal-rare-large-seed-1701-feeding.jsonl": "5f5b1eac87dd27fe4a22821e855ea49d508566918ebc131a7c1fc07da743a034",
+    "block-threshold-160-renewal-rare-large-seed-1701-terminal.jsonl": "fede04c0bf0902eafe277fafab34936a00c2ac69a3e43ff2567b5ee826d29d15",
+    "block-threshold-160-renewal-rare-large-seed-1701-energy.jsonl": "94ce71e1aee609ac2bc8129e04a8b82472006b84aa352b7c1953841fd8e9fa2c",
+    "block-threshold-160-renewal-rare-large-seed-1702-initial.json": "0131b7092ca06aea4bce6fa4ab48667fcd3e074ea4dcd1492b39639a9d49fd25",
+    "block-threshold-160-renewal-rare-large-seed-1702.csv": "b7ed22bf87fc073d83f18611ae6f0a7c4084bfe12c3ae9e395bca225c2648491",
+    "block-threshold-160-renewal-rare-large-seed-1702-feeding.jsonl": "299647b7df8cb2df462767322b1ad20aec3a44dc14ae245142eaffbf47c7062b",
+    "block-threshold-160-renewal-rare-large-seed-1702-terminal.jsonl": "db79113ac133f70bf61974f50c448d57c8131b603220f822a1f82e07d9baf4c0",
+    "block-threshold-160-renewal-rare-large-seed-1702-energy.jsonl": "c226f5cbdd8dc7914e2f15976fa94c93e40df1162104b2a7e2c053e6235fe8d8",
+    "block-threshold-160-renewal-rare-large-seed-1703-initial.json": "be97b06c50bd19122733720a062a3d2b621b3569364efb1ea7dd98f98efc3e12",
+    "block-threshold-160-renewal-rare-large-seed-1703.csv": "8d58dc70a9569d1d2010c5d19d2f2f7db662a4475bdde29aed33e7fbcc72954b",
+    "block-threshold-160-renewal-rare-large-seed-1703-feeding.jsonl": "3c99cf0e12d53e8d058c5578035862c629375a5aeff06a92b17561e791722b54",
+    "block-threshold-160-renewal-rare-large-seed-1703-terminal.jsonl": "0145127a95255c6b49a750fc47a5319c72fddf89d84dd5ffa03605a22ab5f2a0",
+    "block-threshold-160-renewal-rare-large-seed-1703-energy.jsonl": "e13e022af73f00781f24b55143a6a8b10fa0f16f9e42a2966ccaa6b74cb5fab1",
+    "block-threshold-160-renewal-rare-large-seed-1704-initial.json": "6927d878a8857b9d5d66d15343b65f7836a321019b832367af451b6fa3624447",
+    "block-threshold-160-renewal-rare-large-seed-1704.csv": "1f5e489aa235c64425e95f3ba36a5b512cc15d602c978222e8f610cab12a156b",
+    "block-threshold-160-renewal-rare-large-seed-1704-feeding.jsonl": "ba64af5d3a206f83eb19edf3b50bc4e468c160c441321255d5995949c58588f1",
+    "block-threshold-160-renewal-rare-large-seed-1704-terminal.jsonl": "743671ad9fdc4de8e761a7481b3b44063b2181579560bdf3fff264f0ffd5cdc8",
+    "block-threshold-160-renewal-rare-large-seed-1704-energy.jsonl": "7e5d3792c0905c77d53d44ac364d1fce51f87698ed3ced48cbb55b9769c7d6c9",
+    "block-threshold-160-renewal-rare-large-seed-1705-initial.json": "5c2c391972bd5d346ebdc9053f64e9bc8f2144287191b93f42e5e57cc2f9902e",
+    "block-threshold-160-renewal-rare-large-seed-1705.csv": "b2e15415e7393ccb6d3f7971682e210ab7f71957b1ba26c1c2221626a856f370",
+    "block-threshold-160-renewal-rare-large-seed-1705-feeding.jsonl": "62262244a18f9b0955f5091c8cdbd2b241a9407b406253da4500d3b7c0a0afdb",
+    "block-threshold-160-renewal-rare-large-seed-1705-terminal.jsonl": "b91b8fad6d965829a50ca3351bbc2ff9ee2ea51c381032e8bde2a7fb37215e98",
+    "block-threshold-160-renewal-rare-large-seed-1705-energy.jsonl": "11035cb63464ad5912bb35a1214a64efdf664f3de682e8e631342c412e0711ad",
+    "block-threshold-160-renewal-rare-large-seed-1706-initial.json": "c20496a88033703e13b8950ee96889802156e8fef149c79d528384b0a26781c5",
+    "block-threshold-160-renewal-rare-large-seed-1706.csv": "c0df3f4c2d3b037b3d2bbfb6bf8660325971090a4d7f525385b867396d53ca5d",
+    "block-threshold-160-renewal-rare-large-seed-1706-feeding.jsonl": "8e08c6a5339284d669800bf1f5d4e19fc93cf968db5dc78815f07b9bb46877b2",
+    "block-threshold-160-renewal-rare-large-seed-1706-terminal.jsonl": "13026ec697e7e983ed0b9e6e3ee9f76c11e437d4508c0089ef783500a1289253",
+    "block-threshold-160-renewal-rare-large-seed-1706-energy.jsonl": "84006366e4667992f8173fb6b3a6d40da1147e5cd91ecfbfba7f2f6a2cd9cc03",
+    "block-threshold-160-renewal-rare-large-seed-1707-initial.json": "8a1acace7943f73b675e4fff3d2a3a814b15526e10c4c0aaf8df89f404b45cf0",
+    "block-threshold-160-renewal-rare-large-seed-1707.csv": "b60e2d090d7c3274e332c67aab1b3183c203fe7779c307e49baaa904b44fa626",
+    "block-threshold-160-renewal-rare-large-seed-1707-feeding.jsonl": "42f24bd230a623ab94385022a88bdd7f0c9c0f0861edf1f7e077eab995faba3a",
+    "block-threshold-160-renewal-rare-large-seed-1707-terminal.jsonl": "953e341259352ffe59614af3e9e3114bcdfeed26ce659a4f3f2ac44b9ea59a9b",
+    "block-threshold-160-renewal-rare-large-seed-1707-energy.jsonl": "42f704ee4c33b19ee6a75dcd34e1635362d3f1e90201a84df6d8290411bbdf06",
+    "block-threshold-160-renewal-rare-large-seed-1708-initial.json": "390081aa27a9c587cb4325e98b2e19f27559083152dcd0aca3568331ec5a7531",
+    "block-threshold-160-renewal-rare-large-seed-1708.csv": "476382e5e8fa3c16a72d1a20c04fc25676aab0c9290124cd99625d982d3e60b4",
+    "block-threshold-160-renewal-rare-large-seed-1708-feeding.jsonl": "6cefacf38fbfd229279dca64c57e82498a8016be2292183ef44a844257952622",
+    "block-threshold-160-renewal-rare-large-seed-1708-terminal.jsonl": "324ba1a8f22906dac7c1c8a02fd70178ac695bac3533138b385cc593808e64f4",
+    "block-threshold-160-renewal-rare-large-seed-1708-energy.jsonl": "30f583a747ede873bc2ad601ed864746e253b1595f4ab23767c78b395c6db628",
+    "block-threshold-160-renewal-rare-large-seed-1709-initial.json": "8ca0c9ef65430a944a8ac08ff35ae6ede7371470a67d61472908c24a86396316",
+    "block-threshold-160-renewal-rare-large-seed-1709.csv": "c0412e13542f803c658191eac07de68e5595c4c45b2d169d6a92eac5ba46915c",
+    "block-threshold-160-renewal-rare-large-seed-1709-feeding.jsonl": "964751a83b80d99a02eb160c30eff7be5b8632ca63ac15adbd2eafb76bfe42e8",
+    "block-threshold-160-renewal-rare-large-seed-1709-terminal.jsonl": "6982d838305aeccce050a1679bcab9fcfd363a24e87fb01b0a14a4d8d6ee538e",
+    "block-threshold-160-renewal-rare-large-seed-1709-energy.jsonl": "623d1ee71e634c49e75eef8cdfb8deb71126922d1c417325ae535dc1d880177f"
+  },
+  "verified_world_ticks": 6000,
+  "scope": "Recorded early actor partitions, energy, genealogy labels and legal displacement. Unrecorded blocked destinations, birth positions and full local food histories are not reconstructed. No independent stochastic replay or unique causal claim.",
+  "metrics_verification_sha256": "20a9b2ae8b07d36c4fba7c706dc0b32f9c98fe2ba53cea45238b62a4b845f8ff",
+  "initialization_helper_sha256": "cd6ecb8eb7b153e2b539d3817b77dad4417ae7d02bf156403a776c8a27177b82",
+  "geometry_helper_sha256": "082ddeeeb28d5aa75f9da9baf6cc3d74a61f67c1c1deceb3f5dfd6412d63419a",
+  "early_helper_sha256": "b3ba3536288abb2abe52e3721e48e19352e5c402668a6d7c9e12c1daec6f99b7",
+  "script_sha256": "d6105e2503a6c61cebe4173b492932fd3575ca2ba04b7a1aca195107e3f61c5d",
+  "cohort_helper_sha256": "2bd4b7660b71e475d6d6ba2317ff26094586035fa2e4587612318d241cb021bd"
+}

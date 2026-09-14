@@ -166,6 +166,18 @@ size together. This differs from the earlier supply-rate sweeps. It explicitly
 retains capacity/feeding truncation as intervention consequences and measures
 realized supply, rather than calling the comparison a pure variance manipulation.
 The protocol preceded runner engineering and outcome execution. All sixty worlds
-have now completed; independent metric verification passes. Early observer-stream
-verification and full result synthesis remain pending. This supersedes earlier statements in this note that no
+have now completed; independent metric and early observer-stream verification pass.
+The [result synthesis](../research/campaign-020.md) reports every seed and realized
+supply checkpoint. Existing nineteen-campaign archives retain their original scope. This supersedes earlier statements in this note that no
 new V0 campaign had yet been registered. V1 remains design only.
+
+
+## After campaign 020: consolidate before another sweep
+
+Low-threshold survival is 3/10, 1/10, 3/10 across renewal treatments, with opposite
+paired outcomes for rare-large versus reference. All high-threshold worlds survive,
+but realized supply differs despite equal nominal means. Do not infer a pure-variance
+mechanism, a universal ranking, or sensory value from this fixed-policy cohort.
+The next delivery is a twenty-campaign review and reproducible archive, followed by
+an updated V0 evidence synthesis. No campaign 021 is registered by this note.
+Keep V1 design-only under the current runtime scope.

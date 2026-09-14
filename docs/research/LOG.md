@@ -2741,3 +2741,32 @@ results/campaign-020-verification.json. Early observer streams remain a separate
 uncompleted verification gate; no full campaign acceptance, updated formal inventory,
 new archive or causal mediation claim is made in this cycle. Existing protocols,
 runners and V0 engine semantics remain unchanged.
+
+
+## 2026-09-14 — Autonomous cycle 185
+
+Previous cycle completed campaign-020 metric verification. Added its separate early
+observation wrapper, binding metadata and input hashes to the metric report and
+revalidating actual renewal configurations before checking actor lifecycles. All
+sixty worlds pass: 6,000 early world-ticks and 370,320 individual energy records.
+Reused the existing lifecycle/energy helper; its known limits on unrecorded spatial
+history and stochastic replay remain explicit. Added six-group early process
+summaries, checking cohort intake/ending energy against metrics and zero direct
+charges. Reports include source/helper hashes.
+
+Completed the Chinese outcome report with every low-threshold seed, all paired
+statuses, all four registered resource/uptake checkpoints, and early process ranges.
+Low-threshold survival is 3/10, 1/10, 3/10; high-threshold survival is 10/10 in all
+three renewal treatments. Rare-large versus reference includes both treatment-only
+and reference-only survival. Realized supply differs despite equal nominal means;
+no universal ordering, pure-variance mechanism or information-use claim follows.
+
+Updated the compact inventory to twenty campaigns / 964 executions / 8,840,000
+computed ticks, retaining 24 follow-ups / 212,000 declared replay ticks. Inventory
+verification passes; these totals are not independent replicate counts. Existing
+nineteen-campaign archives/pages are unchanged and exclude campaign 020. The next
+bounded delivery is the twenty-campaign review/archive and evidence synthesis,
+not another unregistered parameter sweep. V1 remains design-only.
+
+All 170 tests pass after these changes; report links and saved observation counts
+were checked. No engine or historical runner changes.
