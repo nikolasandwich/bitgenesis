@@ -2841,3 +2841,22 @@ archive, with campaign-020 mechanism limits and twenty-campaign counts. Rechecke
 normalized engine hash: 8f3ed33ad0ebe802c099e3e6f8ae61f9bcc526b98512f31f48ec40478fbfa7ff.
 No V1 implementation, new campaign, or user-acceptance claim. The original goal
 remains active; the review package is a checkpoint, not completion of research.
+
+
+## 2026-09-14 — Autonomous cycle 190
+
+Previous cycle delivered the verified twenty-campaign draft. Added a post hoc
+all-sixty-world supply-window decomposition using hash-bound original metrics.
+Active-start ticks include the extinction tick because renewal precedes basal
+payment; subsequent empty-world ticks have zero uptake, zero organism energy and
+unchanged dissipation. Both supply windows reconcile to registered cumulative
+supply, and active-window uptake equals the registered final uptake. No simulation
+or new replicate is added.
+
+Twenty-three worlds became extinct. Their post-extinction fractions of cumulative
+added resources range from 51.50% to 79.67%. Reported per-treatment conditional
+ranges explicitly retain differing window lengths; these are not causal effects
+or rate comparisons. Added three boundary tests for extinction-tick attribution,
+illegal empty-world uptake and terminal extinction versus censoring. All 173 tests
+pass. Saved script, full report and Chinese explanation; the fixed twenty-campaign
+archive contains the necessary raw data but predates this additional analysis.
