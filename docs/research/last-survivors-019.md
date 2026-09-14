@@ -63,3 +63,8 @@ python -I -S scripts/analyze_v0_last_survivors.py --output data/my-last-survivor
 
 本分析晚于固定局部资源补充包；该包已含所需原始记录，但未含本次新增脚本与报告。
 使用当前主分支脚本配合[补充包数据](../design/local-resource-supplement.md)即可复算，旧包保持原内容。
+
+
+归档更新：上述“晚于固定补充包”的说明针对第一版。
+[局部资源补充包第二版](../design/local-resource-supplement.md)现已包含随机过程核验、
+末期轨迹及图表、摄食机会分析，八项完整报告解压复算一致。第一版和十九轮整包保持原范围。

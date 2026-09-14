@@ -2682,3 +2682,13 @@ Expected-hash verification passes. A new-directory extraction reproduces all eig
 full reports exactly, including input/helper hashes. No full simulation or fresh
 package installation is claimed. Remote upload remains pending; revision 1 and
 other fixed archives retain their original contents.
+
+## 2026-09-14 — Autonomous cycle 181
+
+Previous cycle produced supplement revision 2 and reproduced all eight archived
+reports from a new extraction. Uploaded archive/checksum as draft
+v0.0.1-local-observations.2, release 388213658. API sizes/digests match both files;
+source CI 34818289336 passed. Updated default download guidance to revision 2,
+retaining revision-1 evidence and clarifying historical late-analysis scope notes.
+No independent remote redownload, new simulation or runtime-install claim. Existing
+archives remain immutable and formal experiment counts are unchanged.

@@ -42,3 +42,8 @@ python -I -S scripts/analyze_v0_intake_opportunity.py --output data/my-intake-op
 分析会额外核对完整四十世界名单、原始配置文件校验值，以及移动扣费、基础消耗、摄食上限、地图尺寸和固定性状条件；不适用的配置会拒绝。输入约束加强后，四十个世界的数值结果与上一版完全一致。
 
 原始窗口输入在[局部资源补充包](../design/local-resource-supplement.md)中；本脚本与报告晚于该固定包。
+
+
+归档更新：上述“晚于固定补充包”的说明针对第一版。
+[局部资源补充包第二版](../design/local-resource-supplement.md)现已包含随机过程核验、
+末期轨迹及图表、摄食机会分析，八项完整报告解压复算一致。第一版和十九轮整包保持原范围。

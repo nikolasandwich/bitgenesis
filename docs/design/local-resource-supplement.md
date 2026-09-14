@@ -10,7 +10,27 @@ and does not include this later spatial dataset. This supplement retains 337,368
 replayed prefix ticks, 840 boundary states and 38,471 local action observations.
 These replay ticks are not added to the formal campaign execution inventory.
 
-## Verified download
+## Latest verified download: revision 2
+
+Download the [revision-2 draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-eaba9722e0eca28c0715)
+with an authorized GitHub account. It contains eight reanalyses, including random
+choices, final-survivor traces/figure and intake opportunity. Extract
+`bitgenesis-v0-local-resources-019-r2.zip` into a new folder. Use the five commands
+below followed by the three additional commands in the revision-2 section.
+
+815 payload files / 19,404,752 bytes; fixed source `3b7ba66`. SHA-256:
+
+```text
+9842b1da470872807a2c166f7d20c26b9e433b15a59d7e4f504a70339e05adcd
+```
+
+All eight full reports reproduce exactly after fresh extraction. Remote sizes and
+digests match local assets, and [source CI 34818289336](https://github.com/nikolasandwich/bitgenesis/actions/runs/34818289336)
+passed. Evidence: [extraction](../research/results/local-supplement-019-r2.json),
+[remote assets](../research/results/release-local-019-r2.json). No new simulation,
+fresh runtime install or independent remote redownload is claimed here.
+
+## Preserved revision-1 download
 
 Download the [campaign-019 local-resource draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-5e0e3047d668feaa3597)
 with an authorized GitHub account. The archive is 19,103,056 bytes (about 19.1 MB),

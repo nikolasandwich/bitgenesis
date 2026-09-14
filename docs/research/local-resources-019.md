@@ -89,3 +89,8 @@ python -S scripts/verify_v0_local_random_choices.py --boundaries-verification da
 
 此核验以保存的重放边界为条件，进一步验证内部随机过程一致性；原实验仍没有独立末期行动路径，
 不能将其表述为历史观测的独立佐证。该新增脚本与报告晚于固定补充包，数据输入已在包内。
+
+
+归档更新：上述“晚于固定补充包”的说明针对第一版。
+[局部资源补充包第二版](../design/local-resource-supplement.md)现已包含随机过程核验、
+末期轨迹及图表、摄食机会分析，八项完整报告解压复算一致。第一版和十九轮整包保持原范围。
