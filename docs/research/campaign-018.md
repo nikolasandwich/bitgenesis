@@ -102,3 +102,6 @@ python -I -S scripts/summarize_v0_movement_charge_processes.py --output data/my-
 
 该脚本读取两份已核验报告并核对它们的来源哈希，检查完整八十世界组合、移动结果分母、
 群体摄食与末期存量、出生扣费和零移动扣费语义。它不重新运行世界，也不增加独立样本。
+
+交付更新：[十八轮完整包](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-82fb7bd52b889f73baaf)现已包含本轮数据与验收页，
+旧十七轮包和观测补充包保持原范围。

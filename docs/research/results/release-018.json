@@ -1,0 +1,20 @@
+{
+  "id": 388184351,
+  "tag_name": "v0.0.1-preview.10",
+  "html_url": "https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-82fb7bd52b889f73baaf",
+  "draft": true,
+  "target_commitish": "b304f2dd516242258feab91b8041e6e10cf36223",
+  "assets": [
+    {
+      "name": "bitgenesis-v0-eighteen-campaigns.zip",
+      "size": 124483734,
+      "digest": "sha256:b34e319d359a564e195a29006892d257fed9024f207f1f8adc4008a317d12de0"
+    },
+    {
+      "name": "bitgenesis-v0-eighteen-campaigns.zip.sha256",
+      "size": 104,
+      "digest": "sha256:d7fa2abf4745c686bad4e02dc7aca9ac64dc76a8c15e6f817869833ba6570f69"
+    }
+  ],
+  "scope": "GitHub API sizes and digests match local archive and checksum. No independent remote download."
+}

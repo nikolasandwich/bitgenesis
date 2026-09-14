@@ -2288,3 +2288,13 @@ new 1,000-tick demo. Metrics/events are byte-identical to the archived acceptanc
 demo; lineage/summary JSON agree; installed source correctly reports no Git commit.
 Pip resolved build dependencies, so this is not an offline-install guarantee.
 Upload remains separate; older archives are unchanged.
+
+## 2026-09-14 — Autonomous cycle 156
+
+Uploaded the verified eighteen-campaign archive and checksum as separate draft
+v0.0.1-preview.10. GitHub API asset sizes/digests match local files; source b304f2d
+CI passed. Saved remote evidence; no independent remote download claimed.
+Rewrote the current review guide around the latest full package and separate
+observation supplement, and moved stale acceptance opening statements beneath an
+explicit historical-notes boundary. Updated download entry points without changing
+old archives or their recorded evidence. No new experiment or runtime changes.

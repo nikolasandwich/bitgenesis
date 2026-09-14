@@ -11,7 +11,7 @@
 首次验收可先阅读[中文指南](REVIEW.zh-CN.md)，再打开本地
 `data/review-v0-18.html`。这个本地视觉快照涵盖十八轮，可用
 `python scripts/build_v0_review.py --campaigns 18` 在完整本地数据上重建。
-十七轮完整数据可从[十七轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-817afa7dc5fa0391cfcc)下载；
+十八轮完整数据可从[十八轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-82fb7bd52b889f73baaf)下载；
 旧页面和已上传的八轮、九轮归档继续保留原范围。
 旧 `data/review-v0-8.html` 保留为八轮快照。
 `data/bitgenesis-v0-review-8.zip` 是同一八轮范围的可携带归档，不代表后续提交。
@@ -20,7 +20,7 @@ GitHub 保存代码、协议、报告和精简结果；大体积逐步数据保�
 第十七轮后追加的过程观察，可先看[中文机制简报](mechanism-summary.zh-CN.md)。它汇总支持与不支持的解释，明确后续观测与固定归档的范围差别。
 
 最新[第十八轮](campaign-018.md)已完整核验：零移动扣费下仍有三次成片低阈值灭绝，
-排除了正移动扣费作为本设计全部失败的必要条件。原视觉快照和下载包保持十七轮范围。
+排除了正移动扣费作为本设计全部失败的必要条件。旧视觉快照和旧下载包保持各自范围，最新整包已包含十八轮。
 
 ## 正式实验
 

@@ -1,5 +1,25 @@
 # V0 acceptance checkpoint
 
+Current verified research: eighteen campaigns / 864 executions / 7,840,000 computed
+ticks, including 24 follow-up executions and 212,000 repeated prefix ticks.
+Use the [current Chinese review guide](REVIEW.zh-CN.md) for the latest instructions.
+
+Latest [eighteen-campaign draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-82fb7bd52b889f73baaf): source `b304f2d`,
+1,736 payload files / 124,483,734 bytes. Fresh extraction reproduced all three
+campaign-018 reports; a new noneditable installation passed 143 tests and a
+1,000-tick demo audit with reference-equivalent records. Remote asset sizes and
+SHA256 values match local files. The separate observation supplement supplies
+campaign-017 retrospective observer data. Older archives remain unchanged.
+
+Evidence: [extraction](results/portable-review-018.json), [installation](results/portable-wheel-018.json),
+[remote assets](results/release-018.json), and [source CI](https://github.com/nikolasandwich/bitgenesis/actions/runs/34813192855).
+
+## Preserved earlier checkpoint notes
+
+The dated and version-specific statements below describe earlier deliveries.
+Their references to "current" or "newest" apply to those historical checkpoints,
+not the latest download above.
+
 Current research: fourteen campaigns / 710 executions / 6,220,000 computed ticks;
 20 executions are longer follow-ups with 200,000 repeated prefix ticks, not new
 independent seed replicates. See the [research index](README.md) and latest
