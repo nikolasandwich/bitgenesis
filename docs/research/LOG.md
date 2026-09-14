@@ -1821,3 +1821,16 @@ building. Named full-run/metric audits pass, including forty initial states and
 fixed source, checksum and workload scope. Added explicit UTF-8 reading of helper
 reports during packaging. Extracted installation and upload remain follow-up
 checks; previous archives and their source scopes are unchanged.
+
+## 2026-09-14 — Autonomous cycle 122
+
+Freshly extracted and installed the seventeen-campaign archive. All 117 archived
+tests pass; a new thousand-tick demo reproduces reference metrics/events exactly
+and lineage/summary structurally. Installed provenance correctly has no Git commit.
+Archived campaign-017 verification reproduces the complete saved report from
+extracted raw data with its archived helper. Source CI 34808083099 is successful.
+
+Uploaded separate draft preview.9 and verified both remote assets against local
+sizes and SHA-256 values. Updated acceptance download links and scope. Earlier
+archives remain unchanged. Installation demonstration ticks are not formal
+experimental executions; no offline-install guarantee is made.

@@ -1,0 +1,21 @@
+{
+  "archive_source": "8e4cf89d764b5fad3666498c4d66f6f97e547077",
+  "archive_sha256": "7c0e66bb1603dfa64a6e11416b5658f8ee8ff268fb8c447468b11edc7458ddac",
+  "python": "3.12.10",
+  "archived_tests_passed": 117,
+  "new_demo_ticks": 1000,
+  "artifact_audit": "passed",
+  "matches_archived_demo": true,
+  "installed_metadata_git_commit": null,
+  "campaign017_complete_report_equal": true,
+  "metric_rows_checked": 400040,
+  "initial_states_checked": 40,
+  "matched_seed_quadruplets": 10,
+  "raw_sha256": {
+    "metrics.csv": "bfe942d0f265bdf5811bea9c1420cffebcc40e1578e52b05b2905b9abc6e3c1b",
+    "events.jsonl": "1a9181eb3f14b6f37b26f40869f8b65137d0f6d23c707489375714f7c3c6285f",
+    "lineage.json": "e6c22affb500a1958f35a0f230eb30748c9bbce0ea5bc7566691f56670a74bbc",
+    "summary.json": "56c1522dd5828ebb7dae20fa3c9d676e37af3da61406e34875a525ea293879a7"
+  },
+  "scope": "Fresh noneditable installation; pip resolved build dependencies. No offline guarantee or all-campaign rerun. Archived verifier runs with -S and its archived sibling helper."
+}

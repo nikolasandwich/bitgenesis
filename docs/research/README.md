@@ -11,7 +11,7 @@
 首次验收可先阅读[中文指南](REVIEW.zh-CN.md)，再打开本地
 `data/review-v0-17.html`。这个本地视觉快照涵盖十七轮，可用
 `python scripts/build_v0_review.py --campaigns 17` 在完整本地数据上重建。
-十六轮完整数据可从[十六轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-c526b608b2e4ff9bd666)下载；
+十七轮完整数据可从[十七轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-817afa7dc5fa0391cfcc)下载；
 旧页面和已上传的八轮、九轮归档继续保留原范围。
 旧 `data/review-v0-8.html` 保留为八轮快照。
 `data/bitgenesis-v0-review-8.zip` 是同一八轮范围的可携带归档，不代表后续提交。
@@ -39,7 +39,7 @@ GitHub 保存代码、协议、报告和精简结果；大体积逐步数据保�
 | 016 | 初始食物总量相同，空间分布是否改变建立与存活？ | 30 | 300,000 | [协议](../../experiments/v0/campaign-016.md) · [报告](campaign-016.md) · [数据](results/campaign-016.csv) |
 | 017 | 食物布局与繁殖阈值如何共同影响存活？ | 40 | 400,000 | [协议](../../experiments/v0/campaign-017.md) · [报告](campaign-017.md) · [数据](results/campaign-017.csv) |
 
-第十七轮已进入本地十七轮页面，见上表报告；下载归档仍固定为十六轮。所有旧固定快照保持原范围。
+第十七轮已进入本地十七轮页面，见上表报告；对应下载归档也已更新为十七轮。所有旧固定快照保持原范围。
 
 另有[突变核精确校准](mutation-calibration.md)：枚举边界裁剪的单次遗传偏移，
 不运行数字世界，也不计入上面的实验总数。

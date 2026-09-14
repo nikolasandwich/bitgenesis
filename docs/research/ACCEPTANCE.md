@@ -330,3 +330,18 @@ analyses. V0 dynamics remain unchanged.
 
 Extracted installation and remote upload remain separate next checks. The fixed
 sixteen-campaign download and earlier archives are unchanged.
+
+### Independent installation and upload of the seventeen-campaign archive
+
+Fresh noneditable installation from the extracted archive passes all 117 tests.
+A new 1,000-tick demo passes the archived audit and matches reference metrics and
+events byte for byte, with lineage/summary structurally equal. Installed metadata
+has no Git commit. The archived campaign-017 verifier and sibling helper recreate
+the entire verification report, including hashes, from the extracted records.
+Pip resolved build dependencies; no offline-install or all-campaign rerun claim.
+See [installation record](results/portable-wheel-017.json).
+
+[Draft preview.9](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-817afa7dc5fa0391cfcc) (release 388158362) targets source `8e4cf89`.
+Both uploaded assets match local size and SHA-256 according to the GitHub API.
+See [remote asset record](results/release-017.json). Source CI 34808083099
+completed successfully. Previous draft files remain unchanged.

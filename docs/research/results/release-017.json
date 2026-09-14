@@ -1,0 +1,21 @@
+{
+  "id": 388158362,
+  "html_url": "https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-817afa7dc5fa0391cfcc",
+  "draft": true,
+  "prerelease": true,
+  "target_commitish": "8e4cf89d764b5fad3666498c4d66f6f97e547077",
+  "assets": [
+    {
+      "name": "bitgenesis-v0-seventeen-campaigns.zip",
+      "size": 106192281,
+      "digest": "sha256:7c0e66bb1603dfa64a6e11416b5658f8ee8ff268fb8c447468b11edc7458ddac",
+      "state": "uploaded"
+    },
+    {
+      "name": "bitgenesis-v0-seventeen-campaigns.zip.sha256",
+      "size": 105,
+      "digest": "sha256:affe954b25e413edacebb134cba5c93649b5aaf31b2d138000ff3ad3149d1a81",
+      "state": "uploaded"
+    }
+  ]
+}
