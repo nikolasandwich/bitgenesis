@@ -195,3 +195,14 @@ simulate alternate trajectories. Parity and independent verification now pass; a
 [reproducible supplement](../design/renewal-stock-supplement.md) are delivered.
 The completed observation does not isolate a survival mediator. No new formal
 cohort or V1 runtime follows from it.
+
+
+## Registered buffer-capacity question
+
+[Campaign 021](../../experiments/v0/campaign-021.md) prospectively tests capacity
+24 versus 96 with identical initial food, crossed with both thresholds and all
+three renewal treatments on ten new seed blocks. It measures the capacity
+intervention, not pure loss mediation. Primary paired persistence predictions,
+contradicting outcomes, all 120 worlds, 1,200,000-tick budget and verification gates
+are fixed before engineering and outcome execution. No cohort has launched at
+registration. This supersedes earlier statements that campaign 021 is unregistered.

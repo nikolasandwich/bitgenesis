@@ -3041,3 +3041,20 @@ spillover redistribution or adaptive loss replacement are not automatically isol
 loss interventions. No new campaign registered or simulation launched; runtime,
 fixed archives and formal counts unchanged. This is evidence consolidation for
 review and future experimental choice, not V1 graduation or user acceptance.
+
+
+## 2026-09-14 — Autonomous cycle 201
+
+Previous cycle consolidated mechanism evidence. Checked existing protocols for
+capacity interventions; campaign 020 fixed capacity 24. Registered campaign 021:
+capacity 24/96 with identical initial stock, both reproduction thresholds and all
+three renewal treatments on seeds 1800–1809. Specify a directional paired survival
+prediction and per-seed counterexamples before execution, retain all 120 worlds and
+fixed 10,000-step horizons. Capacity is explicitly a buffer intervention changing
+multiple downstream processes, not isolated loss removal or unlimited storage.
+
+Protocol fixes secondary resource-window accounting, early records, twelve-way
+initial pairing, observer parity and capacity-aware independent verification.
+No outcome run launched. Current formal workload and fixed artifacts unchanged.
+Next implement and validate the runner on engineering seed 23 before executing
+this new prospective cohort. V0 rules unchanged; V1 remains design-only.
