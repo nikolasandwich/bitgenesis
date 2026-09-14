@@ -4464,3 +4464,9 @@ Added full spatial verifier with independent role reconstruction,660 neutral swa
 ## 2026-09-14 — Autonomous cycle 328
 
 Previous turn completed and archived study008 execution (d5b1110), substantive progress. Full verifier61954 is confirmed live, has revalidated all20 training ancestries and passed the first288 competitions; preserve this original process until terminal. Corrected stale hereditary-design and roadmap status paragraphs: independent hereditary audit, variation and competition studies exist, while group-structure reproduction and open-endedness criteria remain unmet. Documentation-only changes during verification; no runtime or verifier changes. Full study008 results remain pending.
+
+## 2026-09-14 — Autonomous cycle 329
+
+Previous turn corrected authoritative roadmap/design status and verified the live full-cohort process, substantive progress. Original verifier61954 now exited0 after1440 complete checks and660 neutral controls. Archived full verification and report. Training drive250/mutation100 means remain positive across all three layouts/two assay drives, but source negatives persist and layout contrasts reverse sign by drive. Other18 group means zero. No general adaptation/significance claim.
+
+Registered next engineering gate for passive structure boundaries and continuity: compare contact/material/bond conventions at matched phases, retain birth identity and all overlap splits/merges, distinguish fragmentation from replication. This is a design only; implementation and fixtures are next. Do not add another distance sweep. Runtime unchanged; previously focused spatial aggregation test passed.
