@@ -229,3 +229,43 @@ python -I -S scripts/analyze_v0_movement_observations.py --output data/new-movem
 This is another observation of the same early trajectories, not a new campaign
 or independent replicate. Original replay versions and the fixed seventeen-round
 archive remain unchanged. No complete death/action observer has yet been claimed.
+
+## Complete movement-attempt denominator
+
+Adding the terminal stream permits three exhaustive outcomes for every movement
+attempt in the first hundred ticks: successful displacement, an occupied target,
+or death on the movement payment before any target is chosen. Basal deaths never
+reach the movement decision and do not belong in this denominator.
+
+| Layout / threshold | All movement attempts | Occupied-target fraction | Movement-payment death fraction |
+| --- | ---: | ---: | ---: |
+| Dispersed / 40 | 890–1,108 | 5.77–12.13% | 1.43–3.15% |
+| Dispersed / 160 | 924–1,031 | 3.30–5.61% | 0.92–1.92% |
+| Block / 40 | 1,336–1,484 | 17.79–25.73% | 2.36–3.54% |
+| Block / 160 | 693–950 | 4.06–6.84% | 0.97–2.31% |
+
+Ranges describe ten per-world values; endpoints from different columns need not
+belong to the same world. Counts of the three outcomes add exactly to attempts
+within each world. The earlier feeding-conditioned fractions remain valid for
+their narrower denominator; these new values include lethal movement payments.
+The larger occupied-target fraction for block/40 remains visible after that
+change in denominator.
+
+A death on payment is an execution-phase observation, not proof that removing
+movement cost would save the individual or the world. Such a change would affect
+later energy, population and random draws. Repeated attempts are not independent
+samples; no causal effect of congestion on extinction is estimated here.
+
+[All-world counts and fractions](results/complete-movement-017.csv) ·
+[Source reports and provenance](results/complete-movement-017.json).
+The standard-library analysis reconciles both complete verified grids and feeding
+stream hashes before combining counts, preserving the prior conditional fraction
+in the all-world table for comparison. It uses committed verification summaries;
+raw reconstruction is performed by the linked action/movement verifiers.
+
+```sh
+python -I -S scripts/analyze_v0_complete_movement.py --output data/new-complete-movement
+```
+
+No new world runs or formal campaign counts are added. This analysis and its
+underlying observation replays postdate the fixed seventeen-campaign archive.

@@ -1986,3 +1986,15 @@ ticks, with exact stream partition and original birth/death/population accountin
 It validates 3,413 basal and 908 movement-payment terminal records under the
 fixed unit costs. Saved all-world verification, hashes and scope. Counts denote
 execution phases, not independent observations or a causal death attribution.
+
+## 2026-09-14 — Autonomous cycle 133
+
+Reconciled verified movement and terminal summaries using matching full grids and
+feeding-stream hashes. All-attempt denominators now include lethal movement
+payments and partition into success, occupied target and payment death. The prior
+feeding-conditioned fraction is retained alongside the new fraction per world.
+
+Block/40 occupied-target fractions are 17.79–25.73% versus 4.06–6.84% for block/160
+under the complete movement denominator. Added exact per-world counts, group
+ranges and limits separating execution-phase death from a counterfactual effect
+of costs. No new runs, independent observations or causal conclusions added.
