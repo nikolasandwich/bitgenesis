@@ -152,3 +152,40 @@ These replayed observations do not increase the formal campaign count and remain
 outside the fixed seventeen-campaign archive. Earlier conditional movement
 fractions retain their original definitions; this dataset permits a separate
 analysis with all attempted-movement phases included.
+
+## Separate per-action energy ledger
+
+`EnergyWorld` in `scripts/observe_v0_energy.py` layers on `FeedingWorld` without
+changing its feeding schema 3 or terminal schema 1. It emits a separate energy
+schema 1 record for each pre-tick actor, including actors dying before feeding.
+Fields are tick/ID, energy before and after action, actual basal/movement/birth
+payments, food eaten, child ID and transferred child energy, and death status.
+
+The per-action identity is:
+
+`energy_before + eaten = energy_after + basal_paid + movement_paid + birth_paid + child_energy`
+
+Payments are observed energy differences around the original payment method,
+not the nominal configured costs. A lethal request greater than remaining energy
+therefore records only what was paid. Child transfer is observed at the original
+birth call, after the parent has split its energy. The final parent balance is
+read before the next actor's first payment, or after the final actor completes.
+This relies on the pinned sequential V0 engine: later actors cannot transfer
+energy into earlier actors. The existing engine-source guard still applies.
+
+After each successful step, call `drain_energy()`, `drain_feeding()` and
+`drain_pre_feeding_deaths()`. Buffers are separate; all three must be drained to
+bound observation retention. An exception interrupts the step and leaves partial
+buffers; discard that failed run's observations rather than treating them as a
+complete tick. This observer does not support checkpoint restoration. Underlying
+V0 lineage/event retention remains unchanged.
+
+Targeted checks compare six configurations for 100 steps against the existing
+feeding observer: snapshots, complete lineage, food, events, RNG, and both old
+observation streams agree. Ledger sums match global dissipation and food uptake;
+ending parent energy plus child transfers equals living energy. Separate examples
+cover zero costs, odd division and capped lethal basal/movement payments. These
+checks establish the tested cases, not arbitrary future engine compatibility.
+
+No historical energy replay dataset has yet been generated. The fixed observation
+supplement predates this tool; earlier feeding/terminal bytes remain unchanged.

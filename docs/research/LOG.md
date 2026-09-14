@@ -2100,3 +2100,17 @@ legible labels, complete seed rows and unclipped values. Figure metadata retains
 all rows and source/script hashes. Linked it from the report and research index.
 No new simulation or runtime change; the existing observation ZIP predates this
 analysis and figure. The previous archive-verifier commit passed remote CI.
+
+## 2026-09-14 — Autonomous cycle 142
+
+Implemented a research-only energy ledger layered on the existing pinned feeding
+observer, preserving both old record schemas and V0 engine source. Captures actual
+payments, intake, child transfer and final parent energy for every acting ID,
+including pre-feeding deaths. Reconciles each action locally without RNG draws.
+
+Six configurations over 100 ticks match prior-observer state, full lineage,
+events, RNG and both observation streams. Ledger totals match world energy flows.
+Focused examples cover zero costs, odd child splits and capped lethal payments.
+No historical energy replay was run and fixed supplement contents are unchanged.
+
+All 135 local tests pass.

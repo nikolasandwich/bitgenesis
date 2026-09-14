@@ -46,8 +46,10 @@ causal intervention or new independent seed evidence. Read the
 [mechanism briefing](../research/mechanism-summary.zh-CN.md) and
 [reproducible observation supplement](../design/observation-supplement.md).
 Before another mechanism experiment, specify a falsifiable intervention and its
-side effects. The full per-action energy/cost observer originally proposed above
-is not claimed complete; current records cover the reported quantities only.
+side effects. A separate per-action energy ledger is now implemented and tested, including
+actual phase payments and transfer to newborns. Historical replay with this
+ledger remains pending; current stored datasets contain the previously reported
+quantities only.
 
 ## V1 implementation sequence when runtime scope expands
 
