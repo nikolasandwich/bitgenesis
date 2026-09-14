@@ -4356,3 +4356,9 @@ Final removal/formation-enabled refill fractions3/16,1/4,3/8,3/16,3/16; material
 Previous turn verified recovery outcomes and identified local material ceilings (8eac19a), a substantive progress turn. Added v4-damage-1 material-retaining boundary, separate damage branch persistence and independent verifier. Original extraction schemas unchanged. Selected units return one local raw token and export energy; raw tokens erase label information, so no original-pattern restoration command is introduced.
 
 Three new tests cover per-site conservation, zero-energy/empty selection, independently verified continuations, matching random streams, disabled formation, zero horizon and rehashed recycling corruption. Full323 tests pass in35.735 seconds. Registered study004 before seeds94000..94004:5 prefixes and30 branches crossing sham/extraction/damage with formation thresholds16/65, fixed recovery checkpoints and explicit source contrasts. Next frozen execution and independent complete cohort comparison; no recovery cohort run under this protocol yet.
+
+## 2026-09-14 — Autonomous cycle 311
+
+Previous turn implemented independently verified material-retaining damage and registered study004 (21982c9), a substantive progress turn. Committed launcherccd130e before execution. Original process5953 exited0 after5/5 prefixes and30/30 branches, each independently audited with its appropriate extraction/damage verifier. No source changes during execution. Exact declared grid and clean launch commit binding checked; archived metadata/results. Runtime unchanged since323 full tests.
+
+Full cohort observation reconstruction, source/configuration/schema checks and25 predeclared recovery contrasts remain pending. Next compare retained-material damage with extraction and sham at fixed thresholds, preserve nulls and report refill separately from material-pattern matching. Completion of execution alone is not evidence of recovery or structural reproduction.
