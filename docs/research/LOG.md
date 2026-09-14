@@ -2407,3 +2407,13 @@ This is static artifact verification, not renewed browser interaction testing.
 Updated the research index; a nineteen-campaign portable archive remains pending.
 
 All 150 local tests pass; sixteen local page targets exist.
+
+## 2026-09-14 — Autonomous cycle 164
+
+Previous cycle added and verified the nineteen-campaign review and complete outcome
+figure. Extended portable packaging to nineteen campaigns. Before archiving, the
+new branch recomputes campaign-019 metric, early-observation and process reports
+and requires complete JSON equality (including input/helper hashes) with committed
+references. Historical packaging gates and immutable output behavior remain.
+Commit this source before producing the archive; archive verification and fresh
+extraction results will be recorded separately after they actually finish.
