@@ -2,7 +2,8 @@
 
 Status: deterministic conversion primitive `v4-heredity-1` implemented after the
 information-erasure counterexample. Existing local/driven/growing and intervention
-versions are unchanged. No composed driven runner or scientific cohort yet.
+versions are unchanged. Composed driven steps and a bounded hereditary runner
+are now available; no independent hereditary audit or scientific cohort yet.
 
 Separate a unit's expressed material label from a small inherited construction
 program. The first candidate program has four entries (east, west, south, north),
@@ -63,3 +64,30 @@ constant-program zero-overhead baseline projection, collisions and invalid ticke
 Next compose driven interaction using expressed material, preserve programs on
 survivors, and independently reconstruct inheritance/expression/mutation before
 an evolutionary experiment. Mutation availability alone is not adaptation.
+
+## Driven hereditary trajectories
+
+`v4-hereditary-growing-1` projects expressed material and energy into the existing
+driven interaction, then preserves each survivor's program through input, leakage
+and transport before hereditary conversion. Pre-conversion interaction records
+include programs; bonds/components still depend only on expressed material and
+energy. A newborn cannot act until the next step.
+
+`v4-hereditary-run-1` saves complete hereditary states, per-site mutation tickets,
+events and copy/mutation totals. Physical initialization, drive and direction
+streams retain the ordinary growing runner's schedules. Independent SHA256-seeded
+streams `v4-heredity-1:{seed}:program` and `v4-heredity-1:{seed}:mutation` supply
+programs and mutations. Initialization draws four program entries for every site,
+even empty sites and constant-program controls. Each step draws chance, entry,
+offset for every site, including when mutation probability is zero. Constant
+program mode discards sampled entries and uses the initial unit's material in
+all four entries. Random mode uses sampled entries. Physical initial states and
+random stream consumption therefore remain matched across these controls.
+
+Run an engineering trajectory with
+`python -m bitgenesis.v4.hereditary_runner --seed 95004 --steps 100 --output data/v4-hereditary-engineering-001`.
+Default copy cost1 and mutation10/1000 are engineering settings. Python arguments
+expose program mode, copy cost and mutation probability; the CLI retains output,
+seed, steps, no-drive and no-exchange controls. Seeds95000..95004 are engineering.
+Independent hereditary reconstruction is the next gate; ordinary growing audits
+do not accept this new schema. Full-state replay alone is not that gate.
