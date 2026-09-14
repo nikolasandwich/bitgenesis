@@ -2545,3 +2545,14 @@ Immediate neighboring occupancy does not explain these final deaths, but earlier
 crowding and energy depletion are not excluded. No sensory benefit or causal rescue
 is established. Updated mechanism/decision indexes; the fixed nineteen-campaign
 archive does not yet contain this retrospective dataset. Formal counts unchanged.
+
+## 2026-09-14 — Autonomous cycle 172
+
+Previous cycle published the complete local-resource description. Added a separate
+campaign-019 spatial supplement packager and extraction guide. Exact report gates
+cover original metrics, boundary maps, sequential actions, local summaries and
+terminal global resources. The action check uses the newly recomputed boundary
+report. Payload includes tracked source, original campaign 019 and all forty
+terminal-window records; historical raw campaigns and review pages are excluded.
+Source must be clean and output must be new. Commit before packaging; fresh
+extracted results and any upload are separate evidence, not assumed here.
