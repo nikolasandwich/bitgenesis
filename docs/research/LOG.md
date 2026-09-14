@@ -3900,3 +3900,20 @@ ticks. Original protocol35305f6 and engine unchanged. Once launched, preserve an
 poll the original process; do not restart on observation timeout. Next prepare
 complete checkpoint synthesis while execution runs, then run the full gate. Formal
 verified count remains23 until all campaign024 evidence is published. Goal active.
+
+## 2026-09-14 — Autonomous cycle 245
+
+Previous cycle committed complete-cohort gates atd82e1d1 and launched campaign024.
+Re-polled original live session51863; do not restart. Prepared checkpoint synthesis
+requiring the full cohort gate, complete source/repeat/swap/time grid and per-world
+result hashes. Preserves all1,200 observations and six nested contrasts; the10000
+checkpoint must exactly match the registered primary analysis. Empty-group and
+whole-world extinction statuses remain distinct from balanced coexistence.
+
+Focused synthetic test passes: neutral averaged contrast remains zero while
+both-present, unilateral and both-extinct categories differ; missing/duplicate
+observations rejected. Standard-library CLI loads. Independently reconstructed
+the first completed10000-tick world:10,001 rows,470 events,235 individuals; this is
+a partial compatibility check, not full cohort evidence. Running source/metadata,
+protocol and frozen engine unchanged. Next prepare all-source visualization while
+original execution continues, then full gates once all200 runs finish. Goal active.
