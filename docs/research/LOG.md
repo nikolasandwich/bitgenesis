@@ -1998,3 +1998,16 @@ Block/40 occupied-target fractions are 17.79–25.73% versus 4.06–6.84% for bl
 under the complete movement denominator. Added exact per-world counts, group
 ranges and limits separating execution-phase death from a counterfactual effect
 of costs. No new runs, independent observations or causal conclusions added.
+
+## 2026-09-14 — Autonomous cycle 134
+
+Added a four-panel figure showing all forty per-world movement compositions.
+Each bar partitions all attempted moves into success, occupied target and lethal
+payment, using common 0–100% axes. Counts differ across worlds and are explicitly
+linked rather than implied equal by normalized bars. Complete grids and integer
+component sums are checked before rendering, with input/script hashes retained.
+
+Visually inspected the PNG for legible seeds, axes, legend and caveats; saved PNG,
+SVG and plot data beside the campaign report. No new trajectories or statistical
+claims. The figure makes the distinction between occupied targets and pre-choice
+payment deaths visible and keeps prior archive scope unchanged.

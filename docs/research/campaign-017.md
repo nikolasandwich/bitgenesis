@@ -232,6 +232,19 @@ archive remain unchanged. No complete death/action observer has yet been claimed
 
 ## Complete movement-attempt denominator
 
+![All forty movement-outcome compositions](figures/campaign-017-movement-outcomes.png)
+
+Each bar is one world's complete movement-attempt denominator for ticks 1–100.
+Green is successful displacement, orange is an occupied target, and red is death
+on payment before destination selection. Four panels use the same percentage
+scale and show all ten seeds per treatment. Equal bar length does not mean equal
+attempt counts; exact counts are in the table below and the all-world CSV.
+[Vector figure](figures/campaign-017-movement-outcomes.svg) ·
+[Plot data and provenance](figures/campaign-017-movement-outcomes.json).
+Rebuild with `python scripts/plot_v0_movement_outcomes.py --output data/new-movement-figure`.
+The optional Matplotlib dependency is required; the script checks the complete
+forty-world grid and exact partition of each world's counts before plotting.
+
 Adding the terminal stream permits three exhaustive outcomes for every movement
 attempt in the first hundred ticks: successful displacement, an occupied target,
 or death on the movement payment before any target is chosen. Basal deaths never
