@@ -4100,3 +4100,9 @@ Two tests verify byte-identical runs, initial and tick energy balances from seri
 Previous turn completed V2 persisted runner. Added independent construction audit without simulator/development imports. Rebuilds fields using a separately expressed local-difference update, exact truncation/decay, round/expression budgets, direct read/padding budgets, final coefficients and attempt validity/loss. CLI binds final and metadata hashes and retains explicit construction-only scope.
 
 Compared100 random genomes over6 budgets plus direct controls over budgets/padding, and rejected corrupted history/charge/loss/living-energy records. Engineering001 all80 attempts pass independently:6 successful,74 failed,construction27066,loss22580. Report archived. Full248 tests pass. Next reconcile V2 attempts with founder/child life history, actor transfers and global ledger before registering viability calibration. No V2 outcomes inferred.
+
+## 2026-09-14 — Autonomous cycle 269
+
+Previous turn added independent construction audit. Added V2 life-history/energy audit linking attempt IDs, regenerated construction, development/birth/death events, genotype mutation support, parent/founder chain, newborn timing, phenotype decisions, charging, allocation/loss, successful offspring counts and final state. No world/development engine imports; spatial/RNG reconstruction remains outside scope. Engineering00150-step history passes and report archived.
+
+Tests cover successful/failed child construction, failed founders, early death, direct-mode births and rehashed semantic corruptions of energy, failed counts and missing events. Initial direct fixture at200 energy produced no births; raised only fixture allocation to400 to exercise intended successful-birth coverage, without changing runtime rules. Full250 tests pass. Next spatial/resource check and declared V2 viability calibration retaining all attempts and both encoding denominators.

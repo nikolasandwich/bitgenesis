@@ -1,0 +1,38 @@
+{
+  "scope": "construction, ancestry, decisions and energy ledgers; spatial trajectories/RNG not replayed",
+  "summary": {
+    "steps": 50,
+    "population": 6,
+    "individuals": 6,
+    "actor_records": 300,
+    "births": 0,
+    "founder_attempts": 80,
+    "successful_founders": 6,
+    "attempts": 80,
+    "failed_attempts": 74,
+    "construction_cost": 27066,
+    "failure_loss": 22580,
+    "deaths": 0,
+    "total_energy": 16350
+  },
+  "construction_audit": {
+    "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+    "attempts": 80,
+    "successful": 6,
+    "failed": 74,
+    "construction_cost": 27066,
+    "failure_loss": 22580,
+    "final_sha256": "7a52e96bd803f04e3f8b8fcec47fa22e1e8a63bed4d84838325d6233fc94e958",
+    "metadata_sha256": "128de82ad60337ad31e2de72d602f6737f9338e951042e648fed30799d3ec0a4",
+    "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+  },
+  "input_sha256": {
+    "initial.json": "9a8e7e4e70c7b16602e4402bdbdb1e2d6d1059038115b8cb754bd210a66128ec",
+    "final.json": "7a52e96bd803f04e3f8b8fcec47fa22e1e8a63bed4d84838325d6233fc94e958",
+    "steps.jsonl": "3acf74e0674c84b1bd84b31fc1de028b7a631cd7b3c15e908bdba6e504014eee",
+    "events.jsonl": "bd0366540cabe3d29282ece341438e68ef1a970e4b204581c78514d5362ec461",
+    "summary.json": "7bdd7af00ee20f61c9f6143553f36f7419619737e47f8f9aee1f38e585f3cf87"
+  },
+  "audit_sha256": "ecefa499adcd6eddfd73945c8c5560a7fed33e10d72f8ff72de505603898ecd3",
+  "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+}

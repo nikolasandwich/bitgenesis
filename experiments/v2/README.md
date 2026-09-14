@@ -38,5 +38,16 @@ budget stop, cost and failure loss from genes and budgets, including direct
 construction/padding. It does not yet verify world life history, spatial events
 or RNG streams. The engineering001 record passes all80 construction attempts.
 
-Next: validate V2 life-history/energy records, then preregister a viability calibration
+Life-history and energy validation is also available:
+
+```console
+python -m bitgenesis.v2.audit data/my-v2-check --output data/my-v2-history-audit.json
+```
+
+It links every attempted construction to events, living children, mutation bounds,
+ancestry, decision arithmetic, actual charges, successful offspring counts and
+the whole-world energy ledger. It retains invalid founder/child attempts. Spatial
+trajectories and random streams are still outside this audit's scope.
+
+Next: spatial/resource verification, then preregister a viability calibration
 that retains all failed development rather than analyzing only successful births.
