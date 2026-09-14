@@ -4246,3 +4246,5 @@ Two focused tests cover selection ties/no partner and complete available/unavail
 ## 2026-09-14 — Autonomous cycle 292
 
 Previous turn assembled and tested V3 assays and preregistered study001 (e2294ee), a substantive progress turn. Prepared fixed five-source launcher with clean source/protocol binding, exact300/500 horizons and128000 record bound, retaining unavailable cases and8GiB inter-source limit. Syntax checked; runtime unchanged since283 full tests. Commit before execution. Next follow original process and verify complete-source selection/schedules/outcomes against raw records before interpretation.
+
+Study001 execution follow-up: original process99514 exited0 after5/5 sources. Sources88000/88001/88002/88004 available,88003 unavailable and retained;12 branches completed prefix/individual branch gates. Archived complete execution metadata and summaries. Complete-cohort independent protocol/selection/schedule verification remains pending; no mechanism conclusion yet. Next reconstruct selection and reference schedules from raw records, verify exact config/source coverage and all non-target outcomes before publication.
