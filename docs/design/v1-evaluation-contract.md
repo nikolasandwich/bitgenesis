@@ -109,3 +109,8 @@ a corresponding behavioral response, and the relevant ancestor/random controls.
 A null or reversed result remains a valid completed experiment, but does not meet
 that positive claim. Memory or a larger network must not be added to rescue it.
 V0 rules and archived experiments remain unchanged.
+
+The [control identifiability review](v1-control-identifiability.md) specifies
+candidate input timing, blocked-move costs and the limits of permutation and
+random-stream matching. These remain design choices for future preregistration,
+not runtime evidence.

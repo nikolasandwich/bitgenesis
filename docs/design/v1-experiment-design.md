@@ -78,7 +78,8 @@ During evaluation, freeze genomes and disable reproduction mutations. Evaluate:
    changes within a selected lineage.
 
 Blind inputs change the input distribution, while permutation preserves the set
-of neighboring food readings but destroys their directional correspondence. Neither
+of neighboring food readings and randomizes their directional correspondence.
+Some slots or the whole vector may remain unchanged on a draw. Neither
 control answers every question alone. Apply interventions only in evaluation when
 testing the information dependence of an already evolved controller.
 
@@ -177,3 +178,8 @@ The [evaluation contract](v1-evaluation-contract.md) specifies candidate competi
 endpoints, extinction handling, nested replicate aggregation, matched ancestor
 information contrasts and fixed-state behavioral probes. Exact protocol fields
 remain to be preregistered before any outcome run.
+
+The [control identifiability review](v1-control-identifiability.md) specifies
+candidate input timing, blocked-move costs and the limits of permutation and
+random-stream matching. These remain design choices for future preregistration,
+not runtime evidence.

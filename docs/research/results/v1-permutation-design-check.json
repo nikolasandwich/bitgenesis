@@ -1,0 +1,14 @@
+{
+  "scope": "Exact enumeration of the proposed uniform permutation intervention, not a V1 runtime or outcome experiment.",
+  "permutations": 24,
+  "identity_permutations": 1,
+  "per_slot_probability": [
+    "1/4",
+    "1/4",
+    "1/4",
+    "1/4"
+  ],
+  "no_fixed_slot_permutations": 9,
+  "expected_fixed_slots": "1",
+  "all_equal_probe_unchanged": true
+}

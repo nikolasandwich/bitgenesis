@@ -3746,3 +3746,20 @@ from adaptive improvement, V1 evidence, user acceptance and goal completion.
 Linked evidence paths checked. Next inspect identifiability of the proposed V1
 information/action/ancestor controls as design work only; no runtime extension
 or additional V0 sweep implied. Autonomous goal active.
+
+## 2026-09-14 — Autonomous cycle 236
+
+Previous cycle reassessed V0 graduation without claiming V1 evidence. Reviewed
+future controller and evaluation contracts for information/control identifiability.
+Corrected overly absolute permutation language: uniform24 permutations retain any
+particular slot with probability1/4, include identity1/24, and have9 derangements.
+Saved exact enumeration, explicitly not a world or controller evolution experiment.
+
+Added candidate post-charge input timing, integer scaling, unmasked occupied
+outputs and paid blocked attempts, plus explicit limits of separate RNG streams.
+Resource proposals can stay aligned while realized supply diverges; sequential
+actor draws cannot be claimed matched after different demography. Retained exact
+fixed-state probes as the direct behavioral comparison and nested actual-ancestor
+controls for reproduction. Exact RNG/protocol fields remain future preregistration
+work; no V1 runtime, pilot or new V0 experiment. Linked design sources checked.
+Autonomous goal active; prior archives and V0 semantics unchanged.
