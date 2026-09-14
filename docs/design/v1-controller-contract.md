@@ -26,6 +26,7 @@ This fixes the controller-level choices from the candidate design.
 
 The component accepts externally supplied tickets so fixed-state probes need no
 simulation RNG. World stream derivation, scheduling and accounting are specified
-in the world contract; CLI and persisted records remain unfinished before a pilot.
+in the world contract; the bounded CLI and persisted records now exist, while
+independent audit tooling and a pilot protocol remain unfinished.
 Hand-constructed response fixtures test arithmetic only, not evolved behavior.
 The V0 engine and its random-stream semantics are unchanged.

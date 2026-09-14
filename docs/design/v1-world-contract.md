@@ -1,7 +1,7 @@
 # Experimental V1 world: v1-world-1
 
-Status: a tested in-memory world component, not a completed research runner or
-pilot. Config defaults are engineering defaults, not a preregistered experiment.
+Status: a tested world with a [bounded persisted runner](../../experiments/v1/README.md),
+not a completed pilot. Config defaults are engineering defaults, not a preregistered experiment.
 The V0 engine is untouched. The controller uses `v1-linear-1`.
 
 ## Space and initialization
@@ -56,6 +56,6 @@ energy reconciliation and occupancy/resource bounds are checked in tests.
 Birth events snapshot genomes and parentage; death events identify the charging
 phase. The in-memory lineage retains endpoints and offspring counts. These are
 components for a bounded recorder, not an indefinite storage design. A CLI,
-on-disk run metadata, streaming records, independent output validation, pilot
-protocol and outcome assays remain outstanding. No adaptation claim follows
+on-disk metadata and streaming records now exist. A reusable independent audit,
+pilot protocol and outcome assays remain outstanding. No adaptation claim follows
 from engineered fixture controllers or deterministic replay.

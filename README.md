@@ -11,10 +11,13 @@ is a research question, not a promised outcome.
 
 ## Current status
 
-V0 is the only runtime stage. It now supports an explicit-organism Darwinian
+V0 is the preserved baseline. It supports an explicit-organism Darwinian
 world: resource growth, random movement, feeding, energy costs, reproduction,
 mutation, death, and lineage logging. Genomes encode movement probability, not
-a food-seeking strategy. No neural controllers or complex biology are implemented.
+a food-seeking strategy. Experimental [V1](experiments/v1/README.md) adds inherited
+linear sensor-to-action controllers and a bounded recorded world runner.
+V1 has engineering tests but no completed scientific outcome study yet.
+Development, ecology and self-organization remain later research stages.
 The original empty-world scaffold remains available with its original rules.
 
 ## Quick start (Python 3.12+)
