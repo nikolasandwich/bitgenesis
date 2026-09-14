@@ -1914,3 +1914,18 @@ still match complete state/events/RNG, and observed child IDs reconcile with
 lineage and per-tick births. All 122 local tests pass. Prior feeding JSONL files
 remain their original schema and are not retroactively populated. Complete
 movement/death action observation remains outside the tool's current scope.
+
+## 2026-09-14 — Autonomous cycle 128
+
+Replayed all forty historical first-100-tick prefixes with schema 2 from clean
+source 0255c88, storing a separate dataset. All 4,040 original metric rows match.
+A standalone readback compares all 166,886 prior feeding records field-for-field,
+checks both datasets' hashes, reconstructs eligibility and verifies actual child
+counts against original births.
+
+Only block/40 seed 1409 has space-blocked eligible attempts: two of 120, with 118
+births. The other thirty-nine worlds have none. Added all-world results and the
+limited conclusion: frequent lack of adjacent birth space is not supported as
+the direct early-birth explanation. Movement obstruction, food competition and
+later behavior are not excluded. No formal campaign or independent sample added;
+old replay files and fixed archives remain unchanged.

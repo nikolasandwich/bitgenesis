@@ -78,5 +78,7 @@ and do not mutate the engine state.
 
 The saved 166,886 feeding records from source `0479c34` predate these fields and
 remain unchanged. Missing fields in that dataset must not be interpreted as false
-eligibility or absent space. New schema-2 data requires a separate recorded replay;
-no congestion mechanism conclusion has yet been drawn from the new fields.
+eligibility or absent space. New schema-2 data requires a separate recorded replay. The completed replay
+and its narrowly scoped adjacent-birth-space counts are reported in
+[campaign 017](../research/campaign-017.md#retrospective-birth-eligibility-and-adjacent-space);
+they do not test all forms of spatial competition.

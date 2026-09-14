@@ -144,3 +144,47 @@ python -I -S scripts/analyze_v0_feeding_attempts.py --output data/new-feeding-di
 These are retrospective observations, not a new formal campaign. The fixed
 seventeen-campaign archive predates the observer and these local JSONL records.
 See [observer validation](../design/feeding-observer.md) for replay scope and limits.
+
+## Retrospective birth eligibility and adjacent space
+
+Schema-2 observation adds energy-based birth eligibility, the number of empty
+neighbors immediately before the birth check, and the actual child ID. Replaying
+all forty first-100-tick prefixes again preserves all 4,040 original metric rows
+and all 166,886 original feeding records on their original fields. New fields
+were saved separately; the earlier feeding dataset was not changed.
+
+| Layout / threshold | Eligible attempts per world | Eligible but no adjacent space | Actual births per world |
+| --- | ---: | ---: | ---: |
+| Dispersed / 40 | 33–51 | 0 | 33–51 |
+| Dispersed / 160 | 0 | 0 | 0 |
+| Block / 40 | 100–120 | 0–2 | 100–120 |
+| Block / 160 | 2–9 | 0 | 2–9 |
+
+Only block/40 seed 1409 has any blocked eligible attempts: two, out of 120
+eligible attempts, with 118 actual births. All other thirty-nine worlds have
+none in this window. Consequently, a frequent absence of adjacent birth space
+is not supported as the direct explanation of these early birth differences.
+The high-threshold dispersed worlds have no eligible attempts by tick 100;
+absence of births there reflects the observed energy eligibility, not a recorded
+lack of adjacent space.
+
+This does not rule out spatial competition. Occupancy can affect movement or
+food access without blocking the birth check, and these counts do not cover
+later ticks. A blocked attempt is not a unique parent, a permanently lost birth,
+or the counterfactual result of removing a neighbor. The observer has not
+identified a causal mediator of the survival difference.
+
+[Every world's counts](results/birth-opportunities-017.csv) ·
+[Verification, hashes and replay source](results/birth-opportunities-017.json).
+The independent readback checks both old/new file hashes, exact old-field equality,
+threshold eligibility, neighbor bounds, unique child IDs, and actual births
+against the original campaign's count. Zero eligible attempts yield an undefined
+conditional blocked fraction (`null`), rather than a claimed zero probability.
+
+```sh
+python -I -S scripts/analyze_v0_birth_opportunities.py --output data/new-birth-opportunities
+```
+
+This uses the two local replay directories. It is a retrospective observation
+of existing worlds, not a new formal campaign, and postdates the fixed
+seventeen-campaign archive. No old execution totals or archive files changed.
