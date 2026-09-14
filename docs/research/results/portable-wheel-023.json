@@ -1,0 +1,26 @@
+{
+  "source_commit": "081eb061d1998c40b04f41e33b81a90c94a658c0",
+  "archive": "bitgenesis-v0-twenty-three-campaigns.zip",
+  "noneditable_site_packages_import": true,
+  "installed_git_commit": null,
+  "byte_equal_reference_files": [
+    "metrics.csv",
+    "events.jsonl"
+  ],
+  "json_equal_reference_files": [
+    "lineage.json",
+    "summary.json"
+  ],
+  "demo": {
+    "status": "verified",
+    "rules_version": "v0-darwin-1",
+    "ticks": 1000,
+    "organisms_recorded": 1641,
+    "births": 1561,
+    "deaths": 1558,
+    "final_population": 83,
+    "replay_frames": 101
+  },
+  "scope": "Fresh noneditable installation from extracted archive; all201 archived tests pass and the installed1000-tick demo matches reference records. Build dependency resolution does not establish offline installation. No rerun of all campaigns.",
+  "tests_passed": 201
+}

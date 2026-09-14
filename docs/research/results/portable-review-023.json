@@ -1,0 +1,24 @@
+{
+  "archive": "bitgenesis-v0-twenty-three-campaigns.zip",
+  "sha256": "111a0c21e8ba2cfdfff61b08c4ea09ae3bbcf24f6ef0f8ec1393f4b1a35b0076",
+  "bytes": 239088334,
+  "payload_files": 4241,
+  "source_commit": "081eb061d1998c40b04f41e33b81a90c94a658c0",
+  "archive_verification": {
+    "status": "verified",
+    "sha256": "111a0c21e8ba2cfdfff61b08c4ea09ae3bbcf24f6ef0f8ec1393f4b1a35b0076",
+    "expected_hash_matched": true,
+    "source_commit": "081eb061d1998c40b04f41e33b81a90c94a658c0",
+    "files": 4241,
+    "html_pages": 13,
+    "local_html_targets": 26,
+    "scope": "Stored file integrity and static HTML targets; no scripts executed or scientific claims validated."
+  },
+  "fresh_extracted_reports_equal": [
+    "campaign-023-sample-verification.json",
+    "campaign-023-verification.json",
+    "campaign-023-histories.json",
+    "campaign-023-checkpoints.json"
+  ],
+  "scope": "New-directory extraction and exact archived campaign-023 sample, metric, individual-history and checkpoint reanalyses. No new simulation, fresh installation or remote upload claimed here."
+}
