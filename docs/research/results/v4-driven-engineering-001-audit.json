@@ -1,0 +1,23 @@
+{
+  "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+  "summary": {
+    "steps": 100,
+    "units": 186,
+    "initial_energy": 6107,
+    "final_energy": 11200,
+    "spent": 32783,
+    "imported": 37876,
+    "rejected_import": 64172,
+    "leakage": 18593,
+    "last_transition_bonds": 71,
+    "last_transition_components": 117
+  },
+  "output_sha256": {
+    "initial.json": "355dd2f50c7913b8fd52616dfd20aba8ea7f274d5697e5b23a7e12798414127d",
+    "steps.jsonl": "39cc8e6d142ba08b3931cd025924efc24594caec0699a37b27f64d50a9bc996f",
+    "final.json": "28f9c196beed9760e92147eb03ed7589ed3759122cd986987f32b8c130589a86",
+    "summary.json": "b6e5d4b1c13438a6f5b6f596a4ec40a77532059822c3442823fda7cade5be6e1"
+  },
+  "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+  "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+}

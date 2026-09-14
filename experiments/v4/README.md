@@ -58,3 +58,14 @@ Input and exchange controls share initial states and drive draw counts. Accepted
 input may differ due to capacity and must not be inferred from proposal totals.
 Independent driven-run audit is pending; the closed audit cannot verify this
 new schema. Seeds90400..90402 are reserved for engineering.
+
+Driven records now have independent verification:
+
+```console
+python -m bitgenesis.v4.driven_audit data/my-v4-driven --output data/my-v4-driven-audit.json
+```
+
+It reconstructs both random streams, all proposed/accepted/rejected input,
+leakage and local interaction/component states. Engineering001 passes100 steps;
+seed90500 tests rehashed input corruption. The [first activity study](study-001.md)
+registers20 cases and fixed early/middle/late windows, without replication claims.

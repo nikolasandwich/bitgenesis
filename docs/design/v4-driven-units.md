@@ -4,7 +4,8 @@ v4-driven-1 wraps the unchanged v4-local-1 interaction kernel. It is an open
 energy model, not open-ended evolution. Unit positions and material labels
 remain fixed; there is no birth, death, material synthesis or replication.
 Implemented: deterministic driven steps and bounded v4-driven-run-1 persistence
-with a separate input RNG. Independent input/transition reconstruction remains pending.
+with a separate input RNG. Independent input/transition reconstruction is available
+through v4.driven_audit, reusing the independent local verifier.
 
 Each site receives a nonnegative integer energy proposal specified externally.
 At empty sites none is accepted. At occupied sites acceptance is limited by

@@ -4284,3 +4284,9 @@ Three tests cover exact baseline equivalence, input-driven reactivation and100 r
 Previous turn implemented driven local energy (8954776), a substantive progress turn. Added v4-driven-run-1 persistence and module entry point with separate SHA256-namespaced drive RNG, fixed per-site draw counts even when input disabled/empty, complete input/leak/interaction observations and initial/final RNG states. Engineering defaults propose8 at500/1000,capacity64,leak1; not a scientific protocol.
 
 Two tests cover exact replay, matched initial states and drive RNG endpoints across controls, energy accounting and capacity preflight. Full296 tests pass in32.877 seconds. Commit before engineering run. Next independent driven initialization/input/transition reconstruction, then bounded preregistered persistence/control study.
+
+## 2026-09-14 — Autonomous cycle 299
+
+Previous turn persisted driven V4 and completed engineering run (cb00c6c), a substantive progress turn. Added independent initialization/drive RNG, accepted/rejected input, leak and local transition reconstruction; engineering001 passes100 steps,37876 imported,64172 rejected,18593 leaked,32783 total spent. Archived report. Expanded tests across drive/exchange controls and rehashed input corruption:3 focused tests pass. Runtime unchanged since296 full tests.
+
+Registered study001 before seeds91000..91004:20 cases,drive0/500 x exchange off/on,500 steps,three fixed windows,primary late active-transition fraction and per-source contrasts,2GiB inter-run soft limit. Explicitly fixed-site engineered connection activity, not self-assembly/replication. Next execute frozen cohort and verify complete windows and controls.
