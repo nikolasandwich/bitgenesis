@@ -269,3 +269,17 @@ The next scientific question remains whether any descendant performance advantag
 is heritable in a separately fixed common environment; no outcome-selected
 sampling or automatic mutation-rate sweep follows from the +2 treatment result.
 Such an assay still requires prospective specification. V1 remains design only.
+
+
+## Registered common-environment early-trait assay
+
+[Campaign 023](../../experiments/v0/campaign-023.md) now fixes sampling from all
+twenty mutation-enabled source worlds at tick100, using trait-independent ID hash
+priorities, retaining founders and unchanged traits. Actual founding ancestors
+are traced through recorded parents. Missing source material is reported, not
+replaced or imputed as evaluation failure. Five fresh evaluation seeds per source
+compare cloned sampled/ancestor trait populations with mutation disabled; maximum
+200 worlds / 2,000,000 ticks. Mean source-level paired survival contrast is primary.
+This tests early sampled traits in a homogeneous common environment, not late
+adaptation or isolation of selection. No manifest extracted or outcomes launched
+at registration. This supersedes the unregistered-assay status above; V1 stays design.

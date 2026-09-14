@@ -3469,3 +3469,22 @@ mutation-treatment survival contrast from untested heritable adaptive improvemen
 Local links in the five updated navigation/synthesis documents resolve. No new
 runtime or simulation changes; prior 191-test evidence applies to fixed archive.
 The user-facing checkpoint is delivered; autonomous research goal stays active.
+
+
+## 2026-09-14 — Autonomous cycle 222
+
+Previous cycle delivered scope-22 download and clarified untested adaptive claims.
+Registered campaign023 before source-sample extraction or evaluation: all twenty
+mutation-enabled sources, fixed early tick100, uniform-in-spirit deterministic
+trait-independent hash priority over all living IDs, actual ancestor tracing,
+explicit unavailable-source handling, no unchanged-trait/founder exclusion.
+Five unique fresh evaluation seeds per source compare standardized homogeneous
+sampled versus ancestor genomes with mutation disabled. Maximum200 worlds/2m ticks;
+source-level paired contrast is primary and all missing/zero/negative cases remain.
+
+The protocol separates early genetic-material performance from full population
+adaptation, survivor selection and causal isolation of natural selection. It also
+requires identical-trait full-dynamics controls, complete source hash binding and
+life-history reconstruction. No sample selection, simulation or engine changes
+this cycle; verified totals unchanged. Next implement independently checkable
+sampling and commit its manifest before any evaluation outcome. Goal active.
