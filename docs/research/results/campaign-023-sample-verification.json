@@ -1,0 +1,530 @@
+{
+  "scope": "Independent event-based reconstruction of all preregistered early candidates, hash rankings and actual founder chains. No evaluation outcomes.",
+  "results": [
+    {
+      "source_seed": 1900,
+      "events_processed": 468,
+      "eligible": 2,
+      "histogram": {
+        "250": 1,
+        "317": 1
+      },
+      "selected": {
+        "id": 210,
+        "genome": 250,
+        "birth_tick": 27,
+        "founder_id": 77,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          210,
+          77
+        ],
+        "priority_sha256": "1cbad540a2075e3fe3e8c423c1b992a4859a78bc03726e5a98072e7095d000e6"
+      }
+    },
+    {
+      "source_seed": 1901,
+      "events_processed": 490,
+      "eligible": 2,
+      "histogram": {
+        "250": 2
+      },
+      "selected": {
+        "id": 158,
+        "genome": 250,
+        "birth_tick": 12,
+        "founder_id": 8,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          158,
+          102,
+          98,
+          8
+        ],
+        "priority_sha256": "1a4b5a576aa54e4788214ee6cc6f79a886e35dbfa67a99aa02408aaa19046c1a"
+      }
+    },
+    {
+      "source_seed": 1902,
+      "events_processed": 452,
+      "eligible": 6,
+      "histogram": {
+        "250": 4,
+        "262": 1,
+        "277": 1
+      },
+      "selected": {
+        "id": 63,
+        "genome": 250,
+        "birth_tick": 0,
+        "founder_id": 63,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          63
+        ],
+        "priority_sha256": "3eeaeeff92ab1d47f54b46962778e3c5ee1ac03c136da448079225fbc5237ff5"
+      }
+    },
+    {
+      "source_seed": 1903,
+      "events_processed": 473,
+      "eligible": 1,
+      "histogram": {
+        "250": 1
+      },
+      "selected": {
+        "id": 197,
+        "genome": 250,
+        "birth_tick": 19,
+        "founder_id": 67,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          197,
+          187,
+          97,
+          67
+        ],
+        "priority_sha256": "136e2287849f081c2844c8bd444e4d0d25f31459dea8f5b37ed7dbea7b465d87"
+      }
+    },
+    {
+      "source_seed": 1904,
+      "events_processed": 472,
+      "eligible": 2,
+      "histogram": {
+        "250": 2
+      },
+      "selected": {
+        "id": 121,
+        "genome": 250,
+        "birth_tick": 9,
+        "founder_id": 2,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          121,
+          112,
+          2
+        ],
+        "priority_sha256": "0a6e4809a681972eac1413e77b6d4e68b5069a8c1cf09715b7e486e64945883f"
+      }
+    },
+    {
+      "source_seed": 1905,
+      "events_processed": 470,
+      "eligible": 2,
+      "histogram": {
+        "250": 2
+      },
+      "selected": {
+        "id": 220,
+        "genome": 250,
+        "birth_tick": 28,
+        "founder_id": 6,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          220,
+          209,
+          192,
+          95,
+          6
+        ],
+        "priority_sha256": "0a2857ce6b05f01ec0e658892a6842c39eb05d2d6801ec207e422fdc7ed96968"
+      }
+    },
+    {
+      "source_seed": 1906,
+      "events_processed": 452,
+      "eligible": 6,
+      "histogram": {
+        "165": 1,
+        "250": 2,
+        "330": 1,
+        "337": 1,
+        "354": 1
+      },
+      "selected": {
+        "id": 119,
+        "genome": 250,
+        "birth_tick": 6,
+        "founder_id": 44,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          119,
+          80,
+          44
+        ],
+        "priority_sha256": "078ce4e5e806955c6a669220b971561b0a98fc49e2aeb0c9f7973dc67e0acbc2"
+      }
+    },
+    {
+      "source_seed": 1907,
+      "events_processed": 462,
+      "eligible": 10,
+      "histogram": {
+        "250": 5,
+        "262": 1,
+        "279": 1,
+        "328": 2,
+        "347": 1
+      },
+      "selected": {
+        "id": 214,
+        "genome": 250,
+        "birth_tick": 26,
+        "founder_id": 11,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          214,
+          205,
+          192,
+          174,
+          156,
+          84,
+          11
+        ],
+        "priority_sha256": "05efe8f881795f5612805191506136f4234100a50dbfd615b2949c0e3bcb8b12"
+      }
+    },
+    {
+      "source_seed": 1908,
+      "events_processed": 453,
+      "eligible": 7,
+      "histogram": {
+        "250": 4,
+        "311": 2,
+        "319": 1
+      },
+      "selected": {
+        "id": 222,
+        "genome": 250,
+        "birth_tick": 42,
+        "founder_id": 56,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          222,
+          219,
+          212,
+          209,
+          154,
+          134,
+          110,
+          82,
+          56
+        ],
+        "priority_sha256": "102bf19a61e86eafc4333d19e5531eda54dc38f7a91eb46599a8f4ade7482826"
+      }
+    },
+    {
+      "source_seed": 1909,
+      "events_processed": 439,
+      "eligible": 15,
+      "histogram": {
+        "163": 1,
+        "249": 1,
+        "250": 6,
+        "256": 1,
+        "267": 1,
+        "302": 2,
+        "332": 3
+      },
+      "selected": {
+        "id": 226,
+        "genome": 256,
+        "birth_tick": 89,
+        "founder_id": 33,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          226,
+          189,
+          178,
+          128,
+          83,
+          33
+        ],
+        "priority_sha256": "12a6153ee6c7a0ca141ce6abcc36a4c94ca227734972fa6d4519b4e6b01a7071"
+      }
+    },
+    {
+      "source_seed": 1910,
+      "events_processed": 467,
+      "eligible": 3,
+      "histogram": {
+        "250": 3
+      },
+      "selected": {
+        "id": 43,
+        "genome": 250,
+        "birth_tick": 0,
+        "founder_id": 43,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          43
+        ],
+        "priority_sha256": "04939d6cb29392557a2f4302643990685c37559b4861f9653df57dcceeca04ca"
+      }
+    },
+    {
+      "source_seed": 1911,
+      "events_processed": 478,
+      "eligible": 2,
+      "histogram": {
+        "246": 1,
+        "250": 1
+      },
+      "selected": {
+        "id": 105,
+        "genome": 250,
+        "birth_tick": 6,
+        "founder_id": 8,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          105,
+          95,
+          8
+        ],
+        "priority_sha256": "530c687e9399fef8af65fdf6b988bba148259e22e097ec4c2fb4c10ab10a3165"
+      }
+    },
+    {
+      "source_seed": 1912,
+      "events_processed": 460,
+      "eligible": 2,
+      "histogram": {
+        "250": 1,
+        "291": 1
+      },
+      "selected": {
+        "id": 107,
+        "genome": 291,
+        "birth_tick": 6,
+        "founder_id": 59,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          107,
+          92,
+          59
+        ],
+        "priority_sha256": "24c907907e3734a7e6645fabaa157bd7617681063743c532933c3be9358269d1"
+      }
+    },
+    {
+      "source_seed": 1913,
+      "events_processed": 446,
+      "eligible": 8,
+      "histogram": {
+        "250": 4,
+        "276": 4
+      },
+      "selected": {
+        "id": 225,
+        "genome": 276,
+        "birth_tick": 50,
+        "founder_id": 2,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          225,
+          221,
+          206,
+          184,
+          157,
+          131,
+          123,
+          106,
+          85,
+          2
+        ],
+        "priority_sha256": "3abe288ea871c127b3aeb2a58cb5f0ad1e821aebcc45e2f38dd13cec966fd1c6"
+      }
+    },
+    {
+      "source_seed": 1914,
+      "events_processed": 453,
+      "eligible": 3,
+      "histogram": {
+        "250": 3
+      },
+      "selected": {
+        "id": 187,
+        "genome": 250,
+        "birth_tick": 24,
+        "founder_id": 13,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          187,
+          171,
+          156,
+          143,
+          127,
+          112,
+          103,
+          88,
+          13
+        ],
+        "priority_sha256": "adf9f174d45a1952cce0fce05ffb8d63077c3a31622c4412c377bcd46c9d4a29"
+      }
+    },
+    {
+      "source_seed": 1915,
+      "events_processed": 447,
+      "eligible": 11,
+      "histogram": {
+        "250": 7,
+        "286": 3,
+        "340": 1
+      },
+      "selected": {
+        "id": 181,
+        "genome": 250,
+        "birth_tick": 33,
+        "founder_id": 72,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          181,
+          89,
+          72
+        ],
+        "priority_sha256": "50348a1c52a0767c6c3efdcb57fe1c3456fd96244edc5f057adedce6b37f232a"
+      }
+    },
+    {
+      "source_seed": 1916,
+      "events_processed": 478,
+      "eligible": 4,
+      "histogram": {
+        "250": 3,
+        "277": 1
+      },
+      "selected": {
+        "id": 189,
+        "genome": 250,
+        "birth_tick": 19,
+        "founder_id": 25,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          189,
+          168,
+          150,
+          25
+        ],
+        "priority_sha256": "315b8386a1315ac1a89d2f2bb933cd476d87c7c30411cdc2627763b77243d217"
+      }
+    },
+    {
+      "source_seed": 1917,
+      "events_processed": 461,
+      "eligible": 3,
+      "histogram": {
+        "168": 1,
+        "250": 2
+      },
+      "selected": {
+        "id": 5,
+        "genome": 250,
+        "birth_tick": 0,
+        "founder_id": 5,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          5
+        ],
+        "priority_sha256": "aff88b1e585a0198a767baaa4e858cb12d0d82ecfac41549cab32f5c1160f693"
+      }
+    },
+    {
+      "source_seed": 1918,
+      "events_processed": 473,
+      "eligible": 3,
+      "histogram": {
+        "186": 1,
+        "340": 2
+      },
+      "selected": {
+        "id": 193,
+        "genome": 340,
+        "birth_tick": 18,
+        "founder_id": 56,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          193,
+          144,
+          134,
+          108,
+          89,
+          56
+        ],
+        "priority_sha256": "3b07c4c861cb9439ea29e86fb44d8fa1922eb3f61fd5fa70f8b51ef7c849f446"
+      }
+    },
+    {
+      "source_seed": 1919,
+      "events_processed": 454,
+      "eligible": 8,
+      "histogram": {
+        "183": 1,
+        "250": 7
+      },
+      "selected": {
+        "id": 200,
+        "genome": 250,
+        "birth_tick": 25,
+        "founder_id": 56,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          200,
+          181,
+          166,
+          148,
+          101,
+          88,
+          56
+        ],
+        "priority_sha256": "189f7bf3ed87206c3c64428636167eb399f20721b6721b6e820a3d80cb41458a"
+      }
+    }
+  ],
+  "available_sources": 20,
+  "planned_evaluations": 200,
+  "input_sha256": {
+    "mutation-100-seed-1900/events.jsonl": "3e5b31aa93d43db8e9ebe19e3942ac18fb0f918447d58e5fa6adfafdc9cca927",
+    "mutation-100-seed-1900/lineage.json": "eb84da7afabfd0920b4b41eed0f7290f6c73a018d2ec70f856c4bcc1a72e6b3c",
+    "mutation-100-seed-1901/events.jsonl": "6402e26e5f9fe5dbe0427066c0948844fb49ef8176f9be21aea6078f7f1fe24b",
+    "mutation-100-seed-1901/lineage.json": "ee4af87188812974d59359fa17252c2e9f2ae7b04a6d9b0f36c96dec173bfb03",
+    "mutation-100-seed-1902/events.jsonl": "6a3d90e57a56dc3247209eb4ea8cae4edfa44748ca95f917e9ce179634d13296",
+    "mutation-100-seed-1902/lineage.json": "ed4d37503636812936082d3c088bc980253090015e01cac47cc45789e94a0414",
+    "mutation-100-seed-1903/events.jsonl": "5c19be470969ea4d69680930280be776e929c172f8da1a371774b80e5addf95f",
+    "mutation-100-seed-1903/lineage.json": "c5a1f14b98ee0c4b72976cd00451639540a452a0b6d4c2937cc1b434cd726c1d",
+    "mutation-100-seed-1904/events.jsonl": "c80ef8e787ae1e0b1e4f0a2adf7ba018b7a807b7643b406a35411a1e87e6b0b8",
+    "mutation-100-seed-1904/lineage.json": "6aff736901dfa71aaa75aa1bde157d74191e2f355e1968c45ef277294f4d40eb",
+    "mutation-100-seed-1905/events.jsonl": "32a9098b98d6ce9d087fcecdcb572d7e04d8fa4d250c14c7b5ed0814c2788882",
+    "mutation-100-seed-1905/lineage.json": "799f16d36e44643d28ed2efddb40ed86906cd27d01529bd23841d20fb3e53cba",
+    "mutation-100-seed-1906/events.jsonl": "7254043bd47421ffa6c0ceb7260e239de32dc7d06952d9a9aeff1dbc8ffbdf57",
+    "mutation-100-seed-1906/lineage.json": "c1653a39e4838d768fdf6ca9e296d5784be8b783b8c2eb96c5bdab518bd0fa15",
+    "mutation-100-seed-1907/events.jsonl": "5289251889674236da66cba181c4bedf48591fa44bde086372ed78d40bc659a2",
+    "mutation-100-seed-1907/lineage.json": "d50f51c9a10b0db766dad9e56c3f9e9627534cbcba8837aea59c91e2aba70449",
+    "mutation-100-seed-1908/events.jsonl": "0e4fd1db96d154fcd2b2155ced72f67ce4ddad80bd7ef57cb46952d6799e3b49",
+    "mutation-100-seed-1908/lineage.json": "7ef8b0c84e6526157aef6cca97333845923ee17287658dd974ca3504c7f3d289",
+    "mutation-100-seed-1909/events.jsonl": "1072879b37a998895d04c12903ab6493ff0d6c7f2665105ad96af35c7bbbded5",
+    "mutation-100-seed-1909/lineage.json": "b8ceea2e562fe5c66483f0d36902c22fc608a620e4150cb2a0ab9a55bc66f185",
+    "mutation-100-seed-1910/events.jsonl": "21a2429b51936f8c1535414f0c4ed62722a99e307037845f77666f8cd8355caf",
+    "mutation-100-seed-1910/lineage.json": "55f1e0d4536aff78e06d776e07a783e8c94cc387d41ab5f7b095a1922f8e12b5",
+    "mutation-100-seed-1911/events.jsonl": "51966f57c61366508f165e60e932dd4ef238813f0ae664a7854b79d6f451dd88",
+    "mutation-100-seed-1911/lineage.json": "e5e95fd5854c6e88a8eae4225f1532886e380252c9ccaa59090e2897091c1082",
+    "mutation-100-seed-1912/events.jsonl": "edb51967a6e55448b1b1bd2206d7d27f9467efff67dff427ba2d56f57257303a",
+    "mutation-100-seed-1912/lineage.json": "dcf834626cfe03b5c1617b5393662cfb97c306f0ba6d821d097c354abe0515fc",
+    "mutation-100-seed-1913/events.jsonl": "55430c5d3445875416fca0b2f86178634c15ae847f09c8fac0d744ec6c9edfad",
+    "mutation-100-seed-1913/lineage.json": "756c6e403fdbece011c07dbd4a90e8d6b07aaf92b51a2d45e4382fbe26f18cc7",
+    "mutation-100-seed-1914/events.jsonl": "d6b9e3fe36cf2173b7fcb11678f8d8550a5f2cff3055de02ce037d8f21e4eae1",
+    "mutation-100-seed-1914/lineage.json": "8bf8a491b1f7ad65bb18aacf05b89979bc64f9c0b7f584edacb3f0ce8e6a021b",
+    "mutation-100-seed-1915/events.jsonl": "20348da9a1f186d36c737593170f18c6837e563b56fe0689d06f7871e4c0e663",
+    "mutation-100-seed-1915/lineage.json": "128af7640edbe6e6dd106e6eba02ee1272cf28895144567275ef0a0e2036630c",
+    "mutation-100-seed-1916/events.jsonl": "069c6bbac537a4a2bd947db9414bca6dbd2d79bd152f82eee0a1a11149c10008",
+    "mutation-100-seed-1916/lineage.json": "c71498437a91492d659d5b7d821eabdeb4f5131f962efab7940406c2a070e347",
+    "mutation-100-seed-1917/events.jsonl": "b25e0418609d7b7d43c540a6a1c029cd34017c20fd9d11044fe2ce1bd2faee30",
+    "mutation-100-seed-1917/lineage.json": "fcdfc38258ad3f1f8080f7e5c45f70b73dbde7ed4f470ce7c2f54f04ef654a92",
+    "mutation-100-seed-1918/events.jsonl": "a788f37ab38e17667c97830635f4e0d34ab286a29fe99c0eb583da4b8827a34f",
+    "mutation-100-seed-1918/lineage.json": "1e9374f9d1a79721e2ef093e6eca243b28192a458eb32b37879b18d466db412a",
+    "mutation-100-seed-1919/events.jsonl": "f0563d7fe990d06b85d6fdc543adb3729823fe95b574ea7fda49d832ae3cd3ef",
+    "mutation-100-seed-1919/lineage.json": "b445e1083a0b83147aba521a97cbf77bf07b6dc19530b5fb2fb949e6b5c2c5fc"
+  },
+  "manifest_sha256": "58fe9c9c7484da17db5d095fbeb93289903ffe5b801b7d3709a297f52a19c741",
+  "script_sha256": "78528dc90297ccc80771366638d1338fbc1e259a6d5d361df09248f0c23e486e"
+}

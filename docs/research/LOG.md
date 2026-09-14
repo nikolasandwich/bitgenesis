@@ -3512,3 +3512,22 @@ at tick100, yielding the maximum200 planned evaluations. Saved full sample manif
 before evaluation. Individual-history/source hashes and checkpoint reconciliation
 passed within extraction; independent event-based sample verification remains
 pending. No sampled identity will be replaced after seeing its trait or outcomes.
+
+
+## 2026-09-14 — Autonomous cycle 224
+
+Previous cycle fixed the twenty campaign023 source samples before evaluation.
+Added an independent event-based verifier without importing the sampler: rebuild
+post-step100 living IDs, recompute integer hash priority, trace actual birth-parent
+chains, reconcile verified checkpoint histograms, bind original event/lineage and
+report hashes and require exact manifest equality. All20 source samples match,
+covering100 eligible individuals and9,248 early events. Source availability20/20
+and200 planned evaluations unchanged;16 selected traits remain250.
+
+Two tests cover death100/101, event/lineage boundary agreement, missing-death
+candidate divergence, missing founders, invalid parents and duplicate deaths.
+All195 tests pass. Published full sample table and independent gate with clear
+pre-evaluation status and no replacement of unchanged traits. No evaluation
+simulation, runtime changes or formal-count update; fixed scope22 archive unchanged.
+Next implement/validate common-environment recorder before clean-source launch.
+Autonomous goal active, V1 design only.
