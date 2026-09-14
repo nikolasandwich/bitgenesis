@@ -4428,3 +4428,9 @@ Registered study006 before environment seeds98000/98001:60 pairs x2 roles x2 env
 Previous turn implemented audited explicit-program assays and registered study006 (9adb7b4), a substantive progress turn. Added launcher4cfb006 with full fresh ancestry reconstruction, frozen selection/lineage/hash and actual parent-chain checks before assays. Original process22683 exited0 at480/480 independently audited runs; no source edits during execution. Complete declared grid and clean launch binding checked after completion; archived metadata/results. Runtime unchanged since343 full tests.
 
 Full cohort neutral-pair byte equality, physical/RNG pairing, exact configurations and240 primary contrasts with prespecified source aggregation remain pending. Next independent all-tick occupation counting and full report; successful assay execution alone does not establish descendant improvement.
+
+## 2026-09-14 — Autonomous cycle 323
+
+Previous turn executed and archived480 matched assays (7b89c0c), a substantive progress turn. Full verifier6125 exited0 after fresh selection ancestry and all480 independent audits, configuration/source/protocol/physical/RNG binding and220 neutral environment-pair byte identities. Recomputed240 contrasts,40 source means and8 condition means. Two focused tests pass for extinction-inclusive denominator and hierarchical aggregation. Runtime unchanged since343 full tests. Archived complete report/verification.
+
+Only training drive250/mutation100 group has nonzero means:3061/128000 at assay drive250 and287/384000 at500. Five divergent pairs yield13 positive/7 negative environmental differences;55 equal pairs remain zero. No significance/general fitness claim. Next independently verified dual-founder competition with swapped placements and passive ancestry; retain all frozen pairs, not only favorable ones, to test whether monoculture expansion differences translate to competitive advantage.
