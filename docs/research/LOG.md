@@ -3094,3 +3094,21 @@ all saved endpoints exactly from 200,020 metric rows. This is not complete cohor
 verification or an outcome interpretation. Running runner/protocol and historical
 artifacts remain unchanged. Continue full-cohort execution and prepare early-record
 verification while awaiting completion.
+
+
+## 2026-09-14 — Autonomous cycle 204
+
+Previous cycle implemented campaign-021 independent metrics and confirmed the
+original process remained live. Added a separate full-120-world observation wrapper
+binding metadata and original input hashes to the metric verification, rechecking
+actual capacity-aware initialization and reconstructing early actor energy and
+lifecycles. Added twelve-cell process synthesis with separate capacity identities;
+old campaign wrappers and helpers remain unchanged.
+
+Both CLIs load. Partial completed-prefix observation checks pass for 34 worlds /
+3,400 early world-ticks / 283,268 energy records. Six focused engineering/adversarial
+checks pass, including twelve-configuration plain-engine parity and corrupted
+individual ledgers. The last full suite remains 185 passing tests. Full wrappers
+remain gated on complete cohort evidence; process synthesis will run only after
+both full verified reports exist. Original outcome process re-polled live without
+restart. No full-cohort result or new formal completion claim.
