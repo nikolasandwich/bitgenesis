@@ -74,6 +74,10 @@ Graduation criteria:
 
 ## V3 — Ecology
 
+An experimental [two-substrate resource kernel](../design/v3-ecology.md) now
+implements conservative feeding and a recycling-removal control. Population
+integration and ecological evidence remain pending.
+
 Investigate multiple niches and interactions such as competition, predation,
 cooperation, or parasitism without assigning desired ecological roles.
 
