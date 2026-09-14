@@ -4392,3 +4392,9 @@ Five new tests cover50-step constant-program baseline projection, local mutation
 Previous turn composed hereditary dynamics and completed engineering95004 (9c21a35), a substantive progress turn. Added independent hereditary initialization/program/mutation streams, expression and inherited-program reconstruction over independent physical/material verification. Engineering001 passes100 steps,79 formations,copy cost79 and1 mutation; full audit archived. Expanded runner fixtures and rehashed child-program/ticket corruption test:3 focused tests pass. Runtime unchanged since335 full tests.
 
 Registered study005 before seeds96000..96004:20 runs crossing mutation0/100 and drive250/500,500 steps,primary final fraction of units carrying initially absent programs and fixed-window variation/cost records. Exclude empty-site sampled programs from initial set, distinguish program recurrence from lineage, and make no adaptive-value claim. Next clean frozen execution and full cohort verification before matched ancestral-value assays.
+
+## 2026-09-14 — Autonomous cycle 317
+
+Previous turn independently audited heredity and registered variation study005 (3b70564), a substantive progress turn. Added launcher07a9ef4 before execution. Original process83609 exited0 at20/20 independently audited hereditary runs; no source edits during execution. Checked declared mutation/drive grid and clean launch binding; archived metadata/results. Runtime unchanged since335 full tests.
+
+Complete cohort source/configuration/RNG verification, fixed-window program counts and10 primary contrasts remain pending. Next independently count initial occupied-program sets, initially absent final programs and no-mutation negative controls, preserving all cases. Execution success is not adaptive improvement or evidence of open-ended innovation.
