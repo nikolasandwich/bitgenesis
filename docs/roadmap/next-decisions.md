@@ -257,3 +257,15 @@ supersedes the launch status in the registration note. Next provide the paired
 visualization and reproducible campaign evidence, keeping old archives unchanged.
 Any common-environment descendant/ancestor assay needs a separate prospective
 sampling and extinction policy; no such assay is registered here. V1 remains design.
+
+
+## Twenty-two-campaign portable checkpoint delivered
+
+The [review guide](../research/REVIEW.zh-CN.md) now links the fixed scope-22 draft
+archive at source 75fa4c0. Fresh extraction reproduces all three campaign-022 reports;
+191 archived tests and the reference-equivalent installed demo pass. Remote API
+sizes/hashes match. This supersedes the pending portable-evidence step above.
+The next scientific question remains whether any descendant performance advantage
+is heritable in a separately fixed common environment; no outcome-selected
+sampling or automatic mutation-rate sweep follows from the +2 treatment result.
+Such an assay still requires prospective specification. V1 remains design only.

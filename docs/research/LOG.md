@@ -3449,3 +3449,23 @@ build dependencies, so no offline-installation guarantee is made.
 Saved portable-review-022.json, portable-wheel-022.json and local SHA sidecar.
 Remote upload and current download-guide updates remain next. Existing releases
 remain unchanged; autonomous goal active, V1 design only.
+
+
+## 2026-09-14 — Autonomous cycle 221
+
+Previous cycle verified local scope-22 extraction and fresh installation. Uploaded
+new draft v0.0.1-preview.14 at source 75fa4c0; release 388280698. The single upload
+process completed normally. Remote API confirms both assets uploaded with sizes
+and digests equal to local files. ZIP: 190,114,621 bytes, SHA256
+2b9e2b9ce1f72be1a9a7c995df9043eb78a9682ba59de4ff0214027ad6f9aed1.
+Sidecar: 106 bytes, SHA256
+482b7228e73ab205250a96b4f747bda33add83261024eb4a01a1c9085968b031.
+Saved release-022.json; no independent remote redownload claimed.
+
+Updated review/download guide, acceptance, research index and campaign-022 report
+to the delivered scope, retaining older releases and retrospective supplements.
+Mechanism synthesis now includes all twenty-two campaigns and distinguishes the
+mutation-treatment survival contrast from untested heritable adaptive improvement.
+Local links in the five updated navigation/synthesis documents resolve. No new
+runtime or simulation changes; prior 191-test evidence applies to fixed archive.
+The user-facing checkpoint is delivered; autonomous research goal stays active.
