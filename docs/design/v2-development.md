@@ -43,7 +43,19 @@ report both genome dimensions and search-space differences; ten developmental
 parameters and35 direct weights are different parameterizations. Budget-matched
 controls must not quietly give direct encoding free construction.
 
-Still outstanding: genomic initialization/mutation distribution, world integration,
+Genomic initialization now samples each parameter uniformly across its declared
+integer bounds. Each birth draws a probability ticket; default100/1000 mutates
+one uniform coordinate by an integer in[-10,10] for amplitudes/threshold or[-1,1]
+for other parameters, clipped to bounds. Silent mutations are retained.
+
+A direct-construction component charges35 reading units plus nonzero expression
+count. Optional explicit padding can match a reference development's spending;
+the engineered equivalence test uses35*(rounds-1). This is an accounting/action
+control, not an independently evolved direct-encoding population. Invalid read,
+expression or padding budgets retain actual incurred costs and yield no controller.
+World-level controls still need their own fixed matching policy before outcomes.
+
+Still outstanding: world integration,
 developmental lineage and invalid-attempt records, matched direct-encoding cost
 contract, pilot registration, behavioral/fitness assays and multiple-seed results.
 The current fixtures are hand-designed arithmetic examples, not evolved organisms.

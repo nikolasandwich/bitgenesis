@@ -2,7 +2,8 @@
 
 V0 has a complete research runtime. V1 now has an experimental controller, world
 and bounded persisted runner with independent ledger, ancestry, decision and spatial
-audit. Study001 has completed540 assays and is undergoing full-cohort verification.
+audit. [Study001](../research/v1-study-001.zh-CN.md) completed540 verified assays;
+its primary evolutionary contrast is negative, with only3 surviving training sources.
 An exploratory [V2 development component](../design/v2-development.md) now exists;
 it is not an integrated world or a stage-graduation claim. The
 [autonomous research mandate](autonomous-research.md) authorizes implementation

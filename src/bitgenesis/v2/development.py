@@ -3,6 +3,10 @@
 This deliberately preserves V1's interface for matched direct-encoding controls.
 """
 from dataclasses import dataclass
+from random import Random
+
+GENE_BOUNDS = ((0,34),(-100,100),(0,34),(-100,100),(0,34),(-100,100),
+               (0,4),(0,10),(0,100),(1,16))
 
 
 @dataclass(frozen=True)
@@ -19,6 +23,25 @@ class DevelopmentGenome:
         for index,low,high in ((6,0,4),(7,0,10),(8,0,100),(9,1,16)):
             if not low <= self.genes[index] <= high:
                 raise ValueError('invalid developmental parameter')
+
+    @classmethod
+    def random(cls, rng: Random):
+        return cls(tuple(rng.randint(low,high) for low,high in GENE_BOUNDS))
+
+    def offspring(self, rng: Random, mutation_per_thousand: int = 100):
+        if type(mutation_per_thousand) is not int or not 0 <= mutation_per_thousand <= 1000:
+            raise ValueError('invalid mutation probability')
+        if rng.randrange(1000) >= mutation_per_thousand:
+            return self
+        index=rng.randrange(10)
+        # Site/round/diffusion/decay mutate locally; amplitudes/threshold have
+        # ten-unit steps. Clipping and zero perturbations can be silent.
+        radius=10 if index in (1,3,5,8) else 1
+        delta=rng.randint(-radius,radius)
+        low,high=GENE_BOUNDS[index]
+        genes=list(self.genes)
+        genes[index]=max(low,min(high,genes[index]+delta))
+        return DevelopmentGenome(tuple(genes))
 
 
 @dataclass(frozen=True)
