@@ -61,3 +61,12 @@ tests, not independent verification of branch dynamics. The growing-run audit
 does not accept the new branch schema. A separate branch verifier must validate
 the origin binding, independently reconstruct extraction, then reconstruct every
 continued input, direction, interaction and material conversion before cohort use.
+
+`v4.branch_audit.audit(branch, origin)` now performs that independent reconstruction.
+It reaudits the supplied origin, checks bound metadata/output hashes, derives the
+extraction ledger directly from serialized units, and reconstructs every continued
+transition through verifier code without importing branch/removal/runtime steps.
+Tests cover sham, removal, disabled formation and zero horizon, plus rehashed export
+and direction corruption. Provenance checks bind the declared records; they are
+not an external authentication of Git identity. Study003 preregisters the first
+recovery cohort before its scientific seeds are used.
