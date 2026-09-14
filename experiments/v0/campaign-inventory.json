@@ -267,6 +267,23 @@
       ],
       "followup_of": null,
       "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "018",
+      "executions": 80,
+      "ticks_per_execution": 10000,
+      "seed_range": [
+        1500,
+        1509
+      ],
+      "identity_fields": [
+        "arm",
+        "birth_threshold",
+        "movement_cost",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
     }
   ]
 }

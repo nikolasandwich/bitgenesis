@@ -2230,3 +2230,19 @@ Prepared the final inventory/report integration points without changing complete
 workload totals. Await remaining outcomes before full metric and early-observation
 verification; no restart, seed replacement or changed horizon is authorized by
 this intermediate progress check.
+
+## 2026-09-14 — Autonomous cycle 152
+
+Campaign-018 original process exited successfully after all 80 worlds. Independent
+metric verification checked 800,080 rows and all initial pairings; early verification
+checked 397,140 energy records over 8,000 world-ticks. Results CSV equals reconstructed
+records. Standard-library sibling imports require -S, not -I; initial isolated import
+failure created no result and did not rerun any world.
+
+Zero-charge block/threshold-40 seeds 1501, 1502, 1504 still extinct at 169, 118, 190.
+Thus a positive movement charge is not necessary for every failure in this design.
+All high-threshold worlds survive the horizon; zero-charge low-threshold survival
+is 10/10 dispersed and 7/10 block, versus 0/10 each with charge 1. Preserve the finite
+sample, coupled dynamics and causal-mediator limits. Added full reports, all-world
+censoring plot (visually checked), compact CSV and workload entry. Fixed downloads
+retain their previous scopes. No V0 rule changes or V1 implementation.
