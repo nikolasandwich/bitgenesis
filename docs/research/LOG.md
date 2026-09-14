@@ -3550,3 +3550,23 @@ RNG match across different traits; invalid trait values rejected. All197 tests
 pass and module CLI loads. Historical runner and frozen protocol are unchanged.
 Commit clean source before launching; outcome counts remain provisional until
 independent full-cohort verification, and V1 stays design only. Goal active.
+
+
+## 2026-09-14 — Autonomous cycle 226
+
+Previous cycle launched campaign023 from clean cb320ae. Revalidated that same
+process; no restart. Added independent fixed-trait initial/metric gate, requiring
+manifest/source-sampling provenance, complete evaluation identities and specified
+genomes before mapping only the checked scalar mean to reuse frozen no-mutation
+accounting. Checks full row sequences, energy/uptake, closure, checkpoints, CSV/JSON,
+paired initial states and identical-trait metric/event/lineage byte equality.
+Individual-history reconstruction remains a separate required gate.
+
+Engineering test exercises traits0/250/1000 and rejects wrong assigned trait,
+changed founder, changed-birth count and supplied-energy corruption. All198 tests
+pass. Independent checks of the completed prefix passed35 worlds /350,035 metric
+rows. This is partial evidence, not full-cohort completion or interpretation.
+The full gate remains blocked on the deliberate complete metadata requirement
+while the original simulation continues normally. No changes to running source,
+protocol, frozen engine or formal completed totals. Next prepare history gate.
+Autonomous goal active; V1 design only.
