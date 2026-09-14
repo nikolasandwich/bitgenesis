@@ -1,8 +1,8 @@
 # V3 boundary interventions and limits of resource compensation
 
 Implemented: explicit between-step lineage removal and ordered B injection,
-version v3-boundary-1. A persisted branched-assay runner and independent boundary
-audit remain pending. This document is an engineering design, not a registered
+version v3-boundary-1, plus isolated persisted continuations in v3-branch-1.
+Independent boundary/branch audit and complete assay orchestration remain pending. This document is an engineering design, not a registered
 ecological result or authority to reinterpret earlier pilots.
 
 At the boundary after tick T and before T+1, removal exports all energy in living
@@ -51,3 +51,21 @@ preserved RNG, capacity clipping, validation before mutation and continued base
 step accounting. Seed85500 is reserved for these fixtures. Next implement full
 branch persistence and independent intervention accounting, then freeze a bounded
 source/target selection protocol before any scientific execution.
+
+## Persisted continuation interface
+
+run_branch copies an in-memory origin including RNG and ancestry; it saves the
+shared pre-intervention initial state, per-tick boundary plus ordinary step,
+events, final state and export/import summary. The origin remains unchanged.
+All schedule entries and the recording bound are validated before output creation.
+An absolute boundary tick T means after step T and before T+1. Removal occurs
+only at the first boundary. Empty boundaries are also recorded explicitly.
+Source hashes include V3 modules and reused V1/V2 implementation dependencies.
+
+The caller must preserve and verify the common prefix and reference schedule
+provenance. These continuations are not yet scientific assays. donor_schedule
+extracts retained releases by the target founder's lineage from an intact
+reference; final-step releases are outside the treatment horizon and excluded.
+Full reference validation belongs to the upcoming assay gate. Engineering85600
+checks neutral continuation equality, common initial bytes, branch isolation,
+lagged schedule, removal exports, accepted imports and invalid horizon rejection.
