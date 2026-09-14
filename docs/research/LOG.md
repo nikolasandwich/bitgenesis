@@ -4410,3 +4410,9 @@ Mutation100 final initially-absent unit fractions average497/1280 atdrive250 and
 Previous turn completed variation cohort verification (4c8269b), a substantive progress turn. Added passive unique-birth ancestry on independently audited hereditary trajectories, with parent/founder/generation, birth/death, programs and offspring counts. Site reuse creates a fresh identity; identical programs do not merge identities. IDs never enter dynamics. Engineering001 reconstructs182 founders,79 births,5 deaths,256 living,maximum generation3 and1 mutation birth; archived complete lineage.
 
 Two new tests cover same-program unrelated founders, same-tick dissolution/reuse and audited runtime ancestry/zero horizon. Full340 tests pass in36.649 seconds. Next cohort-wide ancestry and prespecified descendant/founder selection, then explicit-program matched assay initialization and independent reconstruction. Neutral equal-program pairs retained; no adaptive improvement claim yet.
+
+## 2026-09-14 — Autonomous cycle 320
+
+Previous turn implemented passive audited ancestry (a644e24), a substantive progress turn. Froze deterministic descendant selection and cohort lineage script in93be224 before execution: alive nonfounders, top3 by namespaced SHA256 rank per source, actual initial founder via parent chain, no novelty/fertility/performance filtering. Focused selection test passes, including equal-program pairs and unavailable empty eligibility.
+
+Original process34417 exited0 at20/20 reconstructed source lineages with fresh independent trajectory audits and historical source-byte binding. Archived complete selected pairs and lineage hashes. Runtime unchanged since340 full tests. Next explicit-program matched assay runner and independent initialization verification; sampling has not measured adaptive value. Treat source runs as comparison units, not independent selected siblings.

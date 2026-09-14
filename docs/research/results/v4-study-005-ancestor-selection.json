@@ -1,0 +1,3393 @@
+{
+  "status": "complete",
+  "sources": [
+    {
+      "seed": 96000,
+      "drive": 250,
+      "mutation": 0,
+      "lineage_sha256": "26a81319fa07685de4a486eb2b8d45d01b8b2a7eb4967ca04e5338a4fa9f11cc",
+      "source_output_sha256": {
+        "initial.json": "5f6460febd27ff1f76e4c69de57e992a675206ec2c1349164e624316e3aa3f11",
+        "steps.jsonl": "e6395acc1ef439c6be9fb78e7a4d39c1f7dc9d86229c839bea08ee8b82bf602e",
+        "final.json": "04fcf9e54fab85e0dab5714c810d218773e433ba3827a96c80a51d1d41f9209c",
+        "summary.json": "afe3444cc98b2214feab6c88be21dcc98c4ca5ffaa936ed20b35bb19db029037"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 65,
+        "births": 2312,
+        "deaths": 2126,
+        "living": 251,
+        "max_generation": 23,
+        "mutation_births": 0
+      },
+      "eligible": 246,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "0219c26ee82b1cfc588f5158dbcd485e9d61bc79218c2d6532867ea810a19534",
+          "descendant": {
+            "id": 2131,
+            "site": 154,
+            "birth_tick": 403,
+            "death_tick": null,
+            "parent": 1832,
+            "founder": 45,
+            "generation": 9,
+            "material": 3,
+            "program": [
+              3,
+              1,
+              0,
+              3
+            ],
+            "birth_energy": 6,
+            "mutated": false,
+            "offspring": 2
+          },
+          "founder": {
+            "id": 45,
+            "site": 172,
+            "birth_tick": 0,
+            "death_tick": 48,
+            "parent": null,
+            "founder": 45,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              3,
+              1,
+              0,
+              3
+            ],
+            "birth_energy": 17,
+            "mutated": false,
+            "offspring": 6
+          },
+          "parent_chain": [
+            1832,
+            1818,
+            1475,
+            1465,
+            617,
+            525,
+            461,
+            406,
+            45
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "021e65f91f7b572d8241f5ca2ce98cf04053276e17fd27ec079fc52f998d7d3b",
+          "descendant": {
+            "id": 2134,
+            "site": 162,
+            "birth_tick": 404,
+            "death_tick": null,
+            "parent": 2005,
+            "founder": 42,
+            "generation": 2,
+            "material": 2,
+            "program": [
+              1,
+              0,
+              2,
+              0
+            ],
+            "birth_energy": 6,
+            "mutated": false,
+            "offspring": 3
+          },
+          "founder": {
+            "id": 42,
+            "site": 147,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 42,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              1,
+              0,
+              2,
+              0
+            ],
+            "birth_energy": 56,
+            "mutated": false,
+            "offspring": 19
+          },
+          "parent_chain": [
+            2005,
+            42
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "023d03215fa4a3e58ed4cc046506241156df5dea890932da7c5de9be25017a5d",
+          "descendant": {
+            "id": 2295,
+            "site": 98,
+            "birth_tick": 460,
+            "death_tick": null,
+            "parent": 1751,
+            "founder": 25,
+            "generation": 4,
+            "material": 2,
+            "program": [
+              3,
+              2,
+              1,
+              3
+            ],
+            "birth_energy": 29,
+            "mutated": false,
+            "offspring": 2
+          },
+          "founder": {
+            "id": 25,
+            "site": 68,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 25,
+            "generation": 0,
+            "material": 0,
+            "program": [
+              3,
+              2,
+              1,
+              3
+            ],
+            "birth_energy": 13,
+            "mutated": false,
+            "offspring": 9
+          },
+          "parent_chain": [
+            1751,
+            1586,
+            1213,
+            25
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96000,
+      "drive": 250,
+      "mutation": 100,
+      "lineage_sha256": "8865a5f9561d8632efcfcf26eb71a9077e42aba466b697ae1942d37afb1aef9f",
+      "source_output_sha256": {
+        "initial.json": "5f6460febd27ff1f76e4c69de57e992a675206ec2c1349164e624316e3aa3f11",
+        "steps.jsonl": "8e7c609419c503088973c3a15c23998b06eabb7c349403f416988452dbac4f7d",
+        "final.json": "1150c3965b462eb86190dceeda4fe3aed60330f41906c87bb335d2b49d2d8e4a",
+        "summary.json": "da474da2b4c2ddc12f3f7349eeacd893110ab908932995ca9c981340871a93b7"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 65,
+        "births": 2167,
+        "deaths": 1982,
+        "living": 250,
+        "max_generation": 16,
+        "mutation_births": 220
+      },
+      "eligible": 247,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "01b54798a7dcd52f13706614da549bf0bf6407abea226afeb219f8acbdfa5660",
+          "descendant": {
+            "id": 729,
+            "site": 64,
+            "birth_tick": 90,
+            "death_tick": null,
+            "parent": 699,
+            "founder": 9,
+            "generation": 6,
+            "material": 3,
+            "program": [
+              2,
+              1,
+              3,
+              2
+            ],
+            "birth_energy": 9,
+            "mutated": false,
+            "offspring": 2
+          },
+          "founder": {
+            "id": 9,
+            "site": 29,
+            "birth_tick": 0,
+            "death_tick": 31,
+            "parent": null,
+            "founder": 9,
+            "generation": 0,
+            "material": 1,
+            "program": [
+              2,
+              1,
+              3,
+              2
+            ],
+            "birth_energy": 56,
+            "mutated": false,
+            "offspring": 3
+          },
+          "parent_chain": [
+            699,
+            683,
+            555,
+            302,
+            273,
+            9
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "022382f282d281d96083026cad09086f6ecda450971eb8e88085c0a486f3873d",
+          "descendant": {
+            "id": 1236,
+            "site": 248,
+            "birth_tick": 187,
+            "death_tick": null,
+            "parent": 1180,
+            "founder": 57,
+            "generation": 8,
+            "material": 0,
+            "program": [
+              2,
+              2,
+              3,
+              0
+            ],
+            "birth_energy": 5,
+            "mutated": false,
+            "offspring": 1
+          },
+          "founder": {
+            "id": 57,
+            "site": 235,
+            "birth_tick": 0,
+            "death_tick": 40,
+            "parent": null,
+            "founder": 57,
+            "generation": 0,
+            "material": 1,
+            "program": [
+              2,
+              2,
+              3,
+              0
+            ],
+            "birth_energy": 58,
+            "mutated": false,
+            "offspring": 4
+          },
+          "parent_chain": [
+            1180,
+            735,
+            676,
+            432,
+            362,
+            205,
+            149,
+            57
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "037cf4c32b4e2ca2f1af8ed32a4b27797741c5fa464b888b4d79360e80f8066c",
+          "descendant": {
+            "id": 1840,
+            "site": 202,
+            "birth_tick": 335,
+            "death_tick": null,
+            "parent": 1207,
+            "founder": 45,
+            "generation": 10,
+            "material": 0,
+            "program": [
+              3,
+              1,
+              0,
+              3
+            ],
+            "birth_energy": 29,
+            "mutated": false,
+            "offspring": 2
+          },
+          "founder": {
+            "id": 45,
+            "site": 172,
+            "birth_tick": 0,
+            "death_tick": 48,
+            "parent": null,
+            "founder": 45,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              3,
+              1,
+              0,
+              3
+            ],
+            "birth_energy": 17,
+            "mutated": false,
+            "offspring": 6
+          },
+          "parent_chain": [
+            1207,
+            1067,
+            1039,
+            1023,
+            576,
+            567,
+            513,
+            482,
+            344,
+            45
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96000,
+      "drive": 500,
+      "mutation": 0,
+      "lineage_sha256": "42259fae4d155ad26c847702591e3b95f386df3caf20d39a4bc3f27ed05b3941",
+      "source_output_sha256": {
+        "initial.json": "5f6460febd27ff1f76e4c69de57e992a675206ec2c1349164e624316e3aa3f11",
+        "steps.jsonl": "f6e6092e4c18c56d807931750d1615f65196953371a76d72b7ece8ee47c78b05",
+        "final.json": "bf343b30858d298c7fef55c3c5445b73fd832f0a5b03e3c29d3847f7451f5557",
+        "summary.json": "bcdc42e73d0f591f84fc46b968132fe8b8293aebfd1f43b3cde42716d14a8a4b"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 65,
+        "births": 200,
+        "deaths": 9,
+        "living": 256,
+        "max_generation": 5,
+        "mutation_births": 0
+      },
+      "eligible": 192,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "0015a2f30c1d3b7fdcc191ca4dad652e85eab8ef472fe7f73cb2e35e8f483d5e",
+          "descendant": {
+            "id": 150,
+            "site": 213,
+            "birth_tick": 3,
+            "death_tick": null,
+            "parent": 55,
+            "founder": 55,
+            "generation": 1,
+            "material": 1,
+            "program": [
+              1,
+              2,
+              3,
+              1
+            ],
+            "birth_energy": 9,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 55,
+            "site": 229,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 55,
+            "generation": 0,
+            "material": 0,
+            "program": [
+              1,
+              2,
+              3,
+              1
+            ],
+            "birth_energy": 40,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            55
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "00722ebfad0f0bf5311c1ebe8323c54e7ae210655f07090cc329da74edae55f0",
+          "descendant": {
+            "id": 97,
+            "site": 24,
+            "birth_tick": 2,
+            "death_tick": null,
+            "parent": 3,
+            "founder": 3,
+            "generation": 1,
+            "material": 2,
+            "program": [
+              1,
+              0,
+              2,
+              2
+            ],
+            "birth_energy": 13,
+            "mutated": false,
+            "offspring": 1
+          },
+          "founder": {
+            "id": 3,
+            "site": 8,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 3,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              1,
+              0,
+              2,
+              2
+            ],
+            "birth_energy": 17,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            3
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "03530848741916a590c2785829796748d6998aabd29dbc72c52b7c46410f49bf",
+          "descendant": {
+            "id": 157,
+            "site": 65,
+            "birth_tick": 4,
+            "death_tick": null,
+            "parent": 74,
+            "founder": 18,
+            "generation": 2,
+            "material": 0,
+            "program": [
+              2,
+              0,
+              0,
+              3
+            ],
+            "birth_energy": 10,
+            "mutated": false,
+            "offspring": 1
+          },
+          "founder": {
+            "id": 18,
+            "site": 48,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 18,
+            "generation": 0,
+            "material": 1,
+            "program": [
+              2,
+              0,
+              0,
+              3
+            ],
+            "birth_energy": 29,
+            "mutated": false,
+            "offspring": 3
+          },
+          "parent_chain": [
+            74,
+            18
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96000,
+      "drive": 500,
+      "mutation": 100,
+      "lineage_sha256": "4030a89905900618a8d87ee8f7b5affa9b06e49092828853c0307a881353726a",
+      "source_output_sha256": {
+        "initial.json": "5f6460febd27ff1f76e4c69de57e992a675206ec2c1349164e624316e3aa3f11",
+        "steps.jsonl": "ed3c81637b480185faf2324234f2c8cbd4c7d35cd5d5f9b73d130c296efc701b",
+        "final.json": "ccf6bb4939630fa2699f1022b0514d711074d7bea500129f6c37583d4fa2c946",
+        "summary.json": "d800684745071dc25e0a7e2f77618a3f86481a194eee499fdbd6560d3e6a4b34"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 65,
+        "births": 200,
+        "deaths": 9,
+        "living": 256,
+        "max_generation": 5,
+        "mutation_births": 25
+      },
+      "eligible": 192,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "03a63b8ac0a9b1946f76b9dd0ab57c74a76ac281061cf45335fd8ee175756f64",
+          "descendant": {
+            "id": 231,
+            "site": 124,
+            "birth_tick": 10,
+            "death_tick": null,
+            "parent": 37,
+            "founder": 37,
+            "generation": 1,
+            "material": 0,
+            "program": [
+              0,
+              3,
+              1,
+              2
+            ],
+            "birth_energy": 7,
+            "mutated": false,
+            "offspring": 1
+          },
+          "founder": {
+            "id": 37,
+            "site": 123,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 37,
+            "generation": 0,
+            "material": 1,
+            "program": [
+              0,
+              3,
+              1,
+              2
+            ],
+            "birth_energy": 20,
+            "mutated": false,
+            "offspring": 3
+          },
+          "parent_chain": [
+            37
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "0448cdc294f84174dae419e41b5f8c0c3bebe729a62ae7c16d9647835474f1bf",
+          "descendant": {
+            "id": 65,
+            "site": 1,
+            "birth_tick": 1,
+            "death_tick": null,
+            "parent": 0,
+            "founder": 0,
+            "generation": 1,
+            "material": 2,
+            "program": [
+              2,
+              0,
+              3,
+              0
+            ],
+            "birth_energy": 26,
+            "mutated": false,
+            "offspring": 1
+          },
+          "founder": {
+            "id": 0,
+            "site": 0,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 0,
+            "generation": 0,
+            "material": 1,
+            "program": [
+              2,
+              0,
+              3,
+              0
+            ],
+            "birth_energy": 50,
+            "mutated": false,
+            "offspring": 1
+          },
+          "parent_chain": [
+            0
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "057004af66b1d90ce149c72c098ee4e4c7199b46ef991b49f5648060c57dedd8",
+          "descendant": {
+            "id": 184,
+            "site": 61,
+            "birth_tick": 6,
+            "death_tick": null,
+            "parent": 16,
+            "founder": 16,
+            "generation": 1,
+            "material": 2,
+            "program": [
+              3,
+              1,
+              2,
+              1
+            ],
+            "birth_energy": 10,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 16,
+            "site": 45,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 16,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              3,
+              1,
+              2,
+              1
+            ],
+            "birth_energy": 27,
+            "mutated": false,
+            "offspring": 3
+          },
+          "parent_chain": [
+            16
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96001,
+      "drive": 250,
+      "mutation": 0,
+      "lineage_sha256": "c33c4d456cffd33671a0e5850084cc79e41a055434b74dbfe3c565be159a33f2",
+      "source_output_sha256": {
+        "initial.json": "1c644238be1df43472572d7cea5a31f612d11ff4d87888b0fdba56fe0d2032c7",
+        "steps.jsonl": "64a4330766522658426fd2e17cdc0590422538105c753d6da05db2d22398c781",
+        "final.json": "340d13e79741ea9e40610891b2b10e06546f738d3cdca01423c3f4bbbc340cb5",
+        "summary.json": "4047fe57919efe7ef1eff9ef3eb903b8f7521fb5a5c7997cb01638a46b2c840e"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 69,
+        "births": 1885,
+        "deaths": 1699,
+        "living": 255,
+        "max_generation": 22,
+        "mutation_births": 0
+      },
+      "eligible": 249,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "009b317ce7809b49babcf82ec00b5bbe4ddd60aa7adf833d38af677f95ff1f39",
+          "descendant": {
+            "id": 1694,
+            "site": 151,
+            "birth_tick": 326,
+            "death_tick": null,
+            "parent": 43,
+            "founder": 43,
+            "generation": 1,
+            "material": 1,
+            "program": [
+              3,
+              1,
+              1,
+              0
+            ],
+            "birth_energy": 26,
+            "mutated": false,
+            "offspring": 2
+          },
+          "founder": {
+            "id": 43,
+            "site": 152,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 43,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              3,
+              1,
+              1,
+              0
+            ],
+            "birth_energy": 43,
+            "mutated": false,
+            "offspring": 9
+          },
+          "parent_chain": [
+            43
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "011e44c86b54626b72d751981c043ac6a73974519c2ffcc713520920128c88c0",
+          "descendant": {
+            "id": 1950,
+            "site": 222,
+            "birth_tick": 496,
+            "death_tick": null,
+            "parent": 1573,
+            "founder": 2,
+            "generation": 7,
+            "material": 1,
+            "program": [
+              2,
+              1,
+              0,
+              0
+            ],
+            "birth_energy": 6,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 2,
+            "site": 14,
+            "birth_tick": 0,
+            "death_tick": 54,
+            "parent": null,
+            "founder": 2,
+            "generation": 0,
+            "material": 1,
+            "program": [
+              2,
+              1,
+              0,
+              0
+            ],
+            "birth_energy": 39,
+            "mutated": false,
+            "offspring": 5
+          },
+          "parent_chain": [
+            1573,
+            1078,
+            825,
+            634,
+            581,
+            475,
+            2
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "014cee299aba0630d2a7847452c9dcfdc7e67eff7786a6a4ef42d7ae98a9db44",
+          "descendant": {
+            "id": 1396,
+            "site": 247,
+            "birth_tick": 229,
+            "death_tick": null,
+            "parent": 1367,
+            "founder": 0,
+            "generation": 9,
+            "material": 2,
+            "program": [
+              1,
+              2,
+              0,
+              3
+            ],
+            "birth_energy": 14,
+            "mutated": false,
+            "offspring": 1
+          },
+          "founder": {
+            "id": 0,
+            "site": 11,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 0,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              1,
+              2,
+              0,
+              3
+            ],
+            "birth_energy": 59,
+            "mutated": false,
+            "offspring": 6
+          },
+          "parent_chain": [
+            1367,
+            826,
+            732,
+            670,
+            221,
+            150,
+            134,
+            107,
+            0
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96001,
+      "drive": 250,
+      "mutation": 100,
+      "lineage_sha256": "c836ed88d9ca1e0b1e82f5c5842b1d344fc35dc0d0a299ff44ff8e0a59eb2b58",
+      "source_output_sha256": {
+        "initial.json": "1c644238be1df43472572d7cea5a31f612d11ff4d87888b0fdba56fe0d2032c7",
+        "steps.jsonl": "7277eae0001fc8311c737075bc183d5956172d4703ec0afb1a03588056e24865",
+        "final.json": "2934813c525be4346b4ea4a7a337d20c3ebe592a40732eac1edd5f2e61c55ea8",
+        "summary.json": "f86c090eb7ba83ec484a98a9e379c383f3cc159560226055b90c058645d5ac03"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 69,
+        "births": 2046,
+        "deaths": 1868,
+        "living": 247,
+        "max_generation": 16,
+        "mutation_births": 204
+      },
+      "eligible": 244,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "0087ee1be68b48b28c9c0a02bb88d2d94b205642bc061df27d6911736e3528f2",
+          "descendant": {
+            "id": 1119,
+            "site": 213,
+            "birth_tick": 157,
+            "death_tick": null,
+            "parent": 1042,
+            "founder": 51,
+            "generation": 8,
+            "material": 2,
+            "program": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "birth_energy": 9,
+            "mutated": false,
+            "offspring": 7
+          },
+          "founder": {
+            "id": 51,
+            "site": 185,
+            "birth_tick": 0,
+            "death_tick": 15,
+            "parent": null,
+            "founder": 51,
+            "generation": 0,
+            "material": 0,
+            "program": [
+              0,
+              2,
+              2,
+              0
+            ],
+            "birth_energy": 41,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            1042,
+            809,
+            503,
+            214,
+            163,
+            120,
+            96,
+            51
+          ],
+          "equal_program": false
+        },
+        {
+          "selection_hash": "02b1af86db9120125b4ed078344c62a7c79a1c6f26efa9478f20d361cf4924c5",
+          "descendant": {
+            "id": 1485,
+            "site": 188,
+            "birth_tick": 256,
+            "death_tick": null,
+            "parent": 58,
+            "founder": 58,
+            "generation": 1,
+            "material": 3,
+            "program": [
+              0,
+              1,
+              1,
+              3
+            ],
+            "birth_energy": 12,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 58,
+            "site": 204,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 58,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              0,
+              1,
+              1,
+              3
+            ],
+            "birth_energy": 41,
+            "mutated": false,
+            "offspring": 15
+          },
+          "parent_chain": [
+            58
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "02faa85c5293a66a6f56ffb17fb9c0a4b5d62290d6b676d4e8714ae3d63ee261",
+          "descendant": {
+            "id": 1279,
+            "site": 221,
+            "birth_tick": 200,
+            "death_tick": null,
+            "parent": 1107,
+            "founder": 1,
+            "generation": 8,
+            "material": 3,
+            "program": [
+              1,
+              1,
+              0,
+              3
+            ],
+            "birth_energy": 11,
+            "mutated": false,
+            "offspring": 6
+          },
+          "founder": {
+            "id": 1,
+            "site": 12,
+            "birth_tick": 0,
+            "death_tick": 33,
+            "parent": null,
+            "founder": 1,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              1,
+              1,
+              0,
+              3
+            ],
+            "birth_energy": 64,
+            "mutated": false,
+            "offspring": 3
+          },
+          "parent_chain": [
+            1107,
+            860,
+            562,
+            276,
+            147,
+            129,
+            69,
+            1
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96001,
+      "drive": 500,
+      "mutation": 0,
+      "lineage_sha256": "d05d47ca4a2601463e2e2e3fce7ba306b291a738ea4a9ebd9ad2a8347b67a6be",
+      "source_output_sha256": {
+        "initial.json": "1c644238be1df43472572d7cea5a31f612d11ff4d87888b0fdba56fe0d2032c7",
+        "steps.jsonl": "d603077bde1446a1debc8236684391e48573aafde03823e1b4735689ba9aecfd",
+        "final.json": "7dfb0adf1394bec8e60c70c00b743d8ca6b8a7dff6fcf766c1f641c93ba4bbdd",
+        "summary.json": "0487439dc4e1055b61ebcdd78cd68ddc43de3b6b85371475bcacac2ab9f48c90"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 69,
+        "births": 198,
+        "deaths": 11,
+        "living": 256,
+        "max_generation": 5,
+        "mutation_births": 0
+      },
+      "eligible": 191,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "03d39b5f464a55183343108d41252677348c1c4968575444598f189cf420f746",
+          "descendant": {
+            "id": 133,
+            "site": 236,
+            "birth_tick": 2,
+            "death_tick": null,
+            "parent": 69,
+            "founder": 1,
+            "generation": 2,
+            "material": 3,
+            "program": [
+              1,
+              1,
+              0,
+              3
+            ],
+            "birth_energy": 14,
+            "mutated": false,
+            "offspring": 1
+          },
+          "founder": {
+            "id": 1,
+            "site": 12,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 1,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              1,
+              1,
+              0,
+              3
+            ],
+            "birth_energy": 64,
+            "mutated": false,
+            "offspring": 1
+          },
+          "parent_chain": [
+            69,
+            1
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "04bbd323b090542772bdadc3f32b336f44eb84216525bb90e079a45de40584a3",
+          "descendant": {
+            "id": 168,
+            "site": 98,
+            "birth_tick": 4,
+            "death_tick": null,
+            "parent": 77,
+            "founder": 17,
+            "generation": 2,
+            "material": 1,
+            "program": [
+              0,
+              3,
+              1,
+              3
+            ],
+            "birth_energy": 8,
+            "mutated": false,
+            "offspring": 1
+          },
+          "founder": {
+            "id": 17,
+            "site": 81,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 17,
+            "generation": 0,
+            "material": 1,
+            "program": [
+              0,
+              3,
+              1,
+              3
+            ],
+            "birth_energy": 49,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            77,
+            17
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "06105a9dad69747b1733f132a1c568020efa81d83c51f4e05fd3fcaaab1ee27a",
+          "descendant": {
+            "id": 159,
+            "site": 237,
+            "birth_tick": 3,
+            "death_tick": null,
+            "parent": 133,
+            "founder": 1,
+            "generation": 3,
+            "material": 1,
+            "program": [
+              1,
+              1,
+              0,
+              3
+            ],
+            "birth_energy": 7,
+            "mutated": false,
+            "offspring": 1
+          },
+          "founder": {
+            "id": 1,
+            "site": 12,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 1,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              1,
+              1,
+              0,
+              3
+            ],
+            "birth_energy": 64,
+            "mutated": false,
+            "offspring": 1
+          },
+          "parent_chain": [
+            133,
+            69,
+            1
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96001,
+      "drive": 500,
+      "mutation": 100,
+      "lineage_sha256": "166bb6ff99a38f91dea480ed62b5401c026280693213b1ac75eaac9630b5f35d",
+      "source_output_sha256": {
+        "initial.json": "1c644238be1df43472572d7cea5a31f612d11ff4d87888b0fdba56fe0d2032c7",
+        "steps.jsonl": "406b66ed726b3be58c1cfa2f754e3c6822352563705c4958088576a357906a26",
+        "final.json": "482d96ea3c4c396513caa47d99295c8572a044ae8a64d3e27e805c87f17283da",
+        "summary.json": "13e129b51c268e7d81854120f018b6feb5029878d5726e020f37f8eedc9c9203"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 69,
+        "births": 199,
+        "deaths": 12,
+        "living": 256,
+        "max_generation": 5,
+        "mutation_births": 16
+      },
+      "eligible": 191,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "002f146a6220340270f70c6dbcccb9af23c4db1ba2537c7696403d4a8a14e9eb",
+          "descendant": {
+            "id": 145,
+            "site": 71,
+            "birth_tick": 3,
+            "death_tick": null,
+            "parent": 82,
+            "founder": 26,
+            "generation": 2,
+            "material": 2,
+            "program": [
+              1,
+              1,
+              1,
+              2
+            ],
+            "birth_energy": 8,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 26,
+            "site": 103,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 26,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              1,
+              1,
+              1,
+              2
+            ],
+            "birth_energy": 36,
+            "mutated": false,
+            "offspring": 1
+          },
+          "parent_chain": [
+            82,
+            26
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "08684e49d7f5a43c84fc617e6ffeb455af27a5614673172b378d5c151dad29d5",
+          "descendant": {
+            "id": 118,
+            "site": 123,
+            "birth_tick": 2,
+            "death_tick": null,
+            "parent": 90,
+            "founder": 39,
+            "generation": 2,
+            "material": 2,
+            "program": [
+              2,
+              2,
+              0,
+              2
+            ],
+            "birth_energy": 8,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 39,
+            "site": 140,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 39,
+            "generation": 0,
+            "material": 0,
+            "program": [
+              2,
+              2,
+              0,
+              2
+            ],
+            "birth_energy": 45,
+            "mutated": false,
+            "offspring": 3
+          },
+          "parent_chain": [
+            90,
+            39
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "0908dc43a197eca4b629d75ac196ff5948d6053fea3698afd86d92047c0926db",
+          "descendant": {
+            "id": 230,
+            "site": 222,
+            "birth_tick": 8,
+            "death_tick": null,
+            "parent": 211,
+            "founder": 1,
+            "generation": 5,
+            "material": 1,
+            "program": [
+              1,
+              1,
+              0,
+              3
+            ],
+            "birth_energy": 8,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 1,
+            "site": 12,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 1,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              1,
+              1,
+              0,
+              3
+            ],
+            "birth_energy": 64,
+            "mutated": false,
+            "offspring": 1
+          },
+          "parent_chain": [
+            211,
+            159,
+            133,
+            69,
+            1
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96002,
+      "drive": 250,
+      "mutation": 0,
+      "lineage_sha256": "da564d5327306367ed8784f5372d7a7825f89c439b89c357d3e902c743531e63",
+      "source_output_sha256": {
+        "initial.json": "fd4c7a331cfdebab33c9129c160a771c56d15e969fff14401c9ece8566659c63",
+        "steps.jsonl": "9248f67db1bcea1a4fcf04ec5c2a64b78029eb444475f346a0fe632ba934b319",
+        "final.json": "de94593987a2026af7c524da6324224ba12897c3eb0ea087e9b6572ea5e41bf6",
+        "summary.json": "6d34a61fc33ea25c3ecf01a5f5e0736e0062286a9c8de2c5c3115b9abe0661c4"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 60,
+        "births": 2275,
+        "deaths": 2082,
+        "living": 253,
+        "max_generation": 19,
+        "mutation_births": 0
+      },
+      "eligible": 252,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "00ac439062be26bb6b5a628ee49fc1f4bbec6f7223c7100cae30cca9ac86dd52",
+          "descendant": {
+            "id": 1891,
+            "site": 199,
+            "birth_tick": 362,
+            "death_tick": null,
+            "parent": 1380,
+            "founder": 45,
+            "generation": 8,
+            "material": 1,
+            "program": [
+              0,
+              1,
+              2,
+              2
+            ],
+            "birth_energy": 10,
+            "mutated": false,
+            "offspring": 5
+          },
+          "founder": {
+            "id": 45,
+            "site": 203,
+            "birth_tick": 0,
+            "death_tick": 67,
+            "parent": null,
+            "founder": 45,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              0,
+              1,
+              2,
+              2
+            ],
+            "birth_energy": 2,
+            "mutated": false,
+            "offspring": 3
+          },
+          "parent_chain": [
+            1380,
+            1268,
+            1195,
+            1032,
+            828,
+            618,
+            192,
+            45
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "014fa2f648e8a278024f40a7f8bfd155c336be9ca6538594f8f041f9101ed264",
+          "descendant": {
+            "id": 2325,
+            "site": 41,
+            "birth_tick": 495,
+            "death_tick": null,
+            "parent": 2308,
+            "founder": 42,
+            "generation": 17,
+            "material": 3,
+            "program": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "birth_energy": 8,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 42,
+            "site": 196,
+            "birth_tick": 0,
+            "death_tick": 413,
+            "parent": null,
+            "founder": 42,
+            "generation": 0,
+            "material": 1,
+            "program": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "birth_energy": 45,
+            "mutated": false,
+            "offspring": 11
+          },
+          "parent_chain": [
+            2308,
+            2119,
+            1982,
+            1895,
+            1816,
+            1761,
+            1739,
+            1349,
+            1291,
+            1060,
+            986,
+            889,
+            656,
+            632,
+            571,
+            473,
+            42
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "0224c2cbc0c633ed86d3212613660e918500fe2d576de8f7816b46016175a83b",
+          "descendant": {
+            "id": 2214,
+            "site": 122,
+            "birth_tick": 460,
+            "death_tick": null,
+            "parent": 2117,
+            "founder": 45,
+            "generation": 12,
+            "material": 2,
+            "program": [
+              0,
+              1,
+              2,
+              2
+            ],
+            "birth_energy": 5,
+            "mutated": false,
+            "offspring": 1
+          },
+          "founder": {
+            "id": 45,
+            "site": 203,
+            "birth_tick": 0,
+            "death_tick": 67,
+            "parent": null,
+            "founder": 45,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              0,
+              1,
+              2,
+              2
+            ],
+            "birth_energy": 2,
+            "mutated": false,
+            "offspring": 3
+          },
+          "parent_chain": [
+            2117,
+            2054,
+            1950,
+            1776,
+            1709,
+            1242,
+            1131,
+            958,
+            828,
+            618,
+            192,
+            45
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96002,
+      "drive": 250,
+      "mutation": 100,
+      "lineage_sha256": "0d8d3e85227d6842175d821a94c22d2c87c5c00752dfc1e52f1fd3e1e984e3d8",
+      "source_output_sha256": {
+        "initial.json": "fd4c7a331cfdebab33c9129c160a771c56d15e969fff14401c9ece8566659c63",
+        "steps.jsonl": "e153c40c7de10d60449d76db4418f3813341e9c29788a90ff8499ab99db10da7",
+        "final.json": "1e3b2541f18bb45baba2980be98f995cd3b5847bfd9cf56170eb1409c596fdc3",
+        "summary.json": "3c6356d6372c1ed1b1b35bfb24b3ef7ce4fa666c6025ec6bab6f3b5ffaf0a8bc"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 60,
+        "births": 1793,
+        "deaths": 1602,
+        "living": 251,
+        "max_generation": 16,
+        "mutation_births": 164
+      },
+      "eligible": 248,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "00501f9fa2b9f3df7791d109414516954c567f9ee54b771cd94aea02dc1bbcd5",
+          "descendant": {
+            "id": 1605,
+            "site": 36,
+            "birth_tick": 372,
+            "death_tick": null,
+            "parent": 1207,
+            "founder": 1,
+            "generation": 5,
+            "material": 3,
+            "program": [
+              2,
+              2,
+              3,
+              0
+            ],
+            "birth_energy": 22,
+            "mutated": false,
+            "offspring": 2
+          },
+          "founder": {
+            "id": 1,
+            "site": 5,
+            "birth_tick": 0,
+            "death_tick": 48,
+            "parent": null,
+            "founder": 1,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              2,
+              2,
+              3,
+              0
+            ],
+            "birth_energy": 28,
+            "mutated": false,
+            "offspring": 4
+          },
+          "parent_chain": [
+            1207,
+            954,
+            437,
+            162,
+            1
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "00c71c194fe15bbce2a63b54f1e791cd5189ffb8cb3fa3d3b5c4e4d8ea972f46",
+          "descendant": {
+            "id": 641,
+            "site": 241,
+            "birth_tick": 79,
+            "death_tick": null,
+            "parent": 569,
+            "founder": 47,
+            "generation": 4,
+            "material": 2,
+            "program": [
+              2,
+              2,
+              0,
+              3
+            ],
+            "birth_energy": 9,
+            "mutated": false,
+            "offspring": 9
+          },
+          "founder": {
+            "id": 47,
+            "site": 209,
+            "birth_tick": 0,
+            "death_tick": 34,
+            "parent": null,
+            "founder": 47,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              2,
+              2,
+              0,
+              3
+            ],
+            "birth_energy": 32,
+            "mutated": false,
+            "offspring": 3
+          },
+          "parent_chain": [
+            569,
+            494,
+            83,
+            47
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "017ca391abf62867670ff0fe291af83ca1b08d26f9507863b43333c1f7904485",
+          "descendant": {
+            "id": 1840,
+            "site": 102,
+            "birth_tick": 495,
+            "death_tick": null,
+            "parent": 1199,
+            "founder": 25,
+            "generation": 5,
+            "material": 1,
+            "program": [
+              0,
+              3,
+              0,
+              1
+            ],
+            "birth_energy": 5,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 25,
+            "site": 120,
+            "birth_tick": 0,
+            "death_tick": 381,
+            "parent": null,
+            "founder": 25,
+            "generation": 0,
+            "material": 0,
+            "program": [
+              3,
+              3,
+              0,
+              1
+            ],
+            "birth_energy": 30,
+            "mutated": false,
+            "offspring": 4
+          },
+          "parent_chain": [
+            1199,
+            194,
+            149,
+            75,
+            25
+          ],
+          "equal_program": false
+        }
+      ]
+    },
+    {
+      "seed": 96002,
+      "drive": 500,
+      "mutation": 0,
+      "lineage_sha256": "d53e12cb69ab7a67c9a9e93d748678f8d26f196990f35df963364ce3ca4b7ef0",
+      "source_output_sha256": {
+        "initial.json": "fd4c7a331cfdebab33c9129c160a771c56d15e969fff14401c9ece8566659c63",
+        "steps.jsonl": "a0b5670b027d98312f4bb0a9e6c621ea8a8361a4eea9ba4560378ad6c65ec8dd",
+        "final.json": "35489174b03236fffbf7add2f9fdc0ee32b8f7f72ef45ddcfceda580edd20e61",
+        "summary.json": "021b2b1af8511a01fd0740c6cb663789c72eac419aacff16bde3ab2a593e5b59"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 60,
+        "births": 211,
+        "deaths": 15,
+        "living": 256,
+        "max_generation": 4,
+        "mutation_births": 0
+      },
+      "eligible": 201,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "015147e1d3958c4a9c1b4dd2dff083518e2c4b3243503a6c53df9b3100e0c0b6",
+          "descendant": {
+            "id": 193,
+            "site": 192,
+            "birth_tick": 7,
+            "death_tick": null,
+            "parent": 154,
+            "founder": 36,
+            "generation": 3,
+            "material": 1,
+            "program": [
+              0,
+              0,
+              1,
+              2
+            ],
+            "birth_energy": 7,
+            "mutated": false,
+            "offspring": 1
+          },
+          "founder": {
+            "id": 36,
+            "site": 175,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 36,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              0,
+              0,
+              1,
+              2
+            ],
+            "birth_energy": 35,
+            "mutated": false,
+            "offspring": 3
+          },
+          "parent_chain": [
+            154,
+            116,
+            36
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "044fec8dcbb060df93da68497ce9a737ae7a55c2da6e860b4301bd2522f7f2e0",
+          "descendant": {
+            "id": 73,
+            "site": 101,
+            "birth_tick": 1,
+            "death_tick": null,
+            "parent": 18,
+            "founder": 18,
+            "generation": 1,
+            "material": 1,
+            "program": [
+              1,
+              0,
+              3,
+              2
+            ],
+            "birth_energy": 23,
+            "mutated": false,
+            "offspring": 2
+          },
+          "founder": {
+            "id": 18,
+            "site": 100,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 18,
+            "generation": 0,
+            "material": 0,
+            "program": [
+              1,
+              0,
+              3,
+              2
+            ],
+            "birth_energy": 53,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            18
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "04c14f4621cdfb50e5e8743d68a4ccab6b0e8947ef8992bf7ade1e93b0e104c6",
+          "descendant": {
+            "id": 266,
+            "site": 23,
+            "birth_tick": 18,
+            "death_tick": null,
+            "parent": 200,
+            "founder": 9,
+            "generation": 4,
+            "material": 3,
+            "program": [
+              0,
+              3,
+              0,
+              3
+            ],
+            "birth_energy": 9,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 9,
+            "site": 53,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 9,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              0,
+              3,
+              0,
+              3
+            ],
+            "birth_energy": 20,
+            "mutated": false,
+            "offspring": 1
+          },
+          "parent_chain": [
+            200,
+            99,
+            66,
+            9
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96002,
+      "drive": 500,
+      "mutation": 100,
+      "lineage_sha256": "f6040b52e6f580b9df07a1a6f28eafea3731e681b03190a1c86d33556016ba3b",
+      "source_output_sha256": {
+        "initial.json": "fd4c7a331cfdebab33c9129c160a771c56d15e969fff14401c9ece8566659c63",
+        "steps.jsonl": "8e2d7f3947e00e91af57da8b084a6e1617ab19f5fed935b22f038f32bcf297f2",
+        "final.json": "6a70deb270cfb157ee453c6121db10bcf1a29e07d5e6ccd93f28382460fc4497",
+        "summary.json": "83dcd4f7c0492bfd89d0be1e4d306abf9e6cdc01816ccd339a4c0bb2711c0cc7"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 60,
+        "births": 211,
+        "deaths": 15,
+        "living": 256,
+        "max_generation": 4,
+        "mutation_births": 14
+      },
+      "eligible": 201,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "007807c1f319173f1f12127f26ec1c274386c868c0e9e3d478db77f015782e90",
+          "descendant": {
+            "id": 78,
+            "site": 150,
+            "birth_tick": 1,
+            "death_tick": null,
+            "parent": 32,
+            "founder": 32,
+            "generation": 1,
+            "material": 1,
+            "program": [
+              1,
+              0,
+              2,
+              2
+            ],
+            "birth_energy": 22,
+            "mutated": false,
+            "offspring": 1
+          },
+          "founder": {
+            "id": 32,
+            "site": 149,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 32,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              1,
+              0,
+              2,
+              2
+            ],
+            "birth_energy": 50,
+            "mutated": false,
+            "offspring": 3
+          },
+          "parent_chain": [
+            32
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "0212c3d175653fe729f4cc70803c6ebe4d8979183716ebdb26d85d072374ee84",
+          "descendant": {
+            "id": 129,
+            "site": 58,
+            "birth_tick": 3,
+            "death_tick": null,
+            "parent": 10,
+            "founder": 10,
+            "generation": 1,
+            "material": 1,
+            "program": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "birth_energy": 8,
+            "mutated": false,
+            "offspring": 1
+          },
+          "founder": {
+            "id": 10,
+            "site": 57,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 10,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "birth_energy": 0,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            10
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "02d80b6c4e5a26a091554b7ce4499bcbbedf65ac15626f7367ee638ec6002426",
+          "descendant": {
+            "id": 250,
+            "site": 207,
+            "birth_tick": 13,
+            "death_tick": null,
+            "parent": 193,
+            "founder": 36,
+            "generation": 4,
+            "material": 0,
+            "program": [
+              0,
+              0,
+              1,
+              2
+            ],
+            "birth_energy": 9,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 36,
+            "site": 175,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 36,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              0,
+              0,
+              1,
+              2
+            ],
+            "birth_energy": 35,
+            "mutated": false,
+            "offspring": 3
+          },
+          "parent_chain": [
+            193,
+            154,
+            116,
+            36
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96003,
+      "drive": 250,
+      "mutation": 0,
+      "lineage_sha256": "d161c235c202c8c4507eadd0cba674b7a186575e405eeb34eb894cec88e95f18",
+      "source_output_sha256": {
+        "initial.json": "7936e3825bd741e10c7c62582b868a18571641c977663e916f2ffe9ccf9fb596",
+        "steps.jsonl": "c2603064cd4fe623dee4379c1dae7da8af17b739c11446e93ea1de9678a7f18b",
+        "final.json": "a42e715ffc19648d4cb4a470d8677de800a9570832df2cfda48c0721e090823a",
+        "summary.json": "d994a6d3795184d7a236b11e620b5c130130c3beab6bc77f69c1d1bd0b014f62"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 63,
+        "births": 1785,
+        "deaths": 1594,
+        "living": 254,
+        "max_generation": 15,
+        "mutation_births": 0
+      },
+      "eligible": 251,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "02d0dbe7ac4591b9c94d8e2c1a88adcb0460fa2c2ca22e5dff14f3872c2bfea4",
+          "descendant": {
+            "id": 1031,
+            "site": 65,
+            "birth_tick": 144,
+            "death_tick": null,
+            "parent": 475,
+            "founder": 7,
+            "generation": 5,
+            "material": 3,
+            "program": [
+              1,
+              2,
+              3,
+              1
+            ],
+            "birth_energy": 26,
+            "mutated": false,
+            "offspring": 1
+          },
+          "founder": {
+            "id": 7,
+            "site": 32,
+            "birth_tick": 0,
+            "death_tick": 43,
+            "parent": null,
+            "founder": 7,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              1,
+              2,
+              3,
+              1
+            ],
+            "birth_energy": 27,
+            "mutated": false,
+            "offspring": 4
+          },
+          "parent_chain": [
+            475,
+            397,
+            276,
+            158,
+            7
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "02e51252dea6bbcb90323e748dde1b83cebb4e359f2b87fcd34bf6dbf4ad6577",
+          "descendant": {
+            "id": 1760,
+            "site": 215,
+            "birth_tick": 437,
+            "death_tick": null,
+            "parent": 1333,
+            "founder": 50,
+            "generation": 8,
+            "material": 2,
+            "program": [
+              1,
+              3,
+              2,
+              1
+            ],
+            "birth_energy": 16,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 50,
+            "site": 204,
+            "birth_tick": 0,
+            "death_tick": 44,
+            "parent": null,
+            "founder": 50,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              1,
+              3,
+              2,
+              1
+            ],
+            "birth_energy": 31,
+            "mutated": false,
+            "offspring": 6
+          },
+          "parent_chain": [
+            1333,
+            1115,
+            1067,
+            994,
+            865,
+            770,
+            369,
+            50
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "03912edb3c92b72d2586c4036ad25cf2874913f07ec070bb4de5cbe5ea045223",
+          "descendant": {
+            "id": 971,
+            "site": 64,
+            "birth_tick": 131,
+            "death_tick": null,
+            "parent": 895,
+            "founder": 21,
+            "generation": 5,
+            "material": 1,
+            "program": [
+              0,
+              0,
+              2,
+              1
+            ],
+            "birth_energy": 9,
+            "mutated": false,
+            "offspring": 2
+          },
+          "founder": {
+            "id": 21,
+            "site": 79,
+            "birth_tick": 0,
+            "death_tick": 59,
+            "parent": null,
+            "founder": 21,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              0,
+              0,
+              2,
+              1
+            ],
+            "birth_energy": 55,
+            "mutated": false,
+            "offspring": 4
+          },
+          "parent_chain": [
+            895,
+            716,
+            541,
+            404,
+            21
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96003,
+      "drive": 250,
+      "mutation": 100,
+      "lineage_sha256": "f929ccd9360bb90bf5785cbe11eb1f79c80d93a862b70a93c7e7a0f323f5fd76",
+      "source_output_sha256": {
+        "initial.json": "7936e3825bd741e10c7c62582b868a18571641c977663e916f2ffe9ccf9fb596",
+        "steps.jsonl": "5bced6626d7d6c6f3d6481fd27697d7bed92be081f6bdb2d87aefc919dafb183",
+        "final.json": "5ad18f7e81043c25d89029fde34124a468c322c08b94f504018206098cb53c75",
+        "summary.json": "ea04e9ba52b84f68b3adf50885c76cb49974a26ba64103904b35a0b3cc4a4663"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 63,
+        "births": 1841,
+        "deaths": 1653,
+        "living": 251,
+        "max_generation": 18,
+        "mutation_births": 167
+      },
+      "eligible": 248,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "0050f4b8b572fb3c0934146e8ed215f74c5c0b5e6f6c2b3c67aefbe47863b361",
+          "descendant": {
+            "id": 1664,
+            "site": 150,
+            "birth_tick": 372,
+            "death_tick": null,
+            "parent": 1553,
+            "founder": 30,
+            "generation": 5,
+            "material": 2,
+            "program": [
+              2,
+              3,
+              1,
+              0
+            ],
+            "birth_energy": 19,
+            "mutated": false,
+            "offspring": 1
+          },
+          "founder": {
+            "id": 30,
+            "site": 117,
+            "birth_tick": 0,
+            "death_tick": 47,
+            "parent": null,
+            "founder": 30,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              2,
+              3,
+              0,
+              3
+            ],
+            "birth_energy": 51,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            1553,
+            1133,
+            570,
+            284,
+            30
+          ],
+          "equal_program": false
+        },
+        {
+          "selection_hash": "007b92109fda8db4fa6be4eb45a15b7e3cb470634c2bc54f882d5838a08bf675",
+          "descendant": {
+            "id": 1862,
+            "site": 175,
+            "birth_tick": 479,
+            "death_tick": null,
+            "parent": 1833,
+            "founder": 44,
+            "generation": 7,
+            "material": 1,
+            "program": [
+              3,
+              0,
+              3,
+              1
+            ],
+            "birth_energy": 18,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 44,
+            "site": 177,
+            "birth_tick": 0,
+            "death_tick": 39,
+            "parent": null,
+            "founder": 44,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              1,
+              0,
+              3,
+              1
+            ],
+            "birth_energy": 16,
+            "mutated": false,
+            "offspring": 4
+          },
+          "parent_chain": [
+            1833,
+            1742,
+            1498,
+            1459,
+            648,
+            186,
+            44
+          ],
+          "equal_program": false
+        },
+        {
+          "selection_hash": "03cf98b007368e1e0d60c985d5c0c7dcef26d259b37a8ae53b8a9ed3f1c0ddd6",
+          "descendant": {
+            "id": 1832,
+            "site": 21,
+            "birth_tick": 461,
+            "death_tick": null,
+            "parent": 1582,
+            "founder": 57,
+            "generation": 5,
+            "material": 2,
+            "program": [
+              2,
+              2,
+              3,
+              1
+            ],
+            "birth_energy": 28,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 57,
+            "site": 229,
+            "birth_tick": 0,
+            "death_tick": 119,
+            "parent": null,
+            "founder": 57,
+            "generation": 0,
+            "material": 1,
+            "program": [
+              2,
+              2,
+              3,
+              1
+            ],
+            "birth_energy": 64,
+            "mutated": false,
+            "offspring": 7
+          },
+          "parent_chain": [
+            1582,
+            1388,
+            1285,
+            843,
+            57
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96003,
+      "drive": 500,
+      "mutation": 0,
+      "lineage_sha256": "9db450e64f1a926910049253b72c4139955a0061fb7578579a629f97d4c91832",
+      "source_output_sha256": {
+        "initial.json": "7936e3825bd741e10c7c62582b868a18571641c977663e916f2ffe9ccf9fb596",
+        "steps.jsonl": "aa309cc3cab3ef941b46df1489a4fb300fb65983b330af1188a22c20db757207",
+        "final.json": "d63cb76509cc798d5ae6827beb6dcc59577414a61660736d0f0b700e4933e4a4",
+        "summary.json": "230cf7357d17365ffecd32b9f436959f68a82dfc2fffb1ba5d03a7d2b9302c0f"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 63,
+        "births": 202,
+        "deaths": 9,
+        "living": 256,
+        "max_generation": 6,
+        "mutation_births": 0
+      },
+      "eligible": 194,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "0031822926d4fe611a31f07c9f746fdf4347a9f3b1b72a321dfa65de517892be",
+          "descendant": {
+            "id": 175,
+            "site": 20,
+            "birth_tick": 5,
+            "death_tick": null,
+            "parent": 103,
+            "founder": 14,
+            "generation": 3,
+            "material": 3,
+            "program": [
+              0,
+              0,
+              3,
+              3
+            ],
+            "birth_energy": 6,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 14,
+            "site": 53,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 14,
+            "generation": 0,
+            "material": 0,
+            "program": [
+              0,
+              0,
+              3,
+              3
+            ],
+            "birth_energy": 35,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            103,
+            71,
+            14
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "021c02ea80ea9200f2d28d98cb956408557eaae853ef68981eeaeac5cf9beafa",
+          "descendant": {
+            "id": 124,
+            "site": 214,
+            "birth_tick": 2,
+            "death_tick": null,
+            "parent": 58,
+            "founder": 58,
+            "generation": 1,
+            "material": 3,
+            "program": [
+              0,
+              2,
+              3,
+              3
+            ],
+            "birth_energy": 11,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 58,
+            "site": 230,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 58,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              0,
+              2,
+              3,
+              3
+            ],
+            "birth_energy": 48,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            58
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "0228558873a740b4d839e6116875f9de051950880c66deab9417f045e85d7c25",
+          "descendant": {
+            "id": 121,
+            "site": 199,
+            "birth_tick": 2,
+            "death_tick": null,
+            "parent": 92,
+            "founder": 49,
+            "generation": 2,
+            "material": 2,
+            "program": [
+              2,
+              2,
+              1,
+              2
+            ],
+            "birth_energy": 10,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 49,
+            "site": 201,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 49,
+            "generation": 0,
+            "material": 1,
+            "program": [
+              2,
+              2,
+              1,
+              2
+            ],
+            "birth_energy": 45,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            92,
+            49
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96003,
+      "drive": 500,
+      "mutation": 100,
+      "lineage_sha256": "f3d39e94c3a71c9782db6377a8a4db0ebbbe71764f9944c3d1f3215da2d4ae32",
+      "source_output_sha256": {
+        "initial.json": "7936e3825bd741e10c7c62582b868a18571641c977663e916f2ffe9ccf9fb596",
+        "steps.jsonl": "8e4b6bc3d728645dfa5f58f23ede1c99cb137a583b53f8a284a73d89115f3939",
+        "final.json": "8f0ca6987af79ae191d877138e15d959c8f2978c45985bc208815f59f67e957f",
+        "summary.json": "0d8629c38ba14c3affd0377ba9b37e8f797af727af75d50d0de1feb692bbb1ca"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 63,
+        "births": 202,
+        "deaths": 9,
+        "living": 256,
+        "max_generation": 6,
+        "mutation_births": 20
+      },
+      "eligible": 194,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "00820a1ccbb6ecf4ede98a08a4fe17b168c9af19094bb0442769beff9a95611f",
+          "descendant": {
+            "id": 242,
+            "site": 114,
+            "birth_tick": 11,
+            "death_tick": null,
+            "parent": 79,
+            "founder": 27,
+            "generation": 2,
+            "material": 3,
+            "program": [
+              3,
+              3,
+              3,
+              1
+            ],
+            "birth_energy": 14,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 27,
+            "site": 99,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 27,
+            "generation": 0,
+            "material": 1,
+            "program": [
+              3,
+              3,
+              3,
+              1
+            ],
+            "birth_energy": 20,
+            "mutated": false,
+            "offspring": 3
+          },
+          "parent_chain": [
+            79,
+            27
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "0171b3ee0d758dfc63e687ae0398d51e6eb9c9329122f435ba8a082a2b7ddab0",
+          "descendant": {
+            "id": 225,
+            "site": 178,
+            "birth_tick": 8,
+            "death_tick": null,
+            "parent": 44,
+            "founder": 44,
+            "generation": 1,
+            "material": 1,
+            "program": [
+              1,
+              0,
+              3,
+              1
+            ],
+            "birth_energy": 11,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 44,
+            "site": 177,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 44,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              1,
+              0,
+              3,
+              1
+            ],
+            "birth_energy": 16,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            44
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "030c33e50c1572c5c3a7840b12cd5d2e54c2b20cf6e9240c691c8d798d06d0d4",
+          "descendant": {
+            "id": 192,
+            "site": 2,
+            "birth_tick": 6,
+            "death_tick": null,
+            "parent": 152,
+            "founder": 13,
+            "generation": 4,
+            "material": 0,
+            "program": [
+              0,
+              3,
+              2,
+              0
+            ],
+            "birth_energy": 7,
+            "mutated": false,
+            "offspring": 2
+          },
+          "founder": {
+            "id": 13,
+            "site": 51,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 13,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              0,
+              3,
+              2,
+              0
+            ],
+            "birth_energy": 28,
+            "mutated": false,
+            "offspring": 3
+          },
+          "parent_chain": [
+            152,
+            102,
+            70,
+            13
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96004,
+      "drive": 250,
+      "mutation": 0,
+      "lineage_sha256": "51712d215b53869478079adc5fbbcd2b13ba5954fd2aca25db5f330930b6cbbd",
+      "source_output_sha256": {
+        "initial.json": "12a1f9a197db346c06c0a6cd28a2cce15afc4ed15c894b5606f520bb91cdfb8c",
+        "steps.jsonl": "4445d6a4bcea3ce074fb4f252e45658d41e292a0268191f859a4ce8c8e0a8b89",
+        "final.json": "3082781d6d1ba4c5df7c99e6e6cbe08dd263e94f6f45b3b45ff4380215bec52d",
+        "summary.json": "911787e2fe737a59f9e8c7f269f8e60bc5c26ccb2510f82684ce338078850960"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 73,
+        "births": 2301,
+        "deaths": 2120,
+        "living": 254,
+        "max_generation": 17,
+        "mutation_births": 0
+      },
+      "eligible": 253,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "00e2ee8b702bcfbfcd9cce9dc9f2a85ffdd1bc47bc39757f4ff8c830d35417f8",
+          "descendant": {
+            "id": 349,
+            "site": 19,
+            "birth_tick": 30,
+            "death_tick": null,
+            "parent": 276,
+            "founder": 5,
+            "generation": 3,
+            "material": 1,
+            "program": [
+              1,
+              0,
+              3,
+              0
+            ],
+            "birth_energy": 12,
+            "mutated": false,
+            "offspring": 5
+          },
+          "founder": {
+            "id": 5,
+            "site": 33,
+            "birth_tick": 0,
+            "death_tick": 8,
+            "parent": null,
+            "founder": 5,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              1,
+              0,
+              3,
+              0
+            ],
+            "birth_energy": 0,
+            "mutated": false,
+            "offspring": 1
+          },
+          "parent_chain": [
+            276,
+            132,
+            5
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "01a94336d01b22fb8c2a9139fb573d545cbf4ef8f550d41d9ee74bfc61155c1e",
+          "descendant": {
+            "id": 1681,
+            "site": 111,
+            "birth_tick": 249,
+            "death_tick": null,
+            "parent": 1284,
+            "founder": 23,
+            "generation": 5,
+            "material": 0,
+            "program": [
+              0,
+              2,
+              3,
+              2
+            ],
+            "birth_energy": 29,
+            "mutated": false,
+            "offspring": 3
+          },
+          "founder": {
+            "id": 23,
+            "site": 96,
+            "birth_tick": 0,
+            "death_tick": 29,
+            "parent": null,
+            "founder": 23,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              0,
+              2,
+              3,
+              2
+            ],
+            "birth_energy": 36,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            1284,
+            844,
+            207,
+            83,
+            23
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "04f162906b0fec7bd12c28fb821b81d47edf15049de9a5fb10a20074731b8360",
+          "descendant": {
+            "id": 2326,
+            "site": 133,
+            "birth_tick": 475,
+            "death_tick": null,
+            "parent": 2023,
+            "founder": 32,
+            "generation": 9,
+            "material": 3,
+            "program": [
+              3,
+              1,
+              2,
+              2
+            ],
+            "birth_energy": 28,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 32,
+            "site": 132,
+            "birth_tick": 0,
+            "death_tick": 72,
+            "parent": null,
+            "founder": 32,
+            "generation": 0,
+            "material": 1,
+            "program": [
+              3,
+              1,
+              2,
+              2
+            ],
+            "birth_energy": 0,
+            "mutated": false,
+            "offspring": 5
+          },
+          "parent_chain": [
+            2023,
+            1964,
+            1819,
+            972,
+            832,
+            345,
+            300,
+            279,
+            32
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96004,
+      "drive": 250,
+      "mutation": 100,
+      "lineage_sha256": "139d570bf0699bb3b9143fe1954f0580bec18c93ccaae17d25aeb62534f8def9",
+      "source_output_sha256": {
+        "initial.json": "12a1f9a197db346c06c0a6cd28a2cce15afc4ed15c894b5606f520bb91cdfb8c",
+        "steps.jsonl": "dbeac6cbfaa10126413c69fc6233f48cb9c935724c383bebf8772330d00afc6d",
+        "final.json": "6895383337ee209babd8d3dd018e3386664703fe9b0fdc03cfbb7cb085c20a96",
+        "summary.json": "0b4abaedebc1bb4f62409886a5106e63bb3c6409d735e2553b98c3aca3279af7"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 73,
+        "births": 1823,
+        "deaths": 1644,
+        "living": 252,
+        "max_generation": 17,
+        "mutation_births": 192
+      },
+      "eligible": 249,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "0064d432da7272b27954b7e2bb265bb5389dbf28a7fcf37fb944673f4876a124",
+          "descendant": {
+            "id": 1517,
+            "site": 219,
+            "birth_tick": 317,
+            "death_tick": null,
+            "parent": 725,
+            "founder": 44,
+            "generation": 5,
+            "material": 2,
+            "program": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "birth_energy": 28,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 44,
+            "site": 171,
+            "birth_tick": 0,
+            "death_tick": 40,
+            "parent": null,
+            "founder": 44,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "birth_energy": 37,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            725,
+            268,
+            169,
+            91,
+            44
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "022d122910599c5f762f9f3cc167cc6e8424118313f923999e49176cfa27971e",
+          "descendant": {
+            "id": 1733,
+            "site": 39,
+            "birth_tick": 411,
+            "death_tick": null,
+            "parent": 1090,
+            "founder": 21,
+            "generation": 4,
+            "material": 0,
+            "program": [
+              2,
+              2,
+              1,
+              0
+            ],
+            "birth_energy": 29,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 21,
+            "site": 86,
+            "birth_tick": 0,
+            "death_tick": 52,
+            "parent": null,
+            "founder": 21,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              2,
+              2,
+              1,
+              0
+            ],
+            "birth_energy": 7,
+            "mutated": false,
+            "offspring": 4
+          },
+          "parent_chain": [
+            1090,
+            969,
+            228,
+            21
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "02b4ad4584ed046b9e628586f2eac37b052e6dc7a37265c9b42ba099387e26e0",
+          "descendant": {
+            "id": 1626,
+            "site": 30,
+            "birth_tick": 368,
+            "death_tick": null,
+            "parent": 1612,
+            "founder": 13,
+            "generation": 4,
+            "material": 3,
+            "program": [
+              0,
+              0,
+              1,
+              3
+            ],
+            "birth_energy": 8,
+            "mutated": true,
+            "offspring": 1
+          },
+          "founder": {
+            "id": 13,
+            "site": 62,
+            "birth_tick": 0,
+            "death_tick": 103,
+            "parent": null,
+            "founder": 13,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              0,
+              3,
+              1,
+              3
+            ],
+            "birth_energy": 19,
+            "mutated": false,
+            "offspring": 9
+          },
+          "parent_chain": [
+            1612,
+            1477,
+            205,
+            13
+          ],
+          "equal_program": false
+        }
+      ]
+    },
+    {
+      "seed": 96004,
+      "drive": 500,
+      "mutation": 0,
+      "lineage_sha256": "5199407bde49a923a805875c84859512b4bfc7c1bb2af23f78ea3baf7e8c1b34",
+      "source_output_sha256": {
+        "initial.json": "12a1f9a197db346c06c0a6cd28a2cce15afc4ed15c894b5606f520bb91cdfb8c",
+        "steps.jsonl": "3cd7e1907db4969dc5efe2a21b805a24ab2a43f3d02f26bb5735cbd7cca96dd3",
+        "final.json": "1e2eca90e277f6d0e688288e900f8196b96029e05ca42df7213b7c5cf477be11",
+        "summary.json": "3952bf1411d29f7219c5be8d74883e0620f5702af12061767fb762cf23161317"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 73,
+        "births": 196,
+        "deaths": 13,
+        "living": 256,
+        "max_generation": 5,
+        "mutation_births": 0
+      },
+      "eligible": 185,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "016c8a2b14813ddceeb5aeb62ca3ae7d52bff295be2960c1e8f81652bbfe96e6",
+          "descendant": {
+            "id": 129,
+            "site": 222,
+            "birth_tick": 2,
+            "death_tick": null,
+            "parent": 60,
+            "founder": 60,
+            "generation": 1,
+            "material": 1,
+            "program": [
+              2,
+              1,
+              1,
+              1
+            ],
+            "birth_energy": 18,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 60,
+            "site": 223,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 60,
+            "generation": 0,
+            "material": 2,
+            "program": [
+              2,
+              1,
+              1,
+              1
+            ],
+            "birth_energy": 35,
+            "mutated": false,
+            "offspring": 3
+          },
+          "parent_chain": [
+            60
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "0287c3ed1427eb28df31fedf704fb019244a7d05e96d2c9a654527a9b6561caa",
+          "descendant": {
+            "id": 127,
+            "site": 172,
+            "birth_tick": 2,
+            "death_tick": null,
+            "parent": 47,
+            "founder": 47,
+            "generation": 1,
+            "material": 1,
+            "program": [
+              1,
+              1,
+              2,
+              1
+            ],
+            "birth_energy": 23,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 47,
+            "site": 188,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 47,
+            "generation": 0,
+            "material": 0,
+            "program": [
+              1,
+              1,
+              2,
+              1
+            ],
+            "birth_energy": 37,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            47
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "04acd9929f4ff73bafb65a87b0c4d02a056d5cb96a1264bf5e1be90683b61303",
+          "descendant": {
+            "id": 117,
+            "site": 101,
+            "birth_tick": 2,
+            "death_tick": null,
+            "parent": 27,
+            "founder": 27,
+            "generation": 1,
+            "material": 1,
+            "program": [
+              3,
+              3,
+              0,
+              1
+            ],
+            "birth_energy": 5,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 27,
+            "site": 117,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 27,
+            "generation": 0,
+            "material": 0,
+            "program": [
+              3,
+              3,
+              0,
+              1
+            ],
+            "birth_energy": 18,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            27
+          ],
+          "equal_program": true
+        }
+      ]
+    },
+    {
+      "seed": 96004,
+      "drive": 500,
+      "mutation": 100,
+      "lineage_sha256": "3a0a570342d6db059ae99d91ea81baa3914142e94f2ff8a04374925a17260e32",
+      "source_output_sha256": {
+        "initial.json": "12a1f9a197db346c06c0a6cd28a2cce15afc4ed15c894b5606f520bb91cdfb8c",
+        "steps.jsonl": "e08bb1f772fe39c1ec5e5f2ab0ea744aa67bb4707b12e3fb9c74a2022127eba9",
+        "final.json": "86757a5b0e2515d1b6439d6f5f3529b2d0475de231657b6bc0ea06e83e577852",
+        "summary.json": "3711c6095b10256cf1518dbe49e077e8d059b78f294fb00503fa2dac5f24d351"
+      },
+      "lineage_summary": {
+        "tick": 500,
+        "founders": 73,
+        "births": 196,
+        "deaths": 13,
+        "living": 256,
+        "max_generation": 5,
+        "mutation_births": 20
+      },
+      "eligible": 185,
+      "status": "available",
+      "pairs": [
+        {
+          "selection_hash": "01e06fe394a18121d9b660546ea9042f0f322adc805f056ac996e636cbc95174",
+          "descendant": {
+            "id": 98,
+            "site": 205,
+            "birth_tick": 1,
+            "death_tick": null,
+            "parent": 53,
+            "founder": 53,
+            "generation": 1,
+            "material": 2,
+            "program": [
+              2,
+              1,
+              1,
+              1
+            ],
+            "birth_energy": 6,
+            "mutated": false,
+            "offspring": 2
+          },
+          "founder": {
+            "id": 53,
+            "site": 204,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 53,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              2,
+              1,
+              1,
+              1
+            ],
+            "birth_energy": 18,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            53
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "023360f981c9c7876f5e04f6b04806c86f1a0b0bd2b0f01ee119b94824609f43",
+          "descendant": {
+            "id": 144,
+            "site": 95,
+            "birth_tick": 3,
+            "death_tick": null,
+            "parent": 18,
+            "founder": 18,
+            "generation": 1,
+            "material": 3,
+            "program": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "birth_energy": 10,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 18,
+            "site": 80,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 18,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              3,
+              3,
+              3,
+              3
+            ],
+            "birth_energy": 25,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            18
+          ],
+          "equal_program": true
+        },
+        {
+          "selection_hash": "03853c824000095213da9407c974f93acfea92918a87aa7fc9248ce0c24f4a63",
+          "descendant": {
+            "id": 128,
+            "site": 230,
+            "birth_tick": 2,
+            "death_tick": null,
+            "parent": 57,
+            "founder": 57,
+            "generation": 1,
+            "material": 0,
+            "program": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "birth_energy": 9,
+            "mutated": false,
+            "offspring": 0
+          },
+          "founder": {
+            "id": 57,
+            "site": 214,
+            "birth_tick": 0,
+            "death_tick": null,
+            "parent": null,
+            "founder": 57,
+            "generation": 0,
+            "material": 3,
+            "program": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "birth_energy": 29,
+            "mutated": false,
+            "offspring": 2
+          },
+          "parent_chain": [
+            57
+          ],
+          "equal_program": true
+        }
+      ]
+    }
+  ],
+  "selection_protocol_sha256": "f1bba4d283f32a923e0fcf6d14499aa80b92f5d64127cf4143af02349ad607cc",
+  "source_results_sha256": "5e5027306b27a1fc025a52f965fba430f1c0d091ee5f16595a54779ab8ca0234",
+  "script_sha256": "71b69172a773f228d8a1f118c2cad36615fac291ec93ed741c4cd2b3db0f5ecc"
+}
