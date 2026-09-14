@@ -43,6 +43,20 @@ engine source for its hash; it does not import or execute that engine. A fresh
 runtime installation, full replay, browser interaction or remote redownload is
 not established by these analysis commands.
 
-Delivery status at creation: packaging support prepared; archive creation,
-fresh-extraction checks and remote delivery must be recorded separately after
-success. Future commits do not modify a fixed source snapshot or archive.
+## Verified delivery
+
+Download the [renewal-stock draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-b2e03308b93632de29aa)
+with an authorized GitHub account. Source `99c4f62` is fixed: 824 payload files /
+40,157,090 bytes. SHA-256:
+
+```text
+4d1482c8f49192c4f039d2599cbb4a142db3bc5c2c30400615aa9743038bd17d
+```
+
+All seven reports reproduce exactly in a fresh extraction. GitHub API sizes and
+hashes match the local archive and sidecar. Source CI 34822173518 passed.
+Evidence: [fresh extraction](../research/results/renewal-supplement-020.json) and
+[remote assets](../research/results/release-renewal-020.json). No independent remote
+redownload, fresh runtime installation or full replay is claimed for this delivery.
+The archived guide predates this upload result; future commits do not change the
+fixed source snapshot or archive.

@@ -75,3 +75,5 @@ python -I -S scripts/summarize_v0_renewal_stocks.py --output data/my-stock-summa
 第二条使用仓库中的核验报告。完整回放的源码为 `41b3736`，汇总在其后追加。
 [核验报告](results/renewal-stocks-020-verification.json)记录输入哈希。
 固定二十轮整包保持原样，不包含本次新增回放记录。正式实验计数不变。
+
+原始回放与复算脚本已放入[独立库存观测补充包](../design/renewal-stock-supplement.md)，七份报告在新目录复算一致。

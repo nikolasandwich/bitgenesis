@@ -1,0 +1,20 @@
+{
+  "id": 388239326,
+  "tag_name": "v0.0.1-renewal-stocks.1",
+  "html_url": "https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-b2e03308b93632de29aa",
+  "draft": true,
+  "target_commitish": "99c4f62af72079b6179ba6843a2d8770b092dc04",
+  "assets": [
+    {
+      "name": "bitgenesis-v0-renewal-stocks-020.zip",
+      "size": 40157090,
+      "digest": "sha256:4d1482c8f49192c4f039d2599cbb4a142db3bc5c2c30400615aa9743038bd17d"
+    },
+    {
+      "name": "bitgenesis-v0-renewal-stocks-020.zip.sha256",
+      "size": 104,
+      "digest": "sha256:398bcf0b1a77535bf6cd7e57a564112e863ce9e6e9516b564166f7d9c0cb0a12"
+    }
+  ],
+  "scope": "GitHub API sizes and digests match local archive/checksum. No independent remote download."
+}
