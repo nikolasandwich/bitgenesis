@@ -4260,3 +4260,9 @@ Other-lineage population and new-birth contrasts coincide: removed-minus-intact[
 Previous turn published complete V3 mechanism outcomes (7035459), a substantive progress turn. Began separate V4 local-unit kernel with engineered material affinity, local affordability reservations, synchronous bond costs and conservative transport; observer components do not drive dynamics or carry organism IDs. Fixed occupancy/no replication explicitly documented. Added stage evidence matrix preserving unmet V1-V3 criteria rather than declaring graduation.
 
 Three new tests cover100 random energy configurations, periodic bonds, transport-removal control, affordability and component observation. Full287 tests pass in31.947 seconds. Older stage runtimes unchanged. Next bounded recorded local-unit sequences and independent bond/energy reconstruction, followed by predeclared persistence/perturbation measurements; component splits are not reproduction.
+
+## 2026-09-14 — Autonomous cycle 295
+
+Previous turn introduced V4 local units and stage evidence limits (e34363e), a substantive progress turn. Added bounded v4-run-1 persistence and module CLI with explicit initialization draws, complete unit/transition/transfer/component records, source/configuration/output hashes and null last-transition fields at zero horizon. Documents distinguish transition bonds from recomputing final-state bonds and inactive units from organisms.
+
+Two new tests cover byte-identical replay, per-step energy/component coverage, empty zero-step output, preflight limits and overwrite rejection. Full289 tests pass in32.015 seconds. Commit before engineering CLI execution; next independently reconstruct local edges, affordability, transfers and observed components before persistence experiments.

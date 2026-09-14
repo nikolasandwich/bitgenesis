@@ -1,6 +1,7 @@
 # V4 local-unit experiment: remove group identity first
 
-Status: local interaction kernel and connected-component observer implemented.
+Status: local interaction kernel, connected-component observer and bounded
+v4-run-1 persisted runner implemented. Independent reconstruction is pending.
 There is no reproduction, growth, movement, development or evolutionary result
 in this first kernel. Earlier V0-V3 runtime files remain unchanged.
 
