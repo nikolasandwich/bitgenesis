@@ -1862,3 +1862,17 @@ aggregate resource accounting; tests cover death-before-feed, zero intake,
 source mismatch and replaced lists. All 120 tests pass. This is not the complete
 movement/congestion/reproduction observer and no formal mechanism study has run.
 Documented the missing gates, source coupling, retention and checkpoint limits.
+
+## 2026-09-14 — Autonomous cycle 125: feeding replay preparation
+
+Prepared a source-recorded retrospective replay of all forty campaign-017
+first-hundred-tick prefixes. No cases are chosen based on outcome. The runner
+hash-checks original maps/metrics, reconstructs initial founders/RNG, compares
+every prefix snapshot and reconciles direct intake with the verified early total.
+It drains per-individual feeding rows each tick into separate JSONL artifacts.
+
+This is instrument validation and added observation of existing trajectories,
+not an eighteenth campaign or independent replication. It covers only feeding,
+not the complete movement/congestion/reproduction observer gate. Source is
+committed before launch; failure/interruption metadata and new-only output paths
+preserve reviewability.
