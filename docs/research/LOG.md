@@ -2495,3 +2495,20 @@ runner test also passed for engineering seed 23 under both birth charges, compar
 RNG/metrics and exact window boundaries. Commit clean source before launching the
 registered forty-world replay. Stronger independent local-record reconstruction
 and scientific interpretation remain pending; no new formal campaign is counted.
+
+## 2026-09-14 — Autonomous cycle 169
+
+Previous cycle implemented and launched the registered local-resource replay.
+Confirmed original execution handle remains live; at inspection twenty-six of
+forty worlds were complete. Added an independent standard-library boundary checker
+covering exact terminal windows, source/output hashes, original metrics, food
+capacity/totals, unique living IDs/positions, occupancy, founder/descendant label
+constraints, energy/population accounting and valid RNG-state structure.
+
+All 546 boundaries from the first twenty-six completed worlds pass the structural
+helper. Corruption tests reject changed food, occupancy, energy and duplicate IDs;
+all 156 local tests pass. This is boundary-accounting evidence, not reconstruction
+of individual resource writes or proof that recorded RNG states equal independent
+historical states. The full forty-world CLI report remains gated on completed
+replay. Next implement per-action spatial consistency; keep the original replay
+running without restart. Formal campaign counts and frozen archives are unchanged.
