@@ -12,9 +12,10 @@ class LocalResourceWorld(EnergyWorld):
     def __post_init__(self):
         super().__post_init__()
         self.local_resource_records = []
+        self.local_capture_enabled = True
 
     def _pay(self, organism, amount):
-        if self._energy_action is None or self._energy_action['id'] != organism.id:
+        if self.local_capture_enabled and (self._energy_action is None or self._energy_action['id'] != organism.id):
             positions = list(dict.fromkeys([organism.position, *self.neighbors(organism.position)]))
             self.local_resource_records.append(dict(
                 observation_schema=1, tick=self.tick, id=organism.id,
@@ -23,6 +24,11 @@ class LocalResourceWorld(EnergyWorld):
                 sites=[dict(position=p, food=self.food[p], occupant_id=self.occupied.get(p))
                        for p in positions]))
         super()._pay(organism, amount)
+
+    def step(self):
+        if type(self.local_capture_enabled) is not bool:
+            raise ValueError("Local capture switch must be boolean")
+        super().step()
 
     def drain_local_resources(self):
         records, self.local_resource_records = self.local_resource_records, []

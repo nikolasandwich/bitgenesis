@@ -65,3 +65,21 @@ class LocalResourceObserverTests(unittest.TestCase):
         self.assertTrue(all(s['occupant_id'] is not None for r in rows for s in r['sites']))
         self.assertEqual(sorted(s['food'] for s in rows[0]['sites']),[8,8,8])
         self.assertEqual(sorted(s['food'] for s in rows[-1]['sites']),[0,0,8])
+
+    def test_capture_window_switch_preserves_all_other_streams(self):
+        config=Config(seed=23,width=8,height=8,initial_population=12,movement_cost=0,birth_cost=0)
+        observed,reference=LocalResourceWorld(config),LocalResourceWorld(config)
+        for tick in range(1,31):
+            observed.local_capture_enabled=8<=tick<=12
+            observed.step();reference.step()
+            expected=reference.drain_local_resources()
+            self.assertEqual(observed.drain_local_resources(),expected if 8<=tick<=12 else [])
+            for drain in ('drain_feeding','drain_pre_feeding_deaths','drain_energy'):
+                self.assertEqual(getattr(observed,drain)(),getattr(reference,drain)())
+            self.assertEqual(observed.food,reference.food)
+            self.assertEqual(observed.snapshot(),reference.snapshot())
+            self.assertEqual(observed.events,reference.events)
+            self.assertEqual(observed.rng.getstate(),reference.rng.getstate())
+        before=observed.snapshot();observed.local_capture_enabled=1
+        with self.assertRaisesRegex(ValueError,'boolean'):observed.step()
+        self.assertEqual(before,observed.snapshot())

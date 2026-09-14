@@ -27,4 +27,4 @@ remain identical. Tests cover zero and positive costs, births, blocked full worl
 lethal movement, immediate basal death despite food, deterministic regrowth,
 sequential depletion and neighbor deduplication. A first test mistakenly used width
 one, which V0 rejects; corrected to the valid 2-by-2 case without changing rules.
-153 tests pass. No campaign-019 spatial replay has yet run.
+A boolean `local_capture_enabled` switch may be set between steps; false suppresses only the new local stream, while inherited streams continue and must still be drained. Invalid switch types fail before advancing. Toggle tests preserve state, RNG and old streams. The replay runner validates original initialization and every metric prefix, retains exactly twenty action ticks and twenty-one full boundary states, and records source/input/output hashes and failures. Full independent spatial-record reconstruction remains a separate gate.

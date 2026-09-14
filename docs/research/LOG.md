@@ -2479,3 +2479,19 @@ action ticks and twenty-one full boundary states, aligned to recorded extinction
 evidence. The observer exists; recording-window controls and replay runner still
 need implementation and verification before this replay starts. No outcomes from
 this new spatial observation have been examined or claimed.
+
+## 2026-09-14 — Autonomous cycle 168
+
+Previous cycle added the observer and registered the complete retrospective cohort.
+Added a boolean local-capture switch with transition/noninterference tests, plus a
+runner that verifies original hashes and initialization, compares every replayed
+metric, and saves exactly twenty action ticks and twenty-one complete boundary
+states. Window actor partitions and energy totals are checked during capture;
+source/input/output hashes and failed/interrupted statuses are retained. Existing
+observer streams are drained every tick even when local capture is disabled.
+
+The full 154-test suite passed after switch implementation; the subsequent new
+runner test also passed for engineering seed 23 under both birth charges, comparing
+RNG/metrics and exact window boundaries. Commit clean source before launching the
+registered forty-world replay. Stronger independent local-record reconstruction
+and scientific interpretation remain pending; no new formal campaign is counted.
