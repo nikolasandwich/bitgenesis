@@ -3647,3 +3647,20 @@ sampling/README status without changing the frozen manifest or protocol.
 Next update verified inventory and acceptance synthesis, then build a fresh
 scope23 reproducible archive while keeping all older releases unchanged. No new
 experiment launched and V1 remains design only. Autonomous goal active.
+
+## 2026-09-14 — Autonomous cycle 231
+
+Previous cycle completed all campaign023 gates and published the full report.
+Updated the verified campaign inventory from committed complete200-world results:
+23 campaigns,1,324 executions,12,440,000 computed ticks;24 followups and212,000
+prefix ticks remain separately declared, leaving12,228,000 excluding prefixes.
+The full inventory checker and its three focused tests pass. Updated research
+index, acceptance checkpoint, review guide and mechanism synthesis to distinguish
+current verified research from the fixed scope22 download. Historical archive
+counts/tests/hashes retained. Local links in the changed reader-facing reports
+checked successfully. Added the completed-assay decision note, with no automatic
+resampling or parameter sweep after the zero primary mean.
+
+Next extend the review builder and packager to scope23, then verify a fresh
+extraction and installed demo before updating the download claim. No live
+simulation remains; no runtime change. Autonomous goal active; V1 design only.

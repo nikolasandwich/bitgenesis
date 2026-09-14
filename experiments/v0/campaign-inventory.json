@@ -351,6 +351,23 @@
       ],
       "followup_of": null,
       "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "023",
+      "executions": 200,
+      "ticks_per_execution": 10000,
+      "seed_range": [
+        2000,
+        2099
+      ],
+      "identity_fields": [
+        "source_seed",
+        "replicate",
+        "arm",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
     }
   ]
 }

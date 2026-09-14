@@ -1,6 +1,6 @@
 # V0 acceptance checkpoint
 
-Current verified research: twenty-two campaigns / 1,124 executions / 10,440,000 computed
+Current verified research: twenty-three campaigns / 1,324 executions / 12,440,000 computed
 ticks, including 24 follow-up executions and 212,000 repeated prefix ticks.
 Use the [current Chinese review guide](REVIEW.zh-CN.md) for the latest instructions.
 
@@ -16,6 +16,12 @@ Evidence: [extraction](results/portable-review-022.json), [installation](results
 [remote assets](results/release-022.json), and [source CI](https://github.com/nikolasandwich/bitgenesis/actions/runs/34828088105).
 
 Campaign 022 has complete metric/history verification and a [formal report](campaign-022.md). It is included in the fixed scope-22 download above.
+
+Campaign 023 now has complete metric and life-history verification, 1,200 checkpoint
+observations and a [formal report](campaign-023.md). Its exact mean source survival
+contrast is zero (2 positive / 2 negative / 16 zero sources), so the positive
+preregistered prediction is unsupported. Current source tests: 201 passed.
+The scope-22 archive above excludes campaign023; a new archive remains pending.
 
 ## Preserved earlier checkpoint notes
 

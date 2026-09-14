@@ -283,3 +283,18 @@ compare cloned sampled/ancestor trait populations with mutation disabled; maximu
 This tests early sampled traits in a homogeneous common environment, not late
 adaptation or isolation of selection. No manifest extracted or outcomes launched
 at registration. This supersedes the unregistered-assay status above; V1 stays design.
+
+## Campaign 023 completed and verified
+
+The [formal report](../research/campaign-023.md) now covers all200 evaluations,
+1,200 checkpoints and795,986 independently reconstructed individuals. All20
+registered sources were available. Exact mean source contrast is0, with2positive,
+2negative and16zero sources, so the positive preregistered prediction is not
+supported. This is not an equivalence test or an isolation of selection from drift.
+The previous registration and sampling notes retain their historical scope.
+
+The verified inventory now includes23 campaigns/1,324 executions/12,440,000
+computed ticks, including212,000 replayed prefix ticks. Next prepare a scope23
+portable review and verify its clean extraction, retaining all older archives.
+No resampling or parameter sweep follows automatically from this null mean;
+any further assay needs a discriminating prospective question. V1 remains design.
