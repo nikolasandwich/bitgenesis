@@ -2958,3 +2958,20 @@ precludes treating discard fraction as a direct survival ranking; it does not sh
 beneficial discard or identify a causal direction. Complete raw observation and
 original-outcome scope remain explicit. No new simulation or formal-count change;
 fixed twenty-campaign archive excludes these later retrospective records.
+
+
+## 2026-09-14 — Autonomous cycle 196
+
+Previous cycle summarized verified stock observations. Added the complete sixty-world
+loss comparison figure with shared percentage axes, paired seed rows and threshold
+colors. Filled circles show sampled discard divided by sampled uncapped arrivals;
+open diamonds show conditional expected cap loss divided by nominal expectation.
+Connecting segments are explicitly not confidence intervals. No outcome selection,
+new estimator or simulation is introduced.
+
+PNG visually inspected: titles, legend, axes and all seed rows are legible. Figure
+JSON matches exactly the sixty full-window rows from the verified summary; input
+hash checked. Linked figure with Chinese interpretation in the observation report.
+The existing 181-test result remains the latest runtime test evidence; no runtime
+code changed in this visualization-only cycle. Raw observation delivery as a
+separate reproducible supplement remains pending; fixed archives are unchanged.
