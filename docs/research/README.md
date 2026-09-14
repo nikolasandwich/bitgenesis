@@ -9,8 +9,8 @@
 该计数检查已加入 CI，使用仓库中的精简结果，不需要本地大体积逐步数据。
 
 首次验收可先阅读[中文指南](REVIEW.zh-CN.md)，再打开本地
-`data/review-v0-17.html`。这个本地视觉快照涵盖十七轮，可用
-`python scripts/build_v0_review.py --campaigns 17` 在完整本地数据上重建。
+`data/review-v0-18.html`。这个本地视觉快照涵盖十八轮，可用
+`python scripts/build_v0_review.py --campaigns 18` 在完整本地数据上重建。
 十七轮完整数据可从[十七轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-817afa7dc5fa0391cfcc)下载；
 旧页面和已上传的八轮、九轮归档继续保留原范围。
 旧 `data/review-v0-8.html` 保留为八轮快照。

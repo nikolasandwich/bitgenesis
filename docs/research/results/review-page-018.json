@@ -1,0 +1,8 @@
+{
+  "page": "review-v0-18.html",
+  "sha256": "51ad0fdac72cd682d7c4bb10745a8331a2c47a2253ac69ad011cd7b1c3accb0a",
+  "campaigns": 18,
+  "verified_movement_charge_rows": 8,
+  "local_targets": 14,
+  "scope": "Static HTML table equality with verified campaign-018 groups and local target existence. No new browser interaction claim."
+}

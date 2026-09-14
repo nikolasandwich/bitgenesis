@@ -4,6 +4,18 @@
 **只有 V0 有运行代码**：个体、能量、遗传和繁殖是人为定义的，基因只控制随机移动概率。
 食物感知、记忆和神经控制器仍未实现。
 
+## 当前本地入口
+
+最新本地页面为 `data/review-v0-18.html`，包含第十八轮的八组对照、逐世界图与完整报告链接。
+页面引用相邻文件，请保留目录结构。八组表格与核验报告一致，本地链接目标已检查；
+这不等于重新验证了浏览器中的所有交互。生成命令：
+
+```sh
+python scripts/build_v0_review.py --campaigns 18 --output data/my-review-18.html
+```
+
+需要完整本地数据；当前已上传完整下载包仍是以下十七轮版本。
+
 ## 先打开哪里
 
 下载[十七轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-817afa7dc5fa0391cfcc)，

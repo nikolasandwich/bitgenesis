@@ -2259,3 +2259,17 @@ Free-movement low-threshold block worlds still show 23.07–28.89% blocked attem
 yet higher finite-horizon survival. These coupled trajectory differences do not
 identify a mediator; the necessary-condition conclusion still rests on actual
 zero-charge extinction counterexamples. No new simulation or rule change.
+
+## 2026-09-14 — Autonomous cycle 154
+
+Extended the local review builder to eighteen campaigns, requiring the complete
+80-world treatment grid and exact outcome equality with independent verification.
+The new section displays all eight survival groups, the all-world censoring figure,
+zero-charge counterexamples and interpretation/download boundaries. Existing
+seventeen-campaign pages are unchanged; default builder scope remains eight.
+
+Generated review-v0-18.html and checked all eight new table rows against verified
+groups, current workload totals and fourteen local targets. Recorded page hash and
+static scope. Requested the page in the Codex browser panel; no fresh browser
+interaction verification claimed. Updated local review entry points separately
+from the still-fixed seventeen-campaign download.
