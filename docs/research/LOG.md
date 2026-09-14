@@ -2529,3 +2529,19 @@ pass. This check uses recorded order/moves and newborn boundary positions, so it
 not independent random-choice replay or proof of historical actor paths. Full
 hashed reports are retained; descriptive scientific summary remains next. Original
 formal workload and frozen nineteen-campaign archive are unchanged.
+
+## 2026-09-14 — Autonomous cycle 171
+
+Previous cycle completed all-window structural and sequential checks. Added the
+registered descriptive summary for all forty windows, grouped by threshold, birth
+charge and observed endpoint status, retaining zero-sample groups and null extinct
+locations for censored worlds. Recomputed current-site/free-neighbor counts from
+hash-verified local records and matched prior action-verifier counts.
+
+All seven terminal actors have energy one, zero current-site food and at least one
+empty food-containing neighbor; all four neighbors are empty at those final actions.
+Published every final neighborhood plus full per-world action-fraction ranges.
+Immediate neighboring occupancy does not explain these final deaths, but earlier
+crowding and energy depletion are not excluded. No sensory benefit or causal rescue
+is established. Updated mechanism/decision indexes; the fixed nineteen-campaign
+archive does not yet contain this retrospective dataset. Formal counts unchanged.

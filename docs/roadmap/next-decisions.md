@@ -100,6 +100,21 @@ evidence or a causal intervention. Do not launch a food-redistribution or occupa
 variant until its changed processes and falsifiable predictions are explicit.
 This note does not register or launch another campaign. V1 remains design only.
 
+## Completed terminal-local observation
+
+The registered all-forty-world [local study](../research/local-resources-019.md)
+has now completed. All seven last survivors have energy one, no food at their
+current site, and at least one empty food-containing neighbor; all four adjacent
+sites are empty at those final actions. Basal death precedes any movement/feeding.
+Thus immediate neighbor occupancy does not explain those final transitions.
+This does not exclude earlier crowding or explain the prior energy loss.
+
+Do not treat nearby food as proof that a sensory controller would succeed.
+A timing intervention (feeding before basal cost) and an earlier directional
+policy intervention change different rules/processes. Preserve V0's ordering;
+future information-value comparisons must keep physiology and timing identical.
+The retrospective study checks descriptive consistency, not causal rescue.
+
 ## V1 implementation sequence when runtime scope expands
 
 1. Freeze a versioned sensor/weight/action specification, costs and independent

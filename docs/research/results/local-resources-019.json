@@ -1,0 +1,1310 @@
+{
+  "results": [
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1600,
+      "endpoint": 136,
+      "right_censored": false,
+      "actions": 43,
+      "current_site_food": 0,
+      "free_neighbor_food": 36,
+      "basal_deaths": 3,
+      "current_site_food_fraction": 0.0,
+      "free_neighbor_food_fraction": 0.8372093023255814,
+      "final_population": 0,
+      "final_organism_energy": 0,
+      "final_food_energy": 6984,
+      "extinction_action_locations": [
+        {
+          "observation_schema": 1,
+          "tick": 136,
+          "id": 218,
+          "founder_id": 70,
+          "position": 315,
+          "energy_before_action": 1,
+          "sites": [
+            {
+              "position": 315,
+              "food": 0,
+              "occupant_id": 218
+            },
+            {
+              "position": 316,
+              "food": 4,
+              "occupant_id": null
+            },
+            {
+              "position": 314,
+              "food": 0,
+              "occupant_id": null
+            },
+            {
+              "position": 347,
+              "food": 4,
+              "occupant_id": null
+            },
+            {
+              "position": 283,
+              "food": 0,
+              "occupant_id": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1601,
+      "endpoint": 118,
+      "right_censored": false,
+      "actions": 28,
+      "current_site_food": 0,
+      "free_neighbor_food": 28,
+      "basal_deaths": 3,
+      "current_site_food_fraction": 0.0,
+      "free_neighbor_food_fraction": 1.0,
+      "final_population": 0,
+      "final_organism_energy": 0,
+      "final_food_energy": 5840,
+      "extinction_action_locations": [
+        {
+          "observation_schema": 1,
+          "tick": 118,
+          "id": 202,
+          "founder_id": 0,
+          "position": 672,
+          "energy_before_action": 1,
+          "sites": [
+            {
+              "position": 672,
+              "food": 0,
+              "occupant_id": 202
+            },
+            {
+              "position": 673,
+              "food": 8,
+              "occupant_id": null
+            },
+            {
+              "position": 703,
+              "food": 0,
+              "occupant_id": null
+            },
+            {
+              "position": 704,
+              "food": 0,
+              "occupant_id": null
+            },
+            {
+              "position": 640,
+              "food": 0,
+              "occupant_id": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1602,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 575,
+      "current_site_food": 63,
+      "free_neighbor_food": 495,
+      "basal_deaths": 4,
+      "current_site_food_fraction": 0.10956521739130434,
+      "free_neighbor_food_fraction": 0.8608695652173913,
+      "final_population": 34,
+      "final_organism_energy": 735,
+      "final_food_energy": 11968,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1603,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 816,
+      "current_site_food": 122,
+      "free_neighbor_food": 703,
+      "basal_deaths": 3,
+      "current_site_food_fraction": 0.14950980392156862,
+      "free_neighbor_food_fraction": 0.8615196078431373,
+      "final_population": 57,
+      "final_organism_energy": 1291,
+      "final_food_energy": 10664,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1604,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1304,
+      "current_site_food": 120,
+      "free_neighbor_food": 1076,
+      "basal_deaths": 25,
+      "current_site_food_fraction": 0.09202453987730061,
+      "free_neighbor_food_fraction": 0.8251533742331288,
+      "final_population": 66,
+      "final_organism_energy": 1320,
+      "final_food_energy": 6276,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1605,
+      "endpoint": 2180,
+      "right_censored": false,
+      "actions": 20,
+      "current_site_food": 2,
+      "free_neighbor_food": 20,
+      "basal_deaths": 1,
+      "current_site_food_fraction": 0.1,
+      "free_neighbor_food_fraction": 1.0,
+      "final_population": 0,
+      "final_organism_energy": 0,
+      "final_food_energy": 12776,
+      "extinction_action_locations": [
+        {
+          "observation_schema": 1,
+          "tick": 2180,
+          "id": 2183,
+          "founder_id": 23,
+          "position": 776,
+          "energy_before_action": 1,
+          "sites": [
+            {
+              "position": 776,
+              "food": 0,
+              "occupant_id": 2183
+            },
+            {
+              "position": 777,
+              "food": 16,
+              "occupant_id": null
+            },
+            {
+              "position": 775,
+              "food": 0,
+              "occupant_id": null
+            },
+            {
+              "position": 808,
+              "food": 8,
+              "occupant_id": null
+            },
+            {
+              "position": 744,
+              "food": 0,
+              "occupant_id": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1606,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1064,
+      "current_site_food": 146,
+      "free_neighbor_food": 954,
+      "basal_deaths": 8,
+      "current_site_food_fraction": 0.13721804511278196,
+      "free_neighbor_food_fraction": 0.8966165413533834,
+      "final_population": 72,
+      "final_organism_energy": 1460,
+      "final_food_energy": 7560,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1607,
+      "endpoint": 138,
+      "right_censored": false,
+      "actions": 20,
+      "current_site_food": 0,
+      "free_neighbor_food": 20,
+      "basal_deaths": 1,
+      "current_site_food_fraction": 0.0,
+      "free_neighbor_food_fraction": 1.0,
+      "final_population": 0,
+      "final_organism_energy": 0,
+      "final_food_energy": 6956,
+      "extinction_action_locations": [
+        {
+          "observation_schema": 1,
+          "tick": 138,
+          "id": 64,
+          "founder_id": 64,
+          "position": 1,
+          "energy_before_action": 1,
+          "sites": [
+            {
+              "position": 1,
+              "food": 0,
+              "occupant_id": 64
+            },
+            {
+              "position": 2,
+              "food": 0,
+              "occupant_id": null
+            },
+            {
+              "position": 0,
+              "food": 4,
+              "occupant_id": null
+            },
+            {
+              "position": 33,
+              "food": 0,
+              "occupant_id": null
+            },
+            {
+              "position": 993,
+              "food": 0,
+              "occupant_id": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1608,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1239,
+      "current_site_food": 79,
+      "free_neighbor_food": 973,
+      "basal_deaths": 30,
+      "current_site_food_fraction": 0.06376109765940274,
+      "free_neighbor_food_fraction": 0.7853107344632768,
+      "final_population": 53,
+      "final_organism_energy": 899,
+      "final_food_energy": 6188,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1609,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1686,
+      "current_site_food": 172,
+      "free_neighbor_food": 1239,
+      "basal_deaths": 32,
+      "current_site_food_fraction": 0.10201660735468565,
+      "free_neighbor_food_fraction": 0.7348754448398577,
+      "final_population": 88,
+      "final_organism_energy": 1757,
+      "final_food_energy": 7276,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1600,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1324,
+      "current_site_food": 118,
+      "free_neighbor_food": 1065,
+      "basal_deaths": 22,
+      "current_site_food_fraction": 0.0891238670694864,
+      "free_neighbor_food_fraction": 0.804380664652568,
+      "final_population": 65,
+      "final_organism_energy": 1134,
+      "final_food_energy": 5928,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1601,
+      "endpoint": 244,
+      "right_censored": false,
+      "actions": 20,
+      "current_site_food": 1,
+      "free_neighbor_food": 20,
+      "basal_deaths": 1,
+      "current_site_food_fraction": 0.05,
+      "free_neighbor_food_fraction": 1.0,
+      "final_population": 0,
+      "final_organism_energy": 0,
+      "final_food_energy": 12688,
+      "extinction_action_locations": [
+        {
+          "observation_schema": 1,
+          "tick": 244,
+          "id": 204,
+          "founder_id": 45,
+          "position": 818,
+          "energy_before_action": 1,
+          "sites": [
+            {
+              "position": 818,
+              "food": 0,
+              "occupant_id": 204
+            },
+            {
+              "position": 819,
+              "food": 4,
+              "occupant_id": null
+            },
+            {
+              "position": 817,
+              "food": 0,
+              "occupant_id": null
+            },
+            {
+              "position": 850,
+              "food": 8,
+              "occupant_id": null
+            },
+            {
+              "position": 786,
+              "food": 0,
+              "occupant_id": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1602,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1629,
+      "current_site_food": 146,
+      "free_neighbor_food": 1281,
+      "basal_deaths": 21,
+      "current_site_food_fraction": 0.08962553713934929,
+      "free_neighbor_food_fraction": 0.7863720073664825,
+      "final_population": 80,
+      "final_organism_energy": 1374,
+      "final_food_energy": 7576,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1603,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 877,
+      "current_site_food": 58,
+      "free_neighbor_food": 685,
+      "basal_deaths": 9,
+      "current_site_food_fraction": 0.0661345496009122,
+      "free_neighbor_food_fraction": 0.7810718358038768,
+      "final_population": 44,
+      "final_organism_energy": 784,
+      "final_food_energy": 9524,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1604,
+      "endpoint": 133,
+      "right_censored": false,
+      "actions": 36,
+      "current_site_food": 0,
+      "free_neighbor_food": 34,
+      "basal_deaths": 2,
+      "current_site_food_fraction": 0.0,
+      "free_neighbor_food_fraction": 0.9444444444444444,
+      "final_population": 0,
+      "final_organism_energy": 0,
+      "final_food_energy": 6764,
+      "extinction_action_locations": [
+        {
+          "observation_schema": 1,
+          "tick": 133,
+          "id": 195,
+          "founder_id": 79,
+          "position": 749,
+          "energy_before_action": 1,
+          "sites": [
+            {
+              "position": 749,
+              "food": 0,
+              "occupant_id": 195
+            },
+            {
+              "position": 750,
+              "food": 0,
+              "occupant_id": null
+            },
+            {
+              "position": 748,
+              "food": 0,
+              "occupant_id": null
+            },
+            {
+              "position": 781,
+              "food": 8,
+              "occupant_id": null
+            },
+            {
+              "position": 717,
+              "food": 0,
+              "occupant_id": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1605,
+      "endpoint": 4419,
+      "right_censored": false,
+      "actions": 35,
+      "current_site_food": 1,
+      "free_neighbor_food": 35,
+      "basal_deaths": 4,
+      "current_site_food_fraction": 0.02857142857142857,
+      "free_neighbor_food_fraction": 1.0,
+      "final_population": 0,
+      "final_organism_energy": 0,
+      "final_food_energy": 14028,
+      "extinction_action_locations": [
+        {
+          "observation_schema": 1,
+          "tick": 4419,
+          "id": 3930,
+          "founder_id": 24,
+          "position": 78,
+          "energy_before_action": 1,
+          "sites": [
+            {
+              "position": 78,
+              "food": 0,
+              "occupant_id": 3930
+            },
+            {
+              "position": 79,
+              "food": 20,
+              "occupant_id": null
+            },
+            {
+              "position": 77,
+              "food": 4,
+              "occupant_id": null
+            },
+            {
+              "position": 110,
+              "food": 24,
+              "occupant_id": null
+            },
+            {
+              "position": 46,
+              "food": 0,
+              "occupant_id": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1606,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 923,
+      "current_site_food": 65,
+      "free_neighbor_food": 782,
+      "basal_deaths": 14,
+      "current_site_food_fraction": 0.07042253521126761,
+      "free_neighbor_food_fraction": 0.847237269772481,
+      "final_population": 47,
+      "final_organism_energy": 773,
+      "final_food_energy": 7944,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1607,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1740,
+      "current_site_food": 188,
+      "free_neighbor_food": 1391,
+      "basal_deaths": 21,
+      "current_site_food_fraction": 0.10804597701149425,
+      "free_neighbor_food_fraction": 0.7994252873563218,
+      "final_population": 93,
+      "final_organism_energy": 1580,
+      "final_food_energy": 7880,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1608,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 356,
+      "current_site_food": 30,
+      "free_neighbor_food": 346,
+      "basal_deaths": 6,
+      "current_site_food_fraction": 0.08426966292134831,
+      "free_neighbor_food_fraction": 0.9719101123595506,
+      "final_population": 18,
+      "final_organism_energy": 353,
+      "final_food_energy": 9732,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1609,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1381,
+      "current_site_food": 108,
+      "free_neighbor_food": 1175,
+      "basal_deaths": 20,
+      "current_site_food_fraction": 0.0782041998551774,
+      "free_neighbor_food_fraction": 0.8508327299058653,
+      "final_population": 65,
+      "final_organism_energy": 1305,
+      "final_food_energy": 7120,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1600,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1169,
+      "current_site_food": 115,
+      "free_neighbor_food": 1051,
+      "basal_deaths": 0,
+      "current_site_food_fraction": 0.09837467921300257,
+      "free_neighbor_food_fraction": 0.8990590248075278,
+      "final_population": 61,
+      "final_organism_energy": 5173,
+      "final_food_energy": 7388,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1601,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1128,
+      "current_site_food": 79,
+      "free_neighbor_food": 1015,
+      "basal_deaths": 1,
+      "current_site_food_fraction": 0.0700354609929078,
+      "free_neighbor_food_fraction": 0.899822695035461,
+      "final_population": 58,
+      "final_organism_energy": 4542,
+      "final_food_energy": 6852,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1602,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1091,
+      "current_site_food": 61,
+      "free_neighbor_food": 991,
+      "basal_deaths": 1,
+      "current_site_food_fraction": 0.05591200733272227,
+      "free_neighbor_food_fraction": 0.9083409715857012,
+      "final_population": 55,
+      "final_organism_energy": 3900,
+      "final_food_energy": 6996,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1603,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1168,
+      "current_site_food": 64,
+      "free_neighbor_food": 1021,
+      "basal_deaths": 2,
+      "current_site_food_fraction": 0.0547945205479452,
+      "free_neighbor_food_fraction": 0.8741438356164384,
+      "final_population": 57,
+      "final_organism_energy": 3955,
+      "final_food_energy": 6564,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1604,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1486,
+      "current_site_food": 78,
+      "free_neighbor_food": 1209,
+      "basal_deaths": 1,
+      "current_site_food_fraction": 0.052489905787348586,
+      "free_neighbor_food_fraction": 0.8135935397039031,
+      "final_population": 75,
+      "final_organism_energy": 4326,
+      "final_food_energy": 5644,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1605,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1183,
+      "current_site_food": 67,
+      "free_neighbor_food": 1018,
+      "basal_deaths": 1,
+      "current_site_food_fraction": 0.0566356720202874,
+      "free_neighbor_food_fraction": 0.8605240912933221,
+      "final_population": 60,
+      "final_organism_energy": 4752,
+      "final_food_energy": 7160,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1606,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1327,
+      "current_site_food": 97,
+      "free_neighbor_food": 1184,
+      "basal_deaths": 2,
+      "current_site_food_fraction": 0.07309721175584025,
+      "free_neighbor_food_fraction": 0.8922381311228335,
+      "final_population": 67,
+      "final_organism_energy": 5432,
+      "final_food_energy": 6256,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1607,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1115,
+      "current_site_food": 76,
+      "free_neighbor_food": 941,
+      "basal_deaths": 0,
+      "current_site_food_fraction": 0.06816143497757847,
+      "free_neighbor_food_fraction": 0.8439461883408071,
+      "final_population": 58,
+      "final_organism_energy": 4531,
+      "final_food_energy": 6732,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1608,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1435,
+      "current_site_food": 86,
+      "free_neighbor_food": 1197,
+      "basal_deaths": 0,
+      "current_site_food_fraction": 0.059930313588850176,
+      "free_neighbor_food_fraction": 0.8341463414634146,
+      "final_population": 72,
+      "final_organism_energy": 5101,
+      "final_food_energy": 5632,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1609,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1211,
+      "current_site_food": 75,
+      "free_neighbor_food": 1036,
+      "basal_deaths": 1,
+      "current_site_food_fraction": 0.061932287365813375,
+      "free_neighbor_food_fraction": 0.8554913294797688,
+      "final_population": 62,
+      "final_organism_energy": 5128,
+      "final_food_energy": 6240,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1600,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1175,
+      "current_site_food": 72,
+      "free_neighbor_food": 998,
+      "basal_deaths": 5,
+      "current_site_food_fraction": 0.06127659574468085,
+      "free_neighbor_food_fraction": 0.8493617021276596,
+      "final_population": 56,
+      "final_organism_energy": 3908,
+      "final_food_energy": 6640,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1601,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1004,
+      "current_site_food": 85,
+      "free_neighbor_food": 877,
+      "basal_deaths": 1,
+      "current_site_food_fraction": 0.0846613545816733,
+      "free_neighbor_food_fraction": 0.8735059760956175,
+      "final_population": 52,
+      "final_organism_energy": 4037,
+      "final_food_energy": 8040,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1602,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1171,
+      "current_site_food": 104,
+      "free_neighbor_food": 1024,
+      "basal_deaths": 0,
+      "current_site_food_fraction": 0.0888129803586678,
+      "free_neighbor_food_fraction": 0.874466268146883,
+      "final_population": 60,
+      "final_organism_energy": 4433,
+      "final_food_energy": 6868,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1603,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1277,
+      "current_site_food": 96,
+      "free_neighbor_food": 1148,
+      "basal_deaths": 2,
+      "current_site_food_fraction": 0.07517619420516837,
+      "free_neighbor_food_fraction": 0.898981989036805,
+      "final_population": 63,
+      "final_organism_energy": 4919,
+      "final_food_energy": 6684,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1604,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1080,
+      "current_site_food": 84,
+      "free_neighbor_food": 1015,
+      "basal_deaths": 0,
+      "current_site_food_fraction": 0.07777777777777778,
+      "free_neighbor_food_fraction": 0.9398148148148148,
+      "final_population": 54,
+      "final_organism_energy": 4632,
+      "final_food_energy": 6940,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1605,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1151,
+      "current_site_food": 91,
+      "free_neighbor_food": 980,
+      "basal_deaths": 1,
+      "current_site_food_fraction": 0.0790616854908775,
+      "free_neighbor_food_fraction": 0.8514335360556038,
+      "final_population": 58,
+      "final_organism_energy": 4135,
+      "final_food_energy": 7116,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1606,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1063,
+      "current_site_food": 100,
+      "free_neighbor_food": 989,
+      "basal_deaths": 1,
+      "current_site_food_fraction": 0.09407337723424271,
+      "free_neighbor_food_fraction": 0.9303857008466604,
+      "final_population": 54,
+      "final_organism_energy": 4155,
+      "final_food_energy": 7520,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1607,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 823,
+      "current_site_food": 85,
+      "free_neighbor_food": 802,
+      "basal_deaths": 0,
+      "current_site_food_fraction": 0.10328068043742406,
+      "free_neighbor_food_fraction": 0.9744835965978129,
+      "final_population": 42,
+      "final_organism_energy": 3670,
+      "final_food_energy": 8524,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1608,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1251,
+      "current_site_food": 76,
+      "free_neighbor_food": 1081,
+      "basal_deaths": 1,
+      "current_site_food_fraction": 0.060751398880895285,
+      "free_neighbor_food_fraction": 0.8641087130295764,
+      "final_population": 63,
+      "final_organism_energy": 4665,
+      "final_food_energy": 6756,
+      "extinction_action_locations": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1609,
+      "endpoint": 10000,
+      "right_censored": true,
+      "actions": 1047,
+      "current_site_food": 77,
+      "free_neighbor_food": 944,
+      "basal_deaths": 3,
+      "current_site_food_fraction": 0.07354345749761222,
+      "free_neighbor_food_fraction": 0.9016236867239733,
+      "final_population": 51,
+      "final_organism_energy": 3445,
+      "final_food_energy": 7940,
+      "extinction_action_locations": null
+    }
+  ],
+  "groups": [
+    {
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "right_censored": false,
+      "worlds": 4,
+      "ranges": {
+        "actions": [
+          20,
+          43
+        ],
+        "basal_deaths": [
+          1,
+          3
+        ],
+        "current_site_food_fraction": [
+          0.0,
+          0.1
+        ],
+        "free_neighbor_food_fraction": [
+          0.8372093023255814,
+          1.0
+        ],
+        "final_population": [
+          0,
+          0
+        ],
+        "final_organism_energy": [
+          0,
+          0
+        ],
+        "final_food_energy": [
+          5840,
+          12776
+        ]
+      }
+    },
+    {
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "right_censored": true,
+      "worlds": 6,
+      "ranges": {
+        "actions": [
+          575,
+          1686
+        ],
+        "basal_deaths": [
+          3,
+          32
+        ],
+        "current_site_food_fraction": [
+          0.06376109765940274,
+          0.14950980392156862
+        ],
+        "free_neighbor_food_fraction": [
+          0.7348754448398577,
+          0.8966165413533834
+        ],
+        "final_population": [
+          34,
+          88
+        ],
+        "final_organism_energy": [
+          735,
+          1757
+        ],
+        "final_food_energy": [
+          6188,
+          11968
+        ]
+      }
+    },
+    {
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "right_censored": false,
+      "worlds": 3,
+      "ranges": {
+        "actions": [
+          20,
+          36
+        ],
+        "basal_deaths": [
+          1,
+          4
+        ],
+        "current_site_food_fraction": [
+          0.0,
+          0.05
+        ],
+        "free_neighbor_food_fraction": [
+          0.9444444444444444,
+          1.0
+        ],
+        "final_population": [
+          0,
+          0
+        ],
+        "final_organism_energy": [
+          0,
+          0
+        ],
+        "final_food_energy": [
+          6764,
+          14028
+        ]
+      }
+    },
+    {
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "right_censored": true,
+      "worlds": 7,
+      "ranges": {
+        "actions": [
+          356,
+          1740
+        ],
+        "basal_deaths": [
+          6,
+          22
+        ],
+        "current_site_food_fraction": [
+          0.0661345496009122,
+          0.10804597701149425
+        ],
+        "free_neighbor_food_fraction": [
+          0.7810718358038768,
+          0.9719101123595506
+        ],
+        "final_population": [
+          18,
+          93
+        ],
+        "final_organism_energy": [
+          353,
+          1580
+        ],
+        "final_food_energy": [
+          5928,
+          9732
+        ]
+      }
+    },
+    {
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "right_censored": false,
+      "worlds": 0,
+      "ranges": {
+        "actions": null,
+        "basal_deaths": null,
+        "current_site_food_fraction": null,
+        "free_neighbor_food_fraction": null,
+        "final_population": null,
+        "final_organism_energy": null,
+        "final_food_energy": null
+      }
+    },
+    {
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "right_censored": true,
+      "worlds": 10,
+      "ranges": {
+        "actions": [
+          1091,
+          1486
+        ],
+        "basal_deaths": [
+          0,
+          2
+        ],
+        "current_site_food_fraction": [
+          0.052489905787348586,
+          0.09837467921300257
+        ],
+        "free_neighbor_food_fraction": [
+          0.8135935397039031,
+          0.9083409715857012
+        ],
+        "final_population": [
+          55,
+          75
+        ],
+        "final_organism_energy": [
+          3900,
+          5432
+        ],
+        "final_food_energy": [
+          5632,
+          7388
+        ]
+      }
+    },
+    {
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "right_censored": false,
+      "worlds": 0,
+      "ranges": {
+        "actions": null,
+        "basal_deaths": null,
+        "current_site_food_fraction": null,
+        "free_neighbor_food_fraction": null,
+        "final_population": null,
+        "final_organism_energy": null,
+        "final_food_energy": null
+      }
+    },
+    {
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "right_censored": true,
+      "worlds": 10,
+      "ranges": {
+        "actions": [
+          823,
+          1277
+        ],
+        "basal_deaths": [
+          0,
+          5
+        ],
+        "current_site_food_fraction": [
+          0.060751398880895285,
+          0.10328068043742406
+        ],
+        "free_neighbor_food_fraction": [
+          0.8493617021276596,
+          0.9744835965978129
+        ],
+        "final_population": [
+          42,
+          63
+        ],
+        "final_organism_energy": [
+          3445,
+          4919
+        ],
+        "final_food_energy": [
+          6640,
+          8524
+        ]
+      }
+    }
+  ],
+  "input_sha256": {
+    "block-threshold-40-birth-cost-0-seed-1600-local.jsonl": "37e90c14ee2b0ff8da4f7669867aceb9a73d0c7503d522e159a64c04c5d14a69",
+    "block-threshold-40-birth-cost-0-seed-1600-boundaries.jsonl": "8df4cb47f9e761b4f993a2d88d5ac525ecb77407e2a05b3367046768fc97501e",
+    "block-threshold-40-birth-cost-0-seed-1601-local.jsonl": "eb139012b1f4909625f03b87777f4b58da3bf3fc01b7df88666b65ae1f0b612d",
+    "block-threshold-40-birth-cost-0-seed-1601-boundaries.jsonl": "e7aba78a03e510e7d7dc472b22cf547c9c9aedbd8a52cfd0057ff454b30bec98",
+    "block-threshold-40-birth-cost-0-seed-1602-local.jsonl": "6c6fe35cb1723e132122a1a17904635312f584a1d8ef65d4967eb51219ec4300",
+    "block-threshold-40-birth-cost-0-seed-1602-boundaries.jsonl": "feb480b3971c47220d34de57008621d3daa3c5cead344454c585bd1c7059d1cb",
+    "block-threshold-40-birth-cost-0-seed-1603-local.jsonl": "fbdee34eda8763c675f45b9efe586a9f9f5d8c1f4381c57ad9f298cc2e202c44",
+    "block-threshold-40-birth-cost-0-seed-1603-boundaries.jsonl": "a13a774f815cfba544f3a787334b2bd26adb7ea134eaf9da07748ec2fcd5844e",
+    "block-threshold-40-birth-cost-0-seed-1604-local.jsonl": "debaf8f04f6e61351bdc193fee5f14af1f2cb53660f4d0d1090d71e5e17857a7",
+    "block-threshold-40-birth-cost-0-seed-1604-boundaries.jsonl": "70d83e348e813daec37497ffafd6be06e61d2ae7f96b5838814d9a0b08776ac9",
+    "block-threshold-40-birth-cost-0-seed-1605-local.jsonl": "6e22f8de50adce70c49b3793a2394ab869388f08b3394420f2424e17b67064b6",
+    "block-threshold-40-birth-cost-0-seed-1605-boundaries.jsonl": "f061600e4f7c31f40293bdd1f7be6bbb46aee1a43035957150f5486f0130e982",
+    "block-threshold-40-birth-cost-0-seed-1606-local.jsonl": "2e43ea4c5c1cdbbea9675050cab128f75c52b18eced6f40f26a78b0ddbc45f09",
+    "block-threshold-40-birth-cost-0-seed-1606-boundaries.jsonl": "f1c4ade4c94ef8cc0ce369de807184a1653d85094d04dd9c53a7d315ef30a56b",
+    "block-threshold-40-birth-cost-0-seed-1607-local.jsonl": "8aaa2b59df3425cd77161eff7108649af35dc2af29d0741581a614f579c39765",
+    "block-threshold-40-birth-cost-0-seed-1607-boundaries.jsonl": "8219c3ea6a69b512685f2e77cae51b394ed86414c3e5c21c46aca8feb327fda9",
+    "block-threshold-40-birth-cost-0-seed-1608-local.jsonl": "ad9769c24f592eba2f4d1a75f1bd1cf0aef951eea620a9a1c0922a38b02645e0",
+    "block-threshold-40-birth-cost-0-seed-1608-boundaries.jsonl": "069a669120e3e062ec42cd07abadf2670f545cb0749ee1c39737f76827704ba1",
+    "block-threshold-40-birth-cost-0-seed-1609-local.jsonl": "f602b544ceb4f1c96eea1eb7cc2cc8f714a54cce8c4e9c5b1b3c4c55abff8521",
+    "block-threshold-40-birth-cost-0-seed-1609-boundaries.jsonl": "7f78c3cc60e678c1b702e6b225bc659cbe4c3b352bb9e78770d0b6676989accd",
+    "block-threshold-40-birth-cost-4-seed-1600-local.jsonl": "3a543763f1ebb604adb96d238aaeb9f6a680f4508c4bee848cf79ac3908dc8d1",
+    "block-threshold-40-birth-cost-4-seed-1600-boundaries.jsonl": "265c5c7ec4ec04a40ac3d45f690c8100de2bb478a24b435019f7eb9ec46a819f",
+    "block-threshold-40-birth-cost-4-seed-1601-local.jsonl": "235c95e2c566dce841cd7dae6a04c8d9c22a73e975088c8e860036199e0d19de",
+    "block-threshold-40-birth-cost-4-seed-1601-boundaries.jsonl": "b87370d62356a2e7e377c4408015c6a05a8f7cf7a0d470fba47c60c2f9b294ad",
+    "block-threshold-40-birth-cost-4-seed-1602-local.jsonl": "b4548811b6b251f7a5693b64bb97c4a0ec1f8fd13cb4c81d681510fc66bd8bb1",
+    "block-threshold-40-birth-cost-4-seed-1602-boundaries.jsonl": "fc427d60a3fa61b6ac7e7d5dc180f77385fc8295781b992b17ea07f6c81346ad",
+    "block-threshold-40-birth-cost-4-seed-1603-local.jsonl": "94137b5a5048906d64bf94f67fcae4713b8c5d1e39591d7429dbf4e30013411a",
+    "block-threshold-40-birth-cost-4-seed-1603-boundaries.jsonl": "550d03fe9178450ecc2f5ef611c86c79240498347f741cc90720ba3821e56488",
+    "block-threshold-40-birth-cost-4-seed-1604-local.jsonl": "dd54ad070bcf9c9775ff16ad81096c1284bd398274cccc162a5f145e0c0e2aae",
+    "block-threshold-40-birth-cost-4-seed-1604-boundaries.jsonl": "b48c23a623e71d3b9335104ce56a713119739a2d35a3b3c4f84793cee417e52e",
+    "block-threshold-40-birth-cost-4-seed-1605-local.jsonl": "0ff30e6ac82979e6dd73bd1d6733af71346897b65f7c6addf514a27e8175c7c7",
+    "block-threshold-40-birth-cost-4-seed-1605-boundaries.jsonl": "1d96e13d42fa8753030ac15550c97cb238232de2fd263b88d25a5cf24864c0d8",
+    "block-threshold-40-birth-cost-4-seed-1606-local.jsonl": "0b503b5005229310a38c0e5de5945adebb6ca72aa34124300210c3f10c34167e",
+    "block-threshold-40-birth-cost-4-seed-1606-boundaries.jsonl": "14a6613149370d3a02d0038e8f93995056deed97a6b5daa8cf54d9488306f74c",
+    "block-threshold-40-birth-cost-4-seed-1607-local.jsonl": "54f3853f6ea8f4fbe20ab682632b1cd1b74f0c3271298e9cc1ccc4bbe759d1b7",
+    "block-threshold-40-birth-cost-4-seed-1607-boundaries.jsonl": "982acad7b0cacae74f4140c9274146adb1e728e21f753aa431ab93a5e6de8be6",
+    "block-threshold-40-birth-cost-4-seed-1608-local.jsonl": "f4f98719ff0295551f7613186c6fb79888ba50e35ce50d30c362ef1e7881ea70",
+    "block-threshold-40-birth-cost-4-seed-1608-boundaries.jsonl": "464120c35ab8163801e7c555f83e21767e655d5ebf4109245aa8ef38ec8bd95a",
+    "block-threshold-40-birth-cost-4-seed-1609-local.jsonl": "6f21211f8e2c697bee4b2cd5c16c6c35000ac82057d42b190a114c03a0d857b2",
+    "block-threshold-40-birth-cost-4-seed-1609-boundaries.jsonl": "107fdaa14fe28996dd74e3cc893b487128de3b834c01f0583d0b46a72d2c39c3",
+    "block-threshold-160-birth-cost-0-seed-1600-local.jsonl": "ae75bc9f1dffd4cad8ae9d26be30982831a94acc964ec546042296c4affcf687",
+    "block-threshold-160-birth-cost-0-seed-1600-boundaries.jsonl": "947ced5a03a48b7f74713455ff3d487e5bed967408666caa627f2270e062f459",
+    "block-threshold-160-birth-cost-0-seed-1601-local.jsonl": "4541975d3af540f39a75d07381e0c16d9fcfc252f463aa4466e48260866be178",
+    "block-threshold-160-birth-cost-0-seed-1601-boundaries.jsonl": "a8958fdc7890576fd25659b7136141058f54098ee1d12ccf498ccb9d4d3506e3",
+    "block-threshold-160-birth-cost-0-seed-1602-local.jsonl": "2b368a3c517d4b8d51b9860d3a2731e19280c4743b2e60829c560cef99d98b82",
+    "block-threshold-160-birth-cost-0-seed-1602-boundaries.jsonl": "a7eb10dfc5130b9dbcfc5076000f45a79f58b4425c8444276e873d60166fdcb0",
+    "block-threshold-160-birth-cost-0-seed-1603-local.jsonl": "f318287dbaa1a1eef2a84714c1d66357ff46bd08c15896503255c9748d445c9a",
+    "block-threshold-160-birth-cost-0-seed-1603-boundaries.jsonl": "ae187fdf1fd491fc3b3e33b19e13c46a9d62525e6dde7414ab7d15738ac97d5c",
+    "block-threshold-160-birth-cost-0-seed-1604-local.jsonl": "1e8030d419cf945625c203d76c183c545bd4aa24f0df1f2cdfb53d2c674a1f43",
+    "block-threshold-160-birth-cost-0-seed-1604-boundaries.jsonl": "15c40630d6932f96665787d826c5c67c8c0791bde462348500fd2d8c56493e91",
+    "block-threshold-160-birth-cost-0-seed-1605-local.jsonl": "48f223cdc2aaa2b185011d038f98758ac4a56258b0331f3b634c451534a9d975",
+    "block-threshold-160-birth-cost-0-seed-1605-boundaries.jsonl": "7704606cd731ba4e7fc3fc98db541f766668e9d1ee0b4e087f274445ce2e08c1",
+    "block-threshold-160-birth-cost-0-seed-1606-local.jsonl": "e3fba6933822c932c047b1f1b27214201ba54aa84949428f7698cc4582c259f4",
+    "block-threshold-160-birth-cost-0-seed-1606-boundaries.jsonl": "3eb94d53d20da66c926fecb3017b849d1af57f2b590f22f490fff646ee535529",
+    "block-threshold-160-birth-cost-0-seed-1607-local.jsonl": "be1beb360239d2ca6f5bd08f6a2b9bebd23801c12a0ac99826c73726c626767d",
+    "block-threshold-160-birth-cost-0-seed-1607-boundaries.jsonl": "57d29551b55dc318bb23fbafcf7e8797d4840c4c578ef8bf929ce81c0345cdfd",
+    "block-threshold-160-birth-cost-0-seed-1608-local.jsonl": "583ac5b230aac7803af816d992b477231768a29003ccd794005dd3d5dab62241",
+    "block-threshold-160-birth-cost-0-seed-1608-boundaries.jsonl": "40229acee8da0113189330f90ea164b33d8cec376b83d74d2777c883f6110969",
+    "block-threshold-160-birth-cost-0-seed-1609-local.jsonl": "ed1a7f9eeca020d0a4611b61c1752dd0533ea23492613d895fc2982273764122",
+    "block-threshold-160-birth-cost-0-seed-1609-boundaries.jsonl": "64b1e1653457736f4d599a9b064c2c578f3c06f540ae39e3ae56b18cf32b4830",
+    "block-threshold-160-birth-cost-4-seed-1600-local.jsonl": "a8bb91d8de715a70988b054cdaf76522ede98de8a096014dbd8c96621ffdbdb4",
+    "block-threshold-160-birth-cost-4-seed-1600-boundaries.jsonl": "42ed1566d6bf3d9e6949bcf32b212a83577502720d54ee24e0cee059520d0cd3",
+    "block-threshold-160-birth-cost-4-seed-1601-local.jsonl": "560cb90d7a1896b825ac72d1e5eb309e3eb45c86f6ea9f6dcaf84e65a454b021",
+    "block-threshold-160-birth-cost-4-seed-1601-boundaries.jsonl": "0205f71b94ad3629bed0d4877e4a6cfbe8e929518082943b6611a3cc333e01c0",
+    "block-threshold-160-birth-cost-4-seed-1602-local.jsonl": "99d2c5012f1971c1f9c4f2c07fdf3897122ea8c9c74d6d76b0e927cb1fdbf7de",
+    "block-threshold-160-birth-cost-4-seed-1602-boundaries.jsonl": "2e827cf56b0be0629d006444b83a0f665e1c345d4d95734f69cb98f964b20a0a",
+    "block-threshold-160-birth-cost-4-seed-1603-local.jsonl": "b4e2166d7df3b6b4b4b51556ca9611fb3d3b457555af32dd6089b463b6aaaf52",
+    "block-threshold-160-birth-cost-4-seed-1603-boundaries.jsonl": "0b4df8df564f00f3acd4a2a84a871ed3549f957013b1a73c26b20b032ecb0ce3",
+    "block-threshold-160-birth-cost-4-seed-1604-local.jsonl": "12723d174e6aa28076e9c90de65912b41136d9e83a93e959f7f9ad1d459ffa74",
+    "block-threshold-160-birth-cost-4-seed-1604-boundaries.jsonl": "aca02085e39cf0150b97fb708fc6e5d289d70abffed7aae064e6779090b0e2b4",
+    "block-threshold-160-birth-cost-4-seed-1605-local.jsonl": "da5dfe50f1817f93446f8fcde4a9d2e113afbcc48b6f385308a7d46d4f28ca8d",
+    "block-threshold-160-birth-cost-4-seed-1605-boundaries.jsonl": "39e66b3b8e33aa7fb3276efd47689855cffc5a48f6e666f3e61f2a4319ed13e7",
+    "block-threshold-160-birth-cost-4-seed-1606-local.jsonl": "21557083cdbf82f2c4864244a639f530a092a620aa541b6f7ce74600bfd70ecb",
+    "block-threshold-160-birth-cost-4-seed-1606-boundaries.jsonl": "092b9654649da5432aedda7cf4db873fba6dd31327f76946fb44fb2650257b7e",
+    "block-threshold-160-birth-cost-4-seed-1607-local.jsonl": "22a95e8ec7d52bc05bf9903b4ac89b940f21ebc9a5b9585ad8d4d0acd9b988cf",
+    "block-threshold-160-birth-cost-4-seed-1607-boundaries.jsonl": "759ab9ab46dd86d8082670422c402521da253bda188e2ef7fa43ef4cfb61180b",
+    "block-threshold-160-birth-cost-4-seed-1608-local.jsonl": "3bdef2ac38fedf68f6f063477a25fcf5f59ebb36630e7b929860c3a5073f40b7",
+    "block-threshold-160-birth-cost-4-seed-1608-boundaries.jsonl": "04ac62fa15a2efd88091b52b5bec7ee5204e5bb5ed531521e879fe0c17fd505b",
+    "block-threshold-160-birth-cost-4-seed-1609-local.jsonl": "0bbb7615d9cacc9e0c165d18c4205144affb91dc28b24ebc8f68d25ca24d0f78",
+    "block-threshold-160-birth-cost-4-seed-1609-boundaries.jsonl": "5ebada0b0df2b0fccb28f565dd983ed601ff4db9129293167fcc9ec92de4abce"
+  },
+  "action_verification_sha256": "84dec687f650d1791887c8a2ce32f69342309809236c88e6948f82ff159a339e",
+  "boundary_verification_sha256": "e7fcdfae55a304abbaa78f31457bccb73cec124f46f40f9eed628e338732826d",
+  "script_sha256": "364982e8f712d850e9be808365f4245065780fe4885298a925cd26a588a5aced",
+  "scope": "Descriptive final-twenty-action-tick windows, aligned to extinction or fixed horizon. Percentages are per-world action fractions, not independent action replicates; ranges are not confidence intervals. Outcome-conditioned groups have different ages. Extinction locations are null for survivors. No causal or permanent-survival claim."
+}
