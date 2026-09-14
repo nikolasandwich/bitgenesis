@@ -3706,3 +3706,24 @@ and the reference-equivalent1000-tick demo. Both verification processes remain
 pending; no completed portable or installation claim yet. No upload performed.
 Next finish these checks and record exact evidence before publishing a new draft.
 Autonomous goal active; frozen runtime and all old archives unchanged.
+
+## 2026-09-14 — Autonomous cycle 234
+
+Previous cycle completed the archive and installed demo while extraction ran.
+Original extraction41984 now exited0: all four archived campaign023 reports
+(sample, metrics, histories, checkpoints) reproduce exactly. Independent runtime
+22470 exited0 with201 tests passing and1000-tick demo reference equality. Committed
+both evidence reports before uploading fixed-source archive081eb06.
+
+Draft v0.0.1-preview.15 / release388303653 uploaded via process99261, which exited0.
+Both remote asset sizes and SHA256 digests match local files. Archive239,088,334
+bytes,4,241 payload files; checksum108 bytes. Remote download not independently
+repeated. Updated review, acceptance, research index, mechanism synthesis and
+campaign023 report to distinguish the new scope23 archive from preserved older
+versions. Checked191 local documentation targets. Codex browser open was queued
+for review-v0-23.html; no interactive browser QA claimed.
+
+All archive-related processes are terminal. Next inspect explicit V0 graduation
+criteria and consolidate supporting evidence/remaining gaps before selecting any
+new scientific assay. No new simulation launched; V1 remains design only.
+Autonomous goal stays active pending user stop or acceptance.

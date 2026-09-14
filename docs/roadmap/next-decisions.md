@@ -298,3 +298,18 @@ computed ticks, including212,000 replayed prefix ticks. Next prepare a scope23
 portable review and verify its clean extraction, retaining all older archives.
 No resampling or parameter sweep follows automatically from this null mean;
 any further assay needs a discriminating prospective question. V1 remains design.
+
+## Twenty-three-campaign portable checkpoint delivered
+
+The [review guide](../research/REVIEW.zh-CN.md) now links the fixed scope23 draft
+from source081eb06. Fresh extraction reproduces all four campaign023 sampling,
+metric, history and checkpoint reports exactly. Noneditable installation passes
+201 archived tests and the reference-equivalent1000-tick demo. Remote API sizes
+and SHA256 digests match both local assets. This supersedes the pending portable
+step above; earlier downloads retain their fixed scope. No independent remote
+redownload or full browser interaction QA is claimed.
+
+Next consolidate the V0 graduation evidence against its explicit criteria and
+identify the remaining scientific question before proposing a new experiment.
+The null primary mean is retained; neither post hoc resampling nor a sweep is an
+automatic next step. V1 remains design only.

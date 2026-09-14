@@ -4,24 +4,24 @@ Current verified research: twenty-three campaigns / 1,324 executions / 12,440,00
 ticks, including 24 follow-up executions and 212,000 repeated prefix ticks.
 Use the [current Chinese review guide](REVIEW.zh-CN.md) for the latest instructions.
 
-Latest [twenty-two-campaign draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-ad8e66198d19fbc2a834): source `75fa4c0`,
-3,208 payload files / 190,114,621 bytes. Fresh extraction reproduced all three
-campaign-022 reports; a new noneditable installation passed 191 tests and a
+Latest [twenty-three-campaign draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-434a3da01d41ed09e6a3): source `081eb06`,
+4,241 payload files / 239,088,334 bytes. Fresh extraction reproduced all four
+campaign-023 reports; a new noneditable installation passed 201 tests and a
 1,000-tick demo audit with reference-equivalent records. Remote asset sizes and
 SHA256 values match local files by API; no independent remote redownload.
 The separate supplements retain retrospective campaign-017, 019 and 020 records.
 Older archives remain unchanged.
 
-Evidence: [extraction](results/portable-review-022.json), [installation](results/portable-wheel-022.json),
-[remote assets](results/release-022.json), and [source CI](https://github.com/nikolasandwich/bitgenesis/actions/runs/34828088105).
+Evidence: [extraction](results/portable-review-023.json), [installation](results/portable-wheel-023.json),
+[remote assets](results/release-023.json), and [source CI](https://github.com/nikolasandwich/bitgenesis/actions/runs/34831542999).
 
-Campaign 022 has complete metric/history verification and a [formal report](campaign-022.md). It is included in the fixed scope-22 download above.
+Campaign 022 has complete metric/history verification and a [formal report](campaign-022.md). It is included in the fixed scope-23 download above.
 
 Campaign 023 now has complete metric and life-history verification, 1,200 checkpoint
 observations and a [formal report](campaign-023.md). Its exact mean source survival
 contrast is zero (2 positive / 2 negative / 16 zero sources), so the positive
 preregistered prediction is unsupported. Current source tests: 201 passed.
-The scope-22 archive above excludes campaign023; a new archive remains pending.
+The scope-23 archive above includes campaign023 and all four report reproductions.
 
 ## Preserved earlier checkpoint notes
 

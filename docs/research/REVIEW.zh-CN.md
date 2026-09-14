@@ -1,54 +1,54 @@
 # BitGenesis V0 验收入口
 
-最新[第二十三轮](campaign-023.md)已核验全部200个世界：20个来源平均存活差为0，未支持早期抽样性状平均优于祖先的预测。正式研究总账为23轮；下述固定下载包仍覆盖22轮，新包正在准备。
+最新[第二十三轮](campaign-023.md)已核验全部200个世界：20个来源平均存活差为0，未支持早期抽样性状平均优于祖先的预测。正式研究总账为23轮；下述固定下载包已包含全部正式数据。
 
 现在可以验收一个能运行、回放、检查谱系和复现实验的最小达尔文世界。
 **只有 V0 有运行代码**：个体、能量、遗传和繁殖是人为定义的，基因只控制随机移动概率。
 食物感知、记忆和神经控制器仍未实现。
 
-最新[第二十二轮](campaign-022.md)从相同性状祖先出发比较开启/关闭突变：突变组10/20存活，无突变组8/20；净配对优势+2，但有4个仅无突变存活的反例。它不独立证明适应性改善。下述二十二轮整包包含本轮完整正式数据。
+此前[第二十二轮](campaign-022.md)从相同性状祖先出发比较开启/关闭突变：突变组10/20存活，无突变组8/20；净配对优势+2，但有4个仅无突变存活的反例。它不独立证明适应性改善。下述二十三轮整包包含本轮完整正式数据。
 
 ## 下载与打开
 
-下载[二十二轮完整验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-ad8e66198d19fbc2a834)，需要有权限的 GitHub 账号查看。
-完整解压 `bitgenesis-v0-twenty-two-campaigns.zip` 到新目录，从 `START-HERE.txt` 开始，
-再打开 `bitgenesis/data/review-v0-22.html`。保留目录结构，页面依赖相邻图表和世界回放。
+下载[二十三轮完整验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-434a3da01d41ed09e6a3)，需要有权限的 GitHub 账号查看。
+完整解压 `bitgenesis-v0-twenty-three-campaigns.zip` 到新目录，从 `START-HERE.txt` 开始，
+再打开 `bitgenesis/data/review-v0-23.html`。保留目录结构，页面依赖相邻图表和世界回放。
 
-整包约 190.1 MB，含 3,208 个文件，固定源码 `75fa4c0`。包括二十二轮正式原始数据、
-第十八至二十一轮前百步个体观测、第二十二轮完整出生/死亡与谱系记录、验收页、演示与代码。它不会随 main 后续提交自动改变。
+整包约 239.1 MB，含 4,241 个文件，固定源码 `081eb06`。包括二十三轮正式原始数据、
+第十八至二十一轮前百步个体观测、第二十二、二十三轮完整出生/死亡与谱系记录、验收页、演示与代码。它不会随 main 后续提交自动改变。
 
 第十七轮后来追加的个体观测在[第二版观测补充包](../design/observation-supplement.md)中，
 该包约 17.5 MB，独立提供八项复算。旧十七轮整包与其他旧版本都保留原范围。
 
 第十九轮末期空间观测另见[局部资源补充包](../design/local-resource-supplement.md)，第二版约 19.4 MB，
-包含原第十九轮数据、全部四十个末期窗口及后来分析，八项解压复算一致。二十二轮整包未包含这批后来追加的记录。
+包含原第十九轮数据、全部四十个末期窗口及后来分析，八项解压复算一致。二十三轮整包未包含这批后来追加的记录。
 
-第二十轮新增的库存回放另见[库存观测补充包](../design/renewal-stock-supplement.md)，约 40.2 MB，包含原第二十轮与全部六十个百步库存窗口，七份报告解压复算一致。二十二轮整包不含这批后来追加的回放。
+第二十轮新增的库存回放另见[库存观测补充包](../design/renewal-stock-supplement.md)，约 40.2 MB，包含原第二十轮与全部六十个百步库存窗口，七份报告解压复算一致。二十三轮整包不含这批后来追加的回放。
 
 | 材料 | 适合查看 | 覆盖范围 |
 | --- | --- | --- |
-| 二十二轮整包 | 世界回放、谱系与正式实验验收 | 正式 001–022、早期观测与演示 |
+| 二十三轮整包 | 世界回放、谱系与正式实验验收 | 正式 001–023、早期观测与演示 |
 | 第二十轮库存观测包 | 补给、容量截断与实际库存 | 第二十轮全部六十个百步窗口、七项复算 |
 | 十七轮观测第二版 | 早期摄食分配与代际收支 | 第十七轮及八项观测复算 |
 | 第十九轮局部资源包 | 末期位置、资源与行动一致性 | 第十九轮及末期二十步窗口、八项复算 |
 
 ## 已验证到哪里
 
-- 归档的文件大小和 SHA-256 与 GitHub 返回值一致；13 个 HTML 页和 24 个本地目标通过静态检查。
-- 新目录解压后，第二十二轮指标、个体历史和检查点汇总三份完整报告复算一致。
-- 从解压源码新建环境并正式安装，191 项测试通过；千步演示通过记录审计。
+- 归档的文件大小和 SHA-256 与 GitHub 返回值一致；13 个 HTML 页和 26 个本地目标通过静态检查。
+- 新目录解压后，第二十三轮采样、指标、个体历史和检查点汇总四份完整报告复算一致。
+- 从解压源码新建环境并正式安装，201 项测试通过；千步演示通过记录审计。
 - 新演示的指标与事件和归档演示逐字节一致，谱系与摘要 JSON 一致。
-- 归档源码通过[CI 34828088105](https://github.com/nikolasandwich/bitgenesis/actions/runs/34828088105)。
+- 归档源码通过[CI 34831542999](https://github.com/nikolasandwich/bitgenesis/actions/runs/34831542999)。
 
-这些检查不是全二十二轮重新模拟、断网安装保证或浏览器所有交互的重新验收，也不证明生物真实性。
-详细记录见[解压复算](results/portable-review-022.json)、[独立安装](results/portable-wheel-022.json)
-和[上传核验](results/release-022.json)。整包 SHA-256：
+这些检查不是全二十三轮重新模拟、断网安装保证或浏览器所有交互的重新验收，也不证明生物真实性。
+详细记录见[解压复算](results/portable-review-023.json)、[独立安装](results/portable-wheel-023.json)
+和[上传核验](results/release-023.json)。整包 SHA-256：
 
 ```text
-2b9e2b9ce1f72be1a9a7c995df9043eb78a9682ba59de4ff0214027ad6f9aed1
+111a0c21e8ba2cfdfff61b08c4ea09ae3bbcf24f6ef0f8ec1393f4b1a35b0076
 ```
 
-远端核验采用 GitHub API 返回的大小与哈希，尚未独立重新下载。旧[二十轮归档](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-8d064a5f3fad65f69cbf)、[二十一轮归档](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-decf49e3b2b0f36bdbe2)及其他版本保持原范围。
+远端核验采用 GitHub API 返回的大小与哈希，尚未独立重新下载。旧[二十轮归档](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-8d064a5f3fad65f69cbf)、[二十一轮归档](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-decf49e3b2b0f36bdbe2)、[二十二轮归档](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-ad8e66198d19fbc2a834)及其他版本保持原范围。
 
 ## 最值得看的结果
 
