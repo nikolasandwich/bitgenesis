@@ -2350,3 +2350,24 @@ records even when global energy balances. Verified the fourteen completed worlds
 available at inspection (140,014 metric rows) against their stored summaries.
 All 146 local tests pass. Full campaign acceptance and early-observation validation
 remain pending; do not restart the running experiment or alter its seed grid.
+
+## 2026-09-14 — Autonomous cycle 161
+
+Previous cycle made progress by implementing and testing metric reconstruction.
+The original campaign-019 execution handle exited successfully: all forty worlds
+completed without restart. Full verification checked 400,040 metric rows, forty
+initial states and all ten founder/RNG/map quadruplets. Every saved CSV summary
+field also agrees with the JSON results.
+
+Added a dedicated early-observation wrapper that reuses the configuration-driven
+actor verifier without modifying historical code. All forty worlds / 4,000 early
+world-ticks / 239,309 individual energy records pass reconstruction. Four targeted
+tests cover both birth charges, actor/identity/displacement corruption and locally
+balanced but incorrect birth-charge or child-transfer ledgers. Zero direct charges
+do not eliminate extinction: low-threshold birth-cost-zero worlds survive 6/10
+at 10,000 ticks, versus 7/10 with birth cost four; both high-threshold groups are
+10/10 at the horizon. This does not establish a unique mechanism or permanent
+survival. Reports and compact data are retained; the narrative report, formal
+inventory addition, process summary and updated review/archive remain next steps.
+
+All 150 local tests pass after these additions.

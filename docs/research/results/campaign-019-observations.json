@@ -1,0 +1,1812 @@
+{
+  "results": [
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1600,
+      "counts": {
+        "feeding": 7966,
+        "terminal": 227,
+        "energy": 8193,
+        "attempted_moves": 2008,
+        "successful_moves": 1394,
+        "occupied_target_blocks": 614,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 227
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1480,
+          "basal_paid": 2695,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 705,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2695
+        },
+        "descendants": {
+          "eaten": 4824,
+          "basal_paid": 5498,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2435,
+          "initial_energy": 0,
+          "received_from_founders": 705,
+          "ending_energy": 31,
+          "total_paid": 5498
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1601,
+      "counts": {
+        "feeding": 7929,
+        "terminal": 229,
+        "energy": 8158,
+        "attempted_moves": 1992,
+        "successful_moves": 1300,
+        "occupied_target_blocks": 692,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 229
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1368,
+          "basal_paid": 2632,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 652,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 4,
+          "total_paid": 2632
+        },
+        "descendants": {
+          "eaten": 4888,
+          "basal_paid": 5526,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2527,
+          "initial_energy": 0,
+          "received_from_founders": 652,
+          "ending_energy": 14,
+          "total_paid": 5526
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1602,
+      "counts": {
+        "feeding": 8144,
+        "terminal": 217,
+        "energy": 8361,
+        "attempted_moves": 1981,
+        "successful_moves": 1389,
+        "occupied_target_blocks": 592,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 217
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1748,
+          "basal_paid": 2963,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 685,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 20,
+          "total_paid": 2963
+        },
+        "descendants": {
+          "eaten": 4804,
+          "basal_paid": 5398,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2336,
+          "initial_energy": 0,
+          "received_from_founders": 685,
+          "ending_energy": 91,
+          "total_paid": 5398
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1603,
+      "counts": {
+        "feeding": 8060,
+        "terminal": 233,
+        "energy": 8293,
+        "attempted_moves": 1942,
+        "successful_moves": 1336,
+        "occupied_target_blocks": 606,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 233
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1604,
+          "basal_paid": 2747,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 777,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2747
+        },
+        "descendants": {
+          "eaten": 4816,
+          "basal_paid": 5546,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2526,
+          "initial_energy": 0,
+          "received_from_founders": 777,
+          "ending_energy": 47,
+          "total_paid": 5546
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1604,
+      "counts": {
+        "feeding": 7837,
+        "terminal": 225,
+        "energy": 8062,
+        "attempted_moves": 1966,
+        "successful_moves": 1296,
+        "occupied_target_blocks": 670,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 225
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1720,
+          "basal_paid": 2835,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 793,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 12,
+          "total_paid": 2835
+        },
+        "descendants": {
+          "eaten": 4468,
+          "basal_paid": 5227,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2334,
+          "initial_energy": 0,
+          "received_from_founders": 793,
+          "ending_energy": 34,
+          "total_paid": 5227
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1605,
+      "counts": {
+        "feeding": 8029,
+        "terminal": 208,
+        "energy": 8237,
+        "attempted_moves": 1998,
+        "successful_moves": 1398,
+        "occupied_target_blocks": 600,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 208
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1404,
+          "basal_paid": 2743,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 581,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2743
+        },
+        "descendants": {
+          "eaten": 5096,
+          "basal_paid": 5494,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2484,
+          "initial_energy": 0,
+          "received_from_founders": 581,
+          "ending_energy": 183,
+          "total_paid": 5494
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1606,
+      "counts": {
+        "feeding": 8005,
+        "terminal": 230,
+        "energy": 8235,
+        "attempted_moves": 1983,
+        "successful_moves": 1336,
+        "occupied_target_blocks": 647,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 230
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1448,
+          "basal_paid": 2672,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 696,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2672
+        },
+        "descendants": {
+          "eaten": 4932,
+          "basal_paid": 5563,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2608,
+          "initial_energy": 0,
+          "received_from_founders": 696,
+          "ending_energy": 65,
+          "total_paid": 5563
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1607,
+      "counts": {
+        "feeding": 8083,
+        "terminal": 248,
+        "energy": 8331,
+        "attempted_moves": 1941,
+        "successful_moves": 1237,
+        "occupied_target_blocks": 704,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 248
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1476,
+          "basal_paid": 2678,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 708,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 10,
+          "total_paid": 2678
+        },
+        "descendants": {
+          "eaten": 4948,
+          "basal_paid": 5653,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2854,
+          "initial_energy": 0,
+          "received_from_founders": 708,
+          "ending_energy": 3,
+          "total_paid": 5653
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1608,
+      "counts": {
+        "feeding": 7962,
+        "terminal": 229,
+        "energy": 8191,
+        "attempted_moves": 1999,
+        "successful_moves": 1363,
+        "occupied_target_blocks": 636,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 229
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1460,
+          "basal_paid": 2584,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 796,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2584
+        },
+        "descendants": {
+          "eaten": 4872,
+          "basal_paid": 5607,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2407,
+          "initial_energy": 0,
+          "received_from_founders": 796,
+          "ending_energy": 61,
+          "total_paid": 5607
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1609,
+      "counts": {
+        "feeding": 8157,
+        "terminal": 235,
+        "energy": 8392,
+        "attempted_moves": 2086,
+        "successful_moves": 1404,
+        "occupied_target_blocks": 682,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 235
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1552,
+          "basal_paid": 2737,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 725,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 10,
+          "total_paid": 2737
+        },
+        "descendants": {
+          "eaten": 5024,
+          "basal_paid": 5655,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 2658,
+          "initial_energy": 0,
+          "received_from_founders": 725,
+          "ending_energy": 94,
+          "total_paid": 5655
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1600,
+      "counts": {
+        "feeding": 7668,
+        "terminal": 205,
+        "energy": 7873,
+        "attempted_moves": 1946,
+        "successful_moves": 1463,
+        "occupied_target_blocks": 483,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 205
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1568,
+          "basal_paid": 2805,
+          "movement_paid": 0,
+          "birth_paid": 116,
+          "child_energy": 563,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 4,
+          "total_paid": 2921
+        },
+        "descendants": {
+          "eaten": 4984,
+          "basal_paid": 5068,
+          "movement_paid": 0,
+          "birth_paid": 408,
+          "child_energy": 1936,
+          "initial_energy": 0,
+          "received_from_founders": 563,
+          "ending_energy": 71,
+          "total_paid": 5476
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1601,
+      "counts": {
+        "feeding": 7392,
+        "terminal": 201,
+        "energy": 7593,
+        "attempted_moves": 1836,
+        "successful_moves": 1367,
+        "occupied_target_blocks": 469,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 201
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1584,
+          "basal_paid": 2551,
+          "movement_paid": 0,
+          "birth_paid": 160,
+          "child_energy": 784,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 9,
+          "total_paid": 2711
+        },
+        "descendants": {
+          "eaten": 4776,
+          "basal_paid": 5042,
+          "movement_paid": 0,
+          "birth_paid": 368,
+          "child_energy": 1743,
+          "initial_energy": 0,
+          "received_from_founders": 784,
+          "ending_energy": 150,
+          "total_paid": 5410
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1602,
+      "counts": {
+        "feeding": 7616,
+        "terminal": 193,
+        "energy": 7809,
+        "attempted_moves": 1881,
+        "successful_moves": 1456,
+        "occupied_target_blocks": 425,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 193
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1696,
+          "basal_paid": 2802,
+          "movement_paid": 0,
+          "birth_paid": 140,
+          "child_energy": 674,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2942
+        },
+        "descendants": {
+          "eaten": 4776,
+          "basal_paid": 5007,
+          "movement_paid": 0,
+          "birth_paid": 344,
+          "child_energy": 1629,
+          "initial_energy": 0,
+          "received_from_founders": 674,
+          "ending_energy": 99,
+          "total_paid": 5351
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1603,
+      "counts": {
+        "feeding": 7648,
+        "terminal": 199,
+        "energy": 7847,
+        "attempted_moves": 1906,
+        "successful_moves": 1422,
+        "occupied_target_blocks": 484,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 199
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1996,
+          "basal_paid": 2984,
+          "movement_paid": 0,
+          "birth_paid": 156,
+          "child_energy": 764,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 12,
+          "total_paid": 3140
+        },
+        "descendants": {
+          "eaten": 4472,
+          "basal_paid": 4863,
+          "movement_paid": 0,
+          "birth_paid": 336,
+          "child_energy": 1581,
+          "initial_energy": 0,
+          "received_from_founders": 764,
+          "ending_energy": 37,
+          "total_paid": 5199
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1604,
+      "counts": {
+        "feeding": 7299,
+        "terminal": 205,
+        "energy": 7504,
+        "attempted_moves": 1838,
+        "successful_moves": 1324,
+        "occupied_target_blocks": 514,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 205
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1864,
+          "basal_paid": 2803,
+          "movement_paid": 0,
+          "birth_paid": 168,
+          "child_energy": 813,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2971
+        },
+        "descendants": {
+          "eaten": 4276,
+          "basal_paid": 4701,
+          "movement_paid": 0,
+          "birth_paid": 344,
+          "child_energy": 1627,
+          "initial_energy": 0,
+          "received_from_founders": 813,
+          "ending_energy": 44,
+          "total_paid": 5045
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1605,
+      "counts": {
+        "feeding": 7161,
+        "terminal": 191,
+        "energy": 7352,
+        "attempted_moves": 1744,
+        "successful_moves": 1262,
+        "occupied_target_blocks": 482,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 191
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1240,
+          "basal_paid": 2483,
+          "movement_paid": 0,
+          "birth_paid": 116,
+          "child_energy": 561,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2599
+        },
+        "descendants": {
+          "eaten": 4880,
+          "basal_paid": 4869,
+          "movement_paid": 0,
+          "birth_paid": 388,
+          "child_energy": 1832,
+          "initial_energy": 0,
+          "received_from_founders": 561,
+          "ending_energy": 184,
+          "total_paid": 5257
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1606,
+      "counts": {
+        "feeding": 7453,
+        "terminal": 211,
+        "energy": 7664,
+        "attempted_moves": 1845,
+        "successful_moves": 1340,
+        "occupied_target_blocks": 505,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 211
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1708,
+          "basal_paid": 2739,
+          "movement_paid": 0,
+          "birth_paid": 152,
+          "child_energy": 734,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 3,
+          "total_paid": 2891
+        },
+        "descendants": {
+          "eaten": 4648,
+          "basal_paid": 4925,
+          "movement_paid": 0,
+          "birth_paid": 392,
+          "child_energy": 1858,
+          "initial_energy": 0,
+          "received_from_founders": 734,
+          "ending_energy": 65,
+          "total_paid": 5317
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1607,
+      "counts": {
+        "feeding": 7377,
+        "terminal": 205,
+        "energy": 7582,
+        "attempted_moves": 1791,
+        "successful_moves": 1280,
+        "occupied_target_blocks": 511,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 205
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1452,
+          "basal_paid": 2622,
+          "movement_paid": 0,
+          "birth_paid": 128,
+          "child_energy": 622,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 0,
+          "total_paid": 2750
+        },
+        "descendants": {
+          "eaten": 4796,
+          "basal_paid": 4960,
+          "movement_paid": 0,
+          "birth_paid": 396,
+          "child_energy": 1858,
+          "initial_energy": 0,
+          "received_from_founders": 622,
+          "ending_energy": 62,
+          "total_paid": 5356
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1608,
+      "counts": {
+        "feeding": 7587,
+        "terminal": 186,
+        "energy": 7773,
+        "attempted_moves": 1921,
+        "successful_moves": 1432,
+        "occupied_target_blocks": 489,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 186
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1812,
+          "basal_paid": 2877,
+          "movement_paid": 0,
+          "birth_paid": 144,
+          "child_energy": 703,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 8,
+          "total_paid": 3021
+        },
+        "descendants": {
+          "eaten": 4692,
+          "basal_paid": 4896,
+          "movement_paid": 0,
+          "birth_paid": 324,
+          "child_energy": 1539,
+          "initial_energy": 0,
+          "received_from_founders": 703,
+          "ending_energy": 175,
+          "total_paid": 5220
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1609,
+      "counts": {
+        "feeding": 7470,
+        "terminal": 198,
+        "energy": 7668,
+        "attempted_moves": 1826,
+        "successful_moves": 1362,
+        "occupied_target_blocks": 464,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 198
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 1844,
+          "basal_paid": 2857,
+          "movement_paid": 0,
+          "birth_paid": 152,
+          "child_energy": 737,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 18,
+          "total_paid": 3009
+        },
+        "descendants": {
+          "eaten": 4516,
+          "basal_paid": 4811,
+          "movement_paid": 0,
+          "birth_paid": 360,
+          "child_energy": 1710,
+          "initial_energy": 0,
+          "received_from_founders": 737,
+          "ending_energy": 82,
+          "total_paid": 5171
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1600,
+      "counts": {
+        "feeding": 3985,
+        "terminal": 62,
+        "energy": 4047,
+        "attempted_moves": 1012,
+        "successful_moves": 948,
+        "occupied_target_blocks": 64,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 62
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3792,
+          "basal_paid": 3696,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 567,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1449,
+          "total_paid": 3696
+        },
+        "descendants": {
+          "eaten": 692,
+          "basal_paid": 351,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 162,
+          "initial_energy": 0,
+          "received_from_founders": 567,
+          "ending_energy": 908,
+          "total_paid": 351
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1601,
+      "counts": {
+        "feeding": 4036,
+        "terminal": 60,
+        "energy": 4096,
+        "attempted_moves": 1026,
+        "successful_moves": 964,
+        "occupied_target_blocks": 62,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 60
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4336,
+          "basal_paid": 3768,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 482,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 2006,
+          "total_paid": 3768
+        },
+        "descendants": {
+          "eaten": 556,
+          "basal_paid": 328,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 83,
+          "initial_energy": 0,
+          "received_from_founders": 482,
+          "ending_energy": 710,
+          "total_paid": 328
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1602,
+      "counts": {
+        "feeding": 3994,
+        "terminal": 61,
+        "energy": 4055,
+        "attempted_moves": 1003,
+        "successful_moves": 927,
+        "occupied_target_blocks": 76,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 61
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4096,
+          "basal_paid": 3696,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 653,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1667,
+          "total_paid": 3696
+        },
+        "descendants": {
+          "eaten": 516,
+          "basal_paid": 359,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 82,
+          "initial_energy": 0,
+          "received_from_founders": 653,
+          "ending_energy": 810,
+          "total_paid": 359
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1603,
+      "counts": {
+        "feeding": 4102,
+        "terminal": 59,
+        "energy": 4161,
+        "attempted_moves": 1015,
+        "successful_moves": 925,
+        "occupied_target_blocks": 90,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 59
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4252,
+          "basal_paid": 3948,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 405,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1819,
+          "total_paid": 3948
+        },
+        "descendants": {
+          "eaten": 236,
+          "basal_paid": 213,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 405,
+          "ending_energy": 428,
+          "total_paid": 213
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1604,
+      "counts": {
+        "feeding": 4078,
+        "terminal": 62,
+        "energy": 4140,
+        "attempted_moves": 1013,
+        "successful_moves": 950,
+        "occupied_target_blocks": 63,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 62
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4120,
+          "basal_paid": 3792,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 561,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1687,
+          "total_paid": 3792
+        },
+        "descendants": {
+          "eaten": 364,
+          "basal_paid": 348,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 561,
+          "ending_energy": 577,
+          "total_paid": 348
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1605,
+      "counts": {
+        "feeding": 3843,
+        "terminal": 63,
+        "energy": 3906,
+        "attempted_moves": 959,
+        "successful_moves": 898,
+        "occupied_target_blocks": 61,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 63
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3292,
+          "basal_paid": 3712,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 407,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1093,
+          "total_paid": 3712
+        },
+        "descendants": {
+          "eaten": 304,
+          "basal_paid": 194,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 407,
+          "ending_energy": 517,
+          "total_paid": 194
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1606,
+      "counts": {
+        "feeding": 3806,
+        "terminal": 62,
+        "energy": 3868,
+        "attempted_moves": 934,
+        "successful_moves": 883,
+        "occupied_target_blocks": 51,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 62
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3896,
+          "basal_paid": 3700,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 567,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1549,
+          "total_paid": 3700
+        },
+        "descendants": {
+          "eaten": 260,
+          "basal_paid": 168,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 567,
+          "ending_energy": 659,
+          "total_paid": 168
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1607,
+      "counts": {
+        "feeding": 3864,
+        "terminal": 61,
+        "energy": 3925,
+        "attempted_moves": 933,
+        "successful_moves": 875,
+        "occupied_target_blocks": 58,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 61
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3784,
+          "basal_paid": 3684,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 485,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1535,
+          "total_paid": 3684
+        },
+        "descendants": {
+          "eaten": 424,
+          "basal_paid": 241,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 81,
+          "initial_energy": 0,
+          "received_from_founders": 485,
+          "ending_energy": 668,
+          "total_paid": 241
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1608,
+      "counts": {
+        "feeding": 3845,
+        "terminal": 64,
+        "energy": 3909,
+        "attempted_moves": 927,
+        "successful_moves": 866,
+        "occupied_target_blocks": 61,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 64
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3680,
+          "basal_paid": 3512,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 733,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1355,
+          "total_paid": 3512
+        },
+        "descendants": {
+          "eaten": 632,
+          "basal_paid": 397,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 83,
+          "initial_energy": 0,
+          "received_from_founders": 733,
+          "ending_energy": 968,
+          "total_paid": 397
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1609,
+      "counts": {
+        "feeding": 3935,
+        "terminal": 62,
+        "energy": 3997,
+        "attempted_moves": 1020,
+        "successful_moves": 954,
+        "occupied_target_blocks": 66,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 62
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4060,
+          "basal_paid": 3632,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 568,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1780,
+          "total_paid": 3632
+        },
+        "descendants": {
+          "eaten": 696,
+          "basal_paid": 365,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 164,
+          "initial_energy": 0,
+          "received_from_founders": 568,
+          "ending_energy": 899,
+          "total_paid": 365
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1600,
+      "counts": {
+        "feeding": 3973,
+        "terminal": 62,
+        "energy": 4035,
+        "attempted_moves": 997,
+        "successful_moves": 934,
+        "occupied_target_blocks": 63,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 62
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3796,
+          "basal_paid": 3696,
+          "movement_paid": 0,
+          "birth_paid": 24,
+          "child_energy": 475,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1521,
+          "total_paid": 3720
+        },
+        "descendants": {
+          "eaten": 688,
+          "basal_paid": 339,
+          "movement_paid": 0,
+          "birth_paid": 8,
+          "child_energy": 156,
+          "initial_energy": 0,
+          "received_from_founders": 475,
+          "ending_energy": 816,
+          "total_paid": 347
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1601,
+      "counts": {
+        "feeding": 4036,
+        "terminal": 60,
+        "energy": 4096,
+        "attempted_moves": 1026,
+        "successful_moves": 964,
+        "occupied_target_blocks": 62,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 60
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4336,
+          "basal_paid": 3768,
+          "movement_paid": 0,
+          "birth_paid": 24,
+          "child_energy": 469,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1995,
+          "total_paid": 3792
+        },
+        "descendants": {
+          "eaten": 556,
+          "basal_paid": 328,
+          "movement_paid": 0,
+          "birth_paid": 4,
+          "child_energy": 80,
+          "initial_energy": 0,
+          "received_from_founders": 469,
+          "ending_energy": 693,
+          "total_paid": 332
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1602,
+      "counts": {
+        "feeding": 3984,
+        "terminal": 61,
+        "energy": 4045,
+        "attempted_moves": 988,
+        "successful_moves": 926,
+        "occupied_target_blocks": 62,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 61
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4028,
+          "basal_paid": 3712,
+          "movement_paid": 0,
+          "birth_paid": 36,
+          "child_energy": 714,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1486,
+          "total_paid": 3748
+        },
+        "descendants": {
+          "eaten": 504,
+          "basal_paid": 333,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 714,
+          "ending_energy": 885,
+          "total_paid": 333
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1603,
+      "counts": {
+        "feeding": 4102,
+        "terminal": 59,
+        "energy": 4161,
+        "attempted_moves": 1015,
+        "successful_moves": 925,
+        "occupied_target_blocks": 90,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 59
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4252,
+          "basal_paid": 3948,
+          "movement_paid": 0,
+          "birth_paid": 20,
+          "child_energy": 395,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1809,
+          "total_paid": 3968
+        },
+        "descendants": {
+          "eaten": 236,
+          "basal_paid": 213,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 395,
+          "ending_energy": 418,
+          "total_paid": 213
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1604,
+      "counts": {
+        "feeding": 4078,
+        "terminal": 62,
+        "energy": 4140,
+        "attempted_moves": 1013,
+        "successful_moves": 950,
+        "occupied_target_blocks": 63,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 62
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4120,
+          "basal_paid": 3792,
+          "movement_paid": 0,
+          "birth_paid": 28,
+          "child_energy": 547,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1673,
+          "total_paid": 3820
+        },
+        "descendants": {
+          "eaten": 364,
+          "basal_paid": 348,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 547,
+          "ending_energy": 563,
+          "total_paid": 348
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1605,
+      "counts": {
+        "feeding": 3843,
+        "terminal": 63,
+        "energy": 3906,
+        "attempted_moves": 959,
+        "successful_moves": 898,
+        "occupied_target_blocks": 61,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 63
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3292,
+          "basal_paid": 3712,
+          "movement_paid": 0,
+          "birth_paid": 20,
+          "child_energy": 396,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1084,
+          "total_paid": 3732
+        },
+        "descendants": {
+          "eaten": 304,
+          "basal_paid": 194,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 396,
+          "ending_energy": 506,
+          "total_paid": 194
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1606,
+      "counts": {
+        "feeding": 3806,
+        "terminal": 62,
+        "energy": 3868,
+        "attempted_moves": 934,
+        "successful_moves": 883,
+        "occupied_target_blocks": 51,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 62
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3896,
+          "basal_paid": 3700,
+          "movement_paid": 0,
+          "birth_paid": 28,
+          "child_energy": 553,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1535,
+          "total_paid": 3728
+        },
+        "descendants": {
+          "eaten": 260,
+          "basal_paid": 168,
+          "movement_paid": 0,
+          "birth_paid": 0,
+          "child_energy": 0,
+          "initial_energy": 0,
+          "received_from_founders": 553,
+          "ending_energy": 645,
+          "total_paid": 168
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1607,
+      "counts": {
+        "feeding": 3864,
+        "terminal": 61,
+        "energy": 3925,
+        "attempted_moves": 933,
+        "successful_moves": 875,
+        "occupied_target_blocks": 58,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 61
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3784,
+          "basal_paid": 3684,
+          "movement_paid": 0,
+          "birth_paid": 24,
+          "child_energy": 473,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1523,
+          "total_paid": 3708
+        },
+        "descendants": {
+          "eaten": 424,
+          "basal_paid": 241,
+          "movement_paid": 0,
+          "birth_paid": 4,
+          "child_energy": 78,
+          "initial_energy": 0,
+          "received_from_founders": 473,
+          "ending_energy": 652,
+          "total_paid": 245
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1608,
+      "counts": {
+        "feeding": 3843,
+        "terminal": 64,
+        "energy": 3907,
+        "attempted_moves": 933,
+        "successful_moves": 871,
+        "occupied_target_blocks": 62,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 64
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 3520,
+          "basal_paid": 3512,
+          "movement_paid": 0,
+          "birth_paid": 32,
+          "child_energy": 637,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1259,
+          "total_paid": 3544
+        },
+        "descendants": {
+          "eaten": 656,
+          "basal_paid": 395,
+          "movement_paid": 0,
+          "birth_paid": 4,
+          "child_energy": 80,
+          "initial_energy": 0,
+          "received_from_founders": 637,
+          "ending_energy": 894,
+          "total_paid": 399
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1609,
+      "counts": {
+        "feeding": 3942,
+        "terminal": 62,
+        "energy": 4004,
+        "attempted_moves": 1029,
+        "successful_moves": 960,
+        "occupied_target_blocks": 69,
+        "movement_payment_deaths": 0,
+        "basal_deaths": 62
+      },
+      "cohorts": {
+        "founders": {
+          "eaten": 4020,
+          "basal_paid": 3632,
+          "movement_paid": 0,
+          "birth_paid": 36,
+          "child_energy": 712,
+          "initial_energy": 1920,
+          "received_from_founders": 0,
+          "ending_energy": 1560,
+          "total_paid": 3668
+        },
+        "descendants": {
+          "eaten": 620,
+          "basal_paid": 372,
+          "movement_paid": 0,
+          "birth_paid": 8,
+          "child_energy": 158,
+          "initial_energy": 0,
+          "received_from_founders": 712,
+          "ending_energy": 952,
+          "total_paid": 380
+        }
+      }
+    }
+  ],
+  "input_sha256": {
+    "block-threshold-40-birth-cost-0-seed-1600-initial.json": "4f74291644f60e8e0c30102ecefd3bd0ab44ff16d6512b365e00d02d1ce53d38",
+    "block-threshold-40-birth-cost-0-seed-1600.csv": "add19c47f8d4d5c09a422c677506408e6129ff4d3c0cf9de51b7a2f94a79b0d4",
+    "block-threshold-40-birth-cost-0-seed-1600-feeding.jsonl": "4f6be66cfcb86cffc3e1c025dbab0864d7646f518f0cbdde17837b38a96eb3e9",
+    "block-threshold-40-birth-cost-0-seed-1600-terminal.jsonl": "5fa0d5483508e4c7b2a5040ee3bd4616c6fefff17ef79e0bbe62a845017a78f6",
+    "block-threshold-40-birth-cost-0-seed-1600-energy.jsonl": "a566ba4c21ccc589dbedf2a60bac474f29eb3086549fb56691f6f33ba67ef771",
+    "block-threshold-40-birth-cost-0-seed-1601-initial.json": "d4215fa1b3d316e7592fcab9a91ad536eb7362833f10e2c86ac3a4a0b106ecf1",
+    "block-threshold-40-birth-cost-0-seed-1601.csv": "71d75fa176647bf1207cf441c1ef7b2d68788f0ed5a2b141303218aeaccab216",
+    "block-threshold-40-birth-cost-0-seed-1601-feeding.jsonl": "4135e9b61cf699cdab74bdfbf7eae5053a053a98576291a79d64a0d0da0a84f8",
+    "block-threshold-40-birth-cost-0-seed-1601-terminal.jsonl": "470bbf2a74132a9dec7ea9f386b40f8e2cc892649329014efef4718a67dabed9",
+    "block-threshold-40-birth-cost-0-seed-1601-energy.jsonl": "d9529fcade49de43f7077e97e54dadcc8460b5b3f965d5b8017ff10a7c5fe2bf",
+    "block-threshold-40-birth-cost-0-seed-1602-initial.json": "585d19d61c94ca589a702e841cb4535c292e03fa8b99a986cb7b7ed765b32738",
+    "block-threshold-40-birth-cost-0-seed-1602.csv": "da5f85ec3f6a6fd1a7090792f5572eb445bf2fe2a5d3724ced7fc24eeadf3c52",
+    "block-threshold-40-birth-cost-0-seed-1602-feeding.jsonl": "940d01dd95b570208346d32132aab8526ddc3c98b92320578cefc7f5479fb7f3",
+    "block-threshold-40-birth-cost-0-seed-1602-terminal.jsonl": "89b3e4853ac40cd56d3d1fe7d98198a74f4d6583fbb0c5a53e17438af8a5a8d5",
+    "block-threshold-40-birth-cost-0-seed-1602-energy.jsonl": "04fdd5883188cd10cfa3f6fa1abdac23edb0804eee2ddd34b28a7681138d095c",
+    "block-threshold-40-birth-cost-0-seed-1603-initial.json": "c6ee7638b95925f09957cce7a4665e708683e7c25e433d239bf8dcb03ea590d9",
+    "block-threshold-40-birth-cost-0-seed-1603.csv": "838afbbe7cbc324c625d464af31099f053f298fdb4a58d672756489f5e9d1467",
+    "block-threshold-40-birth-cost-0-seed-1603-feeding.jsonl": "5bb7722bda4b783e0f3b5ffd222c76461c38542213671a3dee3f41d72cc2f87f",
+    "block-threshold-40-birth-cost-0-seed-1603-terminal.jsonl": "6172ca0978fcb2c32f5bcc0569d35b6b53d417edeb27f5897bf90a7229f60726",
+    "block-threshold-40-birth-cost-0-seed-1603-energy.jsonl": "9916dd4d8f96b4ff3901c34d852b516dc1e18b4e8752358dfe8a6cdca5c92939",
+    "block-threshold-40-birth-cost-0-seed-1604-initial.json": "02249b8efddc255789a58f4a6bf6bd9c9393be5813addd192a1111182eb778aa",
+    "block-threshold-40-birth-cost-0-seed-1604.csv": "02964332a332726e6d31c37bdd5c9a0aecc9698a4adc1e2ebe261c1ca5323f00",
+    "block-threshold-40-birth-cost-0-seed-1604-feeding.jsonl": "a23bb38b06d42534761823b25cbe3597c0443301f46f6088a9984c69671582dd",
+    "block-threshold-40-birth-cost-0-seed-1604-terminal.jsonl": "0c8683d3a4fed67ec42fe1f38d515ba7e95dd04ff54c11cf58b4d442df9f615a",
+    "block-threshold-40-birth-cost-0-seed-1604-energy.jsonl": "de8ff7291aae1082747b04786417f99c1518af3e88bc17e47ba08e06e945aef1",
+    "block-threshold-40-birth-cost-0-seed-1605-initial.json": "55629dde50ad86a57f9d27f21ce96bf86b5954c0a045f527e1d0b4754bdd8992",
+    "block-threshold-40-birth-cost-0-seed-1605.csv": "7711626f112508d29a7f91193ab16b5adc9e908e5cb8ded395763910f14e1b90",
+    "block-threshold-40-birth-cost-0-seed-1605-feeding.jsonl": "5ee88904c2e84e11124a39ee612f0db1b1c29a223363289c29100c5c8bdb61f8",
+    "block-threshold-40-birth-cost-0-seed-1605-terminal.jsonl": "d07897f666e092e922dbedefa4a9f27bf5b3f80d55a3d4b98b665bcc95669c6c",
+    "block-threshold-40-birth-cost-0-seed-1605-energy.jsonl": "ff6ee62659f08518d893c667fc31833806341bc1f53ae431c96c65542999216c",
+    "block-threshold-40-birth-cost-0-seed-1606-initial.json": "56638f3aa015bb687b158e439100dd5d80efa7a994fa0874dea14862f99da6ad",
+    "block-threshold-40-birth-cost-0-seed-1606.csv": "a913262cf87dd4b09b9883e050ff7a07a940431f991dddd68ba6f2b371371ac6",
+    "block-threshold-40-birth-cost-0-seed-1606-feeding.jsonl": "a2039c789e7ced49beed488293472f4240c25ea4d7cf14d5e3b50ef74f3daa8f",
+    "block-threshold-40-birth-cost-0-seed-1606-terminal.jsonl": "8f36b334d414dbc70cd17521740ec88948a89a93584c6f87cc754dbd739910ed",
+    "block-threshold-40-birth-cost-0-seed-1606-energy.jsonl": "fbc633cef29f159629bfa9d884da1640ff21badd49618140510687fe17fde8e5",
+    "block-threshold-40-birth-cost-0-seed-1607-initial.json": "e0000991ec50cba1ce2625b2be292c305948bfba0b625bc11eb1bbea3403c1dd",
+    "block-threshold-40-birth-cost-0-seed-1607.csv": "ea6390fbc0354c1f44c3601c2ce0fda7ba698a84da073c11e917bd984d9f0d77",
+    "block-threshold-40-birth-cost-0-seed-1607-feeding.jsonl": "39a18d95515d024e58afc7147b6d1bf2b4d05a4d588693628cee7b3fd160d18d",
+    "block-threshold-40-birth-cost-0-seed-1607-terminal.jsonl": "46a0ab5f1ee61631f260c10c33c611125b1836d2b73406a202b19cc4420861f6",
+    "block-threshold-40-birth-cost-0-seed-1607-energy.jsonl": "f548adbdb20f64ff3a7608b707da21b25514431b9ed1e0f2c9f8323f57454e9d",
+    "block-threshold-40-birth-cost-0-seed-1608-initial.json": "88278bf1454a068fcb3922de49647eb7cdec505017395b1f8fd3d0b817f5c943",
+    "block-threshold-40-birth-cost-0-seed-1608.csv": "fc3b8182c2ad596e6e1f8c0cbed8ce00065dd36c879af7fde6f541a574f37bf8",
+    "block-threshold-40-birth-cost-0-seed-1608-feeding.jsonl": "7ee875e054f8579b8c8d232af27fb727c13e2a684efe5c597f6857d2d9aada59",
+    "block-threshold-40-birth-cost-0-seed-1608-terminal.jsonl": "e4ef34510aa27bbef23afc187f01c02f5b7447942ecff5d10c5716500b55094f",
+    "block-threshold-40-birth-cost-0-seed-1608-energy.jsonl": "109df92a233d4fbe4559e63252333c8b0eb4498b5855fa068896cd95a7bf8d48",
+    "block-threshold-40-birth-cost-0-seed-1609-initial.json": "4948c05d1496a7bcb978b61bd9c5a2f7ea6670f955fc551ecb6021abdd83164c",
+    "block-threshold-40-birth-cost-0-seed-1609.csv": "0847754ff73765bc5e9db795632f6f679374d9f11cf7874ed34de277b484e1f1",
+    "block-threshold-40-birth-cost-0-seed-1609-feeding.jsonl": "57791bd81d053979e9a414eae8ac4d3c283e7cdad6dde56480d4dd0492539145",
+    "block-threshold-40-birth-cost-0-seed-1609-terminal.jsonl": "17e9c904cdb109535c9f8db9fea769c9065e8b765e239a87c0f640774acda0b2",
+    "block-threshold-40-birth-cost-0-seed-1609-energy.jsonl": "1de9635b94178bcf5eb3a7da41ca76685326936784f379c55ec83c5c8e56ddd2",
+    "block-threshold-40-birth-cost-4-seed-1600-initial.json": "f3c2c52f13ebf8e1815ec91e4537d02f0666dc78a2529c27bad12c5cc1181f94",
+    "block-threshold-40-birth-cost-4-seed-1600.csv": "b0de71def4e629cd24f33fb49be0ae36bda50673801fec60f737836e53a5b575",
+    "block-threshold-40-birth-cost-4-seed-1600-feeding.jsonl": "8fe9591c68a80adb6edf72f7ebc0dcb3dc1c18096d2f86fe83ee47ea91115928",
+    "block-threshold-40-birth-cost-4-seed-1600-terminal.jsonl": "59a3cde6634b2584da1508d0a45af87b5772d6171a15b6641082b989886d69bf",
+    "block-threshold-40-birth-cost-4-seed-1600-energy.jsonl": "ff670501385f3c1f71a2a91b6c324eac9e41309592e7f99a319b77132f06185a",
+    "block-threshold-40-birth-cost-4-seed-1601-initial.json": "accc8809584c255d3bd0a438f56a2f9bbc7fee2b4fb32b262961b678a414a81a",
+    "block-threshold-40-birth-cost-4-seed-1601.csv": "da415a33ddbed098975422d4a1b17febb2469ad1ea4a4c7e04d0bc3d4c684951",
+    "block-threshold-40-birth-cost-4-seed-1601-feeding.jsonl": "b61a4d4ab2dfa69b8f18de64b8fdb7d6c7264d03376672f5dc2ba0c64eb6a226",
+    "block-threshold-40-birth-cost-4-seed-1601-terminal.jsonl": "0fef70b4665d9ee1834f21779f2b1788768a76a644942bdc08852f347714a84b",
+    "block-threshold-40-birth-cost-4-seed-1601-energy.jsonl": "f19df0caeee93d7ca1ddca5ee210f89b0f98737b658f99e9abb1c6c4ab54a229",
+    "block-threshold-40-birth-cost-4-seed-1602-initial.json": "2702bdf3652f0bd2e962411026b352ceee53fa4ff5a7b448917fdfc95f68aea9",
+    "block-threshold-40-birth-cost-4-seed-1602.csv": "b6ecf75cd11b516f02094c8c036d4607e87bb2764507bec1cfbcf2e0cd791cac",
+    "block-threshold-40-birth-cost-4-seed-1602-feeding.jsonl": "2e767af8b153e8e93347467feeeb41fde8c083dec7d94c4c600fa9373b2b4b3a",
+    "block-threshold-40-birth-cost-4-seed-1602-terminal.jsonl": "bbc9f14fe48ee49803695c3fa6dbfafc2709b0023d5a1b0ee6fc0b733e041d5e",
+    "block-threshold-40-birth-cost-4-seed-1602-energy.jsonl": "5baa881b158f68f2f221f05e4f7e07c611b3687f352c36367788beedcd64156e",
+    "block-threshold-40-birth-cost-4-seed-1603-initial.json": "32dcb10826ce12f6a625f3e01bd4e6c33ea56494e6d8fedf89baf3d2867793b8",
+    "block-threshold-40-birth-cost-4-seed-1603.csv": "675f39171198a54af7de70fbb6ed5a74c5f0cfa064e7788efa6008da8f6ab951",
+    "block-threshold-40-birth-cost-4-seed-1603-feeding.jsonl": "7b45902c2e8daee94e0db4fa74331c50542659c80735b24f11f42e553e557f44",
+    "block-threshold-40-birth-cost-4-seed-1603-terminal.jsonl": "ccbdbe87c2ed48fd662f213616345a46d32c64b918b8c5f20d8cfee67c0b6133",
+    "block-threshold-40-birth-cost-4-seed-1603-energy.jsonl": "8cb9420d5ca1b5d11fe7d2cd9b4ff2a403cfab8e802ece68a2e36b7cb899fe73",
+    "block-threshold-40-birth-cost-4-seed-1604-initial.json": "67d847efc4a28b9e89c74145fea5c9586627e83c2090d3297ef44ea19263fd59",
+    "block-threshold-40-birth-cost-4-seed-1604.csv": "68f9113f091523561eed19a0aff59f7cbb670b0269b9525665b5bb1f9d43e259",
+    "block-threshold-40-birth-cost-4-seed-1604-feeding.jsonl": "97d81ab8df6658a5831df239f6b3a815976b4fdcb03e8ee9e32471a7fe1bf708",
+    "block-threshold-40-birth-cost-4-seed-1604-terminal.jsonl": "9ebcea9b964e00aacdc5fbade5569933256073b6d755265d744bc73070874414",
+    "block-threshold-40-birth-cost-4-seed-1604-energy.jsonl": "3a8e30bd3dcc3f793dcc710f6e1124278a7544c3c4524426e7ad3971560dd276",
+    "block-threshold-40-birth-cost-4-seed-1605-initial.json": "6002d24d581cbfaf3d9c22f93af294bfd688a2f24a22ad2f90aae3c50c33506e",
+    "block-threshold-40-birth-cost-4-seed-1605.csv": "5818061e5a728c829b4fd42fe931f211c5b2feda63e615277a41332f9ef63ba0",
+    "block-threshold-40-birth-cost-4-seed-1605-feeding.jsonl": "fffeb09f03ebc6a46dcc93cf20b84e5cab7eef4a1be9c33c76179e29b2e73c34",
+    "block-threshold-40-birth-cost-4-seed-1605-terminal.jsonl": "4f32eca1b3478ed88ec8801627a2cd7bdcc386e310606675b7d3cc24fdcb8430",
+    "block-threshold-40-birth-cost-4-seed-1605-energy.jsonl": "d6b60fe4b4c84d87f29ad7816fc285935dc9ddd0179695ae574b17aa1ea02da4",
+    "block-threshold-40-birth-cost-4-seed-1606-initial.json": "a0b96fde8ae2f4f875c6702df03686266b92d920d5a7c8efc42491e0a6483e55",
+    "block-threshold-40-birth-cost-4-seed-1606.csv": "032863587eea283a26b864f7af1a2923cc79776f1881ac6d5f1f64cf2ea3d432",
+    "block-threshold-40-birth-cost-4-seed-1606-feeding.jsonl": "52cdb19a8d9fdaf1a40c8c16ee4e77e5f07315156d4f38c9d61b464c665263ab",
+    "block-threshold-40-birth-cost-4-seed-1606-terminal.jsonl": "a6c55561cd36d7666bc1afc0c8e578b6dc56c71657455777f4afe9cb5fc5b7bc",
+    "block-threshold-40-birth-cost-4-seed-1606-energy.jsonl": "2ace780a8a7a7f3e251ed57877ed18e8599d141898054f55582d5f615f6847a6",
+    "block-threshold-40-birth-cost-4-seed-1607-initial.json": "c82b3a724df833f51197d562a2cf23eed071fc994836aa2537b168b0a7077b34",
+    "block-threshold-40-birth-cost-4-seed-1607.csv": "b90d818dbb04e11891ebfc79f297c1d5d559ade955b2aaa21af9aa31486dec1e",
+    "block-threshold-40-birth-cost-4-seed-1607-feeding.jsonl": "af51d351b05e0abaceeeb7c934d2db27af6a03e64bdd190f8911dbeb62636872",
+    "block-threshold-40-birth-cost-4-seed-1607-terminal.jsonl": "17f5328ecac05424b5815ad8a1f3b0fc86fd1f7d76d5fc009992ca695d6c0e70",
+    "block-threshold-40-birth-cost-4-seed-1607-energy.jsonl": "9ea3b51ce23429f5daefb96925f10ab65f95326ebbd4c68713470741c93708ca",
+    "block-threshold-40-birth-cost-4-seed-1608-initial.json": "64a77b8d12c5e7d897c8bf9618cdea6261970c3ae004e1277a0611b031196a9d",
+    "block-threshold-40-birth-cost-4-seed-1608.csv": "34b95ce0292ddf5044c14a23ce09b5486a079c09eeb62def41dd173d3e64ea68",
+    "block-threshold-40-birth-cost-4-seed-1608-feeding.jsonl": "dc87725215110499f6faef618e161d5f047851802cd7b192e552094faf7f8d5a",
+    "block-threshold-40-birth-cost-4-seed-1608-terminal.jsonl": "e153600db7e0ed49e34678592571777bca29469f8edb7052d520c1e36c442cec",
+    "block-threshold-40-birth-cost-4-seed-1608-energy.jsonl": "09d85297824c5c13d68d9d6827dfb76b2778919baad6056c7912a9d104f24d2c",
+    "block-threshold-40-birth-cost-4-seed-1609-initial.json": "6b17f2b98389b33c7b14917679174a79e3e825eb87f3305434d192ac3ecc7d12",
+    "block-threshold-40-birth-cost-4-seed-1609.csv": "145e6bea443a93fd7610b3d708257ee6e9f72fe9f39c4d0fcc049f9f5e034209",
+    "block-threshold-40-birth-cost-4-seed-1609-feeding.jsonl": "d60e1877df741d02e2efaa38e5783f988e03fc0cccdbca89b4ab03ff73bf3506",
+    "block-threshold-40-birth-cost-4-seed-1609-terminal.jsonl": "6da8e256a299421cb986adb3e6e7bec23559833768589f69d2f8f5627eaea73e",
+    "block-threshold-40-birth-cost-4-seed-1609-energy.jsonl": "fbc3ec3aa9ae3eb4d52fad24f9f6815d52c137f98b34cb975531f09e03487e7b",
+    "block-threshold-160-birth-cost-0-seed-1600-initial.json": "ffdf9ead909d785743a55286ef8160d23b191baf7c620abfc50a184a28b2a0e4",
+    "block-threshold-160-birth-cost-0-seed-1600.csv": "c9f6bd75f9c6eb56b390b58ddcfb9774aea428deaad95804c1863adfc54cf497",
+    "block-threshold-160-birth-cost-0-seed-1600-feeding.jsonl": "452ac74ef8ed6852e6ce12c8bae60024d3d0aedf26991ad2432f2154279771e2",
+    "block-threshold-160-birth-cost-0-seed-1600-terminal.jsonl": "ed9371fa17d8bbc7814995d46cee5786add328cffe63ad04c8d502009120ef6e",
+    "block-threshold-160-birth-cost-0-seed-1600-energy.jsonl": "71b599c0a93be65dbea1500a02338dabe97cdf6bfe424fc87e2cf9fff15c5148",
+    "block-threshold-160-birth-cost-0-seed-1601-initial.json": "0aaf19a6804436db2ca72f3759a30b1eefecb5f2a39eb8b3ac599015620da0db",
+    "block-threshold-160-birth-cost-0-seed-1601.csv": "6ec96bc67d872b14dd41622d03c418f63b4bf048780e65ac498a05732b094783",
+    "block-threshold-160-birth-cost-0-seed-1601-feeding.jsonl": "1a3e60ad1e1100046f886a115b92c0278374fd600a46fb32fda86aaf5352fabb",
+    "block-threshold-160-birth-cost-0-seed-1601-terminal.jsonl": "54a63c2a8c6a7c5c0ea0123bb6b347f546271025b124d663f51995df842f9a1e",
+    "block-threshold-160-birth-cost-0-seed-1601-energy.jsonl": "3d6dcc5180699f2f7c3ebbad7784636467faea26b0709b459a2834be899e60bf",
+    "block-threshold-160-birth-cost-0-seed-1602-initial.json": "2f08ff38cb1d50df5af88d63df3833cf5b2b78b0637fe6efdeb9c5a9d1b35ad4",
+    "block-threshold-160-birth-cost-0-seed-1602.csv": "1689bce1c4d0812b77efd09379676de2253cedee8952572cd0ad6ed844b485dd",
+    "block-threshold-160-birth-cost-0-seed-1602-feeding.jsonl": "ac55dbe073f81cdaa65e5c7996db42cfbfe6cb2f514c87ee95138f4d01157873",
+    "block-threshold-160-birth-cost-0-seed-1602-terminal.jsonl": "93caf02e7dac1229d5e9352a43c47abc8459d715388cddc0ad5f5da97306c8e7",
+    "block-threshold-160-birth-cost-0-seed-1602-energy.jsonl": "eb972908948ece4aabb6e7a8ae8d2a3304ce23ecb81f39aff4c4ffdfd8c50c47",
+    "block-threshold-160-birth-cost-0-seed-1603-initial.json": "6eba71455cba8cc9263ba1fb95933140933ec52b551e48e0b9f76dc5f18d31d6",
+    "block-threshold-160-birth-cost-0-seed-1603.csv": "9c27efda4562390bb00dfac588e1c25dd208af46777ca672e6afd981545d281f",
+    "block-threshold-160-birth-cost-0-seed-1603-feeding.jsonl": "a43ca08e91acab413894cb2c4b5274cc9c012ee5a449d8c7d12b4a3d91f93cbf",
+    "block-threshold-160-birth-cost-0-seed-1603-terminal.jsonl": "7ab4c4891bb0c9a577f1f98f680befa1541fc8b7dd516c2027105dcc25aa90e7",
+    "block-threshold-160-birth-cost-0-seed-1603-energy.jsonl": "3a4698439fc0474f00230620b1f45d1aa6646a69e33341aa0490f5ae88f2327f",
+    "block-threshold-160-birth-cost-0-seed-1604-initial.json": "ab1c86ad1d6fe06fdfa2c6751fa37946c5e43133fbc40033b6221c5906d3005e",
+    "block-threshold-160-birth-cost-0-seed-1604.csv": "c20e3a825feb0470619caa6ea5df01eb6f6b0338ec4fb16b0b26331642955656",
+    "block-threshold-160-birth-cost-0-seed-1604-feeding.jsonl": "7c62dc3d0aa027be209ac20232790c092a672cdfedf953f9114b4e168cb53418",
+    "block-threshold-160-birth-cost-0-seed-1604-terminal.jsonl": "f12acd5b2bd170095cd79889871323835c7555add3b48ae0b4fd28f14d823c98",
+    "block-threshold-160-birth-cost-0-seed-1604-energy.jsonl": "c70ff076a60ecef39b7257ccbc90eb06adbf06f6d565f96883774b429a0477c4",
+    "block-threshold-160-birth-cost-0-seed-1605-initial.json": "7cd43adec923275fa275f82762d03f84dca5c29959ef1f3d566df3731b7fce3c",
+    "block-threshold-160-birth-cost-0-seed-1605.csv": "74404ef409bf2fcb00f8ed8ca69958d99a12174cbebe4f374c93929f25e7206e",
+    "block-threshold-160-birth-cost-0-seed-1605-feeding.jsonl": "43e0432e5cd86cdcca063893c64053b1ccc59cdc3e8d9fedb48395a7cd5bd579",
+    "block-threshold-160-birth-cost-0-seed-1605-terminal.jsonl": "9d2979b4744c715f4abf9bec5c8f618b336bfe7574c965479125ed15a3b24bd7",
+    "block-threshold-160-birth-cost-0-seed-1605-energy.jsonl": "8f0edf191b0662251c9db148813477db7dee131201ae455f58ead460b7dcbf38",
+    "block-threshold-160-birth-cost-0-seed-1606-initial.json": "6dfec7a399b6aad7cf760330657b405a0f6aa661dcf83c63ed6b07075aea7b8a",
+    "block-threshold-160-birth-cost-0-seed-1606.csv": "a5c865922c9714773449867225f7e824de50ec1cc703639d28522f06d696c479",
+    "block-threshold-160-birth-cost-0-seed-1606-feeding.jsonl": "3f45deb0063bb56f2a3c9271efd455667c381272b272f288945420a0e75c64d0",
+    "block-threshold-160-birth-cost-0-seed-1606-terminal.jsonl": "2b434d6d09262e1b23c15d1c961b5d72c95a6974b90ff6288bd876314c18e5bb",
+    "block-threshold-160-birth-cost-0-seed-1606-energy.jsonl": "b7c8ae4cfa7e385fc8ef74f54b1096790109403a0989a434197ee7c45e9113f5",
+    "block-threshold-160-birth-cost-0-seed-1607-initial.json": "3dc6a08194eefe72f4de6c54ae979a99f7591bd1df891c3e628e72811ed059e1",
+    "block-threshold-160-birth-cost-0-seed-1607.csv": "9f63668836a2ab1c2d44c0210b202354e2e4e3cb1309c6ffe26fe2685dbfb7b4",
+    "block-threshold-160-birth-cost-0-seed-1607-feeding.jsonl": "d0386dfd1b084ab347e64a62ed60f450d74d4268db8f01f131bd67ea45aeed77",
+    "block-threshold-160-birth-cost-0-seed-1607-terminal.jsonl": "9d47ac03df124b257a5223269fc672da6e07f86e492dae46640d80fa80f576a5",
+    "block-threshold-160-birth-cost-0-seed-1607-energy.jsonl": "69169b4d67fa80ed29d80872af58e9e11611caa43374e04ce475d86be3ff8335",
+    "block-threshold-160-birth-cost-0-seed-1608-initial.json": "f4969b68f1d9adec2dbeb9fef06c820d78bb22a8020afbafd3b8d624a0aee96c",
+    "block-threshold-160-birth-cost-0-seed-1608.csv": "5d2ca5301051cff72f0e83bf89471c5b7fb5e711c601d9f445d98fff68b48e5e",
+    "block-threshold-160-birth-cost-0-seed-1608-feeding.jsonl": "4923a648b9c85ec18adc679acb11ccec79e58a4bd8c608417df425ba03d8a9aa",
+    "block-threshold-160-birth-cost-0-seed-1608-terminal.jsonl": "1380c268f380c7d2e7481e87ebc0040eabeb7a459dba2843917a963dfab3b925",
+    "block-threshold-160-birth-cost-0-seed-1608-energy.jsonl": "b32f6af815fab0e18d455f748c55825a8cdd2362ae1ede6afcc941795a96bb55",
+    "block-threshold-160-birth-cost-0-seed-1609-initial.json": "42e7cc6e8f40add62ed58e2bd897697874da5251b889d87b2ae429fd032baf96",
+    "block-threshold-160-birth-cost-0-seed-1609.csv": "863f4f38d2dbedd4909c660ef78b2fe512960645efa8876053d00326f74f6ca4",
+    "block-threshold-160-birth-cost-0-seed-1609-feeding.jsonl": "0ff1cdf829697d7c52bc7f12b6f9ec0861b9eff76b1ed0f7680e504ba82467b8",
+    "block-threshold-160-birth-cost-0-seed-1609-terminal.jsonl": "e45ca9a14e80e64dd3abf603d756cfa8689312ff95dba84596332ae33bbab0a9",
+    "block-threshold-160-birth-cost-0-seed-1609-energy.jsonl": "bf5053f378b541f2a695efdf5a5b0f33f0002d705bdf0a1eaf33ccca8e415276",
+    "block-threshold-160-birth-cost-4-seed-1600-initial.json": "999d6ff2cec4795bd37ccb704817092caa04d822ce2c970c74e9418e5696bd02",
+    "block-threshold-160-birth-cost-4-seed-1600.csv": "72da7b8400d3f1df95432464168dce0589214c6ca1ec46943b151de43e9560ad",
+    "block-threshold-160-birth-cost-4-seed-1600-feeding.jsonl": "55faf9c7b7586067ec905430087122c3ecc2bebef34793ba4c0430a9f7bebb52",
+    "block-threshold-160-birth-cost-4-seed-1600-terminal.jsonl": "ed9371fa17d8bbc7814995d46cee5786add328cffe63ad04c8d502009120ef6e",
+    "block-threshold-160-birth-cost-4-seed-1600-energy.jsonl": "3b252f43a46be5066e98e10e3cf0b1574898d7750a950d6cc182218d4e7f1cf1",
+    "block-threshold-160-birth-cost-4-seed-1601-initial.json": "82749a31a190816fcef31d9c0c411d9c59e77f3127a2f1e550dda622d883e3a5",
+    "block-threshold-160-birth-cost-4-seed-1601.csv": "67f7bed99e563496b04361c03f1ac594cbbf627a1f89678b78710a9c6bb4946b",
+    "block-threshold-160-birth-cost-4-seed-1601-feeding.jsonl": "502edcf43158d851e6a39c64948580e6534987495b2aa24c4afc72a7a9412c99",
+    "block-threshold-160-birth-cost-4-seed-1601-terminal.jsonl": "54a63c2a8c6a7c5c0ea0123bb6b347f546271025b124d663f51995df842f9a1e",
+    "block-threshold-160-birth-cost-4-seed-1601-energy.jsonl": "73e44162853b100e3eac833836c3b46830251c939650fd1df2422df0974d3299",
+    "block-threshold-160-birth-cost-4-seed-1602-initial.json": "4c06e202cd8a82d0a12e3543caea7a0495c95f44988f860a989e01d066addbeb",
+    "block-threshold-160-birth-cost-4-seed-1602.csv": "7462dcb8076592c40c9251f3d5f5e6118433ec61393fc76a8218e8333498bc92",
+    "block-threshold-160-birth-cost-4-seed-1602-feeding.jsonl": "4b24a40c64685d58a9e8ec85c33caef6d6909fdf177869397e26fe6f49f73e32",
+    "block-threshold-160-birth-cost-4-seed-1602-terminal.jsonl": "54525f8a544b2079e7fc19f489a1ce05eb028fdead10c4df56bbab8749a79614",
+    "block-threshold-160-birth-cost-4-seed-1602-energy.jsonl": "7c8ec2facb1d0e2a5a20610a902dd7cfb97ef6228b96ce88bf4d7977403e81e4",
+    "block-threshold-160-birth-cost-4-seed-1603-initial.json": "bb463664146d394bfaa2476ca6e649abd630ed607a36e9e763ec7d4d12786978",
+    "block-threshold-160-birth-cost-4-seed-1603.csv": "e1f2897805f52eeeb50edee222d3f01cb16c3469fd3e9095731c013b153c7cf2",
+    "block-threshold-160-birth-cost-4-seed-1603-feeding.jsonl": "5bf7c26078cbb71bfe0c95cc9d69b32cd589f0fd8ed23552aec9766cd3f4d84f",
+    "block-threshold-160-birth-cost-4-seed-1603-terminal.jsonl": "7ab4c4891bb0c9a577f1f98f680befa1541fc8b7dd516c2027105dcc25aa90e7",
+    "block-threshold-160-birth-cost-4-seed-1603-energy.jsonl": "e32116019deaca4e886222de11c44f5f6458bea20c95d64306461c4572a41d0e",
+    "block-threshold-160-birth-cost-4-seed-1604-initial.json": "0a8de0fe03fd8bd8fbb48dae12bfe48193b198e450584de0d28c15dfaf672863",
+    "block-threshold-160-birth-cost-4-seed-1604.csv": "fea4b029067774967d72078912de79360e79aa288ab2698de58163a4fc8be506",
+    "block-threshold-160-birth-cost-4-seed-1604-feeding.jsonl": "dcf60fbc5ef38f712926dc55a25b7a89a255f18d13c1854167de2b120e473868",
+    "block-threshold-160-birth-cost-4-seed-1604-terminal.jsonl": "f12acd5b2bd170095cd79889871323835c7555add3b48ae0b4fd28f14d823c98",
+    "block-threshold-160-birth-cost-4-seed-1604-energy.jsonl": "21260eebe88d90b163872d045a4f2f4f9b7d69137aee95a691e0d0cae31016ab",
+    "block-threshold-160-birth-cost-4-seed-1605-initial.json": "d0c16bd880446ca6d079efabc6d611daaa14581e9cd528ee365f9ed554c25f06",
+    "block-threshold-160-birth-cost-4-seed-1605.csv": "ac215a74962b2a3ece8bf2e6938d6a09da09a6f6d4f7e8d67d0fabc10795fb25",
+    "block-threshold-160-birth-cost-4-seed-1605-feeding.jsonl": "f628ade0a9c51b1b5428467864262ea9bdd3432addaf4e4e29dd103327e39725",
+    "block-threshold-160-birth-cost-4-seed-1605-terminal.jsonl": "9d2979b4744c715f4abf9bec5c8f618b336bfe7574c965479125ed15a3b24bd7",
+    "block-threshold-160-birth-cost-4-seed-1605-energy.jsonl": "4d543c521c75329f897eb8ae70c4101922351460bdbf2821808af8a4fe9bdfda",
+    "block-threshold-160-birth-cost-4-seed-1606-initial.json": "78895980a95e9bcf7f1df7e3865d6ba6423b91c0374e366c515a8b7caf07e94c",
+    "block-threshold-160-birth-cost-4-seed-1606.csv": "6f84f1008bc528ee4f4bd99acccd108133dadbdfe66d8690210087c43b38b279",
+    "block-threshold-160-birth-cost-4-seed-1606-feeding.jsonl": "799b08e358032364f752c041bd37587078206bf83022263603a3936fc914284f",
+    "block-threshold-160-birth-cost-4-seed-1606-terminal.jsonl": "2b434d6d09262e1b23c15d1c961b5d72c95a6974b90ff6288bd876314c18e5bb",
+    "block-threshold-160-birth-cost-4-seed-1606-energy.jsonl": "472eabd4e2d419690aa26842af67ad59903f7f3722b2f60f934da909bf9a6502",
+    "block-threshold-160-birth-cost-4-seed-1607-initial.json": "6f5679f118b473a9857b84bcb0889bb551dbc095ea254dfc0aaa2c4885af8208",
+    "block-threshold-160-birth-cost-4-seed-1607.csv": "c8a2eb46d675c939f57894d44daf6303b09413fb27b9fde2a690330f8e62f85c",
+    "block-threshold-160-birth-cost-4-seed-1607-feeding.jsonl": "3a44b83462495876223497f5a0ba5479618483359a3bb67c322eb4647a25caad",
+    "block-threshold-160-birth-cost-4-seed-1607-terminal.jsonl": "9d47ac03df124b257a5223269fc672da6e07f86e492dae46640d80fa80f576a5",
+    "block-threshold-160-birth-cost-4-seed-1607-energy.jsonl": "d8294a537315ede6cc5b9c0b511fda58f0e59ef997b6b4188a0adc30d932f334",
+    "block-threshold-160-birth-cost-4-seed-1608-initial.json": "eefaf3dadaa630a2b4466442d9869e265b04a24e4d8f30038741bc7e30ffbcaa",
+    "block-threshold-160-birth-cost-4-seed-1608.csv": "37f52afb414329505e932cc62cdab07bae4aba4acc3fdb7bd7afcc19314ee63a",
+    "block-threshold-160-birth-cost-4-seed-1608-feeding.jsonl": "e0b73b7d084f9bd648a7b334d3497e861e96c85a8e1b48fb8fa91d3694074b3f",
+    "block-threshold-160-birth-cost-4-seed-1608-terminal.jsonl": "1380c268f380c7d2e7481e87ebc0040eabeb7a459dba2843917a963dfab3b925",
+    "block-threshold-160-birth-cost-4-seed-1608-energy.jsonl": "0457fbb11645554555c6354546c371dbddecc6aa2b88f0bc4a9dea6cbe873369",
+    "block-threshold-160-birth-cost-4-seed-1609-initial.json": "dfbf4b27279bf3d2da5d216acaa71a4e9c17192a0662d295ef48256bd20092f6",
+    "block-threshold-160-birth-cost-4-seed-1609.csv": "1a778af9e59d909044229e74f22bad1da35012488eb400011b9ac37261387827",
+    "block-threshold-160-birth-cost-4-seed-1609-feeding.jsonl": "48560f5d918bcb43f63e4aa0c273a1dcca94ab50a56cec38c839327b95fc67f2",
+    "block-threshold-160-birth-cost-4-seed-1609-terminal.jsonl": "e45ca9a14e80e64dd3abf603d756cfa8689312ff95dba84596332ae33bbab0a9",
+    "block-threshold-160-birth-cost-4-seed-1609-energy.jsonl": "ed5ca81d723bb3328ac26795ed5b57fe36f9d721a9a028f9deae028c6b0ac271"
+  },
+  "verified_actor_ticks": 4000,
+  "scope": "Recorded early actor partitions, energy, genealogy labels and legal displacement. Unrecorded blocked destinations, birth positions and full local food histories are not reconstructed. No independent stochastic replay or unique causal claim.",
+  "metrics_verification_sha256": "fca831cdf2e7307da99c6db6a6999d868c842f6220ce0c5511ef93a5952d55bd",
+  "early_helper_sha256": "b3ba3536288abb2abe52e3721e48e19352e5c402668a6d7c9e12c1daec6f99b7",
+  "script_sha256": "5e6e881a0932fe6725acc541d7061f5b1ed01efde9e44f1f7c122e0d5e92e25d",
+  "cohort_helper_sha256": "2bd4b7660b71e475d6d6ba2317ff26094586035fa2e4587612318d241cb021bd"
+}
