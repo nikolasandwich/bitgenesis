@@ -1,0 +1,1349 @@
+{
+  "scope": "complete cohort, independent dynamics and registered windows; fixed-site activity only",
+  "checks": [
+    {
+      "directory": "seed-91000-drive-0-exchange-0",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "6/25",
+          "mean_bonds": "141/25",
+          "mean_largest_component": "17/10",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4630,
+          "bond_cost": 1128
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 187,
+          "initial_energy": 5758,
+          "final_energy": 0,
+          "spent": 5758,
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4630,
+          "last_transition_bonds": 0,
+          "last_transition_components": 187
+        },
+        "output_sha256": {
+          "initial.json": "af5e897aa13b1eb104e31408c56e527b7f7593ddb7d6772221483ef1ac88ddd3",
+          "steps.jsonl": "228d88894d2d59957cefa10d5e26dd78f4a61265a6c879c354ebb0cd1e155124",
+          "final.json": "d6b820c5a13c72e337e00425b85f2dede705f5ea96218cec1dd584c826940180",
+          "summary.json": "3a51a26e892ac02e211662a08f2134a5c5db66a75dd4917a9e8ecf390cfa17ca"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91000-drive-0-exchange-1",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "6/25",
+          "mean_bonds": "194/25",
+          "mean_largest_component": "2",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4206,
+          "bond_cost": 1552
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 187,
+          "initial_energy": 5758,
+          "final_energy": 0,
+          "spent": 5758,
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4206,
+          "last_transition_bonds": 0,
+          "last_transition_components": 187
+        },
+        "output_sha256": {
+          "initial.json": "af5e897aa13b1eb104e31408c56e527b7f7593ddb7d6772221483ef1ac88ddd3",
+          "steps.jsonl": "f511a0e84698b75d68e1ff2e0ec5aae6712d98f9d6cb4d85279223824a87100a",
+          "final.json": "d6b820c5a13c72e337e00425b85f2dede705f5ea96218cec1dd584c826940180",
+          "summary.json": "79b0ff785455c451e7f7bba6a92a0204211045c5bf922bc6dd567a7a9e4bd395"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91000-drive-500-exchange-0",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "1",
+          "mean_bonds": "7209/100",
+          "mean_largest_component": "248/25",
+          "imported": 38414,
+          "rejected_import": 65138,
+          "leakage": 18677,
+          "bond_cost": 14418
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "1",
+          "mean_bonds": "3621/50",
+          "mean_largest_component": "10",
+          "imported": 49741,
+          "rejected_import": 103995,
+          "leakage": 28021,
+          "bond_cost": 21726
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "1",
+          "mean_bonds": "18083/250",
+          "mean_largest_component": "1243/125",
+          "imported": 82958,
+          "rejected_import": 172786,
+          "leakage": 46694,
+          "bond_cost": 36166
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 187,
+          "initial_energy": 5758,
+          "final_energy": 11169,
+          "spent": 165702,
+          "imported": 171113,
+          "rejected_import": 341919,
+          "leakage": 93392,
+          "last_transition_bonds": 73,
+          "last_transition_components": 116
+        },
+        "output_sha256": {
+          "initial.json": "af5e897aa13b1eb104e31408c56e527b7f7593ddb7d6772221483ef1ac88ddd3",
+          "steps.jsonl": "dbd6f427a43d87ab3404cc72e08616e41642d85c04a931f6ce25fdc022f3433a",
+          "final.json": "d33d69d151021d56be1e888f13adc7236fd06121b440a2367aca5d3e4359a43b",
+          "summary.json": "fae85b9efb6ca1742fa65a633a17a34e24c884ece3a28db8cdae9722a281f3d0"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91000-drive-500-exchange-1",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "1",
+          "mean_bonds": "73",
+          "mean_largest_component": "10",
+          "imported": 38799,
+          "rejected_import": 64753,
+          "leakage": 18697,
+          "bond_cost": 14600
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "1",
+          "mean_bonds": "73",
+          "mean_largest_component": "10",
+          "imported": 49976,
+          "rejected_import": 103760,
+          "leakage": 28050,
+          "bond_cost": 21900
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "1",
+          "mean_bonds": "73",
+          "mean_largest_component": "10",
+          "imported": 83330,
+          "rejected_import": 172414,
+          "leakage": 46750,
+          "bond_cost": 36500
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 187,
+          "initial_energy": 5758,
+          "final_energy": 11366,
+          "spent": 166497,
+          "imported": 172105,
+          "rejected_import": 340927,
+          "leakage": 93497,
+          "last_transition_bonds": 73,
+          "last_transition_components": 116
+        },
+        "output_sha256": {
+          "initial.json": "af5e897aa13b1eb104e31408c56e527b7f7593ddb7d6772221483ef1ac88ddd3",
+          "steps.jsonl": "d238a43291855522dab05449d6b07e0d0e6ba4bf144c4ff470a2d91265dda639",
+          "final.json": "545a72e884ee2f2923ef4b855e7235e880101471230f3d0fd5cf0f75ab71276f",
+          "summary.json": "48f4122dfd913a77713a90c960136dc9d9151284ccbb98bf299f7ae2b8028f3e"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91001-drive-0-exchange-0",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "27/100",
+          "mean_bonds": "361/50",
+          "mean_largest_component": "191/100",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 5087,
+          "bond_cost": 1444
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 202,
+          "initial_energy": 6531,
+          "final_energy": 0,
+          "spent": 6531,
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 5087,
+          "last_transition_bonds": 0,
+          "last_transition_components": 202
+        },
+        "output_sha256": {
+          "initial.json": "da30c4038736033c108dfd1382696c64886654a5e8e33b8a27da241288dce6fa",
+          "steps.jsonl": "e70a648f3e7aa0b826f0996e86543d394c09dd8feda2e4b2beab2eeb202699bf",
+          "final.json": "9feb2ae6e06c0a5d068313b93e09e5ed4b4076d8c10c2b7d45f767a39fa069b6",
+          "summary.json": "efba1e4ef252a4afb3e290a67bb8b07bb0484064e9e22d62464a85c69c7d60f0"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91001-drive-0-exchange-1",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "21/100",
+          "mean_bonds": "943/100",
+          "mean_largest_component": "51/25",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4645,
+          "bond_cost": 1886
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 202,
+          "initial_energy": 6531,
+          "final_energy": 0,
+          "spent": 6531,
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4645,
+          "last_transition_bonds": 0,
+          "last_transition_components": 202
+        },
+        "output_sha256": {
+          "initial.json": "da30c4038736033c108dfd1382696c64886654a5e8e33b8a27da241288dce6fa",
+          "steps.jsonl": "d046807a5ab12cf352edf7711805470de6de11465128e8546b3e3405131c8b9a",
+          "final.json": "9feb2ae6e06c0a5d068313b93e09e5ed4b4076d8c10c2b7d45f767a39fa069b6",
+          "summary.json": "5d2267feb2a743281bd610a2eac31195d740250e7782f2811e536a140642c42f"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91001-drive-500-exchange-0",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "1",
+          "mean_bonds": "4113/50",
+          "mean_largest_component": "9",
+          "imported": 41797,
+          "rejected_import": 59539,
+          "leakage": 20165,
+          "bond_cost": 16452
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "1",
+          "mean_bonds": "163/2",
+          "mean_largest_component": "1319/150",
+          "imported": 54828,
+          "rejected_import": 98204,
+          "leakage": 30227,
+          "bond_cost": 24450
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "1",
+          "mean_bonds": "20569/250",
+          "mean_largest_component": "2217/250",
+          "imported": 91503,
+          "rejected_import": 165593,
+          "leakage": 50425,
+          "bond_cost": 41138
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 202,
+          "initial_energy": 6531,
+          "final_energy": 11802,
+          "spent": 182857,
+          "imported": 188128,
+          "rejected_import": 323336,
+          "leakage": 100817,
+          "last_transition_bonds": 84,
+          "last_transition_components": 120
+        },
+        "output_sha256": {
+          "initial.json": "da30c4038736033c108dfd1382696c64886654a5e8e33b8a27da241288dce6fa",
+          "steps.jsonl": "a35206960108bcd4f2c0b4bfb10ea3988f69e4cd476ef2496f29d234f4b4aa4b",
+          "final.json": "8d455552e1a10f6f5a8626c713743a6ef00bbcc64e96b3f56771ebc3f6313701",
+          "summary.json": "5d1d5a4333e2f1214aa28ccd050fc6bf1a17c10e02ae2bb964fad91e944d311d"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91001-drive-500-exchange-1",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "1",
+          "mean_bonds": "8397/100",
+          "mean_largest_component": "9",
+          "imported": 42591,
+          "rejected_import": 58745,
+          "leakage": 20197,
+          "bond_cost": 16794
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "1",
+          "mean_bonds": "84",
+          "mean_largest_component": "9",
+          "imported": 55546,
+          "rejected_import": 97486,
+          "leakage": 30300,
+          "bond_cost": 25200
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "1",
+          "mean_bonds": "84",
+          "mean_largest_component": "9",
+          "imported": 92425,
+          "rejected_import": 164671,
+          "leakage": 50500,
+          "bond_cost": 42000
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 202,
+          "initial_energy": 6531,
+          "final_energy": 12102,
+          "spent": 184991,
+          "imported": 190562,
+          "rejected_import": 320902,
+          "leakage": 100997,
+          "last_transition_bonds": 84,
+          "last_transition_components": 120
+        },
+        "output_sha256": {
+          "initial.json": "da30c4038736033c108dfd1382696c64886654a5e8e33b8a27da241288dce6fa",
+          "steps.jsonl": "12c0cba5e405667628220eadca4350080ca79031663e35314704bc1ea585c781",
+          "final.json": "6500a9bed5feee92f1827fe41eac3710e0789374809ba30c79f5746f1e867325",
+          "summary.json": "08524e2668ec4665a4ce528b302dbbc5731d92d1ac58825e12d3d3e33f54c8e0"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91002-drive-0-exchange-0",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "13/50",
+          "mean_bonds": "767/100",
+          "mean_largest_component": "169/100",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4895,
+          "bond_cost": 1534
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 201,
+          "initial_energy": 6429,
+          "final_energy": 0,
+          "spent": 6429,
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4895,
+          "last_transition_bonds": 0,
+          "last_transition_components": 201
+        },
+        "output_sha256": {
+          "initial.json": "3af804e2165399a6db79ca0dc40448372208709e7eff9ee48dbbd5afca00219c",
+          "steps.jsonl": "db297d48d3bf3019655ce566ca5610ce0352a517b1a0c556c9f0b6458c6360eb",
+          "final.json": "44288525d4b60ebfbc140ccb9735183f3a882aab45b06cbdbf3fe4fa2c359a0c",
+          "summary.json": "4657a9b7291a84de637668e70ac5b3174d7e85a54d21c72a60ddf069bb8b37e2"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91002-drive-0-exchange-1",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "13/50",
+          "mean_bonds": "39/4",
+          "mean_largest_component": "37/20",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4479,
+          "bond_cost": 1950
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 201,
+          "initial_energy": 6429,
+          "final_energy": 0,
+          "spent": 6429,
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4479,
+          "last_transition_bonds": 0,
+          "last_transition_components": 201
+        },
+        "output_sha256": {
+          "initial.json": "3af804e2165399a6db79ca0dc40448372208709e7eff9ee48dbbd5afca00219c",
+          "steps.jsonl": "adeaa90700d32b7ebf0db9db69e1ec5c649fe49c2d51d2b753ec657b57dedf79",
+          "final.json": "44288525d4b60ebfbc140ccb9735183f3a882aab45b06cbdbf3fe4fa2c359a0c",
+          "summary.json": "17585a76fff98449e1c660503c2e6362656aabfae6dbe593538823c3d43cfcc8"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91002-drive-500-exchange-0",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "1",
+          "mean_bonds": "1623/20",
+          "mean_largest_component": "174/25",
+          "imported": 41690,
+          "rejected_import": 60182,
+          "leakage": 20069,
+          "bond_cost": 16230
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "1",
+          "mean_bonds": "6131/75",
+          "mean_largest_component": "7",
+          "imported": 54540,
+          "rejected_import": 99700,
+          "leakage": 30123,
+          "bond_cost": 24524
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "1",
+          "mean_bonds": "10249/125",
+          "mean_largest_component": "7",
+          "imported": 91374,
+          "rejected_import": 164882,
+          "leakage": 50210,
+          "bond_cost": 40996
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 201,
+          "initial_energy": 6429,
+          "final_energy": 11881,
+          "spent": 182152,
+          "imported": 187604,
+          "rejected_import": 324764,
+          "leakage": 100402,
+          "last_transition_bonds": 83,
+          "last_transition_components": 119
+        },
+        "output_sha256": {
+          "initial.json": "3af804e2165399a6db79ca0dc40448372208709e7eff9ee48dbbd5afca00219c",
+          "steps.jsonl": "ff6bee50ecd4a595dc08f2c81e27925e2a221a56fccbcfc6dd565df251a35929",
+          "final.json": "3d3523ce9ef674f55184520be78cb7bdca83c26b87245de74b0709b61c1cd869",
+          "summary.json": "2440847dc1842c0bd808dbf70d1206c89ac0aa6fe942f0e3a66cafa68cedf90f"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91002-drive-500-exchange-1",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "1",
+          "mean_bonds": "8291/100",
+          "mean_largest_component": "7",
+          "imported": 42327,
+          "rejected_import": 59545,
+          "leakage": 20094,
+          "bond_cost": 16582
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "1",
+          "mean_bonds": "83",
+          "mean_largest_component": "7",
+          "imported": 54969,
+          "rejected_import": 99271,
+          "leakage": 30150,
+          "bond_cost": 24900
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "1",
+          "mean_bonds": "83",
+          "mean_largest_component": "7",
+          "imported": 91862,
+          "rejected_import": 164394,
+          "leakage": 50250,
+          "bond_cost": 41500
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 201,
+          "initial_energy": 6429,
+          "final_energy": 12111,
+          "spent": 183476,
+          "imported": 189158,
+          "rejected_import": 323210,
+          "leakage": 100494,
+          "last_transition_bonds": 83,
+          "last_transition_components": 119
+        },
+        "output_sha256": {
+          "initial.json": "3af804e2165399a6db79ca0dc40448372208709e7eff9ee48dbbd5afca00219c",
+          "steps.jsonl": "239503e690c39ec43f03955b2fe657b55b6375e48e2b43eb5d61b0a4d5e44bc8",
+          "final.json": "03169a6c38be6578b45b0989421000e4796c9e8a8440ed191436514cc637c919",
+          "summary.json": "ca2c0f63628711484883973b48fa2bbd34187a0f55bdaa4d0b1c0256356af3d2"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91003-drive-0-exchange-0",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "6/25",
+          "mean_bonds": "99/20",
+          "mean_largest_component": "81/50",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4983,
+          "bond_cost": 990
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 191,
+          "initial_energy": 5973,
+          "final_energy": 0,
+          "spent": 5973,
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4983,
+          "last_transition_bonds": 0,
+          "last_transition_components": 191
+        },
+        "output_sha256": {
+          "initial.json": "7122b84fa4811a5681d12ec518bb31bacdf6ed23a1bc2cc9a4249fa2ce20226e",
+          "steps.jsonl": "b28347f9e381d20748d891dac790e64eec506d1d7f28cc77de3038ce312511b8",
+          "final.json": "b13a3ef0a5040e158dc6e8303165892624f8b69c1f35e8fcb1760fb8f8a8ab86",
+          "summary.json": "354ef17718dea8d711a6a19a291a05a9b41d39aee20e6425550edb9b4ab1dc29"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91003-drive-0-exchange-1",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "6/25",
+          "mean_bonds": "677/100",
+          "mean_largest_component": "83/50",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4619,
+          "bond_cost": 1354
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 191,
+          "initial_energy": 5973,
+          "final_energy": 0,
+          "spent": 5973,
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4619,
+          "last_transition_bonds": 0,
+          "last_transition_components": 191
+        },
+        "output_sha256": {
+          "initial.json": "7122b84fa4811a5681d12ec518bb31bacdf6ed23a1bc2cc9a4249fa2ce20226e",
+          "steps.jsonl": "a4cb90ff8e80e47d275803e0e2cae9a835c419f53cdf39fd4a85508ce24f5f54",
+          "final.json": "b13a3ef0a5040e158dc6e8303165892624f8b69c1f35e8fcb1760fb8f8a8ab86",
+          "summary.json": "51f85db617ed832a6f12c1c3bedeb5afa8fa6a9a4505c4ac6b1f6dfc20e50377"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91003-drive-500-exchange-0",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "1",
+          "mean_bonds": "63",
+          "mean_largest_component": "5",
+          "imported": 36969,
+          "rejected_import": 65015,
+          "leakage": 19072,
+          "bond_cost": 12600
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "1",
+          "mean_bonds": "3163/50",
+          "mean_largest_component": "5",
+          "imported": 47602,
+          "rejected_import": 105950,
+          "leakage": 28613,
+          "bond_cost": 18978
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "1",
+          "mean_bonds": "7994/125",
+          "mean_largest_component": "5",
+          "imported": 79845,
+          "rejected_import": 176899,
+          "leakage": 47746,
+          "bond_cost": 31976
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 191,
+          "initial_energy": 5973,
+          "final_energy": 11404,
+          "spent": 158985,
+          "imported": 164416,
+          "rejected_import": 347864,
+          "leakage": 95431,
+          "last_transition_bonds": 64,
+          "last_transition_components": 127
+        },
+        "output_sha256": {
+          "initial.json": "7122b84fa4811a5681d12ec518bb31bacdf6ed23a1bc2cc9a4249fa2ce20226e",
+          "steps.jsonl": "3294187f68c41ae980411bdf54adf435d800746de38cabd8c6d3bfa4d68756b5",
+          "final.json": "a15fdca39fdfaee4c891535b3470538356cc441a40695d3b48df00a95e877b64",
+          "summary.json": "3dfc6aedb5282ede55bd93a8a5eaeecae750d99aad2e62863f38a95775b7f157"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91003-drive-500-exchange-1",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "1",
+          "mean_bonds": "1597/25",
+          "mean_largest_component": "5",
+          "imported": 37354,
+          "rejected_import": 64630,
+          "leakage": 19096,
+          "bond_cost": 12776
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "1",
+          "mean_bonds": "64",
+          "mean_largest_component": "5",
+          "imported": 47866,
+          "rejected_import": 105686,
+          "leakage": 28650,
+          "bond_cost": 19200
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "1",
+          "mean_bonds": "64",
+          "mean_largest_component": "5",
+          "imported": 79858,
+          "rejected_import": 176886,
+          "leakage": 47750,
+          "bond_cost": 32000
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 191,
+          "initial_energy": 5973,
+          "final_energy": 11579,
+          "spent": 159472,
+          "imported": 165078,
+          "rejected_import": 347202,
+          "leakage": 95496,
+          "last_transition_bonds": 64,
+          "last_transition_components": 127
+        },
+        "output_sha256": {
+          "initial.json": "7122b84fa4811a5681d12ec518bb31bacdf6ed23a1bc2cc9a4249fa2ce20226e",
+          "steps.jsonl": "6c1fbc2c34df2cfa83ac819e1c6122473202fade8b943c391ebe4d242345ba59",
+          "final.json": "03f147147153ec1595cb4aded39e72e17daacdbce44c6c69123352a1d3ced3f6",
+          "summary.json": "ea94694c459b4cd4e49da2b00343556979978311119c6d54db7110e99d13b8c1"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91004-drive-0-exchange-0",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "7/25",
+          "mean_bonds": "669/100",
+          "mean_largest_component": "179/100",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4785,
+          "bond_cost": 1338
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 199,
+          "initial_energy": 6123,
+          "final_energy": 0,
+          "spent": 6123,
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4785,
+          "last_transition_bonds": 0,
+          "last_transition_components": 199
+        },
+        "output_sha256": {
+          "initial.json": "b7618dd98474baae5a1e338fbc86c11ede8c31b4b729e1ff50b3e811fa9f3167",
+          "steps.jsonl": "8e7029173e77f580c2b15e9e5ad9faff075aa84ea25088389cfdbc8224fa911d",
+          "final.json": "74f1d6c39826ff113a41104a72d052d0f7c29e833abdd6f965a4126ffc8445eb",
+          "summary.json": "ed5a3d6b360eac393d2f3055d020819062a6657191cf1a329c8b10f875fe1c27"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91004-drive-0-exchange-1",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "7/25",
+          "mean_bonds": "213/25",
+          "mean_largest_component": "187/100",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4419,
+          "bond_cost": 1704
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "0",
+          "mean_bonds": "0",
+          "mean_largest_component": "1",
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 0,
+          "bond_cost": 0
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 199,
+          "initial_energy": 6123,
+          "final_energy": 0,
+          "spent": 6123,
+          "imported": 0,
+          "rejected_import": 0,
+          "leakage": 4419,
+          "last_transition_bonds": 0,
+          "last_transition_components": 199
+        },
+        "output_sha256": {
+          "initial.json": "b7618dd98474baae5a1e338fbc86c11ede8c31b4b729e1ff50b3e811fa9f3167",
+          "steps.jsonl": "744168fb2d8f779304b93edf6d43cb2c5da152af62c57cfbaec9bfb3b6e39a51",
+          "final.json": "74f1d6c39826ff113a41104a72d052d0f7c29e833abdd6f965a4126ffc8445eb",
+          "summary.json": "a429330d009ff7258d2944895630c333d157c9986fa02aa182dcb7604cc9e10b"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91004-drive-500-exchange-0",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "1",
+          "mean_bonds": "729/10",
+          "mean_largest_component": "6",
+          "imported": 40225,
+          "rejected_import": 61631,
+          "leakage": 19894,
+          "bond_cost": 14580
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "1",
+          "mean_bonds": "73",
+          "mean_largest_component": "6",
+          "imported": 51810,
+          "rejected_import": 101806,
+          "leakage": 29850,
+          "bond_cost": 21900
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "1",
+          "mean_bonds": "73",
+          "mean_largest_component": "6",
+          "imported": 86180,
+          "rejected_import": 170676,
+          "leakage": 49750,
+          "bond_cost": 36500
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 199,
+          "initial_energy": 6123,
+          "final_energy": 11864,
+          "spent": 172474,
+          "imported": 178215,
+          "rejected_import": 334113,
+          "leakage": 99494,
+          "last_transition_bonds": 73,
+          "last_transition_components": 126
+        },
+        "output_sha256": {
+          "initial.json": "b7618dd98474baae5a1e338fbc86c11ede8c31b4b729e1ff50b3e811fa9f3167",
+          "steps.jsonl": "49cf83a1b15d46a9fd22a05083b7cad2f22a89ffe6ebeafac79466b604318428",
+          "final.json": "13f9b5c06a818cd8497dc2ca1480a94dd04fde2f96b8684a6f82c2458dcfa7ad",
+          "summary.json": "84472b22df3d2873bec42bbeee6af30bd23d86c085a8ad9896f4931ddd8ce6c2"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    },
+    {
+      "directory": "seed-91004-drive-500-exchange-1",
+      "windows": [
+        {
+          "start": 1,
+          "end": 100,
+          "active_fraction": "1",
+          "mean_bonds": "3647/50",
+          "mean_largest_component": "6",
+          "imported": 40353,
+          "rejected_import": 61503,
+          "leakage": 19897,
+          "bond_cost": 14588
+        },
+        {
+          "start": 101,
+          "end": 250,
+          "active_fraction": "1",
+          "mean_bonds": "73",
+          "mean_largest_component": "6",
+          "imported": 51732,
+          "rejected_import": 101884,
+          "leakage": 29850,
+          "bond_cost": 21900
+        },
+        {
+          "start": 251,
+          "end": 500,
+          "active_fraction": "1",
+          "mean_bonds": "73",
+          "mean_largest_component": "6",
+          "imported": 86272,
+          "rejected_import": 170584,
+          "leakage": 49750,
+          "bond_cost": 36500
+        }
+      ],
+      "audit": {
+        "scope": "independent initialization/drive RNG, input/leak, local bonds/transport/components",
+        "summary": {
+          "steps": 500,
+          "units": 199,
+          "initial_energy": 6123,
+          "final_energy": 11995,
+          "spent": 172485,
+          "imported": 178357,
+          "rejected_import": 333971,
+          "leakage": 99497,
+          "last_transition_bonds": 73,
+          "last_transition_components": 126
+        },
+        "output_sha256": {
+          "initial.json": "b7618dd98474baae5a1e338fbc86c11ede8c31b4b729e1ff50b3e811fa9f3167",
+          "steps.jsonl": "6aec66496933b3dda7177d1a62cd153de8d87155765c72ff241d9ae3b84b557f",
+          "final.json": "ec84b228d90247cff3ef63bc11f4d642880bac5919ed409982eaa031146acb36",
+          "summary.json": "ed177c9e2318a9090d879f1d136a4725045bf3fae9d42cdc999b32c22bea1553"
+        },
+        "audit_sha256": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      }
+    }
+  ],
+  "contrasts": [
+    {
+      "seed": 91000,
+      "factor": "drive",
+      "fixed": false,
+      "late_active_fraction_difference": "1"
+    },
+    {
+      "seed": 91000,
+      "factor": "drive",
+      "fixed": true,
+      "late_active_fraction_difference": "1"
+    },
+    {
+      "seed": 91000,
+      "factor": "exchange",
+      "fixed": 0,
+      "late_active_fraction_difference": "0"
+    },
+    {
+      "seed": 91000,
+      "factor": "exchange",
+      "fixed": 500,
+      "late_active_fraction_difference": "0"
+    },
+    {
+      "seed": 91001,
+      "factor": "drive",
+      "fixed": false,
+      "late_active_fraction_difference": "1"
+    },
+    {
+      "seed": 91001,
+      "factor": "drive",
+      "fixed": true,
+      "late_active_fraction_difference": "1"
+    },
+    {
+      "seed": 91001,
+      "factor": "exchange",
+      "fixed": 0,
+      "late_active_fraction_difference": "0"
+    },
+    {
+      "seed": 91001,
+      "factor": "exchange",
+      "fixed": 500,
+      "late_active_fraction_difference": "0"
+    },
+    {
+      "seed": 91002,
+      "factor": "drive",
+      "fixed": false,
+      "late_active_fraction_difference": "1"
+    },
+    {
+      "seed": 91002,
+      "factor": "drive",
+      "fixed": true,
+      "late_active_fraction_difference": "1"
+    },
+    {
+      "seed": 91002,
+      "factor": "exchange",
+      "fixed": 0,
+      "late_active_fraction_difference": "0"
+    },
+    {
+      "seed": 91002,
+      "factor": "exchange",
+      "fixed": 500,
+      "late_active_fraction_difference": "0"
+    },
+    {
+      "seed": 91003,
+      "factor": "drive",
+      "fixed": false,
+      "late_active_fraction_difference": "1"
+    },
+    {
+      "seed": 91003,
+      "factor": "drive",
+      "fixed": true,
+      "late_active_fraction_difference": "1"
+    },
+    {
+      "seed": 91003,
+      "factor": "exchange",
+      "fixed": 0,
+      "late_active_fraction_difference": "0"
+    },
+    {
+      "seed": 91003,
+      "factor": "exchange",
+      "fixed": 500,
+      "late_active_fraction_difference": "0"
+    },
+    {
+      "seed": 91004,
+      "factor": "drive",
+      "fixed": false,
+      "late_active_fraction_difference": "1"
+    },
+    {
+      "seed": 91004,
+      "factor": "drive",
+      "fixed": true,
+      "late_active_fraction_difference": "1"
+    },
+    {
+      "seed": 91004,
+      "factor": "exchange",
+      "fixed": 0,
+      "late_active_fraction_difference": "0"
+    },
+    {
+      "seed": 91004,
+      "factor": "exchange",
+      "fixed": 500,
+      "late_active_fraction_difference": "0"
+    }
+  ],
+  "results_sha256": "ca5fdc45a3216083aa5dff7938a74c92f561e8e2b70bc8439c92cf0a2ca2787a",
+  "script_sha256": "c0772a0c8e311de6c16d8fe5fa7a8271cf727e29502f6725b695c71d76c8e0aa"
+}
