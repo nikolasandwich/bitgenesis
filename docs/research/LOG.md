@@ -3934,3 +3934,18 @@ CLI loads. No formal figure generated or visually accepted while execution remai
 incomplete. Runtime source/protocol and frozen engine unchanged; formal count23.
 Next inspect full-gate compatibility on additional completed records, retaining
 cohort gating, then prepare report once the original200 worlds finish. Goal active.
+
+## 2026-09-14 — Autonomous cycle 247
+
+Previous cycle prepared the gated figure while campaign024 ran. Revalidated the
+original session51863 live; observed53/200 completed. Independently checked the
+first ten completed worlds (all source1900, unchanged traits) through full10000
+tick metric/group and event-lineage reconstruction:100,010 rows and58,688 individuals.
+Saved local input-hashed compatibility evidence in data/campaign-024-first-ten-check.json.
+This is one source, not ten independently evolved samples or a primary outcome.
+
+Exercised the full-cohort CLI on current incomplete data: it rejects the active
+cohort and creates no report. Research index now links the registered/running
+assay and keeps the formal verified count at23. No runtime/protocol/input changes,
+no restart and no interim scientific claim. Continue the original process; next
+full gate and synthesis only after the complete registered grid. Goal active.
