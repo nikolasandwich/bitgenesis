@@ -1,8 +1,9 @@
 # Local material conversion
 
 `v4-material-1` is a separate deterministic primitive. It does not change the
-closed or driven V4 baselines. It has not yet been composed into a persisted
-driven runner or evaluated as a scientific cohort.
+closed or driven V4 baselines. The separate [growing dynamics](v4-growing-units.md)
+compose it into a persisted driven runner. It has not yet been evaluated as a
+scientific cohort.
 
 Each occupied site contains one unit, with one of four inherited material labels
 and nonnegative energy. Each site can also store nonnegative integer raw tokens.
