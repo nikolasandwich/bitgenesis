@@ -1,0 +1,38 @@
+{
+  "run_id": 34811470630,
+  "source_commit": "02df9c1143c066dec89cc21ab6ff6da9633e6ec5",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "name": "tests (windows-latest, 3.13)",
+      "conclusion": "success",
+      "url": "https://github.com/nikolasandwich/bitgenesis/actions/runs/34811470630/job/103873515070"
+    },
+    {
+      "name": "tests (windows-latest, 3.12)",
+      "conclusion": "success",
+      "url": "https://github.com/nikolasandwich/bitgenesis/actions/runs/34811470630/job/103873515142"
+    },
+    {
+      "name": "tests (ubuntu-latest, 3.13)",
+      "conclusion": "success",
+      "url": "https://github.com/nikolasandwich/bitgenesis/actions/runs/34811470630/job/103873515147"
+    },
+    {
+      "name": "tests (ubuntu-latest, 3.14)",
+      "conclusion": "success",
+      "url": "https://github.com/nikolasandwich/bitgenesis/actions/runs/34811470630/job/103873515165"
+    },
+    {
+      "name": "tests (windows-latest, 3.14)",
+      "conclusion": "success",
+      "url": "https://github.com/nikolasandwich/bitgenesis/actions/runs/34811470630/job/103873515175"
+    },
+    {
+      "name": "tests (ubuntu-latest, 3.12)",
+      "conclusion": "success",
+      "url": "https://github.com/nikolasandwich/bitgenesis/actions/runs/34811470630/job/103873515210"
+    }
+  ],
+  "scope": "CI install, compile, tests, inventory, scaffold, Darwin CLI and saved-run audit. Does not execute all historical research datasets."
+}

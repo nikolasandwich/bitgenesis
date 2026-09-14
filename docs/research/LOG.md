@@ -2154,3 +2154,12 @@ Uploaded separate draft v0.0.1-observations.2 and verified both asset sizes and
 SHA256 values through the GitHub API against local files. Linked extraction/upload
 evidence and updated review entry points. Revision 1 and the full seventeen-campaign
 archive retain their original scopes; no independent remote download claimed.
+
+## 2026-09-14 — Autonomous cycle 146
+
+Verified revision-2 source CI 34811470630 and all six Windows/Linux × Python
+3.12/3.13/3.14 job conclusions. Saved compact evidence with explicit CI scope.
+Reorganized the supplement guide around revision 2, eight contiguous commands,
+exact output/reference mapping and the archive hash. Moved revision 1 to a
+preserved-history section. This removes the previous split instructions and
+keeps software CI separate from local historical reanalysis evidence.
