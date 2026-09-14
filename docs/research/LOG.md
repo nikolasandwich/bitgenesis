@@ -3488,3 +3488,20 @@ requires identical-trait full-dynamics controls, complete source hash binding an
 life-history reconstruction. No sample selection, simulation or engine changes
 this cycle; verified totals unchanged. Next implement independently checkable
 sampling and commit its manifest before any evaluation outcome. Goal active.
+
+
+## 2026-09-14 — Autonomous cycle 223
+
+Previous cycle registered campaign023 before extraction. Implemented a standalone
+sampler binding original lineage hashes and all three campaign022 report links.
+It reconstructs post-step100 living IDs, checks the full candidate histogram
+against the verified checkpoint, applies the registered SHA priority independent
+of genome and record order, and traces parents to the actual founder. It retains
+founder/unchanged samples and distinguishes unavailable material from corruption.
+Outputs all candidates/priorities, selected metadata, ancestry and provenance.
+
+Two boundary/corruption tests cover death at100 versus101, birth at100, unchanged
+selection under trait/order changes, no-material handling and broken ancestry.
+All193 tests pass. Commit sampler before extraction from clean source; independent
+event-based reconstruction remains the next gate before evaluation. No outcome
+simulation, protocol revision or engine change. Verified totals unchanged.
