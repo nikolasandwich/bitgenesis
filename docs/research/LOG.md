@@ -2337,3 +2337,16 @@ Engineering seed 23 confirms all four initial founder/RNG/map pairings and exact
 instrumented/reference state, lineage, events and RNG over short trajectories.
 All 144 local tests pass. Commit before outcome launch; full verification and
 completed workload accounting remain separate steps. Earlier runners are unchanged.
+
+## 2026-09-14 — Autonomous cycle 160
+
+Confirmed original campaign-019 handle is live. Added a dedicated metric verifier
+with exact zero-movement dissipation using the configured birth deduction 0/4,
+complete preregistered grid and source/protocol checks, plus founder/RNG/map
+pairing and paired threshold outcomes. Earlier campaign verifiers are unchanged.
+
+Focused tests accept each correct birth-cost accounting and reject swapped-cost
+records even when global energy balances. Verified the fourteen completed worlds
+available at inspection (140,014 metric rows) against their stored summaries.
+All 146 local tests pass. Full campaign acceptance and early-observation validation
+remain pending; do not restart the running experiment or alter its seed grid.
