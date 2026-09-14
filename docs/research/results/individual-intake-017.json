@@ -1,0 +1,1195 @@
+{
+  "scope": "Retrospective ticks 1\u2013100; realized individual intake, not resource entitlement or causal deprivation. Exposure and reproduction differ. Fixed founder cohort includes all 80 IDs, including zero intake. Descendants include horizon births.",
+  "results": [
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1400,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 2388,
+        "zero_intake_individuals": 19,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2688,
+        "action_ticks": 2767,
+        "top_count": 16,
+        "top_intake_share": 0.5896147403685092
+      },
+      "descendants": {
+        "individuals": 47,
+        "food_eaten": 1312,
+        "zero_intake_individuals": 13,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 1458,
+        "action_ticks": 1501,
+        "top_count": 10,
+        "top_intake_share": 0.6341463414634146
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1401,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 2100,
+        "zero_intake_individuals": 18,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2614,
+        "action_ticks": 2693,
+        "top_count": 16,
+        "top_intake_share": 0.5733333333333334
+      },
+      "descendants": {
+        "individuals": 42,
+        "food_eaten": 1108,
+        "zero_intake_individuals": 12,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 1227,
+        "action_ticks": 1266,
+        "top_count": 9,
+        "top_intake_share": 0.5667870036101083
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1402,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 2736,
+        "zero_intake_individuals": 14,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2917,
+        "action_ticks": 2994,
+        "top_count": 16,
+        "top_intake_share": 0.5687134502923976
+      },
+      "descendants": {
+        "individuals": 42,
+        "food_eaten": 1244,
+        "zero_intake_individuals": 9,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 1464,
+        "action_ticks": 1500,
+        "top_count": 9,
+        "top_intake_share": 0.5916398713826366
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1403,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 2336,
+        "zero_intake_individuals": 18,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2741,
+        "action_ticks": 2819,
+        "top_count": 16,
+        "top_intake_share": 0.5804794520547946
+      },
+      "descendants": {
+        "individuals": 35,
+        "food_eaten": 680,
+        "zero_intake_individuals": 7,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 905,
+        "action_ticks": 938,
+        "top_count": 7,
+        "top_intake_share": 0.5588235294117647
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1404,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 1988,
+        "zero_intake_individuals": 20,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2599,
+        "action_ticks": 2677,
+        "top_count": 16,
+        "top_intake_share": 0.5814889336016097
+      },
+      "descendants": {
+        "individuals": 39,
+        "food_eaten": 1348,
+        "zero_intake_individuals": 9,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 1262,
+        "action_ticks": 1293,
+        "top_count": 8,
+        "top_intake_share": 0.6735905044510386
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1405,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 2232,
+        "zero_intake_individuals": 21,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2746,
+        "action_ticks": 2823,
+        "top_count": 16,
+        "top_intake_share": 0.6039426523297491
+      },
+      "descendants": {
+        "individuals": 33,
+        "food_eaten": 704,
+        "zero_intake_individuals": 11,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 908,
+        "action_ticks": 940,
+        "top_count": 7,
+        "top_intake_share": 0.6988636363636364
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1406,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 2356,
+        "zero_intake_individuals": 17,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2592,
+        "action_ticks": 2672,
+        "top_count": 16,
+        "top_intake_share": 0.5195246179966044
+      },
+      "descendants": {
+        "individuals": 51,
+        "food_eaten": 1076,
+        "zero_intake_individuals": 19,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 1384,
+        "action_ticks": 1433,
+        "top_count": 11,
+        "top_intake_share": 0.6171003717472119
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1407,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 2460,
+        "zero_intake_individuals": 19,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2853,
+        "action_ticks": 2930,
+        "top_count": 16,
+        "top_intake_share": 0.6097560975609756
+      },
+      "descendants": {
+        "individuals": 36,
+        "food_eaten": 1024,
+        "zero_intake_individuals": 8,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 1112,
+        "action_ticks": 1143,
+        "top_count": 8,
+        "top_intake_share": 0.578125
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1408,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 2728,
+        "zero_intake_individuals": 17,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3099,
+        "action_ticks": 3177,
+        "top_count": 16,
+        "top_intake_share": 0.5894428152492669
+      },
+      "descendants": {
+        "individuals": 38,
+        "food_eaten": 800,
+        "zero_intake_individuals": 11,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 939,
+        "action_ticks": 969,
+        "top_count": 8,
+        "top_intake_share": 0.645
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1409,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 2176,
+        "zero_intake_individuals": 24,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2644,
+        "action_ticks": 2721,
+        "top_count": 16,
+        "top_intake_share": 0.6654411764705882
+      },
+      "descendants": {
+        "individuals": 39,
+        "food_eaten": 680,
+        "zero_intake_individuals": 16,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 900,
+        "action_ticks": 936,
+        "top_count": 8,
+        "top_intake_share": 0.6647058823529411
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1400,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 3236,
+        "zero_intake_individuals": 13,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3930,
+        "action_ticks": 4003,
+        "top_count": 16,
+        "top_intake_share": 0.5203955500618047
+      },
+      "descendants": {
+        "individuals": 0,
+        "food_eaten": 0,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 0,
+        "action_ticks": 0,
+        "top_count": 0,
+        "top_intake_share": null
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1401,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 3132,
+        "zero_intake_individuals": 16,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3641,
+        "action_ticks": 3711,
+        "top_count": 16,
+        "top_intake_share": 0.5977011494252874
+      },
+      "descendants": {
+        "individuals": 0,
+        "food_eaten": 0,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 0,
+        "action_ticks": 0,
+        "top_count": 0,
+        "top_intake_share": null
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1402,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 3716,
+        "zero_intake_individuals": 17,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 4088,
+        "action_ticks": 4159,
+        "top_count": 16,
+        "top_intake_share": 0.5435952637244349
+      },
+      "descendants": {
+        "individuals": 0,
+        "food_eaten": 0,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 0,
+        "action_ticks": 0,
+        "top_count": 0,
+        "top_intake_share": null
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1403,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 3632,
+        "zero_intake_individuals": 18,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3920,
+        "action_ticks": 3985,
+        "top_count": 16,
+        "top_intake_share": 0.6002202643171806
+      },
+      "descendants": {
+        "individuals": 0,
+        "food_eaten": 0,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 0,
+        "action_ticks": 0,
+        "top_count": 0,
+        "top_intake_share": null
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1404,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 3652,
+        "zero_intake_individuals": 18,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3890,
+        "action_ticks": 3954,
+        "top_count": 16,
+        "top_intake_share": 0.619934282584885
+      },
+      "descendants": {
+        "individuals": 0,
+        "food_eaten": 0,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 0,
+        "action_ticks": 0,
+        "top_count": 0,
+        "top_intake_share": null
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1405,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 3540,
+        "zero_intake_individuals": 14,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 4055,
+        "action_ticks": 4123,
+        "top_count": 16,
+        "top_intake_share": 0.5333333333333333
+      },
+      "descendants": {
+        "individuals": 0,
+        "food_eaten": 0,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 0,
+        "action_ticks": 0,
+        "top_count": 0,
+        "top_intake_share": null
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1406,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 3848,
+        "zero_intake_individuals": 13,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 4098,
+        "action_ticks": 4161,
+        "top_count": 16,
+        "top_intake_share": 0.5758835758835759
+      },
+      "descendants": {
+        "individuals": 0,
+        "food_eaten": 0,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 0,
+        "action_ticks": 0,
+        "top_count": 0,
+        "top_intake_share": null
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1407,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 3588,
+        "zero_intake_individuals": 20,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3884,
+        "action_ticks": 3948,
+        "top_count": 16,
+        "top_intake_share": 0.6198439241917503
+      },
+      "descendants": {
+        "individuals": 0,
+        "food_eaten": 0,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 0,
+        "action_ticks": 0,
+        "top_count": 0,
+        "top_intake_share": null
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1408,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 3028,
+        "zero_intake_individuals": 22,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3553,
+        "action_ticks": 3621,
+        "top_count": 16,
+        "top_intake_share": 0.6512549537648613
+      },
+      "descendants": {
+        "individuals": 0,
+        "food_eaten": 0,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 0,
+        "action_ticks": 0,
+        "top_count": 0,
+        "top_intake_share": null
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1409,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 3780,
+        "zero_intake_individuals": 22,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 4012,
+        "action_ticks": 4072,
+        "top_count": 16,
+        "top_intake_share": 0.582010582010582
+      },
+      "descendants": {
+        "individuals": 0,
+        "food_eaten": 0,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 0,
+        "action_ticks": 0,
+        "top_count": 0,
+        "top_intake_share": null
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1400,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 1212,
+        "zero_intake_individuals": 35,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 1883,
+        "action_ticks": 1963,
+        "top_count": 16,
+        "top_intake_share": 0.8514851485148515
+      },
+      "descendants": {
+        "individuals": 109,
+        "food_eaten": 4584,
+        "zero_intake_individuals": 10,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3736,
+        "action_ticks": 3842,
+        "top_count": 22,
+        "top_intake_share": 0.4406631762652705
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1401,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 1372,
+        "zero_intake_individuals": 27,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2048,
+        "action_ticks": 2128,
+        "top_count": 16,
+        "top_intake_share": 0.7580174927113703
+      },
+      "descendants": {
+        "individuals": 120,
+        "food_eaten": 4476,
+        "zero_intake_individuals": 13,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3618,
+        "action_ticks": 3736,
+        "top_count": 24,
+        "top_intake_share": 0.4495084897229669
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1402,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 1516,
+        "zero_intake_individuals": 33,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2220,
+        "action_ticks": 2300,
+        "top_count": 16,
+        "top_intake_share": 0.8522427440633246
+      },
+      "descendants": {
+        "individuals": 104,
+        "food_eaten": 4648,
+        "zero_intake_individuals": 12,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3643,
+        "action_ticks": 3738,
+        "top_count": 21,
+        "top_intake_share": 0.5378657487091222
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1403,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 1572,
+        "zero_intake_individuals": 30,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2084,
+        "action_ticks": 2164,
+        "top_count": 16,
+        "top_intake_share": 0.7862595419847328
+      },
+      "descendants": {
+        "individuals": 106,
+        "food_eaten": 4040,
+        "zero_intake_individuals": 9,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3409,
+        "action_ticks": 3510,
+        "top_count": 22,
+        "top_intake_share": 0.4485148514851485
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1404,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 1232,
+        "zero_intake_individuals": 29,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 1926,
+        "action_ticks": 2006,
+        "top_count": 16,
+        "top_intake_share": 0.8051948051948052
+      },
+      "descendants": {
+        "individuals": 116,
+        "food_eaten": 4752,
+        "zero_intake_individuals": 14,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3880,
+        "action_ticks": 3993,
+        "top_count": 24,
+        "top_intake_share": 0.45707070707070707
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1405,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 1156,
+        "zero_intake_individuals": 34,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 1864,
+        "action_ticks": 1944,
+        "top_count": 16,
+        "top_intake_share": 0.8339100346020761
+      },
+      "descendants": {
+        "individuals": 108,
+        "food_eaten": 4520,
+        "zero_intake_individuals": 16,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3515,
+        "action_ticks": 3608,
+        "top_count": 22,
+        "top_intake_share": 0.5539823008849557
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1406,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 1832,
+        "zero_intake_individuals": 26,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2164,
+        "action_ticks": 2244,
+        "top_count": 16,
+        "top_intake_share": 0.7052401746724891
+      },
+      "descendants": {
+        "individuals": 100,
+        "food_eaten": 3652,
+        "zero_intake_individuals": 11,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3233,
+        "action_ticks": 3332,
+        "top_count": 20,
+        "top_intake_share": 0.42606790799561883
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1407,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 1312,
+        "zero_intake_individuals": 31,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 1997,
+        "action_ticks": 2077,
+        "top_count": 16,
+        "top_intake_share": 0.8292682926829268
+      },
+      "descendants": {
+        "individuals": 116,
+        "food_eaten": 4612,
+        "zero_intake_individuals": 14,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3727,
+        "action_ticks": 3842,
+        "top_count": 24,
+        "top_intake_share": 0.49522983521248914
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1408,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 1688,
+        "zero_intake_individuals": 27,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2127,
+        "action_ticks": 2207,
+        "top_count": 16,
+        "top_intake_share": 0.7132701421800948
+      },
+      "descendants": {
+        "individuals": 118,
+        "food_eaten": 4160,
+        "zero_intake_individuals": 22,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3543,
+        "action_ticks": 3659,
+        "top_count": 24,
+        "top_intake_share": 0.5528846153846154
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1409,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 1188,
+        "zero_intake_individuals": 40,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 1918,
+        "action_ticks": 1998,
+        "top_count": 16,
+        "top_intake_share": 0.8821548821548821
+      },
+      "descendants": {
+        "individuals": 118,
+        "food_eaten": 4516,
+        "zero_intake_individuals": 18,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3624,
+        "action_ticks": 3741,
+        "top_count": 24,
+        "top_intake_share": 0.5394154118689105
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1400,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 3372,
+        "zero_intake_individuals": 30,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2823,
+        "action_ticks": 2890,
+        "top_count": 16,
+        "top_intake_share": 0.9228944246737841
+      },
+      "descendants": {
+        "individuals": 9,
+        "food_eaten": 728,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 310,
+        "action_ticks": 310,
+        "top_count": 2,
+        "top_intake_share": 0.43956043956043955
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1401,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 2908,
+        "zero_intake_individuals": 33,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2796,
+        "action_ticks": 2863,
+        "top_count": 16,
+        "top_intake_share": 0.9147180192572214
+      },
+      "descendants": {
+        "individuals": 4,
+        "food_eaten": 268,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 145,
+        "action_ticks": 145,
+        "top_count": 1,
+        "top_intake_share": 0.5522388059701493
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1402,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 3516,
+        "zero_intake_individuals": 29,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2870,
+        "action_ticks": 2936,
+        "top_count": 16,
+        "top_intake_share": 0.9283276450511946
+      },
+      "descendants": {
+        "individuals": 7,
+        "food_eaten": 316,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 179,
+        "action_ticks": 179,
+        "top_count": 2,
+        "top_intake_share": 0.6455696202531646
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1403,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 4256,
+        "zero_intake_individuals": 29,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3546,
+        "action_ticks": 3605,
+        "top_count": 16,
+        "top_intake_share": 0.7443609022556391
+      },
+      "descendants": {
+        "individuals": 3,
+        "food_eaten": 80,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 108,
+        "action_ticks": 108,
+        "top_count": 1,
+        "top_intake_share": 0.55
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1404,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 3340,
+        "zero_intake_individuals": 33,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2901,
+        "action_ticks": 2967,
+        "top_count": 16,
+        "top_intake_share": 0.932934131736527
+      },
+      "descendants": {
+        "individuals": 6,
+        "food_eaten": 544,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 251,
+        "action_ticks": 251,
+        "top_count": 2,
+        "top_intake_share": 0.5882352941176471
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1405,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 3572,
+        "zero_intake_individuals": 34,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3031,
+        "action_ticks": 3096,
+        "top_count": 16,
+        "top_intake_share": 0.910414333706607
+      },
+      "descendants": {
+        "individuals": 4,
+        "food_eaten": 200,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 88,
+        "action_ticks": 88,
+        "top_count": 1,
+        "top_intake_share": 0.58
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1406,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 4228,
+        "zero_intake_individuals": 32,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3602,
+        "action_ticks": 3660,
+        "top_count": 16,
+        "top_intake_share": 0.7379375591296121
+      },
+      "descendants": {
+        "individuals": 3,
+        "food_eaten": 280,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 175,
+        "action_ticks": 175,
+        "top_count": 1,
+        "top_intake_share": 0.38571428571428573
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1407,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 3856,
+        "zero_intake_individuals": 31,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3134,
+        "action_ticks": 3198,
+        "top_count": 16,
+        "top_intake_share": 0.8827800829875518
+      },
+      "descendants": {
+        "individuals": 5,
+        "food_eaten": 380,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 164,
+        "action_ticks": 164,
+        "top_count": 1,
+        "top_intake_share": 0.5473684210526316
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1408,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 4476,
+        "zero_intake_individuals": 25,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 3584,
+        "action_ticks": 3643,
+        "top_count": 16,
+        "top_intake_share": 0.7444146559428061
+      },
+      "descendants": {
+        "individuals": 4,
+        "food_eaten": 124,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 134,
+        "action_ticks": 134,
+        "top_count": 1,
+        "top_intake_share": 0.3870967741935484
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1409,
+      "founders": {
+        "individuals": 80,
+        "food_eaten": 2428,
+        "zero_intake_individuals": 31,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 2693,
+        "action_ticks": 2764,
+        "top_count": 16,
+        "top_intake_share": 0.9011532125205931
+      },
+      "descendants": {
+        "individuals": 2,
+        "food_eaten": 80,
+        "zero_intake_individuals": 0,
+        "zero_action_individuals": 0,
+        "feeding_attempts": 70,
+        "action_ticks": 70,
+        "top_count": 1,
+        "top_intake_share": 0.7
+      }
+    }
+  ],
+  "groups": [
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "founder_ranges": {
+        "food_eaten": [
+          1988,
+          2736
+        ],
+        "zero_intake_individuals": [
+          14,
+          24
+        ],
+        "top_intake_share": [
+          0.5195246179966044,
+          0.6654411764705882
+        ],
+        "action_ticks": [
+          2672,
+          3177
+        ]
+      },
+      "descendant_food_range": [
+        680,
+        1348
+      ]
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "founder_ranges": {
+        "food_eaten": [
+          3028,
+          3848
+        ],
+        "zero_intake_individuals": [
+          13,
+          22
+        ],
+        "top_intake_share": [
+          0.5203955500618047,
+          0.6512549537648613
+        ],
+        "action_ticks": [
+          3621,
+          4161
+        ]
+      },
+      "descendant_food_range": [
+        0,
+        0
+      ]
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "founder_ranges": {
+        "food_eaten": [
+          1156,
+          1832
+        ],
+        "zero_intake_individuals": [
+          26,
+          40
+        ],
+        "top_intake_share": [
+          0.7052401746724891,
+          0.8821548821548821
+        ],
+        "action_ticks": [
+          1944,
+          2300
+        ]
+      },
+      "descendant_food_range": [
+        3652,
+        4752
+      ]
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "founder_ranges": {
+        "food_eaten": [
+          2428,
+          4476
+        ],
+        "zero_intake_individuals": [
+          25,
+          34
+        ],
+        "top_intake_share": [
+          0.7379375591296121,
+          0.932934131736527
+        ],
+        "action_ticks": [
+          2764,
+          3660
+        ]
+      },
+      "descendant_food_range": [
+        80,
+        728
+      ]
+    }
+  ],
+  "input_sha256": {
+    "dispersed-threshold-40-seed-1400-feeding.jsonl": "ba1661ada68510f58a448e4a73ff88896f1da733b6fa8a7b1cb075c35f948abb",
+    "dispersed-threshold-40-seed-1400-terminal.jsonl": "cd1fc123bb61c36120c3bad0cb8151ba9f50ba55137fcb632bf195c9422fac8d",
+    "dispersed-threshold-40-seed-1401-feeding.jsonl": "f52ce59c76ce951b959d9fa451fee1c6726a53a09aae9ed6ab18f657f76ebffa",
+    "dispersed-threshold-40-seed-1401-terminal.jsonl": "ae2416f6602c457c7bce48e85b9a31ce30fe8d4b3b0b15a9b8cac9736741eb76",
+    "dispersed-threshold-40-seed-1402-feeding.jsonl": "771ea86a8f63a3b411d35c246848366bc5cc993b013901ea9c1cfe4f2cafb15c",
+    "dispersed-threshold-40-seed-1402-terminal.jsonl": "87b68982568bea15e6e24e259f1a74ed44cecc41856b3de859d4d38c56f3707c",
+    "dispersed-threshold-40-seed-1403-feeding.jsonl": "9c1bf69a5b66bf86b3631be5d4dded28c2a0807cef4b1d94cd23ab2f22012b18",
+    "dispersed-threshold-40-seed-1403-terminal.jsonl": "ef8d06aed89a1cc767bc05b789758f22458caa28efcb03511fe5c9c1dd6215e3",
+    "dispersed-threshold-40-seed-1404-feeding.jsonl": "14b688402a3d44e5843abf7082ad68449859f684f97d87771b5a870481fc4fc8",
+    "dispersed-threshold-40-seed-1404-terminal.jsonl": "aa33337f1053e4465d794331afaf96db00d563bbfefee5d79e86f982105332f6",
+    "dispersed-threshold-40-seed-1405-feeding.jsonl": "6496fa95d9ae6fc6d840ee6bc564406c2582fcaecd2220dde87bfdcb82fdd3de",
+    "dispersed-threshold-40-seed-1405-terminal.jsonl": "f9c0808c0088dda7159dde47eb15e15a89b8edda095fadf8894e611b17050a7f",
+    "dispersed-threshold-40-seed-1406-feeding.jsonl": "f85ccc8d9c897a51540abccb603d934e5892c899cbaf4c8e45c21cfbc69d4090",
+    "dispersed-threshold-40-seed-1406-terminal.jsonl": "3b12f745334986dde0cd7f83979be76b80b26c590791e44e2c3d6efd553c9eed",
+    "dispersed-threshold-40-seed-1407-feeding.jsonl": "6b6291cdf7455c0e9c0bb20c0b3482994eddb9ea608938d533a8f463f678c65a",
+    "dispersed-threshold-40-seed-1407-terminal.jsonl": "5faa0655cd64bbc7d9dfe2d6e52abd6169165977bc0a9e5f627183b23b0ae716",
+    "dispersed-threshold-40-seed-1408-feeding.jsonl": "ecf8b9e11cf9457e378b7e37a60b2dae3b1ab08ddb57812cf204d4556ea11c5d",
+    "dispersed-threshold-40-seed-1408-terminal.jsonl": "76ed5fb8ace8cb14fe84f6c69f5f97d8a2e1e8b3f25c9788912d34056222152f",
+    "dispersed-threshold-40-seed-1409-feeding.jsonl": "0487dd225b904cfb65339e2c6432c07e9a8ed96dc44f569a545776d93a9c8b21",
+    "dispersed-threshold-40-seed-1409-terminal.jsonl": "a74b99f56cdc7b5902854f656cc85ce2cfc301082db8153d52e762a095939b8e",
+    "dispersed-threshold-160-seed-1400-feeding.jsonl": "702141fdbd1d8478a338b7c29d44b29548fc1881721eecfd71f553e565422e22",
+    "dispersed-threshold-160-seed-1400-terminal.jsonl": "dece1ab12d3ec3adb64d3718d75ed7e21961fb662ce9da34f629c51c8b12d6e7",
+    "dispersed-threshold-160-seed-1401-feeding.jsonl": "5656e34ced2bd9bd78ae472639a2ddd4e27f9cd0ad2f1454c9f1266bce17c47b",
+    "dispersed-threshold-160-seed-1401-terminal.jsonl": "e52162f5964a5fe981ac217dede3a76ca5300f7229030cab6a01618e7b043527",
+    "dispersed-threshold-160-seed-1402-feeding.jsonl": "9ad8979571e80c40829bebed6047552c56d4e6a66736495cce862264ced38bba",
+    "dispersed-threshold-160-seed-1402-terminal.jsonl": "befd5bca35406aaac947940a03a100c4fda73da89da08bb66f6dc01f2b440e9c",
+    "dispersed-threshold-160-seed-1403-feeding.jsonl": "a67fef18fc2595fe82a512c475d2f9ce38b0e5def7f72d64b73ee81f6b708293",
+    "dispersed-threshold-160-seed-1403-terminal.jsonl": "815ff156fad6f589ba93aafe60fa627616f5071f5b61004224ed74ea903f2ccd",
+    "dispersed-threshold-160-seed-1404-feeding.jsonl": "7c26b0cf8a452ffd8786ca75078d89f45ab97fe201ece9a2d97456c2a64c8d99",
+    "dispersed-threshold-160-seed-1404-terminal.jsonl": "caff0aa647e643c36c0e2ff4822e14f92c1004f3515e64abeb7dc57a6d865cf8",
+    "dispersed-threshold-160-seed-1405-feeding.jsonl": "743d26aed8ad7d76ec8db53992298522c7141de6b8d5973fcf7140a1083d9a5c",
+    "dispersed-threshold-160-seed-1405-terminal.jsonl": "9ce71f4a255f0c8e3c19e0505bc70f0aca266b546723d3b48a183d04148e44e2",
+    "dispersed-threshold-160-seed-1406-feeding.jsonl": "986d336cdd6ab31349ddaa0b535e718f8e9cb490d9b2eb85b234d5581bb08ee9",
+    "dispersed-threshold-160-seed-1406-terminal.jsonl": "5bc2219f5b69aaf0c0872798068bb12813df0ef16260c152b652a57f4ff8fb59",
+    "dispersed-threshold-160-seed-1407-feeding.jsonl": "4faff0c40648af7ce3e0211bf68d13eef062b4df31a987e4c6c33b8b6e82aad0",
+    "dispersed-threshold-160-seed-1407-terminal.jsonl": "3cd41634db40acfdaaf0d151da882d71f10c41f065f7d86a866896fe647a2135",
+    "dispersed-threshold-160-seed-1408-feeding.jsonl": "7ffa347b3c5f771c6c8688065e73f806e6db41b82d7ac1e9b35701d96e9c9cad",
+    "dispersed-threshold-160-seed-1408-terminal.jsonl": "db82a4a4517e85091779b69a6a36bfde80b87a2f258005d2d6525f941fc98b6a",
+    "dispersed-threshold-160-seed-1409-feeding.jsonl": "bc1b0fdcf6e3e7eada687ddfe674d241978240fb1f2ac0af05ff64d24b5769b0",
+    "dispersed-threshold-160-seed-1409-terminal.jsonl": "e9d5ca17b35a32d9e179de2630d63fc3dd240fa60db951678e935670932872c0",
+    "block-threshold-40-seed-1400-feeding.jsonl": "a852c6df3c1981714bca44d390d88eeaf452e9abc9f9a8cc00d72ec4e61ba90b",
+    "block-threshold-40-seed-1400-terminal.jsonl": "092bd79b3a812b17b6c0f5962d2ee7afa336ba795ec52f9ee83ec5e18e140979",
+    "block-threshold-40-seed-1401-feeding.jsonl": "31dca542a575d28185f02fd35a0852d8f092ed804a968307b07df39e53f736a4",
+    "block-threshold-40-seed-1401-terminal.jsonl": "223f3fde551538e05cb8c3b89a3106445768ca7ed0c5aed66c5cec841b74c462",
+    "block-threshold-40-seed-1402-feeding.jsonl": "8e0fd4496543d9eca2f1795165e020daa1c4ed91cd8a55b59a27f48bc2851745",
+    "block-threshold-40-seed-1402-terminal.jsonl": "632182181d70d4e9b295e6131bd475789d2e974b9914f2b7cda4d974f9a80d01",
+    "block-threshold-40-seed-1403-feeding.jsonl": "c2f64aa11d872413ced28eec8a6c125811b332a563ef1d0ad485c7f0d8dda378",
+    "block-threshold-40-seed-1403-terminal.jsonl": "ea760beb987accfa2d3d8913c234722740ed593d99b597df86f692ce20d42061",
+    "block-threshold-40-seed-1404-feeding.jsonl": "0c6ba7e11ffeaa6cf0408383a96f7ef05fa907624e85b5edec768418099cc72b",
+    "block-threshold-40-seed-1404-terminal.jsonl": "58a72d9f71afe2cc23736a9112bbfb4b34e8ee14006d4408c28c39ed187981bd",
+    "block-threshold-40-seed-1405-feeding.jsonl": "8f56d0da309e86542cae213df7d4ca7e93b0bfc4306285750095fc739fce6ee9",
+    "block-threshold-40-seed-1405-terminal.jsonl": "cbc8c823ced0d6b0aa501773fc8ad874a7f70dc054f95f85adf158fc900bb15d",
+    "block-threshold-40-seed-1406-feeding.jsonl": "0ae9d98fd6770a29be9151e0e9f1a1b07f57a985951ec596afb977e065bd7ed7",
+    "block-threshold-40-seed-1406-terminal.jsonl": "41a0fb7b6101f755b5ac9473b42e01bfc0fc5a095d7772d46a8b312b115d5312",
+    "block-threshold-40-seed-1407-feeding.jsonl": "96e8bdb6942c5b19fe3a8d2a7b921234e669e74490432264e47370f31102d9ad",
+    "block-threshold-40-seed-1407-terminal.jsonl": "3f99b180b9f48614701c55033d6f1b00f7fe4abf5c28f187abc29e35ca9b7b93",
+    "block-threshold-40-seed-1408-feeding.jsonl": "0f9688d63fe844745f6db16f96cf045cd766ce3414a34a5377266723075aab27",
+    "block-threshold-40-seed-1408-terminal.jsonl": "5de9f6527bbe539b67bdf528c0ba235f95cc54f8cb3ebe9c7ff170ad6466c534",
+    "block-threshold-40-seed-1409-feeding.jsonl": "3805e9d759095cb47394981684ef50c18493c8799d53d9204d1824a65e44e413",
+    "block-threshold-40-seed-1409-terminal.jsonl": "b2dddafed620bb51d4936657dfb24f0e4342e71af5eb3bf471775c05ebdbef32",
+    "block-threshold-160-seed-1400-feeding.jsonl": "2e4ac3d3af5da02c897ba3b468a8d58a9fa0f768a5e3b174afb6a516dc1bbddf",
+    "block-threshold-160-seed-1400-terminal.jsonl": "a78a02ed2a80d7fa4848e18a0ee1d5814b6e2f318691b8db049a7104885639e2",
+    "block-threshold-160-seed-1401-feeding.jsonl": "02d6b5cd0b53f04d2ddfc3b929ceb336f8eb25bc93019c8d74f97cae4b804cae",
+    "block-threshold-160-seed-1401-terminal.jsonl": "b97cbfa0d9118fc2e8191e99a4aa0cd8704a186a8cf2ad0522264e11d6e06548",
+    "block-threshold-160-seed-1402-feeding.jsonl": "491f1988f4a37065bcf20540f82a7e9cf2b44761d9da1c700373c69371ee9d92",
+    "block-threshold-160-seed-1402-terminal.jsonl": "311d073d72cc521764356b9400d56250120561a29a3e9aff4143f86f78947b21",
+    "block-threshold-160-seed-1403-feeding.jsonl": "c25ee41f8ea7d5673b4f4fce9a7fbe502e78b4d643dd0698337a4f33cd9ea6c6",
+    "block-threshold-160-seed-1403-terminal.jsonl": "4ddc4718c779aa7b381145de143445eba9ad03341556c0304e24c6e81f09721a",
+    "block-threshold-160-seed-1404-feeding.jsonl": "49c84f12cdd743e2200fadd4263a9e855dc145b6462789f9efb369875f77a0b9",
+    "block-threshold-160-seed-1404-terminal.jsonl": "8110ee9ec8e176e19c5380aeb2dc803c26f83ca857cf92a9f58c793fbac7e0f4",
+    "block-threshold-160-seed-1405-feeding.jsonl": "38b23631176aa1646db29b7ab367270bb165b4e56d552e95b3b4842997f524ba",
+    "block-threshold-160-seed-1405-terminal.jsonl": "244fe6fecc3da51afb6cbc2664d0336efb28d48afa024b38c272f388b3dc57bc",
+    "block-threshold-160-seed-1406-feeding.jsonl": "9d6f3223188d774b209e9fbddef186935a01e6a6448f03eb4186e687709cbc93",
+    "block-threshold-160-seed-1406-terminal.jsonl": "e0d271ee17b5a9b20a8ca088e9806da6b1987e56d400c0ce77ab7af5f1283f4c",
+    "block-threshold-160-seed-1407-feeding.jsonl": "cbe6867bfca50de1b89703bb231a8b2c2ae39ca81c4f08d3407bde09ee27498e",
+    "block-threshold-160-seed-1407-terminal.jsonl": "cc8f7eab592efc0bb85282ed574c46f0a44b7af82d336c81a91f0263f8909dfa",
+    "block-threshold-160-seed-1408-feeding.jsonl": "0ac8eeb092ed6e125acad1ea09924160e11e5a3b89170bd6513850b229d1a319",
+    "block-threshold-160-seed-1408-terminal.jsonl": "a4c74a39005c15d520427fe3c3f34a370caeb2553e1d78ad9ef5465184d82dc2",
+    "block-threshold-160-seed-1409-feeding.jsonl": "16b0d1df0323897a5a7106e9fe08eeccb2cea24514d6155a069b682f4ed12564",
+    "block-threshold-160-seed-1409-terminal.jsonl": "7af8f4fb95d8272c3bec9493766cd7affa888f9e181849b298a50461336ecca5"
+  },
+  "verification_sha256": "63749911c41012ff8bf07d921f09052994c6b4fd7e8a65f6fcad6c99236f35a5",
+  "script_sha256": "21878dba5b7cf407c7d0f991b563bd02745933495a127e53d8a933309d32d243"
+}

@@ -52,3 +52,7 @@ V1 设计则需要固定各感官对照的繁殖条件与初始地图，避免�
 
 个体观测现可从[独立补充包](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-b86474d93a9aef685e01)获取（草稿需要仓库权限），
 [指南](../design/observation-supplement.md)给出了五项分析的复算方法与核验范围。
+
+新增[个体摄食分配分析](individual-intake-017.md)将创始群体和出生后个体分开：
+原阈值成片组更多的总摄食主要来自后续出生个体，创始群体零摄食者更多、
+摄食更集中。高阈值成片组也有集中现象，因此不能把集中度单独当作灭绝解释。

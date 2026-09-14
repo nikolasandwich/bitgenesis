@@ -2073,3 +2073,19 @@ All 129 local tests pass. Rechecked both fixed seventeen-campaign and observatio
 ZIPs against their externally recorded hashes with the stricter helper: 1,260/596
 payload files pass unchanged. Existing archives and V0 world rules are unchanged;
 this verifies stored integrity and format, not provenance authenticity or science.
+
+## 2026-09-14 — Autonomous cycle 140
+
+Analyzed individual intake on the forty verified early action replays. Included
+all founders and newborns, including terminal-only actors and horizon births;
+reconciled per-ID exposure with lifespan, action partitions and aggregate intake.
+CSV cohort counts and sums match all eighty world/cohort report entries.
+
+At threshold 40, block founders eat less and include more zero-intake individuals
+than dispersed founders despite higher whole-world intake; most block intake is
+by post-initialization births. Founder intake concentration is also high in surviving
+threshold-160 block worlds, so it alone does not establish the extinction mechanism.
+Added a standard-library analysis, complete report, Chinese interpretation and
+boundary tests. Fixed archives retain their original scope; no new simulation.
+
+All 132 local tests pass; 4,764 individual rows are retained in the generated CSV.
