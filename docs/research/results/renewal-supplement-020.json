@@ -1,0 +1,26 @@
+{
+  "archive": "bitgenesis-v0-renewal-stocks-020.zip",
+  "sha256": "4d1482c8f49192c4f039d2599cbb4a142db3bc5c2c30400615aa9743038bd17d",
+  "bytes": 40157090,
+  "source_commit": "99c4f62af72079b6179ba6843a2d8770b092dc04",
+  "archive_verification": {
+    "status": "verified",
+    "sha256": "4d1482c8f49192c4f039d2599cbb4a142db3bc5c2c30400615aa9743038bd17d",
+    "expected_hash_matched": true,
+    "source_commit": "99c4f62af72079b6179ba6843a2d8770b092dc04",
+    "files": 824,
+    "html_pages": 0,
+    "local_html_targets": 0,
+    "scope": "Stored file integrity and static HTML targets; no scripts executed or scientific claims validated."
+  },
+  "fresh_extracted_reports_equal": [
+    "campaign-020-verification.json",
+    "campaign-020-observations.json",
+    "campaign-020-processes.json",
+    "supply-windows-020.json",
+    "renewal-capacity-020.json",
+    "renewal-stocks-020-verification.json",
+    "renewal-stocks-020-summary.json"
+  ],
+  "scope": "New-directory extraction and seven complete archived stdlib report comparisons. No fresh runtime installation, simulation replay or remote delivery claimed."
+}
