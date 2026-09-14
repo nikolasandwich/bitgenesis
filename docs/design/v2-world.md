@@ -1,6 +1,7 @@
 # V2 world integration: v2-world-1
 
-Status: in-memory engineering implementation, not a scientific pilot. It forks
+Status: engineering implementation with a [persisted runner](../../experiments/v2/README.md),
+not a scientific pilot. It forks
 the V1 schedule into a separate module and uses a new RNG seed namespace. No V0
 or V1 world rules change. The sensor/controller arithmetic remains V1's supplied
 interface; each organism now retains both inherited genome and built controller.
@@ -44,7 +45,7 @@ spaces and potentially different construction costs. Fixed direct padding is
 explicit configuration; it does not automatically match each evolved developmental
 program's cost. Matched per-phenotype controls must be separately specified.
 
-Remaining work: persisted V2 runner, independent development/life-history audit,
+Remaining work: independent development/life-history audit,
 founder assignment controls, preregistered viability grid and scientific evaluation.
 Do not reuse the V1 auditor for V2 events or its successful-founder assumptions.
 Current tests establish arithmetic and replay under synthetic fixtures only.

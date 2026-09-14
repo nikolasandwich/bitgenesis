@@ -56,7 +56,7 @@ expression or padding budgets retain actual incurred costs and yield no controll
 World-level controls still need their own fixed matching policy before outcomes.
 
 An [in-memory world](v2-world.md) now charges construction at founder and child
-attempts and retains invalid-attempt records. Still outstanding: persistence and
+attempts and retains persisted invalid-attempt records. Still outstanding:
 independent audit, matched direct-encoding cost
 contract, pilot registration, behavioral/fitness assays and multiple-seed results.
 The current fixtures are hand-designed arithmetic examples, not evolved organisms.

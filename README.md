@@ -16,8 +16,10 @@ world: resource growth, random movement, feeding, energy costs, reproduction,
 mutation, death, and lineage logging. Genomes encode movement probability, not
 a food-seeking strategy. Experimental [V1](experiments/v1/README.md) adds inherited
 linear sensor-to-action controllers and a bounded recorded world runner.
-V1 has engineering tests but no completed scientific outcome study yet.
-Development, ecology and self-organization remain later research stages.
+V1's [first study](docs/research/v1-study-001.zh-CN.md) did not support an
+evolutionary increase in sensory value. Experimental [V2](experiments/v2/README.md)
+now records paid development and failed construction; its scientific evaluation
+is pending. Ecology and self-organization remain later research stages.
 The original empty-world scaffold remains available with its original rules.
 
 ## Quick start (Python 3.12+)
