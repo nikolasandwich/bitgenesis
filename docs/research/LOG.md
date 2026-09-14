@@ -1765,3 +1765,21 @@ Python 3.12.10. The live process has produced its first complete runs;
 no interpretation or completed-inventory change is made while it is running.
 All 115 local tests passed before launch. Next step is independent reconstruction
 of initial pairing, complete metrics and predeclared early/end observations.
+
+## 2026-09-14 — Autonomous cycle 118
+
+Campaign 017 completed all forty runs. Independently verified forty initial
+states, ten founder/RNG quadruplets, twenty threshold-map pairs, 400,040 metric
+rows and 4,000 early food-uptake transitions. Every stored observation matches
+reconstruction. All 117 local tests pass; launch source CI 34790910564 passed.
+
+All twenty threshold-160 runs survive to 10,000; threshold-40 survivors are two
+of ten dispersed and zero of ten block. High threshold greatly suppresses early
+births and population peaks. This is threshold-dependent finite-horizon evidence,
+not identification of a unique mediator or long-term stability. New block seeds
+also show extinction later than campaign 016's range, reinforcing its seed scope.
+
+Saved report/results and added campaign 017 to the completed inventory only after
+verification. Totals: 784 executions / 7,040,000 computed ticks; 24 historical
+follow-ups and 212,000 replayed ticks unchanged. Updated research entries while
+keeping the sixteen-campaign page/download scope explicit.

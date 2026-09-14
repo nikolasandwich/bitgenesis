@@ -251,6 +251,22 @@
       ],
       "followup_of": null,
       "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "017",
+      "executions": 40,
+      "ticks_per_execution": 10000,
+      "seed_range": [
+        1400,
+        1409
+      ],
+      "identity_fields": [
+        "arm",
+        "birth_threshold",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
     }
   ]
 }
