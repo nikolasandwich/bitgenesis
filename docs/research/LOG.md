@@ -3264,7 +3264,7 @@ later analysis. Autonomous research goal remains active.
 Previous cycle delivered the all-horizon figure. Exported committed source 2a8f24c
 with git archive to a new directory and reran the horizon analysis using only its
 compact committed input. All computed fields and the metric report hash match.
-The sole differing field is raw script_sha256: local CRLF versus exported LF.
+The sole differing field is raw script_sha256: local LF versus exported CRLF.
 Confirmed each reported raw hash matches its respective bytes and the complete
 scripts are byte-equal after newline normalization. This is provenance variation,
 not changed outcomes or a reason to rewrite the prior report.
