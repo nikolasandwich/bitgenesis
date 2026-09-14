@@ -156,3 +156,15 @@ the runtime stage or prove emergence of life, sensing or intelligence.
 
 The [evaluation contract](../design/v1-evaluation-contract.md) now makes extinction
 denominators and ancestor information contrasts explicit. It remains design only.
+
+
+## Registered next V0 question: renewal granularity
+
+[Campaign 020](../../experiments/v0/campaign-020.md) now registers a new sixty-world
+cohort at equal uncapped nominal supply, varying renewal probability and packet
+size together. This differs from the earlier supply-rate sweeps. It explicitly
+retains capacity/feeding truncation as intervention consequences and measures
+realized supply, rather than calling the comparison a pure variance manipulation.
+Only the protocol is committed at registration; runner engineering and outcome
+execution remain pending. This supersedes earlier statements in this note that no
+new V0 campaign had yet been registered. V1 remains design only.

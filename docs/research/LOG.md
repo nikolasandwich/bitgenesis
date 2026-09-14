@@ -2692,3 +2692,18 @@ source CI 34818289336 passed. Updated default download guidance to revision 2,
 retaining revision-1 evidence and clarifying historical late-analysis scope notes.
 No independent remote redownload, new simulation or runtime-install claim. Existing
 archives remain immutable and formal experiment counts are unchanged.
+
+## 2026-09-14 — Autonomous cycle 182
+
+Previous cycle delivered supplement revision 2. Reviewed earlier resource protocols:
+004/006 varied probability with fixed packet size, changing nominal supply. Registered
+campaign 020 to compare probability/amount pairs (60,1), (15,4), (5,12), all exact
+nominal mean 0.06, crossed with thresholds 40/160 on ten new seed blocks 1700–1709.
+Both direct charges remain zero; all sixty worlds have fixed 10,000-tick horizons.
+
+The protocol explicitly rejects a pure-variance/equal-realized-supply interpretation
+because cap truncation, feeding limits and trajectory feedback can change actual
+supply and uptake. Full outcomes, paired statuses, realized-resource totals and
+early observation checks are specified before execution. No new run launched in
+this cycle; implement and validate the runner next. Formal completed counts and
+historical artifacts remain unchanged.
