@@ -1942,3 +1942,17 @@ Forced full-occupancy, single-occupancy, nonmoving-reproducing and lethal-moveme
 cases validate the fields and preserve reference snapshots/events/RNG. All 124
 local tests pass. Earlier replay datasets and fixed archives remain unchanged;
 no new formal experiment or schema-3 outcome analysis is claimed yet.
+
+## 2026-09-14 — Autonomous cycle 130
+
+Replayed all forty early prefixes with schema 3 from clean source a70a9ab.
+All 4,040 historical metric rows match. Independent readback verifies both replay
+hashes and all 166,886 shared schema-2 fields, excluding only the schema version;
+movement flags and toroidal cardinal displacement pass checks.
+
+Occupied-target movement fractions among feeding survivors are 18.28–26.63%
+for block/40 versus 4.12–6.97% for block/160; dispersed ranges are 5.91–12.53%
+and 3.34–5.72%. Added all-world records and interpretation separating movement
+obstruction from the rare adjacent-birth-space blocks. Lethal movement is absent
+from the denominator, and no causal extinction mechanism is inferred. Formal
+inventory and all prior datasets/archives remain unchanged.

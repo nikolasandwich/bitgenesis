@@ -103,4 +103,5 @@ that still reproduces, and a lethal movement payment. They compare observed and
 ordinary snapshots/events/RNG and verify outcome fields. The broader six-world
 trajectory comparisons still pass; all 124 local tests pass. No source changes
 were made to the engine. Existing schema-1/2 datasets retain their original fields
-and hashes. No schema-3 historical replay has been analyzed at this checkpoint.
+and hashes. A later schema-3 replay of all forty early prefixes and its conditional movement
+counts are documented in [campaign 017](../research/campaign-017.md#retrospective-movement-among-feeding-survivors).

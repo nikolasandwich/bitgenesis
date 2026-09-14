@@ -188,3 +188,44 @@ python -I -S scripts/analyze_v0_birth_opportunities.py --output data/new-birth-o
 This uses the two local replay directories. It is a retrospective observation
 of existing worlds, not a new formal campaign, and postdates the fixed
 seventeen-campaign archive. No old execution totals or archive files changed.
+
+## Retrospective movement among feeding survivors
+
+Schema-3 replay preserves all original prefix metrics and every schema-2 feeding
+and birth field, apart from the explicit schema identifier. It adds pre-action
+position, movement attempt and realized displacement. Under the pinned V0 rules,
+a surviving attempted move with no displacement indicates an occupied target.
+
+| Layout / threshold | Movement attempts reaching feeding | Occupied-target blocks | Blocked fraction of these attempts |
+| --- | ---: | ---: | ---: |
+| Dispersed / 40 | 862–1,089 | 58–108 | 5.91–12.53% |
+| Dispersed / 160 | 907–1,018 | 34–53 | 3.34–5.72% |
+| Block / 40 | 1,295–1,444 | 264–360 | 18.28–26.63% |
+| Block / 160 | 677–938 | 33–61 | 4.12–6.97% |
+
+Ranges span ten worlds per treatment during ticks 1–100. Birth-space blockage was
+rare in the same window, but occupied-target movement is comparatively frequent
+in block/40. Raising the threshold accompanies fewer such blocks. These are
+distinct observations: having some free neighbor for birth does not imply that a
+randomly selected movement destination is empty.
+
+The denominator excludes individuals dying on the movement payment before they
+reach feeding. Repeated actions are dependent, and the treatment changes the
+population and energy distribution as well as movement opportunities. These
+fractions are neither whole-population movement rates nor estimates of how many
+extinctions would be prevented by allowing passage through occupied sites. A
+causal test would need a separately specified intervention with its own effects.
+
+[Per-world counts](results/movement-observations-017.csv) ·
+[Equivalence checks and provenance](results/movement-observations-017.json).
+Independent readback hash-checks both replay versions, matches all 166,886 earlier
+records on their shared fields, and verifies movement flags, position bounds and
+cardinal toroidal displacement. The schema-3 source was fixed before replay.
+
+```sh
+python -I -S scripts/analyze_v0_movement_observations.py --output data/new-movement-observations
+```
+
+This is another observation of the same early trajectories, not a new campaign
+or independent replicate. Original replay versions and the fixed seventeen-round
+archive remain unchanged. No complete death/action observer has yet been claimed.

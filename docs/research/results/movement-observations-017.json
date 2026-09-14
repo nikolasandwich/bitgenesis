@@ -1,0 +1,580 @@
+{
+  "scope": "Retrospective first hundred ticks; movement among individuals reaching feeding only. No lethal-movement denominator or causal congestion estimate.",
+  "replay_source": "a70a9aba7d5cf3f34e8a171bb6d93f3b3f9a0ec5",
+  "results": [
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1400,
+      "feeding_rows": 4146,
+      "movement_attempts": 1055,
+      "successful_moves": 967,
+      "blocked_moves": 88,
+      "no_attempt": 3091,
+      "blocked_fraction": 0.08341232227488152
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1401,
+      "feeding_rows": 3841,
+      "movement_attempts": 928,
+      "successful_moves": 824,
+      "blocked_moves": 104,
+      "no_attempt": 2913,
+      "blocked_fraction": 0.11206896551724138
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1402,
+      "feeding_rows": 4381,
+      "movement_attempts": 1089,
+      "successful_moves": 992,
+      "blocked_moves": 97,
+      "no_attempt": 3292,
+      "blocked_fraction": 0.08907254361799816
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1403,
+      "feeding_rows": 3646,
+      "movement_attempts": 946,
+      "successful_moves": 881,
+      "blocked_moves": 65,
+      "no_attempt": 2700,
+      "blocked_fraction": 0.06871035940803383
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1404,
+      "feeding_rows": 3861,
+      "movement_attempts": 920,
+      "successful_moves": 838,
+      "blocked_moves": 82,
+      "no_attempt": 2941,
+      "blocked_fraction": 0.0891304347826087
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1405,
+      "feeding_rows": 3654,
+      "movement_attempts": 893,
+      "successful_moves": 822,
+      "blocked_moves": 71,
+      "no_attempt": 2761,
+      "blocked_fraction": 0.07950727883538634
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1406,
+      "feeding_rows": 3976,
+      "movement_attempts": 964,
+      "successful_moves": 879,
+      "blocked_moves": 85,
+      "no_attempt": 3012,
+      "blocked_fraction": 0.08817427385892117
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1407,
+      "feeding_rows": 3965,
+      "movement_attempts": 981,
+      "successful_moves": 923,
+      "blocked_moves": 58,
+      "no_attempt": 2984,
+      "blocked_fraction": 0.059123343527013254
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1408,
+      "feeding_rows": 4038,
+      "movement_attempts": 983,
+      "successful_moves": 921,
+      "blocked_moves": 62,
+      "no_attempt": 3055,
+      "blocked_fraction": 0.06307222787385554
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1409,
+      "feeding_rows": 3544,
+      "movement_attempts": 862,
+      "successful_moves": 754,
+      "blocked_moves": 108,
+      "no_attempt": 2682,
+      "blocked_fraction": 0.12529002320185614
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1400,
+      "feeding_rows": 3930,
+      "movement_attempts": 967,
+      "successful_moves": 923,
+      "blocked_moves": 44,
+      "no_attempt": 2963,
+      "blocked_fraction": 0.045501551189245086
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1401,
+      "feeding_rows": 3641,
+      "movement_attempts": 926,
+      "successful_moves": 873,
+      "blocked_moves": 53,
+      "no_attempt": 2715,
+      "blocked_fraction": 0.05723542116630669
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1402,
+      "feeding_rows": 4088,
+      "movement_attempts": 970,
+      "successful_moves": 932,
+      "blocked_moves": 38,
+      "no_attempt": 3118,
+      "blocked_fraction": 0.03917525773195876
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1403,
+      "feeding_rows": 3920,
+      "movement_attempts": 1018,
+      "successful_moves": 984,
+      "blocked_moves": 34,
+      "no_attempt": 2902,
+      "blocked_fraction": 0.03339882121807466
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1404,
+      "feeding_rows": 3890,
+      "movement_attempts": 962,
+      "successful_moves": 915,
+      "blocked_moves": 47,
+      "no_attempt": 2928,
+      "blocked_fraction": 0.04885654885654886
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1405,
+      "feeding_rows": 4055,
+      "movement_attempts": 1007,
+      "successful_moves": 965,
+      "blocked_moves": 42,
+      "no_attempt": 3048,
+      "blocked_fraction": 0.041708043694141016
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1406,
+      "feeding_rows": 4098,
+      "movement_attempts": 982,
+      "successful_moves": 931,
+      "blocked_moves": 51,
+      "no_attempt": 3116,
+      "blocked_fraction": 0.051934826883910386
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1407,
+      "feeding_rows": 3884,
+      "movement_attempts": 963,
+      "successful_moves": 920,
+      "blocked_moves": 43,
+      "no_attempt": 2921,
+      "blocked_fraction": 0.0446521287642783
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1408,
+      "feeding_rows": 3553,
+      "movement_attempts": 907,
+      "successful_moves": 867,
+      "blocked_moves": 40,
+      "no_attempt": 2646,
+      "blocked_fraction": 0.044101433296582136
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1409,
+      "feeding_rows": 4012,
+      "movement_attempts": 1003,
+      "successful_moves": 963,
+      "blocked_moves": 40,
+      "no_attempt": 3009,
+      "blocked_fraction": 0.03988035892323031
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1400,
+      "feeding_rows": 5619,
+      "movement_attempts": 1377,
+      "successful_moves": 1054,
+      "blocked_moves": 323,
+      "no_attempt": 4242,
+      "blocked_fraction": 0.2345679012345679
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1401,
+      "feeding_rows": 5666,
+      "movement_attempts": 1343,
+      "successful_moves": 1000,
+      "blocked_moves": 343,
+      "no_attempt": 4323,
+      "blocked_fraction": 0.25539836187639614
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1402,
+      "feeding_rows": 5863,
+      "movement_attempts": 1444,
+      "successful_moves": 1180,
+      "blocked_moves": 264,
+      "no_attempt": 4419,
+      "blocked_fraction": 0.18282548476454294
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1403,
+      "feeding_rows": 5493,
+      "movement_attempts": 1364,
+      "successful_moves": 1014,
+      "blocked_moves": 350,
+      "no_attempt": 4129,
+      "blocked_fraction": 0.2565982404692082
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1404,
+      "feeding_rows": 5806,
+      "movement_attempts": 1359,
+      "successful_moves": 1033,
+      "blocked_moves": 326,
+      "no_attempt": 4447,
+      "blocked_fraction": 0.2398822663723326
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1405,
+      "feeding_rows": 5379,
+      "movement_attempts": 1295,
+      "successful_moves": 1028,
+      "blocked_moves": 267,
+      "no_attempt": 4084,
+      "blocked_fraction": 0.20617760617760617
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1406,
+      "feeding_rows": 5397,
+      "movement_attempts": 1360,
+      "successful_moves": 1017,
+      "blocked_moves": 343,
+      "no_attempt": 4037,
+      "blocked_fraction": 0.25220588235294117
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1407,
+      "feeding_rows": 5724,
+      "movement_attempts": 1390,
+      "successful_moves": 1072,
+      "blocked_moves": 318,
+      "no_attempt": 4334,
+      "blocked_fraction": 0.22877697841726619
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1408,
+      "feeding_rows": 5670,
+      "movement_attempts": 1352,
+      "successful_moves": 992,
+      "blocked_moves": 360,
+      "no_attempt": 4318,
+      "blocked_fraction": 0.26627218934911245
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1409,
+      "feeding_rows": 5542,
+      "movement_attempts": 1358,
+      "successful_moves": 1036,
+      "blocked_moves": 322,
+      "no_attempt": 4184,
+      "blocked_fraction": 0.23711340206185566
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1400,
+      "feeding_rows": 3133,
+      "movement_attempts": 801,
+      "successful_moves": 768,
+      "blocked_moves": 33,
+      "no_attempt": 2332,
+      "blocked_fraction": 0.04119850187265917
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1401,
+      "feeding_rows": 2941,
+      "movement_attempts": 753,
+      "successful_moves": 714,
+      "blocked_moves": 39,
+      "no_attempt": 2188,
+      "blocked_fraction": 0.05179282868525897
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1402,
+      "feeding_rows": 3049,
+      "movement_attempts": 757,
+      "successful_moves": 722,
+      "blocked_moves": 35,
+      "no_attempt": 2292,
+      "blocked_fraction": 0.046235138705416116
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1403,
+      "feeding_rows": 3654,
+      "movement_attempts": 918,
+      "successful_moves": 868,
+      "blocked_moves": 50,
+      "no_attempt": 2736,
+      "blocked_fraction": 0.054466230936819175
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1404,
+      "feeding_rows": 3152,
+      "movement_attempts": 760,
+      "successful_moves": 707,
+      "blocked_moves": 53,
+      "no_attempt": 2392,
+      "blocked_fraction": 0.06973684210526315
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1405,
+      "feeding_rows": 3119,
+      "movement_attempts": 770,
+      "successful_moves": 736,
+      "blocked_moves": 34,
+      "no_attempt": 2349,
+      "blocked_fraction": 0.04415584415584416
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1406,
+      "feeding_rows": 3777,
+      "movement_attempts": 938,
+      "successful_moves": 877,
+      "blocked_moves": 61,
+      "no_attempt": 2839,
+      "blocked_fraction": 0.0650319829424307
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1407,
+      "feeding_rows": 3298,
+      "movement_attempts": 831,
+      "successful_moves": 782,
+      "blocked_moves": 49,
+      "no_attempt": 2467,
+      "blocked_fraction": 0.05896510228640193
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1408,
+      "feeding_rows": 3718,
+      "movement_attempts": 922,
+      "successful_moves": 862,
+      "blocked_moves": 60,
+      "no_attempt": 2796,
+      "blocked_fraction": 0.0650759219088937
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1409,
+      "feeding_rows": 2763,
+      "movement_attempts": 677,
+      "successful_moves": 638,
+      "blocked_moves": 39,
+      "no_attempt": 2086,
+      "blocked_fraction": 0.05760709010339734
+    }
+  ],
+  "groups": [
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "ranges": {
+        "movement_attempts": [
+          862,
+          1089
+        ],
+        "successful_moves": [
+          754,
+          992
+        ],
+        "blocked_moves": [
+          58,
+          108
+        ],
+        "blocked_fraction": [
+          0.059123343527013254,
+          0.12529002320185614
+        ]
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "ranges": {
+        "movement_attempts": [
+          907,
+          1018
+        ],
+        "successful_moves": [
+          867,
+          984
+        ],
+        "blocked_moves": [
+          34,
+          53
+        ],
+        "blocked_fraction": [
+          0.03339882121807466,
+          0.05723542116630669
+        ]
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "ranges": {
+        "movement_attempts": [
+          1295,
+          1444
+        ],
+        "successful_moves": [
+          992,
+          1180
+        ],
+        "blocked_moves": [
+          264,
+          360
+        ],
+        "blocked_fraction": [
+          0.18282548476454294,
+          0.26627218934911245
+        ]
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "ranges": {
+        "movement_attempts": [
+          677,
+          938
+        ],
+        "successful_moves": [
+          638,
+          877
+        ],
+        "blocked_moves": [
+          33,
+          61
+        ],
+        "blocked_fraction": [
+          0.04119850187265917,
+          0.06973684210526315
+        ]
+      }
+    }
+  ],
+  "input_sha256": {
+    "dispersed-threshold-40-seed-1400-feeding.jsonl": "ba1661ada68510f58a448e4a73ff88896f1da733b6fa8a7b1cb075c35f948abb",
+    "dispersed-threshold-40-seed-1401-feeding.jsonl": "f52ce59c76ce951b959d9fa451fee1c6726a53a09aae9ed6ab18f657f76ebffa",
+    "dispersed-threshold-40-seed-1402-feeding.jsonl": "771ea86a8f63a3b411d35c246848366bc5cc993b013901ea9c1cfe4f2cafb15c",
+    "dispersed-threshold-40-seed-1403-feeding.jsonl": "9c1bf69a5b66bf86b3631be5d4dded28c2a0807cef4b1d94cd23ab2f22012b18",
+    "dispersed-threshold-40-seed-1404-feeding.jsonl": "14b688402a3d44e5843abf7082ad68449859f684f97d87771b5a870481fc4fc8",
+    "dispersed-threshold-40-seed-1405-feeding.jsonl": "6496fa95d9ae6fc6d840ee6bc564406c2582fcaecd2220dde87bfdcb82fdd3de",
+    "dispersed-threshold-40-seed-1406-feeding.jsonl": "f85ccc8d9c897a51540abccb603d934e5892c899cbaf4c8e45c21cfbc69d4090",
+    "dispersed-threshold-40-seed-1407-feeding.jsonl": "6b6291cdf7455c0e9c0bb20c0b3482994eddb9ea608938d533a8f463f678c65a",
+    "dispersed-threshold-40-seed-1408-feeding.jsonl": "ecf8b9e11cf9457e378b7e37a60b2dae3b1ab08ddb57812cf204d4556ea11c5d",
+    "dispersed-threshold-40-seed-1409-feeding.jsonl": "0487dd225b904cfb65339e2c6432c07e9a8ed96dc44f569a545776d93a9c8b21",
+    "dispersed-threshold-160-seed-1400-feeding.jsonl": "702141fdbd1d8478a338b7c29d44b29548fc1881721eecfd71f553e565422e22",
+    "dispersed-threshold-160-seed-1401-feeding.jsonl": "5656e34ced2bd9bd78ae472639a2ddd4e27f9cd0ad2f1454c9f1266bce17c47b",
+    "dispersed-threshold-160-seed-1402-feeding.jsonl": "9ad8979571e80c40829bebed6047552c56d4e6a66736495cce862264ced38bba",
+    "dispersed-threshold-160-seed-1403-feeding.jsonl": "a67fef18fc2595fe82a512c475d2f9ce38b0e5def7f72d64b73ee81f6b708293",
+    "dispersed-threshold-160-seed-1404-feeding.jsonl": "7c26b0cf8a452ffd8786ca75078d89f45ab97fe201ece9a2d97456c2a64c8d99",
+    "dispersed-threshold-160-seed-1405-feeding.jsonl": "743d26aed8ad7d76ec8db53992298522c7141de6b8d5973fcf7140a1083d9a5c",
+    "dispersed-threshold-160-seed-1406-feeding.jsonl": "986d336cdd6ab31349ddaa0b535e718f8e9cb490d9b2eb85b234d5581bb08ee9",
+    "dispersed-threshold-160-seed-1407-feeding.jsonl": "4faff0c40648af7ce3e0211bf68d13eef062b4df31a987e4c6c33b8b6e82aad0",
+    "dispersed-threshold-160-seed-1408-feeding.jsonl": "7ffa347b3c5f771c6c8688065e73f806e6db41b82d7ac1e9b35701d96e9c9cad",
+    "dispersed-threshold-160-seed-1409-feeding.jsonl": "bc1b0fdcf6e3e7eada687ddfe674d241978240fb1f2ac0af05ff64d24b5769b0",
+    "block-threshold-40-seed-1400-feeding.jsonl": "a852c6df3c1981714bca44d390d88eeaf452e9abc9f9a8cc00d72ec4e61ba90b",
+    "block-threshold-40-seed-1401-feeding.jsonl": "31dca542a575d28185f02fd35a0852d8f092ed804a968307b07df39e53f736a4",
+    "block-threshold-40-seed-1402-feeding.jsonl": "8e0fd4496543d9eca2f1795165e020daa1c4ed91cd8a55b59a27f48bc2851745",
+    "block-threshold-40-seed-1403-feeding.jsonl": "c2f64aa11d872413ced28eec8a6c125811b332a563ef1d0ad485c7f0d8dda378",
+    "block-threshold-40-seed-1404-feeding.jsonl": "0c6ba7e11ffeaa6cf0408383a96f7ef05fa907624e85b5edec768418099cc72b",
+    "block-threshold-40-seed-1405-feeding.jsonl": "8f56d0da309e86542cae213df7d4ca7e93b0bfc4306285750095fc739fce6ee9",
+    "block-threshold-40-seed-1406-feeding.jsonl": "0ae9d98fd6770a29be9151e0e9f1a1b07f57a985951ec596afb977e065bd7ed7",
+    "block-threshold-40-seed-1407-feeding.jsonl": "96e8bdb6942c5b19fe3a8d2a7b921234e669e74490432264e47370f31102d9ad",
+    "block-threshold-40-seed-1408-feeding.jsonl": "0f9688d63fe844745f6db16f96cf045cd766ce3414a34a5377266723075aab27",
+    "block-threshold-40-seed-1409-feeding.jsonl": "3805e9d759095cb47394981684ef50c18493c8799d53d9204d1824a65e44e413",
+    "block-threshold-160-seed-1400-feeding.jsonl": "2e4ac3d3af5da02c897ba3b468a8d58a9fa0f768a5e3b174afb6a516dc1bbddf",
+    "block-threshold-160-seed-1401-feeding.jsonl": "02d6b5cd0b53f04d2ddfc3b929ceb336f8eb25bc93019c8d74f97cae4b804cae",
+    "block-threshold-160-seed-1402-feeding.jsonl": "491f1988f4a37065bcf20540f82a7e9cf2b44761d9da1c700373c69371ee9d92",
+    "block-threshold-160-seed-1403-feeding.jsonl": "c25ee41f8ea7d5673b4f4fce9a7fbe502e78b4d643dd0698337a4f33cd9ea6c6",
+    "block-threshold-160-seed-1404-feeding.jsonl": "49c84f12cdd743e2200fadd4263a9e855dc145b6462789f9efb369875f77a0b9",
+    "block-threshold-160-seed-1405-feeding.jsonl": "38b23631176aa1646db29b7ab367270bb165b4e56d552e95b3b4842997f524ba",
+    "block-threshold-160-seed-1406-feeding.jsonl": "9d6f3223188d774b209e9fbddef186935a01e6a6448f03eb4186e687709cbc93",
+    "block-threshold-160-seed-1407-feeding.jsonl": "cbe6867bfca50de1b89703bb231a8b2c2ae39ca81c4f08d3407bde09ee27498e",
+    "block-threshold-160-seed-1408-feeding.jsonl": "0ac8eeb092ed6e125acad1ea09924160e11e5a3b89170bd6513850b229d1a319",
+    "block-threshold-160-seed-1409-feeding.jsonl": "16b0d1df0323897a5a7106e9fe08eeccb2cea24514d6155a069b682f4ed12564"
+  },
+  "previous_report_sha256": "9c9119b1f9e30a8232e76e4a9d8d81877aa8db1e0b4ff3c1f85b5c790a31c5fb",
+  "script_sha256": "4a616e9ea97780f25ffa2749e874b360dc092d269efe247d75c04d4fa31a66dd"
+}
