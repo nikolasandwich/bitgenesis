@@ -4454,3 +4454,9 @@ Full verifier27542 exited0 after all480 independent dynamics and role-count reco
 Training drive250/mutation100 means are7653/256000 at assay drive250 and617/48000 at500; other six groups zero. Twenty divergent-program environment results include16 positive and4 negative, not independent training replicates. No general adaptation or significance claim. Next preregister spatial-layout robustness with all60 frozen pairs and fresh environment seeds; current equal-founder layout is a limited assay, and finite256-program representation remains an open-endedness boundary.
 
 Full348 tests pass in37.582 seconds. Registered study008 before fresh seeds101000/101001:1440 unchanged-runtime runs across three fixed horizontal layouts, all frozen pairs, two environments/drives/placements; source-paired layout contrasts and660 neutral controls. No study008 runs launched yet.
+
+## 2026-09-14 — Autonomous cycle 327
+
+Added clean launcher65d5a8d and ran study008 after fresh frozen-ancestry validation. Previous continuation turns made progress on ignored verifier/test drafts and verified waits on original live process80573; no runtime/source changes during execution. That process now exited0 at1440/1440 independently dynamics-audited competitions. Exact execution grid and all clean launch/source bindings checked; cohort3,901,432,422 bytes. Archived execution metadata/results.
+
+Added full spatial verifier with independent role reconstruction,660 neutral swaps, cross-layout random-state coupling,720 placement scores,120 source means,24 group means and16 group layout contrasts. Focused synthetic test passes for hierarchical means, paired signed differences, missing/duplicate/unknown-layout rejection. Full cohort verification remains pending; do not infer spatial robustness from execution alone. Updated stage evidence overview through completed study007, preserving unmet structural reproduction and open-endedness criteria. Runtime unchanged since348 full tests.
