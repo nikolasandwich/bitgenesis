@@ -91,3 +91,9 @@ reconstruction against stored initial states. Check movement outcomes and cost
 zero semantics directly from observations. Summaries must match stored raw records.
 Only then add completed workload to the formal inventory. Existing campaign-017
 records, fixed archives and earlier experiment routes remain unchanged.
+
+Run the committed implementation from the repository root:
+
+```sh
+python -m scripts.run_v0_movement_charge --output data/campaign-018
+```

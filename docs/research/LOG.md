@@ -2177,3 +2177,13 @@ Expanded observer/reference comparisons to include 100-step zero-charge sparse
 and fully occupied engineering worlds, outside the outcome seed block. All state,
 RNG, events, old observations and energy identities remain covered. Workload
 inventory stays at seventeen verified campaigns until new results are complete.
+
+## 2026-09-14 — Autonomous cycle 148
+
+Implemented campaign-018 runner with clean-source enforcement, full metric output,
+three early observation streams and explicit zero-charge assertions. Observer
+buffers and engine events drain every tick; all worlds retain the fixed horizon.
+Eight-treatment initialization and ten-step observer/reference trajectories passed
+on engineering seed 23, including full lineage/RNG equality and matched food maps.
+All 138 local tests pass. Protocol and implementation are committed before outcome
+execution; completion and independent verification remain separate milestones.
