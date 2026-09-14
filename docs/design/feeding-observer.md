@@ -34,11 +34,11 @@ minus food-stock increase. Rows have positive pre-feeding energy, at most one
 feeding attempt per ID per tick, and no newborn feeding on its birth tick.
 Separate tests distinguish zero intake from death before feeding, check draining,
 and reject changed engine source or replacement of the observed list.
-All 120 local tests pass at this checkpoint.
+All 120 local tests passed at the initial feeding-only checkpoint.
 
-This is only the feeding component of the proposed mechanism observer. It does
-not yet record unsuccessful movement, occupied-neighbor counts or birth
-eligibility without birth. It therefore does not meet the entire observer gate
+The original feeding component is now extended with the schema-2 birth fields
+below. It still does not record unsuccessful movement or deaths before feeding
+as complete action observations. It therefore does not meet the entire observer gate
 in the [decision note](../roadmap/next-decisions.md). The historical replay below adds feeding observations but no mediation claim
 follows from the comparisons. Fixed seventeen-campaign archives are unchanged.
 
@@ -58,3 +58,25 @@ the formal campaign inventory. Original individual movement/feeding trajectories
 were not saved, so the historical comparison is against aggregate metrics, not
 an independent historical individual-path reference. No comparison of survival
 mechanisms is inferred from the attempt counts alone.
+
+## Schema 2: birth opportunity and actual birth
+
+New feeding rows explicitly contain `observation_schema=2`. At food removal the
+observer records `birth_eligible`, computed from pre-feeding energy plus intake
+against the configured threshold, and `empty_neighbors_before_birth`. The pinned
+engine changes no occupancy between this observation and its birth-space check.
+`child_id` starts null and is filled only when the engine's actual birth method
+creates a descendant. Thus an energetically eligible parent without space can be
+distinguished from an actual birth. Founder creation is not a feeding event.
+
+Tests verify full 2-by-2 occupancy with eligible parents and no birth, a lone
+eligible parent producing a child that does not act that tick, and agreement of
+observed child IDs with actual lineage and every tick's birth increment across
+the six reference configurations. Complete world/event/RNG comparisons still
+pass. All 122 local tests pass. Additional neighbor queries consume no randomness
+and do not mutate the engine state.
+
+The saved 166,886 feeding records from source `0479c34` predate these fields and
+remain unchanged. Missing fields in that dataset must not be interpreted as false
+eligibility or absent space. New schema-2 data requires a separate recorded replay;
+no congestion mechanism conclusion has yet been drawn from the new fields.

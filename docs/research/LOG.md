@@ -1900,3 +1900,17 @@ limits to campaign 017. Zero-intake fractions are not starvation rates; repeated
 attempts are not independent samples. No simulation or formal inventory change.
 Fixed seventeen-campaign archive remains unchanged and excludes these later
 observer records and analysis.
+
+## 2026-09-14 — Autonomous cycle 127
+
+Extended the source-pinned feeding observer with explicit schema 2: energy-based
+birth eligibility, empty neighboring cells immediately before the birth check,
+and actual child ID supplied by the engine's birth method. This distinguishes
+eligible-but-space-blocked cases from realized reproduction without copying or
+changing V0 stepping code.
+
+Full-occupancy and lone-parent edge tests pass; all six reference configurations
+still match complete state/events/RNG, and observed child IDs reconcile with
+lineage and per-tick births. All 122 local tests pass. Prior feeding JSONL files
+remain their original schema and are not retroactively populated. Complete
+movement/death action observation remains outside the tool's current scope.

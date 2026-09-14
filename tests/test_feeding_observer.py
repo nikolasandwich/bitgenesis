@@ -30,8 +30,12 @@ class FeedingObserverTests(unittest.TestCase):
                     now["supplied_energy"]-previous["supplied_energy"]+
                     previous["food_energy"]-now["food_energy"])
                 self.assertEqual(len({r["id"] for r in records}),len(records))
+                self.assertEqual(sum(r["child_id"] is not None for r in records),now["births"]-previous["births"])
                 for r in records:
                     self.assertEqual(r["tick"],tick+1)
+                    self.assertEqual(r["child_id"] is not None, r["birth_eligible"] and r["empty_neighbors_before_birth"]>0)
+                    if r["child_id"] is not None:
+                        self.assertEqual(observed.lineage[r["child_id"]].parent_id,r["id"])
                     self.assertGreater(r["energy_before_feeding"],0)
                     self.assertEqual(r["eaten"],min(config.feeding_rate,r["food_before"]))
                     self.assertLess(observed.lineage[r["id"]].birth_tick,r["tick"])
@@ -52,3 +56,19 @@ class FeedingObserverTests(unittest.TestCase):
         world=FeedingWorld(Config());world.food=list(world.food)
         with self.assertRaisesRegex(ValueError,"replace"):
             world.step()
+
+
+    def test_eligible_full_world_has_no_birth_space(self):
+        world=FeedingWorld(Config(width=2,height=2,initial_population=4,initial_energy=40,initial_food=24))
+        world.step();records=world.drain_feeding()
+        self.assertEqual(len(records),4)
+        self.assertTrue(all(r["birth_eligible"] and r["empty_neighbors_before_birth"]==0 and r["child_id"] is None for r in records))
+
+    def test_eligible_parent_with_space_records_actual_child(self):
+        world=FeedingWorld(Config(width=3,height=3,initial_population=1,initial_energy=40,initial_food=24))
+        world.step();records=world.drain_feeding()
+        self.assertEqual(len(records),1)
+        row=records[0];self.assertEqual(row["child_id"],1)
+        self.assertTrue(row["birth_eligible"])
+        self.assertEqual(row["empty_neighbors_before_birth"],4)
+        self.assertEqual(world.lineage[1].birth_tick,1)

@@ -1,4 +1,4 @@
-"""Research-only feeding observer for the pinned V0 engine; no CLI or study yet."""
+"""Research-only feeding and birth-opportunity observer for the pinned V0 engine."""
 
 import hashlib
 from pathlib import Path
@@ -20,10 +20,13 @@ class _ObservedFood(list):
             eaten = previous-value
             if position != actor.position or eaten != min(world.config.feeding_rate,previous):
                 raise ValueError("Observed food write differs from pinned feeding semantics")
-            world.feeding_records.append(dict(tick=world.tick,id=actor.id,
+            world.feeding_records.append(dict(observation_schema=2,tick=world.tick,id=actor.id,
                 founder_id=actor.founder_id,position=position,genome=actor.genome,
                 food_before=previous,food_after=value,eaten=eaten,
-                energy_before_feeding=actor.energy))
+                energy_before_feeding=actor.energy,
+                birth_eligible=actor.energy+eaten >= world.config.birth_threshold,
+                empty_neighbors_before_birth=sum(p not in world.occupied for p in world.neighbors(position)),
+                child_id=None))
         super().__setitem__(position,value)
 
 
@@ -46,6 +49,15 @@ class FeedingWorld(engine.World):
     def _pay(self, organism, amount):
         self._feeding_actor = organism
         super()._pay(organism,amount)
+
+    def _birth(self, position, energy, genome, parent):
+        child = super()._birth(position,energy,genome,parent)
+        if parent is not None:
+            row = self.feeding_records[-1]
+            if row["id"] != parent.id or row["tick"] != self.tick or row["child_id"] is not None:
+                raise ValueError("Birth does not match the current feeding observation")
+            row["child_id"] = child.id
+        return child
 
     def step(self):
         if not isinstance(self.food,_ObservedFood) or self.food.world is not self:
