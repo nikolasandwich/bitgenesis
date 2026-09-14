@@ -3390,3 +3390,20 @@ Copied the verified raw result CSV and updated the independent inventory:
 Prior 191-test evidence remains applicable; no runtime change or new simulation.
 Existing scope-21 download retains its scope; campaign-022 visualization and
 portable evidence remain next. Autonomous goal active, V1 design only.
+
+
+## 2026-09-14 — Autonomous cycle 218
+
+Previous cycle published campaign-022 synthesis and registered checkpoints. Added
+the complete twenty-seed paired survival plot with forty outcomes, extinction and
+right-censoring symbols, log time axis and per-seed classification labels. Plot
+requires complete verified metric/history linkage, rechecks all pair categories
+and censoring, and derives displayed totals/+2 from records. JSON preserves the
+exact forty metric records and twenty pair records plus source hashes.
+
+All figure records equal verified inputs. Inspected the full rendered PNG: twenty
+rows, both treatment markers and all outcome classifications are legible. Added
+the plot to the formal report, retaining finite-cohort, no significance and no
+adaptive-improvement claims. No new simulation or runtime change; prior 191-test
+evidence remains applicable. Fixed scope-21 download is unchanged; portable
+campaign-022 evidence remains next. Autonomous research goal active.
