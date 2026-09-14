@@ -1,0 +1,3070 @@
+{
+  "runs": [
+    {
+      "source_seed": 1900,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1900,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1900,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1900,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1900,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 49,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "49/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1900,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 49,
+      "status": "ancestor_only",
+      "contrast": "-49/40",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1900,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 93,
+      "status": "ancestor_only",
+      "contrast": "-93/40",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1900,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 93,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "93/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1900,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 20,
+      "status": "ancestor_only",
+      "contrast": "-1/2",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1900,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 20,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "1/2",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1901,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1901,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1901,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 220,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "11/2",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1901,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 220,
+      "status": "ancestor_only",
+      "contrast": "-11/2",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1901,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 45,
+      "status": "ancestor_only",
+      "contrast": "-9/8",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1901,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 45,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "9/8",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1901,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 40,
+      "status": "ancestor_only",
+      "contrast": "-1",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1901,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 40,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "1",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1901,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 26,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "13/20",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1901,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 26,
+      "status": "ancestor_only",
+      "contrast": "-13/20",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1902,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1902,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1902,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1902,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1902,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 80,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "2",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1902,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 80,
+      "status": "ancestor_only",
+      "contrast": "-2",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1902,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1902,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1902,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1902,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1903,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 19,
+      "status": "ancestor_only",
+      "contrast": "-19/40",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1903,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 19,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "19/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1903,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 29,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "29/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1903,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 29,
+      "status": "ancestor_only",
+      "contrast": "-29/40",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1903,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 46,
+      "status": "ancestor_only",
+      "contrast": "-23/20",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1903,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 46,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "23/20",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1903,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1903,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1903,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 41,
+      "status": "ancestor_only",
+      "contrast": "-41/40",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1903,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 41,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "41/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1904,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 31,
+      "status": "ancestor_only",
+      "contrast": "-31/40",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1904,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 31,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "31/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1904,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1904,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1904,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1904,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1904,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1904,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1904,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 57,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "57/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1904,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 57,
+      "status": "ancestor_only",
+      "contrast": "-57/40",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1905,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1905,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1905,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 38,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "19/20",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1905,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 38,
+      "status": "ancestor_only",
+      "contrast": "-19/20",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1905,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1905,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1905,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1905,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1905,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1905,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1906,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 43,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "43/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1906,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 43,
+      "status": "ancestor_only",
+      "contrast": "-43/40",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1906,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1906,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1906,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1906,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1906,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1906,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1906,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1906,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1907,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 16,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "2/5",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1907,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 16,
+      "status": "ancestor_only",
+      "contrast": "-2/5",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1907,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1907,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1907,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 19,
+      "status": "ancestor_only",
+      "contrast": "-19/40",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1907,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 19,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "19/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1907,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 70,
+      "status": "ancestor_only",
+      "contrast": "-7/4",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1907,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 70,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "7/4",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1907,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1907,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1908,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1908,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1908,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1908,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1908,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1908,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1908,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 46,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "23/20",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1908,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 46,
+      "status": "ancestor_only",
+      "contrast": "-23/20",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1908,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1908,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1909,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 75,
+      "status": "ancestor_only",
+      "contrast": "-15/8",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1909,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 93,
+      "status": "ancestor_only",
+      "contrast": "-93/40",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1909,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 20,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "1/2",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1909,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 46,
+      "status": "ancestor_only",
+      "contrast": "-23/20",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1909,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1909,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 34,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "17/20",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1909,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 27,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "27/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1909,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 50,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "5/4",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1909,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 66,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "33/20",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1909,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 46,
+      "status": "ancestor_only",
+      "contrast": "-23/20",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1910,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 56,
+      "status": "ancestor_only",
+      "contrast": "-7/5",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1910,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 56,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "7/5",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1910,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 55,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "11/8",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1910,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 55,
+      "status": "ancestor_only",
+      "contrast": "-11/8",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1910,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1910,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1910,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1910,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1910,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1910,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1911,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1911,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1911,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1911,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1911,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 15,
+      "status": "ancestor_only",
+      "contrast": "-3/8",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1911,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 15,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "3/8",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1911,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 94,
+      "status": "ancestor_only",
+      "contrast": "-47/20",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1911,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 94,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "47/20",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1911,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1911,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1912,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 78,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "39/20",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1912,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 41,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "41/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1912,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 26,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "13/20",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1912,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 52,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "13/10",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1912,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 23,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "23/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1912,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1912,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 73,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "73/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1912,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 40,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "1",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1912,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1912,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1913,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1913,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1913,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 37,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "37/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1913,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 57,
+      "status": "ancestor_only",
+      "contrast": "-57/40",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1913,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 63,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "63/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1913,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 41,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "41/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1913,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 54,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "27/20",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1913,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 27,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "27/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1913,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1913,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 52,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "13/10",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1914,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1914,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1914,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 49,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "49/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1914,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 49,
+      "status": "ancestor_only",
+      "contrast": "-49/40",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1914,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 52,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "13/10",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1914,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 52,
+      "status": "ancestor_only",
+      "contrast": "-13/10",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1914,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 50,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "5/4",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1914,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 50,
+      "status": "ancestor_only",
+      "contrast": "-5/4",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1914,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1914,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1915,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1915,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1915,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 113,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "113/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1915,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 113,
+      "status": "ancestor_only",
+      "contrast": "-113/40",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1915,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 65,
+      "status": "ancestor_only",
+      "contrast": "-13/8",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1915,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 65,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "13/8",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1915,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1915,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1915,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 99,
+      "status": "ancestor_only",
+      "contrast": "-99/40",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1915,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 99,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "99/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1916,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1916,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1916,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 40,
+      "status": "ancestor_only",
+      "contrast": "-1",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1916,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 40,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "1",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1916,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1916,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1916,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1916,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1916,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1916,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1917,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1917,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1917,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1917,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1917,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1917,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1917,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1917,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1917,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1917,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1918,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 41,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "41/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1918,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1918,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 153,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "153/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1918,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 33,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "33/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1918,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 40,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "1",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1918,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 62,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "31/20",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1918,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 54,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "27/20",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1918,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1918,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 45,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "9/8",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1918,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 58,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "29/20",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1919,
+      "replicate": 0,
+      "swap": 0,
+      "sampled_population": 70,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "7/4",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1919,
+      "replicate": 0,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 70,
+      "status": "ancestor_only",
+      "contrast": "-7/4",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1919,
+      "replicate": 1,
+      "swap": 0,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1919,
+      "replicate": 1,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 0,
+      "status": "both_extinct",
+      "contrast": "0",
+      "sampled_fraction": null
+    },
+    {
+      "source_seed": 1919,
+      "replicate": 2,
+      "swap": 0,
+      "sampled_population": 15,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "3/8",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1919,
+      "replicate": 2,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 15,
+      "status": "ancestor_only",
+      "contrast": "-3/8",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1919,
+      "replicate": 3,
+      "swap": 0,
+      "sampled_population": 25,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "5/8",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1919,
+      "replicate": 3,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 25,
+      "status": "ancestor_only",
+      "contrast": "-5/8",
+      "sampled_fraction": "0"
+    },
+    {
+      "source_seed": 1919,
+      "replicate": 4,
+      "swap": 0,
+      "sampled_population": 49,
+      "ancestor_population": 0,
+      "status": "sampled_only",
+      "contrast": "49/40",
+      "sampled_fraction": "1"
+    },
+    {
+      "source_seed": 1919,
+      "replicate": 4,
+      "swap": 1,
+      "sampled_population": 0,
+      "ancestor_population": 49,
+      "status": "ancestor_only",
+      "contrast": "-49/40",
+      "sampled_fraction": "0"
+    }
+  ],
+  "pairs": [
+    {
+      "source_seed": 1900,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1900,
+      "replicate": 1,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1900,
+      "replicate": 2,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1900,
+      "replicate": 3,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1900,
+      "replicate": 4,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1901,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1901,
+      "replicate": 1,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1901,
+      "replicate": 2,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1901,
+      "replicate": 3,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1901,
+      "replicate": 4,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1902,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1902,
+      "replicate": 1,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1902,
+      "replicate": 2,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1902,
+      "replicate": 3,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1902,
+      "replicate": 4,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1903,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1903,
+      "replicate": 1,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1903,
+      "replicate": 2,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1903,
+      "replicate": 3,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1903,
+      "replicate": 4,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1904,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1904,
+      "replicate": 1,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1904,
+      "replicate": 2,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1904,
+      "replicate": 3,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1904,
+      "replicate": 4,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1905,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1905,
+      "replicate": 1,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1905,
+      "replicate": 2,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1905,
+      "replicate": 3,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1905,
+      "replicate": 4,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1906,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1906,
+      "replicate": 1,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1906,
+      "replicate": 2,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1906,
+      "replicate": 3,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1906,
+      "replicate": 4,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1907,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1907,
+      "replicate": 1,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1907,
+      "replicate": 2,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1907,
+      "replicate": 3,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1907,
+      "replicate": 4,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1908,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1908,
+      "replicate": 1,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1908,
+      "replicate": 2,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1908,
+      "replicate": 3,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1908,
+      "replicate": 4,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1909,
+      "replicate": 0,
+      "contrast": "-21/10"
+    },
+    {
+      "source_seed": 1909,
+      "replicate": 1,
+      "contrast": "-13/40"
+    },
+    {
+      "source_seed": 1909,
+      "replicate": 2,
+      "contrast": "17/40"
+    },
+    {
+      "source_seed": 1909,
+      "replicate": 3,
+      "contrast": "77/80"
+    },
+    {
+      "source_seed": 1909,
+      "replicate": 4,
+      "contrast": "1/4"
+    },
+    {
+      "source_seed": 1910,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1910,
+      "replicate": 1,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1910,
+      "replicate": 2,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1910,
+      "replicate": 3,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1910,
+      "replicate": 4,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1911,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1911,
+      "replicate": 1,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1911,
+      "replicate": 2,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1911,
+      "replicate": 3,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1911,
+      "replicate": 4,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1912,
+      "replicate": 0,
+      "contrast": "119/80"
+    },
+    {
+      "source_seed": 1912,
+      "replicate": 1,
+      "contrast": "39/40"
+    },
+    {
+      "source_seed": 1912,
+      "replicate": 2,
+      "contrast": "23/80"
+    },
+    {
+      "source_seed": 1912,
+      "replicate": 3,
+      "contrast": "113/80"
+    },
+    {
+      "source_seed": 1912,
+      "replicate": 4,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1913,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1913,
+      "replicate": 1,
+      "contrast": "-1/4"
+    },
+    {
+      "source_seed": 1913,
+      "replicate": 2,
+      "contrast": "13/10"
+    },
+    {
+      "source_seed": 1913,
+      "replicate": 3,
+      "contrast": "81/80"
+    },
+    {
+      "source_seed": 1913,
+      "replicate": 4,
+      "contrast": "13/20"
+    },
+    {
+      "source_seed": 1914,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1914,
+      "replicate": 1,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1914,
+      "replicate": 2,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1914,
+      "replicate": 3,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1914,
+      "replicate": 4,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1915,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1915,
+      "replicate": 1,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1915,
+      "replicate": 2,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1915,
+      "replicate": 3,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1915,
+      "replicate": 4,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1916,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1916,
+      "replicate": 1,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1916,
+      "replicate": 2,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1916,
+      "replicate": 3,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1916,
+      "replicate": 4,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1917,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1917,
+      "replicate": 1,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1917,
+      "replicate": 2,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1917,
+      "replicate": 3,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1917,
+      "replicate": 4,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1918,
+      "replicate": 0,
+      "contrast": "41/80"
+    },
+    {
+      "source_seed": 1918,
+      "replicate": 1,
+      "contrast": "93/40"
+    },
+    {
+      "source_seed": 1918,
+      "replicate": 2,
+      "contrast": "51/40"
+    },
+    {
+      "source_seed": 1918,
+      "replicate": 3,
+      "contrast": "27/40"
+    },
+    {
+      "source_seed": 1918,
+      "replicate": 4,
+      "contrast": "103/80"
+    },
+    {
+      "source_seed": 1919,
+      "replicate": 0,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1919,
+      "replicate": 1,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1919,
+      "replicate": 2,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1919,
+      "replicate": 3,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1919,
+      "replicate": 4,
+      "contrast": "0"
+    }
+  ],
+  "sources": [
+    {
+      "source_seed": 1900,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1901,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1902,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1903,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1904,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1905,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1906,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1907,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1908,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1909,
+      "contrast": "-63/400"
+    },
+    {
+      "source_seed": 1910,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1911,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1912,
+      "contrast": "333/400"
+    },
+    {
+      "source_seed": 1913,
+      "contrast": "217/400"
+    },
+    {
+      "source_seed": 1914,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1915,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1916,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1917,
+      "contrast": "0"
+    },
+    {
+      "source_seed": 1918,
+      "contrast": "243/200"
+    },
+    {
+      "source_seed": 1919,
+      "contrast": "0"
+    }
+  ],
+  "mean_source_contrast": "973/8000",
+  "positive_sources": 3,
+  "zero_sources": 16,
+  "negative_sources": 1,
+  "samples": {
+    "1900": {
+      "id": 210,
+      "genome": 250,
+      "birth_tick": 27,
+      "founder_id": 77,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        210,
+        77
+      ],
+      "priority_sha256": "1cbad540a2075e3fe3e8c423c1b992a4859a78bc03726e5a98072e7095d000e6"
+    },
+    "1901": {
+      "id": 158,
+      "genome": 250,
+      "birth_tick": 12,
+      "founder_id": 8,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        158,
+        102,
+        98,
+        8
+      ],
+      "priority_sha256": "1a4b5a576aa54e4788214ee6cc6f79a886e35dbfa67a99aa02408aaa19046c1a"
+    },
+    "1902": {
+      "id": 63,
+      "genome": 250,
+      "birth_tick": 0,
+      "founder_id": 63,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        63
+      ],
+      "priority_sha256": "3eeaeeff92ab1d47f54b46962778e3c5ee1ac03c136da448079225fbc5237ff5"
+    },
+    "1903": {
+      "id": 197,
+      "genome": 250,
+      "birth_tick": 19,
+      "founder_id": 67,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        197,
+        187,
+        97,
+        67
+      ],
+      "priority_sha256": "136e2287849f081c2844c8bd444e4d0d25f31459dea8f5b37ed7dbea7b465d87"
+    },
+    "1904": {
+      "id": 121,
+      "genome": 250,
+      "birth_tick": 9,
+      "founder_id": 2,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        121,
+        112,
+        2
+      ],
+      "priority_sha256": "0a6e4809a681972eac1413e77b6d4e68b5069a8c1cf09715b7e486e64945883f"
+    },
+    "1905": {
+      "id": 220,
+      "genome": 250,
+      "birth_tick": 28,
+      "founder_id": 6,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        220,
+        209,
+        192,
+        95,
+        6
+      ],
+      "priority_sha256": "0a2857ce6b05f01ec0e658892a6842c39eb05d2d6801ec207e422fdc7ed96968"
+    },
+    "1906": {
+      "id": 119,
+      "genome": 250,
+      "birth_tick": 6,
+      "founder_id": 44,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        119,
+        80,
+        44
+      ],
+      "priority_sha256": "078ce4e5e806955c6a669220b971561b0a98fc49e2aeb0c9f7973dc67e0acbc2"
+    },
+    "1907": {
+      "id": 214,
+      "genome": 250,
+      "birth_tick": 26,
+      "founder_id": 11,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        214,
+        205,
+        192,
+        174,
+        156,
+        84,
+        11
+      ],
+      "priority_sha256": "05efe8f881795f5612805191506136f4234100a50dbfd615b2949c0e3bcb8b12"
+    },
+    "1908": {
+      "id": 222,
+      "genome": 250,
+      "birth_tick": 42,
+      "founder_id": 56,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        222,
+        219,
+        212,
+        209,
+        154,
+        134,
+        110,
+        82,
+        56
+      ],
+      "priority_sha256": "102bf19a61e86eafc4333d19e5531eda54dc38f7a91eb46599a8f4ade7482826"
+    },
+    "1909": {
+      "id": 226,
+      "genome": 256,
+      "birth_tick": 89,
+      "founder_id": 33,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        226,
+        189,
+        178,
+        128,
+        83,
+        33
+      ],
+      "priority_sha256": "12a6153ee6c7a0ca141ce6abcc36a4c94ca227734972fa6d4519b4e6b01a7071"
+    },
+    "1910": {
+      "id": 43,
+      "genome": 250,
+      "birth_tick": 0,
+      "founder_id": 43,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        43
+      ],
+      "priority_sha256": "04939d6cb29392557a2f4302643990685c37559b4861f9653df57dcceeca04ca"
+    },
+    "1911": {
+      "id": 105,
+      "genome": 250,
+      "birth_tick": 6,
+      "founder_id": 8,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        105,
+        95,
+        8
+      ],
+      "priority_sha256": "530c687e9399fef8af65fdf6b988bba148259e22e097ec4c2fb4c10ab10a3165"
+    },
+    "1912": {
+      "id": 107,
+      "genome": 291,
+      "birth_tick": 6,
+      "founder_id": 59,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        107,
+        92,
+        59
+      ],
+      "priority_sha256": "24c907907e3734a7e6645fabaa157bd7617681063743c532933c3be9358269d1"
+    },
+    "1913": {
+      "id": 225,
+      "genome": 276,
+      "birth_tick": 50,
+      "founder_id": 2,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        225,
+        221,
+        206,
+        184,
+        157,
+        131,
+        123,
+        106,
+        85,
+        2
+      ],
+      "priority_sha256": "3abe288ea871c127b3aeb2a58cb5f0ad1e821aebcc45e2f38dd13cec966fd1c6"
+    },
+    "1914": {
+      "id": 187,
+      "genome": 250,
+      "birth_tick": 24,
+      "founder_id": 13,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        187,
+        171,
+        156,
+        143,
+        127,
+        112,
+        103,
+        88,
+        13
+      ],
+      "priority_sha256": "adf9f174d45a1952cce0fce05ffb8d63077c3a31622c4412c377bcd46c9d4a29"
+    },
+    "1915": {
+      "id": 181,
+      "genome": 250,
+      "birth_tick": 33,
+      "founder_id": 72,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        181,
+        89,
+        72
+      ],
+      "priority_sha256": "50348a1c52a0767c6c3efdcb57fe1c3456fd96244edc5f057adedce6b37f232a"
+    },
+    "1916": {
+      "id": 189,
+      "genome": 250,
+      "birth_tick": 19,
+      "founder_id": 25,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        189,
+        168,
+        150,
+        25
+      ],
+      "priority_sha256": "315b8386a1315ac1a89d2f2bb933cd476d87c7c30411cdc2627763b77243d217"
+    },
+    "1917": {
+      "id": 5,
+      "genome": 250,
+      "birth_tick": 0,
+      "founder_id": 5,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        5
+      ],
+      "priority_sha256": "aff88b1e585a0198a767baaa4e858cb12d0d82ecfac41549cab32f5c1160f693"
+    },
+    "1918": {
+      "id": 193,
+      "genome": 340,
+      "birth_tick": 18,
+      "founder_id": 56,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        193,
+        144,
+        134,
+        108,
+        89,
+        56
+      ],
+      "priority_sha256": "3b07c4c861cb9439ea29e86fb44d8fa1922eb3f61fd5fa70f8b51ef7c849f446"
+    },
+    "1919": {
+      "id": 200,
+      "genome": 250,
+      "birth_tick": 25,
+      "founder_id": 56,
+      "founder_genome": 250,
+      "ancestor_chain": [
+        200,
+        181,
+        166,
+        148,
+        101,
+        88,
+        56
+      ],
+      "priority_sha256": "189f7bf3ed87206c3c64428636167eb399f20721b6721b6e820a3d80cb41458a"
+    }
+  },
+  "status_counts": [
+    {
+      "source_seed": 1900,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 3,
+        "ancestor_only": 3,
+        "both_extinct": 4
+      }
+    },
+    {
+      "source_seed": 1901,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 4,
+        "ancestor_only": 4,
+        "both_extinct": 2
+      }
+    },
+    {
+      "source_seed": 1902,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 1,
+        "ancestor_only": 1,
+        "both_extinct": 8
+      }
+    },
+    {
+      "source_seed": 1903,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 4,
+        "ancestor_only": 4,
+        "both_extinct": 2
+      }
+    },
+    {
+      "source_seed": 1904,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 2,
+        "ancestor_only": 2,
+        "both_extinct": 6
+      }
+    },
+    {
+      "source_seed": 1905,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 1,
+        "ancestor_only": 1,
+        "both_extinct": 8
+      }
+    },
+    {
+      "source_seed": 1906,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 1,
+        "ancestor_only": 1,
+        "both_extinct": 8
+      }
+    },
+    {
+      "source_seed": 1907,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 3,
+        "ancestor_only": 3,
+        "both_extinct": 4
+      }
+    },
+    {
+      "source_seed": 1908,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 1,
+        "ancestor_only": 1,
+        "both_extinct": 8
+      }
+    },
+    {
+      "source_seed": 1909,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 5,
+        "ancestor_only": 4,
+        "both_extinct": 1
+      }
+    },
+    {
+      "source_seed": 1910,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 2,
+        "ancestor_only": 2,
+        "both_extinct": 6
+      }
+    },
+    {
+      "source_seed": 1911,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 2,
+        "ancestor_only": 2,
+        "both_extinct": 6
+      }
+    },
+    {
+      "source_seed": 1912,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 7,
+        "ancestor_only": 0,
+        "both_extinct": 3
+      }
+    },
+    {
+      "source_seed": 1913,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 6,
+        "ancestor_only": 1,
+        "both_extinct": 3
+      }
+    },
+    {
+      "source_seed": 1914,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 3,
+        "ancestor_only": 3,
+        "both_extinct": 4
+      }
+    },
+    {
+      "source_seed": 1915,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 3,
+        "ancestor_only": 3,
+        "both_extinct": 4
+      }
+    },
+    {
+      "source_seed": 1916,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 1,
+        "ancestor_only": 1,
+        "both_extinct": 8
+      }
+    },
+    {
+      "source_seed": 1917,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 0,
+        "ancestor_only": 0,
+        "both_extinct": 10
+      }
+    },
+    {
+      "source_seed": 1918,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 8,
+        "ancestor_only": 0,
+        "both_extinct": 2
+      }
+    },
+    {
+      "source_seed": 1919,
+      "counts": {
+        "both_present": 0,
+        "sampled_only": 4,
+        "ancestor_only": 4,
+        "both_extinct": 2
+      }
+    }
+  ],
+  "verification_sha256": "f6e5a0b3dc24e4e0de3fc0547eeedffae88b28dd2674de567847d3497737ec64",
+  "manifest_sha256": "58fe9c9c7484da17db5d095fbeb93289903ffe5b801b7d3709a297f52a19c741",
+  "script_sha256": "4a507bd99f6a76a13d6eb22a2fae96963728184ba66e6be1e17b2687e880c726"
+}
