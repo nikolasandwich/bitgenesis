@@ -1,0 +1,434 @@
+{
+  "scope": "complete structural and fixed-probe sensitivity; no population evolution or fitness measurement",
+  "structure_verification": {
+    "scope": "complete genotype grid, independent constructions and validity transitions; behavioral probabilities pending separate validation",
+    "parents": 100,
+    "variants": 2000,
+    "sources": [
+      {
+        "source": 83000,
+        "valid_parents": 4,
+        "valid_to_valid": 79,
+        "silent_genotypes": 8,
+        "valid_to_invalid": 1,
+        "invalid_to_invalid": 20
+      },
+      {
+        "source": 83001,
+        "valid_parents": 1,
+        "invalid_to_invalid": 80,
+        "silent_genotypes": 2,
+        "valid_to_valid": 20
+      },
+      {
+        "source": 83002,
+        "valid_parents": 0,
+        "invalid_to_invalid": 99,
+        "silent_genotypes": 7,
+        "invalid_to_valid": 1
+      },
+      {
+        "source": 83003,
+        "valid_parents": 0,
+        "invalid_to_invalid": 98,
+        "silent_genotypes": 4,
+        "invalid_to_valid": 2
+      },
+      {
+        "source": 83004,
+        "valid_parents": 1,
+        "invalid_to_invalid": 80,
+        "silent_genotypes": 2,
+        "valid_to_valid": 15,
+        "valid_to_invalid": 5
+      },
+      {
+        "source": 83005,
+        "valid_parents": 0,
+        "invalid_to_invalid": 98,
+        "silent_genotypes": 5,
+        "invalid_to_valid": 2
+      },
+      {
+        "source": 83006,
+        "valid_parents": 1,
+        "invalid_to_invalid": 79,
+        "silent_genotypes": 6,
+        "invalid_to_valid": 1,
+        "valid_to_valid": 20
+      },
+      {
+        "source": 83007,
+        "valid_parents": 1,
+        "invalid_to_invalid": 77,
+        "silent_genotypes": 6,
+        "invalid_to_valid": 3,
+        "valid_to_valid": 19,
+        "valid_to_invalid": 1
+      },
+      {
+        "source": 83008,
+        "valid_parents": 2,
+        "invalid_to_invalid": 60,
+        "silent_genotypes": 6,
+        "valid_to_valid": 40
+      },
+      {
+        "source": 83009,
+        "valid_parents": 1,
+        "invalid_to_invalid": 79,
+        "silent_genotypes": 4,
+        "valid_to_valid": 20,
+        "invalid_to_valid": 1
+      },
+      {
+        "source": 83010,
+        "valid_parents": 1,
+        "invalid_to_invalid": 80,
+        "silent_genotypes": 4,
+        "valid_to_valid": 19,
+        "valid_to_invalid": 1
+      },
+      {
+        "source": 83011,
+        "valid_parents": 0,
+        "invalid_to_invalid": 100,
+        "silent_genotypes": 2
+      },
+      {
+        "source": 83012,
+        "valid_parents": 1,
+        "invalid_to_invalid": 80,
+        "silent_genotypes": 8,
+        "valid_to_valid": 19,
+        "valid_to_invalid": 1
+      },
+      {
+        "source": 83013,
+        "valid_parents": 1,
+        "valid_to_valid": 19,
+        "silent_genotypes": 6,
+        "valid_to_invalid": 1,
+        "invalid_to_invalid": 76,
+        "invalid_to_valid": 4
+      },
+      {
+        "source": 83014,
+        "valid_parents": 1,
+        "invalid_to_invalid": 80,
+        "silent_genotypes": 7,
+        "valid_to_valid": 19,
+        "valid_to_invalid": 1
+      },
+      {
+        "source": 83015,
+        "valid_parents": 3,
+        "valid_to_valid": 60,
+        "silent_genotypes": 4,
+        "invalid_to_invalid": 40
+      },
+      {
+        "source": 83016,
+        "valid_parents": 1,
+        "invalid_to_invalid": 80,
+        "silent_genotypes": 6,
+        "valid_to_valid": 20
+      },
+      {
+        "source": 83017,
+        "valid_parents": 1,
+        "invalid_to_invalid": 80,
+        "silent_genotypes": 4,
+        "valid_to_valid": 19,
+        "valid_to_invalid": 1
+      },
+      {
+        "source": 83018,
+        "valid_parents": 1,
+        "invalid_to_invalid": 80,
+        "silent_genotypes": 2,
+        "valid_to_valid": 18,
+        "valid_to_invalid": 2
+      },
+      {
+        "source": 83019,
+        "valid_parents": 1,
+        "valid_to_valid": 18,
+        "silent_genotypes": 5,
+        "valid_to_invalid": 2,
+        "invalid_to_invalid": 80
+      }
+    ],
+    "totals": {
+      "valid_parents": 22,
+      "valid_to_valid": 424,
+      "silent_genotypes": 98,
+      "valid_to_invalid": 16,
+      "invalid_to_invalid": 1546,
+      "invalid_to_valid": 14
+    },
+    "results_sha256": "ee206332cfcfcd30584f7ead7fef5f38fc92f89ca89ef711540732920d9dd811",
+    "metadata_sha256": "a0257085d81902cee4f95a24d8c4f78cd88fb955e0cfa168fbbca920955eacaa",
+    "script_sha256": "7767311c64712ddb323512182eadc2e333dd8e049b8f0b07e11fe1841c2d12da"
+  },
+  "sources": [
+    {
+      "source": 83000,
+      "parents": 5,
+      "valid_parents": 4,
+      "valid_to_valid": 79,
+      "weight_changes": 43,
+      "active_changes": 22,
+      "behavior_comparable": 79,
+      "behavior_changes": 14,
+      "valid_to_invalid": 1,
+      "invalid_to_invalid": 20,
+      "conditional_parent_equal_mean_tv": "11091/243200"
+    },
+    {
+      "source": 83001,
+      "parents": 5,
+      "valid_parents": 1,
+      "invalid_to_invalid": 80,
+      "weight_changes": 13,
+      "active_changes": 6,
+      "behavior_comparable": 20,
+      "behavior_changes": 5,
+      "valid_to_valid": 20,
+      "conditional_parent_equal_mean_tv": "81/3200"
+    },
+    {
+      "source": 83002,
+      "parents": 5,
+      "valid_parents": 0,
+      "invalid_to_invalid": 99,
+      "weight_changes": 1,
+      "active_changes": 1,
+      "behavior_comparable": 0,
+      "behavior_changes": 0,
+      "invalid_to_valid": 1,
+      "conditional_parent_equal_mean_tv": null
+    },
+    {
+      "source": 83003,
+      "parents": 5,
+      "valid_parents": 0,
+      "invalid_to_invalid": 98,
+      "weight_changes": 2,
+      "active_changes": 2,
+      "behavior_comparable": 0,
+      "behavior_changes": 0,
+      "invalid_to_valid": 2,
+      "conditional_parent_equal_mean_tv": null
+    },
+    {
+      "source": 83004,
+      "parents": 5,
+      "valid_parents": 1,
+      "invalid_to_invalid": 80,
+      "weight_changes": 9,
+      "active_changes": 5,
+      "behavior_comparable": 15,
+      "behavior_changes": 0,
+      "valid_to_valid": 15,
+      "valid_to_invalid": 5,
+      "conditional_parent_equal_mean_tv": "0"
+    },
+    {
+      "source": 83005,
+      "parents": 5,
+      "valid_parents": 0,
+      "invalid_to_invalid": 98,
+      "weight_changes": 2,
+      "active_changes": 2,
+      "behavior_comparable": 0,
+      "behavior_changes": 0,
+      "invalid_to_valid": 2,
+      "conditional_parent_equal_mean_tv": null
+    },
+    {
+      "source": 83006,
+      "parents": 5,
+      "valid_parents": 1,
+      "invalid_to_invalid": 79,
+      "weight_changes": 15,
+      "active_changes": 7,
+      "behavior_comparable": 20,
+      "behavior_changes": 6,
+      "invalid_to_valid": 1,
+      "valid_to_valid": 20,
+      "conditional_parent_equal_mean_tv": "219/3200"
+    },
+    {
+      "source": 83007,
+      "parents": 5,
+      "valid_parents": 1,
+      "invalid_to_invalid": 77,
+      "weight_changes": 16,
+      "active_changes": 8,
+      "behavior_comparable": 19,
+      "behavior_changes": 1,
+      "invalid_to_valid": 3,
+      "valid_to_valid": 19,
+      "valid_to_invalid": 1,
+      "conditional_parent_equal_mean_tv": "3/95"
+    },
+    {
+      "source": 83008,
+      "parents": 5,
+      "valid_parents": 2,
+      "invalid_to_invalid": 60,
+      "weight_changes": 21,
+      "active_changes": 8,
+      "behavior_comparable": 40,
+      "behavior_changes": 8,
+      "valid_to_valid": 40,
+      "conditional_parent_equal_mean_tv": "43/1280"
+    },
+    {
+      "source": 83009,
+      "parents": 5,
+      "valid_parents": 1,
+      "invalid_to_invalid": 79,
+      "weight_changes": 13,
+      "active_changes": 3,
+      "behavior_comparable": 20,
+      "behavior_changes": 2,
+      "valid_to_valid": 20,
+      "invalid_to_valid": 1,
+      "conditional_parent_equal_mean_tv": "9/200"
+    },
+    {
+      "source": 83010,
+      "parents": 5,
+      "valid_parents": 1,
+      "invalid_to_invalid": 80,
+      "weight_changes": 8,
+      "active_changes": 2,
+      "behavior_comparable": 19,
+      "behavior_changes": 1,
+      "valid_to_valid": 19,
+      "valid_to_invalid": 1,
+      "conditional_parent_equal_mean_tv": "1/95"
+    },
+    {
+      "source": 83011,
+      "parents": 5,
+      "valid_parents": 0,
+      "invalid_to_invalid": 100,
+      "weight_changes": 0,
+      "active_changes": 0,
+      "behavior_comparable": 0,
+      "behavior_changes": 0,
+      "conditional_parent_equal_mean_tv": null
+    },
+    {
+      "source": 83012,
+      "parents": 5,
+      "valid_parents": 1,
+      "invalid_to_invalid": 80,
+      "weight_changes": 9,
+      "active_changes": 3,
+      "behavior_comparable": 19,
+      "behavior_changes": 1,
+      "valid_to_valid": 19,
+      "valid_to_invalid": 1,
+      "conditional_parent_equal_mean_tv": "3/380"
+    },
+    {
+      "source": 83013,
+      "parents": 5,
+      "valid_parents": 1,
+      "valid_to_valid": 19,
+      "weight_changes": 17,
+      "active_changes": 11,
+      "behavior_comparable": 19,
+      "behavior_changes": 6,
+      "valid_to_invalid": 1,
+      "invalid_to_invalid": 76,
+      "invalid_to_valid": 4,
+      "conditional_parent_equal_mean_tv": "173/3040"
+    },
+    {
+      "source": 83014,
+      "parents": 5,
+      "valid_parents": 1,
+      "invalid_to_invalid": 80,
+      "weight_changes": 13,
+      "active_changes": 5,
+      "behavior_comparable": 19,
+      "behavior_changes": 3,
+      "valid_to_valid": 19,
+      "valid_to_invalid": 1,
+      "conditional_parent_equal_mean_tv": "23/1520"
+    },
+    {
+      "source": 83015,
+      "parents": 5,
+      "valid_parents": 3,
+      "valid_to_valid": 60,
+      "weight_changes": 39,
+      "active_changes": 28,
+      "behavior_comparable": 60,
+      "behavior_changes": 23,
+      "invalid_to_invalid": 40,
+      "conditional_parent_equal_mean_tv": "47/360"
+    },
+    {
+      "source": 83016,
+      "parents": 5,
+      "valid_parents": 1,
+      "invalid_to_invalid": 80,
+      "weight_changes": 6,
+      "active_changes": 1,
+      "behavior_comparable": 20,
+      "behavior_changes": 1,
+      "valid_to_valid": 20,
+      "conditional_parent_equal_mean_tv": "1/400"
+    },
+    {
+      "source": 83017,
+      "parents": 5,
+      "valid_parents": 1,
+      "invalid_to_invalid": 80,
+      "weight_changes": 12,
+      "active_changes": 7,
+      "behavior_comparable": 19,
+      "behavior_changes": 6,
+      "valid_to_valid": 19,
+      "valid_to_invalid": 1,
+      "conditional_parent_equal_mean_tv": "7/380"
+    },
+    {
+      "source": 83018,
+      "parents": 5,
+      "valid_parents": 1,
+      "invalid_to_invalid": 80,
+      "weight_changes": 9,
+      "active_changes": 5,
+      "behavior_comparable": 18,
+      "behavior_changes": 3,
+      "valid_to_valid": 18,
+      "valid_to_invalid": 2,
+      "conditional_parent_equal_mean_tv": "23/576"
+    },
+    {
+      "source": 83019,
+      "parents": 5,
+      "valid_parents": 1,
+      "valid_to_valid": 18,
+      "weight_changes": 12,
+      "active_changes": 5,
+      "behavior_comparable": 18,
+      "behavior_changes": 3,
+      "valid_to_invalid": 2,
+      "invalid_to_invalid": 80,
+      "conditional_parent_equal_mean_tv": "1/40"
+    }
+  ],
+  "behavior_comparable": 424,
+  "behavior_changes": 83,
+  "weights_changed": 260,
+  "active_sites_changed": 131,
+  "script_sha256": "4e4bcb12bb61973bec728b355923675b06f2363c438987529c23be321b3d5f7b"
+}
