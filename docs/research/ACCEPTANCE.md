@@ -1,6 +1,6 @@
 # V0 acceptance checkpoint
 
-Current verified research: twenty campaigns / 964 executions / 8,840,000 computed
+Current verified research: twenty-one campaigns / 1,084 executions / 10,040,000 computed
 ticks, including 24 follow-up executions and 212,000 repeated prefix ticks.
 Use the [current Chinese review guide](REVIEW.zh-CN.md) for the latest instructions.
 
@@ -13,6 +13,8 @@ campaign-017 retrospective observer data. Older archives remain unchanged.
 
 Evidence: [extraction](results/portable-review-020.json), [installation](results/portable-wheel-020.json),
 [remote assets](results/release-020.json), and [source CI](https://github.com/nikolasandwich/bitgenesis/actions/runs/34819975721).
+
+Campaign 021 now has complete metric and early-record verification and a [result report](campaign-021.md). The fixed twenty-campaign archive above does not include it; the twenty-one-campaign package remains pending.
 
 ## Preserved earlier checkpoint notes
 

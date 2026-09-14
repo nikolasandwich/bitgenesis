@@ -206,3 +206,19 @@ intervention, not pure loss mediation. Primary paired persistence predictions,
 contradicting outcomes, all 120 worlds, 1,200,000-tick budget and verification gates
 are fixed before engineering and outcome execution. No cohort has launched at
 registration. This supersedes earlier statements that campaign 021 is unregistered.
+
+
+## Campaign 021 completed: consolidate the checkpoint
+
+All 120 worlds completed and passed full metrics and early-record verification.
+The [report](../research/campaign-021.md) retains all paired outcomes: at threshold
+40, signed capacity-96 minus capacity-24 survival discordances are +1, -2, -4.
+Every renewal treatment has capacity-24-only survivors. The registered all-positive
+prediction is unsupported, and per-seed monotone rescue is contradicted in this
+cohort. High-threshold worlds all survive the observation horizon.
+
+Next deliver the twenty-one-campaign review and reproducible archive, preserving
+all existing releases. Consolidate the evidence and its limits before considering
+another mechanism experiment; no automatic parameter sweep follows this result.
+V1 remains design only. This completion note supersedes the launch status at the
+registration checkpoint above, without revising the preregistered protocol.

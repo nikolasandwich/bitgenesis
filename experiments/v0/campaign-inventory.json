@@ -318,6 +318,24 @@
       ],
       "followup_of": null,
       "replayed_prefix_ticks_per_execution": 0
+    },
+    {
+      "id": "021",
+      "executions": 120,
+      "ticks_per_execution": 10000,
+      "seed_range": [
+        1800,
+        1809
+      ],
+      "identity_fields": [
+        "arm",
+        "birth_threshold",
+        "renewal",
+        "food_capacity",
+        "seed"
+      ],
+      "followup_of": null,
+      "replayed_prefix_ticks_per_execution": 0
     }
   ]
 }

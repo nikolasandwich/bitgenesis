@@ -3127,3 +3127,27 @@ as incomplete without producing an image. No formal plot or visual-QA claim yet;
 generate and inspect only after full verified results exist. Running source and
 protocol unchanged, full cohort pending. Last full suite remains 185 passing tests;
 no runtime changes or extra simulation introduced by this plotting preparation.
+
+
+## 2026-09-14 — Autonomous cycle 206
+
+The preceding user-facing planning turn inspected completed observation evidence;
+no experiment was restarted. Completed campaign-021 publication work: all 120
+worlds / 1,200,000 ticks, 1,200,120 metric rows and 12,000 early world-ticks passed
+independent verification. Copied the verified reports, ran the full process
+synthesis with report-hash and cohort/metric reconciliation, and generated the
+complete survival figure. All 120 figure records equal the verified run records;
+PNG visually inspected with all six panels, paired seeds and censoring symbols.
+
+The Chinese report retains all twelve groups, all low-threshold seed pairs,
+checkpoint resource ranges and active/empty supply partitions. Signed capacity
+advantages +1/-2/-4 do not support the registered all-positive prediction; all
+three treatments have small-capacity-only survivors. High-threshold worlds all
+survive. No significance, pure mediation or V1 claim is made.
+
+Inventory now independently verifies 21 campaigns / 1,084 executions / 10,040,000
+computed ticks, with unchanged 24 follow-ups and 212,000 replayed prefix ticks.
+Current full test evidence remains 185 passing from cycle 203; this cycle changes
+reports and documentation only. Fixed twenty-campaign downloads retain their
+scope. Next prepare the twenty-one-campaign review and fresh-extraction package.
+The autonomous research goal remains active, not user-accepted or complete.
