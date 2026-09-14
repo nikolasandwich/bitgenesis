@@ -3917,3 +3917,20 @@ the first completed10000-tick world:10,001 rows,470 events,235 individuals; this
 a partial compatibility check, not full cohort evidence. Running source/metadata,
 protocol and frozen engine unchanged. Next prepare all-source visualization while
 original execution continues, then full gates once all200 runs finish. Goal active.
+
+## 2026-09-14 — Autonomous cycle 246
+
+Previous cycle prepared gated checkpoint synthesis while original campaign024
+session51863 continued. Re-polled that same live process; no restart or interim
+scientific conclusion. Prepared an all-source figure: five allocation-pair means
+and source mean at left, all ten allocation-run extinction/presence categories at
+right. Keeps unchanged sources and exact cohort mean; labels abundance separately
+from campaign023 survival and nested repeats separately from evolved sources.
+
+Figure input reconstructs every stored contrast from complete terminal counts,
+binds the frozen manifest and requires full metric-row scope. Synthetic input
+checks reject altered primary/direction values, wrong row count and missing runs.
+CLI loads. No formal figure generated or visually accepted while execution remains
+incomplete. Runtime source/protocol and frozen engine unchanged; formal count23.
+Next inspect full-gate compatibility on additional completed records, retaining
+cohort gating, then prepare report once the original200 worlds finish. Goal active.
