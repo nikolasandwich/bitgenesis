@@ -1,0 +1,14 @@
+{
+  "reviewed_source": "bf3221a28f471d2d2eb259fc4a2bf04fcc6a93d6",
+  "normalized_engine_sha256": "8f3ed33ad0ebe802c099e3e6f8ae61f9bcc526b98512f31f48ec40478fbfa7ff",
+  "current_tests_passed": 159,
+  "full_archive_tests_passed": 150,
+  "reference_sha256": {
+    "docs/research/results/portable-wheel-019.json": "77030bf3bfaedcd228e7523f0acb57490480ffd703395685abd7f674a947dc93",
+    "docs/research/results/local-supplement-019.json": "30d1cfb2ea63c3543688a2be5bf71ecf59ccd2a7925c82ddad6efb6317a56e10",
+    "docs/research/results/campaign-inventory-verification.json": "a75ca412178a4f04fedef487ed34f8def0ffcb494a42e45c4778f3efafbad01b",
+    "docs/research/results/local-actions-019.json": "84dec687f650d1791887c8a2ce32f69342309809236c88e6948f82ff159a339e",
+    "docs/research/results/last-survivors-019.json": "7b779dee4344dd15c167dcfc125f21d0d4c0ab311741c7985481532b1609e7d0"
+  },
+  "scope": "Updated V0 evidence matrix with current code/tests and version-specific retained reports. Historical browser evidence is not a new browser interaction test. No V1 graduation or user acceptance claim."
+}

@@ -2606,3 +2606,18 @@ Visual inspection caught the reading-note panel using data coordinates; correcte
 to axes coordinates and inspected the final readable image. The initial layout
 was retained locally. Integrated the figure with Chinese reading guidance and
 explicit post hoc/age-alignment limits. No new simulation or archive rewrite.
+
+## 2026-09-14 — Autonomous cycle 176
+
+Previous cycle made final-individual traces visually inspectable. Reviewed all six
+V0 graduation criteria against current engine/tests and version-specific retained
+evidence. The old matrix still pointed to the fourteen-campaign installation;
+updated it to the nineteen-campaign installation while distinguishing its 150 tests
+from the current 159-test suite. Current suite passes; normalized V0 engine hash
+is unchanged. Preserved historical browser-test scope and explicitly separated
+static later page checks from interactive browser evidence.
+
+Added the four bounded mechanism findings and formal versus retrospective workload
+counts to the matrix, with hashed reference records. All matrix links resolve.
+V0 milestone evidence does not constitute V1 graduation, user acceptance or ending
+the active research goal. No runtime or experiment artifact changed.
