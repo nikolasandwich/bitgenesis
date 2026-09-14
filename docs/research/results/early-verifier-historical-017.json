@@ -1,0 +1,10 @@
+{
+  "campaign": "017",
+  "worlds": 40,
+  "early_ticks": 4000,
+  "energy_records": 171207,
+  "verifier": "scripts/verify_v0_movement_charge_observations.py",
+  "verifier_sha256": "b3ba3536288abb2abe52e3721e48e19352e5c402668a6d7c9e12c1daec6f99b7",
+  "reference_sha256": "b3e779a80d63e555326456300b677496a21b810d88661cfc849493c76ce1c47e",
+  "scope": "Current early-observation verifier accepts all forty historical campaign-017 worlds and reproduces prior whole-world energy totals. No simulation rerun or expanded causal claim."
+}

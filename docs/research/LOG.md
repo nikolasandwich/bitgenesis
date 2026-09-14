@@ -2217,3 +2217,16 @@ teleportation, and accept both declared movement charges. Partial inspection of
 acceptance awaits the entire grid. Unrecorded blocked destinations, actual birth
 positions and complete local food histories are explicitly outside this verifier's
 scope. The original experiment process and source remain unchanged.
+
+## 2026-09-14 — Autonomous cycle 151
+
+Verified the new early-observation checker against all forty preserved campaign-017
+worlds: 171,207 actor records accepted and every whole-world energy flow agrees
+with the prior independent energy report. Saved the compatibility evidence and
+verifier/reference hashes. No historical simulation was rerun.
+
+The original campaign-018 handle remains live, with 65/80 worlds observed complete.
+Prepared the final inventory/report integration points without changing completed
+workload totals. Await remaining outcomes before full metric and early-observation
+verification; no restart, seed replacement or changed horizon is authorized by
+this intermediate progress check.
