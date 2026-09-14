@@ -1,11 +1,14 @@
 """Campaign024 recording helpers; groups are observations of founder ancestry."""
 from collections import Counter
+import argparse
 from contextlib import ExitStack
 import csv
 import hashlib
 import json
+from pathlib import Path
 
 from bitgenesis.v0.artifacts import write_json_atomic
+from bitgenesis.v0.runner import load_config, provenance
 from scripts.run_v0_monomorphic_mutation import initialize as base_initialize
 from scripts.run_v0_monomorphic_mutation import record_world, CHECKPOINTS, histogram
 
@@ -90,3 +93,99 @@ def evaluate(world, founder_groups, output, steps, identity, after_record=None):
                   final_state_sha256=hashlib.sha256(json.dumps(final_state, sort_keys=True).encode()).hexdigest())
     write_json_atomic(output/'result.json', result)
     return result
+
+
+def check_neutral_pair(first, second):
+    for name in ('metrics.csv', 'events.jsonl', 'lineage.json'):
+        if (first/name).read_bytes() != (second/name).read_bytes():
+            raise ValueError('Identical-trait physical records differ')
+    results = [json.loads((p/'result.json').read_text(encoding='utf-8')) for p in (first, second)]
+    if results[0]['final_state_sha256'] != results[1]['final_state_sha256']:
+        raise ValueError('Identical-trait final states differ')
+    with (first/'groups.csv').open(newline='', encoding='utf-8') as a, (second/'groups.csv').open(newline='', encoding='utf-8') as b:
+        for left, right in zip(csv.DictReader(a), csv.DictReader(b), strict=True):
+            expected = {'tick': left['tick']}
+            for key, value in left.items():
+                for group, other in (('sampled', 'ancestor'), ('ancestor', 'sampled')):
+                    if key.startswith(group+'_'):
+                        expected[other+key[len(group):]] = value
+            if right != expected:
+                raise ValueError('Neutral group records are not complementary')
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--output', type=Path, required=True)
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parents[1]
+    sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
+    mp = root/'docs/research/results/campaign-023-samples.json'
+    vp = root/'docs/research/results/campaign-023-sample-verification.json'
+    if sha(mp) != '58fe9c9c7484da17db5d095fbeb93289903ffe5b801b7d3709a297f52a19c741' or sha(vp) != '9aee4ba43d99b541da878fa26231cc78e484f2dcb51e103d45ea7705a63c0a68':
+        raise ValueError('Preregistered sampling evidence changed')
+    manifest = json.loads(mp.read_text(encoding='utf-8'))
+    verified = json.loads(vp.read_text(encoding='utf-8'))
+    if verified['manifest_sha256'] != sha(mp):
+        raise ValueError('Sample gate linkage differs')
+    if len(manifest['samples']) != 20 or {s['source_seed'] for s in manifest['samples']} != set(range(1900, 1920)):
+        raise ValueError('Source grid differs')
+    available = sum(s['available'] for s in manifest['samples'])
+    if available != manifest['available_sources'] or available != verified['available_sources']:
+        raise ValueError('Available source count differs')
+    metadata = dict(protocol='campaign-024-direct-competition-1', rules_version='v0-darwin-1',
+        manifest_sha256=sha(mp), sample_verification_sha256=sha(vp),
+        protocol_sha256=sha(root/'experiments/v0/campaign-024.md'),
+        available_sources=available, planned_runs=available*10, steps=10000,
+        replicates=list(range(5)), swaps=[0, 1], status='running', completed_runs=0,
+        **provenance())
+    if metadata['git_dirty'] is not False:
+        raise ValueError('Commit clean source before outcome execution')
+    base = load_config(root/'experiments/v0/darwin-baseline.toml')
+    args.output.mkdir(parents=True, exist_ok=False)
+    write_json_atomic(args.output/'metadata.json', metadata)
+    write_json_atomic(args.output/'samples.json', manifest)
+    results = []
+    try:
+        for sample in manifest['samples']:
+            if not sample['available']:
+                continue
+            source = sample['source_seed']; selected = sample['selected']
+            for replicate in range(5):
+                seed = 2100 + 5*(source-1900) + replicate
+                folders = []
+                for swap in (0, 1):
+                    folder = args.output/f'source-{source}-replicate-{replicate}-swap-{swap}'
+                    identity = dict(source_seed=source, replicate=replicate, swap=swap,
+                        sampled_trait=selected['genome'], ancestor_trait=selected['founder_genome'],
+                        sampled_individual_id=selected['id'], source_founder_id=selected['founder_id'])
+                    world, groups = initialize(base, seed, selected['genome'], selected['founder_genome'], swap)
+                    result = evaluate(world, groups, folder, 10000, identity)
+                    results.append(result); folders.append(folder)
+                    write_json_atomic(args.output/'results.json', results)
+                    metadata['completed_runs'] = len(results)
+                    write_json_atomic(args.output/'metadata.json', metadata)
+                    print(f"{folder.name}: sampled={result['groups']['sampled']['population']}, ancestor={result['groups']['ancestor']['population']}", flush=True)
+                if selected['genome'] == selected['founder_genome']:
+                    check_neutral_pair(*folders)
+        compact = []
+        for result in results:
+            row = {k: v for k, v in result.items() if k not in ('observations', 'groups', 'group_extinction_ticks')}
+            for group in GROUPS:
+                row.update({f'{group}_{k}': v for k, v in result['groups'][group].items() if k != 'living_genome_histogram'})
+                row[f'{group}_extinction_tick'] = result['group_extinction_ticks'][group]
+            compact.append(row)
+        if compact:
+            with (args.output/'results.csv').open('w', newline='', encoding='utf-8') as stream:
+                writer = csv.DictWriter(stream, fieldnames=list(compact[0]))
+                writer.writeheader(); writer.writerows(compact)
+        metadata['status'] = 'complete'
+    except (Exception, KeyboardInterrupt) as error:
+        metadata['status'] = 'interrupted' if isinstance(error, KeyboardInterrupt) else 'failed'
+        metadata['error'] = f'{type(error).__name__}: {error}'
+        raise
+    finally:
+        write_json_atomic(args.output/'metadata.json', metadata)
+
+
+if __name__ == '__main__':
+    main()

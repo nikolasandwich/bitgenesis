@@ -6,7 +6,7 @@ import unittest
 from bitgenesis.v0.engine import World
 from bitgenesis.v0.runner import load_config
 from scripts.run_v0_food_geometry import food_map
-from scripts.run_v0_direct_competition import initialize, evaluate
+from scripts.run_v0_direct_competition import initialize, evaluate, check_neutral_pair
 
 
 class DirectCompetitionTests(unittest.TestCase):
@@ -43,6 +43,7 @@ class DirectCompetitionTests(unittest.TestCase):
                         results.append(result)
                         self.assertEqual(calls, list(range(101)))
                     if sampled == ancestor:
+                        check_neutral_pair(Path(temp)/'0', Path(temp)/'1')
                         self.assertEqual(results[0]['final_state_sha256'], results[1]['final_state_sha256'])
                         for name in ('metrics.csv', 'events.jsonl', 'lineage.json'):
                             self.assertEqual((Path(temp)/'0'/name).read_bytes(), (Path(temp)/'1'/name).read_bytes())
@@ -56,6 +57,11 @@ class DirectCompetitionTests(unittest.TestCase):
                                     self.assertEqual(a[key], b[key.replace('sampled_', 'ancestor_', 1)])
                                 elif key.startswith('ancestor_'):
                                     self.assertEqual(a[key], b[key.replace('ancestor_', 'sampled_', 1)])
+                        damaged = Path(temp)/'1'/'groups.csv'
+                        text = damaged.read_text()
+                        damaged.write_text(text.replace('40,0,0', '39,0,0', 1))
+                        with self.assertRaises(ValueError):
+                            check_neutral_pair(Path(temp)/'0', Path(temp)/'1')
 
     def test_invalid_trait_and_allocation_rejected(self):
         base = load_config(Path(__file__).resolve().parents[1]/'experiments/v0/darwin-baseline.toml')

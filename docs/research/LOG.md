@@ -3833,3 +3833,19 @@ traits and allocations rejected. All203 tests pass; normalized engine hash stays
 No formal campaign024 output directory or outcome execution. Next add complete-grid
 orchestration and independent group-account verification before interpreting runs.
 V0 sole runtime; autonomous goal active.
+
+## 2026-09-14 — Autonomous cycle 241
+
+Previous cycle implemented observer-only group recording with203 tests passing.
+Added complete campaign024 orchestration: exact preregistered manifest/gate hashes,
+20-source identity, availability checks, clean-source provenance, fixed seed/swap
+loop, incremental records, flattened complete results and explicit failed/interrupted
+metadata. Output directories cannot be overwritten. Neutral-pair runtime check
+compares physical bytes, final-state digest and every complementary group row.
+
+Focused engineering tests still pass across the12 plain-World fixtures; they now
+exercise the production neutral-pair gate and reject corrupted group counts.
+CLI loads via module invocation; no outcome run started. Next implement independent
+initial/group accounting and ancestry reconstruction, exercise corrupt fixtures,
+then commit clean source before launching the registered cohort. Frozen engine,
+prior data and formal23-campaign count unchanged. Autonomous goal active.
