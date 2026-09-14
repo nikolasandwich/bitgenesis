@@ -2011,3 +2011,16 @@ Visually inspected the PNG for legible seeds, axes, legend and caveats; saved PN
 SVG and plot data beside the campaign report. No new trajectories or statistical
 claims. The figure makes the distinction between occupied targets and pre-choice
 payment deaths visible and keeps prior archive scope unchanged.
+
+## 2026-09-14 — Autonomous cycle 135
+
+Consolidated the growing campaign-017 mechanism report into a concise Chinese
+briefing linked from the review guide and research index. It separates total
+feeding, adjacent birth space, occupied movement targets and terminal payment
+phases, with explicit supported/unsupported interpretations and denominator scope.
+
+The briefing explains observer validation without claiming unavailable original
+individual-path comparisons. It identifies the need to specify side effects of
+any future causal intervention, and preserves the distinction between formal
+campaigns and retrospective observations. Fixed seventeen-campaign downloads do
+not silently acquire later observer data. No new runtime or experiment added.
