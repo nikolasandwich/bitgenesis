@@ -232,3 +232,15 @@ extraction; the noneditable installation passes 185 tests and the reference demo
 Remote API sizes and hashes match. This supersedes the pending-package step above.
 Keep future V0 experiments tied to a discriminating prediction; no automatic
 capacity sweep is justified by campaign 021. V1 remains design only.
+
+
+## Registered monomorphic-founder mutation assay
+
+[Campaign 022](../../experiments/v0/campaign-022.md) now registers 20 fresh seed
+pairs in one fixed block-food environment: mutation 0 versus 100, all founders
+at genome 250, forty 10,000-step worlds. It tests mutation-treatment persistence
+without standing founder trait variation, unlike campaigns 001/013. The fixed
+primary signed survival contrast, complete lineage/trait reconstruction and
+400,000-tick budget precede engineering and execution. No outcomes have launched
+at this registration. New trait values or treatment survival alone will not be
+called adaptive improvement; no new genome vocabulary or V1 runtime is introduced.

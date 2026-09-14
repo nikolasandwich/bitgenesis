@@ -3275,3 +3275,24 @@ scope in the analysis report. No new simulation or implementation changes. Exist
 187-test runtime evidence and fixed scope-21 download remain unchanged. The result
 closes a source-only reproduction check without falsely claiming complete JSON
 byte equality across checkouts. Autonomous research goal remains active.
+
+
+## 2026-09-14 — Autonomous cycle 213
+
+Previous cycle checked clean-source reproduction of the horizon analysis. Reviewed
+campaigns 001 and 013 against the original V0 evolutionary question: both used
+standing founder variation, while the recent resource-mechanism cohorts fixed
+all genomes at 250 with mutation disabled. Registered a distinct finite-budget
+mutation-treatment assay from monomorphic founders in the resource-stressed block
+layout. Protocol 022 fixes twenty new seed pairs, two existing mutation settings,
+all 10,000-step endpoints and complete birth/death/lineage reconstruction before
+engineering or outcome execution. It adds no new engine biology or parameters.
+
+The primary prediction is positive signed survival discordance; nonpositive and
+no-mutation-only counterexamples must be retained. Explicitly separates mutation
+attempts, changed births, vocabulary coverage and adaptive improvement. Initial
+founder-reset event consistency is an engineering gate. Future common-environment
+performance evaluation is distinguished from this protocol and remains unregistered.
+No simulation launched; verified counts and fixed archives unchanged. Next implement
+and validate the registered runner before launching from clean committed source.
+Autonomous research goal remains active; V1 stays design only.
