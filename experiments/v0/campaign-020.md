@@ -89,3 +89,13 @@ Do not claim equal realized supply unless measured values actually match, and do
 not use post hoc realized-supply matching to replace the registered full grid.
 Any result remains evidence about this joint renewal intervention under fixed V0,
 not information use, evolved sensing or a unique explanation of campaign 019.
+
+
+## Execution command
+
+```sh
+python -m scripts.run_v0_renewal_granularity --output data/campaign-020
+```
+
+Runner engineering uses seed 23 across all six initial treatments, with 100-tick
+instrumented/plain comparisons and capacity-truncation fixtures before launch.
