@@ -2,7 +2,8 @@
 
 Status: the [controller component](v1-controller-contract.md) is implemented.
 A [V1 world](v1-world-contract.md) and bounded persisted runner are also
-implemented; independent audit tooling and outcome experiments remain outstanding.
+implemented, including independent ledger/ancestry audit tooling. Spatial/action
+verification and outcome experiments remain outstanding.
 
 The [V0-informed design contract](v1-experiment-design.md) now specifies candidate
 integer inputs/weights, decision costs, ablations, sampling and interpretation

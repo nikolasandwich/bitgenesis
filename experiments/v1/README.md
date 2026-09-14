@@ -21,12 +21,24 @@ and complete runs. Completed output is never overwritten. The step horizon is
 a byte limit. Initial population/world allocation must also be chosen responsibly.
 Events are streamed and drained; lineage remains in memory for this bounded run.
 
-Engineering seeds 70001..70101 are reserved for fixtures and smoke checks and
+Engineering seeds 70001..70210 are reserved for fixtures and smoke checks and
 must not be reused as unseen evaluation seeds. The initial seed70101/default
 100-step smoke check produced population20, births285 and deaths345; these are
 engineering observations, not pilot selection or evidence of adaptation.
 
-Next: reusable independent record audit, a declared viability pilot with a fresh
+Audit serialized records without importing the simulation engine:
+
+```console
+python -m bitgenesis.v1.audit data/my-v1-check --output data/my-v1-audit.json
+```
+
+This checks output hashes, actor membership and timing, individual/world energy
+payments and transfers, event ancestry and mutation support, final population,
+occupancy bounds and summary. It does not yet reconstruct spatial food history,
+verify sensor/action arithmetic from the recorded state, or replay random draws.
+Rehashed semantic-corruption tests exercise the checks beyond file integrity.
+
+Next: spatial/action verification and a declared viability pilot with a fresh
 seed block and bounded configuration grid, then a frozen training/evaluation
 protocol. No V1 scientific campaign is complete. See the
 [world contract](../../docs/design/v1-world-contract.md) and

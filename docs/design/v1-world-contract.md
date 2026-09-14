@@ -56,6 +56,7 @@ energy reconciliation and occupancy/resource bounds are checked in tests.
 Birth events snapshot genomes and parentage; death events identify the charging
 phase. The in-memory lineage retains endpoints and offspring counts. These are
 components for a bounded recorder, not an indefinite storage design. A CLI,
-on-disk metadata and streaming records now exist. A reusable independent audit,
-pilot protocol and outcome assays remain outstanding. No adaptation claim follows
+on-disk metadata and streaming records now exist. An independent serialized ledger
+and ancestry audit is implemented; spatial/action/RNG reconstruction, pilot
+protocol and outcome assays remain outstanding. No adaptation claim follows
 from engineered fixture controllers or deterministic replay.
