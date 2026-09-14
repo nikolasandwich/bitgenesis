@@ -1,6 +1,10 @@
 # Campaign-017 observation supplement
 
-This separate ZIP contains tracked source, campaign-017 raw initial states and
+The current revision-2 packager includes an additional energy replay dataset and
+eight reanalyses. The fixed first download below retains its original five-analysis
+scope; it does not automatically acquire revision-2 contents.
+
+The first separate ZIP contains tracked source, campaign-017 raw initial states and
 metrics, and four observer datasets: feeding-only, schema 2, schema 3, and the
 complete-action replay with terminal records. Extract into a new directory,
 keeping the original seventeen-campaign archive unchanged. It does not contain
@@ -26,7 +30,7 @@ The corresponding complete reports are under `docs/research/results/` with names
 including its source/input hashes. These are reanalyses of recorded observations,
 not new simulations or independent biological evidence.
 
-The packager runs all five analyses and requires exact report equality before
+The current packager runs all eight analyses and requires exact report equality before
 archiving. `MANIFEST.json` identifies source, datasets and file hashes. The existing
 `verify_v0_review.py` checks this shared container format without executing payload.
 Fresh extraction/reanalysis and upload are separate checks; the presence of this
@@ -41,3 +45,24 @@ The 13,880,997-byte ZIP contains 596 payload files from source `e2a06ce`.
 All five reports matched after fresh extraction. GitHub asset sizes and SHA256
 digests match local files; see the [upload record](../research/results/release-observations-017.json)
 and [extraction record](../research/results/observation-supplement-017.json).
+
+## Revision 2 additions
+
+Revision 2 includes `data/energy-replay-017` and the current individual-intake and
+cohort-energy analyses. In addition to the five commands above, run:
+
+```sh
+python -I -S scripts/analyze_v0_individual_intake.py --output data/check-individuals
+python -I -S scripts/verify_v0_energy_replay.py --output data/check-energy
+python -I -S scripts/analyze_v0_cohort_energy.py --output data/check-cohorts
+```
+
+Compare the generated summaries with `individual-intake-017.json`,
+`energy-replay-017.json`, and `cohort-energy-017.json` in the archived results
+folder. The manifest declares `observation_revision: 2` and all eight report names.
+The energy dataset contains 171,207 actor records and duplicate copies of the
+unchanged feeding/terminal streams to make its verification self-contained.
+
+This is a new archive, never an overwrite of revision 1. A revision-2 build,
+fresh-extraction result and upload must each have their own evidence record.
+It still excludes campaigns 001–016 raw data and generated HTML review pages.
