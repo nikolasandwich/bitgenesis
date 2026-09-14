@@ -3076,3 +3076,21 @@ the actual capacity. Full/near-capacity fixtures cover both capacities and all
 three packets. All 183 tests pass. Commit clean source before launching the cohort;
 full independent campaign metrics, pair statuses and record verification remain
 separate gates before outcome interpretation. Formal completed counts unchanged.
+
+
+## 2026-09-14 — Autonomous cycle 203
+
+Previous cycle launched campaign 021 from source 087e053. Revalidated the original
+live process; it continues without restart. Implemented independent capacity-aware
+initialization/metrics verification, preserving the old verifier. The new verifier
+checks twelve-way initial pairing, packet and capacity bounds, all uptake/payment
+transitions, fixed checkpoints, active/empty-window partition endpoints, CSV/JSON
+agreement and sixty capacity pairs with six signed-discordance summaries. Full
+execution is gated on complete 120-world metadata.
+
+Added adversarial capacity-bound and extinction-window boundary tests; all 185 tests
+pass. Partial independent checks of the first twenty completed worlds reconstruct
+all saved endpoints exactly from 200,020 metric rows. This is not complete cohort
+verification or an outcome interpretation. Running runner/protocol and historical
+artifacts remain unchanged. Continue full-cohort execution and prepare early-record
+verification while awaiting completion.
