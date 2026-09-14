@@ -36,3 +36,28 @@ passive survival. Compare each branch to both the pre-removal pattern and its
 contemporaneous sham, so ordinary pattern drift is not attributed to damage.
 Independently verify the boundary and branch histories before registering a
 scientific cohort. No such recovery cohort has run yet.
+
+## Persisted branches
+
+`v4.branches.run(output, origin, steps, sites=(), threshold=None)` now implements
+`v4-branch-1` continuations from ordinary `v4-growing-run-1` origins. It independently
+audits the origin before creating output, loads the verified terminal units/raw
+stocks and RNG states, then applies extraction once before the next absolute tick.
+An optional formation threshold override is explicit in the branch configuration;
+all other dynamics parameters come from the origin. Threshold above capacity
+disables formation while preserving the same drive/direction tickets.
+
+The branch retains the origin audit and hashes, pre-boundary state, boundary
+ledger, post-boundary initial state, all subsequent transitions, final state and
+summary. Its initial energy/material totals are after export; exported quantities
+are separately included in the summary. The prefix's cumulative imported energy
+and costs are not double-counted in branch totals. Zero-step branches still apply
+and record the boundary. Branches cannot currently be used as new branch origins.
+
+Tests with engineering seeds90800/90801 establish exact sham-versus-continuous
+state/transition equality, matched RNG endpoints across removal and disabled
+formation, origin immutability, preflight and zero horizon. These are runtime
+tests, not independent verification of branch dynamics. The growing-run audit
+does not accept the new branch schema. A separate branch verifier must validate
+the origin binding, independently reconstruct extraction, then reconstruct every
+continued input, direction, interaction and material conversion before cohort use.
