@@ -2913,3 +2913,20 @@ status/results and fresh-only output paths. Protocol and historical runner are
 unchanged. All 177 tests pass; CLI imports successfully. No outcome replay launched
 in this cycle. Next implement independent record verification before interpreting
 any replay output; planned supplementary workload remains 6,000 ticks.
+
+
+## 2026-09-14 — Autonomous cycle 194
+
+Previous cycle implemented observer parity and replay engineering. Added an
+independent stdlib verifier reconstructing histograms from maps, conditional means
+from the capped formula, and sampled arrival totals from copied RNG states. It
+checks complete cohort/window, original/output hashes, initial map/RNG, all metric
+boundaries and active/empty partitions. Explicitly does not reconstruct intervening
+actor actions or independently certify later historical RNG states.
+
+Before any cohort execution, extended replay output with actual before/after metric
+snapshots so independent original-prefix checking is concrete. Added valid-regime
+and adversarial corruption tests for histogram, rational expectation, discarded
+energy and historical metrics. All 179 tests pass. Commit clean source before
+launching the registered 6,000-tick supplementary replay. Interpretation waits for
+complete output and independent verification; formal campaign totals stay unchanged.

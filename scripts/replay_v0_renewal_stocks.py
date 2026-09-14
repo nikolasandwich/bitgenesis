@@ -61,7 +61,7 @@ def main():
                     before=world.snapshot();observation=capture(world)
                     world.step();world.check_invariants();after=world.snapshot()
                     if after!=metrics[tick]:raise ValueError('Historical metric prefix differs')
-                    row=reconcile(observation,before,after)
+                    row={**reconcile(observation,before,after),"before_metrics":before,"after_metrics":after}
                     f.write(json.dumps(row,separators=(',',':'))+'\n')
                     world.drain_feeding();world.drain_pre_feeding_deaths();world.drain_energy();world.events.clear()
             results.append(dict(**{k:run[k] for k in fields},replay_ticks=100,metric_rows_matched=101,
