@@ -40,18 +40,18 @@ energy accounting proves the scientific interpretation of a research result.
 
 ## Build a new review archive
 
-`python scripts/package_v0_review.py --campaigns 16` includes the local raw
-outputs for campaigns 001–016 and `data/review-v0-16.html`, along with tracked
+`python scripts/package_v0_review.py --campaigns 17` includes the local raw
+outputs for campaigns 001–017 and `data/review-v0-17.html`, along with tracked
 source, compact results and the acceptance demonstration. Generate the page first
-with `python scripts/build_v0_review.py --campaigns 16`. Both commands require
+with `python scripts/build_v0_review.py --campaigns 17`. Both commands require
 the complete local inputs; the packager also requires a clean committed checkout.
 An existing output is rejected; use `--output` for a distinct snapshot.
 
 The default remains eight campaigns. The manifest records the selected raw-data
 workload separately from all tracked source documents, which may discuss later
-campaigns. For sixteen campaigns it identifies twenty-four longitudinal follow-ups
+campaigns. For seventeen campaigns it identifies twenty-four longitudinal follow-ups
 and 212000 replayed prefix ticks. Packaging reruns the existing full-run audits,
-campaign-005 audit, and selected 009–016 metric verifiers. The 011 verifier also
+campaign-005 audit, and selected 009–017 metric verifiers. The 011 verifier also
 compares all recorded prefixes with campaign 010. These are artifact consistency
 checks with the scope of each named verifier, not independent simulation reruns.
 
@@ -118,3 +118,9 @@ The fixed fifteen-campaign archive predates this additional check.
 The 016 verifier checks all thirty initial food maps, founder/RNG-state pairing
 for ten seed triplets, and 300,030 metric rows before packaging. This verifies
 retained initialization and observations without stepping the simulator.
+
+The 017 verifier checks forty initial states, ten founder/RNG quadruplets,
+twenty matching threshold-map pairs, 400,040 metric rows and 4,000 early feeding
+transitions. Its sibling geometry helper is included in the archive. Passing
+these checks does not reconstruct individual movement or identify a causal
+mediator of the reproduction-threshold effect.

@@ -25,10 +25,10 @@ def sha256(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16, 17), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
-    names = {8: "review-8", 9: "nine-campaigns", 10: "ten-campaigns", 11: "eleven-campaigns", 12: "twelve-campaigns", 13: "thirteen-campaigns", 14: "fourteen-campaigns", 15: "fifteen-campaigns", 16: "sixteen-campaigns"}
+    names = {8: "review-8", 9: "nine-campaigns", 10: "ten-campaigns", 11: "eleven-campaigns", 12: "twelve-campaigns", 13: "thirteen-campaigns", 14: "fourteen-campaigns", 15: "fifteen-campaigns", 16: "sixteen-campaigns", 17: "seventeen-campaigns"}
     args.output = args.output or Path(f"data/bitgenesis-v0-{names[args.campaigns]}.zip")
     if args.output.exists():
         raise ValueError("Review output already exists; choose a new path")
@@ -65,7 +65,8 @@ def main():
                13: "summarize_v0_genome_coverage.py",
                14: "summarize_v0_frequency_cost.py",
                15: "summarize_v0_neutral_followup.py",
-               16: "summarize_v0_food_geometry.py"}
+               16: "summarize_v0_food_geometry.py",
+               17: "summarize_v0_geometry_threshold.py"}
     for number, helper in helpers.items():
         if number > args.campaigns:
             continue
@@ -79,7 +80,7 @@ def main():
             if number == 15:
                 command.extend(["--reference", str(root / "data/campaign-014")])
             subprocess.run(command, check=True, stdout=subprocess.DEVNULL)
-            metric_audits[f"campaign-{number:03d}"] = json.loads((summary / "summary.json").read_text())
+            metric_audits[f"campaign-{number:03d}"] = json.loads((summary / "summary.json").read_text(encoding="utf-8"))
     manifest = {"format": "bitgenesis-review-1", "git_commit": git("rev-parse", "HEAD"),
                 "scope": f"Tracked source plus campaigns 001-{args.campaigns:03d}, mutation calibration, acceptance demonstration and Chinese review page. Other local data and environments are excluded.",
                 "audits": audited,
