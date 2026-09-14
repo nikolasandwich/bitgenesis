@@ -3986,3 +3986,9 @@ original process to completion before synthesis. Autonomous goal active.
 User explicitly expanded autonomous scope to V1, V2 and all later research stages. Recorded the mandate and updated the existing active 30-minute heartbeat without creating a duplicate. Preserved historical evidence criteria and V0 semantics; exploratory implementation is distinct from scientific graduation. The legacy app goal is paused and its available API cannot edit or resume it; no false completion used. Campaign024 metadata now reports complete, 200/200. Next independently verify the full cohort, then prioritize V1 implementation rather than another V0 campaign.
 
 Follow-up: the user updated the app goal to the expanded objective; get_goal now confirms active status. Full campaign024 verification is running in session15407.
+
+## 2026-09-14 — Autonomous cycle 251
+
+Previous turn changed authoritative scope and activated ongoing work. Full campaign024 verification session15407 completed successfully: 20 sources, 2,000,200 metric rows, 80 neutral pairs, exact mean source contrast 973/8000. Exported complete 20-source/100-pair/200-run tables locally. Formal synthesis and archival remain; this positive descriptive contrast alone does not establish general adaptation or sensing.
+
+Implemented isolated V1 integer controller component and fixed its engineering contract: 35 immutable weights, seven normalized inputs, five actions, explicit blind/permutation interventions, exact uniform ties via 60 equiprobable tickets, sparse clipped mutation with silent attempts allowed. Five focused tests cover every tie cardinality, all 24 directional permutations, arithmetic responses, inheritance/replay and invalid inputs. Full suite now 213 tests passes. No V1 world or outcome run exists yet. Next implement world scheduling, separated RNG streams, energy accounting and recording while completing campaign024 synthesis.

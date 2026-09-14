@@ -1,6 +1,8 @@
 # V1 design contract informed by V0
 
-**Design only; no V1 runtime is implemented.** This document resolves candidate
+**Experiment design; no V1 world is implemented.** The
+[controller component contract](v1-controller-contract.md) now fixes and implements
+the controller-level choices. This document resolves candidate
 implementation choices and identifies the future experiment to preregister. It
 does not report evidence that a sensory controller works or authorize a stage claim.
 
@@ -156,7 +158,8 @@ physiology. Do not compare an intact free-moving controller against a charged
 blind controller. A later cost-robustness experiment must cross cost with all
 information conditions, fix every cell and seed before execution, and retain null
 or reversed contrasts. This does not change the proposed controller architecture
-or authorize implementation of a new runtime stage.
+or establish a new stage's scientific success. Implementation is now authorized
+by the expanded autonomous research mandate.
 
 ### Implementation and evidence gates
 
