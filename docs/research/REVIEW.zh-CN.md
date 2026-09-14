@@ -41,7 +41,7 @@
 这是条件选择的旧世界复查，不能用作稳定共存率或新独立样本。
 该轮报告和运行失败状态修复已进入十五轮归档；十四轮及更早归档保持原范围。
 
-最近追加的个体观测已整理为[机制分析简报](mechanism-summary.zh-CN.md)：区分摄食、出生空位和移动受阻，说明哪些解释仍未确定。这些后续观测不在固定十七轮下载包中。
+最近追加的个体观测已整理为[机制分析简报](mechanism-summary.zh-CN.md)：区分摄食、出生空位和移动受阻，说明哪些解释仍未确定。这些后续观测不在固定十七轮下载包中。已另行提供[约 14 MB 的观测补充包](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-b86474d93a9aef685e01)，需要有权限的 GitHub 账号查看草稿。解压后五项分析均已复算一致，使用方式见[补充包指南](../design/observation-supplement.md)。
 
 ## 怎样动手验收
 

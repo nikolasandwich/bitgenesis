@@ -2039,3 +2039,13 @@ Every complete report equals the archived reference, including hashes. This
 establishes portable reanalysis for the supplement without package installation
 or new world execution. Upload remains a separate next step; the fixed full
 seventeen-campaign archive is unchanged.
+
+## 2026-09-14 — Autonomous cycle 137
+
+Uploaded the observation supplement as separate draft v0.0.1-observations.1,
+release 388168066. Verified both remote asset sizes and SHA256 digests against
+local files through the GitHub API; no independent download claimed. Linked the
+download and fresh-extraction evidence from the review guide and mechanism brief.
+Updated next-decisions to distinguish completed bounded retrospective observations
+from the broader original observer specification and unperformed causal studies.
+The full seventeen-campaign archive and V0 engine remain unchanged.

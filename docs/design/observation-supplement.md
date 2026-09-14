@@ -33,3 +33,11 @@ Fresh extraction/reanalysis and upload are separate checks; the presence of this
 document alone is not evidence that they have passed. The standalone supplement
 is built with `python scripts/package_v0_observations.py --output data/new-supplement.zip`
 from a clean committed checkout with all local inputs available.
+
+## Verified download
+
+[Observation supplement draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-b86474d93a9aef685e01) (repository permissions required).
+The 13,880,997-byte ZIP contains 596 payload files from source `e2a06ce`.
+All five reports matched after fresh extraction. GitHub asset sizes and SHA256
+digests match local files; see the [upload record](../research/results/release-observations-017.json)
+and [extraction record](../research/results/observation-supplement-017.json).

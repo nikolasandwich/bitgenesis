@@ -33,8 +33,21 @@ not independent seed evidence. Label any outcome-selected comparison explicitly.
 These measurements could distinguish low local intake from high population-wide
 intake and detect congestion. They would still be observational: a separate
 intervention would be needed to attribute the threshold effect to a mediator.
-A [feeding-only component](../design/feeding-observer.md) is now implemented and
-tested. The full observer gate and the proposed study remain incomplete.
+The [observer](../design/feeding-observer.md) now records feeding, birth eligibility
+and available birth space, surviving movement outcomes, and deaths before feeding.
+Instrumented/reference state, events and RNG comparisons passed in targeted tests.
+All forty original campaign-017 worlds were replayed over ticks 1–100, matching
+4,040 original metric rows; feeding and terminal records partition the acting
+population at every step. Original individual paths were not retained, so these
+are not independently verified historical action paths.
+
+The bounded retrospective study is complete for these measurements; it is not a
+causal intervention or new independent seed evidence. Read the
+[mechanism briefing](../research/mechanism-summary.zh-CN.md) and
+[reproducible observation supplement](../design/observation-supplement.md).
+Before another mechanism experiment, specify a falsifiable intervention and its
+side effects. The full per-action energy/cost observer originally proposed above
+is not claimed complete; current records cover the reported quantities only.
 
 ## V1 implementation sequence when runtime scope expands
 
