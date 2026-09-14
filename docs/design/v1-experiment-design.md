@@ -1,6 +1,7 @@
 # V1 design contract informed by V0
 
-**Experiment design; no V1 world is implemented.** The
+**Experiment design; no V1 outcome experiment has run.** An
+[in-memory world](v1-world-contract.md) now implements the schedule. The
 [controller component contract](v1-controller-contract.md) now fixes and implements
 the controller-level choices. This document resolves candidate
 implementation choices and identifies the future experiment to preregister. It

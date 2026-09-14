@@ -1,7 +1,8 @@
 # V1 controller component, version v1-linear-1
 
-Status: implemented and unit-tested component; no V1 world, pilot or evolutionary
-outcome yet. This fixes the controller-level choices from the candidate design.
+Status: implemented and unit-tested component, now used by the
+[experimental world](v1-world-contract.md); no pilot or evolutionary outcome yet.
+This fixes the controller-level choices from the candidate design.
 
 - Seven integer inputs: current/east/west/south/north food, post-charge live
   energy, bias. Food uses floor(1000 * food / capacity), with zero for zero
@@ -24,7 +25,7 @@ outcome yet. This fixes the controller-level choices from the candidate design.
   state, lifetime learning, food-seeking reward, or occupied-action masking.
 
 The component accepts externally supplied tickets so fixed-state probes need no
-simulation RNG. World stream derivation, action scheduling, energy accounting,
-CLI and records remain to be implemented and verified before a viability pilot.
+simulation RNG. World stream derivation, scheduling and accounting are specified
+in the world contract; CLI and persisted records remain unfinished before a pilot.
 Hand-constructed response fixtures test arithmetic only, not evolved behavior.
 The V0 engine and its random-stream semantics are unchanged.

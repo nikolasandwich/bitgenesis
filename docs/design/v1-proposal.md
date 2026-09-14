@@ -1,7 +1,8 @@
 # V1 proposal — Does sensory information acquire reproductive value?
 
 Status: the [controller component](v1-controller-contract.md) is implemented.
-V0 remains the only complete world runtime; V1 has no outcome experiments yet.
+An [in-memory V1 world](v1-world-contract.md) is also implemented; its research
+runner and outcome experiments remain outstanding.
 
 The [V0-informed design contract](v1-experiment-design.md) now specifies candidate
 integer inputs/weights, decision costs, ablations, sampling and interpretation
