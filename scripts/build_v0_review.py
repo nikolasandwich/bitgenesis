@@ -30,7 +30,7 @@ def require_followup_records(records, reference, verified):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-root", type=Path, default=Path("data"))
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     args.output = args.output or args.data_root / f"review-v0-{args.campaigns}.html"
@@ -314,6 +314,29 @@ def main():
         charge_figure=link(root/'docs/research/figures/campaign-018-survival.png')
         charge_report=link(root/'docs/research/campaign-018.md')
         charge_section=f'''<section><h2>18 / 免费移动，也可能灭绝</h2><p>十个新种子，每个种子包含布局、繁殖阈值和移动扣费的八种组合，共八十个世界。全部观察到 10,000 步，前百步另存个体行动和能量账本。</p>{charge_table}<img src="{charge_figure}" alt="全部八十个世界，圆点表示灭绝时间，三角表示万步时仍存活；面板区分布局与移动扣费。" style="width:100%;height:auto"><p>成片食物、阈值 40、零移动扣费下，种子 1501、1502、1504 仍分别在 169、118、190 步灭绝；对应高阈值世界均活到万步。因此正的移动扣费不是本设计全部失败的必要条件。</p><p class="small">取消扣费没有取消移动或空间占据，也会改变能量、繁殖和后续随机轨迹。它改善了这批低阈值世界的存活，却没有保证存活，也未确定唯一机制。八十次执行对应十组配对种子，三角不是永久存活。<a href="{charge_report}">完整报告、逐世界结果及预定早期过程</a>。旧十七轮归档与第二版观测补充包尚未包含本轮。</p></section>'''
+        page=page.replace('<section><h2>复核与恢复</h2>',charge_section+'<section><h2>复核与恢复</h2>')
+    if args.campaigns >= 19:
+        records=campaigns[18]
+        treatments=[f'{a}-{t}-{c}' for a in ('block',) for t in (40,160) for c in (0,4)]
+        require_run_grid([{**r,'treatment':f"{r['arm']}-{r['birth_threshold']}-{r['birth_cost']}"} for r in records],treatments,range(1600,1610))
+        root=Path(__file__).resolve().parents[1]
+        verification=json.loads((root/'docs/research/results/campaign-019-verification.json').read_text(encoding='utf-8'))
+        key=lambda r:(r['arm'],r['birth_threshold'],r['birth_cost'],r['seed'])
+        if sorted(records,key=key)!=sorted(verification['runs'],key=key):
+            raise ValueError('Joint-zero-charge records differ from independent verification')
+        charge_rows=[]
+        for arm,label in (('block','成片'),):
+            for threshold in (40,160):
+                for cost in (0,4):
+                    selected=[r for r in records if (r['arm'],r['birth_threshold'],r['birth_cost'])==(arm,threshold,cost)]
+                    charge_rows.append([label,threshold,cost,
+                        f"{sum(r['population_at_500']>0 for r in selected)}/10",
+                        f"{sum(r['population_at_5000']>0 for r in selected)}/10",
+                        f"{sum(r['population']>0 for r in selected)}/10"])
+        charge_table=table(['食物布局','繁殖阈值','出生扣费','活到 500 步','活到 5,000 步','活到 10,000 步'],charge_rows)
+        charge_figure=link(root/'docs/research/figures/campaign-019-survival.png')
+        charge_report=link(root/'docs/research/campaign-019.md')
+        charge_section=f'''<section><h2>19 / 移动与出生都免费，仍可能灭绝</h2><p>十个新种子，每个包含繁殖阈值与出生扣费的四种组合，共四十个世界。移动扣费始终为零，基础消耗仍为每个体每步 1。</p>{charge_table}<img src="{charge_figure}" alt="全部四十个世界：圆点为灭绝时间，三角为万步时仍存活；左右面板为出生扣费零和四，颜色区分繁殖阈值。" style="width:100%;height:auto"><p>两种直接扣费都为零时，低阈值组 4/10 灭绝，高阈值组全部活到万步。这排除了至少一种正直接扣费作为本设计所有失败的必要条件。</p><p>低阈值的扣费配对中，五组双方存活、一组仅免费存活、两组仅收费存活、两组双方灭绝。免除费用不能保证每个世界都改善；免费出生仍分割亲代能量、占据空间并增加后续基础需求。</p><p class="small">十组初始配对的后续轨迹可以分化。终点存活不等于永久存活，过程差异尚未确定唯一灭绝机制。<a href="{charge_report}">完整四十个结局、早期过程与核验说明</a>。十八轮固定下载包尚不包含本轮。</p></section>'''
         page=page.replace('<section><h2>复核与恢复</h2>',charge_section+'<section><h2>复核与恢复</h2>')
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x", encoding="utf-8") as stream:

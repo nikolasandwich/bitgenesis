@@ -2390,3 +2390,20 @@ indexes while explicitly retaining the eighteen-campaign page/archive boundary.
 No runtime rules, registered protocol or historical experiment outputs changed.
 
 All forty narrative outcomes and local report links verified; all 150 local tests pass.
+
+## 2026-09-14 — Autonomous cycle 163
+
+Previous cycle published campaign-019 findings and updated verified workload totals.
+Added a complete forty-outcome censoring figure, with input/script hashes and every
+verified row retained. Visual inspection caught title/legend/footer overlap in the
+first layout; preserved that draft locally and corrected spacing before acceptance.
+The final PNG is legible and distinguishes extinction from finite-horizon survival.
+
+Extended the review builder to nineteen campaigns with exact full-grid/raw-result
+agreement against campaign-019 verification. Generated a new local page; old pages
+are unchanged. Parsed all four new treatment rows against verified groups and
+checked every local link target. Figure data also matches all forty verified rows.
+This is static artifact verification, not renewed browser interaction testing.
+Updated the research index; a nineteen-campaign portable archive remains pending.
+
+All 150 local tests pass; sixteen local page targets exist.

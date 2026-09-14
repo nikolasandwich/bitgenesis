@@ -1,0 +1,8 @@
+{
+  "page": "review-v0-19.html",
+  "sha256": "9019f7fa3708df04f847f45e25907ef754dfeb3bdb87b0c1aa88f08e413a1a76",
+  "campaigns": 19,
+  "verified_joint_zero_charge_rows": 4,
+  "local_targets": 16,
+  "scope": "Static HTML table equality with verified campaign-019 groups and local target existence; figure rows match all forty verified outcomes. PNG visually inspected after correcting overlapping labels. No new browser interaction claim."
+}
