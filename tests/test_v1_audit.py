@@ -26,6 +26,10 @@ class AuditTests(unittest.TestCase):
             run(root, Config(width=5, height=5, founders=8, initial_energy=80), 70210, 20)
             audit(root)
             mutations = [
+                ('steps.jsonl', lambda v: v[0]['actors'][0].__setitem__('action', (v[0]['actors'][0]['action'] + 1) % 5)),
+                ('steps.jsonl', lambda v: v[0]['actors'][0]['sensed'].__setitem__(0, 999)),
+                ('steps.jsonl', lambda v: v[0]['actors'][0]['inputs'].__setitem__(5, 999)),
+                ('steps.jsonl', lambda v: v[0]['actors'][0].__setitem__('tie_ticket', 60)),
                 ('steps.jsonl', lambda v: v[0]['actors'][0].__setitem__('energy_after', 999)),
                 ('steps.jsonl', lambda v: v[0].__setitem__('actors', v[0]['actors'][:-1])),
                 ('events.jsonl', lambda v: next(e for e in v if e['event'] == 'birth' and e['parent'] is not None).__setitem__('founder', 999)),
@@ -48,3 +52,10 @@ class AuditTests(unittest.TestCase):
                 finally:
                     (root / name).write_bytes(original)
                     (root / 'metadata.json').write_bytes(metadata)
+
+    def test_all_intervention_modes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            for mode in ('intact', 'blind', 'shuffled'):
+                root = Path(directory) / mode
+                run(root, Config(width=5, height=5, founders=8), 70211, 30, mode)
+                self.assertEqual(audit(root)['steps'], 30)

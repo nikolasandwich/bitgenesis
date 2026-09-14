@@ -1,7 +1,7 @@
 # Research roadmap
 
 V0 has a complete research runtime. V1 now has an experimental controller, world
-and bounded persisted runner with independent ledger/ancestry audit; spatial/action
+and bounded persisted runner with independent ledger/ancestry audit; spatial
 verification and outcome evaluations remain unfinished. The
 [autonomous research mandate](autonomous-research.md) authorizes implementation
 and exploration of all later stages as of 2026-09-14. These stages are

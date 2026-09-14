@@ -7,6 +7,7 @@ from collections import Counter, defaultdict
 from hashlib import sha256
 import json
 from pathlib import Path
+from .decision_audit import check_decision
 
 
 def require(condition, message):
@@ -89,6 +90,7 @@ def audit(directory):
             for r in actors:
                 identifier = r['id']
                 require(r['tick'] == tick_count and r['energy_before'] == alive[identifier], 'actor continuity')
+                check_decision(r, born[identifier]['genome']['weights'], born[identifier]['mode'])
                 energy = alive[identifier]
                 phase_of_death = None
                 for phase, cost in (('basal', c['basal_cost']), ('decision', c['decision_cost']),
@@ -153,11 +155,12 @@ def audit(directory):
     require(summary == {'steps': tick_count, 'population': len(alive), 'individuals': len(born),
                         'actor_records': actor_count, 'births': len(born) - c['founders'],
                         'deaths': len(dead), 'total_energy': total}, 'summary mismatch')
-    return {'scope': 'serialized energy ledgers, event ancestry, terminal bounds and output hashes; not spatial or RNG replay',
+    return {'scope': 'serialized energy ledgers, event ancestry, decision arithmetic, terminal bounds and output hashes; not spatial or RNG replay',
             'steps': tick_count, 'actor_records': actor_count, 'individuals': len(born),
             'population': len(alive), 'input_sha256': hashes,
             'metadata_sha256': sha256((root / 'metadata.json').read_bytes()).hexdigest(),
-            'audit_sha256': sha256(Path(__file__).read_bytes()).hexdigest()}
+            'audit_sha256': sha256(Path(__file__).read_bytes()).hexdigest(),
+            'decision_audit_sha256': sha256(Path(__file__).with_name('decision_audit.py').read_bytes()).hexdigest()}
 
 
 if __name__ == '__main__':
