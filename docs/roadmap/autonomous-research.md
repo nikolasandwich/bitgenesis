@@ -55,7 +55,5 @@ Prioritize substantive research increments over packaging-only cycles. Verify,
 commit and push completed increments; provide milestone updates rather than
 unchanged-status notifications. No new paid services are implied by this scope.
 
-The existing 30-minute thread heartbeat carries this mandate. The app's older
-goal record was observed paused; the available goal API cannot edit its text or
-resume it. Do not falsely complete that goal to replace it. This document and
-the updated active heartbeat preserve the current user-authorized scope.
+The existing active 30-minute thread heartbeat carries this mandate. The user
+has also updated and activated the app goal with this expanded objective.

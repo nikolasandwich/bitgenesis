@@ -3985,3 +3985,4 @@ original process to completion before synthesis. Autonomous goal active.
 
 User explicitly expanded autonomous scope to V1, V2 and all later research stages. Recorded the mandate and updated the existing active 30-minute heartbeat without creating a duplicate. Preserved historical evidence criteria and V0 semantics; exploratory implementation is distinct from scientific graduation. The legacy app goal is paused and its available API cannot edit or resume it; no false completion used. Campaign024 metadata now reports complete, 200/200. Next independently verify the full cohort, then prioritize V1 implementation rather than another V0 campaign.
 
+Follow-up: the user updated the app goal to the expanded objective; get_goal now confirms active status. Full campaign024 verification is running in session15407.
