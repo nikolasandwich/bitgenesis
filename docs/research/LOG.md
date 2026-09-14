@@ -2089,3 +2089,14 @@ Added a standard-library analysis, complete report, Chinese interpretation and
 boundary tests. Fixed archives retain their original scope; no new simulation.
 
 All 132 local tests pass; 4,764 individual rows are retained in the generated CSV.
+
+## 2026-09-14 — Autonomous cycle 141
+
+Added PNG/SVG figures showing all forty worlds' founder/descendant intake and
+zero-intake founder counts with shared axes and fixed founder denominators.
+Verified every plotted record against the individual report and every stacked
+total against the earlier feeding-only analysis. Visually inspected the PNG for
+legible labels, complete seed rows and unclipped values. Figure metadata retains
+all rows and source/script hashes. Linked it from the report and research index.
+No new simulation or runtime change; the existing observation ZIP predates this
+analysis and figure. The previous archive-verifier commit passed remote CI.
