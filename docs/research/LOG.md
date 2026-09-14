@@ -2895,3 +2895,21 @@ No new observation or outcome run launched. The next action is runner engineerin
 on seed 23 and independent verification. Budget is exactly 6,000 supplementary
 replay ticks, reported separately from the unchanged formal experiment totals.
 Historical archives and V0 rules remain unchanged; V1 stays design-only.
+
+
+## 2026-09-14 — Autonomous cycle 193
+
+Previous cycle registered the bounded retrospective stock observation. Implemented
+read-only capture of full pre-renewal food/RNG, stock histograms, all three exact
+conditional means, expected cap loss and shadow sampled arrivals/admitted/discarded
+energy. Reconciliation requires the shadow admitted amount to equal actual supply.
+The observer never replaces or advances the world RNG and pins reviewed engine
+semantics. Seed-23 tests cover all six treatments for 100 ticks, comparing complete
+state/events/lineage/RNG against plain World, plus empty/full/near-full fixtures.
+
+Implemented a separate replay runner with complete original input hash checks,
+initial reconstruction, all 101 historical metric matches per world, atomic
+status/results and fresh-only output paths. Protocol and historical runner are
+unchanged. All 177 tests pass; CLI imports successfully. No outcome replay launched
+in this cycle. Next implement independent record verification before interpreting
+any replay output; planned supplementary workload remains 6,000 ticks.
