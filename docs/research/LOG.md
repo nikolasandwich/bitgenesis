@@ -3884,3 +3884,19 @@ The new test checks swap-then-replicate-then-source arithmetic, contrasts exceed
 one, both-extinct null fractions, incomplete grids and no-source undefined mean.
 No formal runs started. Next add complete-cohort verification wrappers and launch
 only committed source under the registered protocol. V0 frozen; goal active.
+
+## 2026-09-14 — Autonomous cycle 244
+
+Previous cycle implemented independent ancestry reconstruction and exact source
+contrasts. Added full campaign024 verification entry point with frozen sample
+hashes, complete200-world source/replicate/swap grid, explicit10001-row horizons,
+initial allocation pairing, full life-history reconstruction, neutral byte/digest
+and complementary group checks, compact CSV equality and input-bound report.
+All206 tests pass; standalone standard-library verification CLI loads. The full
+cohort report remains unavailable until outcomes complete, so no science claim.
+
+Commit this clean source before launching the registered200 worlds/two million
+ticks. Original protocol35305f6 and engine unchanged. Once launched, preserve and
+poll the original process; do not restart on observation timeout. Next prepare
+complete checkpoint synthesis while execution runs, then run the full gate. Formal
+verified count remains23 until all campaign024 evidence is published. Goal active.
