@@ -30,7 +30,7 @@ def require_followup_records(records, reference, verified):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-root", type=Path, default=Path("data"))
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     args.output = args.output or args.data_root / f"review-v0-{args.campaigns}.html"
@@ -413,6 +413,42 @@ def main():
         mutation_report=link(root/'docs/research/campaign-022.md')
         mutation_section=f'''<section><h2>22 / 相同祖先性状，开启突变会怎样？</h2><p>二十个新种子，每种子开启或关闭突变，共四十个世界。所有祖先的移动概率基因均为250，初始食物与个体状态配对，世界规则保持V0。</p>{mutation_table}<img src="{mutation_figure}" alt="全部二十个种子的突变配对结果，圆点为灭绝，三角为万步存活；右侧逐行标出配对结局。" style="width:100%;height:auto"><p>六个种子仅突变组存活，四个仅无突变组存活，四个双方存活，六个双方灭绝。净配对优势为+2，支持本队列的正方向预测，但不能保证每个世界都受益。</p><p class="small">没有进行显著性检验。产生新移动概率不等于产生新功能，存活处理差异也不独立证明适应性改善。全部出生、死亡和谱系已重建，灭绝世界保留在预定检查点中。<a href="{mutation_report}">完整结果、240个检查点与核验范围</a>。二十一轮固定下载包不含本轮。</p></section>'''
         page=page.replace('<section><h2>复核与恢复</h2>',mutation_section+'<section><h2>复核与恢复</h2>')
+    if args.campaigns >= 23:
+        from verify_v0_common_environment_histories import source_contrasts
+        import hashlib
+        root=Path(__file__).resolve().parents[1]
+        mp=root/'docs/research/results/campaign-023-verification.json'
+        hp=root/'docs/research/results/campaign-023-histories.json'
+        verification=json.loads(mp.read_text(encoding='utf-8'))
+        history=json.loads(hp.read_text(encoding='utf-8'))
+        records=campaigns[22]
+        compact=[{k:v for k,v in r.items() if k!='observations'} for r in records]
+        key=lambda r:(r['source_seed'],r['replicate'],r['arm'])
+        if sorted(compact,key=key)!=sorted(verification['runs'],key=key) or history['metric_verification_sha256']!=hashlib.sha256(mp.read_bytes()).hexdigest():
+            raise ValueError('Common-environment records differ from verification')
+        samples_path=root/'docs/research/results/campaign-023-samples.json'
+        samples=json.loads(samples_path.read_text(encoding='utf-8'))
+        if verification['manifest_sha256']!=hashlib.sha256(samples_path.read_bytes()).hexdigest():
+            raise ValueError('Common-environment sample manifest changed')
+        sources={r['source_seed'] for r in samples['samples'] if r['available']}
+        comparisons=source_contrasts(compact,sources)
+        if any(history[k]!=v for k,v in comparisons.items()):
+            raise ValueError('Common-environment source contrasts differ')
+        checkpoints=json.loads((root/'docs/research/results/campaign-023-checkpoints.json').read_text(encoding='utf-8'))
+        identity=('source_seed','replicate','arm','seed','founder_trait','sampled_individual_id','source_founder_id')
+        observed=[dict(**{k:r[k] for k in identity},**o) for r in records for o in r['observations'].values()]
+        ckey=lambda r:(*key(r),r['tick'])
+        if checkpoints['metric_report_sha256']!=hashlib.sha256(mp.read_bytes()).hexdigest() or checkpoints['history_report_sha256']!=hashlib.sha256(hp.read_bytes()).hexdigest() or sorted(observed,key=ckey)!=sorted(checkpoints['observations'],key=ckey):
+            raise ValueError('Common-environment checkpoints differ')
+        rows=[]
+        for r in comparisons['sources']:
+            c=r['counts']
+            rows.append([r['source_seed'],c['both_alive'],c['sampled_only'],c['ancestor_only'],c['both_extinct'],r['contrast']])
+        outcomes=table(['来源','双方存活','仅抽样存活','仅祖先存活','双方灭绝','来源差'],rows)
+        figure=link(root/'docs/research/figures/campaign-023-contrasts.png')
+        report=link(root/'docs/research/campaign-023.md')
+        section=f'''<section><h2>23 / 早期抽样性状，是否优于真实祖先？</h2><p>全部20个来源按预定规则抽样，每个来源五个成对评估。只转移性状并关闭突变，不转移原个体的能量、年龄或位置。未变化性状也保留。</p><p>来源平均存活差为 {comparisons['mean_source_contrast']}；正、零、负来源分别为 {comparisons['positive_sources']}、{comparisons['zero_sources']}、{comparisons['negative_sources']}。本轮未支持预登记的正方向预测。</p><img src="{figure}" alt="全部来源的五次重复存活数及来源配对差，包含未变化性状和正反方向结果。" style="width:100%;height:auto">{outcomes}<p class="small">同一来源的五次评估不是五个独立进化样本。零均值不是等效证明，结果也未分离选择与漂变。<a href="{report}">完整200个世界、1,200个检查点与核验说明</a>。二十二轮固定归档不含本轮。</p></section>'''
+        page=page.replace('<section><h2>复核与恢复</h2>',section+'<section><h2>复核与恢复</h2>')
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x", encoding="utf-8") as stream:
         stream.write(page)

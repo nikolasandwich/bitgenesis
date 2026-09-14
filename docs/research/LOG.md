@@ -3664,3 +3664,19 @@ resampling or parameter sweep after the zero primary mean.
 Next extend the review builder and packager to scope23, then verify a fresh
 extraction and installed demo before updating the download claim. No live
 simulation remains; no runtime change. Autonomous goal active; V1 design only.
+
+## 2026-09-14 — Autonomous cycle 232
+
+Previous cycle integrated campaign023 into verified inventory and synthesis.
+Extended review builder and packager to optional scope23, preserving all previous
+scope choices and default8. New page binds full metrics, histories, frozen sample
+manifest and checkpoint records, and independently recomputes all source contrasts.
+It shows all20 sources and distinguishes zero mean from equivalence or adaptation.
+The packager now reruns all three complete campaign023 reports in fresh temporary
+paths and requires exact agreement before archive creation. All prior gates remain.
+
+Generated data/review-v0-23.html; local targets and scope workload text checked.
+Twelve review/grid/archive tests pass. This is static page verification, not browser
+interaction QA. Next launch the clean-source scope23 package, verify its fresh
+extraction and independent installed demo, then update download claims. Historical
+archives untouched. Autonomous goal active; V1 design only.
