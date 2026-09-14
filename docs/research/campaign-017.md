@@ -102,3 +102,45 @@ This campaign adds forty executions / 400,000 computed ticks, no replay prefix.
 Completed totals become seventeen campaigns / 784 executions / 7,040,000 computed
 ticks, including the existing 24 follow-ups and 212,000 replayed prefix ticks.
 The fixed sixteen-campaign download does not contain campaign 017.
+
+## Retrospective feeding-attempt distributions
+
+A source-pinned observer replayed every original first-100-tick prefix and matched
+all 4,040 saved metric rows, yielding 166,886 individual feeding-phase records.
+Each world is summarized separately; ranges below span ten worlds per treatment.
+Attempts with no intake remain in the denominator. Individuals dying before
+feeding do not produce an attempt, so this is not a population starvation rate.
+
+| Layout / threshold | Feeding attempts | Zero-intake fraction | Mean intake per attempt | Mean intake conditional on positive intake |
+| --- | ---: | ---: | ---: | ---: |
+| Dispersed / 40 | 3,544–4,381 | 86.40–88.01% | 0.804–0.908 | 6.611–6.720 |
+| Dispersed / 160 | 3,553–4,098 | 85.52–87.35% | 0.823–0.942 | 6.497–6.657 |
+| Block / 40 | 5,379–5,863 | 84.75–85.73% | 1.016–1.055 | 6.895–7.158 |
+| Block / 160 | 2,763–3,777 | 81.62–86.54% | 0.908–1.309 | 6.742–7.118 |
+
+At threshold 40, every block world has both more feeding attempts and higher
+mean intake per attempt than every dispersed world. Its higher total intake
+therefore is not explained by the number of attempts alone. This is descriptive
+accounting of the retained window: more attempts and more intake can coexist with
+later extinction. It does not show that food layout increases each individual's
+intake, nor that the observed average applies to individuals who died earlier.
+
+Repeated attempts share individuals, space and history; 166,886 records are not
+independent replicates. The distributions condition on reaching the feeding
+phase, and the conditional-positive mean further selects successful attempts.
+World-level ranges are not confidence intervals or causal estimates. Movement,
+local congestion and unequal intake across individuals remain unmeasured here.
+
+[Per-world ratios](results/feeding-attempts-017.csv) ·
+[All integer intake histograms and provenance](results/feeding-attempts-017.json).
+The standalone standard-library script checks every JSONL hash against the replay
+record, rejects duplicate tick/ID pairs and invalid intake values, reconstructs
+counts/zero attempts/total intake and retains bins 0 through 8 for every world.
+
+```sh
+python -I -S scripts/analyze_v0_feeding_attempts.py --output data/new-feeding-distributions
+```
+
+These are retrospective observations, not a new formal campaign. The fixed
+seventeen-campaign archive predates the observer and these local JSONL records.
+See [observer validation](../design/feeding-observer.md) for replay scope and limits.

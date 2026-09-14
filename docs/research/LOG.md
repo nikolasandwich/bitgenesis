@@ -1884,3 +1884,19 @@ unique tick/ID pairs, energy and food bounds, and matches file hashes. Recorded
 all-run results and source provenance. Historical per-individual reference paths
 are unavailable; the matching claim concerns original aggregate metrics. These
 4,000 replay steps are not added to formal campaign totals.
+
+## 2026-09-14 — Autonomous cycle 126
+
+Analyzed all forty replay feeding files with a standalone standard-library tool.
+Verified hashes, unique tick/ID keys, intake bounds and all prior counts/totals;
+retained per-world histograms and ratios rather than pooling attempts as replicates.
+At threshold 40, block worlds have both more attempts and higher mean intake per
+attempt than dispersed worlds. Higher early total intake is not solely an
+attempt-count difference, but this observation does not establish a survival
+mechanism or an individual causal benefit.
+
+Added full tables, provenance and explicit survivor/positive-intake conditioning
+limits to campaign 017. Zero-intake fractions are not starvation rates; repeated
+attempts are not independent samples. No simulation or formal inventory change.
+Fixed seventeen-campaign archive remains unchanged and excludes these later
+observer records and analysis.

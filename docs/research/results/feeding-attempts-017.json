@@ -1,0 +1,1017 @@
+{
+  "scope": "Retrospective per-world descriptive ranges, ticks 1\u2013100. Feeding records require survival to feeding; no causal or independent-attempt inference.",
+  "results": [
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1400,
+      "attempts": 4146,
+      "zero_intake_attempts": 3592,
+      "positive_intake_attempts": 554,
+      "food_eaten": 3700,
+      "zero_intake_fraction": 0.8663772310660878,
+      "mean_intake_per_attempt": 0.8924264351181862,
+      "mean_intake_when_positive": 6.67870036101083,
+      "intake_histogram": {
+        "0": 3592,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 183,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 371
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1401,
+      "attempts": 3841,
+      "zero_intake_attempts": 3363,
+      "positive_intake_attempts": 478,
+      "food_eaten": 3208,
+      "zero_intake_fraction": 0.8755532413434002,
+      "mean_intake_per_attempt": 0.8351991668836241,
+      "mean_intake_when_positive": 6.7112970711297075,
+      "intake_histogram": {
+        "0": 3363,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 154,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 324
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1402,
+      "attempts": 4381,
+      "zero_intake_attempts": 3785,
+      "positive_intake_attempts": 596,
+      "food_eaten": 3980,
+      "zero_intake_fraction": 0.8639580004565168,
+      "mean_intake_per_attempt": 0.9084683862131934,
+      "mean_intake_when_positive": 6.677852348993288,
+      "intake_histogram": {
+        "0": 3785,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 197,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 399
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1403,
+      "attempts": 3646,
+      "zero_intake_attempts": 3194,
+      "positive_intake_attempts": 452,
+      "food_eaten": 3016,
+      "zero_intake_fraction": 0.8760285244103126,
+      "mean_intake_per_attempt": 0.8272078990674712,
+      "mean_intake_when_positive": 6.672566371681416,
+      "intake_histogram": {
+        "0": 3194,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 150,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 302
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1404,
+      "attempts": 3861,
+      "zero_intake_attempts": 3363,
+      "positive_intake_attempts": 498,
+      "food_eaten": 3336,
+      "zero_intake_fraction": 0.871017871017871,
+      "mean_intake_per_attempt": 0.864024864024864,
+      "mean_intake_when_positive": 6.698795180722891,
+      "intake_histogram": {
+        "0": 3363,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 162,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 336
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1405,
+      "attempts": 3654,
+      "zero_intake_attempts": 3210,
+      "positive_intake_attempts": 444,
+      "food_eaten": 2936,
+      "zero_intake_fraction": 0.8784893267651889,
+      "mean_intake_per_attempt": 0.8035030103995622,
+      "mean_intake_when_positive": 6.612612612612613,
+      "intake_histogram": {
+        "0": 3210,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 154,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 290
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1406,
+      "attempts": 3976,
+      "zero_intake_attempts": 3464,
+      "positive_intake_attempts": 512,
+      "food_eaten": 3432,
+      "zero_intake_fraction": 0.8712273641851107,
+      "mean_intake_per_attempt": 0.8631790744466801,
+      "mean_intake_when_positive": 6.703125,
+      "intake_histogram": {
+        "0": 3464,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 166,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 346
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1407,
+      "attempts": 3965,
+      "zero_intake_attempts": 3438,
+      "positive_intake_attempts": 527,
+      "food_eaten": 3484,
+      "zero_intake_fraction": 0.8670870113493064,
+      "mean_intake_per_attempt": 0.8786885245901639,
+      "mean_intake_when_positive": 6.611005692599621,
+      "intake_histogram": {
+        "0": 3438,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 183,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 344
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1408,
+      "attempts": 4038,
+      "zero_intake_attempts": 3507,
+      "positive_intake_attempts": 531,
+      "food_eaten": 3528,
+      "zero_intake_fraction": 0.8684992570579495,
+      "mean_intake_per_attempt": 0.8736998514115899,
+      "mean_intake_when_positive": 6.6440677966101696,
+      "intake_histogram": {
+        "0": 3507,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 180,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 351
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1409,
+      "attempts": 3544,
+      "zero_intake_attempts": 3119,
+      "positive_intake_attempts": 425,
+      "food_eaten": 2856,
+      "zero_intake_fraction": 0.880079006772009,
+      "mean_intake_per_attempt": 0.8058690744920993,
+      "mean_intake_when_positive": 6.72,
+      "intake_histogram": {
+        "0": 3119,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 136,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 289
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1400,
+      "attempts": 3930,
+      "zero_intake_attempts": 3433,
+      "positive_intake_attempts": 497,
+      "food_eaten": 3236,
+      "zero_intake_fraction": 0.8735368956743003,
+      "mean_intake_per_attempt": 0.823409669211196,
+      "mean_intake_when_positive": 6.511066398390342,
+      "intake_histogram": {
+        "0": 3433,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 185,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 312
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1401,
+      "attempts": 3641,
+      "zero_intake_attempts": 3166,
+      "positive_intake_attempts": 475,
+      "food_eaten": 3132,
+      "zero_intake_fraction": 0.8695413347981323,
+      "mean_intake_per_attempt": 0.8602032408678935,
+      "mean_intake_when_positive": 6.593684210526316,
+      "intake_histogram": {
+        "0": 3166,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 167,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 308
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1402,
+      "attempts": 4088,
+      "zero_intake_attempts": 3522,
+      "positive_intake_attempts": 566,
+      "food_eaten": 3716,
+      "zero_intake_fraction": 0.8615459882583171,
+      "mean_intake_per_attempt": 0.9090019569471625,
+      "mean_intake_when_positive": 6.565371024734982,
+      "intake_histogram": {
+        "0": 3522,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 203,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 363
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1403,
+      "attempts": 3920,
+      "zero_intake_attempts": 3361,
+      "positive_intake_attempts": 559,
+      "food_eaten": 3632,
+      "zero_intake_fraction": 0.8573979591836735,
+      "mean_intake_per_attempt": 0.926530612244898,
+      "mean_intake_when_positive": 6.4973166368515205,
+      "intake_histogram": {
+        "0": 3361,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 210,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 349
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1404,
+      "attempts": 3890,
+      "zero_intake_attempts": 3339,
+      "positive_intake_attempts": 551,
+      "food_eaten": 3652,
+      "zero_intake_fraction": 0.8583547557840617,
+      "mean_intake_per_attempt": 0.9388174807197943,
+      "mean_intake_when_positive": 6.627949183303086,
+      "intake_histogram": {
+        "0": 3339,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 189,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 362
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1405,
+      "attempts": 4055,
+      "zero_intake_attempts": 3517,
+      "positive_intake_attempts": 538,
+      "food_eaten": 3540,
+      "zero_intake_fraction": 0.867324290998767,
+      "mean_intake_per_attempt": 0.872996300863132,
+      "mean_intake_when_positive": 6.5799256505576205,
+      "intake_histogram": {
+        "0": 3517,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 191,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 347
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1406,
+      "attempts": 4098,
+      "zero_intake_attempts": 3520,
+      "positive_intake_attempts": 578,
+      "food_eaten": 3848,
+      "zero_intake_fraction": 0.8589555880917521,
+      "mean_intake_per_attempt": 0.9389946315275745,
+      "mean_intake_when_positive": 6.657439446366782,
+      "intake_histogram": {
+        "0": 3520,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 194,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 384
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1407,
+      "attempts": 3884,
+      "zero_intake_attempts": 3338,
+      "positive_intake_attempts": 546,
+      "food_eaten": 3588,
+      "zero_intake_fraction": 0.8594232749742533,
+      "mean_intake_per_attempt": 0.9237899073120495,
+      "mean_intake_when_positive": 6.571428571428571,
+      "intake_histogram": {
+        "0": 3338,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 195,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 351
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1408,
+      "attempts": 3553,
+      "zero_intake_attempts": 3091,
+      "positive_intake_attempts": 462,
+      "food_eaten": 3028,
+      "zero_intake_fraction": 0.8699690402476781,
+      "mean_intake_per_attempt": 0.8522375457359977,
+      "mean_intake_when_positive": 6.554112554112554,
+      "intake_histogram": {
+        "0": 3091,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 167,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 295
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1409,
+      "attempts": 4012,
+      "zero_intake_attempts": 3431,
+      "positive_intake_attempts": 581,
+      "food_eaten": 3780,
+      "zero_intake_fraction": 0.8551844466600199,
+      "mean_intake_per_attempt": 0.942173479561316,
+      "mean_intake_when_positive": 6.506024096385542,
+      "intake_histogram": {
+        "0": 3431,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 217,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 364
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1400,
+      "attempts": 5619,
+      "zero_intake_attempts": 4803,
+      "positive_intake_attempts": 816,
+      "food_eaten": 5796,
+      "zero_intake_fraction": 0.8547784303256807,
+      "mean_intake_per_attempt": 1.0315002669514148,
+      "mean_intake_when_positive": 7.102941176470588,
+      "intake_histogram": {
+        "0": 4803,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 183,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 633
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1401,
+      "attempts": 5666,
+      "zero_intake_attempts": 4836,
+      "positive_intake_attempts": 830,
+      "food_eaten": 5848,
+      "zero_intake_fraction": 0.8535121779032827,
+      "mean_intake_per_attempt": 1.0321214260501235,
+      "mean_intake_when_positive": 7.04578313253012,
+      "intake_histogram": {
+        "0": 4836,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 198,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 632
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1402,
+      "attempts": 5863,
+      "zero_intake_attempts": 4969,
+      "positive_intake_attempts": 894,
+      "food_eaten": 6164,
+      "zero_intake_fraction": 0.8475183353232134,
+      "mean_intake_per_attempt": 1.0513389049974415,
+      "mean_intake_when_positive": 6.894854586129754,
+      "intake_histogram": {
+        "0": 4969,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 247,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 647
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1403,
+      "attempts": 5493,
+      "zero_intake_attempts": 4709,
+      "positive_intake_attempts": 784,
+      "food_eaten": 5612,
+      "zero_intake_fraction": 0.8572728927726196,
+      "mean_intake_per_attempt": 1.0216639359184416,
+      "mean_intake_when_positive": 7.158163265306122,
+      "intake_histogram": {
+        "0": 4709,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 165,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 619
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1404,
+      "attempts": 5806,
+      "zero_intake_attempts": 4957,
+      "positive_intake_attempts": 849,
+      "food_eaten": 5984,
+      "zero_intake_fraction": 0.8537719600413366,
+      "mean_intake_per_attempt": 1.0306579400620048,
+      "mean_intake_when_positive": 7.04829210836278,
+      "intake_histogram": {
+        "0": 4957,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 202,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 647
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1405,
+      "attempts": 5379,
+      "zero_intake_attempts": 4571,
+      "positive_intake_attempts": 808,
+      "food_eaten": 5676,
+      "zero_intake_fraction": 0.8497862056144265,
+      "mean_intake_per_attempt": 1.0552147239263803,
+      "mean_intake_when_positive": 7.024752475247524,
+      "intake_histogram": {
+        "0": 4571,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 197,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 611
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1406,
+      "attempts": 5397,
+      "zero_intake_attempts": 4624,
+      "positive_intake_attempts": 773,
+      "food_eaten": 5484,
+      "zero_intake_fraction": 0.8567722808967945,
+      "mean_intake_per_attempt": 1.0161200667037242,
+      "mean_intake_when_positive": 7.0944372574385515,
+      "intake_histogram": {
+        "0": 4624,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 175,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 598
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1407,
+      "attempts": 5724,
+      "zero_intake_attempts": 4885,
+      "positive_intake_attempts": 839,
+      "food_eaten": 5924,
+      "zero_intake_fraction": 0.853424178895877,
+      "mean_intake_per_attempt": 1.0349406009783368,
+      "mean_intake_when_positive": 7.060786650774732,
+      "intake_histogram": {
+        "0": 4885,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 197,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 642
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1408,
+      "attempts": 5670,
+      "zero_intake_attempts": 4851,
+      "positive_intake_attempts": 819,
+      "food_eaten": 5848,
+      "zero_intake_fraction": 0.8555555555555555,
+      "mean_intake_per_attempt": 1.0313932980599647,
+      "mean_intake_when_positive": 7.140415140415141,
+      "intake_histogram": {
+        "0": 4851,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 176,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 643
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1409,
+      "attempts": 5542,
+      "zero_intake_attempts": 4739,
+      "positive_intake_attempts": 803,
+      "food_eaten": 5704,
+      "zero_intake_fraction": 0.8551064597618189,
+      "mean_intake_per_attempt": 1.0292313244316131,
+      "mean_intake_when_positive": 7.103362391033624,
+      "intake_histogram": {
+        "0": 4739,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 180,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 623
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1400,
+      "attempts": 3133,
+      "zero_intake_attempts": 2557,
+      "positive_intake_attempts": 576,
+      "food_eaten": 4100,
+      "zero_intake_fraction": 0.8161506543249282,
+      "mean_intake_per_attempt": 1.3086498563676987,
+      "mean_intake_when_positive": 7.118055555555555,
+      "intake_histogram": {
+        "0": 2557,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 127,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 449
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1401,
+      "attempts": 2941,
+      "zero_intake_attempts": 2490,
+      "positive_intake_attempts": 451,
+      "food_eaten": 3176,
+      "zero_intake_fraction": 0.8466507990479428,
+      "mean_intake_per_attempt": 1.0799047942876572,
+      "mean_intake_when_positive": 7.042128603104213,
+      "intake_histogram": {
+        "0": 2490,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 108,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 343
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1402,
+      "attempts": 3049,
+      "zero_intake_attempts": 2500,
+      "positive_intake_attempts": 549,
+      "food_eaten": 3832,
+      "zero_intake_fraction": 0.819940964250574,
+      "mean_intake_per_attempt": 1.2568055100032798,
+      "mean_intake_when_positive": 6.979963570127505,
+      "intake_histogram": {
+        "0": 2500,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 140,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 409
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1403,
+      "attempts": 3654,
+      "zero_intake_attempts": 3024,
+      "positive_intake_attempts": 630,
+      "food_eaten": 4336,
+      "zero_intake_fraction": 0.8275862068965517,
+      "mean_intake_per_attempt": 1.1866447728516694,
+      "mean_intake_when_positive": 6.882539682539683,
+      "intake_histogram": {
+        "0": 3024,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 176,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 454
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1404,
+      "attempts": 3152,
+      "zero_intake_attempts": 2603,
+      "positive_intake_attempts": 549,
+      "food_eaten": 3884,
+      "zero_intake_fraction": 0.8258248730964467,
+      "mean_intake_per_attempt": 1.232233502538071,
+      "mean_intake_when_positive": 7.074681238615665,
+      "intake_histogram": {
+        "0": 2603,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 127,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 422
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1405,
+      "attempts": 3119,
+      "zero_intake_attempts": 2582,
+      "positive_intake_attempts": 537,
+      "food_eaten": 3772,
+      "zero_intake_fraction": 0.82782943251042,
+      "mean_intake_per_attempt": 1.2093619749919846,
+      "mean_intake_when_positive": 7.024208566108007,
+      "intake_histogram": {
+        "0": 2582,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 131,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 406
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1406,
+      "attempts": 3777,
+      "zero_intake_attempts": 3139,
+      "positive_intake_attempts": 638,
+      "food_eaten": 4508,
+      "zero_intake_fraction": 0.8310828700026476,
+      "mean_intake_per_attempt": 1.1935398464389728,
+      "mean_intake_when_positive": 7.065830721003135,
+      "intake_histogram": {
+        "0": 3139,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 149,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 489
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1407,
+      "attempts": 3298,
+      "zero_intake_attempts": 2694,
+      "positive_intake_attempts": 604,
+      "food_eaten": 4236,
+      "zero_intake_fraction": 0.8168587022437841,
+      "mean_intake_per_attempt": 1.2844147968465738,
+      "mean_intake_when_positive": 7.013245033112582,
+      "intake_histogram": {
+        "0": 2694,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 149,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 455
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1408,
+      "attempts": 3718,
+      "zero_intake_attempts": 3058,
+      "positive_intake_attempts": 660,
+      "food_eaten": 4600,
+      "zero_intake_fraction": 0.8224852071005917,
+      "mean_intake_per_attempt": 1.237224314147391,
+      "mean_intake_when_positive": 6.96969696969697,
+      "intake_histogram": {
+        "0": 3058,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 170,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 490
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1409,
+      "attempts": 2763,
+      "zero_intake_attempts": 2391,
+      "positive_intake_attempts": 372,
+      "food_eaten": 2508,
+      "zero_intake_fraction": 0.8653637350705755,
+      "mean_intake_per_attempt": 0.9077090119435396,
+      "mean_intake_when_positive": 6.741935483870968,
+      "intake_histogram": {
+        "0": 2391,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 117,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 255
+      }
+    }
+  ],
+  "groups": [
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "ranges": {
+        "attempts": [
+          3544,
+          4381
+        ],
+        "zero_intake_fraction": [
+          0.8639580004565168,
+          0.880079006772009
+        ],
+        "mean_intake_per_attempt": [
+          0.8035030103995622,
+          0.9084683862131934
+        ],
+        "mean_intake_when_positive": [
+          6.611005692599621,
+          6.72
+        ]
+      }
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "ranges": {
+        "attempts": [
+          3553,
+          4098
+        ],
+        "zero_intake_fraction": [
+          0.8551844466600199,
+          0.8735368956743003
+        ],
+        "mean_intake_per_attempt": [
+          0.823409669211196,
+          0.942173479561316
+        ],
+        "mean_intake_when_positive": [
+          6.4973166368515205,
+          6.657439446366782
+        ]
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "ranges": {
+        "attempts": [
+          5379,
+          5863
+        ],
+        "zero_intake_fraction": [
+          0.8475183353232134,
+          0.8572728927726196
+        ],
+        "mean_intake_per_attempt": [
+          1.0161200667037242,
+          1.0552147239263803
+        ],
+        "mean_intake_when_positive": [
+          6.894854586129754,
+          7.158163265306122
+        ]
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "ranges": {
+        "attempts": [
+          2763,
+          3777
+        ],
+        "zero_intake_fraction": [
+          0.8161506543249282,
+          0.8653637350705755
+        ],
+        "mean_intake_per_attempt": [
+          0.9077090119435396,
+          1.3086498563676987
+        ],
+        "mean_intake_when_positive": [
+          6.741935483870968,
+          7.118055555555555
+        ]
+      }
+    }
+  ],
+  "verification_sha256": "9bc3ed56a2c729494319422658125f79dc6109aa8e012b01770188536da26ce0",
+  "script_sha256": "55dcad6a91500f5af95757c786ec7cdeb8f7ef6198734758ac1c2a37edd7dc1e"
+}
