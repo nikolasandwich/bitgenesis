@@ -3965,3 +3965,18 @@ correct standard-library invocation with -S loads successfully. No source/output
 mutation from that failed help invocation. No final export generated while running.
 Next complete original experiment, run full gate and produce the complete report,
 figure/checkpoints/tables without interim selection. Formal count23; goal active.
+
+## 2026-09-14 — Autonomous cycle 249
+
+Previous cycle prepared complete comparison exports. Re-polled original campaign024
+session51863 live; observed93/200 completed at turn start. Current full suite208
+tests passes after checkpoint/table additions. Independently reconstructed the
+first completed changed-trait allocation pair, source1909 replicate0 (256vs250):
+20,002 rows and19,180 individuals. Stored local input hashes and compatibility
+results in data/campaign-024-first-changed-pair-check.json. This complements the
+neutral long-horizon fixture check and is not a source/cohort efficacy estimate.
+
+No runtime edits, input changes, resampling or restart. All publication tools remain
+gated on the full registered cohort and complete independent verification. Original
+source d82e1d1 and protocol35305f6 remain fixed; formal verified count23. Continue
+original process to completion before synthesis. Autonomous goal active.
