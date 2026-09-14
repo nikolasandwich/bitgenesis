@@ -4278,3 +4278,9 @@ Published finite-stop proof for closed fixed-site positive-cost rules: at most f
 Previous turn independently audited closed V4 and proved finite activity (f26676a), a substantive progress turn. Added separate v4-driven-1 deterministic input/leak boundary around unchanged local interaction. Records proposed/accepted/rejected energy, leakage and bond costs; empty-site input rejected. Proved existing transport preserves capacity, so removed an unnecessary draft overflow clipping layer before committing. Zero drive/leak matches closed baseline.
 
 Three tests cover exact baseline equivalence, input-driven reactivation and100 random capacity/energy cases. Full294 tests pass in32.539 seconds. No persisted driven experiments or replication claim yet. Next separate deterministic initialization and drive RNG streams in bounded records, independently reconstruct inputs/interactions, then declare persistence perturbations.
+
+## 2026-09-14 — Autonomous cycle 298
+
+Previous turn implemented driven local energy (8954776), a substantive progress turn. Added v4-driven-run-1 persistence and module entry point with separate SHA256-namespaced drive RNG, fixed per-site draw counts even when input disabled/empty, complete input/leak/interaction observations and initial/final RNG states. Engineering defaults propose8 at500/1000,capacity64,leak1; not a scientific protocol.
+
+Two tests cover exact replay, matched initial states and drive RNG endpoints across controls, energy accounting and capacity preflight. Full296 tests pass in32.877 seconds. Commit before engineering run. Next independent driven initialization/input/transition reconstruction, then bounded preregistered persistence/control study.

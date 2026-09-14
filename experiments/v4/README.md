@@ -38,3 +38,23 @@ its first zero-bond transition is51. Seeds90200/90201 cover controls and rehashe
 observer corruption. See docs/research/v4-closed-system.zh-CN.md for the finite
 activity bound of this closed positive-cost system; do not seek indefinite
 persistence simply by increasing its horizon.
+
+## Driven trajectories
+
+```console
+python -m bitgenesis.v4.driven_runner --seed 90402 --steps 100 --output data/my-v4-driven
+```
+
+Optional --no-drive removes input; --no-exchange removes transport. Initial units
+use the same Random(seed) protocol as the closed runner. Input uses a separate
+SHA256-derived stream named v4-driven-1:<seed>:drive. Every site draws one ticket
+per step, even if empty or input disabled. Defaults propose8 energy with500/1000
+probability per site, capacity64 and leakage1. These are engineering settings.
+
+v4-driven-run-1 saves both initial random states, final drive state, proposals,
+accepted/rejected inputs, leakage, local interactions and complete units/components.
+The component observation uses the bonds actually employed in that transition.
+Input and exchange controls share initial states and drive draw counts. Accepted
+input may differ due to capacity and must not be inferred from proposal totals.
+Independent driven-run audit is pending; the closed audit cannot verify this
+new schema. Seeds90400..90402 are reserved for engineering.
