@@ -1,0 +1,4709 @@
+{
+  "scope": "independent prefix/branch dynamics and registered recovery observations; no ancestry inference",
+  "checks": [
+    {
+      "seed": 93000,
+      "prefix_audit": {
+        "scope": "independent initialization/drive/direction RNG, input/leak, local interaction and material conversion",
+        "summary": {
+          "steps": 300,
+          "units": 256,
+          "initial_energy": 2443,
+          "final_energy": 13132,
+          "spent": 253267,
+          "imported": 263956,
+          "rejected_import": 42044,
+          "leakage": 75877,
+          "construction_spent": 796,
+          "formations": 199,
+          "dissolutions": 19,
+          "initial_material": 332,
+          "final_material": 332,
+          "final_raw": 76
+        },
+        "output_sha256": {
+          "initial.json": "8949074b0fd610125e274203ea9b154be24ea31e4107fddcb433f15dc267187e",
+          "steps.jsonl": "cd38b1b5744ed745398a8b8d2e7646fd4651c39625c37c1ad5607f3159ffe8d7",
+          "final.json": "cca68293e784cfb1ad45f8f3dd060864085d5ea735e95def13a8f095d88b29d3",
+          "summary.json": "ff5c9c06a9ea0c7bf1218c20e14ebb9f5a1febd2ca377f571eff0eaf0da33957"
+        },
+        "audit_sha256": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      },
+      "branches": [
+        {
+          "removal": false,
+          "threshold": 16,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 13132,
+              "final_energy": 13340,
+              "initial_material": 332,
+              "final_material": 332,
+              "imported": 170968,
+              "spent": 170760,
+              "formations": 1,
+              "dissolutions": 1,
+              "units": 256,
+              "exported_energy": 0,
+              "exported_material": 0
+            },
+            "output_sha256": {
+              "origin-audit.json": "0845892f35820a35cfb02f621109cbd2faa830fc9fb55549b4a94c44d7a5cea0",
+              "before.json": "cca68293e784cfb1ad45f8f3dd060864085d5ea735e95def13a8f095d88b29d3",
+              "boundary.json": "0be9f693657163b40018c59089f21f8c703b2d3d466327882c0ca9c819bd21dc",
+              "initial.json": "cca68293e784cfb1ad45f8f3dd060864085d5ea735e95def13a8f095d88b29d3",
+              "steps.jsonl": "6fc9460cbe408c4b6f8f569136e94bea1f4bc82478d1f49e7a770710759ad1c6",
+              "final.json": "e33117fd5fc47547788f4a844226ac38787083e834911577dde5863739d6c43a",
+              "summary.json": "b61dc36892d4e0f70d8252dade5177923bb111d72adbe26be1c7ca74b2997f27"
+            },
+            "origin_output_sha256": {
+              "initial.json": "8949074b0fd610125e274203ea9b154be24ea31e4107fddcb433f15dc267187e",
+              "steps.jsonl": "cd38b1b5744ed745398a8b8d2e7646fd4651c39625c37c1ad5607f3159ffe8d7",
+              "final.json": "cca68293e784cfb1ad45f8f3dd060864085d5ea735e95def13a8f095d88b29d3",
+              "summary.json": "ff5c9c06a9ea0c7bf1218c20e14ebb9f5a1febd2ca377f571eff0eaf0da33957"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 13132,
+            "energy_before": 13132,
+            "exported_energy": 0,
+            "exported_material": 0,
+            "material_after": 332,
+            "material_before": 332,
+            "removed": [],
+            "rules": "v4-removal-1",
+            "sites": []
+          }
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 13132,
+              "final_energy": 13648,
+              "initial_material": 332,
+              "final_material": 332,
+              "imported": 169854,
+              "spent": 169338,
+              "formations": 0,
+              "dissolutions": 1,
+              "units": 255,
+              "exported_energy": 0,
+              "exported_material": 0
+            },
+            "output_sha256": {
+              "origin-audit.json": "0845892f35820a35cfb02f621109cbd2faa830fc9fb55549b4a94c44d7a5cea0",
+              "before.json": "cca68293e784cfb1ad45f8f3dd060864085d5ea735e95def13a8f095d88b29d3",
+              "boundary.json": "0be9f693657163b40018c59089f21f8c703b2d3d466327882c0ca9c819bd21dc",
+              "initial.json": "cca68293e784cfb1ad45f8f3dd060864085d5ea735e95def13a8f095d88b29d3",
+              "steps.jsonl": "317078f6ab2634c56fcd5b112835a8dac09fabe8d899ae27635df92a70535590",
+              "final.json": "41b0ebb21128ab01681c02cda16aa7c750f29541d7b619a39fbf3644df767fb5",
+              "summary.json": "985afabcd5f0f74b5d773d3544c2bf6b79613cf4e5f8736405a96e9524a3e96b"
+            },
+            "origin_output_sha256": {
+              "initial.json": "8949074b0fd610125e274203ea9b154be24ea31e4107fddcb433f15dc267187e",
+              "steps.jsonl": "cd38b1b5744ed745398a8b8d2e7646fd4651c39625c37c1ad5607f3159ffe8d7",
+              "final.json": "cca68293e784cfb1ad45f8f3dd060864085d5ea735e95def13a8f095d88b29d3",
+              "summary.json": "ff5c9c06a9ea0c7bf1218c20e14ebb9f5a1febd2ca377f571eff0eaf0da33957"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 13132,
+            "energy_before": 13132,
+            "exported_energy": 0,
+            "exported_material": 0,
+            "material_after": 332,
+            "material_before": 332,
+            "removed": [],
+            "rules": "v4-removal-1",
+            "sites": []
+          }
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 12185,
+              "final_energy": 12593,
+              "initial_material": 316,
+              "final_material": 316,
+              "imported": 163738,
+              "spent": 163330,
+              "formations": 4,
+              "dissolutions": 1,
+              "units": 243,
+              "exported_energy": 947,
+              "exported_material": 16
+            },
+            "output_sha256": {
+              "origin-audit.json": "0845892f35820a35cfb02f621109cbd2faa830fc9fb55549b4a94c44d7a5cea0",
+              "before.json": "cca68293e784cfb1ad45f8f3dd060864085d5ea735e95def13a8f095d88b29d3",
+              "boundary.json": "78f9a5e4c9f5354fe7310bcaa0c2a4e26a110c7af561e68561098a5b42c94c13",
+              "initial.json": "d2a12711ac2567a4a1f3d6d20a3ce1f063e57920e105ca2996513eb5ad100b87",
+              "steps.jsonl": "b7ec7a10f8df2867f3140a46ddfca5afa48fcc10a4f985d30eb711964d233b3f",
+              "final.json": "ca04ee334babec0f2ed7f13c67b79f6ffa3736994d4205d915321229fcc012d1",
+              "summary.json": "f39fe080b9d3c825bfded015b308ed486b3e4effee94592b1a39ef45a768869c"
+            },
+            "origin_output_sha256": {
+              "initial.json": "8949074b0fd610125e274203ea9b154be24ea31e4107fddcb433f15dc267187e",
+              "steps.jsonl": "cd38b1b5744ed745398a8b8d2e7646fd4651c39625c37c1ad5607f3159ffe8d7",
+              "final.json": "cca68293e784cfb1ad45f8f3dd060864085d5ea735e95def13a8f095d88b29d3",
+              "summary.json": "ff5c9c06a9ea0c7bf1218c20e14ebb9f5a1febd2ca377f571eff0eaf0da33957"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 12185,
+            "energy_before": 13132,
+            "exported_energy": 947,
+            "exported_material": 16,
+            "material_after": 316,
+            "material_before": 332,
+            "removed": [
+              {
+                "energy": 62,
+                "material": 1,
+                "site": 102
+              },
+              {
+                "energy": 57,
+                "material": 1,
+                "site": 103
+              },
+              {
+                "energy": 60,
+                "material": 1,
+                "site": 104
+              },
+              {
+                "energy": 58,
+                "material": 1,
+                "site": 105
+              },
+              {
+                "energy": 61,
+                "material": 0,
+                "site": 118
+              },
+              {
+                "energy": 59,
+                "material": 0,
+                "site": 119
+              },
+              {
+                "energy": 63,
+                "material": 2,
+                "site": 120
+              },
+              {
+                "energy": 62,
+                "material": 3,
+                "site": 121
+              },
+              {
+                "energy": 55,
+                "material": 0,
+                "site": 134
+              },
+              {
+                "energy": 52,
+                "material": 0,
+                "site": 135
+              },
+              {
+                "energy": 61,
+                "material": 3,
+                "site": 136
+              },
+              {
+                "energy": 60,
+                "material": 3,
+                "site": 137
+              },
+              {
+                "energy": 58,
+                "material": 0,
+                "site": 150
+              },
+              {
+                "energy": 62,
+                "material": 1,
+                "site": 151
+              },
+              {
+                "energy": 56,
+                "material": 3,
+                "site": 152
+              },
+              {
+                "energy": 61,
+                "material": 3,
+                "site": 153
+              }
+            ],
+            "rules": "v4-removal-1",
+            "sites": [
+              102,
+              103,
+              104,
+              105,
+              118,
+              119,
+              120,
+              121,
+              134,
+              135,
+              136,
+              137,
+              150,
+              151,
+              152,
+              153
+            ]
+          }
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 12185,
+              "final_energy": 12729,
+              "initial_material": 316,
+              "final_material": 316,
+              "imported": 160682,
+              "spent": 160138,
+              "formations": 0,
+              "dissolutions": 1,
+              "units": 239,
+              "exported_energy": 947,
+              "exported_material": 16
+            },
+            "output_sha256": {
+              "origin-audit.json": "0845892f35820a35cfb02f621109cbd2faa830fc9fb55549b4a94c44d7a5cea0",
+              "before.json": "cca68293e784cfb1ad45f8f3dd060864085d5ea735e95def13a8f095d88b29d3",
+              "boundary.json": "78f9a5e4c9f5354fe7310bcaa0c2a4e26a110c7af561e68561098a5b42c94c13",
+              "initial.json": "d2a12711ac2567a4a1f3d6d20a3ce1f063e57920e105ca2996513eb5ad100b87",
+              "steps.jsonl": "df9772f1c3f9b7ecf3840199f162a5123c0b56777c3dc8a4cc47081563a08070",
+              "final.json": "d570e85971c05557a34fd9c51038f3b47ea154b0bf93ee808fcfaaa4eb978ed7",
+              "summary.json": "1431ae15d36d4094467dd75d739892f3cbb08d22205e382b5f3e9218d79f6bc7"
+            },
+            "origin_output_sha256": {
+              "initial.json": "8949074b0fd610125e274203ea9b154be24ea31e4107fddcb433f15dc267187e",
+              "steps.jsonl": "cd38b1b5744ed745398a8b8d2e7646fd4651c39625c37c1ad5607f3159ffe8d7",
+              "final.json": "cca68293e784cfb1ad45f8f3dd060864085d5ea735e95def13a8f095d88b29d3",
+              "summary.json": "ff5c9c06a9ea0c7bf1218c20e14ebb9f5a1febd2ca377f571eff0eaf0da33957"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 12185,
+            "energy_before": 13132,
+            "exported_energy": 947,
+            "exported_material": 16,
+            "material_after": 316,
+            "material_before": 332,
+            "removed": [
+              {
+                "energy": 62,
+                "material": 1,
+                "site": 102
+              },
+              {
+                "energy": 57,
+                "material": 1,
+                "site": 103
+              },
+              {
+                "energy": 60,
+                "material": 1,
+                "site": 104
+              },
+              {
+                "energy": 58,
+                "material": 1,
+                "site": 105
+              },
+              {
+                "energy": 61,
+                "material": 0,
+                "site": 118
+              },
+              {
+                "energy": 59,
+                "material": 0,
+                "site": 119
+              },
+              {
+                "energy": 63,
+                "material": 2,
+                "site": 120
+              },
+              {
+                "energy": 62,
+                "material": 3,
+                "site": 121
+              },
+              {
+                "energy": 55,
+                "material": 0,
+                "site": 134
+              },
+              {
+                "energy": 52,
+                "material": 0,
+                "site": 135
+              },
+              {
+                "energy": 61,
+                "material": 3,
+                "site": 136
+              },
+              {
+                "energy": 60,
+                "material": 3,
+                "site": 137
+              },
+              {
+                "energy": 58,
+                "material": 0,
+                "site": 150
+              },
+              {
+                "energy": 62,
+                "material": 1,
+                "site": 151
+              },
+              {
+                "energy": 56,
+                "material": 3,
+                "site": 152
+              },
+              {
+                "energy": 61,
+                "material": 3,
+                "site": 153
+              }
+            ],
+            "rules": "v4-removal-1",
+            "sites": [
+              102,
+              103,
+              104,
+              105,
+              118,
+              119,
+              120,
+              121,
+              134,
+              135,
+              136,
+              137,
+              150,
+              151,
+              152,
+              153
+            ]
+          }
+        }
+      ],
+      "observations": [
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 239,
+            "refilled": 239,
+            "matched": 239,
+            "occupied_fraction": "239/240",
+            "refill_fraction": "239/240",
+            "material_match_fraction": "239/240"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 239,
+            "refilled": 239,
+            "matched": 239,
+            "occupied_fraction": "239/240",
+            "refill_fraction": "239/240",
+            "material_match_fraction": "239/240"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 239,
+            "refilled": 239,
+            "matched": 239,
+            "occupied_fraction": "239/240",
+            "refill_fraction": "239/240",
+            "material_match_fraction": "239/240"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 3,
+            "refilled": 3,
+            "matched": 0,
+            "occupied_fraction": "3/16",
+            "refill_fraction": "3/16",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 3,
+            "refilled": 3,
+            "matched": 0,
+            "occupied_fraction": "3/16",
+            "refill_fraction": "3/16",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 3,
+            "refilled": 3,
+            "matched": 0,
+            "occupied_fraction": "3/16",
+            "refill_fraction": "3/16",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 3,
+            "refilled": 3,
+            "matched": 0,
+            "occupied_fraction": "3/16",
+            "refill_fraction": "3/16",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 239,
+            "refilled": 239,
+            "matched": 239,
+            "occupied_fraction": "239/240",
+            "refill_fraction": "239/240",
+            "material_match_fraction": "239/240"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 239,
+            "refilled": 239,
+            "matched": 239,
+            "occupied_fraction": "239/240",
+            "refill_fraction": "239/240",
+            "material_match_fraction": "239/240"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 239,
+            "refilled": 239,
+            "matched": 239,
+            "occupied_fraction": "239/240",
+            "refill_fraction": "239/240",
+            "material_match_fraction": "239/240"
+          },
+          "contemporary_sham_match_fraction": "0"
+        }
+      ]
+    },
+    {
+      "seed": 93001,
+      "prefix_audit": {
+        "scope": "independent initialization/drive/direction RNG, input/leak, local interaction and material conversion",
+        "summary": {
+          "steps": 300,
+          "units": 256,
+          "initial_energy": 2096,
+          "final_energy": 14234,
+          "spent": 241262,
+          "imported": 253400,
+          "rejected_import": 55200,
+          "leakage": 75826,
+          "construction_spent": 804,
+          "formations": 201,
+          "dissolutions": 13,
+          "initial_material": 324,
+          "final_material": 324,
+          "final_raw": 68
+        },
+        "output_sha256": {
+          "initial.json": "223f843a7795fecc9a1ebd107e57b9df9abe58c8a498edd09d634a1151ecdfdd",
+          "steps.jsonl": "d866e3283330f35cb679eaada2d19818fe391ff9c5afda12401c1acd95aa9897",
+          "final.json": "378cb07c243e250083fe41f5977c2bc2299afb6514e26cecf0fa0a7c062ea0ce",
+          "summary.json": "5b9f942baa1ba7c0a261f28d754a73add18e9322522564bb644452d4fadc482a"
+        },
+        "audit_sha256": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      },
+      "branches": [
+        {
+          "removal": false,
+          "threshold": 16,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 14234,
+              "final_energy": 13911,
+              "initial_material": 324,
+              "final_material": 324,
+              "imported": 162877,
+              "spent": 163200,
+              "formations": 0,
+              "dissolutions": 0,
+              "units": 256,
+              "exported_energy": 0,
+              "exported_material": 0
+            },
+            "output_sha256": {
+              "origin-audit.json": "b6e324e4814b414ca8dd85335235f03d195e90db3b8b0e478c7955e6c86f3bf7",
+              "before.json": "378cb07c243e250083fe41f5977c2bc2299afb6514e26cecf0fa0a7c062ea0ce",
+              "boundary.json": "39c08747545f9e82485a63c91e45c3336bd7506b722b3c4ec6b90746024db872",
+              "initial.json": "378cb07c243e250083fe41f5977c2bc2299afb6514e26cecf0fa0a7c062ea0ce",
+              "steps.jsonl": "3dfac32e99c398d6bb2d1a1415e3e95de2e89e203b07712b71f4df2852e90a01",
+              "final.json": "65169db6cd253e59171e25147f899d743d609c53b8b18ac26333d4a94df49c0d",
+              "summary.json": "fb9bf3520e1c0756bc4455a995f516c9e687e338668bcd9db6a2e38b62a731d3"
+            },
+            "origin_output_sha256": {
+              "initial.json": "223f843a7795fecc9a1ebd107e57b9df9abe58c8a498edd09d634a1151ecdfdd",
+              "steps.jsonl": "d866e3283330f35cb679eaada2d19818fe391ff9c5afda12401c1acd95aa9897",
+              "final.json": "378cb07c243e250083fe41f5977c2bc2299afb6514e26cecf0fa0a7c062ea0ce",
+              "summary.json": "5b9f942baa1ba7c0a261f28d754a73add18e9322522564bb644452d4fadc482a"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 14234,
+            "energy_before": 14234,
+            "exported_energy": 0,
+            "exported_material": 0,
+            "material_after": 324,
+            "material_before": 324,
+            "removed": [],
+            "rules": "v4-removal-1",
+            "sites": []
+          }
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 14234,
+              "final_energy": 13911,
+              "initial_material": 324,
+              "final_material": 324,
+              "imported": 162877,
+              "spent": 163200,
+              "formations": 0,
+              "dissolutions": 0,
+              "units": 256,
+              "exported_energy": 0,
+              "exported_material": 0
+            },
+            "output_sha256": {
+              "origin-audit.json": "b6e324e4814b414ca8dd85335235f03d195e90db3b8b0e478c7955e6c86f3bf7",
+              "before.json": "378cb07c243e250083fe41f5977c2bc2299afb6514e26cecf0fa0a7c062ea0ce",
+              "boundary.json": "39c08747545f9e82485a63c91e45c3336bd7506b722b3c4ec6b90746024db872",
+              "initial.json": "378cb07c243e250083fe41f5977c2bc2299afb6514e26cecf0fa0a7c062ea0ce",
+              "steps.jsonl": "af29adec7784ff03163eaf18a6da777ff5c5aeb7caef9cb632e63fbdb9230ac8",
+              "final.json": "65169db6cd253e59171e25147f899d743d609c53b8b18ac26333d4a94df49c0d",
+              "summary.json": "fb9bf3520e1c0756bc4455a995f516c9e687e338668bcd9db6a2e38b62a731d3"
+            },
+            "origin_output_sha256": {
+              "initial.json": "223f843a7795fecc9a1ebd107e57b9df9abe58c8a498edd09d634a1151ecdfdd",
+              "steps.jsonl": "d866e3283330f35cb679eaada2d19818fe391ff9c5afda12401c1acd95aa9897",
+              "final.json": "378cb07c243e250083fe41f5977c2bc2299afb6514e26cecf0fa0a7c062ea0ce",
+              "summary.json": "5b9f942baa1ba7c0a261f28d754a73add18e9322522564bb644452d4fadc482a"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 14234,
+            "energy_before": 14234,
+            "exported_energy": 0,
+            "exported_material": 0,
+            "material_after": 324,
+            "material_before": 324,
+            "removed": [],
+            "rules": "v4-removal-1",
+            "sites": []
+          }
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 13351,
+              "final_energy": 13361,
+              "initial_material": 308,
+              "final_material": 308,
+              "imported": 153178,
+              "spent": 153168,
+              "formations": 4,
+              "dissolutions": 0,
+              "units": 244,
+              "exported_energy": 883,
+              "exported_material": 16
+            },
+            "output_sha256": {
+              "origin-audit.json": "b6e324e4814b414ca8dd85335235f03d195e90db3b8b0e478c7955e6c86f3bf7",
+              "before.json": "378cb07c243e250083fe41f5977c2bc2299afb6514e26cecf0fa0a7c062ea0ce",
+              "boundary.json": "9833589c8c90fd1dfdc375a92349829ccc142e0aa00dcf31675b675d5c7172e5",
+              "initial.json": "c9a5855ec42bab4d6c00f2d6b4dbed574005bf7e304a8085c0b2c0696349a8c7",
+              "steps.jsonl": "7c4d99d01c6d89b5441497e5ead26485b09548660669440d889ed8d0c189aeda",
+              "final.json": "07f7cf2335116f8d531af4f4d834439bf2faccadafdf7f3ad7ef9216026d7d0a",
+              "summary.json": "d72c817801163a7c7d77e19e92028bb2b35beed5170250ac3f85e4761244e67e"
+            },
+            "origin_output_sha256": {
+              "initial.json": "223f843a7795fecc9a1ebd107e57b9df9abe58c8a498edd09d634a1151ecdfdd",
+              "steps.jsonl": "d866e3283330f35cb679eaada2d19818fe391ff9c5afda12401c1acd95aa9897",
+              "final.json": "378cb07c243e250083fe41f5977c2bc2299afb6514e26cecf0fa0a7c062ea0ce",
+              "summary.json": "5b9f942baa1ba7c0a261f28d754a73add18e9322522564bb644452d4fadc482a"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 13351,
+            "energy_before": 14234,
+            "exported_energy": 883,
+            "exported_material": 16,
+            "material_after": 308,
+            "material_before": 324,
+            "removed": [
+              {
+                "energy": 46,
+                "material": 2,
+                "site": 102
+              },
+              {
+                "energy": 51,
+                "material": 2,
+                "site": 103
+              },
+              {
+                "energy": 58,
+                "material": 2,
+                "site": 104
+              },
+              {
+                "energy": 60,
+                "material": 0,
+                "site": 105
+              },
+              {
+                "energy": 55,
+                "material": 2,
+                "site": 118
+              },
+              {
+                "energy": 60,
+                "material": 3,
+                "site": 119
+              },
+              {
+                "energy": 60,
+                "material": 3,
+                "site": 120
+              },
+              {
+                "energy": 62,
+                "material": 2,
+                "site": 121
+              },
+              {
+                "energy": 59,
+                "material": 3,
+                "site": 134
+              },
+              {
+                "energy": 54,
+                "material": 3,
+                "site": 135
+              },
+              {
+                "energy": 58,
+                "material": 3,
+                "site": 136
+              },
+              {
+                "energy": 60,
+                "material": 2,
+                "site": 137
+              },
+              {
+                "energy": 45,
+                "material": 2,
+                "site": 150
+              },
+              {
+                "energy": 46,
+                "material": 2,
+                "site": 151
+              },
+              {
+                "energy": 54,
+                "material": 2,
+                "site": 152
+              },
+              {
+                "energy": 55,
+                "material": 2,
+                "site": 153
+              }
+            ],
+            "rules": "v4-removal-1",
+            "sites": [
+              102,
+              103,
+              104,
+              105,
+              118,
+              119,
+              120,
+              121,
+              134,
+              135,
+              136,
+              137,
+              150,
+              151,
+              152,
+              153
+            ]
+          }
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 13351,
+              "final_energy": 13140,
+              "initial_material": 308,
+              "final_material": 308,
+              "imported": 150589,
+              "spent": 150800,
+              "formations": 0,
+              "dissolutions": 0,
+              "units": 240,
+              "exported_energy": 883,
+              "exported_material": 16
+            },
+            "output_sha256": {
+              "origin-audit.json": "b6e324e4814b414ca8dd85335235f03d195e90db3b8b0e478c7955e6c86f3bf7",
+              "before.json": "378cb07c243e250083fe41f5977c2bc2299afb6514e26cecf0fa0a7c062ea0ce",
+              "boundary.json": "9833589c8c90fd1dfdc375a92349829ccc142e0aa00dcf31675b675d5c7172e5",
+              "initial.json": "c9a5855ec42bab4d6c00f2d6b4dbed574005bf7e304a8085c0b2c0696349a8c7",
+              "steps.jsonl": "69ebc0a4cb2eaa67065f1075340df2d90bd1bec32e453715820ad93befac7bea",
+              "final.json": "98accf53758b14d6c02dc117c39a0d736ce49bd49265ded530a48161e1f729e3",
+              "summary.json": "17f988e52824fa71727ac160b568e4cbb60b826b81587c095cb71e2decdac0e4"
+            },
+            "origin_output_sha256": {
+              "initial.json": "223f843a7795fecc9a1ebd107e57b9df9abe58c8a498edd09d634a1151ecdfdd",
+              "steps.jsonl": "d866e3283330f35cb679eaada2d19818fe391ff9c5afda12401c1acd95aa9897",
+              "final.json": "378cb07c243e250083fe41f5977c2bc2299afb6514e26cecf0fa0a7c062ea0ce",
+              "summary.json": "5b9f942baa1ba7c0a261f28d754a73add18e9322522564bb644452d4fadc482a"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 13351,
+            "energy_before": 14234,
+            "exported_energy": 883,
+            "exported_material": 16,
+            "material_after": 308,
+            "material_before": 324,
+            "removed": [
+              {
+                "energy": 46,
+                "material": 2,
+                "site": 102
+              },
+              {
+                "energy": 51,
+                "material": 2,
+                "site": 103
+              },
+              {
+                "energy": 58,
+                "material": 2,
+                "site": 104
+              },
+              {
+                "energy": 60,
+                "material": 0,
+                "site": 105
+              },
+              {
+                "energy": 55,
+                "material": 2,
+                "site": 118
+              },
+              {
+                "energy": 60,
+                "material": 3,
+                "site": 119
+              },
+              {
+                "energy": 60,
+                "material": 3,
+                "site": 120
+              },
+              {
+                "energy": 62,
+                "material": 2,
+                "site": 121
+              },
+              {
+                "energy": 59,
+                "material": 3,
+                "site": 134
+              },
+              {
+                "energy": 54,
+                "material": 3,
+                "site": 135
+              },
+              {
+                "energy": 58,
+                "material": 3,
+                "site": 136
+              },
+              {
+                "energy": 60,
+                "material": 2,
+                "site": 137
+              },
+              {
+                "energy": 45,
+                "material": 2,
+                "site": 150
+              },
+              {
+                "energy": 46,
+                "material": 2,
+                "site": 151
+              },
+              {
+                "energy": 54,
+                "material": 2,
+                "site": 152
+              },
+              {
+                "energy": 55,
+                "material": 2,
+                "site": 153
+              }
+            ],
+            "rules": "v4-removal-1",
+            "sites": [
+              102,
+              103,
+              104,
+              105,
+              118,
+              119,
+              120,
+              121,
+              134,
+              135,
+              136,
+              137,
+              150,
+              151,
+              152,
+              153
+            ]
+          }
+        }
+      ],
+      "observations": [
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 4,
+            "refilled": 4,
+            "matched": 1,
+            "occupied_fraction": "1/4",
+            "refill_fraction": "1/4",
+            "material_match_fraction": "1/16"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "1/16"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 4,
+            "refilled": 4,
+            "matched": 1,
+            "occupied_fraction": "1/4",
+            "refill_fraction": "1/4",
+            "material_match_fraction": "1/16"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "1/16"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 4,
+            "refilled": 4,
+            "matched": 1,
+            "occupied_fraction": "1/4",
+            "refill_fraction": "1/4",
+            "material_match_fraction": "1/16"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "1/16"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 4,
+            "refilled": 4,
+            "matched": 1,
+            "occupied_fraction": "1/4",
+            "refill_fraction": "1/4",
+            "material_match_fraction": "1/16"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "1/16"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        }
+      ]
+    },
+    {
+      "seed": 93002,
+      "prefix_audit": {
+        "scope": "independent initialization/drive/direction RNG, input/leak, local interaction and material conversion",
+        "summary": {
+          "steps": 300,
+          "units": 256,
+          "initial_energy": 1888,
+          "final_energy": 13842,
+          "spent": 243821,
+          "imported": 255775,
+          "rejected_import": 51625,
+          "leakage": 75571,
+          "construction_spent": 856,
+          "formations": 214,
+          "dissolutions": 22,
+          "initial_material": 320,
+          "final_material": 320,
+          "final_raw": 64
+        },
+        "output_sha256": {
+          "initial.json": "6e7db4c4b2941267d9ad9931d5bf6803e44ee553f8b24161293d7dfed63301c0",
+          "steps.jsonl": "b44b494e161f490730c785b798991a177ea7b7a67b28d96c13ff2607e6777201",
+          "final.json": "d7e12a3c58c08445a55232a5584fa2e91ffc004383c0c61fccb2b21344340208",
+          "summary.json": "7af640e84e79745a6357c9d3d44b8bf4497eb522a1d2647e8d632e21726124b5"
+        },
+        "audit_sha256": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      },
+      "branches": [
+        {
+          "removal": false,
+          "threshold": 16,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 13842,
+              "final_energy": 13967,
+              "initial_material": 320,
+              "final_material": 320,
+              "imported": 165725,
+              "spent": 165600,
+              "formations": 0,
+              "dissolutions": 0,
+              "units": 256,
+              "exported_energy": 0,
+              "exported_material": 0
+            },
+            "output_sha256": {
+              "origin-audit.json": "e72cb329d6e3a52bb2ac6efc2412ace58f39c543f9bc8a1373f56342405e0a0e",
+              "before.json": "d7e12a3c58c08445a55232a5584fa2e91ffc004383c0c61fccb2b21344340208",
+              "boundary.json": "d43060aa7e66f37cbce117321b997256f33920828b1e9138cbc4722ae89fd2e7",
+              "initial.json": "d7e12a3c58c08445a55232a5584fa2e91ffc004383c0c61fccb2b21344340208",
+              "steps.jsonl": "e64ab4c8e1e07bea2a5edce513496f468c3616e9d88e6c2b29a7afd3dd3a34d9",
+              "final.json": "674cb1cb17607541187af9fc93657fb64909481085942679e5740247ae4089f7",
+              "summary.json": "892756cb3e88828d7c74d2decca66f93b6e23e5796ab2827ea1db9430eda3825"
+            },
+            "origin_output_sha256": {
+              "initial.json": "6e7db4c4b2941267d9ad9931d5bf6803e44ee553f8b24161293d7dfed63301c0",
+              "steps.jsonl": "b44b494e161f490730c785b798991a177ea7b7a67b28d96c13ff2607e6777201",
+              "final.json": "d7e12a3c58c08445a55232a5584fa2e91ffc004383c0c61fccb2b21344340208",
+              "summary.json": "7af640e84e79745a6357c9d3d44b8bf4497eb522a1d2647e8d632e21726124b5"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 13842,
+            "energy_before": 13842,
+            "exported_energy": 0,
+            "exported_material": 0,
+            "material_after": 320,
+            "material_before": 320,
+            "removed": [],
+            "rules": "v4-removal-1",
+            "sites": []
+          }
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 13842,
+              "final_energy": 13967,
+              "initial_material": 320,
+              "final_material": 320,
+              "imported": 165725,
+              "spent": 165600,
+              "formations": 0,
+              "dissolutions": 0,
+              "units": 256,
+              "exported_energy": 0,
+              "exported_material": 0
+            },
+            "output_sha256": {
+              "origin-audit.json": "e72cb329d6e3a52bb2ac6efc2412ace58f39c543f9bc8a1373f56342405e0a0e",
+              "before.json": "d7e12a3c58c08445a55232a5584fa2e91ffc004383c0c61fccb2b21344340208",
+              "boundary.json": "d43060aa7e66f37cbce117321b997256f33920828b1e9138cbc4722ae89fd2e7",
+              "initial.json": "d7e12a3c58c08445a55232a5584fa2e91ffc004383c0c61fccb2b21344340208",
+              "steps.jsonl": "cb9ade50585af96a6522c16d897738ecca76559be0ba99dda791905e07ee0d55",
+              "final.json": "674cb1cb17607541187af9fc93657fb64909481085942679e5740247ae4089f7",
+              "summary.json": "892756cb3e88828d7c74d2decca66f93b6e23e5796ab2827ea1db9430eda3825"
+            },
+            "origin_output_sha256": {
+              "initial.json": "6e7db4c4b2941267d9ad9931d5bf6803e44ee553f8b24161293d7dfed63301c0",
+              "steps.jsonl": "b44b494e161f490730c785b798991a177ea7b7a67b28d96c13ff2607e6777201",
+              "final.json": "d7e12a3c58c08445a55232a5584fa2e91ffc004383c0c61fccb2b21344340208",
+              "summary.json": "7af640e84e79745a6357c9d3d44b8bf4497eb522a1d2647e8d632e21726124b5"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 13842,
+            "energy_before": 13842,
+            "exported_energy": 0,
+            "exported_material": 0,
+            "material_after": 320,
+            "material_before": 320,
+            "removed": [],
+            "rules": "v4-removal-1",
+            "sites": []
+          }
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 12957,
+              "final_energy": 13480,
+              "initial_material": 304,
+              "final_material": 304,
+              "imported": 156881,
+              "spent": 156358,
+              "formations": 6,
+              "dissolutions": 0,
+              "units": 246,
+              "exported_energy": 885,
+              "exported_material": 16
+            },
+            "output_sha256": {
+              "origin-audit.json": "e72cb329d6e3a52bb2ac6efc2412ace58f39c543f9bc8a1373f56342405e0a0e",
+              "before.json": "d7e12a3c58c08445a55232a5584fa2e91ffc004383c0c61fccb2b21344340208",
+              "boundary.json": "6a0c36128200609c42b207af80f1e3be88d56b3df37d4d7c89c90a3cd80fced8",
+              "initial.json": "56c89deee966e3948266bab1418af0cfbd24059dfc7185c7f09d8c0d0157f339",
+              "steps.jsonl": "04cdbed532b8288271f1d9b1ee23ba3dc243f07a0d85fa26605c319265dd1e14",
+              "final.json": "a1a29ba5e5c0891d50f1c08b0a9ac869050e24fc0db6e137ea545ab78b894d76",
+              "summary.json": "2265e423f54da4f9f20129fcd4e46c853bd4104eec65176f89737f24636f85cd"
+            },
+            "origin_output_sha256": {
+              "initial.json": "6e7db4c4b2941267d9ad9931d5bf6803e44ee553f8b24161293d7dfed63301c0",
+              "steps.jsonl": "b44b494e161f490730c785b798991a177ea7b7a67b28d96c13ff2607e6777201",
+              "final.json": "d7e12a3c58c08445a55232a5584fa2e91ffc004383c0c61fccb2b21344340208",
+              "summary.json": "7af640e84e79745a6357c9d3d44b8bf4497eb522a1d2647e8d632e21726124b5"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 12957,
+            "energy_before": 13842,
+            "exported_energy": 885,
+            "exported_material": 16,
+            "material_after": 304,
+            "material_before": 320,
+            "removed": [
+              {
+                "energy": 48,
+                "material": 3,
+                "site": 102
+              },
+              {
+                "energy": 49,
+                "material": 2,
+                "site": 103
+              },
+              {
+                "energy": 57,
+                "material": 2,
+                "site": 104
+              },
+              {
+                "energy": 60,
+                "material": 2,
+                "site": 105
+              },
+              {
+                "energy": 49,
+                "material": 3,
+                "site": 118
+              },
+              {
+                "energy": 61,
+                "material": 1,
+                "site": 119
+              },
+              {
+                "energy": 58,
+                "material": 1,
+                "site": 120
+              },
+              {
+                "energy": 56,
+                "material": 2,
+                "site": 121
+              },
+              {
+                "energy": 56,
+                "material": 3,
+                "site": 134
+              },
+              {
+                "energy": 61,
+                "material": 1,
+                "site": 135
+              },
+              {
+                "energy": 56,
+                "material": 1,
+                "site": 136
+              },
+              {
+                "energy": 52,
+                "material": 3,
+                "site": 137
+              },
+              {
+                "energy": 52,
+                "material": 3,
+                "site": 150
+              },
+              {
+                "energy": 57,
+                "material": 3,
+                "site": 151
+              },
+              {
+                "energy": 54,
+                "material": 3,
+                "site": 152
+              },
+              {
+                "energy": 59,
+                "material": 3,
+                "site": 153
+              }
+            ],
+            "rules": "v4-removal-1",
+            "sites": [
+              102,
+              103,
+              104,
+              105,
+              118,
+              119,
+              120,
+              121,
+              134,
+              135,
+              136,
+              137,
+              150,
+              151,
+              152,
+              153
+            ]
+          }
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 12957,
+              "final_energy": 13141,
+              "initial_material": 304,
+              "final_material": 304,
+              "imported": 152984,
+              "spent": 152800,
+              "formations": 0,
+              "dissolutions": 0,
+              "units": 240,
+              "exported_energy": 885,
+              "exported_material": 16
+            },
+            "output_sha256": {
+              "origin-audit.json": "e72cb329d6e3a52bb2ac6efc2412ace58f39c543f9bc8a1373f56342405e0a0e",
+              "before.json": "d7e12a3c58c08445a55232a5584fa2e91ffc004383c0c61fccb2b21344340208",
+              "boundary.json": "6a0c36128200609c42b207af80f1e3be88d56b3df37d4d7c89c90a3cd80fced8",
+              "initial.json": "56c89deee966e3948266bab1418af0cfbd24059dfc7185c7f09d8c0d0157f339",
+              "steps.jsonl": "fed8306f3c05d93af1d5a841ca02cee6733d0709fd973d0adfdb1510ee0955b5",
+              "final.json": "bf47de5c2dcc0c7c63f41901e5064ec8d6a04c34791468e6786405b414628e77",
+              "summary.json": "7631040d14877663b19704ff88d4a7b7ee63610b8f0b68c2ce51fa9ea19b520e"
+            },
+            "origin_output_sha256": {
+              "initial.json": "6e7db4c4b2941267d9ad9931d5bf6803e44ee553f8b24161293d7dfed63301c0",
+              "steps.jsonl": "b44b494e161f490730c785b798991a177ea7b7a67b28d96c13ff2607e6777201",
+              "final.json": "d7e12a3c58c08445a55232a5584fa2e91ffc004383c0c61fccb2b21344340208",
+              "summary.json": "7af640e84e79745a6357c9d3d44b8bf4497eb522a1d2647e8d632e21726124b5"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 12957,
+            "energy_before": 13842,
+            "exported_energy": 885,
+            "exported_material": 16,
+            "material_after": 304,
+            "material_before": 320,
+            "removed": [
+              {
+                "energy": 48,
+                "material": 3,
+                "site": 102
+              },
+              {
+                "energy": 49,
+                "material": 2,
+                "site": 103
+              },
+              {
+                "energy": 57,
+                "material": 2,
+                "site": 104
+              },
+              {
+                "energy": 60,
+                "material": 2,
+                "site": 105
+              },
+              {
+                "energy": 49,
+                "material": 3,
+                "site": 118
+              },
+              {
+                "energy": 61,
+                "material": 1,
+                "site": 119
+              },
+              {
+                "energy": 58,
+                "material": 1,
+                "site": 120
+              },
+              {
+                "energy": 56,
+                "material": 2,
+                "site": 121
+              },
+              {
+                "energy": 56,
+                "material": 3,
+                "site": 134
+              },
+              {
+                "energy": 61,
+                "material": 1,
+                "site": 135
+              },
+              {
+                "energy": 56,
+                "material": 1,
+                "site": 136
+              },
+              {
+                "energy": 52,
+                "material": 3,
+                "site": 137
+              },
+              {
+                "energy": 52,
+                "material": 3,
+                "site": 150
+              },
+              {
+                "energy": 57,
+                "material": 3,
+                "site": 151
+              },
+              {
+                "energy": 54,
+                "material": 3,
+                "site": 152
+              },
+              {
+                "energy": 59,
+                "material": 3,
+                "site": 153
+              }
+            ],
+            "rules": "v4-removal-1",
+            "sites": [
+              102,
+              103,
+              104,
+              105,
+              118,
+              119,
+              120,
+              121,
+              134,
+              135,
+              136,
+              137,
+              150,
+              151,
+              152,
+              153
+            ]
+          }
+        }
+      ],
+      "observations": [
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 6,
+            "refilled": 6,
+            "matched": 2,
+            "occupied_fraction": "3/8",
+            "refill_fraction": "3/8",
+            "material_match_fraction": "1/8"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "1/8"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 6,
+            "refilled": 6,
+            "matched": 2,
+            "occupied_fraction": "3/8",
+            "refill_fraction": "3/8",
+            "material_match_fraction": "1/8"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "1/8"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 6,
+            "refilled": 6,
+            "matched": 2,
+            "occupied_fraction": "3/8",
+            "refill_fraction": "3/8",
+            "material_match_fraction": "1/8"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "1/8"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 6,
+            "refilled": 6,
+            "matched": 2,
+            "occupied_fraction": "3/8",
+            "refill_fraction": "3/8",
+            "material_match_fraction": "1/8"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "1/8"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        }
+      ]
+    },
+    {
+      "seed": 93003,
+      "prefix_audit": {
+        "scope": "independent initialization/drive/direction RNG, input/leak, local interaction and material conversion",
+        "summary": {
+          "steps": 300,
+          "units": 256,
+          "initial_energy": 2040,
+          "final_energy": 13983,
+          "spent": 239920,
+          "imported": 251863,
+          "rejected_import": 56217,
+          "leakage": 75890,
+          "construction_spent": 844,
+          "formations": 211,
+          "dissolutions": 28,
+          "initial_material": 329,
+          "final_material": 329,
+          "final_raw": 73
+        },
+        "output_sha256": {
+          "initial.json": "b79e57943039c8ca960fe509dbac752ebab06105922639807f551c4b766ea92c",
+          "steps.jsonl": "c4a1b82ca21b24ea8f3dd7085ce2878e62c33c80ef4f31df69cb8c669df4542a",
+          "final.json": "2aee6ac59cd201e13bb1bdaecf381dc80fadfe5f13087b51b1b59c9005862e28",
+          "summary.json": "83582689ddc4a653da2b368b8e6a8a59412f67fdf7c47a8f5c0b198b9916b97f"
+        },
+        "audit_sha256": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      },
+      "branches": [
+        {
+          "removal": false,
+          "threshold": 16,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 13983,
+              "final_energy": 13735,
+              "initial_material": 329,
+              "final_material": 329,
+              "imported": 161752,
+              "spent": 162000,
+              "formations": 0,
+              "dissolutions": 0,
+              "units": 256,
+              "exported_energy": 0,
+              "exported_material": 0
+            },
+            "output_sha256": {
+              "origin-audit.json": "234e63895fade07dafe15cab1c6c540a72ab54c396405be87ab35869776f8fca",
+              "before.json": "2aee6ac59cd201e13bb1bdaecf381dc80fadfe5f13087b51b1b59c9005862e28",
+              "boundary.json": "924bfcde580b177bc15a80df58de0c179ed19475b968c272e7489053a65d6a48",
+              "initial.json": "2aee6ac59cd201e13bb1bdaecf381dc80fadfe5f13087b51b1b59c9005862e28",
+              "steps.jsonl": "7a9a03e2f1656271ab756bce7e3e2efe0457d1e95e9f8cd28be15d434649a24b",
+              "final.json": "42b31dbb7bef18a2688d80b2dd7d101ef4def8d0ab9d83142b95b1c76702290c",
+              "summary.json": "0ec72b477c04ba4a22fa22c0f1aad421168c0661238f3d8d0eae165c0cfe98de"
+            },
+            "origin_output_sha256": {
+              "initial.json": "b79e57943039c8ca960fe509dbac752ebab06105922639807f551c4b766ea92c",
+              "steps.jsonl": "c4a1b82ca21b24ea8f3dd7085ce2878e62c33c80ef4f31df69cb8c669df4542a",
+              "final.json": "2aee6ac59cd201e13bb1bdaecf381dc80fadfe5f13087b51b1b59c9005862e28",
+              "summary.json": "83582689ddc4a653da2b368b8e6a8a59412f67fdf7c47a8f5c0b198b9916b97f"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 13983,
+            "energy_before": 13983,
+            "exported_energy": 0,
+            "exported_material": 0,
+            "material_after": 329,
+            "material_before": 329,
+            "removed": [],
+            "rules": "v4-removal-1",
+            "sites": []
+          }
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 13983,
+              "final_energy": 13735,
+              "initial_material": 329,
+              "final_material": 329,
+              "imported": 161752,
+              "spent": 162000,
+              "formations": 0,
+              "dissolutions": 0,
+              "units": 256,
+              "exported_energy": 0,
+              "exported_material": 0
+            },
+            "output_sha256": {
+              "origin-audit.json": "234e63895fade07dafe15cab1c6c540a72ab54c396405be87ab35869776f8fca",
+              "before.json": "2aee6ac59cd201e13bb1bdaecf381dc80fadfe5f13087b51b1b59c9005862e28",
+              "boundary.json": "924bfcde580b177bc15a80df58de0c179ed19475b968c272e7489053a65d6a48",
+              "initial.json": "2aee6ac59cd201e13bb1bdaecf381dc80fadfe5f13087b51b1b59c9005862e28",
+              "steps.jsonl": "a9ecf96f198e7b2c07ea2f311d8c1574590208a0d44c21a6cdbb1218a4ae6950",
+              "final.json": "42b31dbb7bef18a2688d80b2dd7d101ef4def8d0ab9d83142b95b1c76702290c",
+              "summary.json": "0ec72b477c04ba4a22fa22c0f1aad421168c0661238f3d8d0eae165c0cfe98de"
+            },
+            "origin_output_sha256": {
+              "initial.json": "b79e57943039c8ca960fe509dbac752ebab06105922639807f551c4b766ea92c",
+              "steps.jsonl": "c4a1b82ca21b24ea8f3dd7085ce2878e62c33c80ef4f31df69cb8c669df4542a",
+              "final.json": "2aee6ac59cd201e13bb1bdaecf381dc80fadfe5f13087b51b1b59c9005862e28",
+              "summary.json": "83582689ddc4a653da2b368b8e6a8a59412f67fdf7c47a8f5c0b198b9916b97f"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 13983,
+            "energy_before": 13983,
+            "exported_energy": 0,
+            "exported_material": 0,
+            "material_after": 329,
+            "material_before": 329,
+            "removed": [],
+            "rules": "v4-removal-1",
+            "sites": []
+          }
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 13123,
+              "final_energy": 13057,
+              "initial_material": 313,
+              "final_material": 313,
+              "imported": 152527,
+              "spent": 152593,
+              "formations": 3,
+              "dissolutions": 0,
+              "units": 243,
+              "exported_energy": 860,
+              "exported_material": 16
+            },
+            "output_sha256": {
+              "origin-audit.json": "234e63895fade07dafe15cab1c6c540a72ab54c396405be87ab35869776f8fca",
+              "before.json": "2aee6ac59cd201e13bb1bdaecf381dc80fadfe5f13087b51b1b59c9005862e28",
+              "boundary.json": "fde75bfc4f0b191f8165125168606f742c16fa23285cf1717efbf07aa6d98c64",
+              "initial.json": "71ace55fb89df9a07b6fd86cb2ae29d430bd8153328b1675f7095c47aea3f8a8",
+              "steps.jsonl": "f32513a5654729c363ced732ff2a7b6c13256e42ff5295139ca4cd6d07b589de",
+              "final.json": "6fe17f2de3dc4deafab2c45425c9926cc3598d9155f9f48e613cb27ba3f0b4c3",
+              "summary.json": "a922216e08fcaa92ef3f542a6b54cfd8613f070f2cde7607e5122ea24e49fca4"
+            },
+            "origin_output_sha256": {
+              "initial.json": "b79e57943039c8ca960fe509dbac752ebab06105922639807f551c4b766ea92c",
+              "steps.jsonl": "c4a1b82ca21b24ea8f3dd7085ce2878e62c33c80ef4f31df69cb8c669df4542a",
+              "final.json": "2aee6ac59cd201e13bb1bdaecf381dc80fadfe5f13087b51b1b59c9005862e28",
+              "summary.json": "83582689ddc4a653da2b368b8e6a8a59412f67fdf7c47a8f5c0b198b9916b97f"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 13123,
+            "energy_before": 13983,
+            "exported_energy": 860,
+            "exported_material": 16,
+            "material_after": 313,
+            "material_before": 329,
+            "removed": [
+              {
+                "energy": 58,
+                "material": 2,
+                "site": 102
+              },
+              {
+                "energy": 59,
+                "material": 2,
+                "site": 103
+              },
+              {
+                "energy": 44,
+                "material": 0,
+                "site": 104
+              },
+              {
+                "energy": 40,
+                "material": 0,
+                "site": 105
+              },
+              {
+                "energy": 59,
+                "material": 2,
+                "site": 118
+              },
+              {
+                "energy": 58,
+                "material": 0,
+                "site": 119
+              },
+              {
+                "energy": 49,
+                "material": 0,
+                "site": 120
+              },
+              {
+                "energy": 46,
+                "material": 0,
+                "site": 121
+              },
+              {
+                "energy": 53,
+                "material": 2,
+                "site": 134
+              },
+              {
+                "energy": 55,
+                "material": 2,
+                "site": 135
+              },
+              {
+                "energy": 61,
+                "material": 1,
+                "site": 136
+              },
+              {
+                "energy": 62,
+                "material": 1,
+                "site": 137
+              },
+              {
+                "energy": 53,
+                "material": 2,
+                "site": 150
+              },
+              {
+                "energy": 49,
+                "material": 2,
+                "site": 151
+              },
+              {
+                "energy": 62,
+                "material": 1,
+                "site": 152
+              },
+              {
+                "energy": 52,
+                "material": 0,
+                "site": 153
+              }
+            ],
+            "rules": "v4-removal-1",
+            "sites": [
+              102,
+              103,
+              104,
+              105,
+              118,
+              119,
+              120,
+              121,
+              134,
+              135,
+              136,
+              137,
+              150,
+              151,
+              152,
+              153
+            ]
+          }
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 13123,
+              "final_energy": 12934,
+              "initial_material": 313,
+              "final_material": 313,
+              "imported": 150211,
+              "spent": 150400,
+              "formations": 0,
+              "dissolutions": 0,
+              "units": 240,
+              "exported_energy": 860,
+              "exported_material": 16
+            },
+            "output_sha256": {
+              "origin-audit.json": "234e63895fade07dafe15cab1c6c540a72ab54c396405be87ab35869776f8fca",
+              "before.json": "2aee6ac59cd201e13bb1bdaecf381dc80fadfe5f13087b51b1b59c9005862e28",
+              "boundary.json": "fde75bfc4f0b191f8165125168606f742c16fa23285cf1717efbf07aa6d98c64",
+              "initial.json": "71ace55fb89df9a07b6fd86cb2ae29d430bd8153328b1675f7095c47aea3f8a8",
+              "steps.jsonl": "9f917d62dc14b5179023cef5982251f0bfb50a8b50818a97ff573aadcabe4c7e",
+              "final.json": "e95492dd05bf81bad70e3aa1256d41fd68bd7e9e91fb0866a00d44ee1f63eaa2",
+              "summary.json": "bf187e54bd83474a9c1b6be653ecbb3aeb3e422b0dc29c496c245d255ccf36db"
+            },
+            "origin_output_sha256": {
+              "initial.json": "b79e57943039c8ca960fe509dbac752ebab06105922639807f551c4b766ea92c",
+              "steps.jsonl": "c4a1b82ca21b24ea8f3dd7085ce2878e62c33c80ef4f31df69cb8c669df4542a",
+              "final.json": "2aee6ac59cd201e13bb1bdaecf381dc80fadfe5f13087b51b1b59c9005862e28",
+              "summary.json": "83582689ddc4a653da2b368b8e6a8a59412f67fdf7c47a8f5c0b198b9916b97f"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 13123,
+            "energy_before": 13983,
+            "exported_energy": 860,
+            "exported_material": 16,
+            "material_after": 313,
+            "material_before": 329,
+            "removed": [
+              {
+                "energy": 58,
+                "material": 2,
+                "site": 102
+              },
+              {
+                "energy": 59,
+                "material": 2,
+                "site": 103
+              },
+              {
+                "energy": 44,
+                "material": 0,
+                "site": 104
+              },
+              {
+                "energy": 40,
+                "material": 0,
+                "site": 105
+              },
+              {
+                "energy": 59,
+                "material": 2,
+                "site": 118
+              },
+              {
+                "energy": 58,
+                "material": 0,
+                "site": 119
+              },
+              {
+                "energy": 49,
+                "material": 0,
+                "site": 120
+              },
+              {
+                "energy": 46,
+                "material": 0,
+                "site": 121
+              },
+              {
+                "energy": 53,
+                "material": 2,
+                "site": 134
+              },
+              {
+                "energy": 55,
+                "material": 2,
+                "site": 135
+              },
+              {
+                "energy": 61,
+                "material": 1,
+                "site": 136
+              },
+              {
+                "energy": 62,
+                "material": 1,
+                "site": 137
+              },
+              {
+                "energy": 53,
+                "material": 2,
+                "site": 150
+              },
+              {
+                "energy": 49,
+                "material": 2,
+                "site": 151
+              },
+              {
+                "energy": 62,
+                "material": 1,
+                "site": 152
+              },
+              {
+                "energy": 52,
+                "material": 0,
+                "site": 153
+              }
+            ],
+            "rules": "v4-removal-1",
+            "sites": [
+              102,
+              103,
+              104,
+              105,
+              118,
+              119,
+              120,
+              121,
+              134,
+              135,
+              136,
+              137,
+              150,
+              151,
+              152,
+              153
+            ]
+          }
+        }
+      ],
+      "observations": [
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 3,
+            "refilled": 3,
+            "matched": 0,
+            "occupied_fraction": "3/16",
+            "refill_fraction": "3/16",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 3,
+            "refilled": 3,
+            "matched": 0,
+            "occupied_fraction": "3/16",
+            "refill_fraction": "3/16",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 3,
+            "refilled": 3,
+            "matched": 0,
+            "occupied_fraction": "3/16",
+            "refill_fraction": "3/16",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 3,
+            "refilled": 3,
+            "matched": 0,
+            "occupied_fraction": "3/16",
+            "refill_fraction": "3/16",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        }
+      ]
+    },
+    {
+      "seed": 93004,
+      "prefix_audit": {
+        "scope": "independent initialization/drive/direction RNG, input/leak, local interaction and material conversion",
+        "summary": {
+          "steps": 300,
+          "units": 256,
+          "initial_energy": 1859,
+          "final_energy": 12670,
+          "spent": 246975,
+          "imported": 257786,
+          "rejected_import": 48926,
+          "leakage": 75585,
+          "construction_spent": 872,
+          "formations": 218,
+          "dissolutions": 25,
+          "initial_material": 319,
+          "final_material": 319,
+          "final_raw": 63
+        },
+        "output_sha256": {
+          "initial.json": "564d2abd983b6aeb4ebe0dfbc3b5a56b22e7650822cb5ed74e6fa8cee223e431",
+          "steps.jsonl": "0f77051dde68da98a46baf6498e7f995cf9ed3ff146e22518e314b490bbe5c9a",
+          "final.json": "2ff9e412224ba23f4dd1ef450c9965809a0c85d55050fbf07145ee806ae7cabb",
+          "summary.json": "056e26a2ea5d6fb286893661cb9ddec946dd4738963dc1c4296dceb5f3b69d8d"
+        },
+        "audit_sha256": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303",
+        "local_audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+      },
+      "branches": [
+        {
+          "removal": false,
+          "threshold": 16,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 12670,
+              "final_energy": 12475,
+              "initial_material": 319,
+              "final_material": 319,
+              "imported": 167703,
+              "spent": 167898,
+              "formations": 2,
+              "dissolutions": 3,
+              "units": 255,
+              "exported_energy": 0,
+              "exported_material": 0
+            },
+            "output_sha256": {
+              "origin-audit.json": "d241680a787cd571ddf1470b5bd9a1e9786224064ae284a94b95cc3ff07b4191",
+              "before.json": "2ff9e412224ba23f4dd1ef450c9965809a0c85d55050fbf07145ee806ae7cabb",
+              "boundary.json": "080d8c2e3a4f5481310c5bb2d530a8e650e0322b25736ee7d03a7db548abf3f3",
+              "initial.json": "2ff9e412224ba23f4dd1ef450c9965809a0c85d55050fbf07145ee806ae7cabb",
+              "steps.jsonl": "c7e61ad22cb91e0e870a60dcf1cc8c8bee6e39c3f4226e951b540bd6e9986080",
+              "final.json": "38333107f3ac574f6042390d99cb49f2c44a0ee969afd2682487d3d5c87456a2",
+              "summary.json": "1a7867ef249afd6fe4daffb765f628346e48001225a532a7971b91044b82dfa4"
+            },
+            "origin_output_sha256": {
+              "initial.json": "564d2abd983b6aeb4ebe0dfbc3b5a56b22e7650822cb5ed74e6fa8cee223e431",
+              "steps.jsonl": "0f77051dde68da98a46baf6498e7f995cf9ed3ff146e22518e314b490bbe5c9a",
+              "final.json": "2ff9e412224ba23f4dd1ef450c9965809a0c85d55050fbf07145ee806ae7cabb",
+              "summary.json": "056e26a2ea5d6fb286893661cb9ddec946dd4738963dc1c4296dceb5f3b69d8d"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 12670,
+            "energy_before": 12670,
+            "exported_energy": 0,
+            "exported_material": 0,
+            "material_after": 319,
+            "material_before": 319,
+            "removed": [],
+            "rules": "v4-removal-1",
+            "sites": []
+          }
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 12670,
+              "final_energy": 12552,
+              "initial_material": 319,
+              "final_material": 319,
+              "imported": 167615,
+              "spent": 167733,
+              "formations": 0,
+              "dissolutions": 2,
+              "units": 254,
+              "exported_energy": 0,
+              "exported_material": 0
+            },
+            "output_sha256": {
+              "origin-audit.json": "d241680a787cd571ddf1470b5bd9a1e9786224064ae284a94b95cc3ff07b4191",
+              "before.json": "2ff9e412224ba23f4dd1ef450c9965809a0c85d55050fbf07145ee806ae7cabb",
+              "boundary.json": "080d8c2e3a4f5481310c5bb2d530a8e650e0322b25736ee7d03a7db548abf3f3",
+              "initial.json": "2ff9e412224ba23f4dd1ef450c9965809a0c85d55050fbf07145ee806ae7cabb",
+              "steps.jsonl": "7fbe0b97d1ab64101adce83f617d0a40d322025b997ae11a142f3e6a72158699",
+              "final.json": "020bcf464c91e2c7d5693ce93f2b323b85fef1c4fff306d661e6296952749888",
+              "summary.json": "d9e1763375b6ad54be6d55da174381ac60af127d5a687e51075c1b69d0f9f19a"
+            },
+            "origin_output_sha256": {
+              "initial.json": "564d2abd983b6aeb4ebe0dfbc3b5a56b22e7650822cb5ed74e6fa8cee223e431",
+              "steps.jsonl": "0f77051dde68da98a46baf6498e7f995cf9ed3ff146e22518e314b490bbe5c9a",
+              "final.json": "2ff9e412224ba23f4dd1ef450c9965809a0c85d55050fbf07145ee806ae7cabb",
+              "summary.json": "056e26a2ea5d6fb286893661cb9ddec946dd4738963dc1c4296dceb5f3b69d8d"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 12670,
+            "energy_before": 12670,
+            "exported_energy": 0,
+            "exported_material": 0,
+            "material_after": 319,
+            "material_before": 319,
+            "removed": [],
+            "rules": "v4-removal-1",
+            "sites": []
+          }
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 11815,
+              "final_energy": 11883,
+              "initial_material": 303,
+              "final_material": 303,
+              "imported": 156964,
+              "spent": 156896,
+              "formations": 5,
+              "dissolutions": 2,
+              "units": 243,
+              "exported_energy": 855,
+              "exported_material": 16
+            },
+            "output_sha256": {
+              "origin-audit.json": "d241680a787cd571ddf1470b5bd9a1e9786224064ae284a94b95cc3ff07b4191",
+              "before.json": "2ff9e412224ba23f4dd1ef450c9965809a0c85d55050fbf07145ee806ae7cabb",
+              "boundary.json": "a5128401988f7f24c0506d3ade78db25635230f793e03649452f9a78a3dfd233",
+              "initial.json": "d3428afbc6ec98d35cf04092b5c7c247af5f932995850c3f04c7d70a81de98f4",
+              "steps.jsonl": "c61c3689fec789e2f4a49d9508e612cdde2afb3ada9e9f9601ab910170df513c",
+              "final.json": "27635e8528b975fb25829b95a94c7ead1ae5a012b46e71bf96eb8bc03e1eabff",
+              "summary.json": "ea922a844084533759c672c8af680d2e002bdc65ba8e240557bfb4a62a5bb20e"
+            },
+            "origin_output_sha256": {
+              "initial.json": "564d2abd983b6aeb4ebe0dfbc3b5a56b22e7650822cb5ed74e6fa8cee223e431",
+              "steps.jsonl": "0f77051dde68da98a46baf6498e7f995cf9ed3ff146e22518e314b490bbe5c9a",
+              "final.json": "2ff9e412224ba23f4dd1ef450c9965809a0c85d55050fbf07145ee806ae7cabb",
+              "summary.json": "056e26a2ea5d6fb286893661cb9ddec946dd4738963dc1c4296dceb5f3b69d8d"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 11815,
+            "energy_before": 12670,
+            "exported_energy": 855,
+            "exported_material": 16,
+            "material_after": 303,
+            "material_before": 319,
+            "removed": [
+              {
+                "energy": 57,
+                "material": 2,
+                "site": 102
+              },
+              {
+                "energy": 55,
+                "material": 1,
+                "site": 103
+              },
+              {
+                "energy": 52,
+                "material": 1,
+                "site": 104
+              },
+              {
+                "energy": 59,
+                "material": 1,
+                "site": 105
+              },
+              {
+                "energy": 51,
+                "material": 2,
+                "site": 118
+              },
+              {
+                "energy": 60,
+                "material": 1,
+                "site": 119
+              },
+              {
+                "energy": 49,
+                "material": 1,
+                "site": 120
+              },
+              {
+                "energy": 58,
+                "material": 1,
+                "site": 121
+              },
+              {
+                "energy": 60,
+                "material": 1,
+                "site": 134
+              },
+              {
+                "energy": 56,
+                "material": 2,
+                "site": 135
+              },
+              {
+                "energy": 60,
+                "material": 1,
+                "site": 136
+              },
+              {
+                "energy": 58,
+                "material": 1,
+                "site": 137
+              },
+              {
+                "energy": 62,
+                "material": 1,
+                "site": 150
+              },
+              {
+                "energy": 50,
+                "material": 2,
+                "site": 151
+              },
+              {
+                "energy": 40,
+                "material": 2,
+                "site": 152
+              },
+              {
+                "energy": 28,
+                "material": 2,
+                "site": 153
+              }
+            ],
+            "rules": "v4-removal-1",
+            "sites": [
+              102,
+              103,
+              104,
+              105,
+              118,
+              119,
+              120,
+              121,
+              134,
+              135,
+              136,
+              137,
+              150,
+              151,
+              152,
+              153
+            ]
+          }
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "audit": {
+            "scope": "independent origin reconstruction, extraction, continued RNG and growing dynamics",
+            "summary": {
+              "steps": 200,
+              "initial_energy": 11815,
+              "final_energy": 11810,
+              "initial_material": 303,
+              "final_material": 303,
+              "imported": 154539,
+              "spent": 154544,
+              "formations": 0,
+              "dissolutions": 2,
+              "units": 238,
+              "exported_energy": 855,
+              "exported_material": 16
+            },
+            "output_sha256": {
+              "origin-audit.json": "d241680a787cd571ddf1470b5bd9a1e9786224064ae284a94b95cc3ff07b4191",
+              "before.json": "2ff9e412224ba23f4dd1ef450c9965809a0c85d55050fbf07145ee806ae7cabb",
+              "boundary.json": "a5128401988f7f24c0506d3ade78db25635230f793e03649452f9a78a3dfd233",
+              "initial.json": "d3428afbc6ec98d35cf04092b5c7c247af5f932995850c3f04c7d70a81de98f4",
+              "steps.jsonl": "54f6635c16c9d12c4203d1ae43f1b64311622ba0f6c9473ba5339bb819ed144f",
+              "final.json": "240f19f9549e0394844b5172989ce61226b483c0a4944ad13a3a34f7e74fda10",
+              "summary.json": "4841b4c30a12bddad83990d45a68b5ef02d572fbdc12edc4f22fef6d225d20fb"
+            },
+            "origin_output_sha256": {
+              "initial.json": "564d2abd983b6aeb4ebe0dfbc3b5a56b22e7650822cb5ed74e6fa8cee223e431",
+              "steps.jsonl": "0f77051dde68da98a46baf6498e7f995cf9ed3ff146e22518e314b490bbe5c9a",
+              "final.json": "2ff9e412224ba23f4dd1ef450c9965809a0c85d55050fbf07145ee806ae7cabb",
+              "summary.json": "056e26a2ea5d6fb286893661cb9ddec946dd4738963dc1c4296dceb5f3b69d8d"
+            },
+            "audit_sha256": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+            "dependencies_sha256": {
+              "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+              "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+            }
+          },
+          "boundary": {
+            "energy_after": 11815,
+            "energy_before": 12670,
+            "exported_energy": 855,
+            "exported_material": 16,
+            "material_after": 303,
+            "material_before": 319,
+            "removed": [
+              {
+                "energy": 57,
+                "material": 2,
+                "site": 102
+              },
+              {
+                "energy": 55,
+                "material": 1,
+                "site": 103
+              },
+              {
+                "energy": 52,
+                "material": 1,
+                "site": 104
+              },
+              {
+                "energy": 59,
+                "material": 1,
+                "site": 105
+              },
+              {
+                "energy": 51,
+                "material": 2,
+                "site": 118
+              },
+              {
+                "energy": 60,
+                "material": 1,
+                "site": 119
+              },
+              {
+                "energy": 49,
+                "material": 1,
+                "site": 120
+              },
+              {
+                "energy": 58,
+                "material": 1,
+                "site": 121
+              },
+              {
+                "energy": 60,
+                "material": 1,
+                "site": 134
+              },
+              {
+                "energy": 56,
+                "material": 2,
+                "site": 135
+              },
+              {
+                "energy": 60,
+                "material": 1,
+                "site": 136
+              },
+              {
+                "energy": 58,
+                "material": 1,
+                "site": 137
+              },
+              {
+                "energy": 62,
+                "material": 1,
+                "site": 150
+              },
+              {
+                "energy": 50,
+                "material": 2,
+                "site": 151
+              },
+              {
+                "energy": 40,
+                "material": 2,
+                "site": 152
+              },
+              {
+                "energy": 28,
+                "material": 2,
+                "site": 153
+              }
+            ],
+            "rules": "v4-removal-1",
+            "sites": [
+              102,
+              103,
+              104,
+              105,
+              118,
+              119,
+              120,
+              121,
+              134,
+              135,
+              136,
+              137,
+              150,
+              151,
+              152,
+              153
+            ]
+          }
+        }
+      ],
+      "observations": [
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 16,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 239,
+            "refilled": 239,
+            "matched": 239,
+            "occupied_fraction": "239/240",
+            "refill_fraction": "239/240",
+            "material_match_fraction": "239/240"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": false,
+          "threshold": 65,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 16,
+            "refilled": 16,
+            "matched": 16,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 238,
+            "refilled": 238,
+            "matched": 238,
+            "occupied_fraction": "119/120",
+            "refill_fraction": "119/120",
+            "material_match_fraction": "119/120"
+          },
+          "contemporary_sham_match_fraction": null
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 3,
+            "refilled": 3,
+            "matched": 1,
+            "occupied_fraction": "3/16",
+            "refill_fraction": "3/16",
+            "material_match_fraction": "1/16"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "1/16"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 3,
+            "refilled": 3,
+            "matched": 1,
+            "occupied_fraction": "3/16",
+            "refill_fraction": "3/16",
+            "material_match_fraction": "1/16"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "1/16"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 3,
+            "refilled": 3,
+            "matched": 1,
+            "occupied_fraction": "3/16",
+            "refill_fraction": "3/16",
+            "material_match_fraction": "1/16"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "1/16"
+        },
+        {
+          "removal": true,
+          "threshold": 16,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 3,
+            "refilled": 3,
+            "matched": 1,
+            "occupied_fraction": "3/16",
+            "refill_fraction": "3/16",
+            "material_match_fraction": "1/16"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "1/16"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 300,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 310,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 350,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 400,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 240,
+            "refilled": 240,
+            "matched": 240,
+            "occupied_fraction": "1",
+            "refill_fraction": "1",
+            "material_match_fraction": "1"
+          },
+          "contemporary_sham_match_fraction": "0"
+        },
+        {
+          "removal": true,
+          "threshold": 65,
+          "tick": 500,
+          "patch": {
+            "reference_occupied": 16,
+            "occupied": 0,
+            "refilled": 0,
+            "matched": 0,
+            "occupied_fraction": "0",
+            "refill_fraction": "0",
+            "material_match_fraction": "0"
+          },
+          "outside": {
+            "reference_occupied": 240,
+            "occupied": 238,
+            "refilled": 238,
+            "matched": 238,
+            "occupied_fraction": "119/120",
+            "refill_fraction": "119/120",
+            "material_match_fraction": "119/120"
+          },
+          "contemporary_sham_match_fraction": "0"
+        }
+      ]
+    }
+  ],
+  "contrasts": [
+    {
+      "seed": 93000,
+      "contrast": "removal_threshold16",
+      "difference": "-1"
+    },
+    {
+      "seed": 93000,
+      "contrast": "removal_threshold65",
+      "difference": "-1"
+    },
+    {
+      "seed": 93000,
+      "contrast": "formation_under_removal",
+      "difference": "0"
+    },
+    {
+      "seed": 93001,
+      "contrast": "removal_threshold16",
+      "difference": "-15/16"
+    },
+    {
+      "seed": 93001,
+      "contrast": "removal_threshold65",
+      "difference": "-1"
+    },
+    {
+      "seed": 93001,
+      "contrast": "formation_under_removal",
+      "difference": "1/16"
+    },
+    {
+      "seed": 93002,
+      "contrast": "removal_threshold16",
+      "difference": "-7/8"
+    },
+    {
+      "seed": 93002,
+      "contrast": "removal_threshold65",
+      "difference": "-1"
+    },
+    {
+      "seed": 93002,
+      "contrast": "formation_under_removal",
+      "difference": "1/8"
+    },
+    {
+      "seed": 93003,
+      "contrast": "removal_threshold16",
+      "difference": "-1"
+    },
+    {
+      "seed": 93003,
+      "contrast": "removal_threshold65",
+      "difference": "-1"
+    },
+    {
+      "seed": 93003,
+      "contrast": "formation_under_removal",
+      "difference": "0"
+    },
+    {
+      "seed": 93004,
+      "contrast": "removal_threshold16",
+      "difference": "-15/16"
+    },
+    {
+      "seed": 93004,
+      "contrast": "removal_threshold65",
+      "difference": "-1"
+    },
+    {
+      "seed": 93004,
+      "contrast": "formation_under_removal",
+      "difference": "1/16"
+    }
+  ],
+  "contrast_means": [
+    {
+      "contrast": "formation_under_removal",
+      "defined_sources": 5,
+      "mean": "1/20"
+    },
+    {
+      "contrast": "removal_threshold16",
+      "defined_sources": 5,
+      "mean": "-19/20"
+    },
+    {
+      "contrast": "removal_threshold65",
+      "defined_sources": 5,
+      "mean": "-1"
+    }
+  ],
+  "protocol_sha256": "e41326cac8c838a0a37d8748a5cc93c8695b815b5b3aa1642fadc8c7fd1709c1",
+  "source_sha256": {
+    "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+    "branches.py": "556fbd148f0d33a348c27b0747d37e40da641a688393eb69f571da6235b85717",
+    "branch_audit.py": "bbfc85faca9f1e62bf16e925e3df1a8d24eb17c8b9f2fd6fb3af26d7afa25a8b",
+    "driven.py": "113c9c25f422bc6954402625814b384003d27e119b49c1f2881ff507021642e0",
+    "driven_audit.py": "5cba08e976862647e61fc8241d67779056c24b03aee7f52e11bb73d16b084447",
+    "driven_runner.py": "d8fbcba012575706373b8ae14a30275506c5377b15c5397b115e7581c8dcc377",
+    "growing.py": "c0552db57f0c88b039f826dab3b514c74d66891ede505a0d26815c4e7fd06821",
+    "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303",
+    "growing_runner.py": "92f0ca5ac29be358f8575248ffff290a3f889a0a413524f42cfaa78742870a49",
+    "local.py": "32d0d4c8f3682c6ca1126e21d4a050502cbb74134c33dc91d6009ce65dfe5362",
+    "material.py": "b592375186c1bad8e7ab89e72e5f4b72fef154390e0f4601083b697cfa45921f",
+    "perturbation.py": "2b7250f2f63c62029e54540a64de5ad20616667a7d7eeda47f0a5899e721ca28",
+    "recovery.py": "fad6b85c26c3fe0e1ae3b6f13b3b2ac2c711f20a4218f4d220609a46e23297af",
+    "runner.py": "74f57d1e47c7fc433a8a4305ada3064ddd5b9c37fdbdbb893bf3807b75a1b5c9",
+    "__init__.py": "cb3e6af7caad4609f86b6817b97a289395d279a4633d04bbfa9643dae0adebe1",
+    "__main__.py": "982976b5921afbc741885fea6bf3377366cd60bec745f35f456b973dc67f08cd"
+  },
+  "script_sha256": "fa1e431700ab2d26c91c0747ada71f3aaa7f4cf66d54b7cbbf000a205ac2e2ff"
+}
