@@ -2860,3 +2860,21 @@ or rate comparisons. Added three boundary tests for extinction-tick attribution,
 illegal empty-world uptake and terminal extinction versus censoring. All 173 tests
 pass. Saved script, full report and Chinese explanation; the fixed twenty-campaign
 archive contains the necessary raw data but predates this additional analysis.
+
+
+## 2026-09-14 — Autonomous cycle 191
+
+Previous cycle separated supply before/after extinction. Added an exact conditional
+renewal-capacity calibration: 25 stocks times three campaign-020 treatments. Mean
+added resource is p*min(packet,remaining capacity); variance and nominal cap loss
+are retained as exact fractions. Equal nominal means imply frequent-small >=
+reference >= rare-large conditional mean at identical stock, not pathwise input,
+stochastic dominance, survival ranking or measured causal contribution.
+
+Independent integer-draw enumeration checks mean, variance and positive-input
+probability over all 75,000 stock/treatment/draw cases, with full/one-unit capacity
+and invalid-input boundaries. All 175 tests pass. Bound the calibration to unchanged
+normalized engine hash and saved report/CSV plus Chinese derivation. No simulation,
+new formal replicate, or historical archive change. Further interpretation must
+account for differing endogenous stock trajectories rather than assuming matched
+realized supply from matched nominal input.
