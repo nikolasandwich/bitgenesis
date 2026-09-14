@@ -2621,3 +2621,18 @@ Added the four bounded mechanism findings and formal versus retrospective worklo
 counts to the matrix, with hashed reference records. All matrix links resolve.
 V0 milestone evidence does not constitute V1 graduation, user acceptance or ending
 the active research goal. No runtime or experiment artifact changed.
+
+## 2026-09-14 — Autonomous cycle 177
+
+Previous cycle refreshed V0 milestone evidence. Added a separate boundary-conditioned
+RNG verifier, preserving prior checkers and report hashes. Independently consumes
+regrowth draws, shuffle, movement decisions/targets, birth locations and mandatory
+zero-mutation decision draws, and compares ending RNG state. Calls the earlier
+sequential map/energy checker first. All forty windows / 800 ticks / 38,471 actions
+pass. Two tests cover valid zero/positive movement charges and reject modified
+initial/final RNG states; all 161 local tests pass.
+
+This strengthens internal replay consistency without supplying an independent
+historical actor-path record or causal intervention. Published the hashed report
+and reproduction command; the immutable supplement already contains inputs but
+predates this checker. No new simulation or modification of V0 dynamics.

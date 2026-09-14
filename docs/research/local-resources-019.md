@@ -74,3 +74,18 @@ python -I -S scripts/summarize_v0_local_resources.py --output data/my-local-summ
 前两条读取本地重放数据；第三条读取仓库已核验报告与本地重放记录。
 [完整汇总](results/local-resources-019.json)保留全部四十个世界及输入校验值。
 这项补充晚于十九轮固定下载包，原包不含新重放数据。[独立局部资源补充包](../design/local-resource-supplement.md)现已提供全部数据和五项复算；旧归档保持原范围。
+
+
+## 后续加强：边界随机状态核验
+
+新增[随机过程核验报告](results/local-random-019.json)覆盖全部四十个窗口、800 个行动时刻。
+从每个保存的前边界随机状态出发，另行消耗资源再生、打乱顺序、移动决策与目标、
+出生位置和固定基因下仍需消耗的突变决策，检查每步末尾随机状态完全一致。
+它同时调用前述逐行动空间与能量检查。161 项本地测试通过。
+
+```sh
+python -S scripts/verify_v0_local_random_choices.py --boundaries-verification data/my-local-boundaries/summary.json --output data/my-local-random
+```
+
+此核验以保存的重放边界为条件，进一步验证内部随机过程一致性；原实验仍没有独立末期行动路径，
+不能将其表述为历史观测的独立佐证。该新增脚本与报告晚于固定补充包，数据输入已在包内。
