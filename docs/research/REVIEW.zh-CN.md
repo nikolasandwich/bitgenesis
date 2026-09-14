@@ -4,6 +4,8 @@
 **只有 V0 有运行代码**：个体、能量、遗传和繁殖是人为定义的，基因只控制随机移动概率。
 食物感知、记忆和神经控制器仍未实现。
 
+当前 main 另含已核验的[第十九轮](campaign-019.md)：两种直接扣费同时为零仍出现灭绝。下述固定十八轮整包尚未包含它。
+
 ## 下载与打开
 
 下载[十八轮完整验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-82fb7bd52b889f73baaf)，需要有权限的 GitHub 账号查看。
@@ -61,7 +63,7 @@ python scripts/build_v0_review.py --campaigns 18 --output data/my-review-18.html
 
 ## 当前阶段
 
-十八轮共 **864 次执行、7,840,000 个计算时间步**。其中 24 次为既有世界延长复查，
+十九轮共 **904 次执行、8,240,000 个计算时间步**。其中 24 次为既有世界延长复查，
 包含 212,000 步前缀重放；个体观测重放另行记录，不增加独立样本数。
 完整协议和结果见[研究索引](README.md)。[V1 方案](../design/v1-experiment-design.md)
 与[评估契约](../design/v1-evaluation-contract.md)仍是设计，未实现感知控制器。

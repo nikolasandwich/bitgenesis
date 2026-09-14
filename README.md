@@ -61,7 +61,7 @@ See the [roadmap and graduation criteria](docs/roadmap/README.md),
 [emergence design note](docs/design/emergence.md), and
 [experiment compatibility policy](docs/design/experiments.md).
 
-Eighteen campaigns total **864 executions / 7,840,000 computed ticks**. This includes
+Nineteen campaigns total **904 executions / 8,240,000 computed ticks**. This includes
 24 longer follow-ups of existing worlds and 212,000 replayed prefix ticks;
 follow-ups are not new independent seed replicates. The
 [research index](docs/research/README.md) links every protocol, report and compact
