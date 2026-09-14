@@ -3217,3 +3217,27 @@ Markdown targets in the six changed navigation/synthesis documents. Runtime and
 experimental results unchanged; no additional simulation or runtime tests needed.
 The user-facing portable checkpoint is delivered, while the autonomous research
 goal remains active and V1 remains design only.
+
+
+## 2026-09-14 — Autonomous cycle 210
+
+Previous cycle delivered the fixed scope-21 release and updated synthesis. Added
+an explicitly post hoc horizon-sensitivity analysis of all 120 verified campaign-021
+worlds, with no new simulation. The analyzer checks complete identities, censoring,
+registered population checkpoints and unchanged primary four-state pair counts.
+It partitions every integer post-step horizon at extinction events, retaining the
+state at extinction as already absent and keeping tick zero outside horizon totals.
+
+At threshold 40, frequent-small has 2,254 positive / 841 negative / 6,905 zero
+horizons; reference has 18 / 9,845 / 137; rare-large has 0 / 9,896 / 104. Every
+high-threshold comparison remains zero. These are correlated horizon counts, not
+replicates, confidence levels or replacement outcomes. Registered final signed
+counts remain +1/-2/-4 and the primary prediction remains unsupported.
+
+Two added tests cover 256 small two-pair cases exhaustively with first-step,
+terminal-step extinction and censoring, plus invalid times. Independently checked
+all 60,000 full-cohort group/horizon states using direct seed-set operations against
+the interval report. All 187 tests pass. Published all low-threshold intervals,
+input/code hashes, reproducibility command and inferential limits. Fixed scope-21
+archive predates this analysis and retains its exact bytes; no repackaging or
+new campaign was introduced. Autonomous goal remains active.
