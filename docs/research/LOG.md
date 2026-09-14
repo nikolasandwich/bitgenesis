@@ -2187,3 +2187,17 @@ Eight-treatment initialization and ten-step observer/reference trajectories pass
 on engineering seed 23, including full lineage/RNG equality and matched food maps.
 All 138 local tests pass. Protocol and implementation are committed before outcome
 execution; completion and independent verification remain separate milestones.
+
+## 2026-09-14 — Autonomous cycle 149
+
+Confirmed the campaign-018 execution handle remains live. Implemented the
+independent initialization/metric verifier with exact eight-treatment grid,
+registered-protocol/source checks, paired initial maps/founders/RNG, original
+metric invariants, strict zero-charge dissipation and joint threshold survival
+statuses. Separate early individual-observation verification remains pending.
+
+Two focused verifier tests pass, including a counterexample that conserves global
+energy but violates zero-charge dissipation. Verified the eighteen completed worlds
+available at inspection (180,018 metric rows) against their stored summaries;
+this partial check is not full campaign acceptance. The runner is unchanged and
+continues from its original clean launch source ff8ee77; do not restart it.
