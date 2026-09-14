@@ -2417,3 +2417,14 @@ and requires complete JSON equality (including input/helper hashes) with committ
 references. Historical packaging gates and immutable output behavior remain.
 Commit this source before producing the archive; archive verification and fresh
 extraction results will be recorded separately after they actually finish.
+
+
+Archive completed successfully from clean source eec26ab887e23ec4b3b1e9253e89958e4f7a8f66:
+1,961 payload files / 134,751,855 bytes, SHA-256
+80a4c7526709a5d21a8693bdc09b8a689987d7c0c72c007e6c9cfd033d567b60.
+Expected-hash verification passes for all files, thirteen HTML pages and eighteen
+local HTML targets. Newly extracted archived scripts reproduce all three full
+campaign-019 reports exactly, including hashes. Source CI run 34815145967 completed
+successfully. All 150 local tests passed before packaging. Fresh noneditable
+installation, installed demonstration and remote upload remain pending; the new
+archive is immutable and older downloads retain their original scope.
