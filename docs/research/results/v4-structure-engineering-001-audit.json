@@ -1,0 +1,15 @@
+{
+  "scope": "independent partitions, phase birth IDs, metrics and member overlaps on audited dynamics; not group replication",
+  "partitions": 502,
+  "transitions": 497,
+  "ticks": 100,
+  "observation_sha256": "e22aa4783c4393b14f4f54fbbc5295ae255321d3a9ff2419ac07a65f1153906c",
+  "input_sha256": {
+    "final.json": "d9e0bc135c15c204fb671eaee2c565d9abe8fdb6c058dfa86ccaac3c921e7f0a",
+    "initial.json": "00d92ec7618dba3284a72af5127aee22982d1a313624824bf2eb82d8735144ad",
+    "metadata.json": "ff0c35d943b192cc52916d521a8939c74c7537a26d289b27536ddcac392db049",
+    "steps.jsonl": "177d188767612edba6ddff65b7361f17bca8a34adf67414ca36ccde9faeaa0e9",
+    "summary.json": "ab3b7f39725650a6bfa6f2fe6e8e3edb7bf3b3ec7037d13f43455a2d6201f718"
+  },
+  "auditor_sha256": "1498c81f2e860fb9e1eda553831bc5a1e0de416f58f400e52012066db0f39ba9"
+}

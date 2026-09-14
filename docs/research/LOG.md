@@ -4482,3 +4482,9 @@ Four new tests cover periodic boundaries, unlike material, no-bond and supplied 
 Previous turn implemented passive structure primitives (cd7f673), substantive progress. Added audited structure_trace adapter for hereditary/program/competition schemas with separate pre-conversion and final birth identities, same-phase continuity, source/observer hashes and unchanged-input verification. Two tests cover independent event identity and overlap reconstruction, file preservation and zero horizon. Full355 tests pass in37.683 seconds.
 
 Retained engineering95004 passes100 ticks:182 founders,79 births,5 deaths,256 living. Independent cross-product overlap computation matches497 transitions. Final geometric contact has1 component while matching material has129; no organism-count interpretation. Archived compact evidence. Next independently reconstruct all retained partitions before preregistering cohort structure observations; full measurement gate and structural reproduction remain unproven.
+
+## 2026-09-14 — Autonomous cycle 332
+
+Previous turn connected audited phase-aligned trajectories (b0b39b3), substantive progress. Added independent structure_audit with all-site-pair geometry, union-find partitions, member-set disagreement and cross-product continuity, plus independent event-order birth identity assignment. Retained100-tick engineering source passes502 partition/497 transition checks with unchanged input and observation bytes. Archived audit. Two tests reject changed metrics/identities and cover empty zero horizon; full357 tests pass in37.653 seconds.
+
+Registered descriptive study009 on all20 retained study005 sources, fixed early/late windows, material-versus-bond membership disagreement primary and explicit null/coverage handling. No fresh-world or causal claim; splits do not count as reproduction. Next source-bound launcher, full observation/audit and prespecified aggregation; no cohort structure outputs examined yet.

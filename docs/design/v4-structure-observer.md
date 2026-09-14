@@ -97,3 +97,16 @@ boundary dependence, not129 organisms. A compact engineering record is archived
 under `docs/research/results/v4-structure-engineering-001.json`. Independent
 retained-trajectory partition reconstruction and cohort selection remain next;
 overlap checks alone do not complete the full measurement gate.
+
+Independent retained-trajectory partition reconstruction is now implemented in
+`structure_audit`: all occupied pairs determine geometric edges, union-find
+reconstructs partitions, identical member sets determine boundary agreement,
+and cross-product intersections reconstruct continuity. Event-order birth
+identity assignment is separate from the runtime lineage observer. The retained
+100-tick engineering trace passes502 partition and497 transition checks; input
+and observation bytes are unchanged. Metric and birth-ID corruption tests reject
+altered observations, including valid JSON with otherwise intact source binding.
+The audit relies on the existing independent dynamics audit for physical events;
+it does not authenticate external Git identities or establish group ancestry.
+Study009 freezes all twenty retained study005 sources and descriptive windows
+before cohort structure observations. It adds measurements, not new trajectories.
