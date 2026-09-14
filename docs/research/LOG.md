@@ -2673,3 +2673,12 @@ analysis. Revision 1 remains selectable with its five original check categories;
 existing archives are immutable. Added the three extra extraction commands and
 explicit source-snapshot semantics. Commit clean source before producing the new
 archive; packaging and fresh extraction outcomes remain separate evidence.
+
+
+Revision-2 packaging completed from clean source
+3b7ba66841aec35ba0c3cbee89e18bc1c018d35f: 815 payload files / 19,404,752 bytes,
+SHA-256 9842b1da470872807a2c166f7d20c26b9e433b15a59d7e4f504a70339e05adcd.
+Expected-hash verification passes. A new-directory extraction reproduces all eight
+full reports exactly, including input/helper hashes. No full simulation or fresh
+package installation is claimed. Remote upload remains pending; revision 1 and
+other fixed archives retain their original contents.
