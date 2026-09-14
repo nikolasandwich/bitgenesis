@@ -3505,3 +3505,10 @@ selection under trait/order changes, no-material handling and broken ancestry.
 All193 tests pass. Commit sampler before extraction from clean source; independent
 event-based reconstruction remains the next gate before evaluation. No outcome
 simulation, protocol revision or engine change. Verified totals unchanged.
+
+
+Sampling completed from clean93e0dd0: all20 registered source worlds have material
+at tick100, yielding the maximum200 planned evaluations. Saved full sample manifest
+before evaluation. Individual-history/source hashes and checkpoint reconciliation
+passed within extraction; independent event-based sample verification remains
+pending. No sampled identity will be replaced after seeing its trait or outcomes.

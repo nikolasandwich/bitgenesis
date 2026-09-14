@@ -1,0 +1,870 @@
+{
+  "protocol": "campaign-023-early-sampled-trait-1",
+  "git_commit": "93e0dd017c0018328801d93dd36cb7764da960d5",
+  "git_dirty": false,
+  "protocol_sha256": "dd627b90cc30ea3dac60417156e29a0c10f3e48b929090127c0998ada8c35b63",
+  "script_sha256": "90ed90eda73f24e307a0c077377be3c65ebd8df8adf945468a20eaf93dae512c",
+  "source_report_sha256": {
+    "metrics": "52f26a1806d73aa9f427b05a8e19950b4934a4eff5a1b5db5515262e1b0d3dbb",
+    "histories": "64bea03c8558e170da3df2a493fb2562383bcef900e6557b995c19f9f354f6be",
+    "checkpoints": "e980a8e27026f87ade1a23b514f46bf8a67f5b52fe7badf662fa4f2be7cb2c35"
+  },
+  "input_sha256": {
+    "mutation-100-seed-1900/lineage.json": "eb84da7afabfd0920b4b41eed0f7290f6c73a018d2ec70f856c4bcc1a72e6b3c",
+    "mutation-100-seed-1901/lineage.json": "ee4af87188812974d59359fa17252c2e9f2ae7b04a6d9b0f36c96dec173bfb03",
+    "mutation-100-seed-1902/lineage.json": "ed4d37503636812936082d3c088bc980253090015e01cac47cc45789e94a0414",
+    "mutation-100-seed-1903/lineage.json": "c5a1f14b98ee0c4b72976cd00451639540a452a0b6d4c2937cc1b434cd726c1d",
+    "mutation-100-seed-1904/lineage.json": "6aff736901dfa71aaa75aa1bde157d74191e2f355e1968c45ef277294f4d40eb",
+    "mutation-100-seed-1905/lineage.json": "799f16d36e44643d28ed2efddb40ed86906cd27d01529bd23841d20fb3e53cba",
+    "mutation-100-seed-1906/lineage.json": "c1653a39e4838d768fdf6ca9e296d5784be8b783b8c2eb96c5bdab518bd0fa15",
+    "mutation-100-seed-1907/lineage.json": "d50f51c9a10b0db766dad9e56c3f9e9627534cbcba8837aea59c91e2aba70449",
+    "mutation-100-seed-1908/lineage.json": "7ef8b0c84e6526157aef6cca97333845923ee17287658dd974ca3504c7f3d289",
+    "mutation-100-seed-1909/lineage.json": "b8ceea2e562fe5c66483f0d36902c22fc608a620e4150cb2a0ab9a55bc66f185",
+    "mutation-100-seed-1910/lineage.json": "55f1e0d4536aff78e06d776e07a783e8c94cc387d41ab5f7b095a1922f8e12b5",
+    "mutation-100-seed-1911/lineage.json": "e5e95fd5854c6e88a8eae4225f1532886e380252c9ccaa59090e2897091c1082",
+    "mutation-100-seed-1912/lineage.json": "dcf834626cfe03b5c1617b5393662cfb97c306f0ba6d821d097c354abe0515fc",
+    "mutation-100-seed-1913/lineage.json": "756c6e403fdbece011c07dbd4a90e8d6b07aaf92b51a2d45e4382fbe26f18cc7",
+    "mutation-100-seed-1914/lineage.json": "8bf8a491b1f7ad65bb18aacf05b89979bc64f9c0b7f584edacb3f0ce8e6a021b",
+    "mutation-100-seed-1915/lineage.json": "128af7640edbe6e6dd106e6eba02ee1272cf28895144567275ef0a0e2036630c",
+    "mutation-100-seed-1916/lineage.json": "c71498437a91492d659d5b7d821eabdeb4f5131f962efab7940406c2a070e347",
+    "mutation-100-seed-1917/lineage.json": "fcdfc38258ad3f1f8080f7e5c45f70b73dbde7ed4f470ce7c2f54f04ef654a92",
+    "mutation-100-seed-1918/lineage.json": "1e9374f9d1a79721e2ef093e6eca243b28192a458eb32b37879b18d466db412a",
+    "mutation-100-seed-1919/lineage.json": "b445e1083a0b83147aba521a97cbf77bf07b6dc19530b5fb2fb949e6b5c2c5fc"
+  },
+  "samples": [
+    {
+      "source_seed": 1900,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 210,
+          "sha256": "1cbad540a2075e3fe3e8c423c1b992a4859a78bc03726e5a98072e7095d000e6"
+        },
+        {
+          "id": 234,
+          "sha256": "fdcc9f29760e6de767a7bcf34616663c1d812a061e6df925cf7cce615631131a"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 210,
+        "genome": 250,
+        "birth_tick": 27,
+        "founder_id": 77,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          210,
+          77
+        ],
+        "priority_sha256": "1cbad540a2075e3fe3e8c423c1b992a4859a78bc03726e5a98072e7095d000e6"
+      }
+    },
+    {
+      "source_seed": 1901,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 158,
+          "sha256": "1a4b5a576aa54e4788214ee6cc6f79a886e35dbfa67a99aa02408aaa19046c1a"
+        },
+        {
+          "id": 242,
+          "sha256": "5727af4d23d7f456a9eeabb9e8b4666f6225c575a691844347e5209d3c7dd452"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 158,
+        "genome": 250,
+        "birth_tick": 12,
+        "founder_id": 8,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          158,
+          102,
+          98,
+          8
+        ],
+        "priority_sha256": "1a4b5a576aa54e4788214ee6cc6f79a886e35dbfa67a99aa02408aaa19046c1a"
+      }
+    },
+    {
+      "source_seed": 1902,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 63,
+          "sha256": "3eeaeeff92ab1d47f54b46962778e3c5ee1ac03c136da448079225fbc5237ff5"
+        },
+        {
+          "id": 124,
+          "sha256": "d69ea500813fc155b37039e360ded432532d924eb5c8c4171d1b308146c6470e"
+        },
+        {
+          "id": 134,
+          "sha256": "669bc15d3d8967ae07f558a713af0414c13f24878bc62d30a6cb312e25f2c70f"
+        },
+        {
+          "id": 205,
+          "sha256": "eab1e70369dda88fd9f554abb026c90033538c89991b435c32a1fee9c74cf9b3"
+        },
+        {
+          "id": 222,
+          "sha256": "f840bd4aad21137a85d4659def71b6a2f31b50777fc4aa5e5e58a1663189c458"
+        },
+        {
+          "id": 224,
+          "sha256": "ce500da402096c08b38e822c5e7e5d4e8af7c6229d66b3913dd5b69eda8cd365"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 63,
+        "genome": 250,
+        "birth_tick": 0,
+        "founder_id": 63,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          63
+        ],
+        "priority_sha256": "3eeaeeff92ab1d47f54b46962778e3c5ee1ac03c136da448079225fbc5237ff5"
+      }
+    },
+    {
+      "source_seed": 1903,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 197,
+          "sha256": "136e2287849f081c2844c8bd444e4d0d25f31459dea8f5b37ed7dbea7b465d87"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 197,
+        "genome": 250,
+        "birth_tick": 19,
+        "founder_id": 67,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          197,
+          187,
+          97,
+          67
+        ],
+        "priority_sha256": "136e2287849f081c2844c8bd444e4d0d25f31459dea8f5b37ed7dbea7b465d87"
+      }
+    },
+    {
+      "source_seed": 1904,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 121,
+          "sha256": "0a6e4809a681972eac1413e77b6d4e68b5069a8c1cf09715b7e486e64945883f"
+        },
+        {
+          "id": 145,
+          "sha256": "3c3dfce7b8f6294a6b63d9538505af1e06dcf76bc237c4d83cbf53c9bdf2e8cb"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 121,
+        "genome": 250,
+        "birth_tick": 9,
+        "founder_id": 2,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          121,
+          112,
+          2
+        ],
+        "priority_sha256": "0a6e4809a681972eac1413e77b6d4e68b5069a8c1cf09715b7e486e64945883f"
+      }
+    },
+    {
+      "source_seed": 1905,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 13,
+          "sha256": "eb776f94aac52dc46a716b342050a4371eaf588bef44979d111b72e5fd83cb56"
+        },
+        {
+          "id": 220,
+          "sha256": "0a2857ce6b05f01ec0e658892a6842c39eb05d2d6801ec207e422fdc7ed96968"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 220,
+        "genome": 250,
+        "birth_tick": 28,
+        "founder_id": 6,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          220,
+          209,
+          192,
+          95,
+          6
+        ],
+        "priority_sha256": "0a2857ce6b05f01ec0e658892a6842c39eb05d2d6801ec207e422fdc7ed96968"
+      }
+    },
+    {
+      "source_seed": 1906,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 98,
+          "sha256": "42a8b2f7963cc449c34a8284503a3252450dd3783603f913c6d297427cd4bf5c"
+        },
+        {
+          "id": 113,
+          "sha256": "9339953b394a4da965aebfaec02327b1e5fb9eaaf2cb29d0ee22d7061dcbd404"
+        },
+        {
+          "id": 119,
+          "sha256": "078ce4e5e806955c6a669220b971561b0a98fc49e2aeb0c9f7973dc67e0acbc2"
+        },
+        {
+          "id": 190,
+          "sha256": "ec43b2007384ac0dda176acb1a86c7af4a5c2c0050591f5eedb8893dc0bf061b"
+        },
+        {
+          "id": 227,
+          "sha256": "42a5539ac202534f047b9ce771d3eef264ecadb97fe6f08956321202914f10a4"
+        },
+        {
+          "id": 228,
+          "sha256": "ca3cd4cc0f1b083f6aff34aa5dd8b1c865bb80bfbffac35bd3c3e6ceaf5eb329"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 119,
+        "genome": 250,
+        "birth_tick": 6,
+        "founder_id": 44,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          119,
+          80,
+          44
+        ],
+        "priority_sha256": "078ce4e5e806955c6a669220b971561b0a98fc49e2aeb0c9f7973dc67e0acbc2"
+      }
+    },
+    {
+      "source_seed": 1907,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 97,
+          "sha256": "0fb693d11ff75af88d9839511da4cc8c414a1eba20565ecc931d0e759ee3c5c1"
+        },
+        {
+          "id": 170,
+          "sha256": "c192ad5ad196274cc5e1130a9a044245c33d28b2eb3fdc7ff96c893196203ab6"
+        },
+        {
+          "id": 198,
+          "sha256": "88935091906ff732105f23fe28bc6108ab45b3c9b2d55c398a24d8c42ecb189b"
+        },
+        {
+          "id": 208,
+          "sha256": "8cf85f4871720e6734816665c4f4b16e4ac669dcb2f295077773cdb36fbd92b6"
+        },
+        {
+          "id": 210,
+          "sha256": "5ca2209e92e5b501f721d2134543ea2ec7e6911ce4740540d40efbb88e1f9c8c"
+        },
+        {
+          "id": 214,
+          "sha256": "05efe8f881795f5612805191506136f4234100a50dbfd615b2949c0e3bcb8b12"
+        },
+        {
+          "id": 217,
+          "sha256": "a07fc12836965b5ea5466c66f22288d76bac92f60cac097f457891da06cf5e43"
+        },
+        {
+          "id": 229,
+          "sha256": "ade0825ce3469386bea32d7c1648b56c2d1f410d5c4d890cbdab74fdc76005e5"
+        },
+        {
+          "id": 231,
+          "sha256": "3587f7fb8a341ded4d5b84b4a236c8f98c88fdd195ad0e5db49d5790d8c2340b"
+        },
+        {
+          "id": 235,
+          "sha256": "513abb68113e2607376feb6e6340933a032c1a6f2050dfedd80216a978ad55f3"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 214,
+        "genome": 250,
+        "birth_tick": 26,
+        "founder_id": 11,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          214,
+          205,
+          192,
+          174,
+          156,
+          84,
+          11
+        ],
+        "priority_sha256": "05efe8f881795f5612805191506136f4234100a50dbfd615b2949c0e3bcb8b12"
+      }
+    },
+    {
+      "source_seed": 1908,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 102,
+          "sha256": "c1bbce86e79e8f684a9d910e6640665e0215c2e65bbf6d483db8f0804919e395"
+        },
+        {
+          "id": 158,
+          "sha256": "9af1ffce1dcf3a8cc4aa6d00412b9cc654e3b74b3ef244f28b13055deddd14d2"
+        },
+        {
+          "id": 176,
+          "sha256": "d052d9da98baa226234ab328bd6e15278fe0fa5ead2bb5a906928eee94a9dc46"
+        },
+        {
+          "id": 200,
+          "sha256": "1b7c23249bd3fe1eaa00c172086092b682efc0038675e2c10e7e8ef15531234d"
+        },
+        {
+          "id": 206,
+          "sha256": "97e1127450c9be1c1e315b4a27cce5af12e7afc2554f69df147b364384dcc47e"
+        },
+        {
+          "id": 217,
+          "sha256": "1a977e8b6a480562a5b45febe8ca66cfaecc028f16f85483ac3e9ddb993de087"
+        },
+        {
+          "id": 222,
+          "sha256": "102bf19a61e86eafc4333d19e5531eda54dc38f7a91eb46599a8f4ade7482826"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 222,
+        "genome": 250,
+        "birth_tick": 42,
+        "founder_id": 56,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          222,
+          219,
+          212,
+          209,
+          154,
+          134,
+          110,
+          82,
+          56
+        ],
+        "priority_sha256": "102bf19a61e86eafc4333d19e5531eda54dc38f7a91eb46599a8f4ade7482826"
+      }
+    },
+    {
+      "source_seed": 1909,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 23,
+          "sha256": "385d34dc0f6aed568a2d7fde59a60e0dd47b04bb1eca5da602b5cdef218228b6"
+        },
+        {
+          "id": 130,
+          "sha256": "d951c9a4f3939fc4b627a1a6f86877e9addc2439f915311bde7798a06b03513e"
+        },
+        {
+          "id": 137,
+          "sha256": "c5ce0486e2f1b5e0b95b92077640206f12c49ce24c8db8f54a5d9edc157aab0f"
+        },
+        {
+          "id": 159,
+          "sha256": "29845b2158143565db810b5d3ed72c164eab30cba32c5d4dd18c9cacdd912b43"
+        },
+        {
+          "id": 180,
+          "sha256": "9a328f15494df661a80ce4a2f6e02d0b40b9700f9f9b56be24fdd3d702178328"
+        },
+        {
+          "id": 183,
+          "sha256": "451f66665195b4a83336ee2e3faa9bddac4f4084fcbacbec0d713e728e77ed72"
+        },
+        {
+          "id": 189,
+          "sha256": "b8236360fc08eb120371c48d556313600561dcee4c73ff460e34f38d27fa8e34"
+        },
+        {
+          "id": 192,
+          "sha256": "88fb23d6d1eaaba1969c298a3b2eebb2de71c8b3c28c9111239a1dcd9c436978"
+        },
+        {
+          "id": 198,
+          "sha256": "9a3bbb647184e1c20e157721715820bda499c14d9ffe69c71efe8a57f439f6eb"
+        },
+        {
+          "id": 204,
+          "sha256": "49c9a50a64f5ddc92c2fa8a24e73d57a7219dea66ea7ed1eaae8dd76b309e5a4"
+        },
+        {
+          "id": 212,
+          "sha256": "a805e81330fcd2d65885eca747b027db4c3da8a238771743da14b332967e6040"
+        },
+        {
+          "id": 223,
+          "sha256": "31bf6fd037b699b72a0114c93e538f1840b9543fa7efb2e2b0021b5f45f8a24c"
+        },
+        {
+          "id": 224,
+          "sha256": "867e618ee317a26f06bde9ebf090fba2bc0cbca03f357ba24f5ee1c65ed7370f"
+        },
+        {
+          "id": 225,
+          "sha256": "41f5e168a862d73d47c72b9907c386f822899e6ef5b5250528a9596023f857b4"
+        },
+        {
+          "id": 226,
+          "sha256": "12a6153ee6c7a0ca141ce6abcc36a4c94ca227734972fa6d4519b4e6b01a7071"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 226,
+        "genome": 256,
+        "birth_tick": 89,
+        "founder_id": 33,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          226,
+          189,
+          178,
+          128,
+          83,
+          33
+        ],
+        "priority_sha256": "12a6153ee6c7a0ca141ce6abcc36a4c94ca227734972fa6d4519b4e6b01a7071"
+      }
+    },
+    {
+      "source_seed": 1910,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 43,
+          "sha256": "04939d6cb29392557a2f4302643990685c37559b4861f9653df57dcceeca04ca"
+        },
+        {
+          "id": 209,
+          "sha256": "0ac57605229175f6623fbfa14f5a412620e0eaafe083e453d12270b91abd4baa"
+        },
+        {
+          "id": 221,
+          "sha256": "1dd145f89b73832828258f920f3cbcedf41f0b9158d4156d7604db1e5e129cf7"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 43,
+        "genome": 250,
+        "birth_tick": 0,
+        "founder_id": 43,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          43
+        ],
+        "priority_sha256": "04939d6cb29392557a2f4302643990685c37559b4861f9653df57dcceeca04ca"
+      }
+    },
+    {
+      "source_seed": 1911,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 105,
+          "sha256": "530c687e9399fef8af65fdf6b988bba148259e22e097ec4c2fb4c10ab10a3165"
+        },
+        {
+          "id": 235,
+          "sha256": "58a595c5577d28ae3f6e5191a919100b37689283777f401b752d0ccea826f7e9"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 105,
+        "genome": 250,
+        "birth_tick": 6,
+        "founder_id": 8,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          105,
+          95,
+          8
+        ],
+        "priority_sha256": "530c687e9399fef8af65fdf6b988bba148259e22e097ec4c2fb4c10ab10a3165"
+      }
+    },
+    {
+      "source_seed": 1912,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 61,
+          "sha256": "8b68666c448c473d9b7bc43cee50d5088b8e899afe30270b44e0f50f6e8675d3"
+        },
+        {
+          "id": 107,
+          "sha256": "24c907907e3734a7e6645fabaa157bd7617681063743c532933c3be9358269d1"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 107,
+        "genome": 291,
+        "birth_tick": 6,
+        "founder_id": 59,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          107,
+          92,
+          59
+        ],
+        "priority_sha256": "24c907907e3734a7e6645fabaa157bd7617681063743c532933c3be9358269d1"
+      }
+    },
+    {
+      "source_seed": 1913,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 42,
+          "sha256": "68168a3ce5282ad48faf55760a752c6f0301550665dfcdfb1e4cdc60ec9d31cd"
+        },
+        {
+          "id": 133,
+          "sha256": "3e860c10505f23d80c2e90c45d1cc145026947dcb505789315d2f1c1badad801"
+        },
+        {
+          "id": 168,
+          "sha256": "c21220706c1170eee2005baddc6f00d75bb33b0b076348271432e13d367889e3"
+        },
+        {
+          "id": 202,
+          "sha256": "9180f1db750e0ac667919d818de9ebc4e461eb7a484785e047f07e8681b6ba37"
+        },
+        {
+          "id": 206,
+          "sha256": "923a87978605f52a641851c21e5b845827c21511a731f4e989c43350867806d1"
+        },
+        {
+          "id": 212,
+          "sha256": "b35dfdd3220384e4304879fc325cbb7aed215124b85cccc6c60d9a2327be5a5d"
+        },
+        {
+          "id": 220,
+          "sha256": "5c7c1fdd36c4bf61fcd0b61a0430986cc4cd001fc111bb1ae9b7123ac456a106"
+        },
+        {
+          "id": 225,
+          "sha256": "3abe288ea871c127b3aeb2a58cb5f0ad1e821aebcc45e2f38dd13cec966fd1c6"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 225,
+        "genome": 276,
+        "birth_tick": 50,
+        "founder_id": 2,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          225,
+          221,
+          206,
+          184,
+          157,
+          131,
+          123,
+          106,
+          85,
+          2
+        ],
+        "priority_sha256": "3abe288ea871c127b3aeb2a58cb5f0ad1e821aebcc45e2f38dd13cec966fd1c6"
+      }
+    },
+    {
+      "source_seed": 1914,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 103,
+          "sha256": "d33edb471d2c423141c6b0051c018ed963f1c710a362f1eafaf530de43738ab7"
+        },
+        {
+          "id": 167,
+          "sha256": "bd061a93ab5f9d381ab53f25184ad1e02b47ce181f8efed4f16946b9015bba67"
+        },
+        {
+          "id": 187,
+          "sha256": "adf9f174d45a1952cce0fce05ffb8d63077c3a31622c4412c377bcd46c9d4a29"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 187,
+        "genome": 250,
+        "birth_tick": 24,
+        "founder_id": 13,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          187,
+          171,
+          156,
+          143,
+          127,
+          112,
+          103,
+          88,
+          13
+        ],
+        "priority_sha256": "adf9f174d45a1952cce0fce05ffb8d63077c3a31622c4412c377bcd46c9d4a29"
+      }
+    },
+    {
+      "source_seed": 1915,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 28,
+          "sha256": "a906becc07c88751f7afde29628766ea1ab1e5879a23b8c82cb5c9546e900deb"
+        },
+        {
+          "id": 102,
+          "sha256": "96481825e3663a1051231948d279ea3070c61acd3230e34c845637b401ef02a1"
+        },
+        {
+          "id": 134,
+          "sha256": "a93353d1e42fa2f47e0653d65274d344b0acbfe2d9227daeef5a42cc1f09e047"
+        },
+        {
+          "id": 150,
+          "sha256": "eec4dea05ca04dd336a6c81fd43355e883d614a6701d57926a682ce61c542713"
+        },
+        {
+          "id": 181,
+          "sha256": "50348a1c52a0767c6c3efdcb57fe1c3456fd96244edc5f057adedce6b37f232a"
+        },
+        {
+          "id": 187,
+          "sha256": "d2f17a92a0637dea1a7a8cb5a7237a7c12a687daea9f80598b3eaba5977f9389"
+        },
+        {
+          "id": 206,
+          "sha256": "6b79b36b6aa923a4e91b50dcc777c678ce9eddc03e8c5fe34ae92c1b56a1f5f0"
+        },
+        {
+          "id": 209,
+          "sha256": "b5905b80dea1b9dfd3df39275fd7d96194c863c2b505247da8b751e4dec97e08"
+        },
+        {
+          "id": 212,
+          "sha256": "504bbc7c2b7e26b690eeb24e7d5479416f2139955ade3da93f844b7e64218b6c"
+        },
+        {
+          "id": 216,
+          "sha256": "a61326888182f9083667ebf4258ab95e589fa5fac26612f8b2d345589afae3f6"
+        },
+        {
+          "id": 228,
+          "sha256": "6aaca172fe1b7c515572aa9c100e426460da3eb591a78b1ce21f51c2ab3cc39a"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 181,
+        "genome": 250,
+        "birth_tick": 33,
+        "founder_id": 72,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          181,
+          89,
+          72
+        ],
+        "priority_sha256": "50348a1c52a0767c6c3efdcb57fe1c3456fd96244edc5f057adedce6b37f232a"
+      }
+    },
+    {
+      "source_seed": 1916,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 18,
+          "sha256": "5ec02325b3c08daecfb0c089abbfc51652e64e2eaf0fcada2992eb9e6448ea35"
+        },
+        {
+          "id": 166,
+          "sha256": "616b78b72a396b07cd7b7c5d8883f8cbb950f432813ce5dc81c623d8d5f54383"
+        },
+        {
+          "id": 189,
+          "sha256": "315b8386a1315ac1a89d2f2bb933cd476d87c7c30411cdc2627763b77243d217"
+        },
+        {
+          "id": 225,
+          "sha256": "bd23abc26b6f9e7173ee59f5c589705628a7a227c7b329c1bc4c2e9e3a1e2c6b"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 189,
+        "genome": 250,
+        "birth_tick": 19,
+        "founder_id": 25,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          189,
+          168,
+          150,
+          25
+        ],
+        "priority_sha256": "315b8386a1315ac1a89d2f2bb933cd476d87c7c30411cdc2627763b77243d217"
+      }
+    },
+    {
+      "source_seed": 1917,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 5,
+          "sha256": "aff88b1e585a0198a767baaa4e858cb12d0d82ecfac41549cab32f5c1160f693"
+        },
+        {
+          "id": 128,
+          "sha256": "b9eeb1c719e8870f16f7ef9d738166e0578886866c27c1db1a0ea35829054420"
+        },
+        {
+          "id": 231,
+          "sha256": "cec6070c7aa07724907f6536d7d167585b85ed783c42c36b53e7f2486c3ffff2"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 5,
+        "genome": 250,
+        "birth_tick": 0,
+        "founder_id": 5,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          5
+        ],
+        "priority_sha256": "aff88b1e585a0198a767baaa4e858cb12d0d82ecfac41549cab32f5c1160f693"
+      }
+    },
+    {
+      "source_seed": 1918,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 108,
+          "sha256": "6e42b143f153e92df03ea1c12ad262e8f28a41a37458f12855a0f311ee8e462e"
+        },
+        {
+          "id": 123,
+          "sha256": "5e5be0822a3750b1e5b0f88014d4fc53398b6f8e0b52a9829a3d43da041be813"
+        },
+        {
+          "id": 193,
+          "sha256": "3b07c4c861cb9439ea29e86fb44d8fa1922eb3f61fd5fa70f8b51ef7c849f446"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 193,
+        "genome": 340,
+        "birth_tick": 18,
+        "founder_id": 56,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          193,
+          144,
+          134,
+          108,
+          89,
+          56
+        ],
+        "priority_sha256": "3b07c4c861cb9439ea29e86fb44d8fa1922eb3f61fd5fa70f8b51ef7c849f446"
+      }
+    },
+    {
+      "source_seed": 1919,
+      "sampling_tick": 100,
+      "candidates": [
+        {
+          "id": 20,
+          "sha256": "c17edd4150e69f927b562ec59674b15f3fc2c8018f4002762938ebf52d6db070"
+        },
+        {
+          "id": 61,
+          "sha256": "29353945a50342fd5d612b6e2ba1cb9d67fac1af462b0c33be6412db18ba8394"
+        },
+        {
+          "id": 76,
+          "sha256": "8da64eed139da81ad1f8516bc66c2c22fec3df582327ff05f4f5b4db2edaeef6"
+        },
+        {
+          "id": 162,
+          "sha256": "93de16c1ce77bb08bc2acd181d570e7361f5a12ff2e4bf34eadb2f05a571dc86"
+        },
+        {
+          "id": 172,
+          "sha256": "e3a61ae5b8823779d97593439999f1aac37bfe2b096e54bcf7a4fe36f8f33f5b"
+        },
+        {
+          "id": 187,
+          "sha256": "6afb2d5e2bc12a625f90787296a93a4d80bfbf1c4a7a1b9e24fb43fcf4ab6092"
+        },
+        {
+          "id": 200,
+          "sha256": "189f7bf3ed87206c3c64428636167eb399f20721b6721b6e820a3d80cb41458a"
+        },
+        {
+          "id": 202,
+          "sha256": "c88870f297840fffa6fe31c2c6964cecb54b81caa24f7c6f367413a2a0872804"
+        }
+      ],
+      "available": true,
+      "selected": {
+        "id": 200,
+        "genome": 250,
+        "birth_tick": 25,
+        "founder_id": 56,
+        "founder_genome": 250,
+        "ancestor_chain": [
+          200,
+          181,
+          166,
+          148,
+          101,
+          88,
+          56
+        ],
+        "priority_sha256": "189f7bf3ed87206c3c64428636167eb399f20721b6721b6e820a3d80cb41458a"
+      }
+    }
+  ],
+  "available_sources": 20,
+  "planned_evaluations": 200,
+  "scope": "Fixed early sampling only. Source outcomes were known at registration; independent event-based sampling verification and evaluation engineering remain required before outcome execution."
+}
