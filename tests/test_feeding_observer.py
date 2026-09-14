@@ -17,8 +17,18 @@ class FeedingObserverTests(unittest.TestCase):
             observed,reference=FeedingWorld(config),World(config)
             for tick in range(100):
                 previous=observed.snapshot()
+                before_ids=set(observed.living)
                 observed.step();reference.step()
                 records=observed.drain_feeding();total+=len(records)
+                dead=observed.drain_pre_feeding_deaths()
+                feeding_ids={r["id"] for r in records};dead_ids={r["id"] for r in dead}
+                self.assertFalse(feeding_ids & dead_ids)
+                self.assertEqual(feeding_ids | dead_ids,before_ids)
+                self.assertEqual(len(dead),len(dead_ids))
+                for row in dead:
+                    self.assertEqual(observed.lineage[row["id"]].death_tick,tick+1)
+                    self.assertEqual(row["position_before_action"],row["position"])
+                    self.assertEqual(row["phase"]=="movement",row["movement_attempted"])
                 self.assertEqual(observed.snapshot(),reference.snapshot())
                 self.assertEqual(observed.food,reference.food)
                 self.assertEqual(observed.events,reference.events)
@@ -95,3 +105,24 @@ class FeedingObserverTests(unittest.TestCase):
         world.step()
         self.assertEqual(world.snapshot()["deaths"],1)
         self.assertEqual(world.drain_feeding(),[])
+
+
+    def test_terminal_phase_records_cover_basal_and_movement_death(self):
+        for energy,phase in ((1,"basal"),(2,"movement")):
+            world=FeedingWorld(Config(width=2,height=2,initial_population=1,initial_energy=energy))
+            world.living[0].genome=1000
+            world.step();deaths=world.drain_pre_feeding_deaths()
+            self.assertEqual(len(deaths),1)
+            self.assertEqual(deaths[0]["phase"],phase)
+            self.assertEqual(deaths[0]["energy_before_action"],energy)
+            self.assertEqual(world.drain_feeding(),[])
+            self.assertEqual(world.drain_pre_feeding_deaths(),[])
+
+    def test_zero_movement_cost_is_still_an_attempt_without_a_death(self):
+        world=FeedingWorld(Config(width=2,height=2,initial_population=1,initial_energy=2,movement_cost=0))
+        world.living[0].genome=1000
+        world.step();records=world.drain_feeding()
+        self.assertEqual(len(records),1)
+        self.assertTrue(records[0]["movement_attempted"])
+        self.assertTrue(records[0]["moved"])
+        self.assertEqual(world.drain_pre_feeding_deaths(),[])

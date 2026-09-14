@@ -105,3 +105,26 @@ trajectory comparisons still pass; all 124 local tests pass. No source changes
 were made to the engine. Existing schema-1/2 datasets retain their original fields
 and hashes. A later schema-3 replay of all forty early prefixes and its conditional movement
 counts are documented in [campaign 017](../research/campaign-017.md#retrospective-movement-among-feeding-survivors).
+
+## Pre-feeding terminal records
+
+The observer now keeps a separate `pre_feeding_deaths` buffer, drained with
+`drain_pre_feeding_deaths()`. These rows have their own `observation_schema=1` and
+record individual/founder ID, tick, starting position and energy, final position,
+phase (`basal` or `movement`) and whether movement was attempted. Feeding rows
+remain schema 3 with unchanged meanings. A movement-payment death happens before
+destination selection, so it must not be labeled an occupied-target block.
+
+Every pre-tick living individual must appear exactly once in either that tick's
+feeding rows or terminal rows, with no overlap. Tests enforce this partition
+across all six reference configurations while retaining complete trajectory,
+event and RNG equality. Directed cases distinguish basal death from movement
+payment death, check zero-cost movement still counts as an attempt, and ensure
+both buffers drain. All 126 local tests pass.
+
+Consumers must drain both buffers to bound observation retention. The earlier
+historical replay writer saved only feeding rows; its datasets do not gain death
+phases automatically. A new writer/output and independent readback are needed
+before reporting all-action movement fractions. This extension identifies the
+terminal execution phase, not a biological cause such as starvation or a causal
+effect of movement. The engine's state and rules remain unchanged.

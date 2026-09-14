@@ -1956,3 +1956,16 @@ and 3.34–5.72%. Added all-world records and interpretation separating movement
 obstruction from the rare adjacent-birth-space blocks. Lethal movement is absent
 from the denominator, and no causal extinction mechanism is inferred. Formal
 inventory and all prior datasets/archives remain unchanged.
+
+## 2026-09-14 — Autonomous cycle 131
+
+Added a separate pre-feeding death observer buffer with basal/movement phase,
+initial action energy/position and attempted-movement flag. Feeding schema 3 is
+unchanged. Tests prove each pre-tick living ID belongs exactly once to feeding or
+terminal records, and preserve full reference state/events/RNG across six cases.
+Explicit basal/movement death and zero-cost movement cases pass; all 126 tests
+pass. Death on movement payment precedes destination choice and is not a block.
+
+Documented dual-buffer draining and the remaining writer/readback step. Existing
+historical feeding datasets do not acquire terminal rows retroactively; no new
+whole-population fraction or mechanistic conclusion is claimed yet.

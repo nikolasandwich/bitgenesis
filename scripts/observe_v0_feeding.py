@@ -48,17 +48,29 @@ class FeedingWorld(engine.World):
         super().__post_init__()
         self._feeding_actor = None
         self.feeding_records = []
+        self.pre_feeding_deaths = []
         self.food = _ObservedFood(self.food,self)
 
     def _pay(self, organism, amount):
         if self._feeding_actor is not organism:
             self._action_position = organism.position
+            self._action_energy = organism.energy
             self._movement_attempted = False
             self._fed = False
         elif not self._fed:
             self._movement_attempted = True
         self._feeding_actor = organism
         super()._pay(organism,amount)
+
+    def _die(self, organism):
+        if self._feeding_actor is not organism or self._fed or organism.energy != 0:
+            raise ValueError("Death differs from pinned pre-feeding phases")
+        self.pre_feeding_deaths.append(dict(observation_schema=1,tick=self.tick,id=organism.id,
+            founder_id=organism.founder_id,position=organism.position,
+            position_before_action=self._action_position,energy_before_action=self._action_energy,
+            phase="movement" if self._movement_attempted else "basal",
+            movement_attempted=self._movement_attempted))
+        super()._die(organism)
 
     def _birth(self, position, energy, genome, parent):
         child = super()._birth(position,energy,genome,parent)
@@ -80,4 +92,8 @@ class FeedingWorld(engine.World):
 
     def drain_feeding(self):
         records,self.feeding_records = self.feeding_records,[]
+        return records
+
+    def drain_pre_feeding_deaths(self):
+        records,self.pre_feeding_deaths = self.pre_feeding_deaths,[]
         return records
