@@ -1,0 +1,2115 @@
+{
+  "worlds": 60,
+  "records_checked": 6000,
+  "renewal_draws_checked": 6144000,
+  "metric_rows_checked": 6060,
+  "rows": [
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1700,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 6087,
+          "uncapped": 6250,
+          "discarded": 163,
+          "expected_added": "149523/25",
+          "expected_cap_loss": "4077/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 6087,
+          "uncapped": 6250,
+          "discarded": 163,
+          "expected_added": "149523/25",
+          "expected_cap_loss": "4077/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1701,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 6040,
+          "uncapped": 6177,
+          "discarded": 137,
+          "expected_added": "300303/50",
+          "expected_cap_loss": "6897/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 6040,
+          "uncapped": 6177,
+          "discarded": 137,
+          "expected_added": "300303/50",
+          "expected_cap_loss": "6897/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1702,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5832,
+          "uncapped": 6020,
+          "discarded": 188,
+          "expected_added": "297507/50",
+          "expected_cap_loss": "9693/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5832,
+          "uncapped": 6020,
+          "discarded": 188,
+          "expected_added": "297507/50",
+          "expected_cap_loss": "9693/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1703,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 6079,
+          "uncapped": 6204,
+          "discarded": 125,
+          "expected_added": "150141/25",
+          "expected_cap_loss": "3459/25"
+        },
+        "active": {
+          "ticks": 86,
+          "actual_added": 5222,
+          "uncapped": 5347,
+          "discarded": 125,
+          "expected_added": "128637/25",
+          "expected_cap_loss": "3459/25"
+        },
+        "empty": {
+          "ticks": 14,
+          "actual_added": 857,
+          "uncapped": 857,
+          "discarded": 0,
+          "expected_added": "21504/25",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1704,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5955,
+          "uncapped": 6133,
+          "discarded": 178,
+          "expected_added": "298623/50",
+          "expected_cap_loss": "8577/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5955,
+          "uncapped": 6133,
+          "discarded": 178,
+          "expected_added": "298623/50",
+          "expected_cap_loss": "8577/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1705,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5872,
+          "uncapped": 6109,
+          "discarded": 237,
+          "expected_added": "295443/50",
+          "expected_cap_loss": "11757/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5872,
+          "uncapped": 6109,
+          "discarded": 237,
+          "expected_added": "295443/50",
+          "expected_cap_loss": "11757/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1706,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5786,
+          "uncapped": 5978,
+          "discarded": 192,
+          "expected_added": "296943/50",
+          "expected_cap_loss": "10257/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5786,
+          "uncapped": 5978,
+          "discarded": 192,
+          "expected_added": "296943/50",
+          "expected_cap_loss": "10257/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1707,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 6014,
+          "uncapped": 6172,
+          "discarded": 158,
+          "expected_added": "299541/50",
+          "expected_cap_loss": "7659/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 6014,
+          "uncapped": 6172,
+          "discarded": 158,
+          "expected_added": "299541/50",
+          "expected_cap_loss": "7659/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1708,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5908,
+          "uncapped": 6093,
+          "discarded": 185,
+          "expected_added": "149079/25",
+          "expected_cap_loss": "4521/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5908,
+          "uncapped": 6093,
+          "discarded": 185,
+          "expected_added": "149079/25",
+          "expected_cap_loss": "4521/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "frequent-small",
+      "seed": 1709,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5959,
+          "uncapped": 6128,
+          "discarded": 169,
+          "expected_added": "29937/5",
+          "expected_cap_loss": "783/5"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5959,
+          "uncapped": 6128,
+          "discarded": 169,
+          "expected_added": "29937/5",
+          "expected_cap_loss": "783/5"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1700,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 6176,
+          "uncapped": 6360,
+          "discarded": 184,
+          "expected_added": "11943/2",
+          "expected_cap_loss": "345/2"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 6176,
+          "uncapped": 6360,
+          "discarded": 184,
+          "expected_added": "11943/2",
+          "expected_cap_loss": "345/2"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1701,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 6204,
+          "uncapped": 6340,
+          "discarded": 136,
+          "expected_added": "149988/25",
+          "expected_cap_loss": "3612/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 6204,
+          "uncapped": 6340,
+          "discarded": 136,
+          "expected_added": "149988/25",
+          "expected_cap_loss": "3612/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1702,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 6036,
+          "uncapped": 6252,
+          "discarded": 216,
+          "expected_added": "148713/25",
+          "expected_cap_loss": "4887/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 6036,
+          "uncapped": 6252,
+          "discarded": 216,
+          "expected_added": "148713/25",
+          "expected_cap_loss": "4887/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1703,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5964,
+          "uncapped": 6064,
+          "discarded": 100,
+          "expected_added": "300081/50",
+          "expected_cap_loss": "7119/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5964,
+          "uncapped": 6064,
+          "discarded": 100,
+          "expected_added": "300081/50",
+          "expected_cap_loss": "7119/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1704,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 6052,
+          "uncapped": 6204,
+          "discarded": 152,
+          "expected_added": "149586/25",
+          "expected_cap_loss": "4014/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 6052,
+          "uncapped": 6204,
+          "discarded": 152,
+          "expected_added": "149586/25",
+          "expected_cap_loss": "4014/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1705,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5704,
+          "uncapped": 5984,
+          "discarded": 280,
+          "expected_added": "294777/50",
+          "expected_cap_loss": "12423/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5704,
+          "uncapped": 5984,
+          "discarded": 280,
+          "expected_added": "294777/50",
+          "expected_cap_loss": "12423/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1706,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5900,
+          "uncapped": 6100,
+          "discarded": 200,
+          "expected_added": "148632/25",
+          "expected_cap_loss": "4968/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5900,
+          "uncapped": 6100,
+          "discarded": 200,
+          "expected_added": "148632/25",
+          "expected_cap_loss": "4968/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1707,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 6072,
+          "uncapped": 6232,
+          "discarded": 160,
+          "expected_added": "11937/2",
+          "expected_cap_loss": "351/2"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 6072,
+          "uncapped": 6232,
+          "discarded": 160,
+          "expected_added": "11937/2",
+          "expected_cap_loss": "351/2"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1708,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5812,
+          "uncapped": 6020,
+          "discarded": 208,
+          "expected_added": "5928",
+          "expected_cap_loss": "216"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5812,
+          "uncapped": 6020,
+          "discarded": 208,
+          "expected_added": "5928",
+          "expected_cap_loss": "216"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "reference",
+      "seed": 1709,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5804,
+          "uncapped": 6032,
+          "discarded": 228,
+          "expected_added": "149403/25",
+          "expected_cap_loss": "4197/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5804,
+          "uncapped": 6032,
+          "discarded": 228,
+          "expected_added": "149403/25",
+          "expected_cap_loss": "4197/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1700,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 6312,
+          "uncapped": 6540,
+          "discarded": 228,
+          "expected_added": "290363/50",
+          "expected_cap_loss": "16837/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 6312,
+          "uncapped": 6540,
+          "discarded": 228,
+          "expected_added": "290363/50",
+          "expected_cap_loss": "16837/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1701,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5888,
+          "uncapped": 6216,
+          "discarded": 328,
+          "expected_added": "293657/50",
+          "expected_cap_loss": "13543/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5888,
+          "uncapped": 6216,
+          "discarded": 328,
+          "expected_added": "293657/50",
+          "expected_cap_loss": "13543/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1702,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 6068,
+          "uncapped": 6492,
+          "discarded": 424,
+          "expected_added": "290693/50",
+          "expected_cap_loss": "16507/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 6068,
+          "uncapped": 6492,
+          "discarded": 424,
+          "expected_added": "290693/50",
+          "expected_cap_loss": "16507/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1703,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5468,
+          "uncapped": 5736,
+          "discarded": 268,
+          "expected_added": "292637/50",
+          "expected_cap_loss": "14563/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5468,
+          "uncapped": 5736,
+          "discarded": 268,
+          "expected_added": "292637/50",
+          "expected_cap_loss": "14563/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1704,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5820,
+          "uncapped": 6072,
+          "discarded": 252,
+          "expected_added": "146918/25",
+          "expected_cap_loss": "6682/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5820,
+          "uncapped": 6072,
+          "discarded": 252,
+          "expected_added": "146918/25",
+          "expected_cap_loss": "6682/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1705,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5808,
+          "uncapped": 6144,
+          "discarded": 336,
+          "expected_added": "143453/25",
+          "expected_cap_loss": "10147/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5808,
+          "uncapped": 6144,
+          "discarded": 336,
+          "expected_added": "143453/25",
+          "expected_cap_loss": "10147/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1706,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5772,
+          "uncapped": 5988,
+          "discarded": 216,
+          "expected_added": "57949/10",
+          "expected_cap_loss": "3491/10"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5772,
+          "uncapped": 5988,
+          "discarded": 216,
+          "expected_added": "57949/10",
+          "expected_cap_loss": "3491/10"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1707,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5596,
+          "uncapped": 5856,
+          "discarded": 260,
+          "expected_added": "293909/50",
+          "expected_cap_loss": "13291/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5596,
+          "uncapped": 5856,
+          "discarded": 260,
+          "expected_added": "293909/50",
+          "expected_cap_loss": "13291/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1708,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5712,
+          "uncapped": 6072,
+          "discarded": 360,
+          "expected_added": "289511/50",
+          "expected_cap_loss": "17689/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5712,
+          "uncapped": 6072,
+          "discarded": 360,
+          "expected_added": "289511/50",
+          "expected_cap_loss": "17689/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "renewal": "rare-large",
+      "seed": 1709,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5256,
+          "uncapped": 5628,
+          "discarded": 372,
+          "expected_added": "146519/25",
+          "expected_cap_loss": "7081/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5256,
+          "uncapped": 5628,
+          "discarded": 372,
+          "expected_added": "146519/25",
+          "expected_cap_loss": "7081/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1700,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5576,
+          "uncapped": 6146,
+          "discarded": 570,
+          "expected_added": "140043/25",
+          "expected_cap_loss": "13557/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5576,
+          "uncapped": 6146,
+          "discarded": 570,
+          "expected_added": "140043/25",
+          "expected_cap_loss": "13557/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1701,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5611,
+          "uncapped": 6180,
+          "discarded": 569,
+          "expected_added": "279639/50",
+          "expected_cap_loss": "27561/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5611,
+          "uncapped": 6180,
+          "discarded": 569,
+          "expected_added": "279639/50",
+          "expected_cap_loss": "27561/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1702,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5376,
+          "uncapped": 6086,
+          "discarded": 710,
+          "expected_added": "136209/25",
+          "expected_cap_loss": "17391/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5376,
+          "uncapped": 6086,
+          "discarded": 710,
+          "expected_added": "136209/25",
+          "expected_cap_loss": "17391/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1703,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5641,
+          "uncapped": 6216,
+          "discarded": 575,
+          "expected_added": "139551/25",
+          "expected_cap_loss": "14049/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5641,
+          "uncapped": 6216,
+          "discarded": 575,
+          "expected_added": "139551/25",
+          "expected_cap_loss": "14049/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1704,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5498,
+          "uncapped": 6168,
+          "discarded": 670,
+          "expected_added": "273831/50",
+          "expected_cap_loss": "33369/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5498,
+          "uncapped": 6168,
+          "discarded": 670,
+          "expected_added": "273831/50",
+          "expected_cap_loss": "33369/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1705,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5286,
+          "uncapped": 6065,
+          "discarded": 779,
+          "expected_added": "134217/25",
+          "expected_cap_loss": "19383/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5286,
+          "uncapped": 6065,
+          "discarded": 779,
+          "expected_added": "134217/25",
+          "expected_cap_loss": "19383/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1706,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5251,
+          "uncapped": 5937,
+          "discarded": 686,
+          "expected_added": "134556/25",
+          "expected_cap_loss": "19044/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5251,
+          "uncapped": 5937,
+          "discarded": 686,
+          "expected_added": "134556/25",
+          "expected_cap_loss": "19044/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1707,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5610,
+          "uncapped": 6127,
+          "discarded": 517,
+          "expected_added": "278811/50",
+          "expected_cap_loss": "28389/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5610,
+          "uncapped": 6127,
+          "discarded": 517,
+          "expected_added": "278811/50",
+          "expected_cap_loss": "28389/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1708,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5457,
+          "uncapped": 6082,
+          "discarded": 625,
+          "expected_added": "137052/25",
+          "expected_cap_loss": "16548/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5457,
+          "uncapped": 6082,
+          "discarded": 625,
+          "expected_added": "137052/25",
+          "expected_cap_loss": "16548/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "frequent-small",
+      "seed": 1709,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5456,
+          "uncapped": 6112,
+          "discarded": 656,
+          "expected_added": "27504/5",
+          "expected_cap_loss": "3216/5"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5456,
+          "uncapped": 6112,
+          "discarded": 656,
+          "expected_added": "27504/5",
+          "expected_cap_loss": "3216/5"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1700,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5612,
+          "uncapped": 6280,
+          "discarded": 668,
+          "expected_added": "54903/10",
+          "expected_cap_loss": "6537/10"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5612,
+          "uncapped": 6280,
+          "discarded": 668,
+          "expected_added": "54903/10",
+          "expected_cap_loss": "6537/10"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1701,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5640,
+          "uncapped": 6256,
+          "discarded": 616,
+          "expected_added": "139266/25",
+          "expected_cap_loss": "14334/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5640,
+          "uncapped": 6256,
+          "discarded": 616,
+          "expected_added": "139266/25",
+          "expected_cap_loss": "14334/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1702,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5436,
+          "uncapped": 6184,
+          "discarded": 748,
+          "expected_added": "54351/10",
+          "expected_cap_loss": "7089/10"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5436,
+          "uncapped": 6184,
+          "discarded": 748,
+          "expected_added": "54351/10",
+          "expected_cap_loss": "7089/10"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1703,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5652,
+          "uncapped": 6172,
+          "discarded": 520,
+          "expected_added": "280293/50",
+          "expected_cap_loss": "26907/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5652,
+          "uncapped": 6172,
+          "discarded": 520,
+          "expected_added": "280293/50",
+          "expected_cap_loss": "26907/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1704,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5556,
+          "uncapped": 6240,
+          "discarded": 684,
+          "expected_added": "274479/50",
+          "expected_cap_loss": "32721/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5556,
+          "uncapped": 6240,
+          "discarded": 684,
+          "expected_added": "274479/50",
+          "expected_cap_loss": "32721/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1705,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5232,
+          "uncapped": 6024,
+          "discarded": 792,
+          "expected_added": "53439/10",
+          "expected_cap_loss": "8001/10"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5232,
+          "uncapped": 6024,
+          "discarded": 792,
+          "expected_added": "53439/10",
+          "expected_cap_loss": "8001/10"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1706,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5196,
+          "uncapped": 6028,
+          "discarded": 832,
+          "expected_added": "131688/25",
+          "expected_cap_loss": "21912/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5196,
+          "uncapped": 6028,
+          "discarded": 832,
+          "expected_added": "131688/25",
+          "expected_cap_loss": "21912/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1707,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5512,
+          "uncapped": 6084,
+          "discarded": 572,
+          "expected_added": "139233/25",
+          "expected_cap_loss": "14367/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5512,
+          "uncapped": 6084,
+          "discarded": 572,
+          "expected_added": "139233/25",
+          "expected_cap_loss": "14367/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1708,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5420,
+          "uncapped": 6060,
+          "discarded": 640,
+          "expected_added": "55041/10",
+          "expected_cap_loss": "6399/10"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5420,
+          "uncapped": 6060,
+          "discarded": 640,
+          "expected_added": "55041/10",
+          "expected_cap_loss": "6399/10"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "reference",
+      "seed": 1709,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5492,
+          "uncapped": 6080,
+          "discarded": 588,
+          "expected_added": "11097/2",
+          "expected_cap_loss": "1191/2"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5492,
+          "uncapped": 6080,
+          "discarded": 588,
+          "expected_added": "11097/2",
+          "expected_cap_loss": "1191/2"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1700,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5712,
+          "uncapped": 6504,
+          "discarded": 792,
+          "expected_added": "268489/50",
+          "expected_cap_loss": "38711/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5712,
+          "uncapped": 6504,
+          "discarded": 792,
+          "expected_added": "268489/50",
+          "expected_cap_loss": "38711/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1701,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5592,
+          "uncapped": 6324,
+          "discarded": 732,
+          "expected_added": "136373/25",
+          "expected_cap_loss": "17227/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5592,
+          "uncapped": 6324,
+          "discarded": 732,
+          "expected_added": "136373/25",
+          "expected_cap_loss": "17227/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1702,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5388,
+          "uncapped": 6288,
+          "discarded": 900,
+          "expected_added": "26362/5",
+          "expected_cap_loss": "4358/5"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5388,
+          "uncapped": 6288,
+          "discarded": 900,
+          "expected_added": "26362/5",
+          "expected_cap_loss": "4358/5"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1703,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 4984,
+          "uncapped": 5700,
+          "discarded": 716,
+          "expected_added": "137021/25",
+          "expected_cap_loss": "16579/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 4984,
+          "uncapped": 5700,
+          "discarded": 716,
+          "expected_added": "137021/25",
+          "expected_cap_loss": "16579/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1704,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5248,
+          "uncapped": 6060,
+          "discarded": 812,
+          "expected_added": "268603/50",
+          "expected_cap_loss": "38597/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5248,
+          "uncapped": 6060,
+          "discarded": 812,
+          "expected_added": "268603/50",
+          "expected_cap_loss": "38597/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1705,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5668,
+          "uncapped": 6396,
+          "discarded": 728,
+          "expected_added": "129959/25",
+          "expected_cap_loss": "23641/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5668,
+          "uncapped": 6396,
+          "discarded": 728,
+          "expected_added": "129959/25",
+          "expected_cap_loss": "23641/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1706,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5328,
+          "uncapped": 6060,
+          "discarded": 732,
+          "expected_added": "130469/25",
+          "expected_cap_loss": "23131/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5328,
+          "uncapped": 6060,
+          "discarded": 732,
+          "expected_added": "130469/25",
+          "expected_cap_loss": "23131/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1707,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5020,
+          "uncapped": 5652,
+          "discarded": 632,
+          "expected_added": "274649/50",
+          "expected_cap_loss": "32551/50"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5020,
+          "uncapped": 5652,
+          "discarded": 632,
+          "expected_added": "274649/50",
+          "expected_cap_loss": "32551/50"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1708,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5388,
+          "uncapped": 6252,
+          "discarded": 864,
+          "expected_added": "133056/25",
+          "expected_cap_loss": "20544/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5388,
+          "uncapped": 6252,
+          "discarded": 864,
+          "expected_added": "133056/25",
+          "expected_cap_loss": "20544/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "renewal": "rare-large",
+      "seed": 1709,
+      "partitions": {
+        "all": {
+          "ticks": 100,
+          "actual_added": 5124,
+          "uncapped": 5904,
+          "discarded": 780,
+          "expected_added": "133973/25",
+          "expected_cap_loss": "19627/25"
+        },
+        "active": {
+          "ticks": 100,
+          "actual_added": 5124,
+          "uncapped": 5904,
+          "discarded": 780,
+          "expected_added": "133973/25",
+          "expected_cap_loss": "19627/25"
+        },
+        "empty": {
+          "ticks": 0,
+          "actual_added": 0,
+          "uncapped": 0,
+          "discarded": 0,
+          "expected_added": "0",
+          "expected_cap_loss": "0"
+        }
+      }
+    }
+  ],
+  "input_sha256": {
+    "block-threshold-40-renewal-frequent-small-seed-1700-initial.json": "4bf1af687572ee7ea9d94e43435d72827274cad0106cfe380c89c0c97b00b6c5",
+    "block-threshold-40-renewal-frequent-small-seed-1700.csv": "f182bc89d35e6b9222fe7efa13db1a45c70699b2ff952c326bfdeeeb9bf4c2f1",
+    "block-threshold-40-renewal-frequent-small-seed-1700-stocks.jsonl": "61b8ab4ffff6e02801367ecf96cd6b2cf8bfdae2b3bf0c829adab1b992bc3c81",
+    "block-threshold-40-renewal-frequent-small-seed-1701-initial.json": "796a6bde5de509b19155f190cbcdf116c39a9ca26f13064f8ee51312c3575706",
+    "block-threshold-40-renewal-frequent-small-seed-1701.csv": "3e26d06ee6a64ecf3158c54e128494684595ef3d403e86aa95d7ca7fd0d2b533",
+    "block-threshold-40-renewal-frequent-small-seed-1701-stocks.jsonl": "9b223f0abca611199991519be23bf59d874340e17e821bc2da41d22e67c99397",
+    "block-threshold-40-renewal-frequent-small-seed-1702-initial.json": "4c7824f7904c8544bb4fac7cae92540e4e21a41ef24e5ad332aea60aa7fb0d57",
+    "block-threshold-40-renewal-frequent-small-seed-1702.csv": "e7994c3ee34eeb767593d8b2f52a1ee53f676e04875d712dde0fd3a5d9c0e0f8",
+    "block-threshold-40-renewal-frequent-small-seed-1702-stocks.jsonl": "d9a7272326695e19dedfe469ea2439fda5371053366af54fde147dfa57b6457a",
+    "block-threshold-40-renewal-frequent-small-seed-1703-initial.json": "00795d351abdd8d604e45da46e7222057cfa28c1af9dedba6468caa4d492826f",
+    "block-threshold-40-renewal-frequent-small-seed-1703.csv": "aa17a55a809a0c185cbe12bc72682a4ca1e28aae8acf0ce6f6a040917dec1a49",
+    "block-threshold-40-renewal-frequent-small-seed-1703-stocks.jsonl": "533cf55706bb42d3b7103cc1fa5e254e7fa1305ac7a49ec670efe02f2d05ccfe",
+    "block-threshold-40-renewal-frequent-small-seed-1704-initial.json": "858baed5212fbf3bc029e0263a45f68b5737e5ea126a23182f15a942f9c1e70c",
+    "block-threshold-40-renewal-frequent-small-seed-1704.csv": "7ab37492c797ca761b9392e79ab4017aad09aca4d93a4183291178ef57074acc",
+    "block-threshold-40-renewal-frequent-small-seed-1704-stocks.jsonl": "e1ce8d5f03a146ae1e2b85cf24b39fb187b0a8c1de643b71603061102d356bee",
+    "block-threshold-40-renewal-frequent-small-seed-1705-initial.json": "e9af7f3ff33f301bf01ddac8b426685c2ce91410d23566f46539e693b5135f1a",
+    "block-threshold-40-renewal-frequent-small-seed-1705.csv": "810bc91afc3e1185a8665805ab63d370fbb3ef77ef0ea0d827722728f935d538",
+    "block-threshold-40-renewal-frequent-small-seed-1705-stocks.jsonl": "88992b8c999f038d6c81cfe4abb0e72d2e5d3846d94b70bc85df5d7c15833364",
+    "block-threshold-40-renewal-frequent-small-seed-1706-initial.json": "7e6b71d840622efa056fdb4b5bab0ae0c2f95414b0dd595dbed3665abd0a4756",
+    "block-threshold-40-renewal-frequent-small-seed-1706.csv": "c05d9fab62675e70b3f163f0e466367b4baee86c2e765eba905761025f7639ee",
+    "block-threshold-40-renewal-frequent-small-seed-1706-stocks.jsonl": "bce22c16494ac47235b0465b44166850f04cba18ed79f345ca900bc4ad8e8686",
+    "block-threshold-40-renewal-frequent-small-seed-1707-initial.json": "f2e85280c5f691437bf7ca41f68be36a37b6665ac40dc16d708bb7cb39ee9e48",
+    "block-threshold-40-renewal-frequent-small-seed-1707.csv": "a9fed3bcc23195983f64986072c9aa0292526eaa8698be1df423db69559eebc1",
+    "block-threshold-40-renewal-frequent-small-seed-1707-stocks.jsonl": "81350451bb278a6ac36c77f10742ba5a601ede151db3d877afa74b414b58388a",
+    "block-threshold-40-renewal-frequent-small-seed-1708-initial.json": "382d237b586c861e82289972e2940cf6a900b295f53a2be75c705792cab0f96a",
+    "block-threshold-40-renewal-frequent-small-seed-1708.csv": "e4b1095803987671238f133a8fc65257a31bcaff859ffe798494cdcb25ce2548",
+    "block-threshold-40-renewal-frequent-small-seed-1708-stocks.jsonl": "5031c9efd4705640f75ab42faa08f88ca6bc9e411ebc0b75197b1421e452238a",
+    "block-threshold-40-renewal-frequent-small-seed-1709-initial.json": "677df84b18b31a0d7f40d3ddb4bf46d91d593c605dc52c9653970bcc65474b62",
+    "block-threshold-40-renewal-frequent-small-seed-1709.csv": "bb89f284e2101b1e4e597276bbf9f9949e9402a830ff0bcb469c672221ed479b",
+    "block-threshold-40-renewal-frequent-small-seed-1709-stocks.jsonl": "6cb5ffbe1418289313e7e7b95e47e4d468923478b3ef19f55643dad2a27eb7a6",
+    "block-threshold-40-renewal-reference-seed-1700-initial.json": "dfafb7af86aadf154e838844f34c5467cd2bbf5b939f45a8c2e847777579115e",
+    "block-threshold-40-renewal-reference-seed-1700.csv": "17281acbb0d05cb16cd77769712e8cfc6061789498f14402106063a8d0747e23",
+    "block-threshold-40-renewal-reference-seed-1700-stocks.jsonl": "274767cac1a50f8f2f0ef337e9498e1b5c7647026b782ff3c168ecc14d9d1b0f",
+    "block-threshold-40-renewal-reference-seed-1701-initial.json": "6e92b961889a426c9a86c21e943ecb2442ade94b96180fb1cf1cc6a0821afdd3",
+    "block-threshold-40-renewal-reference-seed-1701.csv": "6ccc0eabc796c3b3142267b4e63b52dbc37872b2c34659696c27b9816c4f88ea",
+    "block-threshold-40-renewal-reference-seed-1701-stocks.jsonl": "e54d8bd3777e1fbfc2c3daed72a766dc2c6aca4b9195ee841e280d0ae35489d6",
+    "block-threshold-40-renewal-reference-seed-1702-initial.json": "0d998331451291105dfcebc307319dca57428cfb530f3e7c474713e366e4a2f2",
+    "block-threshold-40-renewal-reference-seed-1702.csv": "0387677fbbbe5e493d4bc757efb0f4edb6fff80b6836a05802c0500f7565b1eb",
+    "block-threshold-40-renewal-reference-seed-1702-stocks.jsonl": "1f3d87f57cd7dfdf7ecc1f39669991cad5a32001c5e53c65a15f6724483740b6",
+    "block-threshold-40-renewal-reference-seed-1703-initial.json": "010de18b0039aa12499ddde7e622b5c823782b01bbe5d872ae8d39c2757433f7",
+    "block-threshold-40-renewal-reference-seed-1703.csv": "6f7965678c61991eac22dce4894f40f132424039828a3aff1b0a51b720f47932",
+    "block-threshold-40-renewal-reference-seed-1703-stocks.jsonl": "2eedf6e707568f1a419a7344a4ed9ac6f0a39451e7d6437e0f5ab8bfea379fd5",
+    "block-threshold-40-renewal-reference-seed-1704-initial.json": "0824821a5a8c568a7f462d17567e3dc1ba8f26d2c19fe0bd89684f7c343a17ce",
+    "block-threshold-40-renewal-reference-seed-1704.csv": "2089832ab2ac0cdfc35c09a03180aa6cfea58aeb75a1cf0efc09524e73b77c63",
+    "block-threshold-40-renewal-reference-seed-1704-stocks.jsonl": "46a9e2bd42d35884cdef38d6247c685c14663b90d411e478833c4cd1dc25f362",
+    "block-threshold-40-renewal-reference-seed-1705-initial.json": "a2dbd225e816e95a44960794c734c8aae1fc428e07ea650c198aac9c2882bc27",
+    "block-threshold-40-renewal-reference-seed-1705.csv": "900588cb8cb717206b35fef2ea1d7061a3c3d6a2fda9bb5a62c058e50eba1208",
+    "block-threshold-40-renewal-reference-seed-1705-stocks.jsonl": "dd5b0c19e23a32468b63d720afe679a8d564a15f3a2eaf151e44a22fb665bdb3",
+    "block-threshold-40-renewal-reference-seed-1706-initial.json": "57508c3ec3175c621b6d493d732c6e2ecb523e46bd8de1e04c0c5a42923f7783",
+    "block-threshold-40-renewal-reference-seed-1706.csv": "143a67f6f21b8662644cce4f0c078313e1aab6292d70d1506809634815268db8",
+    "block-threshold-40-renewal-reference-seed-1706-stocks.jsonl": "dc6912730030e1fe0ab3224f3958f09513be3426b269743c4946e58c13241a97",
+    "block-threshold-40-renewal-reference-seed-1707-initial.json": "25cd1437ce257da9bebb4410f5607172c5f44efc28d07e861a188b963effa045",
+    "block-threshold-40-renewal-reference-seed-1707.csv": "6f64cb3a445047feee51866ca770961b21e5349d09da4371ec8e88dda77ceb76",
+    "block-threshold-40-renewal-reference-seed-1707-stocks.jsonl": "5ad06f384e045d4b7ee375cf99dd44c20a849a7faf9d1981bde9ff8fe098b081",
+    "block-threshold-40-renewal-reference-seed-1708-initial.json": "d38718df0a0c11353345621fc09c0f8bbdfd934629bac8f62a4a657f8522615a",
+    "block-threshold-40-renewal-reference-seed-1708.csv": "39f0dd587fd66b09aefc055980ce7db6ab8ba8e405813d9486d35725ecd63666",
+    "block-threshold-40-renewal-reference-seed-1708-stocks.jsonl": "7cc156e0baaee7d19efa8707d99054e642ec51a90235cefb511908bc0046d670",
+    "block-threshold-40-renewal-reference-seed-1709-initial.json": "800a349064d83225c181ea098a0c2464b7801c4baf43dd571eac5be59278cc66",
+    "block-threshold-40-renewal-reference-seed-1709.csv": "0da56a538ce62d27b158a563161ccb812f4834800644dc80d2a82a9ade0d84b1",
+    "block-threshold-40-renewal-reference-seed-1709-stocks.jsonl": "a30dd876aa400033c6ff91918405c23fea1f760beb413312c7bd9a0ef59b4591",
+    "block-threshold-40-renewal-rare-large-seed-1700-initial.json": "09b97eb97d1777fefaaa1c2cb8059e1fcbfcbd438fb3ae49df20ca8c8f05d6be",
+    "block-threshold-40-renewal-rare-large-seed-1700.csv": "8dd25f96bf8491b70d960e464d403c40029891b4b3f7063690a8a062234c3a82",
+    "block-threshold-40-renewal-rare-large-seed-1700-stocks.jsonl": "9f41e2bce54543fd983630d0c61d4889c11435a18d4fcc38fec61b00e2225244",
+    "block-threshold-40-renewal-rare-large-seed-1701-initial.json": "35c40c00093b6cc34967989a5c5cb12b0fd95b57e96331407edfc3ea4d8003b7",
+    "block-threshold-40-renewal-rare-large-seed-1701.csv": "292d8551873a9cc874cdc7205a23c587d18ded7d28db0d11ef0b0e95bbec6dab",
+    "block-threshold-40-renewal-rare-large-seed-1701-stocks.jsonl": "f697ac6fa1dbd6305869e085a0e616bfd1df693729e858fe8a59888878740b95",
+    "block-threshold-40-renewal-rare-large-seed-1702-initial.json": "a2811db51056c202d607cb7564c129eb34d061217559984222ed7891c7e85973",
+    "block-threshold-40-renewal-rare-large-seed-1702.csv": "acacaf9aa14f381c2a2183fa8abc15e32678e9c36996cf6f9f15731b06423294",
+    "block-threshold-40-renewal-rare-large-seed-1702-stocks.jsonl": "e4632f9b7885c67d3ce520b9bb56621d89e5639f77cf1634c95506169c4c4ee3",
+    "block-threshold-40-renewal-rare-large-seed-1703-initial.json": "a6fd721612e619fef124aca267651b89df50afc2d8eea291631edb863c08f1a3",
+    "block-threshold-40-renewal-rare-large-seed-1703.csv": "fa4c6c944f3ef445221f2e0b6a2a2b30bde6a9afb5567dd1080871041e838118",
+    "block-threshold-40-renewal-rare-large-seed-1703-stocks.jsonl": "e6a50de1136ef7ff1f37c03d74a9ed30e70436050dc3a4059810d60b9bd79738",
+    "block-threshold-40-renewal-rare-large-seed-1704-initial.json": "214849c8ffcd973a20a15d31fa54db007b41e255559de6d4691940a2133d94a5",
+    "block-threshold-40-renewal-rare-large-seed-1704.csv": "acd2885768720e78ff91444598fd57838c4959e34c267e618f929d0f268dfe3f",
+    "block-threshold-40-renewal-rare-large-seed-1704-stocks.jsonl": "5a91968f6e83795757438f4df5b879977bf9f8b1767cb245c10c75fa7bb20847",
+    "block-threshold-40-renewal-rare-large-seed-1705-initial.json": "952e4ac2d1b19889579884fd17846be6cc04cc65458e39283af19d25a34e56a7",
+    "block-threshold-40-renewal-rare-large-seed-1705.csv": "262ab2bcea29e24aa081766b8fb3d30e54ceba4febb996f93669500c338df799",
+    "block-threshold-40-renewal-rare-large-seed-1705-stocks.jsonl": "00c63151f0f3a4baa348eb3277087b3ce84d414f8f3177c12df71c2afbb6fd1b",
+    "block-threshold-40-renewal-rare-large-seed-1706-initial.json": "30ea9983641a9cfb1a85b907233bb787068e651e270bba4bd2e1b333d2600bdc",
+    "block-threshold-40-renewal-rare-large-seed-1706.csv": "e97f240f03482a98604228b621b1865bac8fe34e76ba2d3dc509db38bda81770",
+    "block-threshold-40-renewal-rare-large-seed-1706-stocks.jsonl": "785e4f43e079dc6fa5a64260ea848fdb8a21b1e201444363670e6d5fd0d265eb",
+    "block-threshold-40-renewal-rare-large-seed-1707-initial.json": "f159bd05b04d5b6161f8b1a7114fed62d923a4f25b4bc0aede6f16908beef247",
+    "block-threshold-40-renewal-rare-large-seed-1707.csv": "ccdeeb5b88ca33f9ecf29056788e5e22b7e172da0cec0a51f5cf8ad477ff4915",
+    "block-threshold-40-renewal-rare-large-seed-1707-stocks.jsonl": "27f24e60662458cff54146318901d1f5c9d1bf8ae0641ce400ed1c9e30439666",
+    "block-threshold-40-renewal-rare-large-seed-1708-initial.json": "f8eb9598942a1e99db1c5ba64cc0775f6c845c502ab4f111c70f758d7a583f19",
+    "block-threshold-40-renewal-rare-large-seed-1708.csv": "6bcb715f87e84bf0f8bf28fd901f3faecb85c4ed41269630dbb10cdea54586a3",
+    "block-threshold-40-renewal-rare-large-seed-1708-stocks.jsonl": "120613ba4c9a8d2bd653e3a3a974390460d63a35726c14ee1a88d6b6a5e8eb6f",
+    "block-threshold-40-renewal-rare-large-seed-1709-initial.json": "54b43aed2503444002cc10e326eca6ef3bdc9b46e70eacd75f63a57e571575ec",
+    "block-threshold-40-renewal-rare-large-seed-1709.csv": "5a4da012d46bb2fc83467cfa30a1306a962d963ae3e8d5f86309a30c89843dbc",
+    "block-threshold-40-renewal-rare-large-seed-1709-stocks.jsonl": "ba7a1cbf2f54c156a80c0741db8937c535cbc11b70f2a80fcc8270efb0ed078d",
+    "block-threshold-160-renewal-frequent-small-seed-1700-initial.json": "3f2e521220595123450e16384124206c0d2b80990a35fe41ca64c3460bc5510b",
+    "block-threshold-160-renewal-frequent-small-seed-1700.csv": "8f0a9bbf58f280571c04e1b9ca70675a7794bd04e5bf4d06608096de6be94dd8",
+    "block-threshold-160-renewal-frequent-small-seed-1700-stocks.jsonl": "58b1d437363a92e8e5a8469a4d49d0d37e5187dad921b0aa9f86c1549be239c3",
+    "block-threshold-160-renewal-frequent-small-seed-1701-initial.json": "4518f2572d058c4a8e4fdbf170d6bb604dc378d57171442492d08c5d7e0ea936",
+    "block-threshold-160-renewal-frequent-small-seed-1701.csv": "b7dfb919b6c019b91dd22ff7554e7b673297056639a63efc86a965c24c65e0da",
+    "block-threshold-160-renewal-frequent-small-seed-1701-stocks.jsonl": "ca6869d80dcdceb2a9dd80448e326905b8c1374280455d337e15a6be1cb718d3",
+    "block-threshold-160-renewal-frequent-small-seed-1702-initial.json": "f5c29419db9c9a76fd7e75cb31176550c397e20074a32b41a480b109102508c5",
+    "block-threshold-160-renewal-frequent-small-seed-1702.csv": "d9da89471f76c6b68b82c1b6833911e5f9123780ec9bf7cf141887da821db39b",
+    "block-threshold-160-renewal-frequent-small-seed-1702-stocks.jsonl": "0b1a707e906f8d56d23ed821898136da5f36686c45bedb942f8cc9178a41a7b4",
+    "block-threshold-160-renewal-frequent-small-seed-1703-initial.json": "179968a27e4ae75e9a88e237ca7bb9724298c524ac7dd08587d66ae0cf4f624d",
+    "block-threshold-160-renewal-frequent-small-seed-1703.csv": "e6319d6311bfd3739810493cce23f394692ef581e23369332f472b57e3f20f7f",
+    "block-threshold-160-renewal-frequent-small-seed-1703-stocks.jsonl": "7984fc9de2d64514cc1b9ef5fc9a374e7a9c2a2e51c8e8be21a36db5cbe97d02",
+    "block-threshold-160-renewal-frequent-small-seed-1704-initial.json": "cbe695a86e572f96ad7289d1971afca7fd6a0845c74dfdad6b8dab6e3bcb034e",
+    "block-threshold-160-renewal-frequent-small-seed-1704.csv": "5056e2c694679ff09c662f4373907f378110a85341e7dd7f869f65551c762818",
+    "block-threshold-160-renewal-frequent-small-seed-1704-stocks.jsonl": "820eda6ef695c6d7ab25667875c5e42404701c6d365686cac1ba4ab1a8d59cc9",
+    "block-threshold-160-renewal-frequent-small-seed-1705-initial.json": "e81eb445ef5f9013ba82201dbf4a256f1585695bea64b5c45d5db0fa576e0e15",
+    "block-threshold-160-renewal-frequent-small-seed-1705.csv": "f6eef86bf09b60d9756dc5dcdc57415af752c510c8e146d074747a68cf57cf32",
+    "block-threshold-160-renewal-frequent-small-seed-1705-stocks.jsonl": "63e7b4df9ac2893f2ad40ac039785b833ce12bdd15d9a1e11e903ac94a4f717a",
+    "block-threshold-160-renewal-frequent-small-seed-1706-initial.json": "2be47b0358a345ee49f32c78aefff1fb3d0bb7fa28afdf39a5fe44af30f1634f",
+    "block-threshold-160-renewal-frequent-small-seed-1706.csv": "0588eaced563d2d5622d3ffc74f5b6d6ae0f2dfbb98e1a629a18eae4da74b240",
+    "block-threshold-160-renewal-frequent-small-seed-1706-stocks.jsonl": "056f205b535ac4be1ef049084d3d4a36aa8d4229217f5b9d811dd05c925aac3d",
+    "block-threshold-160-renewal-frequent-small-seed-1707-initial.json": "05c21950fb90da19ede9bc6feb6ab9673008b4f9e976596a580017df15432eb9",
+    "block-threshold-160-renewal-frequent-small-seed-1707.csv": "2e13c493720a7af8149b52d30547b45af0171f36517c412e6b06ccd13f480b51",
+    "block-threshold-160-renewal-frequent-small-seed-1707-stocks.jsonl": "fe0552f29d4737a42ca737d239c50b31ccb3fae3900bc5cf561f72ac307b0421",
+    "block-threshold-160-renewal-frequent-small-seed-1708-initial.json": "b5d76396543450f87cb6b2ec22219f05ab0ee1c6bf8148b165aa97ec9686c31b",
+    "block-threshold-160-renewal-frequent-small-seed-1708.csv": "2efed5e8c050cec7524da1974bd314e95a8a5cdf75d29d5ee483fd4914cbfc93",
+    "block-threshold-160-renewal-frequent-small-seed-1708-stocks.jsonl": "bfaff812a696263df2327b63c1dfd5e7d38ef5c7d4a18c4ba93315a886ab8b4d",
+    "block-threshold-160-renewal-frequent-small-seed-1709-initial.json": "dcee9342ccf1518ff7a9680bf09e06d3ada5e8863f6937e62613459e20982c57",
+    "block-threshold-160-renewal-frequent-small-seed-1709.csv": "ab3d5516c58b4882f129a78433637d5cc70cd578577b5ec1aace2f763fcbee3e",
+    "block-threshold-160-renewal-frequent-small-seed-1709-stocks.jsonl": "5a3eab2bf41619390e5c7f8e6226896f34f0debde593161a1ae75c5f4e349bdc",
+    "block-threshold-160-renewal-reference-seed-1700-initial.json": "3554ac8924c4cf9965bde4e842fc26296447a03ed89f0e609daa7572f68cfee1",
+    "block-threshold-160-renewal-reference-seed-1700.csv": "13279e3d8f2536e4a682c0cb194a3c66fe6d5a34d930690d91e92d17b5f35acc",
+    "block-threshold-160-renewal-reference-seed-1700-stocks.jsonl": "14170ca27a3302fc96a6558f0b8d6ad404b5112c9ebc0338791d64ef98c16643",
+    "block-threshold-160-renewal-reference-seed-1701-initial.json": "4a746bd53dd742e84e2f71ba2009065d5ffd5c2b38da1483bb8f467456960f18",
+    "block-threshold-160-renewal-reference-seed-1701.csv": "dc3c252e170e30da5c13b146cfe4c8747990992b8e95d41b0a977d1dc577739f",
+    "block-threshold-160-renewal-reference-seed-1701-stocks.jsonl": "35ae0e78770f718823aa1f09fd153e00a125f3cecfd90a23104911eb6af2be4a",
+    "block-threshold-160-renewal-reference-seed-1702-initial.json": "80f542f669d44ef1959c2659359712a441d9cec05f02bc5909874f18d626b1e3",
+    "block-threshold-160-renewal-reference-seed-1702.csv": "e480c5cb0fafa9309f14f2d76e959aae926d37761c65d591f90d165cdae1331f",
+    "block-threshold-160-renewal-reference-seed-1702-stocks.jsonl": "a64b423701e82f49368db0e448c6f74a4f80b8793c9e1e2fe4dc5f6bc6ffc580",
+    "block-threshold-160-renewal-reference-seed-1703-initial.json": "6ef6d517069eeb80df49fb57b5e71232d4305e02b8b0554f2d795dbdcbc2c71a",
+    "block-threshold-160-renewal-reference-seed-1703.csv": "98ceb4246e2cfbf748aca9ba0d4489bc893f08c30c8a06e91c8a1b89a715e4c0",
+    "block-threshold-160-renewal-reference-seed-1703-stocks.jsonl": "a626ee27056ccc8da33aeb201ac180384981d4a7b1875601efe948b0a60d6531",
+    "block-threshold-160-renewal-reference-seed-1704-initial.json": "28bffa22c2591acb9f2781d66c11643201f079ac31bc53f5cd9c39077b9417fb",
+    "block-threshold-160-renewal-reference-seed-1704.csv": "b5ba1e5d19959f398b772975adbab18deb1fe8334c099982de884483434ddb8b",
+    "block-threshold-160-renewal-reference-seed-1704-stocks.jsonl": "c472cd3b21eada9e8e3c0680665f9493005a7b70ae169c8c4ccd212dbeda3c41",
+    "block-threshold-160-renewal-reference-seed-1705-initial.json": "9e40899b32e516623f54273a201327f06f76d9968892a87d58bd760e1585a2cb",
+    "block-threshold-160-renewal-reference-seed-1705.csv": "c9ddbc3dd80008a7e0f51f559431c307704ce51a397dcbdae2217fb6d031f27f",
+    "block-threshold-160-renewal-reference-seed-1705-stocks.jsonl": "412797837ceacbeffe976763d8ab4aaad86254de80dc841ade13cd8e5f725126",
+    "block-threshold-160-renewal-reference-seed-1706-initial.json": "2ebfcc354b49cbd65242ef99a5e52e6fa74217fbdcb887eedbbafdd99f290ae8",
+    "block-threshold-160-renewal-reference-seed-1706.csv": "b7d1db4198a3455c4ee880d6d38f7c3b03ea5040401900c04209546b1193882c",
+    "block-threshold-160-renewal-reference-seed-1706-stocks.jsonl": "69bae505cd0439e43026c9f1a78e1896d4df32b035657406b98aa1d8095e0eae",
+    "block-threshold-160-renewal-reference-seed-1707-initial.json": "f7f5e762d62899650ade132f171710f4eb965b2737982475f92fa740c034763b",
+    "block-threshold-160-renewal-reference-seed-1707.csv": "af3b80d735643dfece73aa0180ddf3e4bd94741ec0517142eb305fa885f5170a",
+    "block-threshold-160-renewal-reference-seed-1707-stocks.jsonl": "e22700de159542bccdc918d22e20895f9142f55996fa7e4374b2537c2d1018cd",
+    "block-threshold-160-renewal-reference-seed-1708-initial.json": "dd1601688bfc485d85881bec60a4f940ab33e0cf6ba3f68abf63410ea259f5bd",
+    "block-threshold-160-renewal-reference-seed-1708.csv": "fb4ed5c136a9d21c3f9f9905e2c8c48935e163a5b46f92258619609b2c880e41",
+    "block-threshold-160-renewal-reference-seed-1708-stocks.jsonl": "16197d4d4bc8784ac14eeef61598d005f4067510a6b3877a5491f00c4db89f6d",
+    "block-threshold-160-renewal-reference-seed-1709-initial.json": "2fca40861269d69478062d3098341c67f7185c1f313387e0c1764867d4749326",
+    "block-threshold-160-renewal-reference-seed-1709.csv": "2ac6d66d75b8362eab8956891a01b576a61c381107e596334ac6e9db66f9dfb4",
+    "block-threshold-160-renewal-reference-seed-1709-stocks.jsonl": "20155081c6e6f2a67bf8975b5c235f3815b6b3e776bced499b022cffe2b72138",
+    "block-threshold-160-renewal-rare-large-seed-1700-initial.json": "7460ace72b870bdbafa7ed2798f6eec1a501ce98b0b61c1034c62459db253c21",
+    "block-threshold-160-renewal-rare-large-seed-1700.csv": "c540433ae3de705cf898614a70a00186bc170b2c2f2b42b48c82292550a90d79",
+    "block-threshold-160-renewal-rare-large-seed-1700-stocks.jsonl": "ba83f27d07a72245e9eecd9bf569393cb4a0faca41d783d561860b31ba27a2dd",
+    "block-threshold-160-renewal-rare-large-seed-1701-initial.json": "83fcda50e3c126f365da20cfb55b50f968f052e7b872f44ea8cfc09316df7e20",
+    "block-threshold-160-renewal-rare-large-seed-1701.csv": "6d7a9f86bc3804d9e35a8ee1d88b9562cd2f752464ad151a865c03f7794b4491",
+    "block-threshold-160-renewal-rare-large-seed-1701-stocks.jsonl": "cae85a3377c4f679e05de77f78debba258a31d9dd894e4b9e8eba17ec3c484c1",
+    "block-threshold-160-renewal-rare-large-seed-1702-initial.json": "0131b7092ca06aea4bce6fa4ab48667fcd3e074ea4dcd1492b39639a9d49fd25",
+    "block-threshold-160-renewal-rare-large-seed-1702.csv": "b7ed22bf87fc073d83f18611ae6f0a7c4084bfe12c3ae9e395bca225c2648491",
+    "block-threshold-160-renewal-rare-large-seed-1702-stocks.jsonl": "69c27822b78b89b988d10eabefd77a9d4b1576b96c7a66a93888b3eead479c00",
+    "block-threshold-160-renewal-rare-large-seed-1703-initial.json": "be97b06c50bd19122733720a062a3d2b621b3569364efb1ea7dd98f98efc3e12",
+    "block-threshold-160-renewal-rare-large-seed-1703.csv": "8d58dc70a9569d1d2010c5d19d2f2f7db662a4475bdde29aed33e7fbcc72954b",
+    "block-threshold-160-renewal-rare-large-seed-1703-stocks.jsonl": "324c072c911b3c39894875956a67b8a15ee98d6bde84e4a34f13e82e3803c9fd",
+    "block-threshold-160-renewal-rare-large-seed-1704-initial.json": "6927d878a8857b9d5d66d15343b65f7836a321019b832367af451b6fa3624447",
+    "block-threshold-160-renewal-rare-large-seed-1704.csv": "1f5e489aa235c64425e95f3ba36a5b512cc15d602c978222e8f610cab12a156b",
+    "block-threshold-160-renewal-rare-large-seed-1704-stocks.jsonl": "df0365a0527a9f4c276c36fb453c758d79e1c334698f7607f608d20af119bba3",
+    "block-threshold-160-renewal-rare-large-seed-1705-initial.json": "5c2c391972bd5d346ebdc9053f64e9bc8f2144287191b93f42e5e57cc2f9902e",
+    "block-threshold-160-renewal-rare-large-seed-1705.csv": "b2e15415e7393ccb6d3f7971682e210ab7f71957b1ba26c1c2221626a856f370",
+    "block-threshold-160-renewal-rare-large-seed-1705-stocks.jsonl": "593096d3f4ef7effb57bfad20af79c2920d9f7d26013e13c997947fffdf59d39",
+    "block-threshold-160-renewal-rare-large-seed-1706-initial.json": "c20496a88033703e13b8950ee96889802156e8fef149c79d528384b0a26781c5",
+    "block-threshold-160-renewal-rare-large-seed-1706.csv": "c0df3f4c2d3b037b3d2bbfb6bf8660325971090a4d7f525385b867396d53ca5d",
+    "block-threshold-160-renewal-rare-large-seed-1706-stocks.jsonl": "d3cf9e6ac69d6a0d3545e8548ce412526978f215da16179f02a4d183d587cea3",
+    "block-threshold-160-renewal-rare-large-seed-1707-initial.json": "8a1acace7943f73b675e4fff3d2a3a814b15526e10c4c0aaf8df89f404b45cf0",
+    "block-threshold-160-renewal-rare-large-seed-1707.csv": "b60e2d090d7c3274e332c67aab1b3183c203fe7779c307e49baaa904b44fa626",
+    "block-threshold-160-renewal-rare-large-seed-1707-stocks.jsonl": "1c6d30c264919b483c290c3cf5203824e1b4b5da83c758c5f33da2100e9952f6",
+    "block-threshold-160-renewal-rare-large-seed-1708-initial.json": "390081aa27a9c587cb4325e98b2e19f27559083152dcd0aca3568331ec5a7531",
+    "block-threshold-160-renewal-rare-large-seed-1708.csv": "476382e5e8fa3c16a72d1a20c04fc25676aab0c9290124cd99625d982d3e60b4",
+    "block-threshold-160-renewal-rare-large-seed-1708-stocks.jsonl": "d09f3b6dbb93143efb4fc27e7e72e0a2fe08833b4d1c2bf41003435436470e76",
+    "block-threshold-160-renewal-rare-large-seed-1709-initial.json": "8ca0c9ef65430a944a8ac08ff35ae6ede7371470a67d61472908c24a86396316",
+    "block-threshold-160-renewal-rare-large-seed-1709.csv": "c0412e13542f803c658191eac07de68e5595c4c45b2d169d6a92eac5ba46915c",
+    "block-threshold-160-renewal-rare-large-seed-1709-stocks.jsonl": "4d28c712940fc6f454f0261e4519b8cf56f5b268ca598669deb9baa4f5c74a77"
+  },
+  "metadata_sha256": "b0d182ce7ed87758ca880f6cbb7fcd652eda8d8c7cc873705e0a305d474ded5e",
+  "results_sha256": "3f7725fdfd12b43aceedc9b9461a9853edc59a8dd6557b58808b1b1bd84007eb",
+  "original_verification_sha256": "20a9b2ae8b07d36c4fba7c706dc0b32f9c98fe2ba53cea45238b62a4b845f8ff",
+  "script_sha256": "8a253bf344f791eb0c800854680400ebb2b52d8b8a2dfcf3a1fe093abce4a3df",
+  "scope": "Independent reconstruction of recorded stock histograms, conditional expectations and renewal draws; stored metric boundaries match original prefixes. Does not reconstruct intervening actor paths or certify historical RNG states after initialization. Conditional means do not simulate alternative worlds; partitions are descriptive."
+}

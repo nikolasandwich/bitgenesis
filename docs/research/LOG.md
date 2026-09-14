@@ -2930,3 +2930,12 @@ and adversarial corruption tests for histogram, rational expectation, discarded
 energy and historical metrics. All 179 tests pass. Commit clean source before
 launching the registered 6,000-tick supplementary replay. Interpretation waits for
 complete output and independent verification; formal campaign totals stay unchanged.
+
+
+Executed the registered retrospective cohort from clean source 41b3736 after the
+engineering commit. All sixty worlds completed normally: 6,000 replay ticks and
+6,060 historical metric matches. Independent stdlib verification passes all 6,000
+records and 6,144,000 renewal draws, including full histograms, exact expectations,
+sampled discard and boundary metrics. Saved the complete hash-bound verification
+report. These replay ticks are supplementary and do not change formal campaign
+counts. Descriptive treatment/partition synthesis remains the next step.
