@@ -2788,3 +2788,23 @@ No new browser-interaction claim. Added twenty-campaign packaging support with e
 metric, early-observation and process-report gates. All 170 tests pass. Commit
 clean source before packaging; fresh extraction and remote upload remain separate
 subsequent gates. Historical fixed archives remain immutable.
+
+
+## 2026-09-14 — Autonomous cycle 187
+
+Previous cycle added the twenty-campaign review and launched packaging from clean
+source 58d4c0236fa04ba9b3fa32ef28abcb52cfb6d9d4. Revalidated the original process;
+it completed normally after all archived metric/observation/process gates passed.
+The immutable archive bitgenesis-v0-twenty-campaigns.zip contains 2,323 payload
+files / 149,102,002 bytes, SHA-256
+ec499ac80c301052e8fd3b47e163e2a811defd5d3f80887014758016852a3785.
+
+Expected-hash archive verification passes, including thirteen HTML pages and twenty
+local targets. Extracted into new data/portable-review-20 and reran all three
+campaign-020 reports with archived standard-library scripts and sibling helpers.
+Metrics, early observations and processes match archived JSON exactly, including
+provenance hashes. Saved results/portable-review-020.json and the local checksum
+sidecar. Source CI 34819975721 passed. This establishes file integrity and fresh
+analysis reproduction; fresh runtime installation and remote delivery remain
+separate pending gates. No independent remote redownload or all-campaign rerun
+claim. Existing archives and engine semantics remain unchanged.
