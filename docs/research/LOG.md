@@ -4362,3 +4362,9 @@ Three new tests cover per-site conservation, zero-energy/empty selection, indepe
 Previous turn implemented independently verified material-retaining damage and registered study004 (21982c9), a substantive progress turn. Committed launcherccd130e before execution. Original process5953 exited0 after5/5 prefixes and30/30 branches, each independently audited with its appropriate extraction/damage verifier. No source changes during execution. Exact declared grid and clean launch commit binding checked; archived metadata/results. Runtime unchanged since323 full tests.
 
 Full cohort observation reconstruction, source/configuration/schema checks and25 predeclared recovery contrasts remain pending. Next compare retained-material damage with extraction and sham at fixed thresholds, preserve nulls and report refill separately from material-pattern matching. Completion of execution alone is not evidence of recovery or structural reproduction.
+
+## 2026-09-14 — Autonomous cycle 312
+
+Previous turn completed and archived study004 execution (2b3d2ea), a substantive progress turn. Full verifier95422 exited0 with5 prefix/30 branch reaudits, exact configurations/intervention schemas/source bytes/protocol, matched states/RNG and150 checkpoint observations. Two focused tests pass for three-intervention coverage, missing/duplicate grid and null/refill denominators. Runtime unchanged since323 full tests. Archived full verification and Chinese report.
+
+With formation enabled, material-retaining damage fully refills every patch but matches original labels at1/2,9/16,5/16,7/16,3/16 (mean2/5). Extraction mean match1/10 and refill11/40. Preregistered damage-minus-extraction mean3/10; damage-minus-sham-3/5; formation-under-damage2/5. No chance baseline or ancestry claim. Next paired-state information-loss analysis: determine whether distinct erased patterns produce identical post-damage dynamics before introducing new local recovery mechanisms.
