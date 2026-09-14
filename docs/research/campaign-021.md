@@ -97,4 +97,4 @@
 
 [逐世界结果 CSV](results/campaign-021.csv) · [过程 CSV](results/campaign-021-processes.csv)
 
-当前二十轮固定下载包不含本轮；二十一轮验收页面与完整归档仍待制作。旧下载包与历史协议保持原范围。
+[二十一轮完整验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-decf49e3b2b0f36bdbe2)已包含本轮，固定源码 `9fb1bb3`。新目录解压后的三份报告复算一致，独立安装通过185项测试与千步演示审计。详见[验收入口](REVIEW.zh-CN.md)。旧下载包与历史协议保持原范围。

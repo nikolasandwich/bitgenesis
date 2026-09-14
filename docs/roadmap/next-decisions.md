@@ -222,3 +222,13 @@ all existing releases. Consolidate the evidence and its limits before considerin
 another mechanism experiment; no automatic parameter sweep follows this result.
 V1 remains design only. This completion note supersedes the launch status at the
 registration checkpoint above, without revising the preregistered protocol.
+
+
+## Twenty-one-campaign portable checkpoint delivered
+
+The [current review guide](../research/REVIEW.zh-CN.md) now links the fixed scope-21
+archive from source 9fb1bb3. All three campaign-021 reports reproduce from a fresh
+extraction; the noneditable installation passes 185 tests and the reference demo.
+Remote API sizes and hashes match. This supersedes the pending-package step above.
+Keep future V0 experiments tied to a discriminating prediction; no automatic
+capacity sweep is justified by campaign 021. V1 remains design only.

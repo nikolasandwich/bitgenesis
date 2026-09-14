@@ -4,17 +4,16 @@ Current verified research: twenty-one campaigns / 1,084 executions / 10,040,000 
 ticks, including 24 follow-up executions and 212,000 repeated prefix ticks.
 Use the [current Chinese review guide](REVIEW.zh-CN.md) for the latest instructions.
 
-Latest [twenty-campaign draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-8d064a5f3fad65f69cbf): source `58d4c02`,
-2,323 payload files / 149,102,002 bytes. Fresh extraction reproduced all three
-campaign-020 reports; a new noneditable installation passed 170 tests and a
+Latest [twenty-one-campaign draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-decf49e3b2b0f36bdbe2): source `9fb1bb3`,
+2,975 payload files / 179,498,867 bytes. Fresh extraction reproduced all three
+campaign-021 reports; a new noneditable installation passed 185 tests and a
 1,000-tick demo audit with reference-equivalent records. Remote asset sizes and
-SHA256 values match local files. The separate observation supplement supplies
-campaign-017 retrospective observer data. Older archives remain unchanged.
+SHA256 values match local files by API; no independent remote redownload.
+The separate supplements retain retrospective campaign-017, 019 and 020 records.
+Older archives remain unchanged.
 
-Evidence: [extraction](results/portable-review-020.json), [installation](results/portable-wheel-020.json),
-[remote assets](results/release-020.json), and [source CI](https://github.com/nikolasandwich/bitgenesis/actions/runs/34819975721).
-
-Campaign 021 now has complete metric and early-record verification and a [result report](campaign-021.md). The fixed twenty-campaign archive above does not include it; the twenty-one-campaign package remains pending.
+Evidence: [extraction](results/portable-review-021.json), [installation](results/portable-wheel-021.json),
+[remote assets](results/release-021.json), and [source CI](https://github.com/nikolasandwich/bitgenesis/actions/runs/34825175457).
 
 ## Preserved earlier checkpoint notes
 

@@ -3195,3 +3195,25 @@ dependencies, so no offline installation guarantee is claimed.
 Saved portable-review-021.json and portable-wheel-021.json; archive SHA sidecar is
 local. Remote upload and updated download instructions remain next. This is a
 verified local portable checkpoint, not user acceptance or goal completion.
+
+
+## 2026-09-14 — Autonomous cycle 209
+
+Previous cycle verified the fixed scope-21 archive and fresh installation. Created
+new draft release v0.0.1-preview.13 at source 9fb1bb3, retaining all earlier assets.
+The upload process completed normally. Release 388261318 contains the ZIP and SHA
+sidecar; GitHub API sizes and digests match both local files. ZIP is 179,498,867
+bytes with SHA256 a72916f80bd9b5f4a59842732144dcc09a30bde15ce29dd9d8d3411e27a4e161;
+sidecar is 106 bytes with SHA256
+da85c35819c96c169ae7b54003b0067470270f3fecef0203cc145cc1d6f7cfb9.
+Saved release-021.json. No independent remote download is claimed.
+
+Updated Chinese review/download instructions, acceptance and research index to
+scope 21, with 185 archived tests and exact fresh reports. The mechanism summary
+now includes the completed capacity intervention and its negative registered
+prediction result instead of treating capacity intervention as still untested.
+Kept retrospective supplements separate and old archives immutable. Checked local
+Markdown targets in the six changed navigation/synthesis documents. Runtime and
+experimental results unchanged; no additional simulation or runtime tests needed.
+The user-facing portable checkpoint is delivered, while the autonomous research
+goal remains active and V1 remains design only.
