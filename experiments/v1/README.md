@@ -32,14 +32,12 @@ Audit serialized records without importing the simulation engine:
 python -m bitgenesis.v1.audit data/my-v1-check --output data/my-v1-audit.json
 ```
 
-This checks output hashes, actor membership and timing, individual/world energy
-payments and transfers, event ancestry and mutation support, final population,
-occupancy bounds and summary. It does not yet reconstruct spatial food history,
-or replay random draws. Decision arithmetic and interventions are checked against recorded inputs.
-Rehashed semantic-corruption tests exercise the checks beyond file integrity.
+This checks hashes, energy, ancestry, decisions and spatial resource/movement history.
+Five RNG streams are checked from recorded initial states; initialization and
+mutation RNG are not independently replayed. Rehashed corruption tests exercise
+semantic checks beyond integrity. The registered [pilot-001](pilot-001.md) uses
+these gates before each run is accepted.
 
-The registered [pilot-001](pilot-001.md) awaits its spatial verification gate. Next: spatial verification and the pilot with a fresh
-seed block and bounded configuration grid, then a frozen training/evaluation
-protocol. No V1 scientific campaign is complete. See the
+No V1 scientific campaign is complete. See the
 [world contract](../../docs/design/v1-world-contract.md) and
 [evaluation contract](../../docs/design/v1-evaluation-contract.md).

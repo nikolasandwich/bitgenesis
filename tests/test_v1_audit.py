@@ -26,6 +26,8 @@ class AuditTests(unittest.TestCase):
             run(root, Config(width=5, height=5, founders=8, initial_energy=80), 70210, 20)
             audit(root)
             mutations = [
+                ('steps.jsonl', lambda v: v[0]['actors'][0].__setitem__('blocked', not v[0]['actors'][0]['blocked'])),
+                ('final.json', lambda v: v['lineage'][0].__setitem__('x', (v['lineage'][0]['x'] + 1) % 5)),
                 ('steps.jsonl', lambda v: v[0]['actors'][0].__setitem__('action', (v[0]['actors'][0]['action'] + 1) % 5)),
                 ('steps.jsonl', lambda v: v[0]['actors'][0]['sensed'].__setitem__(0, 999)),
                 ('steps.jsonl', lambda v: v[0]['actors'][0]['inputs'].__setitem__(5, 999)),

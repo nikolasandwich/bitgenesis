@@ -1,6 +1,7 @@
 """Independent serialized V1 ledger/ancestry audit; does not import the engine.
 
-This reconciles recorded transitions, not random draws or spatial food history.
+Includes decision and spatial reconstruction; initialization and mutation RNG
+are not independently replayed.
 """
 import argparse
 from collections import Counter, defaultdict
@@ -8,6 +9,7 @@ from hashlib import sha256
 import json
 from pathlib import Path
 from .decision_audit import check_decision
+from .spatial_audit import reconstruct
 
 
 def require(condition, message):
@@ -155,7 +157,9 @@ def audit(directory):
     require(summary == {'steps': tick_count, 'population': len(alive), 'individuals': len(born),
                         'actor_records': actor_count, 'births': len(born) - c['founders'],
                         'deaths': len(dead), 'total_energy': total}, 'summary mismatch')
-    return {'scope': 'serialized energy ledgers, event ancestry, decision arithmetic, terminal bounds and output hashes; not spatial or RNG replay',
+    spatial = reconstruct(root)
+    return {'scope': 'energy, ancestry, decisions and spatial reconstruction; five RNG streams checked from recorded initial states; initialization and mutation RNG not replayed',
+            **spatial,
             'steps': tick_count, 'actor_records': actor_count, 'individuals': len(born),
             'population': len(alive), 'input_sha256': hashes,
             'metadata_sha256': sha256((root / 'metadata.json').read_bytes()).hexdigest(),
