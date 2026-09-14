@@ -22,3 +22,12 @@ class IntakeOpportunityTests(unittest.TestCase):
         row=self.local()
         for site in row['sites'][1:]:site['food']=24
         self.assertEqual(opportunity(row),dict(expected_intake=Fraction(2),positive_intake_probability=Fraction(1,4)))
+
+    def test_rejects_values_outside_pinned_formula(self):
+        for rate in (-1,0,4,True,8.0):
+            with self.assertRaisesRegex(ValueError,'feeding rate'):opportunity(self.local(),rate)
+        for energy in (True,1.5):
+            row=self.local();row['energy_before_action']=energy
+            with self.assertRaisesRegex(ValueError,'integer'):opportunity(row)
+        row=self.local();row['sites'][1]['occupant_id']=True
+        with self.assertRaisesRegex(ValueError,'occupant'):opportunity(row)

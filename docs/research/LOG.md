@@ -2651,3 +2651,15 @@ The report explicitly conditions on observed local states under the policy's
 uniform-draw distribution, not deterministic saved-PRNG state. Endpoint selection
 precludes naive residual significance or sensory-rescue claims. Published the
 formula and full result, preserving fixed archive contents and formal counts.
+
+## 2026-09-14 — Autonomous cycle 179
+
+Previous cycle added analytical intake opportunity results. Reviewed its domain
+assumptions and found the helper accepted arbitrary feeding rates while the report
+claimed a fixed campaign-019 formula. Added explicit rate/integer/site validation,
+full forty-world grid validation, and hash-verified original configuration checks
+for geometry, basal/movement/feeding/capacity/mutation and founder trait conditions.
+Four focused tests pass, including rejection of inapplicable rates and boolean or
+fractional numeric inputs. Recomputed all 38,471 actions: every per-world result
+matches the earlier report exactly; updated provenance includes original-state
+hashes. This changes validation, not V0 rules or empirical conclusions.

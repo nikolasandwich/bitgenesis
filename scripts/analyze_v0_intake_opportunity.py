@@ -8,9 +8,15 @@ from pathlib import Path
 
 def opportunity(local, feeding_rate=8):
     """Pinned campaign-019: basal 1, move cost 0, trait 250, four unique neighbors."""
+    if type(feeding_rate) is not int or feeding_rate!=8:
+        raise ValueError('This formula requires feeding rate 8')
+    if type(local['energy_before_action']) is not int:
+        raise ValueError('Actor energy must be an integer')
     sites=local['sites']
     if len(sites)!=5 or len({s['position'] for s in sites})!=5 or local['energy_before_action']<1:
         raise ValueError('Expected five distinct sites and positive actor energy')
+    if any(type(s['position']) is not int or not 0<=s['position']<1024 or (s['occupant_id'] is not None and (type(s['occupant_id']) is not int or s['occupant_id']<0)) for s in sites):
+        raise ValueError('Invalid site position or occupant')
     if any(type(s['food']) is not int or not 0<=s['food']<=24 for s in sites):raise ValueError('Invalid food')
     if local['energy_before_action']==1:return dict(expected_intake=Fraction(0),positive_intake_probability=Fraction(0))
     here=min(feeding_rate,sites[0]['food'])
@@ -22,13 +28,24 @@ def opportunity(local, feeding_rate=8):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--input',type=Path,default=Path('data/local-resource-replay-019'))
+    parser.add_argument('--original',type=Path,default=Path('data/campaign-019'))
     parser.add_argument('--output',type=Path,required=True)
     args=parser.parse_args();root=Path(__file__).resolve().parents[1]
     vp=root/'docs/research/results/local-actions-019.json';verified=json.loads(vp.read_text(encoding='utf-8'))
     sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+    fields=('arm','birth_threshold','birth_cost','seed')
+    grid={('block',t,c,s) for t in (40,160) for c in (0,4) for s in range(1600,1610)}
+    if len(verified['results'])!=40 or {tuple(r[k] for k in fields) for r in verified['results']}!=grid:
+        raise ValueError('Expected full campaign-019 grid')
     results=[];hashes={}
     for r in verified['results']:
         prefix=f"block-threshold-{r['birth_threshold']}-birth-cost-{r['birth_cost']}-seed-{r['seed']}"
+        ip=args.original/(prefix+'-initial.json');hashes[ip.name]=sha(ip)
+        if hashes[ip.name]!=verified['input_sha256'][ip.name]:raise ValueError('Verified initial state changed')
+        initial=json.loads(ip.read_text(encoding='utf-8'));config=initial['config']
+        required=dict(width=32,height=32,basal_cost=1,movement_cost=0,feeding_rate=8,food_capacity=24,mutation_probability=0)
+        if any(type(config.get(k)) is not int or config[k]!=v for k,v in required.items()) or any(a['genome']!=250 for a in initial['founders']):
+            raise ValueError('Configuration outside pinned opportunity formula')
         streams={}
         for kind in ('local','energy'):
             p=args.input/f'{prefix}-{kind}.jsonl';hashes[p.name]=sha(p)
