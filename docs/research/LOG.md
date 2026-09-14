@@ -3151,3 +3151,22 @@ Current full test evidence remains 185 passing from cycle 203; this cycle change
 reports and documentation only. Fixed twenty-campaign downloads retain their
 scope. Next prepare the twenty-one-campaign review and fresh-extraction package.
 The autonomous research goal remains active, not user-accepted or complete.
+
+
+## 2026-09-14 — Autonomous cycle 207
+
+Previous cycle published complete campaign-021 results as 26132b3. Extended the
+review builder and archive packager to explicit scope 21 while preserving older
+choices and the default scope 8. The page requires the complete 120-world grid
+and exact agreement with the independent metric report. It displays all twelve
+groups and the complete survival figure, with registered prediction failures and
+capacity/realized-supply interpretation limits.
+
+Generated data/review-v0-21.html; all 20 local targets exist and all twelve table
+rows equal independently verified group results. Page SHA256 is
+1d56f03edeed75e7a58ef7a81aabb9c0f918626ee34c821c352a9e63743f6228.
+Five existing review-grid tests pass; packaging CLI loads. These are static checks,
+not a renewed interactive browser acceptance claim. Packaging now reruns all three
+campaign-021 reports and requires exact agreement, preserving previous gates.
+Commit this source before running the new archive; extraction, installation and
+remote publication remain separate subsequent checks. Old archives are unchanged.

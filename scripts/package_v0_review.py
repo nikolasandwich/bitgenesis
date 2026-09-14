@@ -25,10 +25,10 @@ def sha256(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
-    names = {8: "review-8", 9: "nine-campaigns", 10: "ten-campaigns", 11: "eleven-campaigns", 12: "twelve-campaigns", 13: "thirteen-campaigns", 14: "fourteen-campaigns", 15: "fifteen-campaigns", 16: "sixteen-campaigns", 17: "seventeen-campaigns", 18: "eighteen-campaigns", 19: "nineteen-campaigns", 20: "twenty-campaigns"}
+    names = {8: "review-8", 9: "nine-campaigns", 10: "ten-campaigns", 11: "eleven-campaigns", 12: "twelve-campaigns", 13: "thirteen-campaigns", 14: "fourteen-campaigns", 15: "fifteen-campaigns", 16: "sixteen-campaigns", 17: "seventeen-campaigns", 18: "eighteen-campaigns", 19: "nineteen-campaigns", 20: "twenty-campaigns", 21: "twenty-one-campaigns"}
     args.output = args.output or Path(f"data/bitgenesis-v0-{names[args.campaigns]}.zip")
     if args.output.exists():
         raise ValueError("Review output already exists; choose a new path")
@@ -69,7 +69,8 @@ def main():
                17: "summarize_v0_geometry_threshold.py",
                18: "summarize_v0_movement_charge.py",
                19: "summarize_v0_joint_zero_charge.py",
-               20: "summarize_v0_renewal_granularity.py"}
+               20: "summarize_v0_renewal_granularity.py",
+               21: "summarize_v0_buffer_capacity.py"}
     for number, helper in helpers.items():
         if number > args.campaigns:
             continue
@@ -139,6 +140,27 @@ def main():
                 if actual != expected:
                     raise ValueError('Campaign-020 process report differs from saved review')
                 metric_audits['campaign-020-processes'] = actual
+            if number == 21:
+                expected = json.loads((root / 'docs/research/results/campaign-021-verification.json').read_text(encoding='utf-8'))
+                if metric_audits['campaign-021'] != expected:
+                    raise ValueError('Campaign-021 metric report differs from saved review')
+                observation_output = Path(temporary) / 'observations'
+                subprocess.run([sys.executable, '-S', str(root / 'scripts/verify_v0_buffer_capacity_observations.py'),
+                    '--input', str(root / 'data/campaign-021'), '--metrics-verification', str(summary / 'summary.json'),
+                    '--output', str(observation_output)],check=True,stdout=subprocess.DEVNULL)
+                actual = json.loads((observation_output / 'summary.json').read_text(encoding='utf-8'))
+                expected = json.loads((root / 'docs/research/results/campaign-021-observations.json').read_text(encoding='utf-8'))
+                if actual != expected:
+                    raise ValueError('Campaign-021 observation report differs from saved review')
+                metric_audits['campaign-021-observations'] = actual
+                process_output = Path(temporary) / 'processes'
+                subprocess.run([sys.executable, '-I', '-S', str(root / 'scripts/summarize_v0_buffer_capacity_processes.py'),
+                    '--output', str(process_output)], check=True, stdout=subprocess.DEVNULL)
+                actual = json.loads((process_output / 'summary.json').read_text(encoding='utf-8'))
+                expected = json.loads((root / 'docs/research/results/campaign-021-processes.json').read_text(encoding='utf-8'))
+                if actual != expected:
+                    raise ValueError('Campaign-021 process report differs from saved review')
+                metric_audits['campaign-021-processes'] = actual
 
 
     manifest = {"format": "bitgenesis-review-1", "git_commit": git("rev-parse", "HEAD"),

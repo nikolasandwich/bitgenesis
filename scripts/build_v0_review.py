@@ -30,7 +30,7 @@ def require_followup_records(records, reference, verified):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-root", type=Path, default=Path("data"))
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     args.output = args.output or args.data_root / f"review-v0-{args.campaigns}.html"
@@ -361,6 +361,30 @@ def main():
         renewal_report=link(root/'docs/research/campaign-020.md')
         renewal_section=f'''<section><h2>20 / 相同名义平均补给，不同到达方式</h2><p>十个新种子，每个包含三种补给方式与两种繁殖阈值，共六十个世界。频繁少量、基准、稀疏大量的每格每步名义平均补给均为 0.06；移动和出生直接扣费均为零。</p>{renewal_table}<img src="{renewal_figure}" alt="全部六十个世界，三个面板区分补给方式；圆点为灭绝，三角为万步右删失，颜色区分繁殖阈值。" style="width:100%;height:auto"><p>低阈值下，稀疏大量与基准既有仅前者存活，也有仅后者存活的种子，未形成每个种子都受益的排序。高阈值三组全部存活。</p><p class="small">资源容量和摄食上限使实际供给并不相同，不能把差异解释为纯波动效应。所有世界均继续计算至一万步，灭绝后的补给不代表供应给活种群。<a href="{renewal_report}">完整配对结果、实际供给与摄食检查点及早期过程核验</a>。十九轮固定下载包尚未包含本轮。</p></section>'''
         page=page.replace('<section><h2>复核与恢复</h2>',renewal_section+'<section><h2>复核与恢复</h2>')
+    if args.campaigns >= 21:
+        records=campaigns[20]
+        labels={'frequent-small':'频繁少量','reference':'基准','rare-large':'稀疏大量'}
+        treatments=[f'{t}-{n}-{c}' for t in (40,160) for n in labels for c in (24,96)]
+        require_run_grid([{**r,'treatment':f"{r['birth_threshold']}-{r['renewal']}-{r['food_capacity']}"} for r in records],treatments,range(1800,1810))
+        root=Path(__file__).resolve().parents[1]
+        verification=json.loads((root/'docs/research/results/campaign-021-verification.json').read_text(encoding='utf-8'))
+        key=lambda r:(r['arm'],r['birth_threshold'],r['renewal'],r['food_capacity'],r['seed'])
+        if sorted(records,key=key)!=sorted(verification['runs'],key=key):
+            raise ValueError('Buffer-capacity records differ from independent verification')
+        capacity_rows=[]
+        for threshold in (40,160):
+            for renewal,label in labels.items():
+                for capacity in (24,96):
+                    selected=[r for r in records if (r['birth_threshold'],r['renewal'],r['food_capacity'])==(threshold,renewal,capacity)]
+                    capacity_rows.append([threshold,label,capacity,
+                        f"{sum(r['population_at_500']>0 for r in selected)}/10",
+                        f"{sum(r['population_at_5000']>0 for r in selected)}/10",
+                        f"{sum(r['population']>0 for r in selected)}/10"])
+        capacity_table=table(['繁殖阈值','补给方式','容量','活到 500 步','活到 5,000 步','活到 10,000 步'],capacity_rows)
+        capacity_figure=link(root/'docs/research/figures/campaign-021-survival.png')
+        capacity_report=link(root/'docs/research/campaign-021.md')
+        capacity_section=f'''<section><h2>21 / 更大的容量，没有一致改善存活</h2><p>十个新种子，每个包含两种容量、两种繁殖阈值与三种补给方式，共120个世界。容量从24增至96，初始食物仍为同一地图上的5,120单位，初始个体与随机状态保持配对。</p>{capacity_table}<img src="{capacity_figure}" alt="全部120个世界的容量配对结局；六个面板区分阈值与补给方式，颜色区分容量，圆点为灭绝，三角为万步右删失。" style="width:100%;height:auto"><p>低阈值下，三种补给方式的大容量净配对存活优势为 +1、−2、−4，未支持预登记的三组均为正的预测。三组均存在仅小容量存活的种子。高阈值的六十个世界全部活到观察终点。</p><p class="small">增加容量会改变储存、摄食与后续轨迹，不能把结果单独归因为容量损耗。灭绝后的补给与生存期间补给分开记录；终点存活不表示永久存活。<a href="{capacity_report}">全部配对结局、资源窗口与独立核验</a>。二十轮固定下载包不含本轮。</p></section>'''
+        page=page.replace('<section><h2>复核与恢复</h2>',capacity_section+'<section><h2>复核与恢复</h2>')
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x", encoding="utf-8") as stream:
         stream.write(page)
