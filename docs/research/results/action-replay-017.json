@@ -1,0 +1,409 @@
+{
+  "replay_source": "41144b692d99c3694e63f530feca686ef7085511",
+  "runs": 40,
+  "partitioned_ticks": 4000,
+  "results": [
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1400,
+      "basal_deaths": 98,
+      "movement_payment_deaths": 24,
+      "total_deaths": 122,
+      "feeding_sha256": "ba1661ada68510f58a448e4a73ff88896f1da733b6fa8a7b1cb075c35f948abb",
+      "terminal_sha256": "cd1fc123bb61c36120c3bad0cb8151ba9f50ba55137fcb632bf195c9422fac8d"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1401,
+      "basal_deaths": 100,
+      "movement_payment_deaths": 18,
+      "total_deaths": 118,
+      "feeding_sha256": "f52ce59c76ce951b959d9fa451fee1c6726a53a09aae9ed6ab18f657f76ebffa",
+      "terminal_sha256": "ae2416f6602c457c7bce48e85b9a31ce30fe8d4b3b0b15a9b8cac9736741eb76"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1402,
+      "basal_deaths": 94,
+      "movement_payment_deaths": 19,
+      "total_deaths": 113,
+      "feeding_sha256": "771ea86a8f63a3b411d35c246848366bc5cc993b013901ea9c1cfe4f2cafb15c",
+      "terminal_sha256": "87b68982568bea15e6e24e259f1a74ed44cecc41856b3de859d4d38c56f3707c"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1403,
+      "basal_deaths": 91,
+      "movement_payment_deaths": 20,
+      "total_deaths": 111,
+      "feeding_sha256": "9c1bf69a5b66bf86b3631be5d4dded28c2a0807cef4b1d94cd23ab2f22012b18",
+      "terminal_sha256": "ef8d06aed89a1cc767bc05b789758f22458caa28efcb03511fe5c9c1dd6215e3"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1404,
+      "basal_deaths": 84,
+      "movement_payment_deaths": 25,
+      "total_deaths": 109,
+      "feeding_sha256": "14b688402a3d44e5843abf7082ad68449859f684f97d87771b5a870481fc4fc8",
+      "terminal_sha256": "aa33337f1053e4465d794331afaf96db00d563bbfefee5d79e86f982105332f6"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1405,
+      "basal_deaths": 96,
+      "movement_payment_deaths": 13,
+      "total_deaths": 109,
+      "feeding_sha256": "6496fa95d9ae6fc6d840ee6bc564406c2582fcaecd2220dde87bfdcb82fdd3de",
+      "terminal_sha256": "f9c0808c0088dda7159dde47eb15e15a89b8edda095fadf8894e611b17050a7f"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1406,
+      "basal_deaths": 101,
+      "movement_payment_deaths": 28,
+      "total_deaths": 129,
+      "feeding_sha256": "f85ccc8d9c897a51540abccb603d934e5892c899cbaf4c8e45c21cfbc69d4090",
+      "terminal_sha256": "3b12f745334986dde0cd7f83979be76b80b26c590791e44e2c3d6efd553c9eed"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1407,
+      "basal_deaths": 83,
+      "movement_payment_deaths": 25,
+      "total_deaths": 108,
+      "feeding_sha256": "6b6291cdf7455c0e9c0bb20c0b3482994eddb9ea608938d533a8f463f678c65a",
+      "terminal_sha256": "5faa0655cd64bbc7d9dfe2d6e52abd6169165977bc0a9e5f627183b23b0ae716"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1408,
+      "basal_deaths": 80,
+      "movement_payment_deaths": 28,
+      "total_deaths": 108,
+      "feeding_sha256": "ecf8b9e11cf9457e378b7e37a60b2dae3b1ab08ddb57812cf204d4556ea11c5d",
+      "terminal_sha256": "76ed5fb8ace8cb14fe84f6c69f5f97d8a2e1e8b3f25c9788912d34056222152f"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1409,
+      "basal_deaths": 85,
+      "movement_payment_deaths": 28,
+      "total_deaths": 113,
+      "feeding_sha256": "0487dd225b904cfb65339e2c6432c07e9a8ed96dc44f569a545776d93a9c8b21",
+      "terminal_sha256": "a74b99f56cdc7b5902854f656cc85ce2cfc301082db8153d52e762a095939b8e"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1400,
+      "basal_deaths": 64,
+      "movement_payment_deaths": 9,
+      "total_deaths": 73,
+      "feeding_sha256": "702141fdbd1d8478a338b7c29d44b29548fc1881721eecfd71f553e565422e22",
+      "terminal_sha256": "dece1ab12d3ec3adb64d3718d75ed7e21961fb662ce9da34f629c51c8b12d6e7"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1401,
+      "basal_deaths": 52,
+      "movement_payment_deaths": 18,
+      "total_deaths": 70,
+      "feeding_sha256": "5656e34ced2bd9bd78ae472639a2ddd4e27f9cd0ad2f1454c9f1266bce17c47b",
+      "terminal_sha256": "e52162f5964a5fe981ac217dede3a76ca5300f7229030cab6a01618e7b043527"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1402,
+      "basal_deaths": 52,
+      "movement_payment_deaths": 19,
+      "total_deaths": 71,
+      "feeding_sha256": "9ad8979571e80c40829bebed6047552c56d4e6a66736495cce862264ced38bba",
+      "terminal_sha256": "befd5bca35406aaac947940a03a100c4fda73da89da08bb66f6dc01f2b440e9c"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1403,
+      "basal_deaths": 52,
+      "movement_payment_deaths": 13,
+      "total_deaths": 65,
+      "feeding_sha256": "a67fef18fc2595fe82a512c475d2f9ce38b0e5def7f72d64b73ee81f6b708293",
+      "terminal_sha256": "815ff156fad6f589ba93aafe60fa627616f5071f5b61004224ed74ea903f2ccd"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1404,
+      "basal_deaths": 54,
+      "movement_payment_deaths": 10,
+      "total_deaths": 64,
+      "feeding_sha256": "7c26b0cf8a452ffd8786ca75078d89f45ab97fe201ece9a2d97456c2a64c8d99",
+      "terminal_sha256": "caff0aa647e643c36c0e2ff4822e14f92c1004f3515e64abeb7dc57a6d865cf8"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1405,
+      "basal_deaths": 50,
+      "movement_payment_deaths": 18,
+      "total_deaths": 68,
+      "feeding_sha256": "743d26aed8ad7d76ec8db53992298522c7141de6b8d5973fcf7140a1083d9a5c",
+      "terminal_sha256": "9ce71f4a255f0c8e3c19e0505bc70f0aca266b546723d3b48a183d04148e44e2"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1406,
+      "basal_deaths": 50,
+      "movement_payment_deaths": 13,
+      "total_deaths": 63,
+      "feeding_sha256": "986d336cdd6ab31349ddaa0b535e718f8e9cb490d9b2eb85b234d5581bb08ee9",
+      "terminal_sha256": "5bc2219f5b69aaf0c0872798068bb12813df0ef16260c152b652a57f4ff8fb59"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1407,
+      "basal_deaths": 46,
+      "movement_payment_deaths": 18,
+      "total_deaths": 64,
+      "feeding_sha256": "4faff0c40648af7ce3e0211bf68d13eef062b4df31a987e4c6c33b8b6e82aad0",
+      "terminal_sha256": "3cd41634db40acfdaaf0d151da882d71f10c41f065f7d86a866896fe647a2135"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1408,
+      "basal_deaths": 51,
+      "movement_payment_deaths": 17,
+      "total_deaths": 68,
+      "feeding_sha256": "7ffa347b3c5f771c6c8688065e73f806e6db41b82d7ac1e9b35701d96e9c9cad",
+      "terminal_sha256": "db82a4a4517e85091779b69a6a36bfde80b87a2f258005d2d6525f941fc98b6a"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1409,
+      "basal_deaths": 49,
+      "movement_payment_deaths": 11,
+      "total_deaths": 60,
+      "feeding_sha256": "bc1b0fdcf6e3e7eada687ddfe674d241978240fb1f2ac0af05ff64d24b5769b0",
+      "terminal_sha256": "e9d5ca17b35a32d9e179de2630d63fc3dd240fa60db951678e935670932872c0"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1400,
+      "basal_deaths": 145,
+      "movement_payment_deaths": 41,
+      "total_deaths": 186,
+      "feeding_sha256": "a852c6df3c1981714bca44d390d88eeaf452e9abc9f9a8cc00d72ec4e61ba90b",
+      "terminal_sha256": "092bd79b3a812b17b6c0f5962d2ee7afa336ba795ec52f9ee83ec5e18e140979"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1401,
+      "basal_deaths": 162,
+      "movement_payment_deaths": 36,
+      "total_deaths": 198,
+      "feeding_sha256": "31dca542a575d28185f02fd35a0852d8f092ed804a968307b07df39e53f736a4",
+      "terminal_sha256": "223f3fde551538e05cb8c3b89a3106445768ca7ed0c5aed66c5cec841b74c462"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1402,
+      "basal_deaths": 135,
+      "movement_payment_deaths": 40,
+      "total_deaths": 175,
+      "feeding_sha256": "8e0fd4496543d9eca2f1795165e020daa1c4ed91cd8a55b59a27f48bc2851745",
+      "terminal_sha256": "632182181d70d4e9b295e6131bd475789d2e974b9914f2b7cda4d974f9a80d01"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1403,
+      "basal_deaths": 148,
+      "movement_payment_deaths": 33,
+      "total_deaths": 181,
+      "feeding_sha256": "c2f64aa11d872413ced28eec8a6c125811b332a563ef1d0ad485c7f0d8dda378",
+      "terminal_sha256": "ea760beb987accfa2d3d8913c234722740ed593d99b597df86f692ce20d42061"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1404,
+      "basal_deaths": 152,
+      "movement_payment_deaths": 41,
+      "total_deaths": 193,
+      "feeding_sha256": "0c6ba7e11ffeaa6cf0408383a96f7ef05fa907624e85b5edec768418099cc72b",
+      "terminal_sha256": "58a72d9f71afe2cc23736a9112bbfb4b34e8ee14006d4408c28c39ed187981bd"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1405,
+      "basal_deaths": 132,
+      "movement_payment_deaths": 41,
+      "total_deaths": 173,
+      "feeding_sha256": "8f56d0da309e86542cae213df7d4ca7e93b0bfc4306285750095fc739fce6ee9",
+      "terminal_sha256": "cbc8c823ced0d6b0aa501773fc8ad874a7f70dc054f95f85adf158fc900bb15d"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1406,
+      "basal_deaths": 141,
+      "movement_payment_deaths": 38,
+      "total_deaths": 179,
+      "feeding_sha256": "0ae9d98fd6770a29be9151e0e9f1a1b07f57a985951ec596afb977e065bd7ed7",
+      "terminal_sha256": "41a0fb7b6101f755b5ac9473b42e01bfc0fc5a095d7772d46a8b312b115d5312"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1407,
+      "basal_deaths": 144,
+      "movement_payment_deaths": 51,
+      "total_deaths": 195,
+      "feeding_sha256": "96e8bdb6942c5b19fe3a8d2a7b921234e669e74490432264e47370f31102d9ad",
+      "terminal_sha256": "3f99b180b9f48614701c55033d6f1b00f7fe4abf5c28f187abc29e35ca9b7b93"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1408,
+      "basal_deaths": 149,
+      "movement_payment_deaths": 47,
+      "total_deaths": 196,
+      "feeding_sha256": "0f9688d63fe844745f6db16f96cf045cd766ce3414a34a5377266723075aab27",
+      "terminal_sha256": "5de9f6527bbe539b67bdf528c0ba235f95cc54f8cb3ebe9c7ff170ad6466c534"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1409,
+      "basal_deaths": 161,
+      "movement_payment_deaths": 36,
+      "total_deaths": 197,
+      "feeding_sha256": "3805e9d759095cb47394981684ef50c18493c8799d53d9204d1824a65e44e413",
+      "terminal_sha256": "b2dddafed620bb51d4936657dfb24f0e4342e71af5eb3bf471775c05ebdbef32"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1400,
+      "basal_deaths": 55,
+      "movement_payment_deaths": 12,
+      "total_deaths": 67,
+      "feeding_sha256": "2e4ac3d3af5da02c897ba3b468a8d58a9fa0f768a5e3b174afb6a516dc1bbddf",
+      "terminal_sha256": "a78a02ed2a80d7fa4848e18a0ee1d5814b6e2f318691b8db049a7104885639e2"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1401,
+      "basal_deaths": 54,
+      "movement_payment_deaths": 13,
+      "total_deaths": 67,
+      "feeding_sha256": "02d6b5cd0b53f04d2ddfc3b929ceb336f8eb25bc93019c8d74f97cae4b804cae",
+      "terminal_sha256": "b97cbfa0d9118fc2e8191e99a4aa0cd8704a186a8cf2ad0522264e11d6e06548"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1402,
+      "basal_deaths": 52,
+      "movement_payment_deaths": 14,
+      "total_deaths": 66,
+      "feeding_sha256": "491f1988f4a37065bcf20540f82a7e9cf2b44761d9da1c700373c69371ee9d92",
+      "terminal_sha256": "311d073d72cc521764356b9400d56250120561a29a3e9aff4143f86f78947b21"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1403,
+      "basal_deaths": 46,
+      "movement_payment_deaths": 13,
+      "total_deaths": 59,
+      "feeding_sha256": "c25ee41f8ea7d5673b4f4fce9a7fbe502e78b4d643dd0698337a4f33cd9ea6c6",
+      "terminal_sha256": "4ddc4718c779aa7b381145de143445eba9ad03341556c0304e24c6e81f09721a"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1404,
+      "basal_deaths": 51,
+      "movement_payment_deaths": 15,
+      "total_deaths": 66,
+      "feeding_sha256": "49c84f12cdd743e2200fadd4263a9e855dc145b6462789f9efb369875f77a0b9",
+      "terminal_sha256": "8110ee9ec8e176e19c5380aeb2dc803c26f83ca857cf92a9f58c793fbac7e0f4"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1405,
+      "basal_deaths": 52,
+      "movement_payment_deaths": 13,
+      "total_deaths": 65,
+      "feeding_sha256": "38b23631176aa1646db29b7ab367270bb165b4e56d552e95b3b4842997f524ba",
+      "terminal_sha256": "244fe6fecc3da51afb6cbc2664d0336efb28d48afa024b38c272f388b3dc57bc"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1406,
+      "basal_deaths": 46,
+      "movement_payment_deaths": 12,
+      "total_deaths": 58,
+      "feeding_sha256": "9d6f3223188d774b209e9fbddef186935a01e6a6448f03eb4186e687709cbc93",
+      "terminal_sha256": "e0d271ee17b5a9b20a8ca088e9806da6b1987e56d400c0ce77ab7af5f1283f4c"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1407,
+      "basal_deaths": 51,
+      "movement_payment_deaths": 13,
+      "total_deaths": 64,
+      "feeding_sha256": "cbe6867bfca50de1b89703bb231a8b2c2ae39ca81c4f08d3407bde09ee27498e",
+      "terminal_sha256": "cc8f7eab592efc0bb85282ed574c46f0a44b7af82d336c81a91f0263f8909dfa"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1408,
+      "basal_deaths": 50,
+      "movement_payment_deaths": 9,
+      "total_deaths": 59,
+      "feeding_sha256": "0ac8eeb092ed6e125acad1ea09924160e11e5a3b89170bd6513850b229d1a319",
+      "terminal_sha256": "a4c74a39005c15d520427fe3c3f34a370caeb2553e1d78ad9ef5465184d82dc2"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1409,
+      "basal_deaths": 55,
+      "movement_payment_deaths": 16,
+      "total_deaths": 71,
+      "feeding_sha256": "16b0d1df0323897a5a7106e9fe08eeccb2cea24514d6155a069b682f4ed12564",
+      "terminal_sha256": "7af8f4fb95d8272c3bec9493766cd7affa888f9e181849b298a50461336ecca5"
+    }
+  ],
+  "scope": "Historical ID/lifecycle reconstruction and pinned-cost death phases; feeding bytes match prior verified observations. Not independent individual-path reference or a causal mechanism test.",
+  "script_sha256": "8206f40738907a9f447f422e4f0b317cd69105a2e58102c4986e8edbb13d0828"
+}

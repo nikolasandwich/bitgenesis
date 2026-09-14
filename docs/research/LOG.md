@@ -1978,3 +1978,11 @@ partition every pre-tick living population without duplicates. Outputs remain
 new-only and include hashes for both streams. This extends the same all-forty,
 first-hundred-tick replay, not the formal experiment count. Source is committed
 before execution; old feeding-only datasets remain unchanged.
+
+Complete-action replay finished from clean source 41144b6. All 4,040 original
+metric rows match, and feeding JSONL bytes equal prior schema-3 files. Independent
+readback reconstructs all active IDs from founders/children/deaths through 4,000
+ticks, with exact stream partition and original birth/death/population accounting.
+It validates 3,413 basal and 908 movement-payment terminal records under the
+fixed unit costs. Saved all-world verification, hashes and scope. Counts denote
+execution phases, not independent observations or a causal death attribution.

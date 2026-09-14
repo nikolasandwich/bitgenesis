@@ -128,3 +128,27 @@ phases automatically. A new writer/output and independent readback are needed
 before reporting all-action movement fractions. This extension identifies the
 terminal execution phase, not a biological cause such as starvation or a causal
 effect of movement. The engine's state and rules remain unchanged.
+
+## Complete early actor accounting
+
+A new historical writer stores both streams under `data/action-replay-017/`.
+Replay source `41144b6` matches all 4,040 original metric rows. The feeding stream
+is byte-identical to the prior schema-3 stream for every world. Independent
+readback starts from founder IDs 0–79 and reconstructs each tick's active IDs
+from actual child IDs and terminal records; every active ID belongs to exactly
+one stream, for all 4,000 observed transitions. Birth/death/population totals
+match the original metrics at every tick, and newborns join only the next tick's
+action population.
+
+There are 3,413 basal-payment and 908 movement-payment terminal records across
+these prefixes. These pooled counts describe execution phases, not independent
+death samples or counterfactual causes. The fixed unit-cost check expects energy
+one before a basal death and two before a movement-payment death. It also checks
+unchanged death position, since destination choice follows surviving movement
+payment. [All-world checks and hashes](../research/results/action-replay-017.json).
+
+Reproduce with `python -I -S scripts/verify_v0_action_replay.py --output data/new-action-check`.
+These replayed observations do not increase the formal campaign count and remain
+outside the fixed seventeen-campaign archive. Earlier conditional movement
+fractions retain their original definitions; this dataset permits a separate
+analysis with all attempted-movement phases included.
