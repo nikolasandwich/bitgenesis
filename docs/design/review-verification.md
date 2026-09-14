@@ -142,3 +142,18 @@ fixtures are also covered. Both the fixed seventeen-campaign archive (1,260 file
 pass this stricter verifier with their separately recorded whole-archive hashes.
 This changes the current helper only; the immutable archived helpers keep their
 original behavior. No extraction or scientific reanalysis is part of this check.
+
+## Eighteen-campaign build
+
+`python scripts/package_v0_review.py --campaigns 18` adds the complete campaign-018
+raw directory and `data/review-v0-18.html`. Its helper validates all 800,080 metric
+rows and initial pairings, then the early-observation checker reconstructs the
+397,140 actor energy records and recorded movement outcomes. Both complete reports
+must equal the tracked reference reports before the archive is written.
+
+This complete formal-campaign package includes campaign-018 early observations,
+but excludes campaign-017 retrospective observer directories. Those are available
+in the separate [revision-2 observation supplement](observation-supplement.md).
+Tracked source and reports may refer to either dataset; the manifest states the
+actual payload scope. Build, fresh extraction, installation and remote upload
+remain distinct checks. Older fixed archives are never overwritten.
