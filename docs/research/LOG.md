@@ -2975,3 +2975,19 @@ hash checked. Linked figure with Chinese interpretation in the observation repor
 The existing 181-test result remains the latest runtime test evidence; no runtime
 code changed in this visualization-only cycle. Raw observation delivery as a
 separate reproducible supplement remains pending; fixed archives are unchanged.
+
+
+## 2026-09-14 — Autonomous cycle 197
+
+Previous cycle visualized all sixty loss comparisons. Added a separate renewal-stock
+supplement packager retaining tracked source plus original campaign 020 and its
+registered stock replay. Seven exact-report gates cover original metrics, early
+observations/processes, supply-window decomposition, capacity calibration, stock
+verification and stock summary. Fresh dependent summaries use freshly generated
+verification reports. Archive manifest/checksum and stored-file verification reuse
+the existing safe review format; old archives are unchanged.
+
+Added the extraction/reanalysis guide with seven explicit stdlib commands and
+limits on source snapshots, raw-data scope and runtime/replay claims. CLI loads
+and diff checks pass. Commit clean source before packaging. Actual archive,
+fresh extracted verification and remote delivery remain separate subsequent gates.
