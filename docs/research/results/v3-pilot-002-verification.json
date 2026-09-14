@@ -1,0 +1,3622 @@
+{
+  "runs": 40,
+  "cells": [
+    {
+      "feeding": 8,
+      "renewal": 30,
+      "recycling": 1,
+      "populations": [
+        4,
+        5,
+        2,
+        1,
+        0
+      ],
+      "births": [
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      "surviving_worlds": 4,
+      "usable": false
+    },
+    {
+      "feeding": 8,
+      "renewal": 30,
+      "recycling": 0,
+      "populations": [
+        4,
+        2,
+        2,
+        1,
+        0
+      ],
+      "births": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "surviving_worlds": 4,
+      "usable": false
+    },
+    {
+      "feeding": 8,
+      "renewal": 60,
+      "recycling": 1,
+      "populations": [
+        4,
+        8,
+        3,
+        2,
+        0
+      ],
+      "births": [
+        1,
+        5,
+        0,
+        0,
+        0
+      ],
+      "surviving_worlds": 4,
+      "usable": false
+    },
+    {
+      "feeding": 8,
+      "renewal": 60,
+      "recycling": 0,
+      "populations": [
+        5,
+        3,
+        2,
+        1,
+        0
+      ],
+      "births": [
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "surviving_worlds": 4,
+      "usable": false
+    },
+    {
+      "feeding": 16,
+      "renewal": 30,
+      "recycling": 1,
+      "populations": [
+        9,
+        9,
+        2,
+        5,
+        1
+      ],
+      "births": [
+        6,
+        6,
+        0,
+        3,
+        0
+      ],
+      "surviving_worlds": 5,
+      "usable": false
+    },
+    {
+      "feeding": 16,
+      "renewal": 30,
+      "recycling": 0,
+      "populations": [
+        6,
+        5,
+        3,
+        3,
+        1
+      ],
+      "births": [
+        3,
+        2,
+        1,
+        2,
+        0
+      ],
+      "surviving_worlds": 5,
+      "usable": false
+    },
+    {
+      "feeding": 16,
+      "renewal": 60,
+      "recycling": 1,
+      "populations": [
+        15,
+        15,
+        3,
+        6,
+        1
+      ],
+      "births": [
+        11,
+        12,
+        0,
+        4,
+        0
+      ],
+      "surviving_worlds": 5,
+      "usable": false
+    },
+    {
+      "feeding": 16,
+      "renewal": 60,
+      "recycling": 0,
+      "populations": [
+        9,
+        8,
+        7,
+        4,
+        1
+      ],
+      "births": [
+        6,
+        5,
+        4,
+        2,
+        0
+      ],
+      "surviving_worlds": 5,
+      "usable": false
+    }
+  ],
+  "selected": null,
+  "paired_contrasts": [
+    {
+      "factor": "feeding",
+      "fixed": 30,
+      "recycling": 1,
+      "seed": 87000,
+      "population_difference": 5,
+      "birth_difference": 5
+    },
+    {
+      "factor": "feeding",
+      "fixed": 60,
+      "recycling": 1,
+      "seed": 87000,
+      "population_difference": 11,
+      "birth_difference": 10
+    },
+    {
+      "factor": "renewal",
+      "fixed": 8,
+      "recycling": 1,
+      "seed": 87000,
+      "population_difference": 0,
+      "birth_difference": 0
+    },
+    {
+      "factor": "renewal",
+      "fixed": 16,
+      "recycling": 1,
+      "seed": 87000,
+      "population_difference": 6,
+      "birth_difference": 5
+    },
+    {
+      "factor": "feeding",
+      "fixed": 30,
+      "recycling": 1,
+      "seed": 87001,
+      "population_difference": 4,
+      "birth_difference": 4
+    },
+    {
+      "factor": "feeding",
+      "fixed": 60,
+      "recycling": 1,
+      "seed": 87001,
+      "population_difference": 7,
+      "birth_difference": 7
+    },
+    {
+      "factor": "renewal",
+      "fixed": 8,
+      "recycling": 1,
+      "seed": 87001,
+      "population_difference": 3,
+      "birth_difference": 3
+    },
+    {
+      "factor": "renewal",
+      "fixed": 16,
+      "recycling": 1,
+      "seed": 87001,
+      "population_difference": 6,
+      "birth_difference": 6
+    },
+    {
+      "factor": "feeding",
+      "fixed": 30,
+      "recycling": 1,
+      "seed": 87002,
+      "population_difference": 0,
+      "birth_difference": 0
+    },
+    {
+      "factor": "feeding",
+      "fixed": 60,
+      "recycling": 1,
+      "seed": 87002,
+      "population_difference": 0,
+      "birth_difference": 0
+    },
+    {
+      "factor": "renewal",
+      "fixed": 8,
+      "recycling": 1,
+      "seed": 87002,
+      "population_difference": 1,
+      "birth_difference": 0
+    },
+    {
+      "factor": "renewal",
+      "fixed": 16,
+      "recycling": 1,
+      "seed": 87002,
+      "population_difference": 1,
+      "birth_difference": 0
+    },
+    {
+      "factor": "feeding",
+      "fixed": 30,
+      "recycling": 1,
+      "seed": 87003,
+      "population_difference": 4,
+      "birth_difference": 3
+    },
+    {
+      "factor": "feeding",
+      "fixed": 60,
+      "recycling": 1,
+      "seed": 87003,
+      "population_difference": 4,
+      "birth_difference": 4
+    },
+    {
+      "factor": "renewal",
+      "fixed": 8,
+      "recycling": 1,
+      "seed": 87003,
+      "population_difference": 1,
+      "birth_difference": 0
+    },
+    {
+      "factor": "renewal",
+      "fixed": 16,
+      "recycling": 1,
+      "seed": 87003,
+      "population_difference": 1,
+      "birth_difference": 1
+    },
+    {
+      "factor": "feeding",
+      "fixed": 30,
+      "recycling": 1,
+      "seed": 87004,
+      "population_difference": 1,
+      "birth_difference": 0
+    },
+    {
+      "factor": "feeding",
+      "fixed": 60,
+      "recycling": 1,
+      "seed": 87004,
+      "population_difference": 1,
+      "birth_difference": 0
+    },
+    {
+      "factor": "renewal",
+      "fixed": 8,
+      "recycling": 1,
+      "seed": 87004,
+      "population_difference": 0,
+      "birth_difference": 0
+    },
+    {
+      "factor": "renewal",
+      "fixed": 16,
+      "recycling": 1,
+      "seed": 87004,
+      "population_difference": 0,
+      "birth_difference": 0
+    },
+    {
+      "factor": "feeding",
+      "fixed": 30,
+      "recycling": 0,
+      "seed": 87000,
+      "population_difference": 2,
+      "birth_difference": 2
+    },
+    {
+      "factor": "feeding",
+      "fixed": 60,
+      "recycling": 0,
+      "seed": 87000,
+      "population_difference": 4,
+      "birth_difference": 4
+    },
+    {
+      "factor": "renewal",
+      "fixed": 8,
+      "recycling": 0,
+      "seed": 87000,
+      "population_difference": 1,
+      "birth_difference": 1
+    },
+    {
+      "factor": "renewal",
+      "fixed": 16,
+      "recycling": 0,
+      "seed": 87000,
+      "population_difference": 3,
+      "birth_difference": 3
+    },
+    {
+      "factor": "feeding",
+      "fixed": 30,
+      "recycling": 0,
+      "seed": 87001,
+      "population_difference": 3,
+      "birth_difference": 2
+    },
+    {
+      "factor": "feeding",
+      "fixed": 60,
+      "recycling": 0,
+      "seed": 87001,
+      "population_difference": 5,
+      "birth_difference": 4
+    },
+    {
+      "factor": "renewal",
+      "fixed": 8,
+      "recycling": 0,
+      "seed": 87001,
+      "population_difference": 1,
+      "birth_difference": 1
+    },
+    {
+      "factor": "renewal",
+      "fixed": 16,
+      "recycling": 0,
+      "seed": 87001,
+      "population_difference": 3,
+      "birth_difference": 3
+    },
+    {
+      "factor": "feeding",
+      "fixed": 30,
+      "recycling": 0,
+      "seed": 87002,
+      "population_difference": 1,
+      "birth_difference": 1
+    },
+    {
+      "factor": "feeding",
+      "fixed": 60,
+      "recycling": 0,
+      "seed": 87002,
+      "population_difference": 5,
+      "birth_difference": 4
+    },
+    {
+      "factor": "renewal",
+      "fixed": 8,
+      "recycling": 0,
+      "seed": 87002,
+      "population_difference": 0,
+      "birth_difference": 0
+    },
+    {
+      "factor": "renewal",
+      "fixed": 16,
+      "recycling": 0,
+      "seed": 87002,
+      "population_difference": 4,
+      "birth_difference": 3
+    },
+    {
+      "factor": "feeding",
+      "fixed": 30,
+      "recycling": 0,
+      "seed": 87003,
+      "population_difference": 2,
+      "birth_difference": 2
+    },
+    {
+      "factor": "feeding",
+      "fixed": 60,
+      "recycling": 0,
+      "seed": 87003,
+      "population_difference": 3,
+      "birth_difference": 2
+    },
+    {
+      "factor": "renewal",
+      "fixed": 8,
+      "recycling": 0,
+      "seed": 87003,
+      "population_difference": 0,
+      "birth_difference": 0
+    },
+    {
+      "factor": "renewal",
+      "fixed": 16,
+      "recycling": 0,
+      "seed": 87003,
+      "population_difference": 1,
+      "birth_difference": 0
+    },
+    {
+      "factor": "feeding",
+      "fixed": 30,
+      "recycling": 0,
+      "seed": 87004,
+      "population_difference": 1,
+      "birth_difference": 0
+    },
+    {
+      "factor": "feeding",
+      "fixed": 60,
+      "recycling": 0,
+      "seed": 87004,
+      "population_difference": 1,
+      "birth_difference": 0
+    },
+    {
+      "factor": "renewal",
+      "fixed": 8,
+      "recycling": 0,
+      "seed": 87004,
+      "population_difference": 0,
+      "birth_difference": 0
+    },
+    {
+      "factor": "renewal",
+      "fixed": 16,
+      "recycling": 0,
+      "seed": 87004,
+      "population_difference": 0,
+      "birth_difference": 0
+    }
+  ],
+  "scope": "viability calibration; recycling changes retained environmental energy",
+  "checks": [
+    {
+      "directory": "feeding-8-renewal-30-seed-87000-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 3856,
+          "feedings": 3854,
+          "resource_flows": {
+            "external_a": 15295,
+            "consumed_a": 13770,
+            "consumed_b": 5863,
+            "released_b": 7336,
+            "feeding_energy": 8596,
+            "feeding_dissipation": 3701
+          },
+          "output_sha256": {
+            "initial.json": "521480e0b895dbeccf89df229ff95fc4215b77624be7f64676ad3897b34a2777",
+            "steps.jsonl": "b4571d831f81d1c9125b9b04aeed0c8ba79ebfea05f09f96a2048537d60f2edf",
+            "events.jsonl": "bb90bbae5b15d5989d3bf4c9f06ce8e6cd7f8a7d7de2c8826df22312c187b73b",
+            "final.json": "9b1a1e5960eed2a10fbc88098bbd45421e2bc5f4f417f8aeafcaf92de69e0e6f",
+            "summary.json": "475c469353cf9b953ad7b9148722d6581792c956a17c14c7fd57e6954521a93c"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 3854,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 4,
+          "individuals": 6,
+          "actor_records": 3856,
+          "births": 1,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 33,
+          "failed_attempts": 27,
+          "construction_cost": 9337,
+          "failure_loss": 8845,
+          "deaths": 2,
+          "total_energy": 9254,
+          "resource_flows": {
+            "external_a": 15295,
+            "consumed_a": 13770,
+            "consumed_b": 5863,
+            "released_b": 7336,
+            "feeding_energy": 8596,
+            "feeding_dissipation": 3701
+          },
+          "remaining_a": 4597,
+          "remaining_b": 1473
+        },
+        "construction_audit": {
+          "attempts": 33,
+          "construction_cost": 9337,
+          "failure_loss": 8845,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "521480e0b895dbeccf89df229ff95fc4215b77624be7f64676ad3897b34a2777",
+          "final.json": "9b1a1e5960eed2a10fbc88098bbd45421e2bc5f4f417f8aeafcaf92de69e0e6f",
+          "steps.jsonl": "b4571d831f81d1c9125b9b04aeed0c8ba79ebfea05f09f96a2048537d60f2edf",
+          "events.jsonl": "bb90bbae5b15d5989d3bf4c9f06ce8e6cd7f8a7d7de2c8826df22312c187b73b",
+          "summary.json": "475c469353cf9b953ad7b9148722d6581792c956a17c14c7fd57e6954521a93c"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-30-seed-87000-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 3943,
+          "feedings": 3941,
+          "resource_flows": {
+            "external_a": 18020,
+            "consumed_a": 17259,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 8076,
+            "feeding_dissipation": 9183
+          },
+          "output_sha256": {
+            "initial.json": "521480e0b895dbeccf89df229ff95fc4215b77624be7f64676ad3897b34a2777",
+            "steps.jsonl": "4497fe9f8396cb1035041562d7afa2531a77948919e32c79e74f82d8d99663a8",
+            "events.jsonl": "a5d638ebced4f63ffdf7d8f72a16d20ecb3540ada11992985b5ecc713b63a470",
+            "final.json": "afc1e26d52845def2d8e4a28f550fd949ba710ed784e303168368f1bcce5ee43",
+            "summary.json": "015bba696bcab7ee175cadff0026e39a28efb0a6de47861c956f74220d4d0106"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 3941,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 4,
+          "individuals": 6,
+          "actor_records": 3943,
+          "births": 1,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 33,
+          "failed_attempts": 27,
+          "construction_cost": 9405,
+          "failure_loss": 8845,
+          "deaths": 2,
+          "total_energy": 6255,
+          "resource_flows": {
+            "external_a": 18020,
+            "consumed_a": 17259,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 8076,
+            "feeding_dissipation": 9183
+          },
+          "remaining_a": 3833,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 33,
+          "construction_cost": 9405,
+          "failure_loss": 8845,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "521480e0b895dbeccf89df229ff95fc4215b77624be7f64676ad3897b34a2777",
+          "final.json": "afc1e26d52845def2d8e4a28f550fd949ba710ed784e303168368f1bcce5ee43",
+          "steps.jsonl": "4497fe9f8396cb1035041562d7afa2531a77948919e32c79e74f82d8d99663a8",
+          "events.jsonl": "a5d638ebced4f63ffdf7d8f72a16d20ecb3540ada11992985b5ecc713b63a470",
+          "summary.json": "015bba696bcab7ee175cadff0026e39a28efb0a6de47861c956f74220d4d0106"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-30-seed-87001-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 4099,
+          "feedings": 4097,
+          "resource_flows": {
+            "external_a": 16954,
+            "consumed_a": 16002,
+            "consumed_b": 6695,
+            "released_b": 8069,
+            "feeding_energy": 10693,
+            "feeding_dissipation": 3935
+          },
+          "output_sha256": {
+            "initial.json": "478ad834238208b152976a28e5ad3e34522a4dbce518b448013371cdb05bd4cb",
+            "steps.jsonl": "8a27fe52e60a9a0f602036bf07860b2d457726b31475a24d7663410d5fe5c020",
+            "events.jsonl": "5811237ddefd7c9cf5da11d374f32da4e54f0a9d4870eb9066181f5c710d3f49",
+            "final.json": "db8d386058228f2afcb374c315fa6612471880d4e9f6a9bcd84a5a8b60c74faa",
+            "summary.json": "25a4be4bf56e67880d0bad76cf5f048617b2fb3885b01e02bb509e29c654146e"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 4097,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 5,
+          "individuals": 7,
+          "actor_records": 4099,
+          "births": 2,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 34,
+          "failed_attempts": 27,
+          "construction_cost": 8412,
+          "failure_loss": 10245,
+          "deaths": 2,
+          "total_energy": 9717,
+          "resource_flows": {
+            "external_a": 16954,
+            "consumed_a": 16002,
+            "consumed_b": 6695,
+            "released_b": 8069,
+            "feeding_energy": 10693,
+            "feeding_dissipation": 3935
+          },
+          "remaining_a": 4024,
+          "remaining_b": 1374
+        },
+        "construction_audit": {
+          "attempts": 34,
+          "construction_cost": 8412,
+          "failure_loss": 10245,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "478ad834238208b152976a28e5ad3e34522a4dbce518b448013371cdb05bd4cb",
+          "final.json": "db8d386058228f2afcb374c315fa6612471880d4e9f6a9bcd84a5a8b60c74faa",
+          "steps.jsonl": "8a27fe52e60a9a0f602036bf07860b2d457726b31475a24d7663410d5fe5c020",
+          "events.jsonl": "5811237ddefd7c9cf5da11d374f32da4e54f0a9d4870eb9066181f5c710d3f49",
+          "summary.json": "25a4be4bf56e67880d0bad76cf5f048617b2fb3885b01e02bb509e29c654146e"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-30-seed-87001-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 2879,
+          "feedings": 2876,
+          "resource_flows": {
+            "external_a": 14134,
+            "consumed_a": 11884,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 5856,
+            "feeding_dissipation": 6028
+          },
+          "output_sha256": {
+            "initial.json": "478ad834238208b152976a28e5ad3e34522a4dbce518b448013371cdb05bd4cb",
+            "steps.jsonl": "da3ebce7f15eb291a4b3a61d6ba8adc6be39ebb13841052b4e4ae3f31ec9abcd",
+            "events.jsonl": "2a84db04d40024dfb99a5f146d423ed301af43c54720e810e598b69f9d7b38d8",
+            "final.json": "1badd7de94ab690150ad8515caff629fae938b5eec8bb034ebb9e922df7a165d",
+            "summary.json": "90b2846cfc2dcef6ff8b523d5af806801c9dc5c38e1302c9392aa0fd6cdf7573"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 2876,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 2,
+          "individuals": 5,
+          "actor_records": 2879,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 32,
+          "failed_attempts": 27,
+          "construction_cost": 8059,
+          "failure_loss": 10245,
+          "deaths": 3,
+          "total_energy": 7597,
+          "resource_flows": {
+            "external_a": 14134,
+            "consumed_a": 11884,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 5856,
+            "feeding_dissipation": 6028
+          },
+          "remaining_a": 5322,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 8059,
+          "failure_loss": 10245,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "478ad834238208b152976a28e5ad3e34522a4dbce518b448013371cdb05bd4cb",
+          "final.json": "1badd7de94ab690150ad8515caff629fae938b5eec8bb034ebb9e922df7a165d",
+          "steps.jsonl": "da3ebce7f15eb291a4b3a61d6ba8adc6be39ebb13841052b4e4ae3f31ec9abcd",
+          "events.jsonl": "2a84db04d40024dfb99a5f146d423ed301af43c54720e810e598b69f9d7b38d8",
+          "summary.json": "90b2846cfc2dcef6ff8b523d5af806801c9dc5c38e1302c9392aa0fd6cdf7573"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-30-seed-87002-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 2460,
+          "feedings": 2458,
+          "resource_flows": {
+            "external_a": 9656,
+            "consumed_a": 7346,
+            "consumed_b": 1804,
+            "released_b": 3685,
+            "feeding_energy": 4410,
+            "feeding_dissipation": 1055
+          },
+          "output_sha256": {
+            "initial.json": "9670e4b32316a661d498256e21380156d0e2cc24feec9ebebc35999f2d195aa7",
+            "steps.jsonl": "64deea0d3d8d4f724c7c8e3bfcb680d87bbc412b545b1fe60e24b1a77248bf48",
+            "events.jsonl": "43f407b8e245f332be77b42e3251268bf8c18380990107ae634378ddba22cf82",
+            "final.json": "1a2ee3df74f73cc8367bc1014f81bc66d31d5e31b9c16f371ef353b017f1d1f6",
+            "summary.json": "b3e6ff72aada177bbdeded7bdd81f7cf459867493e731d0bec37e37109670861"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 2458,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 2,
+          "individuals": 4,
+          "actor_records": 2460,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 4,
+          "attempts": 32,
+          "failed_attempts": 28,
+          "construction_cost": 10471,
+          "failure_loss": 8715,
+          "deaths": 2,
+          "total_energy": 8048,
+          "resource_flows": {
+            "external_a": 9656,
+            "consumed_a": 7346,
+            "consumed_b": 1804,
+            "released_b": 3685,
+            "feeding_energy": 4410,
+            "feeding_dissipation": 1055
+          },
+          "remaining_a": 5382,
+          "remaining_b": 1881
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 10471,
+          "failure_loss": 8715,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "9670e4b32316a661d498256e21380156d0e2cc24feec9ebebc35999f2d195aa7",
+          "final.json": "1a2ee3df74f73cc8367bc1014f81bc66d31d5e31b9c16f371ef353b017f1d1f6",
+          "steps.jsonl": "64deea0d3d8d4f724c7c8e3bfcb680d87bbc412b545b1fe60e24b1a77248bf48",
+          "events.jsonl": "43f407b8e245f332be77b42e3251268bf8c18380990107ae634378ddba22cf82",
+          "summary.json": "b3e6ff72aada177bbdeded7bdd81f7cf459867493e731d0bec37e37109670861"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-30-seed-87002-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 2285,
+          "feedings": 2283,
+          "resource_flows": {
+            "external_a": 11286,
+            "consumed_a": 9508,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 4667,
+            "feeding_dissipation": 4841
+          },
+          "output_sha256": {
+            "initial.json": "9670e4b32316a661d498256e21380156d0e2cc24feec9ebebc35999f2d195aa7",
+            "steps.jsonl": "113e1f871e37b7651d291edeb16835f3f0a51c43214c4001062eadf8c84c45e7",
+            "events.jsonl": "2095bb930f30ffbaf568d6de1aa4862b9197cc51b9eb4791767a97dd70b25ffb",
+            "final.json": "e40178ca574019385c4d279a79fb3f1976417c4a2c17ec5e585f4c4605152f68",
+            "summary.json": "5bd1702391073a3b073ebcd3ba9fad34c3c023ba4a7508597b126312bff57b25"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 2283,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 2,
+          "individuals": 4,
+          "actor_records": 2285,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 4,
+          "attempts": 32,
+          "failed_attempts": 28,
+          "construction_cost": 10471,
+          "failure_loss": 8715,
+          "deaths": 2,
+          "total_energy": 6242,
+          "resource_flows": {
+            "external_a": 11286,
+            "consumed_a": 9508,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 4667,
+            "feeding_dissipation": 4841
+          },
+          "remaining_a": 4850,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 10471,
+          "failure_loss": 8715,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "9670e4b32316a661d498256e21380156d0e2cc24feec9ebebc35999f2d195aa7",
+          "final.json": "e40178ca574019385c4d279a79fb3f1976417c4a2c17ec5e585f4c4605152f68",
+          "steps.jsonl": "113e1f871e37b7651d291edeb16835f3f0a51c43214c4001062eadf8c84c45e7",
+          "events.jsonl": "2095bb930f30ffbaf568d6de1aa4862b9197cc51b9eb4791767a97dd70b25ffb",
+          "summary.json": "5bd1702391073a3b073ebcd3ba9fad34c3c023ba4a7508597b126312bff57b25"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-30-seed-87003-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 1690,
+          "feedings": 1689,
+          "resource_flows": {
+            "external_a": 9858,
+            "consumed_a": 7277,
+            "consumed_b": 1783,
+            "released_b": 4236,
+            "feeding_energy": 3420,
+            "feeding_dissipation": 1404
+          },
+          "output_sha256": {
+            "initial.json": "c2d38d412a64db95dc9b6758c0efa58b5ad03f5e3e4605d967cdd5865cd04617",
+            "steps.jsonl": "3357fdccfb651e8397ccb95204378b269b10fa968ab0120d444c677bb221589d",
+            "events.jsonl": "72ae0a96795e98118d14381bed07202322c188ebca01d10eba436c5604aa0e41",
+            "final.json": "4e199a4cd3a4a6a4b897e8512c037975879e42c90855c674c9c32fce97e4ee1e",
+            "summary.json": "e8f1f83eda6487ca40aba35f9ab65100d4a7d5224e04adaea7345308ea7f4cfb"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 1689,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 1,
+          "individuals": 2,
+          "actor_records": 1690,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 2,
+          "attempts": 32,
+          "failed_attempts": 30,
+          "construction_cost": 10468,
+          "failure_loss": 9015,
+          "deaths": 1,
+          "total_energy": 9144,
+          "resource_flows": {
+            "external_a": 9858,
+            "consumed_a": 7277,
+            "consumed_b": 1783,
+            "released_b": 4236,
+            "feeding_energy": 3420,
+            "feeding_dissipation": 1404
+          },
+          "remaining_a": 5653,
+          "remaining_b": 2453
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 10468,
+          "failure_loss": 9015,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "c2d38d412a64db95dc9b6758c0efa58b5ad03f5e3e4605d967cdd5865cd04617",
+          "final.json": "4e199a4cd3a4a6a4b897e8512c037975879e42c90855c674c9c32fce97e4ee1e",
+          "steps.jsonl": "3357fdccfb651e8397ccb95204378b269b10fa968ab0120d444c677bb221589d",
+          "events.jsonl": "72ae0a96795e98118d14381bed07202322c188ebca01d10eba436c5604aa0e41",
+          "summary.json": "e8f1f83eda6487ca40aba35f9ab65100d4a7d5224e04adaea7345308ea7f4cfb"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-30-seed-87003-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 1379,
+          "feedings": 1378,
+          "resource_flows": {
+            "external_a": 9525,
+            "consumed_a": 7034,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 2923,
+            "feeding_dissipation": 4111
+          },
+          "output_sha256": {
+            "initial.json": "c2d38d412a64db95dc9b6758c0efa58b5ad03f5e3e4605d967cdd5865cd04617",
+            "steps.jsonl": "682c66a04a816269d73996a219c8597caba288c5440899a4771948fcadf9c117",
+            "events.jsonl": "87cbce60479039d201803c050d3738ec6fa225206cd3d6b6ea5650ef8091adbf",
+            "final.json": "89bac1cf3bc5c9953f100f13ccf3c8f98ecf61faf5e05bb379ed9df00b008785",
+            "summary.json": "2687917f76abf85efcc1f63dd233dc0da9602d2b2ef13489b699f333730d60b8"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 1378,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 1,
+          "individuals": 2,
+          "actor_records": 1379,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 2,
+          "attempts": 32,
+          "failed_attempts": 30,
+          "construction_cost": 10468,
+          "failure_loss": 9015,
+          "deaths": 1,
+          "total_energy": 6725,
+          "resource_flows": {
+            "external_a": 9525,
+            "consumed_a": 7034,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 2923,
+            "feeding_dissipation": 4111
+          },
+          "remaining_a": 5563,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 10468,
+          "failure_loss": 9015,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "c2d38d412a64db95dc9b6758c0efa58b5ad03f5e3e4605d967cdd5865cd04617",
+          "final.json": "89bac1cf3bc5c9953f100f13ccf3c8f98ecf61faf5e05bb379ed9df00b008785",
+          "steps.jsonl": "682c66a04a816269d73996a219c8597caba288c5440899a4771948fcadf9c117",
+          "events.jsonl": "87cbce60479039d201803c050d3738ec6fa225206cd3d6b6ea5650ef8091adbf",
+          "summary.json": "2687917f76abf85efcc1f63dd233dc0da9602d2b2ef13489b699f333730d60b8"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-30-seed-87004-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 1058,
+          "feedings": 1055,
+          "resource_flows": {
+            "external_a": 4377,
+            "consumed_a": 1305,
+            "consumed_b": 583,
+            "released_b": 777,
+            "feeding_energy": 528,
+            "feeding_dissipation": 583
+          },
+          "output_sha256": {
+            "initial.json": "af49ce89558c36fc2e029b407246cda844f0541f8155833640dccaa3782d1496",
+            "steps.jsonl": "b2d02a97aac1ebb225df3fde491239a082296027cdaabe6e2777d5df52fd1a6b",
+            "events.jsonl": "bb96ba8ec1a81dc40bee59ab54b80072500c6c4f2bda72f280d3c7cd86227fb3",
+            "final.json": "97c85c06bac710aef31d0082555dae1116b956258960d93118218a26dbf94caa",
+            "summary.json": "85e89f40da6da580410fc6622583e781e75f5e7fe367dc44457806bb1294823f"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 1055,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 0,
+          "individuals": 3,
+          "actor_records": 1058,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 3,
+          "attempts": 32,
+          "failed_attempts": 29,
+          "construction_cost": 9328,
+          "failure_loss": 9565,
+          "deaths": 3,
+          "total_energy": 6338,
+          "resource_flows": {
+            "external_a": 4377,
+            "consumed_a": 1305,
+            "consumed_b": 583,
+            "released_b": 777,
+            "feeding_energy": 528,
+            "feeding_dissipation": 583
+          },
+          "remaining_a": 6144,
+          "remaining_b": 194
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 9328,
+          "failure_loss": 9565,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "af49ce89558c36fc2e029b407246cda844f0541f8155833640dccaa3782d1496",
+          "final.json": "97c85c06bac710aef31d0082555dae1116b956258960d93118218a26dbf94caa",
+          "steps.jsonl": "b2d02a97aac1ebb225df3fde491239a082296027cdaabe6e2777d5df52fd1a6b",
+          "events.jsonl": "bb96ba8ec1a81dc40bee59ab54b80072500c6c4f2bda72f280d3c7cd86227fb3",
+          "summary.json": "85e89f40da6da580410fc6622583e781e75f5e7fe367dc44457806bb1294823f"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-30-seed-87004-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 1060,
+          "feedings": 1057,
+          "resource_flows": {
+            "external_a": 4385,
+            "consumed_a": 1313,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 532,
+            "feeding_dissipation": 781
+          },
+          "output_sha256": {
+            "initial.json": "af49ce89558c36fc2e029b407246cda844f0541f8155833640dccaa3782d1496",
+            "steps.jsonl": "115a0f375adcdb58b25f8e20093cdb2e02de3c12d4afdfcfa00346c460c23143",
+            "events.jsonl": "625f625d1e1216753fde9dd6dfba0a5a60708db43e4740f98f995297e25131ec",
+            "final.json": "4df36deec1385772d891bdcf271022ef313362124777bbac9d9b97b6ceb60aaf",
+            "summary.json": "d381a88e044d9560c4996c4be83c6640f42022455684cef80dd3d29ff967d658"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 1057,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 0,
+          "individuals": 3,
+          "actor_records": 1060,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 3,
+          "attempts": 32,
+          "failed_attempts": 29,
+          "construction_cost": 9328,
+          "failure_loss": 9565,
+          "deaths": 3,
+          "total_energy": 6144,
+          "resource_flows": {
+            "external_a": 4385,
+            "consumed_a": 1313,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 532,
+            "feeding_dissipation": 781
+          },
+          "remaining_a": 6144,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 9328,
+          "failure_loss": 9565,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "af49ce89558c36fc2e029b407246cda844f0541f8155833640dccaa3782d1496",
+          "final.json": "4df36deec1385772d891bdcf271022ef313362124777bbac9d9b97b6ceb60aaf",
+          "steps.jsonl": "115a0f375adcdb58b25f8e20093cdb2e02de3c12d4afdfcfa00346c460c23143",
+          "events.jsonl": "625f625d1e1216753fde9dd6dfba0a5a60708db43e4740f98f995297e25131ec",
+          "summary.json": "d381a88e044d9560c4996c4be83c6640f42022455684cef80dd3d29ff967d658"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-60-seed-87000-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 4007,
+          "feedings": 4005,
+          "resource_flows": {
+            "external_a": 18025,
+            "consumed_a": 15781,
+            "consumed_b": 6187,
+            "released_b": 7643,
+            "feeding_energy": 9603,
+            "feeding_dissipation": 4722
+          },
+          "output_sha256": {
+            "initial.json": "521480e0b895dbeccf89df229ff95fc4215b77624be7f64676ad3897b34a2777",
+            "steps.jsonl": "81db34fce3a3586763996a5de6d8f71e83fc6f9d7a31e020b7007ccfd8607124",
+            "events.jsonl": "512d947949f13e0aa75303f526adc3377595d97f8c308cc53438635a0c43f10c",
+            "final.json": "39c8e485d36cbe2110f635b81fd98541de5b5db756e024cdda46f87b0be5390d",
+            "summary.json": "10dffdd25e3a6d9ed20c84caaa86346763a3d54c0e2d964b3d9e5102682ae87f"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 4005,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 4,
+          "individuals": 6,
+          "actor_records": 4007,
+          "births": 1,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 33,
+          "failed_attempts": 27,
+          "construction_cost": 9337,
+          "failure_loss": 8845,
+          "deaths": 2,
+          "total_energy": 10659,
+          "resource_flows": {
+            "external_a": 18025,
+            "consumed_a": 15781,
+            "consumed_b": 6187,
+            "released_b": 7643,
+            "feeding_energy": 9603,
+            "feeding_dissipation": 4722
+          },
+          "remaining_a": 5316,
+          "remaining_b": 1456
+        },
+        "construction_audit": {
+          "attempts": 33,
+          "construction_cost": 9337,
+          "failure_loss": 8845,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "521480e0b895dbeccf89df229ff95fc4215b77624be7f64676ad3897b34a2777",
+          "final.json": "39c8e485d36cbe2110f635b81fd98541de5b5db756e024cdda46f87b0be5390d",
+          "steps.jsonl": "81db34fce3a3586763996a5de6d8f71e83fc6f9d7a31e020b7007ccfd8607124",
+          "events.jsonl": "512d947949f13e0aa75303f526adc3377595d97f8c308cc53438635a0c43f10c",
+          "summary.json": "10dffdd25e3a6d9ed20c84caaa86346763a3d54c0e2d964b3d9e5102682ae87f"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-60-seed-87000-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 4249,
+          "feedings": 4247,
+          "resource_flows": {
+            "external_a": 22181,
+            "consumed_a": 20523,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 9681,
+            "feeding_dissipation": 10842
+          },
+          "output_sha256": {
+            "initial.json": "521480e0b895dbeccf89df229ff95fc4215b77624be7f64676ad3897b34a2777",
+            "steps.jsonl": "92fc25f2825767d562c54dfc819b1c598a8ac492b388577fd4a4408e8076c4f4",
+            "events.jsonl": "a898def8ffef71091d30c4db9ddf068570c74d25750f3297ecea7c054a18f174",
+            "final.json": "6d471f96983353e9e7f1b6649d2faed59217c982894ecef4d7ba0c9bbefc3e94",
+            "summary.json": "ce47538ad7634010be3462cf1f3242b6467518947d125ea80fd3f4e758fb3123"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 4247,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 5,
+          "individuals": 7,
+          "actor_records": 4249,
+          "births": 2,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 34,
+          "failed_attempts": 27,
+          "construction_cost": 9616,
+          "failure_loss": 8845,
+          "deaths": 2,
+          "total_energy": 7933,
+          "resource_flows": {
+            "external_a": 22181,
+            "consumed_a": 20523,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 9681,
+            "feeding_dissipation": 10842
+          },
+          "remaining_a": 4730,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 34,
+          "construction_cost": 9616,
+          "failure_loss": 8845,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "521480e0b895dbeccf89df229ff95fc4215b77624be7f64676ad3897b34a2777",
+          "final.json": "6d471f96983353e9e7f1b6649d2faed59217c982894ecef4d7ba0c9bbefc3e94",
+          "steps.jsonl": "92fc25f2825767d562c54dfc819b1c598a8ac492b388577fd4a4408e8076c4f4",
+          "events.jsonl": "a898def8ffef71091d30c4db9ddf068570c74d25750f3297ecea7c054a18f174",
+          "summary.json": "ce47538ad7634010be3462cf1f3242b6467518947d125ea80fd3f4e758fb3123"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-60-seed-87001-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 4497,
+          "feedings": 4495,
+          "resource_flows": {
+            "external_a": 21142,
+            "consumed_a": 19652,
+            "consumed_b": 7998,
+            "released_b": 9917,
+            "feeding_energy": 13135,
+            "feeding_dissipation": 4598
+          },
+          "output_sha256": {
+            "initial.json": "478ad834238208b152976a28e5ad3e34522a4dbce518b448013371cdb05bd4cb",
+            "steps.jsonl": "ac6f08f0ebc29297bdf084a21f790b4799e328b19470e174532294e442bc4b16",
+            "events.jsonl": "bbcce18711a460a50a11f68f19b9f7f092e0b0e344abbbc5e2a484f3cfbce247",
+            "final.json": "fc4567cb519f3b473892ae4c337913ca76f3fae75056ee60b2160fc2f2b2476b",
+            "summary.json": "e10285d3151196d77325cc71c17bc6bcb2499406802dda8317f76ceeb4cdaa58"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 4495,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 8,
+          "individuals": 10,
+          "actor_records": 4497,
+          "births": 5,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 37,
+          "failed_attempts": 27,
+          "construction_cost": 8836,
+          "failure_loss": 10245,
+          "deaths": 2,
+          "total_energy": 12023,
+          "resource_flows": {
+            "external_a": 21142,
+            "consumed_a": 19652,
+            "consumed_b": 7998,
+            "released_b": 9917,
+            "feeding_energy": 13135,
+            "feeding_dissipation": 4598
+          },
+          "remaining_a": 4562,
+          "remaining_b": 1919
+        },
+        "construction_audit": {
+          "attempts": 37,
+          "construction_cost": 8836,
+          "failure_loss": 10245,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "478ad834238208b152976a28e5ad3e34522a4dbce518b448013371cdb05bd4cb",
+          "final.json": "fc4567cb519f3b473892ae4c337913ca76f3fae75056ee60b2160fc2f2b2476b",
+          "steps.jsonl": "ac6f08f0ebc29297bdf084a21f790b4799e328b19470e174532294e442bc4b16",
+          "events.jsonl": "bbcce18711a460a50a11f68f19b9f7f092e0b0e344abbbc5e2a484f3cfbce247",
+          "summary.json": "e10285d3151196d77325cc71c17bc6bcb2499406802dda8317f76ceeb4cdaa58"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-60-seed-87001-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 2987,
+          "feedings": 2984,
+          "resource_flows": {
+            "external_a": 15517,
+            "consumed_a": 13011,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 6431,
+            "feeding_dissipation": 6580
+          },
+          "output_sha256": {
+            "initial.json": "478ad834238208b152976a28e5ad3e34522a4dbce518b448013371cdb05bd4cb",
+            "steps.jsonl": "fefffad80bbf183bd4d577a9db8353a002b779880fde3f5d7de55c7eb9b38e7d",
+            "events.jsonl": "76a21a8249e0f5e3d35c14629884011cbd66f28ca5f0ed947b751b38c913b858",
+            "final.json": "4b0ca70bd2419d86eae1801c627969085e62a7a4084767ccec56a52b76e19a73",
+            "summary.json": "7623fdcf46997de93d9273c5eebd1b2090caf4a2136a3f494990287172463a55"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 2984,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 3,
+          "individuals": 6,
+          "actor_records": 2987,
+          "births": 1,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 33,
+          "failed_attempts": 27,
+          "construction_cost": 8130,
+          "failure_loss": 10245,
+          "deaths": 3,
+          "total_energy": 8141,
+          "resource_flows": {
+            "external_a": 15517,
+            "consumed_a": 13011,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 6431,
+            "feeding_dissipation": 6580
+          },
+          "remaining_a": 5578,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 33,
+          "construction_cost": 8130,
+          "failure_loss": 10245,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "478ad834238208b152976a28e5ad3e34522a4dbce518b448013371cdb05bd4cb",
+          "final.json": "4b0ca70bd2419d86eae1801c627969085e62a7a4084767ccec56a52b76e19a73",
+          "steps.jsonl": "fefffad80bbf183bd4d577a9db8353a002b779880fde3f5d7de55c7eb9b38e7d",
+          "events.jsonl": "76a21a8249e0f5e3d35c14629884011cbd66f28ca5f0ed947b751b38c913b858",
+          "summary.json": "7623fdcf46997de93d9273c5eebd1b2090caf4a2136a3f494990287172463a55"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-60-seed-87002-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 3060,
+          "feedings": 3059,
+          "resource_flows": {
+            "external_a": 12441,
+            "consumed_a": 10098,
+            "consumed_b": 3722,
+            "released_b": 4155,
+            "feeding_energy": 6416,
+            "feeding_dissipation": 3249
+          },
+          "output_sha256": {
+            "initial.json": "9670e4b32316a661d498256e21380156d0e2cc24feec9ebebc35999f2d195aa7",
+            "steps.jsonl": "c320dfe17652dab41c887bc4aa7daff804b5e7c7987e02754f601c15017ee86e",
+            "events.jsonl": "fbc6c7858c76308104aab355a9354a102819d5e81f9e9111927217228abe7d2b",
+            "final.json": "15d5538f02240a7cb3da969a8f133889e97fd63320f810604f21e2fc5d138b4f",
+            "summary.json": "b39747ccc4e6b70cca1f8e70302b7dcbbdc2dac19ff4b8ac73019ab3a11adbcd"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 3059,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 3,
+          "individuals": 4,
+          "actor_records": 3060,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 4,
+          "attempts": 32,
+          "failed_attempts": 28,
+          "construction_cost": 10471,
+          "failure_loss": 8715,
+          "deaths": 1,
+          "total_energy": 7439,
+          "resource_flows": {
+            "external_a": 12441,
+            "consumed_a": 10098,
+            "consumed_b": 3722,
+            "released_b": 4155,
+            "feeding_energy": 6416,
+            "feeding_dissipation": 3249
+          },
+          "remaining_a": 5415,
+          "remaining_b": 433
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 10471,
+          "failure_loss": 8715,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "9670e4b32316a661d498256e21380156d0e2cc24feec9ebebc35999f2d195aa7",
+          "final.json": "15d5538f02240a7cb3da969a8f133889e97fd63320f810604f21e2fc5d138b4f",
+          "steps.jsonl": "c320dfe17652dab41c887bc4aa7daff804b5e7c7987e02754f601c15017ee86e",
+          "events.jsonl": "fbc6c7858c76308104aab355a9354a102819d5e81f9e9111927217228abe7d2b",
+          "summary.json": "b39747ccc4e6b70cca1f8e70302b7dcbbdc2dac19ff4b8ac73019ab3a11adbcd"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-60-seed-87002-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 2333,
+          "feedings": 2331,
+          "resource_flows": {
+            "external_a": 13266,
+            "consumed_a": 10844,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 5292,
+            "feeding_dissipation": 5552
+          },
+          "output_sha256": {
+            "initial.json": "9670e4b32316a661d498256e21380156d0e2cc24feec9ebebc35999f2d195aa7",
+            "steps.jsonl": "973969cd7ed089d5196067410737f56b295a6624e43f6389b4a5c1a3874be2ae",
+            "events.jsonl": "209bf238219e1870623583e655dd82798c5b36119b28ead5c55d137972353c4e",
+            "final.json": "e7255119356dee604211f01155078f0cb3c0f97efc77ae63a93c0df95b1241c4",
+            "summary.json": "c192b66817b3c7df4fb700f3088dc60ed8e91de3ca57e108e90c19fea85b1110"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 2331,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 2,
+          "individuals": 4,
+          "actor_records": 2333,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 4,
+          "attempts": 32,
+          "failed_attempts": 28,
+          "construction_cost": 10471,
+          "failure_loss": 8715,
+          "deaths": 2,
+          "total_energy": 7414,
+          "resource_flows": {
+            "external_a": 13266,
+            "consumed_a": 10844,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 5292,
+            "feeding_dissipation": 5552
+          },
+          "remaining_a": 5494,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 10471,
+          "failure_loss": 8715,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "9670e4b32316a661d498256e21380156d0e2cc24feec9ebebc35999f2d195aa7",
+          "final.json": "e7255119356dee604211f01155078f0cb3c0f97efc77ae63a93c0df95b1241c4",
+          "steps.jsonl": "973969cd7ed089d5196067410737f56b295a6624e43f6389b4a5c1a3874be2ae",
+          "events.jsonl": "209bf238219e1870623583e655dd82798c5b36119b28ead5c55d137972353c4e",
+          "summary.json": "c192b66817b3c7df4fb700f3088dc60ed8e91de3ca57e108e90c19fea85b1110"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-60-seed-87003-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 2000,
+          "feedings": 2000,
+          "resource_flows": {
+            "external_a": 11749,
+            "consumed_a": 9074,
+            "consumed_b": 2855,
+            "released_b": 5410,
+            "feeding_energy": 4607,
+            "feeding_dissipation": 1912
+          },
+          "output_sha256": {
+            "initial.json": "c2d38d412a64db95dc9b6758c0efa58b5ad03f5e3e4605d967cdd5865cd04617",
+            "steps.jsonl": "7f1cc93b7a5d99180c7d7b9b2c8bf056e96da43cf88ff15f89f9945fbe85ab8f",
+            "events.jsonl": "ac54ef589ab227c510d30a1cf0483ecefa0163e59b528a89235d86536067f655",
+            "final.json": "ba83133c8dddcf5871e0006b45f101a7b4d70c1b29d5da1d8065e249980e5bb8",
+            "summary.json": "89be11e3336e188eaac6d2ae2bf90a2a50e94cce2a34bbb75956b3361f35bb5a"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 2000,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 2,
+          "individuals": 2,
+          "actor_records": 2000,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 2,
+          "attempts": 32,
+          "failed_attempts": 30,
+          "construction_cost": 10468,
+          "failure_loss": 9015,
+          "deaths": 0,
+          "total_energy": 9906,
+          "resource_flows": {
+            "external_a": 11749,
+            "consumed_a": 9074,
+            "consumed_b": 2855,
+            "released_b": 5410,
+            "feeding_energy": 4607,
+            "feeding_dissipation": 1912
+          },
+          "remaining_a": 5747,
+          "remaining_b": 2555
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 10468,
+          "failure_loss": 9015,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "c2d38d412a64db95dc9b6758c0efa58b5ad03f5e3e4605d967cdd5865cd04617",
+          "final.json": "ba83133c8dddcf5871e0006b45f101a7b4d70c1b29d5da1d8065e249980e5bb8",
+          "steps.jsonl": "7f1cc93b7a5d99180c7d7b9b2c8bf056e96da43cf88ff15f89f9945fbe85ab8f",
+          "events.jsonl": "ac54ef589ab227c510d30a1cf0483ecefa0163e59b528a89235d86536067f655",
+          "summary.json": "89be11e3336e188eaac6d2ae2bf90a2a50e94cce2a34bbb75956b3361f35bb5a"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-60-seed-87003-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 1449,
+          "feedings": 1448,
+          "resource_flows": {
+            "external_a": 10532,
+            "consumed_a": 7716,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 3176,
+            "feeding_dissipation": 4540
+          },
+          "output_sha256": {
+            "initial.json": "c2d38d412a64db95dc9b6758c0efa58b5ad03f5e3e4605d967cdd5865cd04617",
+            "steps.jsonl": "a98a9a15a2d63d09e43ea147dbefd4453c41f396d76f7c2c5bb498ac36c284a0",
+            "events.jsonl": "1a18dfb377291ba78480746f28dcf7cb1784e95a1ffd2055b5ecc9696a53e384",
+            "final.json": "6ba65705667e1087a77c9a8c555cabfff1bc66fcbb71dfbdc37002c525f7d0e2",
+            "summary.json": "4a14082c53d4e1d874eccbc9617ae371d99a06f2ea452552dad085576b6788ad"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 1448,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 1,
+          "individuals": 2,
+          "actor_records": 1449,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 2,
+          "attempts": 32,
+          "failed_attempts": 30,
+          "construction_cost": 10468,
+          "failure_loss": 9015,
+          "deaths": 1,
+          "total_energy": 7163,
+          "resource_flows": {
+            "external_a": 10532,
+            "consumed_a": 7716,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 3176,
+            "feeding_dissipation": 4540
+          },
+          "remaining_a": 5888,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 10468,
+          "failure_loss": 9015,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "c2d38d412a64db95dc9b6758c0efa58b5ad03f5e3e4605d967cdd5865cd04617",
+          "final.json": "6ba65705667e1087a77c9a8c555cabfff1bc66fcbb71dfbdc37002c525f7d0e2",
+          "steps.jsonl": "a98a9a15a2d63d09e43ea147dbefd4453c41f396d76f7c2c5bb498ac36c284a0",
+          "events.jsonl": "1a18dfb377291ba78480746f28dcf7cb1784e95a1ffd2055b5ecc9696a53e384",
+          "summary.json": "4a14082c53d4e1d874eccbc9617ae371d99a06f2ea452552dad085576b6788ad"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-60-seed-87004-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 1059,
+          "feedings": 1056,
+          "resource_flows": {
+            "external_a": 4381,
+            "consumed_a": 1309,
+            "consumed_b": 581,
+            "released_b": 779,
+            "feeding_energy": 530,
+            "feeding_dissipation": 581
+          },
+          "output_sha256": {
+            "initial.json": "af49ce89558c36fc2e029b407246cda844f0541f8155833640dccaa3782d1496",
+            "steps.jsonl": "db311bdb56f103620e863dbf4aa812969245d91bf56a689884284d4d4d7bdc78",
+            "events.jsonl": "c420167e4baaa0c4daf9730f3f65c340f584d192ff59a45578196e468ed33f82",
+            "final.json": "429495a9142e169ec61a660f8f4119c220038b759fe910a5382c9cda821b8dda",
+            "summary.json": "2bad2aee147a51b8a74074d15b79a8ce0b6dd5dae0dfa4eab5d4eac942365b88"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 1056,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 0,
+          "individuals": 3,
+          "actor_records": 1059,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 3,
+          "attempts": 32,
+          "failed_attempts": 29,
+          "construction_cost": 9328,
+          "failure_loss": 9565,
+          "deaths": 3,
+          "total_energy": 6342,
+          "resource_flows": {
+            "external_a": 4381,
+            "consumed_a": 1309,
+            "consumed_b": 581,
+            "released_b": 779,
+            "feeding_energy": 530,
+            "feeding_dissipation": 581
+          },
+          "remaining_a": 6144,
+          "remaining_b": 198
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 9328,
+          "failure_loss": 9565,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "af49ce89558c36fc2e029b407246cda844f0541f8155833640dccaa3782d1496",
+          "final.json": "429495a9142e169ec61a660f8f4119c220038b759fe910a5382c9cda821b8dda",
+          "steps.jsonl": "db311bdb56f103620e863dbf4aa812969245d91bf56a689884284d4d4d7bdc78",
+          "events.jsonl": "c420167e4baaa0c4daf9730f3f65c340f584d192ff59a45578196e468ed33f82",
+          "summary.json": "2bad2aee147a51b8a74074d15b79a8ce0b6dd5dae0dfa4eab5d4eac942365b88"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-8-renewal-60-seed-87004-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 1060,
+          "feedings": 1057,
+          "resource_flows": {
+            "external_a": 4385,
+            "consumed_a": 1313,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 532,
+            "feeding_dissipation": 781
+          },
+          "output_sha256": {
+            "initial.json": "af49ce89558c36fc2e029b407246cda844f0541f8155833640dccaa3782d1496",
+            "steps.jsonl": "27a91c9ce1f1f9f3997c98a60fd22affd3f7e8376de3abf2be9c95b318034154",
+            "events.jsonl": "625f625d1e1216753fde9dd6dfba0a5a60708db43e4740f98f995297e25131ec",
+            "final.json": "4df36deec1385772d891bdcf271022ef313362124777bbac9d9b97b6ceb60aaf",
+            "summary.json": "d381a88e044d9560c4996c4be83c6640f42022455684cef80dd3d29ff967d658"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 1057,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 0,
+          "individuals": 3,
+          "actor_records": 1060,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 3,
+          "attempts": 32,
+          "failed_attempts": 29,
+          "construction_cost": 9328,
+          "failure_loss": 9565,
+          "deaths": 3,
+          "total_energy": 6144,
+          "resource_flows": {
+            "external_a": 4385,
+            "consumed_a": 1313,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 532,
+            "feeding_dissipation": 781
+          },
+          "remaining_a": 6144,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 9328,
+          "failure_loss": 9565,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "af49ce89558c36fc2e029b407246cda844f0541f8155833640dccaa3782d1496",
+          "final.json": "4df36deec1385772d891bdcf271022ef313362124777bbac9d9b97b6ceb60aaf",
+          "steps.jsonl": "27a91c9ce1f1f9f3997c98a60fd22affd3f7e8376de3abf2be9c95b318034154",
+          "events.jsonl": "625f625d1e1216753fde9dd6dfba0a5a60708db43e4740f98f995297e25131ec",
+          "summary.json": "d381a88e044d9560c4996c4be83c6640f42022455684cef80dd3d29ff967d658"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-30-seed-87000-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 6175,
+          "feedings": 6173,
+          "resource_flows": {
+            "external_a": 24096,
+            "consumed_a": 26051,
+            "consumed_b": 12582,
+            "released_b": 13219,
+            "feeding_energy": 18637,
+            "feeding_dissipation": 6777
+          },
+          "output_sha256": {
+            "initial.json": "521480e0b895dbeccf89df229ff95fc4215b77624be7f64676ad3897b34a2777",
+            "steps.jsonl": "d6f9e13aa94e53afa3ff54434fb0585c3f491ca646f5e75ed996eb04efb13085",
+            "events.jsonl": "242944407cd9cf45e46b0bd67fa5585a59f5219bd8bfb729be855d0566feec1d",
+            "final.json": "b9dd84e4a3f088c639d236bab3af344b7249370313a1bd07c2045e84746b603a",
+            "summary.json": "d663be97e162a72b7a540705bfc4d1ee0b4d4436312a4bdaa5b63224e9bac140"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 6173,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 9,
+          "individuals": 11,
+          "actor_records": 6175,
+          "births": 6,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 39,
+          "failed_attempts": 28,
+          "construction_cost": 10188,
+          "failure_loss": 9380,
+          "deaths": 2,
+          "total_energy": 8955,
+          "resource_flows": {
+            "external_a": 24096,
+            "consumed_a": 26051,
+            "consumed_b": 12582,
+            "released_b": 13219,
+            "feeding_energy": 18637,
+            "feeding_dissipation": 6777
+          },
+          "remaining_a": 1117,
+          "remaining_b": 637
+        },
+        "construction_audit": {
+          "attempts": 39,
+          "construction_cost": 10188,
+          "failure_loss": 9380,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "521480e0b895dbeccf89df229ff95fc4215b77624be7f64676ad3897b34a2777",
+          "final.json": "b9dd84e4a3f088c639d236bab3af344b7249370313a1bd07c2045e84746b603a",
+          "steps.jsonl": "d6f9e13aa94e53afa3ff54434fb0585c3f491ca646f5e75ed996eb04efb13085",
+          "events.jsonl": "242944407cd9cf45e46b0bd67fa5585a59f5219bd8bfb729be855d0566feec1d",
+          "summary.json": "d663be97e162a72b7a540705bfc4d1ee0b4d4436312a4bdaa5b63224e9bac140"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-30-seed-87000-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 4704,
+          "feedings": 4702,
+          "resource_flows": {
+            "external_a": 24448,
+            "consumed_a": 25188,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 12339,
+            "feeding_dissipation": 12849
+          },
+          "output_sha256": {
+            "initial.json": "521480e0b895dbeccf89df229ff95fc4215b77624be7f64676ad3897b34a2777",
+            "steps.jsonl": "2bfaea6678af2efcc07137d96d9078d78325fdcc18e8078df48f34b40a0f21ff",
+            "events.jsonl": "dea3cd6636b69275a83f2d551b211aee0c607a419345050d968f5b59de6d3b73",
+            "final.json": "ef5840099d756bdc979625ca68bc5728c55ca57f7b95c129adac733f046e6e75",
+            "summary.json": "65a9e6835c1803d64196f72bea3ab865571e73b8d1c7ff892f3c869a90b148b0"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 4702,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 6,
+          "individuals": 8,
+          "actor_records": 4704,
+          "births": 3,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 35,
+          "failed_attempts": 27,
+          "construction_cost": 9653,
+          "failure_loss": 8845,
+          "deaths": 2,
+          "total_energy": 7246,
+          "resource_flows": {
+            "external_a": 24448,
+            "consumed_a": 25188,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 12339,
+            "feeding_dissipation": 12849
+          },
+          "remaining_a": 2332,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 35,
+          "construction_cost": 9653,
+          "failure_loss": 8845,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "521480e0b895dbeccf89df229ff95fc4215b77624be7f64676ad3897b34a2777",
+          "final.json": "ef5840099d756bdc979625ca68bc5728c55ca57f7b95c129adac733f046e6e75",
+          "steps.jsonl": "2bfaea6678af2efcc07137d96d9078d78325fdcc18e8078df48f34b40a0f21ff",
+          "events.jsonl": "dea3cd6636b69275a83f2d551b211aee0c607a419345050d968f5b59de6d3b73",
+          "summary.json": "65a9e6835c1803d64196f72bea3ab865571e73b8d1c7ff892f3c869a90b148b0"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-30-seed-87001-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 5692,
+          "feedings": 5690,
+          "resource_flows": {
+            "external_a": 24165,
+            "consumed_a": 25230,
+            "consumed_b": 12029,
+            "released_b": 12997,
+            "feeding_energy": 17630,
+            "feeding_dissipation": 6632
+          },
+          "output_sha256": {
+            "initial.json": "478ad834238208b152976a28e5ad3e34522a4dbce518b448013371cdb05bd4cb",
+            "steps.jsonl": "d042b3206642486e413cab60a8e1e506f6b68e257d7020d8a4305a8f7a8432eb",
+            "events.jsonl": "884372387b848bf15d1b41e67cad4be5f269403b73c2c07bc9823b6c6e87a2e2",
+            "final.json": "96015b68e3a22e78eefa84bcdc26e804821d9751c81da633091facc39089a7c6",
+            "summary.json": "532313cd49b585ede9955ffbbffd4157bbfd88219e4384ba5465ad6c31fdb6f4"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 5690,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 9,
+          "individuals": 11,
+          "actor_records": 5692,
+          "births": 6,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 38,
+          "failed_attempts": 27,
+          "construction_cost": 8907,
+          "failure_loss": 10245,
+          "deaths": 2,
+          "total_energy": 10550,
+          "resource_flows": {
+            "external_a": 24165,
+            "consumed_a": 25230,
+            "consumed_b": 12029,
+            "released_b": 12997,
+            "feeding_energy": 17630,
+            "feeding_dissipation": 6632
+          },
+          "remaining_a": 2007,
+          "remaining_b": 968
+        },
+        "construction_audit": {
+          "attempts": 38,
+          "construction_cost": 8907,
+          "failure_loss": 10245,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "478ad834238208b152976a28e5ad3e34522a4dbce518b448013371cdb05bd4cb",
+          "final.json": "96015b68e3a22e78eefa84bcdc26e804821d9751c81da633091facc39089a7c6",
+          "steps.jsonl": "d042b3206642486e413cab60a8e1e506f6b68e257d7020d8a4305a8f7a8432eb",
+          "events.jsonl": "884372387b848bf15d1b41e67cad4be5f269403b73c2c07bc9823b6c6e87a2e2",
+          "summary.json": "532313cd49b585ede9955ffbbffd4157bbfd88219e4384ba5465ad6c31fdb6f4"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-30-seed-87001-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 4160,
+          "feedings": 4158,
+          "resource_flows": {
+            "external_a": 20236,
+            "consumed_a": 20198,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 9737,
+            "feeding_dissipation": 10461
+          },
+          "output_sha256": {
+            "initial.json": "478ad834238208b152976a28e5ad3e34522a4dbce518b448013371cdb05bd4cb",
+            "steps.jsonl": "f7f6ced81a9e6b094b02522e5ca4a607f771cef4a53cfe66069ec80c9b5105d5",
+            "events.jsonl": "66b41dcd8b03bd9e80b6ac5ac8d18ffda21ed94f63438b0be62d1e06a6347355",
+            "final.json": "7e3552b7f612324cc07b8f778436bcf0df3ea626f07bec8b299f4543f5cc1abc",
+            "summary.json": "d35c9a9f7479a733cf44046e9f65bc6fbdc89b7c7a016c3a68398c4302b8c0b0"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 4158,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 5,
+          "individuals": 7,
+          "actor_records": 4160,
+          "births": 2,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 34,
+          "failed_attempts": 27,
+          "construction_cost": 8412,
+          "failure_loss": 10245,
+          "deaths": 2,
+          "total_energy": 6351,
+          "resource_flows": {
+            "external_a": 20236,
+            "consumed_a": 20198,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 9737,
+            "feeding_dissipation": 10461
+          },
+          "remaining_a": 3110,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 34,
+          "construction_cost": 8412,
+          "failure_loss": 10245,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "478ad834238208b152976a28e5ad3e34522a4dbce518b448013371cdb05bd4cb",
+          "final.json": "7e3552b7f612324cc07b8f778436bcf0df3ea626f07bec8b299f4543f5cc1abc",
+          "steps.jsonl": "f7f6ced81a9e6b094b02522e5ca4a607f771cef4a53cfe66069ec80c9b5105d5",
+          "events.jsonl": "66b41dcd8b03bd9e80b6ac5ac8d18ffda21ed94f63438b0be62d1e06a6347355",
+          "summary.json": "d35c9a9f7479a733cf44046e9f65bc6fbdc89b7c7a016c3a68398c4302b8c0b0"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-30-seed-87002-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 2560,
+          "feedings": 2558,
+          "resource_flows": {
+            "external_a": 9570,
+            "consumed_a": 7438,
+            "consumed_b": 1868,
+            "released_b": 2978,
+            "feeding_energy": 4399,
+            "feeding_dissipation": 1929
+          },
+          "output_sha256": {
+            "initial.json": "9670e4b32316a661d498256e21380156d0e2cc24feec9ebebc35999f2d195aa7",
+            "steps.jsonl": "446a658e05c3c0ce2b26aa2738c81b6194538a7b20d64aec08e5c49e0d021b3d",
+            "events.jsonl": "ec5cd022d217eb69769ea51a4b4ebd1beb60d654e3b75730f150b3d28d158274",
+            "final.json": "522c676f77fd731717d1a8d849587028a0de3af372255fd4a66685a754ed5252",
+            "summary.json": "b5f393b80e8553e66d75f5b88a880b02ed4047e4e3920b22a7409729b7116349"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 2558,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 2,
+          "individuals": 4,
+          "actor_records": 2560,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 4,
+          "attempts": 32,
+          "failed_attempts": 28,
+          "construction_cost": 10471,
+          "failure_loss": 8715,
+          "deaths": 2,
+          "total_energy": 6887,
+          "resource_flows": {
+            "external_a": 9570,
+            "consumed_a": 7438,
+            "consumed_b": 1868,
+            "released_b": 2978,
+            "feeding_energy": 4399,
+            "feeding_dissipation": 1929
+          },
+          "remaining_a": 5204,
+          "remaining_b": 1110
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 10471,
+          "failure_loss": 8715,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "9670e4b32316a661d498256e21380156d0e2cc24feec9ebebc35999f2d195aa7",
+          "final.json": "522c676f77fd731717d1a8d849587028a0de3af372255fd4a66685a754ed5252",
+          "steps.jsonl": "446a658e05c3c0ce2b26aa2738c81b6194538a7b20d64aec08e5c49e0d021b3d",
+          "events.jsonl": "ec5cd022d217eb69769ea51a4b4ebd1beb60d654e3b75730f150b3d28d158274",
+          "summary.json": "b5f393b80e8553e66d75f5b88a880b02ed4047e4e3920b22a7409729b7116349"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-30-seed-87002-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 2615,
+          "feedings": 2613,
+          "resource_flows": {
+            "external_a": 14390,
+            "consumed_a": 13500,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 6492,
+            "feeding_dissipation": 7008
+          },
+          "output_sha256": {
+            "initial.json": "9670e4b32316a661d498256e21380156d0e2cc24feec9ebebc35999f2d195aa7",
+            "steps.jsonl": "549ee72a8eacba424e6ca4c6b10129f082b0dca9fadba37e47080bc1cbb37453",
+            "events.jsonl": "4bda3c612cdaf22a47564398a09eaf7370ba51f40a526ecdc4d8e29cd95d18b0",
+            "final.json": "00c94518b373f977346dcade4c45ade40d34e7320350e6012e4478e3ebe9dc32",
+            "summary.json": "13cf0970a2659d808c214df832edce31c3c13dc2505bab8a86972a5d5b67dfb8"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 2613,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 3,
+          "individuals": 5,
+          "actor_records": 2615,
+          "births": 1,
+          "founder_attempts": 32,
+          "successful_founders": 4,
+          "attempts": 33,
+          "failed_attempts": 28,
+          "construction_cost": 10649,
+          "failure_loss": 8715,
+          "deaths": 2,
+          "total_energy": 6340,
+          "resource_flows": {
+            "external_a": 14390,
+            "consumed_a": 13500,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 6492,
+            "feeding_dissipation": 7008
+          },
+          "remaining_a": 3962,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 33,
+          "construction_cost": 10649,
+          "failure_loss": 8715,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "9670e4b32316a661d498256e21380156d0e2cc24feec9ebebc35999f2d195aa7",
+          "final.json": "00c94518b373f977346dcade4c45ade40d34e7320350e6012e4478e3ebe9dc32",
+          "steps.jsonl": "549ee72a8eacba424e6ca4c6b10129f082b0dca9fadba37e47080bc1cbb37453",
+          "events.jsonl": "4bda3c612cdaf22a47564398a09eaf7370ba51f40a526ecdc4d8e29cd95d18b0",
+          "summary.json": "13cf0970a2659d808c214df832edce31c3c13dc2505bab8a86972a5d5b67dfb8"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-30-seed-87003-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 2751,
+          "feedings": 2751,
+          "resource_flows": {
+            "external_a": 15681,
+            "consumed_a": 15428,
+            "consumed_b": 2632,
+            "released_b": 7272,
+            "feeding_energy": 7726,
+            "feeding_dissipation": 3062
+          },
+          "output_sha256": {
+            "initial.json": "c2d38d412a64db95dc9b6758c0efa58b5ad03f5e3e4605d967cdd5865cd04617",
+            "steps.jsonl": "c173f98332dd224f203efcc6f093abfba203210ee2c35946cab2fe0709b04941",
+            "events.jsonl": "2cff319d943cb394dd24abc43fdd7dee51ba52a071069956a9227d31f05e9c4c",
+            "final.json": "aabb1094fe2734e2835c11cdc48022b98c6e6345cac0b85a5421563ffbcd7772",
+            "summary.json": "d75eb0116c454b6fa93fc5fed03faeff16c1311b86dddb3f5ac9b6663c8c8d1d"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 2751,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 5,
+          "individuals": 5,
+          "actor_records": 2751,
+          "births": 3,
+          "founder_attempts": 32,
+          "successful_founders": 2,
+          "attempts": 35,
+          "failed_attempts": 30,
+          "construction_cost": 10786,
+          "failure_loss": 9015,
+          "deaths": 0,
+          "total_energy": 10868,
+          "resource_flows": {
+            "external_a": 15681,
+            "consumed_a": 15428,
+            "consumed_b": 2632,
+            "released_b": 7272,
+            "feeding_energy": 7726,
+            "feeding_dissipation": 3062
+          },
+          "remaining_a": 3325,
+          "remaining_b": 4640
+        },
+        "construction_audit": {
+          "attempts": 35,
+          "construction_cost": 10786,
+          "failure_loss": 9015,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "c2d38d412a64db95dc9b6758c0efa58b5ad03f5e3e4605d967cdd5865cd04617",
+          "final.json": "aabb1094fe2734e2835c11cdc48022b98c6e6345cac0b85a5421563ffbcd7772",
+          "steps.jsonl": "c173f98332dd224f203efcc6f093abfba203210ee2c35946cab2fe0709b04941",
+          "events.jsonl": "2cff319d943cb394dd24abc43fdd7dee51ba52a071069956a9227d31f05e9c4c",
+          "summary.json": "d75eb0116c454b6fa93fc5fed03faeff16c1311b86dddb3f5ac9b6663c8c8d1d"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-30-seed-87003-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 2399,
+          "feedings": 2398,
+          "resource_flows": {
+            "external_a": 15065,
+            "consumed_a": 14197,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 6554,
+            "feeding_dissipation": 7643
+          },
+          "output_sha256": {
+            "initial.json": "c2d38d412a64db95dc9b6758c0efa58b5ad03f5e3e4605d967cdd5865cd04617",
+            "steps.jsonl": "d1448f689eeb69561268d705ce67b3dd32338918d15fb6a2222001df7585efdf",
+            "events.jsonl": "8138704daff92dbae7b96c69b967f1cc30d35532fed305a5bb365b30ae680434",
+            "final.json": "3857c257d9dba37c435636a5460bd449e07324e5cc4c5ee182304a3723734d30",
+            "summary.json": "90f85d4fcba186dec4502f66bcbc4ad3cf2494b04960611373cc519b012e53fc"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 2398,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 3,
+          "individuals": 4,
+          "actor_records": 2399,
+          "births": 2,
+          "founder_attempts": 32,
+          "successful_founders": 2,
+          "attempts": 34,
+          "failed_attempts": 30,
+          "construction_cost": 10680,
+          "failure_loss": 9015,
+          "deaths": 1,
+          "total_energy": 6482,
+          "resource_flows": {
+            "external_a": 15065,
+            "consumed_a": 14197,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 6554,
+            "feeding_dissipation": 7643
+          },
+          "remaining_a": 3940,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 34,
+          "construction_cost": 10680,
+          "failure_loss": 9015,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "c2d38d412a64db95dc9b6758c0efa58b5ad03f5e3e4605d967cdd5865cd04617",
+          "final.json": "3857c257d9dba37c435636a5460bd449e07324e5cc4c5ee182304a3723734d30",
+          "steps.jsonl": "d1448f689eeb69561268d705ce67b3dd32338918d15fb6a2222001df7585efdf",
+          "events.jsonl": "8138704daff92dbae7b96c69b967f1cc30d35532fed305a5bb365b30ae680434",
+          "summary.json": "90f85d4fcba186dec4502f66bcbc4ad3cf2494b04960611373cc519b012e53fc"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-30-seed-87004-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 1923,
+          "feedings": 1921,
+          "resource_flows": {
+            "external_a": 8948,
+            "consumed_a": 6213,
+            "consumed_b": 2985,
+            "released_b": 3624,
+            "feeding_energy": 3364,
+            "feeding_dissipation": 2210
+          },
+          "output_sha256": {
+            "initial.json": "af49ce89558c36fc2e029b407246cda844f0541f8155833640dccaa3782d1496",
+            "steps.jsonl": "508ab3324fe5c9bee388957b63544b1f90b4986089a3bd9ba869f8d0f6cd6849",
+            "events.jsonl": "700a8ef2ff43a209520725ceba0f93c84bcebeb9b9db4daa4480aef1b2bb3bfd",
+            "final.json": "dd327834193ac10c922ae8a292319c5b1878b4c6c97fda295118261d5177c7d0",
+            "summary.json": "3bc89c0c82e51bac178dcbf8052d598a509f52f809d0fab8dbcd3324196a601a"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 1921,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 1,
+          "individuals": 3,
+          "actor_records": 1923,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 3,
+          "attempts": 32,
+          "failed_attempts": 29,
+          "construction_cost": 9328,
+          "failure_loss": 9565,
+          "deaths": 2,
+          "total_energy": 7551,
+          "resource_flows": {
+            "external_a": 8948,
+            "consumed_a": 6213,
+            "consumed_b": 2985,
+            "released_b": 3624,
+            "feeding_energy": 3364,
+            "feeding_dissipation": 2210
+          },
+          "remaining_a": 5807,
+          "remaining_b": 639
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 9328,
+          "failure_loss": 9565,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "af49ce89558c36fc2e029b407246cda844f0541f8155833640dccaa3782d1496",
+          "final.json": "dd327834193ac10c922ae8a292319c5b1878b4c6c97fda295118261d5177c7d0",
+          "steps.jsonl": "508ab3324fe5c9bee388957b63544b1f90b4986089a3bd9ba869f8d0f6cd6849",
+          "events.jsonl": "700a8ef2ff43a209520725ceba0f93c84bcebeb9b9db4daa4480aef1b2bb3bfd",
+          "summary.json": "3bc89c0c82e51bac178dcbf8052d598a509f52f809d0fab8dbcd3324196a601a"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-30-seed-87004-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 1761,
+          "feedings": 1759,
+          "resource_flows": {
+            "external_a": 8545,
+            "consumed_a": 5793,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 2387,
+            "feeding_dissipation": 3406
+          },
+          "output_sha256": {
+            "initial.json": "af49ce89558c36fc2e029b407246cda844f0541f8155833640dccaa3782d1496",
+            "steps.jsonl": "c4de2c6deddecbc37132385a72cc0cbd653a322e513c17af0257653e5403870a",
+            "events.jsonl": "eb0b93846e4195aa4929a8457e6a9afccb9ba675df7b387e211acaca4110fe3f",
+            "final.json": "5c5ce69f493915713b29da4d5472976baa77ef91e717e85af5d995fb9986d6f4",
+            "summary.json": "2dfe2870eb95e2002e541dd34064d64c650640b2dce773dafc571ae2c25cb8c8"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 1759,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 1,
+          "individuals": 3,
+          "actor_records": 1761,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 3,
+          "attempts": 32,
+          "failed_attempts": 29,
+          "construction_cost": 9328,
+          "failure_loss": 9565,
+          "deaths": 2,
+          "total_energy": 6276,
+          "resource_flows": {
+            "external_a": 8545,
+            "consumed_a": 5793,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 2387,
+            "feeding_dissipation": 3406
+          },
+          "remaining_a": 5824,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 9328,
+          "failure_loss": 9565,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "af49ce89558c36fc2e029b407246cda844f0541f8155833640dccaa3782d1496",
+          "final.json": "5c5ce69f493915713b29da4d5472976baa77ef91e717e85af5d995fb9986d6f4",
+          "steps.jsonl": "c4de2c6deddecbc37132385a72cc0cbd653a322e513c17af0257653e5403870a",
+          "events.jsonl": "eb0b93846e4195aa4929a8457e6a9afccb9ba675df7b387e211acaca4110fe3f",
+          "summary.json": "2dfe2870eb95e2002e541dd34064d64c650640b2dce773dafc571ae2c25cb8c8"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-60-seed-87000-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 8536,
+          "feedings": 8535,
+          "resource_flows": {
+            "external_a": 40141,
+            "consumed_a": 41576,
+            "consumed_b": 19209,
+            "released_b": 20478,
+            "feeding_energy": 29011,
+            "feeding_dissipation": 11296
+          },
+          "output_sha256": {
+            "initial.json": "521480e0b895dbeccf89df229ff95fc4215b77624be7f64676ad3897b34a2777",
+            "steps.jsonl": "bb5b84055124b52a0311b0db25966c5925c399080bdbeb136dc09f94047e5763",
+            "events.jsonl": "5ac0775123348aa99b55f5e7c7ca1fa9b01aa9f01fb2ba281b2c9d5b5fa58dbf",
+            "final.json": "a13475b840a0b33f22f6079f71644f8c5e702c54b03e5c4653363dc9ca902b2f",
+            "summary.json": "787f55cb19c75c03f211f23974f8b806b9d842175b5b66d4c7fdb4dba00e079a"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 8535,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 15,
+          "individuals": 16,
+          "actor_records": 8536,
+          "births": 11,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 43,
+          "failed_attempts": 27,
+          "construction_cost": 10683,
+          "failure_loss": 8845,
+          "deaths": 1,
+          "total_energy": 15797,
+          "resource_flows": {
+            "external_a": 40141,
+            "consumed_a": 41576,
+            "consumed_b": 19209,
+            "released_b": 20478,
+            "feeding_energy": 29011,
+            "feeding_dissipation": 11296
+          },
+          "remaining_a": 1637,
+          "remaining_b": 1269
+        },
+        "construction_audit": {
+          "attempts": 43,
+          "construction_cost": 10683,
+          "failure_loss": 8845,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "521480e0b895dbeccf89df229ff95fc4215b77624be7f64676ad3897b34a2777",
+          "final.json": "a13475b840a0b33f22f6079f71644f8c5e702c54b03e5c4653363dc9ca902b2f",
+          "steps.jsonl": "bb5b84055124b52a0311b0db25966c5925c399080bdbeb136dc09f94047e5763",
+          "events.jsonl": "5ac0775123348aa99b55f5e7c7ca1fa9b01aa9f01fb2ba281b2c9d5b5fa58dbf",
+          "summary.json": "787f55cb19c75c03f211f23974f8b806b9d842175b5b66d4c7fdb4dba00e079a"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-60-seed-87000-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 6468,
+          "feedings": 6466,
+          "resource_flows": {
+            "external_a": 39622,
+            "consumed_a": 40248,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 19792,
+            "feeding_dissipation": 20456
+          },
+          "output_sha256": {
+            "initial.json": "521480e0b895dbeccf89df229ff95fc4215b77624be7f64676ad3897b34a2777",
+            "steps.jsonl": "df7eafe69c56d90cbd2155c2c553094e47bd62a9ee08264baccb5d7a241249f9",
+            "events.jsonl": "6c85524b51f25e781931a59cfd67247831a17bdf79051a8504f52ede3604fe8b",
+            "final.json": "d38bea8b719ab9700126be1c5aa2d085d7d2899cbbfb54cf016307643ca7d6c9",
+            "summary.json": "404e485468a16ca0c2d2f5b263072023919e5ca4a8305c564ae63bbdeb192855"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 6466,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 9,
+          "individuals": 11,
+          "actor_records": 6468,
+          "births": 6,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 39,
+          "failed_attempts": 28,
+          "construction_cost": 10392,
+          "failure_loss": 9380,
+          "deaths": 2,
+          "total_energy": 10012,
+          "resource_flows": {
+            "external_a": 39622,
+            "consumed_a": 40248,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 19792,
+            "feeding_dissipation": 20456
+          },
+          "remaining_a": 2446,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 39,
+          "construction_cost": 10392,
+          "failure_loss": 9380,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "521480e0b895dbeccf89df229ff95fc4215b77624be7f64676ad3897b34a2777",
+          "final.json": "d38bea8b719ab9700126be1c5aa2d085d7d2899cbbfb54cf016307643ca7d6c9",
+          "steps.jsonl": "df7eafe69c56d90cbd2155c2c553094e47bd62a9ee08264baccb5d7a241249f9",
+          "events.jsonl": "6c85524b51f25e781931a59cfd67247831a17bdf79051a8504f52ede3604fe8b",
+          "summary.json": "404e485468a16ca0c2d2f5b263072023919e5ca4a8305c564ae63bbdeb192855"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-60-seed-87001-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 8425,
+          "feedings": 8423,
+          "resource_flows": {
+            "external_a": 40411,
+            "consumed_a": 41311,
+            "consumed_b": 20090,
+            "released_b": 21200,
+            "feeding_energy": 29269,
+            "feeding_dissipation": 10932
+          },
+          "output_sha256": {
+            "initial.json": "478ad834238208b152976a28e5ad3e34522a4dbce518b448013371cdb05bd4cb",
+            "steps.jsonl": "1a19628b0a1167bb308afb79263f1b2ef1875b91f4d9853e3ae22d03779061fb",
+            "events.jsonl": "d1b0d417a6e7d2e0dfa73658830a35304c7b63062ba1cb7a1a8a5adf121cb39c",
+            "final.json": "da032fb154cb5e6f242cb5ea614afa0f3da127f21c7ddc1532ac71a7a3d7cc51",
+            "summary.json": "87e771aed1de5d7d2669b3e1b020a78a3159e93e94f51043526e3ad05e160408"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 8423,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 15,
+          "individuals": 17,
+          "actor_records": 8425,
+          "births": 12,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 44,
+          "failed_attempts": 27,
+          "construction_cost": 9790,
+          "failure_loss": 10245,
+          "deaths": 2,
+          "total_energy": 16148,
+          "resource_flows": {
+            "external_a": 40411,
+            "consumed_a": 41311,
+            "consumed_b": 20090,
+            "released_b": 21200,
+            "feeding_energy": 29269,
+            "feeding_dissipation": 10932
+          },
+          "remaining_a": 2172,
+          "remaining_b": 1110
+        },
+        "construction_audit": {
+          "attempts": 44,
+          "construction_cost": 9790,
+          "failure_loss": 10245,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "478ad834238208b152976a28e5ad3e34522a4dbce518b448013371cdb05bd4cb",
+          "final.json": "da032fb154cb5e6f242cb5ea614afa0f3da127f21c7ddc1532ac71a7a3d7cc51",
+          "steps.jsonl": "1a19628b0a1167bb308afb79263f1b2ef1875b91f4d9853e3ae22d03779061fb",
+          "events.jsonl": "d1b0d417a6e7d2e0dfa73658830a35304c7b63062ba1cb7a1a8a5adf121cb39c",
+          "summary.json": "87e771aed1de5d7d2669b3e1b020a78a3159e93e94f51043526e3ad05e160408"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-60-seed-87001-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 5118,
+          "feedings": 5116,
+          "resource_flows": {
+            "external_a": 31151,
+            "consumed_a": 30569,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 14686,
+            "feeding_dissipation": 15883
+          },
+          "output_sha256": {
+            "initial.json": "478ad834238208b152976a28e5ad3e34522a4dbce518b448013371cdb05bd4cb",
+            "steps.jsonl": "1ca026a12cdd331f27e16e67fcdd7923acc2cb884be55ee186a9ead5bfedf183",
+            "events.jsonl": "a74cd688b4c363c94cf04f133a07919df834d8725620eab6aa05034dad4a9fed",
+            "final.json": "4778faba40d03ccf745ea20c155d0c4ef8a05313b2e56e56a8aeb922a850161e",
+            "summary.json": "44c9e13c2a86c0b13afc34a3f506528a82ed858ec1ecaed0a069211c2c10f3bc"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 5116,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 8,
+          "individuals": 10,
+          "actor_records": 5118,
+          "births": 5,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 37,
+          "failed_attempts": 27,
+          "construction_cost": 9047,
+          "failure_loss": 10245,
+          "deaths": 2,
+          "total_energy": 9293,
+          "resource_flows": {
+            "external_a": 31151,
+            "consumed_a": 30569,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 14686,
+            "feeding_dissipation": 15883
+          },
+          "remaining_a": 3654,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 37,
+          "construction_cost": 9047,
+          "failure_loss": 10245,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "478ad834238208b152976a28e5ad3e34522a4dbce518b448013371cdb05bd4cb",
+          "final.json": "4778faba40d03ccf745ea20c155d0c4ef8a05313b2e56e56a8aeb922a850161e",
+          "steps.jsonl": "1ca026a12cdd331f27e16e67fcdd7923acc2cb884be55ee186a9ead5bfedf183",
+          "events.jsonl": "a74cd688b4c363c94cf04f133a07919df834d8725620eab6aa05034dad4a9fed",
+          "summary.json": "44c9e13c2a86c0b13afc34a3f506528a82ed858ec1ecaed0a069211c2c10f3bc"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-60-seed-87002-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 3058,
+          "feedings": 3057,
+          "resource_flows": {
+            "external_a": 14326,
+            "consumed_a": 12238,
+            "consumed_b": 4023,
+            "released_b": 5031,
+            "feeding_energy": 7528,
+            "feeding_dissipation": 3702
+          },
+          "output_sha256": {
+            "initial.json": "9670e4b32316a661d498256e21380156d0e2cc24feec9ebebc35999f2d195aa7",
+            "steps.jsonl": "0b779f71232143e46be3fe99914521046f85c3e42cbc41106c0ef077a6f0c9cd",
+            "events.jsonl": "cbf59236fda9f2fbb6d8b51d253727996d94ae540511809ac54d7fbb89b3caa9",
+            "final.json": "7b7099a204a3f44058f2492ef9f9d2b47662717df9df8aaaed916088a3ea959a",
+            "summary.json": "46b0f353fefb89cc3aad48ad3080db0243337b69ce6ad5277a39a6f208025482"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 3057,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 3,
+          "individuals": 4,
+          "actor_records": 3058,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 4,
+          "attempts": 32,
+          "failed_attempts": 28,
+          "construction_cost": 10471,
+          "failure_loss": 8715,
+          "deaths": 1,
+          "total_energy": 8874,
+          "resource_flows": {
+            "external_a": 14326,
+            "consumed_a": 12238,
+            "consumed_b": 4023,
+            "released_b": 5031,
+            "feeding_energy": 7528,
+            "feeding_dissipation": 3702
+          },
+          "remaining_a": 5160,
+          "remaining_b": 1008
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 10471,
+          "failure_loss": 8715,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "9670e4b32316a661d498256e21380156d0e2cc24feec9ebebc35999f2d195aa7",
+          "final.json": "7b7099a204a3f44058f2492ef9f9d2b47662717df9df8aaaed916088a3ea959a",
+          "steps.jsonl": "0b779f71232143e46be3fe99914521046f85c3e42cbc41106c0ef077a6f0c9cd",
+          "events.jsonl": "cbf59236fda9f2fbb6d8b51d253727996d94ae540511809ac54d7fbb89b3caa9",
+          "summary.json": "46b0f353fefb89cc3aad48ad3080db0243337b69ce6ad5277a39a6f208025482"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-60-seed-87002-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 4274,
+          "feedings": 4273,
+          "resource_flows": {
+            "external_a": 26773,
+            "consumed_a": 25839,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 12574,
+            "feeding_dissipation": 13265
+          },
+          "output_sha256": {
+            "initial.json": "9670e4b32316a661d498256e21380156d0e2cc24feec9ebebc35999f2d195aa7",
+            "steps.jsonl": "29cf33d6d7bff30b52ab80bd5a4e9a4346a597b9d7f073ac4f2dea53436d8374",
+            "events.jsonl": "01aee5e3505c87652261b1d9675e6db08c9e163ce4deebb6ef8a606cca06d408",
+            "final.json": "246eee415ab70296de9569bacb4ea038762ac8a89ef86c17237a1f91a981f75d",
+            "summary.json": "44542059c70061a4dee5ef1c68c78ada6dc82b4a43f6673ea0fd23118d663d64"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 4273,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 7,
+          "individuals": 8,
+          "actor_records": 4274,
+          "births": 4,
+          "founder_attempts": 32,
+          "successful_founders": 4,
+          "attempts": 36,
+          "failed_attempts": 28,
+          "construction_cost": 11282,
+          "failure_loss": 8715,
+          "deaths": 1,
+          "total_energy": 8515,
+          "resource_flows": {
+            "external_a": 26773,
+            "consumed_a": 25839,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 12574,
+            "feeding_dissipation": 13265
+          },
+          "remaining_a": 4006,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 36,
+          "construction_cost": 11282,
+          "failure_loss": 8715,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "9670e4b32316a661d498256e21380156d0e2cc24feec9ebebc35999f2d195aa7",
+          "final.json": "246eee415ab70296de9569bacb4ea038762ac8a89ef86c17237a1f91a981f75d",
+          "steps.jsonl": "29cf33d6d7bff30b52ab80bd5a4e9a4346a597b9d7f073ac4f2dea53436d8374",
+          "events.jsonl": "01aee5e3505c87652261b1d9675e6db08c9e163ce4deebb6ef8a606cca06d408",
+          "summary.json": "44542059c70061a4dee5ef1c68c78ada6dc82b4a43f6673ea0fd23118d663d64"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-60-seed-87003-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 3274,
+          "feedings": 3274,
+          "resource_flows": {
+            "external_a": 23862,
+            "consumed_a": 23021,
+            "consumed_b": 4133,
+            "released_b": 9508,
+            "feeding_energy": 11626,
+            "feeding_dissipation": 6020
+          },
+          "output_sha256": {
+            "initial.json": "c2d38d412a64db95dc9b6758c0efa58b5ad03f5e3e4605d967cdd5865cd04617",
+            "steps.jsonl": "0ac2920ead3a79c817dc313a55cf66a4aca83d1b84a5c22045d953f68606b25a",
+            "events.jsonl": "071f8fac3c374f35cd3c874b1b720c0bc8eb054a10e1dc41d9228e5af723e083",
+            "final.json": "a263750f38dd19eb93ab435f0e12c9c74a321bffa074c1cb830680395da62e69",
+            "summary.json": "ce4999536b73e40d2ba484a4bd2268a4c8e46da824698e5e7bca7afea78516f3"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 3274,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 6,
+          "individuals": 6,
+          "actor_records": 3274,
+          "births": 4,
+          "founder_attempts": 32,
+          "successful_founders": 2,
+          "attempts": 36,
+          "failed_attempts": 30,
+          "construction_cost": 10892,
+          "failure_loss": 9015,
+          "deaths": 0,
+          "total_energy": 14939,
+          "resource_flows": {
+            "external_a": 23862,
+            "consumed_a": 23021,
+            "consumed_b": 4133,
+            "released_b": 9508,
+            "feeding_energy": 11626,
+            "feeding_dissipation": 6020
+          },
+          "remaining_a": 3913,
+          "remaining_b": 5375
+        },
+        "construction_audit": {
+          "attempts": 36,
+          "construction_cost": 10892,
+          "failure_loss": 9015,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "c2d38d412a64db95dc9b6758c0efa58b5ad03f5e3e4605d967cdd5865cd04617",
+          "final.json": "a263750f38dd19eb93ab435f0e12c9c74a321bffa074c1cb830680395da62e69",
+          "steps.jsonl": "0ac2920ead3a79c817dc313a55cf66a4aca83d1b84a5c22045d953f68606b25a",
+          "events.jsonl": "071f8fac3c374f35cd3c874b1b720c0bc8eb054a10e1dc41d9228e5af723e083",
+          "summary.json": "ce4999536b73e40d2ba484a4bd2268a4c8e46da824698e5e7bca7afea78516f3"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-60-seed-87003-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 2798,
+          "feedings": 2798,
+          "resource_flows": {
+            "external_a": 19970,
+            "consumed_a": 18670,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 8547,
+            "feeding_dissipation": 10123
+          },
+          "output_sha256": {
+            "initial.json": "c2d38d412a64db95dc9b6758c0efa58b5ad03f5e3e4605d967cdd5865cd04617",
+            "steps.jsonl": "cda5b95789ae83ba0e97c633f0b63c8811196db805db8875b255f3d77b8272c1",
+            "events.jsonl": "f6dbd3cb7df641203cee94b74d78d4166b0609a6020f8b8b21d7e4880b67c017",
+            "final.json": "95ac2323c98511bf59f3ca537ae764891e8f65fabf75202929ad1bfcd2568753",
+            "summary.json": "714448e4b2974c34159dbdb2237dd73f196428982014a50b66d10103b1bcf6a2"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 2798,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 4,
+          "individuals": 4,
+          "actor_records": 2798,
+          "births": 2,
+          "founder_attempts": 32,
+          "successful_founders": 2,
+          "attempts": 34,
+          "failed_attempts": 30,
+          "construction_cost": 10680,
+          "failure_loss": 9015,
+          "deaths": 0,
+          "total_energy": 8108,
+          "resource_flows": {
+            "external_a": 19970,
+            "consumed_a": 18670,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 8547,
+            "feeding_dissipation": 10123
+          },
+          "remaining_a": 4372,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 34,
+          "construction_cost": 10680,
+          "failure_loss": 9015,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "c2d38d412a64db95dc9b6758c0efa58b5ad03f5e3e4605d967cdd5865cd04617",
+          "final.json": "95ac2323c98511bf59f3ca537ae764891e8f65fabf75202929ad1bfcd2568753",
+          "steps.jsonl": "cda5b95789ae83ba0e97c633f0b63c8811196db805db8875b255f3d77b8272c1",
+          "events.jsonl": "f6dbd3cb7df641203cee94b74d78d4166b0609a6020f8b8b21d7e4880b67c017",
+          "summary.json": "714448e4b2974c34159dbdb2237dd73f196428982014a50b66d10103b1bcf6a2"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-60-seed-87004-recycling-1",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 1854,
+          "feedings": 1852,
+          "resource_flows": {
+            "external_a": 9001,
+            "consumed_a": 6102,
+            "consumed_b": 2928,
+            "released_b": 3593,
+            "feeding_energy": 3274,
+            "feeding_dissipation": 2163
+          },
+          "output_sha256": {
+            "initial.json": "af49ce89558c36fc2e029b407246cda844f0541f8155833640dccaa3782d1496",
+            "steps.jsonl": "58d5a10fbf9ccafed8f798772d0577880965f938d1508a24b73057b5e4480ab0",
+            "events.jsonl": "ef33e40fa74806543883681017d080a7e56601d5ff469404e67dc6c5d8c079fe",
+            "final.json": "5677250cd2ef571f488606c0d947b0a1c2018b23672c6c814ce48a04e985f548",
+            "summary.json": "cc50d91f70c370c0a250f680883bbfc6c0b8b008126e580bf6696bf757c7cefa"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 1852,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 1,
+          "individuals": 3,
+          "actor_records": 1854,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 3,
+          "attempts": 32,
+          "failed_attempts": 29,
+          "construction_cost": 9328,
+          "failure_loss": 9565,
+          "deaths": 2,
+          "total_energy": 7789,
+          "resource_flows": {
+            "external_a": 9001,
+            "consumed_a": 6102,
+            "consumed_b": 2928,
+            "released_b": 3593,
+            "feeding_energy": 3274,
+            "feeding_dissipation": 2163
+          },
+          "remaining_a": 5971,
+          "remaining_b": 665
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 9328,
+          "failure_loss": 9565,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "af49ce89558c36fc2e029b407246cda844f0541f8155833640dccaa3782d1496",
+          "final.json": "5677250cd2ef571f488606c0d947b0a1c2018b23672c6c814ce48a04e985f548",
+          "steps.jsonl": "58d5a10fbf9ccafed8f798772d0577880965f938d1508a24b73057b5e4480ab0",
+          "events.jsonl": "ef33e40fa74806543883681017d080a7e56601d5ff469404e67dc6c5d8c079fe",
+          "summary.json": "cc50d91f70c370c0a250f680883bbfc6c0b8b008126e580bf6696bf757c7cefa"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    },
+    {
+      "directory": "feeding-16-renewal-60-seed-87004-recycling-0",
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "resources": {
+          "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+          "ticks": 1000,
+          "actors": 1763,
+          "feedings": 1761,
+          "resource_flows": {
+            "external_a": 8787,
+            "consumed_a": 5897,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 2411,
+            "feeding_dissipation": 3486
+          },
+          "output_sha256": {
+            "initial.json": "af49ce89558c36fc2e029b407246cda844f0541f8155833640dccaa3782d1496",
+            "steps.jsonl": "c5ae4f29175db8643d2bc4029c1630e11d276d21a653159ecb0634f0a93c1bad",
+            "events.jsonl": "dcbf9b3482de8a53560fa9115a7eb65713e3c438f1cb311eee950f1ce5385f26",
+            "final.json": "9e74d2426e81918b4df922f346d5b9decc189c1f7d7ac82738a73eb0c7fd1b6c",
+            "summary.json": "ac0692d780980c8d7f9f98921a5b75e6f214f180cfd0e20a7ce1ccf5b252648f"
+          },
+          "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+        },
+        "decisions": 1761,
+        "spatial_reconstruction": true,
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+        "summary": {
+          "steps": 1000,
+          "population": 1,
+          "individuals": 3,
+          "actor_records": 1763,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 3,
+          "attempts": 32,
+          "failed_attempts": 29,
+          "construction_cost": 9328,
+          "failure_loss": 9565,
+          "deaths": 2,
+          "total_energy": 6434,
+          "resource_flows": {
+            "external_a": 8787,
+            "consumed_a": 5897,
+            "consumed_b": 0,
+            "released_b": 0,
+            "feeding_energy": 2411,
+            "feeding_dissipation": 3486
+          },
+          "remaining_a": 5962,
+          "remaining_b": 0
+        },
+        "construction_audit": {
+          "attempts": 32,
+          "construction_cost": 9328,
+          "failure_loss": 9565,
+          "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "af49ce89558c36fc2e029b407246cda844f0541f8155833640dccaa3782d1496",
+          "final.json": "9e74d2426e81918b4df922f346d5b9decc189c1f7d7ac82738a73eb0c7fd1b6c",
+          "steps.jsonl": "c5ae4f29175db8643d2bc4029c1630e11d276d21a653159ecb0634f0a93c1bad",
+          "events.jsonl": "dcbf9b3482de8a53560fa9115a7eb65713e3c438f1cb311eee950f1ce5385f26",
+          "summary.json": "ac0692d780980c8d7f9f98921a5b75e6f214f180cfd0e20a7ce1ccf5b252648f"
+        },
+        "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+      }
+    }
+  ],
+  "metadata_sha256": "b95f974d684f4a386aa090a3341ce6566c69b79432d066494d08b24de66ec76d",
+  "results_sha256": "8a1f84576981191ab42a543994c74c85fab1a4dd35d68d64e81a44bd8a6e15fb",
+  "script_sha256": "009846c7aa67aac94cb990dc4cb70fc24d0c685b6473a81358f74d2379e5bee1"
+}
