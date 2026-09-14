@@ -3,7 +3,9 @@
 V0 now has a fixed, independently installable review of nineteen campaigns.
 Keep it as the experimental baseline. The next useful milestone is evidence
 about inherited use of information, not a larger V0 execution count. Only V0
-runtime is currently in scope; the V1 documents specify future work, not results.
+runtime was in scope at this checkpoint. The 2026-09-14
+[expanded mandate](autonomous-research.md) now authorizes all later stages;
+the V1 documents still specify future work, not results.
 
 ## Evidence that changes the next design
 
