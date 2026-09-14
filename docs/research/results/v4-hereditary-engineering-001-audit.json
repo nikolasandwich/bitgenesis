@@ -1,0 +1,32 @@
+{
+  "scope": "independent initialization/program/drive/direction/mutation RNG, physical dynamics and hereditary expression",
+  "summary": {
+    "steps": 100,
+    "units": 256,
+    "initial_energy": 5666,
+    "final_energy": 15283,
+    "spent": 51751,
+    "imported": 61368,
+    "rejected_import": 39760,
+    "leakage": 25354,
+    "construction_spent": 316,
+    "copy_spent": 79,
+    "mutations": 1,
+    "formations": 79,
+    "dissolutions": 5,
+    "initial_material": 438,
+    "final_material": 438,
+    "final_raw": 182
+  },
+  "output_sha256": {
+    "initial.json": "00d92ec7618dba3284a72af5127aee22982d1a313624824bf2eb82d8735144ad",
+    "steps.jsonl": "177d188767612edba6ddff65b7361f17bca8a34adf67414ca36ccde9faeaa0e9",
+    "final.json": "d9e0bc135c15c204fb671eaee2c565d9abe8fdb6c058dfa86ccaac3c921e7f0a",
+    "summary.json": "ab3b7f39725650a6bfa6f2fe6e8e3edb7bf3b3ec7037d13f43455a2d6201f718"
+  },
+  "audit_sha256": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0",
+  "dependencies_sha256": {
+    "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+    "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+  }
+}

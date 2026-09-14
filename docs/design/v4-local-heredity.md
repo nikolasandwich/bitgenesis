@@ -91,3 +91,13 @@ expose program mode, copy cost and mutation probability; the CLI retains output,
 seed, steps, no-drive and no-exchange controls. Seeds95000..95004 are engineering.
 Independent hereditary reconstruction is the next gate; ordinary growing audits
 do not accept this new schema. Full-state replay alone is not that gate.
+
+
+Independent reconstruction is now available through v4.hereditary_audit. It
+rebuilds physical initialization and program/mutation streams, uses independent
+local/material reconstruction, and derives child expression and mutation from
+serialized parent programs. It checks every recorded state and cost. Engineering
+95004 passes100 steps,79 formations,79 copy-energy spent and1 mutation. Tests
+reject rehashed child-program and mutation-ticket corruption; seed95005 is
+reserved. Study005 preregisters bounded variation persistence before scientific
+seeds are run. This gate does not claim adaptive value or lineage identity.

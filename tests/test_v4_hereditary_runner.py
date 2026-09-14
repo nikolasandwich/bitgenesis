@@ -3,6 +3,7 @@ from pathlib import Path
 import tempfile
 import unittest
 from bitgenesis.v4.hereditary_runner import run
+from bitgenesis.v4.hereditary_audit import audit
 
 
 class HereditaryRunnerTests(unittest.TestCase):
@@ -11,6 +12,7 @@ class HereditaryRunnerTests(unittest.TestCase):
             root=Path(directory)
             for name,mutation in (('a',1000),('b',1000),('off',0)):
                 summary=run(root/name,95002,20,width=4,height=4,occupancy=250,mutation_per_thousand=mutation)
+                self.assertEqual(audit(root/name)['summary'],summary)
                 self.assertEqual(summary['initial_energy']+summary['imported']-summary['spent'],summary['final_energy'])
                 self.assertEqual(summary['copy_spent'],summary['formations'])
                 self.assertEqual(summary['mutations'],summary['formations'] if mutation else 0)
@@ -29,6 +31,7 @@ class HereditaryRunnerTests(unittest.TestCase):
                 run(root,95003,0,threshold=6)
             self.assertFalse(root.exists())
             summary=run(root,95003,0,program_mode='constant')
+            self.assertEqual(audit(root)['summary'],summary)
             self.assertEqual(summary['copy_spent'],0)
             self.assertEqual(summary['mutations'],0)
             initial=json.loads((root/'initial.json').read_text())
