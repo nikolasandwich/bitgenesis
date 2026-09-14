@@ -4146,3 +4146,9 @@ Previous turn completed and published study001 (312ec52), a substantive progress
 Prepared clean-source-bound runner with paired initial-state equality gate. Syntax and initialization equality checks pass at the first and last source seeds; runtime unchanged since256 passing tests. Commit before execution; next monitor original run and independently verify complete coverage, inherited changes and all failure denominators.
 
 Study002 execution follow-up: original process75089 exited0 after20/20 worlds and per-world audits. Paired initialization equality passed for all ten sources. Archived launch metadata and raw summary rows; complete-cohort independent verification and inheritance analysis remain pending. These execution summaries are not yet a final scientific report.
+
+## 2026-09-14 — Autonomous cycle 276
+
+Previous turn completed all20 study002 worlds and archived execution summaries. New complete-cohort verifier independently reran every saved audit, checked exact grid/configuration/source/protocol, paired initial states, raw summary equality and traced every successful child to parent/founder. Original verification process96837 exited0. Two focused tests pass for incomplete/duplicate/unregistered grids and failed-mutant versus nongenetic phenotype-change accounting. Runtime unchanged since256 full tests.
+
+Both arms have38/320 viable founders,58 successful offspring, maximum generation3, and9/10 surviving worlds. Mutation arm has6 changed-genotype offspring, all viable;2 reproduce. Nine terminal population contrasts are zero and one is−1, mean−1/10. No adaptation or developmental superiority claim. Published full gate and Chinese report, preserving failed founders and extinct source. Next bounded V3 ecological mechanism design may proceed with V2 scientific-benefit criteria explicitly open, or a separately declared fixed-budget behavioral follow-up.

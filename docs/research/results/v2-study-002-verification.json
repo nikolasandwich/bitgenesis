@@ -1,0 +1,2842 @@
+{
+  "scope": "complete cohort and inheritance accounting; descriptive, not adaptation proof",
+  "runs": 20,
+  "pairs": [
+    {
+      "seed": 84000,
+      "population_mutation": 0,
+      "population_no_mutation": 0,
+      "difference": 0
+    },
+    {
+      "seed": 84001,
+      "population_mutation": 8,
+      "population_no_mutation": 8,
+      "difference": 0
+    },
+    {
+      "seed": 84002,
+      "population_mutation": 8,
+      "population_no_mutation": 8,
+      "difference": 0
+    },
+    {
+      "seed": 84003,
+      "population_mutation": 7,
+      "population_no_mutation": 7,
+      "difference": 0
+    },
+    {
+      "seed": 84004,
+      "population_mutation": 8,
+      "population_no_mutation": 8,
+      "difference": 0
+    },
+    {
+      "seed": 84005,
+      "population_mutation": 8,
+      "population_no_mutation": 8,
+      "difference": 0
+    },
+    {
+      "seed": 84006,
+      "population_mutation": 7,
+      "population_no_mutation": 8,
+      "difference": -1
+    },
+    {
+      "seed": 84007,
+      "population_mutation": 6,
+      "population_no_mutation": 6,
+      "difference": 0
+    },
+    {
+      "seed": 84008,
+      "population_mutation": 7,
+      "population_no_mutation": 7,
+      "difference": 0
+    },
+    {
+      "seed": 84009,
+      "population_mutation": 8,
+      "population_no_mutation": 8,
+      "difference": 0
+    }
+  ],
+  "mean_population_difference": "-1/10",
+  "checks": [
+    {
+      "seed": 84000,
+      "mutation_per_thousand": 100,
+      "extinction_tick": 713,
+      "inheritance": {
+        "offspring_attempts": 0,
+        "changed_genotype_attempts": 0,
+        "changed_genotype_successes": 0,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 31
+          },
+          "offspring": {}
+        },
+        "max_generation": 0,
+        "individuals": []
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 712,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 0,
+          "individuals": 1,
+          "actor_records": 713,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 1,
+          "attempts": 32,
+          "failed_attempts": 31,
+          "construction_cost": 9174,
+          "failure_loss": 10705,
+          "deaths": 1,
+          "total_energy": 6144
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 32,
+          "successful": 1,
+          "failed": 31,
+          "construction_cost": 9174,
+          "failure_loss": 10705,
+          "final_sha256": "c8e3e92bdcfc8332843fcb52b643736441b159a47720ab18d38acf7707e25fc5",
+          "metadata_sha256": "3df535f6288a51890bfec0121e2bce580aa9bd70b40c1f6601d5c6e2a5248a4b",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "306632ae012cad60755c3779e3b77b86225946b1f3050be35ebde30f0089970b",
+          "final.json": "c8e3e92bdcfc8332843fcb52b643736441b159a47720ab18d38acf7707e25fc5",
+          "steps.jsonl": "e7e653618261842bd67c8e0d4dd214eccf958f1cedab378a70076d8affe2d3aa",
+          "events.jsonl": "c99f3d93cded77aaa8408723a7a3cbc87d6ca3a6d8a766117bb5d4ed8225d054",
+          "summary.json": "8ebb67cc84752fa2ed1224cb7e7da77e0921c61aaf6f50dd6a01253d7a277a2f"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84000,
+      "mutation_per_thousand": 0,
+      "extinction_tick": 713,
+      "inheritance": {
+        "offspring_attempts": 0,
+        "changed_genotype_attempts": 0,
+        "changed_genotype_successes": 0,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 31
+          },
+          "offspring": {}
+        },
+        "max_generation": 0,
+        "individuals": []
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 712,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 0,
+          "individuals": 1,
+          "actor_records": 713,
+          "births": 0,
+          "founder_attempts": 32,
+          "successful_founders": 1,
+          "attempts": 32,
+          "failed_attempts": 31,
+          "construction_cost": 9174,
+          "failure_loss": 10705,
+          "deaths": 1,
+          "total_energy": 6144
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 32,
+          "successful": 1,
+          "failed": 31,
+          "construction_cost": 9174,
+          "failure_loss": 10705,
+          "final_sha256": "c8e3e92bdcfc8332843fcb52b643736441b159a47720ab18d38acf7707e25fc5",
+          "metadata_sha256": "74e0e5543df3202b9430a592463c4ecdfaf00a4914066c7ad83c3f830ef8eee2",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "306632ae012cad60755c3779e3b77b86225946b1f3050be35ebde30f0089970b",
+          "final.json": "c8e3e92bdcfc8332843fcb52b643736441b159a47720ab18d38acf7707e25fc5",
+          "steps.jsonl": "e7e653618261842bd67c8e0d4dd214eccf958f1cedab378a70076d8affe2d3aa",
+          "events.jsonl": "c99f3d93cded77aaa8408723a7a3cbc87d6ca3a6d8a766117bb5d4ed8225d054",
+          "summary.json": "8ebb67cc84752fa2ed1224cb7e7da77e0921c61aaf6f50dd6a01253d7a277a2f"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84001,
+      "mutation_per_thousand": 100,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 6,
+        "changed_genotype_attempts": 0,
+        "changed_genotype_successes": 0,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 28
+          },
+          "offspring": {}
+        },
+        "max_generation": 2,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 14,
+            "founder": 14,
+            "generation": 1,
+            "birth_tick": 618,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 14,
+            "founder": 14,
+            "generation": 1,
+            "birth_tick": 823,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 32,
+            "founder": 14,
+            "generation": 2,
+            "birth_tick": 1005,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 31,
+            "founder": 31,
+            "generation": 1,
+            "birth_tick": 1036,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 33,
+            "founder": 14,
+            "generation": 2,
+            "birth_tick": 1111,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 37,
+            "parent": 31,
+            "founder": 31,
+            "generation": 1,
+            "birth_tick": 1655,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 18680,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 8,
+          "individuals": 10,
+          "actor_records": 18682,
+          "births": 6,
+          "founder_attempts": 32,
+          "successful_founders": 4,
+          "attempts": 38,
+          "failed_attempts": 28,
+          "construction_cost": 10423,
+          "failure_loss": 9065,
+          "deaths": 2,
+          "total_energy": 6429
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 38,
+          "successful": 10,
+          "failed": 28,
+          "construction_cost": 10423,
+          "failure_loss": 9065,
+          "final_sha256": "7c545d9a36a7031d1f53cd729d95f4cc691e239add68d2c45e0782b16ec3a5cf",
+          "metadata_sha256": "efa73d42da67e059fc0cbea40894b5687755e6d1cce721432f18fed2011a132f",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "b3eca2a10d44d3c89711d561a9c4026b30f5addbb342b1bd38c519fb80689e4a",
+          "final.json": "7c545d9a36a7031d1f53cd729d95f4cc691e239add68d2c45e0782b16ec3a5cf",
+          "steps.jsonl": "5420ee7bbb49c8c2ed76981956d73ca42405526243819fa9487875b34b31c74d",
+          "events.jsonl": "985b487d98c7a5caa09e6d9f3b007e2b42e26d9f24cdfbf4ec1b9a420cecdb1c",
+          "summary.json": "505fd090b2a394cb683d684237f9d6b6e71e8f597d4729e04c467dcd32857010"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84001,
+      "mutation_per_thousand": 0,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 6,
+        "changed_genotype_attempts": 0,
+        "changed_genotype_successes": 0,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 28
+          },
+          "offspring": {}
+        },
+        "max_generation": 2,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 14,
+            "founder": 14,
+            "generation": 1,
+            "birth_tick": 618,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 14,
+            "founder": 14,
+            "generation": 1,
+            "birth_tick": 823,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 32,
+            "founder": 14,
+            "generation": 2,
+            "birth_tick": 1005,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 31,
+            "founder": 31,
+            "generation": 1,
+            "birth_tick": 1036,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 33,
+            "founder": 14,
+            "generation": 2,
+            "birth_tick": 1111,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 37,
+            "parent": 31,
+            "founder": 31,
+            "generation": 1,
+            "birth_tick": 1655,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 18680,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 8,
+          "individuals": 10,
+          "actor_records": 18682,
+          "births": 6,
+          "founder_attempts": 32,
+          "successful_founders": 4,
+          "attempts": 38,
+          "failed_attempts": 28,
+          "construction_cost": 10423,
+          "failure_loss": 9065,
+          "deaths": 2,
+          "total_energy": 6429
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 38,
+          "successful": 10,
+          "failed": 28,
+          "construction_cost": 10423,
+          "failure_loss": 9065,
+          "final_sha256": "9eab5eed13d9865119b6c5910f11031610e675dd26e55bbe8c179da3f9c99ee9",
+          "metadata_sha256": "d4675b66e39016e442c59553423396d640a51ae624d5dbe22ee2af84ce2cb8b4",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "b3eca2a10d44d3c89711d561a9c4026b30f5addbb342b1bd38c519fb80689e4a",
+          "final.json": "9eab5eed13d9865119b6c5910f11031610e675dd26e55bbe8c179da3f9c99ee9",
+          "steps.jsonl": "5420ee7bbb49c8c2ed76981956d73ca42405526243819fa9487875b34b31c74d",
+          "events.jsonl": "985b487d98c7a5caa09e6d9f3b007e2b42e26d9f24cdfbf4ec1b9a420cecdb1c",
+          "summary.json": "505fd090b2a394cb683d684237f9d6b6e71e8f597d4729e04c467dcd32857010"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84002,
+      "mutation_per_thousand": 100,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 7,
+        "changed_genotype_attempts": 1,
+        "changed_genotype_successes": 1,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 31
+          },
+          "offspring": {}
+        },
+        "max_generation": 3,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 2,
+            "founder": 2,
+            "generation": 1,
+            "birth_tick": 153,
+            "death_tick": null,
+            "offspring": 2,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 32,
+            "founder": 2,
+            "generation": 2,
+            "birth_tick": 311,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 2,
+            "founder": 2,
+            "generation": 1,
+            "birth_tick": 313,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 33,
+            "founder": 2,
+            "generation": 3,
+            "birth_tick": 509,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 32,
+            "founder": 2,
+            "generation": 2,
+            "birth_tick": 514,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": true,
+            "genome_changed_from_founder": true,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 37,
+            "parent": 2,
+            "founder": 2,
+            "generation": 1,
+            "birth_tick": 542,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 38,
+            "parent": 34,
+            "founder": 2,
+            "generation": 2,
+            "birth_tick": 704,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 20954,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 8,
+          "individuals": 8,
+          "actor_records": 20954,
+          "births": 7,
+          "founder_attempts": 32,
+          "successful_founders": 1,
+          "attempts": 39,
+          "failed_attempts": 31,
+          "construction_cost": 9816,
+          "failure_loss": 10320,
+          "deaths": 0,
+          "total_energy": 5568
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 39,
+          "successful": 8,
+          "failed": 31,
+          "construction_cost": 9816,
+          "failure_loss": 10320,
+          "final_sha256": "8e22729da9725dc06cef31e9f726930c528af541fb195c172a7ea2db850fdae9",
+          "metadata_sha256": "56d3b0f2166de90346b2bf47b78f31d47d43894efa81c7174e9e2644e3f698be",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "540206976078a14f9149078cdc44e34ef44f5812edd48e7d3bcac7be96bb6f8a",
+          "final.json": "8e22729da9725dc06cef31e9f726930c528af541fb195c172a7ea2db850fdae9",
+          "steps.jsonl": "b0f1b7163a18a32d49597f174d12036237b28153721ec8954a3385fc7cbe6260",
+          "events.jsonl": "8b59c71234d416ce7f1dfce10b4cbce41fc0bbcd634e75bebe02928b9c8ceec6",
+          "summary.json": "0bf1a2610febe6e5f3d75bd2bf313ba217b49d5e86f1d73e9372f9ebf7b4263b"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84002,
+      "mutation_per_thousand": 0,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 7,
+        "changed_genotype_attempts": 0,
+        "changed_genotype_successes": 0,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 31
+          },
+          "offspring": {}
+        },
+        "max_generation": 3,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 2,
+            "founder": 2,
+            "generation": 1,
+            "birth_tick": 153,
+            "death_tick": null,
+            "offspring": 2,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 32,
+            "founder": 2,
+            "generation": 2,
+            "birth_tick": 311,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 2,
+            "founder": 2,
+            "generation": 1,
+            "birth_tick": 313,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 33,
+            "founder": 2,
+            "generation": 3,
+            "birth_tick": 509,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 32,
+            "founder": 2,
+            "generation": 2,
+            "birth_tick": 514,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 37,
+            "parent": 2,
+            "founder": 2,
+            "generation": 1,
+            "birth_tick": 542,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 38,
+            "parent": 34,
+            "founder": 2,
+            "generation": 2,
+            "birth_tick": 704,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 20954,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 8,
+          "individuals": 8,
+          "actor_records": 20954,
+          "births": 7,
+          "founder_attempts": 32,
+          "successful_founders": 1,
+          "attempts": 39,
+          "failed_attempts": 31,
+          "construction_cost": 9816,
+          "failure_loss": 10320,
+          "deaths": 0,
+          "total_energy": 5568
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 39,
+          "successful": 8,
+          "failed": 31,
+          "construction_cost": 9816,
+          "failure_loss": 10320,
+          "final_sha256": "3a127d5d1e38239837bf45356c7f5f2944db05109c8fc3ced1f7d2af39a24f74",
+          "metadata_sha256": "54334cac641464e78fded3ff105995767bc98483366b30c3f3250246ecf0d4d2",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "540206976078a14f9149078cdc44e34ef44f5812edd48e7d3bcac7be96bb6f8a",
+          "final.json": "3a127d5d1e38239837bf45356c7f5f2944db05109c8fc3ced1f7d2af39a24f74",
+          "steps.jsonl": "b0f1b7163a18a32d49597f174d12036237b28153721ec8954a3385fc7cbe6260",
+          "events.jsonl": "5b323fc932fbef374b94d551cd86a3ac23bafd14743c449e343ae28dfd4e998c",
+          "summary.json": "0bf1a2610febe6e5f3d75bd2bf313ba217b49d5e86f1d73e9372f9ebf7b4263b"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84003,
+      "mutation_per_thousand": 100,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 8,
+        "changed_genotype_attempts": 1,
+        "changed_genotype_successes": 1,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 28
+          },
+          "offspring": {}
+        },
+        "max_generation": 2,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 13,
+            "founder": 13,
+            "generation": 1,
+            "birth_tick": 229,
+            "death_tick": null,
+            "offspring": 2,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 13,
+            "founder": 13,
+            "generation": 1,
+            "birth_tick": 468,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 32,
+            "founder": 13,
+            "generation": 2,
+            "birth_tick": 507,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 8,
+            "founder": 8,
+            "generation": 1,
+            "birth_tick": 592,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 13,
+            "founder": 13,
+            "generation": 1,
+            "birth_tick": 1073,
+            "death_tick": 2821,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 37,
+            "parent": 8,
+            "founder": 8,
+            "generation": 1,
+            "birth_tick": 1483,
+            "death_tick": 1899,
+            "offspring": 0,
+            "genome_changed_from_parent": true,
+            "genome_changed_from_founder": true,
+            "controller_changed_from_parent": true
+          },
+          {
+            "id": 38,
+            "parent": 33,
+            "founder": 13,
+            "generation": 2,
+            "birth_tick": 1556,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 39,
+            "parent": 32,
+            "founder": 13,
+            "generation": 2,
+            "birth_tick": 1690,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 21817,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 7,
+          "individuals": 12,
+          "actor_records": 21822,
+          "births": 8,
+          "founder_attempts": 32,
+          "successful_founders": 4,
+          "attempts": 40,
+          "failed_attempts": 28,
+          "construction_cost": 9898,
+          "failure_loss": 9870,
+          "deaths": 5,
+          "total_energy": 2975
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 40,
+          "successful": 12,
+          "failed": 28,
+          "construction_cost": 9898,
+          "failure_loss": 9870,
+          "final_sha256": "054a341a1c538436dcdd7db0cfb017c5cd8c958bbd9f2e53f294a2a17c51f9c7",
+          "metadata_sha256": "09d390226cb63b403a261068ef7c1c07ff787f70e1b6fdf5556ca653d324fd2d",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "43767f689eef51c72a5086d918ab2c90bdc1490895ffd0c1ea9d83846c9ff8a2",
+          "final.json": "054a341a1c538436dcdd7db0cfb017c5cd8c958bbd9f2e53f294a2a17c51f9c7",
+          "steps.jsonl": "d029ce2b16bc360af8b1e85ff12f59e61845e2bc8887cc1bc9aae7ac0eceb045",
+          "events.jsonl": "c02289fdb8459e6d9f79a60bf7fe19d0480e50c1dfdae471dd36404d3b3786cf",
+          "summary.json": "39c73cd1979ed2ba38a258c553889fc9d4c1bb3b20ab45647b71381f5e99f593"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84003,
+      "mutation_per_thousand": 0,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 7,
+        "changed_genotype_attempts": 0,
+        "changed_genotype_successes": 0,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 28
+          },
+          "offspring": {}
+        },
+        "max_generation": 2,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 13,
+            "founder": 13,
+            "generation": 1,
+            "birth_tick": 229,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 13,
+            "founder": 13,
+            "generation": 1,
+            "birth_tick": 468,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 32,
+            "founder": 13,
+            "generation": 2,
+            "birth_tick": 507,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 8,
+            "founder": 8,
+            "generation": 1,
+            "birth_tick": 592,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 13,
+            "founder": 13,
+            "generation": 1,
+            "birth_tick": 1073,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 37,
+            "parent": 8,
+            "founder": 8,
+            "generation": 1,
+            "birth_tick": 1483,
+            "death_tick": 2744,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 38,
+            "parent": 33,
+            "founder": 13,
+            "generation": 2,
+            "birth_tick": 1556,
+            "death_tick": 2343,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 20941,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 7,
+          "individuals": 11,
+          "actor_records": 20945,
+          "births": 7,
+          "founder_attempts": 32,
+          "successful_founders": 4,
+          "attempts": 39,
+          "failed_attempts": 28,
+          "construction_cost": 9793,
+          "failure_loss": 9870,
+          "deaths": 4,
+          "total_energy": 4797
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 39,
+          "successful": 11,
+          "failed": 28,
+          "construction_cost": 9793,
+          "failure_loss": 9870,
+          "final_sha256": "8e52f9ba8b385fdd682129c27ef300931f9e7ea41ed1481882522c5660358a91",
+          "metadata_sha256": "730c6332e3214eccbd39a2e51a21c9bd434392d77fc1c27c45d66612090d7768",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "43767f689eef51c72a5086d918ab2c90bdc1490895ffd0c1ea9d83846c9ff8a2",
+          "final.json": "8e52f9ba8b385fdd682129c27ef300931f9e7ea41ed1481882522c5660358a91",
+          "steps.jsonl": "110f24db69bdfbc5cbfac1c09e95c5209bf10f9f5f8702fefbbf3cc71595b87f",
+          "events.jsonl": "43eea8b4e9cd69e93578b0c9169ba3ebd4d5719146b29d36d2c1873df6cf98f3",
+          "summary.json": "37cc31fcb08d83663650ce5199cf4973bbff7e64871b1e69662d48bf2ff51bbe"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84004,
+      "mutation_per_thousand": 100,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 5,
+        "changed_genotype_attempts": 0,
+        "changed_genotype_successes": 0,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 26
+          },
+          "offspring": {}
+        },
+        "max_generation": 2,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 21,
+            "founder": 21,
+            "generation": 1,
+            "birth_tick": 208,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 14,
+            "founder": 14,
+            "generation": 1,
+            "birth_tick": 541,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 29,
+            "founder": 29,
+            "generation": 1,
+            "birth_tick": 1090,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 32,
+            "founder": 21,
+            "generation": 2,
+            "birth_tick": 1311,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 21,
+            "founder": 21,
+            "generation": 1,
+            "birth_tick": 1448,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 22438,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 8,
+          "individuals": 11,
+          "actor_records": 22441,
+          "births": 5,
+          "founder_attempts": 32,
+          "successful_founders": 6,
+          "attempts": 37,
+          "failed_attempts": 26,
+          "construction_cost": 8560,
+          "failure_loss": 9570,
+          "deaths": 3,
+          "total_energy": 5028
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 37,
+          "successful": 11,
+          "failed": 26,
+          "construction_cost": 8560,
+          "failure_loss": 9570,
+          "final_sha256": "d17fbac4686e9d303c26d96882603fcf60902d66d1a5cdc0583f6bbd9d1a54db",
+          "metadata_sha256": "42eb214fcdda358da977b7386a2acd1060e1239b77dfe328fe0ac79f04574eee",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "ed89783ef77f313bd3a91fc520e94a86a6983dfe953410baf42b5e5dce0ce877",
+          "final.json": "d17fbac4686e9d303c26d96882603fcf60902d66d1a5cdc0583f6bbd9d1a54db",
+          "steps.jsonl": "ce2a90d414cbf11e38b196964469c67c70b4daf501b5c6e8a92f1b3133fbc8d5",
+          "events.jsonl": "26f66cfa271bf7e95c296ff89f0dc23ee51376c6560b87b8d8dc9ca844e31f5b",
+          "summary.json": "0933d618cec2b6a708569fadb1f85afce24b6a4dfa7836371b109cfc1eb70f85"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84004,
+      "mutation_per_thousand": 0,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 5,
+        "changed_genotype_attempts": 0,
+        "changed_genotype_successes": 0,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 26
+          },
+          "offspring": {}
+        },
+        "max_generation": 2,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 21,
+            "founder": 21,
+            "generation": 1,
+            "birth_tick": 208,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 14,
+            "founder": 14,
+            "generation": 1,
+            "birth_tick": 541,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 29,
+            "founder": 29,
+            "generation": 1,
+            "birth_tick": 1090,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 32,
+            "founder": 21,
+            "generation": 2,
+            "birth_tick": 1311,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 21,
+            "founder": 21,
+            "generation": 1,
+            "birth_tick": 1448,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 22438,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 8,
+          "individuals": 11,
+          "actor_records": 22441,
+          "births": 5,
+          "founder_attempts": 32,
+          "successful_founders": 6,
+          "attempts": 37,
+          "failed_attempts": 26,
+          "construction_cost": 8560,
+          "failure_loss": 9570,
+          "deaths": 3,
+          "total_energy": 5028
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 37,
+          "successful": 11,
+          "failed": 26,
+          "construction_cost": 8560,
+          "failure_loss": 9570,
+          "final_sha256": "d17fbac4686e9d303c26d96882603fcf60902d66d1a5cdc0583f6bbd9d1a54db",
+          "metadata_sha256": "8fb164dd1a6cf6bb630498aac669e18985ce3f183132e45a7f9188a3bc3763a9",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "ed89783ef77f313bd3a91fc520e94a86a6983dfe953410baf42b5e5dce0ce877",
+          "final.json": "d17fbac4686e9d303c26d96882603fcf60902d66d1a5cdc0583f6bbd9d1a54db",
+          "steps.jsonl": "ce2a90d414cbf11e38b196964469c67c70b4daf501b5c6e8a92f1b3133fbc8d5",
+          "events.jsonl": "26f66cfa271bf7e95c296ff89f0dc23ee51376c6560b87b8d8dc9ca844e31f5b",
+          "summary.json": "0933d618cec2b6a708569fadb1f85afce24b6a4dfa7836371b109cfc1eb70f85"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84005,
+      "mutation_per_thousand": 100,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 7,
+        "changed_genotype_attempts": 1,
+        "changed_genotype_successes": 1,
+        "changed_individuals_with_offspring": 1,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 28
+          },
+          "offspring": {}
+        },
+        "max_generation": 3,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 21,
+            "founder": 21,
+            "generation": 1,
+            "birth_tick": 194,
+            "death_tick": null,
+            "offspring": 2,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 21,
+            "founder": 21,
+            "generation": 1,
+            "birth_tick": 334,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 32,
+            "founder": 21,
+            "generation": 2,
+            "birth_tick": 401,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 21,
+            "founder": 21,
+            "generation": 1,
+            "birth_tick": 666,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 32,
+            "founder": 21,
+            "generation": 2,
+            "birth_tick": 718,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": true,
+            "genome_changed_from_founder": true,
+            "controller_changed_from_parent": true
+          },
+          {
+            "id": 37,
+            "parent": 33,
+            "founder": 21,
+            "generation": 2,
+            "birth_tick": 756,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 38,
+            "parent": 36,
+            "founder": 21,
+            "generation": 3,
+            "birth_tick": 2433,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": true,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 20939,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 8,
+          "individuals": 11,
+          "actor_records": 20942,
+          "births": 7,
+          "founder_attempts": 32,
+          "successful_founders": 4,
+          "attempts": 39,
+          "failed_attempts": 28,
+          "construction_cost": 9325,
+          "failure_loss": 10080,
+          "deaths": 3,
+          "total_energy": 6144
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 39,
+          "successful": 11,
+          "failed": 28,
+          "construction_cost": 9325,
+          "failure_loss": 10080,
+          "final_sha256": "bfb9b15b5e76dcf79f23de2534163db624cf806040cb7503e2d964408069f076",
+          "metadata_sha256": "bc03731abb34d5fd0a76344d0cf3dfbaf333ed8e9b682321df6b908a1070da3e",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "ed2981ce98f2018def42b9f06ffbea49774fcbf67e6551adff5114190b579f16",
+          "final.json": "bfb9b15b5e76dcf79f23de2534163db624cf806040cb7503e2d964408069f076",
+          "steps.jsonl": "fa52bd5681937ef894f223796ad31f90d180c14fe5cb76bcd08333e65eb38c15",
+          "events.jsonl": "a736a9cd630279c7821a28927e72cff8b697b1038a506d38e2e069da9e7a407c",
+          "summary.json": "5ebc5a5966b6fb6c2627b6b35cf8a6affb2d7a6567e1cda81557718ee09e6ec7"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84005,
+      "mutation_per_thousand": 0,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 7,
+        "changed_genotype_attempts": 0,
+        "changed_genotype_successes": 0,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 28
+          },
+          "offspring": {}
+        },
+        "max_generation": 3,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 21,
+            "founder": 21,
+            "generation": 1,
+            "birth_tick": 194,
+            "death_tick": null,
+            "offspring": 2,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 21,
+            "founder": 21,
+            "generation": 1,
+            "birth_tick": 334,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 32,
+            "founder": 21,
+            "generation": 2,
+            "birth_tick": 401,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 21,
+            "founder": 21,
+            "generation": 1,
+            "birth_tick": 666,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 32,
+            "founder": 21,
+            "generation": 2,
+            "birth_tick": 718,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 37,
+            "parent": 33,
+            "founder": 21,
+            "generation": 2,
+            "birth_tick": 756,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 38,
+            "parent": 36,
+            "founder": 21,
+            "generation": 3,
+            "birth_tick": 2433,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 20939,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 8,
+          "individuals": 11,
+          "actor_records": 20942,
+          "births": 7,
+          "founder_attempts": 32,
+          "successful_founders": 4,
+          "attempts": 39,
+          "failed_attempts": 28,
+          "construction_cost": 9325,
+          "failure_loss": 10080,
+          "deaths": 3,
+          "total_energy": 6144
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 39,
+          "successful": 11,
+          "failed": 28,
+          "construction_cost": 9325,
+          "failure_loss": 10080,
+          "final_sha256": "c0da2b5cc6502b0a5be662a5163ed3c7858616daa8d250e7262ea22c0ac69bfe",
+          "metadata_sha256": "b369e18c4c4c65fd0b70d57e3149af10e9f44741c12a8f54c82e57c5fa8a99a0",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "ed2981ce98f2018def42b9f06ffbea49774fcbf67e6551adff5114190b579f16",
+          "final.json": "c0da2b5cc6502b0a5be662a5163ed3c7858616daa8d250e7262ea22c0ac69bfe",
+          "steps.jsonl": "fa52bd5681937ef894f223796ad31f90d180c14fe5cb76bcd08333e65eb38c15",
+          "events.jsonl": "82322373546a46c3e1194d64c98776a2c96fab429fbd22af494f5eacb39cde19",
+          "summary.json": "5ebc5a5966b6fb6c2627b6b35cf8a6affb2d7a6567e1cda81557718ee09e6ec7"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84006,
+      "mutation_per_thousand": 100,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 7,
+        "changed_genotype_attempts": 1,
+        "changed_genotype_successes": 1,
+        "changed_individuals_with_offspring": 1,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 27
+          },
+          "offspring": {}
+        },
+        "max_generation": 2,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 31,
+            "founder": 31,
+            "generation": 1,
+            "birth_tick": 250,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 29,
+            "founder": 29,
+            "generation": 1,
+            "birth_tick": 328,
+            "death_tick": 2150,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 31,
+            "founder": 31,
+            "generation": 1,
+            "birth_tick": 438,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 32,
+            "founder": 31,
+            "generation": 2,
+            "birth_tick": 737,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 31,
+            "founder": 31,
+            "generation": 1,
+            "birth_tick": 786,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": true,
+            "genome_changed_from_founder": true,
+            "controller_changed_from_parent": true
+          },
+          {
+            "id": 37,
+            "parent": 34,
+            "founder": 31,
+            "generation": 2,
+            "birth_tick": 1132,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 38,
+            "parent": 36,
+            "founder": 31,
+            "generation": 2,
+            "birth_tick": 2917,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": true,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 21296,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 7,
+          "individuals": 12,
+          "actor_records": 21301,
+          "births": 7,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 39,
+          "failed_attempts": 27,
+          "construction_cost": 9829,
+          "failure_loss": 8915,
+          "deaths": 5,
+          "total_energy": 6236
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 39,
+          "successful": 12,
+          "failed": 27,
+          "construction_cost": 9829,
+          "failure_loss": 8915,
+          "final_sha256": "e8d95d56bedb25be8d789815a623e7c3112de93a48a029db30c74de6abcba5b7",
+          "metadata_sha256": "c792390b1d7483f6545a087b7bb4de6f0a4b0e54f58f5e18a667d40784f5f043",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "1fc3f0a6a1bf6d4a5b4baea83612aead8306a97c1d68e4a2a3b0298ca24350a8",
+          "final.json": "e8d95d56bedb25be8d789815a623e7c3112de93a48a029db30c74de6abcba5b7",
+          "steps.jsonl": "883d44c2f8d3f536153b6ff4450a305beddfaedf65d162e0a36709a7f09acf2a",
+          "events.jsonl": "e8466bf4fd2f2681ff9ac078537b1227126c7ed7bcd5e2955ca467f24a21b3c0",
+          "summary.json": "7987ea2803edaeec856c8e24031d3174ff99e3f2d03e93530f4b4176ac02198d"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84006,
+      "mutation_per_thousand": 0,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 8,
+        "changed_genotype_attempts": 0,
+        "changed_genotype_successes": 0,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 27
+          },
+          "offspring": {}
+        },
+        "max_generation": 3,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 31,
+            "founder": 31,
+            "generation": 1,
+            "birth_tick": 250,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 29,
+            "founder": 29,
+            "generation": 1,
+            "birth_tick": 328,
+            "death_tick": 2864,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 31,
+            "founder": 31,
+            "generation": 1,
+            "birth_tick": 438,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 32,
+            "founder": 31,
+            "generation": 2,
+            "birth_tick": 737,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 31,
+            "founder": 31,
+            "generation": 1,
+            "birth_tick": 786,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 37,
+            "parent": 31,
+            "founder": 31,
+            "generation": 1,
+            "birth_tick": 2258,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 38,
+            "parent": 34,
+            "founder": 31,
+            "generation": 2,
+            "birth_tick": 2518,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 39,
+            "parent": 35,
+            "founder": 31,
+            "generation": 3,
+            "birth_tick": 2689,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 21308,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 8,
+          "individuals": 13,
+          "actor_records": 21313,
+          "births": 8,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 40,
+          "failed_attempts": 27,
+          "construction_cost": 9937,
+          "failure_loss": 8915,
+          "deaths": 5,
+          "total_energy": 6168
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 40,
+          "successful": 13,
+          "failed": 27,
+          "construction_cost": 9937,
+          "failure_loss": 8915,
+          "final_sha256": "31c80d0dec1f7adff2cedfce5643fe0152a58e37c7a6b2e5f83223724e0eaa9b",
+          "metadata_sha256": "98d915ad3310b38adc83f38bf42487d86a69d651c399695bbcb8c58735895031",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "1fc3f0a6a1bf6d4a5b4baea83612aead8306a97c1d68e4a2a3b0298ca24350a8",
+          "final.json": "31c80d0dec1f7adff2cedfce5643fe0152a58e37c7a6b2e5f83223724e0eaa9b",
+          "steps.jsonl": "abb8fb1e38acd28acbd661fe1d66a8c58822ccd484fd05a05e264f42d976dc8e",
+          "events.jsonl": "8b58f62c47e40359e10d4f1314e5d9256481334f50a39ab7b119ec6bd20c41b6",
+          "summary.json": "3fd7fb7da009cf8816770551e31a690bac9224061dc35cdfa1a718580546c583"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84007,
+      "mutation_per_thousand": 100,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 7,
+        "changed_genotype_attempts": 2,
+        "changed_genotype_successes": 2,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 29
+          },
+          "offspring": {}
+        },
+        "max_generation": 2,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 28,
+            "founder": 28,
+            "generation": 1,
+            "birth_tick": 222,
+            "death_tick": 2535,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 13,
+            "founder": 13,
+            "generation": 1,
+            "birth_tick": 261,
+            "death_tick": null,
+            "offspring": 2,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 9,
+            "founder": 9,
+            "generation": 1,
+            "birth_tick": 326,
+            "death_tick": 2163,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 32,
+            "founder": 28,
+            "generation": 2,
+            "birth_tick": 881,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": true,
+            "genome_changed_from_founder": true,
+            "controller_changed_from_parent": true
+          },
+          {
+            "id": 36,
+            "parent": 33,
+            "founder": 13,
+            "generation": 2,
+            "birth_tick": 1036,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 37,
+            "parent": 28,
+            "founder": 28,
+            "generation": 1,
+            "birth_tick": 1364,
+            "death_tick": 2281,
+            "offspring": 0,
+            "genome_changed_from_parent": true,
+            "genome_changed_from_founder": true,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 38,
+            "parent": 33,
+            "founder": 13,
+            "generation": 2,
+            "birth_tick": 2930,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 20534,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 6,
+          "individuals": 10,
+          "actor_records": 20538,
+          "births": 7,
+          "founder_attempts": 32,
+          "successful_founders": 3,
+          "attempts": 39,
+          "failed_attempts": 29,
+          "construction_cost": 11117,
+          "failure_loss": 8200,
+          "deaths": 4,
+          "total_energy": 6722
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 39,
+          "successful": 10,
+          "failed": 29,
+          "construction_cost": 11117,
+          "failure_loss": 8200,
+          "final_sha256": "9e15156ef529873ca43d46832d3e70f5c0989932a0afdd795048d15c44e5979e",
+          "metadata_sha256": "9e6e47e8d99e81e26f0aaec828da5ec6c0661163a0bd5662ed0b0b01d78aedf3",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "0a4fe64c820ab47b0199f47b105a7fffdf2ee49443fd1eb20620c6d527e89d12",
+          "final.json": "9e15156ef529873ca43d46832d3e70f5c0989932a0afdd795048d15c44e5979e",
+          "steps.jsonl": "3e220b9d83273fa3280d2d87c710c2ce6ede51b78e10c14f1a85cac6e3486b2d",
+          "events.jsonl": "248400bf1e9e3099282c88c2ce25be817b82be41f3f83580829fe9daef7b54bd",
+          "summary.json": "705f776b53b5aa51e7f07f2accacda5e1954e04abcd856fa1b61108de8733986"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84007,
+      "mutation_per_thousand": 0,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 7,
+        "changed_genotype_attempts": 0,
+        "changed_genotype_successes": 0,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 29
+          },
+          "offspring": {}
+        },
+        "max_generation": 2,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 28,
+            "founder": 28,
+            "generation": 1,
+            "birth_tick": 222,
+            "death_tick": 2535,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 13,
+            "founder": 13,
+            "generation": 1,
+            "birth_tick": 261,
+            "death_tick": null,
+            "offspring": 2,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 9,
+            "founder": 9,
+            "generation": 1,
+            "birth_tick": 326,
+            "death_tick": 2163,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 32,
+            "founder": 28,
+            "generation": 2,
+            "birth_tick": 881,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 33,
+            "founder": 13,
+            "generation": 2,
+            "birth_tick": 1036,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 37,
+            "parent": 28,
+            "founder": 28,
+            "generation": 1,
+            "birth_tick": 1364,
+            "death_tick": 2281,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 38,
+            "parent": 33,
+            "founder": 13,
+            "generation": 2,
+            "birth_tick": 2930,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 20534,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 6,
+          "individuals": 10,
+          "actor_records": 20538,
+          "births": 7,
+          "founder_attempts": 32,
+          "successful_founders": 3,
+          "attempts": 39,
+          "failed_attempts": 29,
+          "construction_cost": 11082,
+          "failure_loss": 8200,
+          "deaths": 4,
+          "total_energy": 6757
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 39,
+          "successful": 10,
+          "failed": 29,
+          "construction_cost": 11082,
+          "failure_loss": 8200,
+          "final_sha256": "5c306247ae347f4e1391a26909a7162e5e43aaa8c2f5e24a0d94e71b4ead14eb",
+          "metadata_sha256": "4e02453639eecb64794286599c7bba2f4b0b496906c2b1910cba7a14dab22978",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "0a4fe64c820ab47b0199f47b105a7fffdf2ee49443fd1eb20620c6d527e89d12",
+          "final.json": "5c306247ae347f4e1391a26909a7162e5e43aaa8c2f5e24a0d94e71b4ead14eb",
+          "steps.jsonl": "e7185e95bd1ec667c4505c9b9973aba899a52170eccb69fb09e587b05dd59073",
+          "events.jsonl": "0b6f82d229fc7230b1bfbb6dbbb2a17cbeb201794a2a974dd3cb54ca1ce602ae",
+          "summary.json": "d05c4744b0c18266eb808f9cf9fcb04767570dbffa60dd3b475615c6d4bc8419"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84008,
+      "mutation_per_thousand": 100,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 6,
+        "changed_genotype_attempts": 0,
+        "changed_genotype_successes": 0,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 27
+          },
+          "offspring": {}
+        },
+        "max_generation": 2,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 1,
+            "founder": 1,
+            "generation": 1,
+            "birth_tick": 319,
+            "death_tick": null,
+            "offspring": 2,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 1,
+            "founder": 1,
+            "generation": 1,
+            "birth_tick": 532,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 32,
+            "founder": 1,
+            "generation": 2,
+            "birth_tick": 791,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 1,
+            "founder": 1,
+            "generation": 1,
+            "birth_tick": 867,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 32,
+            "founder": 1,
+            "generation": 2,
+            "birth_tick": 1491,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 37,
+            "parent": 33,
+            "founder": 1,
+            "generation": 2,
+            "birth_tick": 2132,
+            "death_tick": 2378,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 18503,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 7,
+          "individuals": 11,
+          "actor_records": 18507,
+          "births": 6,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 38,
+          "failed_attempts": 27,
+          "construction_cost": 12589,
+          "failure_loss": 8285,
+          "deaths": 4,
+          "total_energy": 6355
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 38,
+          "successful": 11,
+          "failed": 27,
+          "construction_cost": 12589,
+          "failure_loss": 8285,
+          "final_sha256": "e6002bad6c5aa1766622208e393879dd172309851db8afec221fe78e835e95bb",
+          "metadata_sha256": "69e2a26c3dd351f51e3fd429ea60770c85d2ec1503ec3e42ca7c612e94012025",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "c70f26831fbb3cded655f7231486d51460b0ac0b704a7eb849413680795a917f",
+          "final.json": "e6002bad6c5aa1766622208e393879dd172309851db8afec221fe78e835e95bb",
+          "steps.jsonl": "c5dc85e5e6f777d88cd5e32021fd7e62a8972a36af9d2cb0f714329d2d2e39eb",
+          "events.jsonl": "1fcc29f7fb2c544bf03d025dddc5d4811a668166eb22980550e569430739e7fe",
+          "summary.json": "2e6ab5a919da0893b6b21f567154e25b82144b6a4d02669510e8c0c546cd546f"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84008,
+      "mutation_per_thousand": 0,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 6,
+        "changed_genotype_attempts": 0,
+        "changed_genotype_successes": 0,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 27
+          },
+          "offspring": {}
+        },
+        "max_generation": 2,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 1,
+            "founder": 1,
+            "generation": 1,
+            "birth_tick": 319,
+            "death_tick": null,
+            "offspring": 2,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 1,
+            "founder": 1,
+            "generation": 1,
+            "birth_tick": 532,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 32,
+            "founder": 1,
+            "generation": 2,
+            "birth_tick": 791,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 1,
+            "founder": 1,
+            "generation": 1,
+            "birth_tick": 867,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 32,
+            "founder": 1,
+            "generation": 2,
+            "birth_tick": 1491,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 37,
+            "parent": 33,
+            "founder": 1,
+            "generation": 2,
+            "birth_tick": 2132,
+            "death_tick": 2378,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 18503,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 7,
+          "individuals": 11,
+          "actor_records": 18507,
+          "births": 6,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 38,
+          "failed_attempts": 27,
+          "construction_cost": 12589,
+          "failure_loss": 8285,
+          "deaths": 4,
+          "total_energy": 6355
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 38,
+          "successful": 11,
+          "failed": 27,
+          "construction_cost": 12589,
+          "failure_loss": 8285,
+          "final_sha256": "e6002bad6c5aa1766622208e393879dd172309851db8afec221fe78e835e95bb",
+          "metadata_sha256": "310003d12d46e701d75e71e3a8ad586a80b4bda697851efdb89f36448e56fec5",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "c70f26831fbb3cded655f7231486d51460b0ac0b704a7eb849413680795a917f",
+          "final.json": "e6002bad6c5aa1766622208e393879dd172309851db8afec221fe78e835e95bb",
+          "steps.jsonl": "c5dc85e5e6f777d88cd5e32021fd7e62a8972a36af9d2cb0f714329d2d2e39eb",
+          "events.jsonl": "1fcc29f7fb2c544bf03d025dddc5d4811a668166eb22980550e569430739e7fe",
+          "summary.json": "2e6ab5a919da0893b6b21f567154e25b82144b6a4d02669510e8c0c546cd546f"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84009,
+      "mutation_per_thousand": 100,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 5,
+        "changed_genotype_attempts": 0,
+        "changed_genotype_successes": 0,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 27
+          },
+          "offspring": {}
+        },
+        "max_generation": 2,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 8,
+            "founder": 8,
+            "generation": 1,
+            "birth_tick": 389,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 9,
+            "founder": 9,
+            "generation": 1,
+            "birth_tick": 443,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 30,
+            "founder": 30,
+            "generation": 1,
+            "birth_tick": 807,
+            "death_tick": 1662,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 8,
+            "founder": 8,
+            "generation": 1,
+            "birth_tick": 1252,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 32,
+            "founder": 8,
+            "generation": 2,
+            "birth_tick": 1416,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 21719,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 8,
+          "individuals": 10,
+          "actor_records": 21721,
+          "births": 5,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 37,
+          "failed_attempts": 27,
+          "construction_cost": 11631,
+          "failure_loss": 8215,
+          "deaths": 2,
+          "total_energy": 4457
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 37,
+          "successful": 10,
+          "failed": 27,
+          "construction_cost": 11631,
+          "failure_loss": 8215,
+          "final_sha256": "c9adebfc1ab6e6a3c7ecc8ff0c5f9bbac943bdbc38f9a26e29c9ab90c097aaa4",
+          "metadata_sha256": "45549ba6e14165a71ba3cf5424a64799fa61208ef8c34e3b697e3b80e61257e0",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "5c243dcc514e32b9a2ccbf6afe6a8e0162750c0f0eb6baf101be2737c0daa7c0",
+          "final.json": "c9adebfc1ab6e6a3c7ecc8ff0c5f9bbac943bdbc38f9a26e29c9ab90c097aaa4",
+          "steps.jsonl": "310dd37dca0db34bd5cc371170ee6d3338e84efe15fc11db6bde6442257a9752",
+          "events.jsonl": "f2baa89066d3fa9e28a83fcdbb6c7a5e7f787b772242f1a03660d2a24ab0f5a0",
+          "summary.json": "3a95021545bb8458ce71c606b4e765d16eaaa20dbf760bec240c45391b15f6ed"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    },
+    {
+      "seed": 84009,
+      "mutation_per_thousand": 0,
+      "extinction_tick": null,
+      "inheritance": {
+        "offspring_attempts": 5,
+        "changed_genotype_attempts": 0,
+        "changed_genotype_successes": 0,
+        "changed_individuals_with_offspring": 0,
+        "founder_attempts": 32,
+        "failure_reasons": {
+          "founder": {
+            "empty_structure": 27
+          },
+          "offspring": {}
+        },
+        "max_generation": 2,
+        "individuals": [
+          {
+            "id": 32,
+            "parent": 8,
+            "founder": 8,
+            "generation": 1,
+            "birth_tick": 389,
+            "death_tick": null,
+            "offspring": 1,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 33,
+            "parent": 9,
+            "founder": 9,
+            "generation": 1,
+            "birth_tick": 443,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 34,
+            "parent": 30,
+            "founder": 30,
+            "generation": 1,
+            "birth_tick": 807,
+            "death_tick": 1662,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 35,
+            "parent": 8,
+            "founder": 8,
+            "generation": 1,
+            "birth_tick": 1252,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          },
+          {
+            "id": 36,
+            "parent": 32,
+            "founder": 8,
+            "generation": 2,
+            "birth_tick": 1416,
+            "death_tick": null,
+            "offspring": 0,
+            "genome_changed_from_parent": false,
+            "genome_changed_from_founder": false,
+            "controller_changed_from_parent": false
+          }
+        ]
+      },
+      "audit": {
+        "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+        "decisions": 21719,
+        "spatial_reconstruction": true,
+        "rng_streams_checked": [
+          "resources",
+          "order",
+          "ties",
+          "sensors",
+          "birth"
+        ],
+        "spatial_audit_sha256": "aa1ea4dba354b519402d032a8d0810fb77b781f79921e7b4f52aea05c5c9f978",
+        "summary": {
+          "steps": 3000,
+          "population": 8,
+          "individuals": 10,
+          "actor_records": 21721,
+          "births": 5,
+          "founder_attempts": 32,
+          "successful_founders": 5,
+          "attempts": 37,
+          "failed_attempts": 27,
+          "construction_cost": 11631,
+          "failure_loss": 8215,
+          "deaths": 2,
+          "total_energy": 4457
+        },
+        "construction_audit": {
+          "scope": "independent construction histories/costs/validity only; not world life-history or spatial replay",
+          "attempts": 37,
+          "successful": 10,
+          "failed": 27,
+          "construction_cost": 11631,
+          "failure_loss": 8215,
+          "final_sha256": "c9adebfc1ab6e6a3c7ecc8ff0c5f9bbac943bdbc38f9a26e29c9ab90c097aaa4",
+          "metadata_sha256": "e4ac6dcf8f3fde4e812bd1649c1aeba5fcb6cb30a6f3ba61ffe351e60ea22933",
+          "audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+        },
+        "input_sha256": {
+          "initial.json": "5c243dcc514e32b9a2ccbf6afe6a8e0162750c0f0eb6baf101be2737c0daa7c0",
+          "final.json": "c9adebfc1ab6e6a3c7ecc8ff0c5f9bbac943bdbc38f9a26e29c9ab90c097aaa4",
+          "steps.jsonl": "310dd37dca0db34bd5cc371170ee6d3338e84efe15fc11db6bde6442257a9752",
+          "events.jsonl": "f2baa89066d3fa9e28a83fcdbb6c7a5e7f787b772242f1a03660d2a24ab0f5a0",
+          "summary.json": "3a95021545bb8458ce71c606b4e765d16eaaa20dbf760bec240c45391b15f6ed"
+        },
+        "audit_sha256": "eee1f97e825f007cd1e9f1d2d918481743ade00ee81553c6464f5e03e30acd9d",
+        "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867"
+      }
+    }
+  ],
+  "metadata_sha256": "123df62d892181442a772337255aa20388323e5d1b1f5e96f0a0b2f6b7fec448",
+  "results_sha256": "72e38b0a93c650729ddf68e67da8b74a115856dd843509e5656bb0c3d98730c8",
+  "script_sha256": "1e13e4082ce4c902a5206aec0e5e39c7bac27c73e1bfae2e151ad19ddf5eba34"
+}
