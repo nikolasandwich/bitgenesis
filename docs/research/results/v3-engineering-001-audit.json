@@ -1,0 +1,75 @@
+{
+  "scope": "construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed",
+  "resources": {
+    "scope": "resource RNG, substrate transfers at recorded sites and arithmetic ledgers; not positions, decisions, actor eligibility, construction or ancestry",
+    "ticks": 50,
+    "actors": 450,
+    "feedings": 450,
+    "resource_flows": {
+      "external_a": 3116,
+      "consumed_a": 1472,
+      "consumed_b": 242,
+      "released_b": 860,
+      "feeding_energy": 706,
+      "feeding_dissipation": 148
+    },
+    "output_sha256": {
+      "initial.json": "b90794728437f0c9dc39541353af472ab0e5191ac9cdea1b12fcf09e72d523af",
+      "steps.jsonl": "61f99a5b47f1b972fac7992f38a333d7a718435b212f417d6893cf93922f2db7",
+      "events.jsonl": "05d29a280c47bc91ca157205e85c9e0747b6e2f8914267872365de49ac6a5722",
+      "final.json": "302e1fa124fbe555db57a1b6019f1b401be4a7e5a270c7dee6e7762f624bb2b9",
+      "summary.json": "27cd9f4f47443470909993838f18d6475a7da5b1235f23d896af429e927dceb7"
+    },
+    "script_sha256": "d255d219c6898427514faa400d80c7da002f10fe871edc474c3ab3c6a1ceb647"
+  },
+  "decisions": 450,
+  "spatial_reconstruction": true,
+  "decision_audit_sha256": "13a64d9c4109939739e799fffd2fd4118f7ee3878b2b0c1a0f45f08d92cc2867",
+  "rng_streams_checked": [
+    "resources",
+    "order",
+    "ties",
+    "sensors",
+    "birth"
+  ],
+  "spatial_audit_sha256": "63c6880adef118d13ae9dc771c654c93c49fbe64037bfa13f6b673d1c10f5280",
+  "summary": {
+    "steps": 50,
+    "population": 9,
+    "individuals": 9,
+    "actor_records": 450,
+    "births": 0,
+    "founder_attempts": 80,
+    "successful_founders": 9,
+    "attempts": 80,
+    "failed_attempts": 71,
+    "construction_cost": 24690,
+    "failure_loss": 22935,
+    "deaths": 0,
+    "total_energy": 17931,
+    "resource_flows": {
+      "external_a": 3116,
+      "consumed_a": 1472,
+      "consumed_b": 242,
+      "released_b": 860,
+      "feeding_energy": 706,
+      "feeding_dissipation": 148
+    },
+    "remaining_a": 13932,
+    "remaining_b": 618
+  },
+  "construction_audit": {
+    "attempts": 80,
+    "construction_cost": 24690,
+    "failure_loss": 22935,
+    "development_audit_sha256": "7dfe3e3db7cf6338869fb397d6c8dced518b5f15e8dbbafee2930ff3d34e0cbc"
+  },
+  "input_sha256": {
+    "initial.json": "b90794728437f0c9dc39541353af472ab0e5191ac9cdea1b12fcf09e72d523af",
+    "final.json": "302e1fa124fbe555db57a1b6019f1b401be4a7e5a270c7dee6e7762f624bb2b9",
+    "steps.jsonl": "61f99a5b47f1b972fac7992f38a333d7a718435b212f417d6893cf93922f2db7",
+    "events.jsonl": "05d29a280c47bc91ca157205e85c9e0747b6e2f8914267872365de49ac6a5722",
+    "summary.json": "27cd9f4f47443470909993838f18d6475a7da5b1235f23d896af429e927dceb7"
+  },
+  "audit_sha256": "5ee9392e8953270ac594a5d65f053ac6d10f418019ed9f96115b2525060a804f"
+}

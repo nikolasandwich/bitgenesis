@@ -1,8 +1,9 @@
 # V3 minimal ecology: resource-mediated interaction
 
 Status: resource kernel, inherited metabolic trait and in-memory population world
-implemented, with a bounded persisted runner. Independent world audit and
-ecological experiments are pending. V2 remains unchanged.
+implemented, with a bounded persisted runner and composed independent construction,
+life-history, resource and spatial audit. Ecological experiments are pending;
+initialization/mutation random draws are not independently replayed. V2 remains unchanged.
 No coexistence or evolved specialization has been demonstrated.
 
 Start with resource-mediated competition and potential cross-feeding. Avoid

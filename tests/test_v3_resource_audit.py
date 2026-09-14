@@ -8,6 +8,7 @@ from bitgenesis.v2.development import DevelopmentGenome
 from bitgenesis.v3.genome import EcologyGenome
 from bitgenesis.v3.resource_audit import audit
 from bitgenesis.v3.spatial_audit import reconstruct
+from bitgenesis.v3.audit import audit as full_audit
 from bitgenesis.v3.runner import run
 from bitgenesis.v3.world import Config
 
@@ -25,10 +26,12 @@ class ResourceAuditTests(unittest.TestCase):
                 self.assertGreater(summary['births'],0)
                 self.assertGreater(audit(path)['feedings'],0)
                 self.assertTrue(reconstruct(path)['spatial_reconstruction'])
+                self.assertEqual(full_audit(path)['summary'],summary)
             path=root/'failed'
             run(path,Config(width=3,height=3,founders=2,initial_energy=1),85201,5)
             self.assertEqual(audit(path)['actors'],0)
             self.assertEqual(reconstruct(path)['decisions'],0)
+            self.assertEqual(full_audit(path)['summary']['population'],0)
 
     def test_rehashed_wrong_final_position_rejected(self):
         genome=EcologyGenome(DevelopmentGenome((6,100,0,0,0,0,0,0,1,1)),16)

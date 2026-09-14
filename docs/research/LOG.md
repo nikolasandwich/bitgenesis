@@ -4182,3 +4182,9 @@ Two focused tests pass for births, recycling controls, failed founders and rehas
 Previous turn independently verified V3 resource transfers (dc205e7), a substantive progress turn. Added independent spatial replay composed with the resource gate and existing independent decision arithmetic: total-substrate inputs, five RNG streams, actor order, movement blocking, feeding sites, attempted/successful birth positions and terminal positions. Recorded lineage/controllers/charges remain inputs pending life-history construction audit; no full-audit claim.
 
 Expanded resource fixtures to include spatial replay with births, recycling removal and failed founders. Three focused tests pass, including rehashed false terminal position accepted by resource-only scope but rejected spatially. Engineering001 passes450 decisions and all five random endpoints; report archived. Next independently verify V3 development, inheritance, charging and full life history before ecological pilot execution.
+
+## 2026-09-14 — Autonomous cycle 282
+
+Previous turn verified V3 spatial/decision replay (6da4277), a substantive progress turn. Composed independent V2 development reconstruction with V3 joint-genome bounds, attempt/event matching, charges, ancestry, birth/death histories, resource and spatial replay. Initial/mutation RNG draws remain outside replay scope. Engineering001 composed audit passes and is archived.
+
+Expanded fixtures cover successful births/recycling controls/failed founders; added failed-child and rehashed ancestry corruption test. Initial corruption fixture assumed a successful child although all child attempts failed; corrected to alter founder generation, preserving the failed-child case. Full272 tests pass in30.795 seconds. Registered V3 pilot001:20 worlds,5 sources,2 renewal levels, recycling on/off,1000 ticks, fixed viability choice and4GiB inter-run soft limit. Execution remains next; no ecological finding claimed.

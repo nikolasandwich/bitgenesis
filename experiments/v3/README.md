@@ -53,3 +53,17 @@ controller construction and charges; full life-history validation is pending.
 Engineering001 passes450 decisions. A rehashed false terminal position passes
 resource-only checks but is rejected by the spatial check, documenting the scope
 boundary. Seed85300 is reserved for this engineering corruption test.
+
+Composed construction, life-history, resource and spatial audit:
+
+```console
+python -m bitgenesis.v3.audit data/my-v3-check --output data/my-v3-audit.json
+```
+
+It independently reconstructs development through the V2 construction verifier,
+checks the11-coordinate inherited mutation support, exact charges, attempts,
+ancestry, birth/death history, summary and the resource/spatial checks above.
+Initialization and mutation random draws are not independently replayed; their
+bounds and resulting inherited changes are checked. Seed85400 is reserved for
+failed-child and ancestry-corruption engineering tests. The separately registered
+[pilot001](pilot-001.md) will retain every failed founder and extinct world.
