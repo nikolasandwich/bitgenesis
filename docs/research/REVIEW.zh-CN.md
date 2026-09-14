@@ -85,3 +85,5 @@ python scripts/build_v0_review.py --campaigns 19 --output data/my-review-19.html
 完整协议和结果见[研究索引](README.md)。[V1 方案](../design/v1-experiment-design.md)
 与[评估契约](../design/v1-evaluation-contract.md)仍是设计，未实现感知控制器。
 阶段证据见[V0 验收对照](../roadmap/v0-evidence.md)，历史交付记录见[检查点](ACCEPTANCE.md)。
+
+最新[六项V0标准复核](../roadmap/v0-review-023.zh-CN.md)说明阶段已具备的证据与尚无感知、适应性改善证明的边界；本次复核不增加模拟数量。

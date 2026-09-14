@@ -1,0 +1,148 @@
+{
+  "scope": "Current reinspection of five original seeds per arm for V0 variation and differential direct offspring criteria. Not trait causality or V1 evidence.",
+  "rows": [
+    {
+      "treatment": "baseline",
+      "seed": 0,
+      "lineage_records": 7599,
+      "changed_inheritance": 598,
+      "new_values": 199,
+      "founder_offspring_range": [
+        0,
+        6
+      ],
+      "extinction_tick": null
+    },
+    {
+      "treatment": "baseline",
+      "seed": 1,
+      "lineage_records": 7764,
+      "changed_inheritance": 696,
+      "new_values": 224,
+      "founder_offspring_range": [
+        0,
+        12
+      ],
+      "extinction_tick": null
+    },
+    {
+      "treatment": "baseline",
+      "seed": 2,
+      "lineage_records": 7612,
+      "changed_inheritance": 578,
+      "new_values": 193,
+      "founder_offspring_range": [
+        0,
+        8
+      ],
+      "extinction_tick": null
+    },
+    {
+      "treatment": "baseline",
+      "seed": 3,
+      "lineage_records": 7695,
+      "changed_inheritance": 585,
+      "new_values": 176,
+      "founder_offspring_range": [
+        0,
+        5
+      ],
+      "extinction_tick": null
+    },
+    {
+      "treatment": "baseline",
+      "seed": 4,
+      "lineage_records": 7592,
+      "changed_inheritance": 598,
+      "new_values": 164,
+      "founder_offspring_range": [
+        0,
+        4
+      ],
+      "extinction_tick": null
+    },
+    {
+      "treatment": "no-mutation",
+      "seed": 0,
+      "lineage_records": 7510,
+      "changed_inheritance": 0,
+      "new_values": 0,
+      "founder_offspring_range": [
+        0,
+        5
+      ],
+      "extinction_tick": null
+    },
+    {
+      "treatment": "no-mutation",
+      "seed": 1,
+      "lineage_records": 7630,
+      "changed_inheritance": 0,
+      "new_values": 0,
+      "founder_offspring_range": [
+        0,
+        5
+      ],
+      "extinction_tick": null
+    },
+    {
+      "treatment": "no-mutation",
+      "seed": 2,
+      "lineage_records": 7645,
+      "changed_inheritance": 0,
+      "new_values": 0,
+      "founder_offspring_range": [
+        0,
+        4
+      ],
+      "extinction_tick": null
+    },
+    {
+      "treatment": "no-mutation",
+      "seed": 3,
+      "lineage_records": 7604,
+      "changed_inheritance": 0,
+      "new_values": 0,
+      "founder_offspring_range": [
+        0,
+        4
+      ],
+      "extinction_tick": null
+    },
+    {
+      "treatment": "no-mutation",
+      "seed": 4,
+      "lineage_records": 7579,
+      "changed_inheritance": 0,
+      "new_values": 0,
+      "founder_offspring_range": [
+        0,
+        6
+      ],
+      "extinction_tick": null
+    }
+  ],
+  "input_sha256": {
+    "data/campaign-001/baseline-seed-0/lineage.json": "73f6a4cbbe27605bb1554d4577e0b2cd17e15648bdf0fc674bdc28d9fb8a9ecd",
+    "data/campaign-001/baseline-seed-0/metrics.csv": "dd70780a1f4deb3efbebec78380039751f37fe5919f7c63e7ab6543d470eb782",
+    "data/campaign-001/baseline-seed-1/lineage.json": "cf4463b9c91475113cb988460e12de4465fe72219e24b826f07c4d660c521a22",
+    "data/campaign-001/baseline-seed-1/metrics.csv": "e1f74c7e8bfa286dc2807f2227f71cb0d65889c731b4b5bfb4439cf74eeffac0",
+    "data/campaign-001/baseline-seed-2/lineage.json": "2470e23721a41b5c39705e281238a5331bf711c2f34d487f883bbd373afa1e6f",
+    "data/campaign-001/baseline-seed-2/metrics.csv": "a95550e92860c3554857f824931ec484c18fadf704329dc9b2058499fbb6adfb",
+    "data/campaign-001/baseline-seed-3/lineage.json": "0996359f3a06d6876692ddbb3d119109946fd7fe26872901ba8b86e799f674f1",
+    "data/campaign-001/baseline-seed-3/metrics.csv": "7c1095bce1fa3f4a58592cc23115c7f2dd5d05a2cb3b310e90a81c7fc5afd484",
+    "data/campaign-001/baseline-seed-4/lineage.json": "6408c75b6ae71cea00e17646e6e1a67811234b0080a99d32a9124a1392699714",
+    "data/campaign-001/baseline-seed-4/metrics.csv": "7fbd4c69aec4bd0ef4262d60bdf0ed60d482e1243ecfb9a7d6d49411f8d775ad",
+    "data/campaign-001/no-mutation-seed-0/lineage.json": "5966420e1be5a0c2d843464c0a0f185dc43c0ab79569f3193f521f8b3f33b85a",
+    "data/campaign-001/no-mutation-seed-0/metrics.csv": "0eb04c9606675abdf56089dc0ec9c9bc6a12827786e29b6750d7081a64fe662b",
+    "data/campaign-001/no-mutation-seed-1/lineage.json": "5cd87b9341f1c30a52255de5504e8cf664aa834c408659468fa097f9b1e7df68",
+    "data/campaign-001/no-mutation-seed-1/metrics.csv": "5bd850519a6f251ee155373486caafbb65d1d3b7a9e6be7aeb864b27defaf848",
+    "data/campaign-001/no-mutation-seed-2/lineage.json": "70a797b1ff0343cc0ce939afa89f360aa477c24b35603609756c9755a5eda8e0",
+    "data/campaign-001/no-mutation-seed-2/metrics.csv": "ea6fc47d8f339d0eeaf2afa60a5b98bd5901101b37cdb687697dba0f4f72dc4e",
+    "data/campaign-001/no-mutation-seed-3/lineage.json": "476665f8b9d30adc9a089521f701dcad9bf394c819b0d761fcb2f187a0d3f2da",
+    "data/campaign-001/no-mutation-seed-3/metrics.csv": "db2184f5add436359ec72e61388251280493a5122fb57f8cf3e5564dd2dc9614",
+    "data/campaign-001/no-mutation-seed-4/lineage.json": "9de1b26a475d5603bfab61e993b31929099996fe3112c21c9c6cdca231899f6a",
+    "data/campaign-001/no-mutation-seed-4/metrics.csv": "53516015623e8abd11b44465d49e1929815a116d73003e2bede8d4f949855071"
+  },
+  "normalized_engine_sha256": "8f3ed33ad0ebe802c099e3e6f8ae61f9bcc526b98512f31f48ec40478fbfa7ff"
+}

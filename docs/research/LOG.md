@@ -3727,3 +3727,22 @@ All archive-related processes are terminal. Next inspect explicit V0 graduation
 criteria and consolidate supporting evidence/remaining gaps before selecting any
 new scientific assay. No new simulation launched; V1 remains design only.
 Autonomous goal stays active pending user stop or acceptance.
+
+## 2026-09-14 — Autonomous cycle 235
+
+Previous cycle delivered verified scope23 draft. Inspected all six explicit V0
+criteria, original evidence matrix, current engine/recording implementation,
+core test coverage and installed archive reports. Re-read raw campaign001 full
+lineage/metrics for five seeds in each arm: every stored offspring count matches
+parent-edge counts; all mutation runs create new values, every no-mutation child
+inherits exactly, all founder offspring ranges include unequal counts, and no
+world in this cohort goes extinct within its recorded horizon. Saved input-bound
+reinspection evidence; no new simulation or execution count. Frozen normalized
+engine hash remains unchanged.
+
+Added a current Chinese six-criterion reassessment while preserving historical
+source58d4c02/170-test evidence unchanged. Distinguishes minimal-world graduation
+from adaptive improvement, V1 evidence, user acceptance and goal completion.
+Linked evidence paths checked. Next inspect identifiability of the proposed V1
+information/action/ancestor controls as design work only; no runtime extension
+or additional V0 sweep implied. Autonomous goal active.

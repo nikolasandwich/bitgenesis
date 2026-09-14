@@ -24,7 +24,9 @@ Graduation criteria:
 - Provide a basic world view and lineage inspection. Explain every designed rule.
 
 The [V0 evidence matrix](v0-evidence.md) maps each criterion to code, records,
-tests and explicit limits.
+tests and explicit limits. The [scope23 reassessment](v0-review-023.zh-CN.md)
+checks the same six criteria against current preserved evidence without rewriting
+the historical milestone or claiming V1 graduation.
 
 The current scalar-genome implementation has 1001 encoded movement settings.
 Generation count and newly visited settings do not establish new functions; see
