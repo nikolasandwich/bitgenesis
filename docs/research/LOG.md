@@ -3531,3 +3531,22 @@ pre-evaluation status and no replacement of unchanged traits. No evaluation
 simulation, runtime changes or formal-count update; fixed scope22 archive unchanged.
 Next implement/validate common-environment recorder before clean-source launch.
 Autonomous goal active, V1 design only.
+
+
+## 2026-09-14 — Autonomous cycle 225
+
+Previous cycle independently verified all twenty frozen early samples. Implemented
+campaign023 runner using unchanged V0 and the existing campaign022 recorder. Only
+the homogeneous founder trait differs; corrected birth events, initial snapshot,
+source/sample identity and final-state digest accompany the full metrics/events/
+lineage. Manifest and independent sampling-gate hashes are checked before launch.
+All200 evaluations remain planned, including160 identical-trait controls. Each
+identical pair must match metric/event/lineage bytes and final-state digest.
+
+Engineering seeds23/24 with traits0/250/1000 match independently initialized plain
+World at every tick0..100: metrics, food, occupancy, events, full lineage and RNG.
+Duplicate same-trait runs have identical saved dynamics. Initial environment and
+RNG match across different traits; invalid trait values rejected. All197 tests
+pass and module CLI loads. Historical runner and frozen protocol are unchanged.
+Commit clean source before launching; outcome counts remain provisional until
+independent full-cohort verification, and V1 stays design only. Goal active.
