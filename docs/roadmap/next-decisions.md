@@ -115,6 +115,16 @@ policy intervention change different rules/processes. Preserve V0's ordering;
 future information-value comparisons must keep physiology and timing identical.
 The retrospective study checks descriptive consistency, not causal rescue.
 
+## Final-individual traces: stop conflating scales
+
+The post hoc [last-survivor traces](../research/last-survivors-019.md) show no
+terminal-window births for the seven selected individuals, six without any blocked
+movement and one with a single block. Initial energy plus intake equals twenty
+basal payments in each case. These are outcome-selected individual windows, not
+random samples or explanations of earlier population decline. Keep physiological
+timing and costs matched in future information comparisons; no V1 outcome or
+hard-coded food-seeking behavior follows from this observation.
+
 ## V1 implementation sequence when runtime scope expands
 
 1. Freeze a versioned sensor/weight/action specification, costs and independent

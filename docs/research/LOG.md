@@ -2576,3 +2576,19 @@ match both local files. Source CI 34817034476 completed successfully. No indepen
 remote redownload is claimed. Updated download and acceptance guides with distinct
 scopes for full nineteen-campaign review, campaign-017 revision-2 observations and
 campaign-019 local-resource supplement. Older assets remain unchanged.
+
+## 2026-09-14 — Autonomous cycle 174
+
+Previous cycle delivered the verified spatial supplement. Added an explicitly post
+hoc trace analysis selecting the final individual in each of seven extinctions,
+with all thirty-three censored worlds listed as excluded. Hash-verified original
+streams yield 140 chronological action rows with continuous individual energy and
+balanced payments/transfers. Six individuals never block, one blocks once, and
+none reproduces in its final twenty actions. Every initial-energy-plus-intake
+budget equals twenty basal payments. This limits terminal-individual explanations,
+not earlier population mechanisms or hypothetical sensory rescue.
+
+Published all seven cases and a reproducible script; no new simulation, independent
+sample, rule change or archive rewrite. The fixed supplement contains the input
+records but predates this new analysis script/report. Updated research/decision
+indexes to distinguish terminal individual trajectories from population history.
