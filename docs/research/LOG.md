@@ -4138,3 +4138,9 @@ Study follow-up: execution completed100/100 parents and2000 variants. Independen
 Completed independent behavioral verification for all study001 variants using exact 60-ticket action probabilities on 32 fixed states. Of 2000 perturbations, 260 change weights and 131 change active sites; 424 pairs are valid on both sides and 83 change probe behavior. Remaining 1576 behavior comparisons stay null, not zero. Archived complete builds, variant/parent/source tables and Chinese report. Source grouping and the unit-perturbation versus runtime-mutation distinction remain explicit; no fitness or evolutionary-benefit claim.
 
 Full suite: 256 tests pass in 29.581 seconds. The earlier terminal handle was unavailable after context recovery, so this result is from a fresh completed run. Next preregister a bounded V2 population study using the actual inheritance kernel, retaining failed founders and offspring, and comparing descendants with their recorded ancestors. Expanded autonomous V1-through-open-ended research goal remains active.
+
+## 2026-09-14 — Autonomous cycle 275
+
+Previous turn completed and published study001 (312ec52), a substantive progress turn. Registered study002 before running outcomes: ten independent seeds84000..84009, paired mutation100/0 worlds,3000 ticks, pilot-selected developmental defaults, all failed founders/offspring and extinct worlds retained. Primary descriptive outcome is paired terminal population difference; no selection-versus-drift or developmental superiority claim. Full histories and independent audits required,8GiB inter-run soft limit,768000 actor ceiling per run.
+
+Prepared clean-source-bound runner with paired initial-state equality gate. Syntax and initialization equality checks pass at the first and last source seeds; runtime unchanged since256 passing tests. Commit before execution; next monitor original run and independently verify complete coverage, inherited changes and all failure denominators.
