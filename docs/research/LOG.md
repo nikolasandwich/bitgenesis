@@ -2808,3 +2808,19 @@ sidecar. Source CI 34819975721 passed. This establishes file integrity and fresh
 analysis reproduction; fresh runtime installation and remote delivery remain
 separate pending gates. No independent remote redownload or all-campaign rerun
 claim. Existing archives and engine semantics remain unchanged.
+
+
+## 2026-09-14 — Autonomous cycle 188
+
+Previous cycle verified the twenty-campaign archive and reproduced its three
+campaign-020 reports from a new extraction. Created a new runtime virtual environment
+and installed the extracted project noneditably via pip. Import resolves to its
+site-packages, not working-tree src. All 170 archived tests pass. A new installed-CLI
+1000-tick demo passes the audit: population 83, births 1561, deaths 1558, 1641 lineage
+records and 101 replay frames. Metrics/events match the archived reference byte for
+byte; lineage/summary match as parsed JSON. Installed provenance correctly records
+git_commit null. Saved results/portable-wheel-020.json.
+
+Build dependencies were resolved by pip; this is not an offline-install guarantee
+or a rerun of twenty full campaigns. Immutable archive source remains 58d4c02;
+this later validation record is separate. Remote upload is the next delivery gate.

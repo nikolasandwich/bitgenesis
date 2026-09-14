@@ -1,0 +1,25 @@
+{
+  "source_commit": "58d4c0236fa04ba9b3fa32ef28abcb52cfb6d9d4",
+  "archive": "bitgenesis-v0-twenty-campaigns.zip",
+  "tests_passed": 170,
+  "noneditable_site_packages_import": true,
+  "installed_git_commit": null,
+  "byte_equal_reference_files": [
+    "metrics.csv",
+    "events.jsonl"
+  ],
+  "json_equal_reference_files": [
+    "lineage.json",
+    "summary.json"
+  ],
+  "demo": {
+    "ticks": 1000,
+    "population": 83,
+    "births": 1561,
+    "deaths": 1558,
+    "organisms_recorded": 1641,
+    "replay_frames": 101,
+    "audit": "verified"
+  },
+  "scope": "Fresh virtual environment and noneditable installation from extracted archive, archived tests and 1000-tick demo. Build dependencies resolved by pip; not an offline-installation guarantee or rerun of all campaigns."
+}
