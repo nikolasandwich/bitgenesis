@@ -2311,3 +2311,17 @@ choice, requiring equal movement charges within all sensory contrasts. Any cost
 robustness experiment must retain the full crossed grid. No new experiment or
 runtime stage is launched; repeating the completed grid solely for a stronger
 survival percentage is not prioritized. Links and document changes checked.
+
+## 2026-09-14 — Autonomous cycle 158
+
+Compared prior protocols: campaign 012 removes birth deductions but retains movement
+charges, whereas campaign 018 does the reverse in different initial backgrounds.
+Registered campaign 019 to test their joint absence, using forty new-seed block-food
+worlds with movement cost zero and threshold × birth-cost 0/4 contrasts. Fixed
+horizon, early observations, falsification rule and all-world reporting before any
+outcome execution. This tests a conjunction, not a unique remaining mediator.
+
+Added a 100-tick observer/reference case with both charges zero on engineering seed
+5. Preserved source/RNG/lineage/event and energy checks. No campaign-019 outcome
+world has been run; inventory remains eighteen verified campaigns. Old metric
+helpers' birth-cost-4 assumptions require explicit new verification support.

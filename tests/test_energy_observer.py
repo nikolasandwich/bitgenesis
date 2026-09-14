@@ -9,6 +9,7 @@ class EnergyObserverTests(unittest.TestCase):
     def test_ledger_preserves_old_observations_and_world(self):
         cases = [Config(seed=s,width=8,height=8,initial_population=12) for s in (1,2,3)]
         cases += [Config(seed=4,width=8,height=8,initial_population=12,movement_cost=0),
+                  Config(seed=5,width=8,height=8,initial_population=12,movement_cost=0,birth_cost=0),
                   Config(width=2,height=2,initial_population=4,initial_energy=40,movement_cost=0),
                   Config(width=2,height=2,initial_population=4,initial_energy=40),
                   Config(width=2,height=2,initial_population=1,initial_energy=2,basal_cost=5),
