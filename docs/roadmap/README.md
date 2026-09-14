@@ -4,8 +4,8 @@ V0 has a complete research runtime. V1 now has an experimental controller, world
 and bounded persisted runner with independent ledger, ancestry, decision and spatial
 audit. [Study001](../research/v1-study-001.zh-CN.md) completed540 verified assays;
 its primary evolutionary contrast is negative, with only3 surviving training sources.
-An exploratory [V2 development component](../design/v2-development.md) now exists;
-it is not an integrated world or a stage-graduation claim. The
+An exploratory [V2 world](../design/v2-world.md) now integrates development costs
+and failed attempts; it has no scientific pilot or stage-graduation claim. The
 [autonomous research mandate](autonomous-research.md) authorizes implementation
 and exploration of all later stages as of 2026-09-14. These stages are
 research milestones, not release dates. Graduate only with reproducible evidence,

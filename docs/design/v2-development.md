@@ -55,7 +55,8 @@ control, not an independently evolved direct-encoding population. Invalid read,
 expression or padding budgets retain actual incurred costs and yield no controller.
 World-level controls still need their own fixed matching policy before outcomes.
 
-Still outstanding: world integration,
-developmental lineage and invalid-attempt records, matched direct-encoding cost
+An [in-memory world](v2-world.md) now charges construction at founder and child
+attempts and retains invalid-attempt records. Still outstanding: persistence and
+independent audit, matched direct-encoding cost
 contract, pilot registration, behavioral/fitness assays and multiple-seed results.
 The current fixtures are hand-designed arithmetic examples, not evolved organisms.
