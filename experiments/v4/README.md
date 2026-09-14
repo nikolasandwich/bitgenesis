@@ -24,3 +24,17 @@ This is a count limit, not an output byte guarantee. Independent reconstruction
 of bonds, costs, transport and observer components is pending. Replay and energy
 balance tests alone do not certify emergence or replication. Seeds90100..90102
 are reserved for engineering; preserve90000 from the kernel tests as well.
+
+Independent reconstruction is now available:
+
+```console
+python -m bitgenesis.v4.audit data/my-v4-check --output data/my-v4-audit.json
+```
+
+It uses four-neighbor sets and union-find rather than the runtime edge enumeration
+and component traversal. It verifies initialization RNG, bonds, costs, transfers,
+all recorded units/components and terminal accounting. Engineering001 passes;
+its first zero-bond transition is51. Seeds90200/90201 cover controls and rehashed
+observer corruption. See docs/research/v4-closed-system.zh-CN.md for the finite
+activity bound of this closed positive-cost system; do not seek indefinite
+persistence simply by increasing its horizon.

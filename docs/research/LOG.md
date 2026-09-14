@@ -4266,3 +4266,9 @@ Three new tests cover100 random energy configurations, periodic bonds, transport
 Previous turn introduced V4 local units and stage evidence limits (e34363e), a substantive progress turn. Added bounded v4-run-1 persistence and module CLI with explicit initialization draws, complete unit/transition/transfer/component records, source/configuration/output hashes and null last-transition fields at zero horizon. Documents distinguish transition bonds from recomputing final-state bonds and inactive units from organisms.
 
 Two new tests cover byte-identical replay, per-step energy/component coverage, empty zero-step output, preflight limits and overwrite rejection. Full289 tests pass in32.015 seconds. Commit before engineering CLI execution; next independently reconstruct local edges, affordability, transfers and observed components before persistence experiments.
+
+## 2026-09-14 — Autonomous cycle 296
+
+Previous turn persisted V4 trajectories and ran engineering001 (33d7bf4), a substantive progress turn. Added independent initialization/bond/cost/transport/component reconstruction using four-neighbor sets and union-find, no runtime imports. Two focused tests pass for exchange controls, zero cost/horizon and rehashed component corruption. Engineering001 passes100 steps; first zero-bond transition51, residual energy3357.
+
+Published finite-stop proof for closed fixed-site positive-cost rules: at most floor(E/(2c)) active steps; a zero-bond step is absorbing. This prevents wasting cycles extending a system that cannot sustain activity. Runtime unchanged since289 full tests. Next separately version explicit energy input/capacity/dissipation, preserving closed baseline; no replication or emergence claim.

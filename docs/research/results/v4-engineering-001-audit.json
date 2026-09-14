@@ -1,0 +1,20 @@
+{
+  "scope": "independent initialization, bonds, costs, transport and components",
+  "summary": {
+    "steps": 100,
+    "units": 182,
+    "initial_energy": 5721,
+    "final_energy": 3357,
+    "spent": 2364,
+    "last_transition_bonds": 0,
+    "last_transition_components": 182
+  },
+  "first_zero_bond_transition": 51,
+  "output_sha256": {
+    "initial.json": "843f83236d1eafa9965c95511d7d98ef9c682ec167a6eb86fe13eea4a9bb64e0",
+    "steps.jsonl": "db5975fce122e5d3057d4522f72dfbc79f1212f3469509a2d8053c5c7c571417",
+    "final.json": "18fc2937a837c94d7c610c6973c389ad0e53f2bc7bc63da96e54e87e13e0f6c9",
+    "summary.json": "649e5db306cf6d2d3cc9334f88fa2bf87612bcb76170ec53be099f2f80560d72"
+  },
+  "audit_sha256": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267"
+}
