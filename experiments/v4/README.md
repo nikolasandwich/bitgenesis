@@ -80,4 +80,5 @@ Engineering001 ends with256 units after56 formations and5 dissolutions from205
 initial units; conserved material461. Its independent audit is archived under
 docs/research/results. Seeds90600..90603 and90700/90701 are engineering-only.
 The [second study](study-002.md) preregisters formation/input/exchange controls
-and spatial occupation measurements. Its scientific cases have not yet run.
+and spatial occupation measurements. All40 cases and80 windows now pass complete
+verification; see docs/research/v4-study-002.zh-CN.md for outcomes and limits.
