@@ -64,3 +64,30 @@ all five reports before archiving, saves per-file sizes/hashes and creates a who
 archive checksum sidecar. File integrity is separate from scientific validation.
 The verification records above document completed extraction and upload checks.
 Later main-branch changes do not alter this fixed archive.
+
+
+## Revision 2 build scope
+
+The second revision adds three checks to the five above: boundary-conditioned
+random-choice reconstruction, post hoc final-survivor traces (and their figure),
+and validated one-action intake opportunity. It uses the same recorded worlds;
+there are no new independent samples. Use a new output filename:
+
+```sh
+python scripts/package_v0_local_resources.py --revision 2 --output data/bitgenesis-v0-local-resources-019-r2.zip
+```
+
+After extraction, the additional checks are:
+
+```sh
+python -S scripts/verify_v0_local_random_choices.py --boundaries-verification data/check-boundaries/summary.json --output data/check-random
+python -I -S scripts/analyze_v0_last_survivors.py --output data/check-last-survivors
+python -I -S scripts/analyze_v0_intake_opportunity.py --output data/check-opportunity
+```
+
+Compare with `local-random-019.json`, `last-survivors-019.json` and
+`intake-opportunity-019.json` in `docs/research/results`. The random verifier uses a
+sibling helper and needs `-S` without `-I`. Revision 1 retains its original five
+checks; both modes package source from their actual committed revision, rather
+than recreating an earlier source snapshot. Download/extraction evidence for a
+new revision is recorded separately when completed.

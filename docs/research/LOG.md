@@ -2663,3 +2663,13 @@ Four focused tests pass, including rejection of inapplicable rates and boolean o
 fractional numeric inputs. Recomputed all 38,471 actions: every per-world result
 matches the earlier report exactly; updated provenance includes original-state
 hashes. This changes validation, not V0 rules or empirical conclusions.
+
+## 2026-09-14 — Autonomous cycle 180
+
+Previous cycle tightened opportunity-analysis input constraints without changing
+results. Added revision-2 local supplement packaging with eight exact-report gates,
+including the new random-choice verifier, final-survivor traces and opportunity
+analysis. Revision 1 remains selectable with its five original check categories;
+existing archives are immutable. Added the three extra extraction commands and
+explicit source-snapshot semantics. Commit clean source before producing the new
+archive; packaging and fresh extraction outcomes remain separate evidence.
