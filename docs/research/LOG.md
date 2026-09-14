@@ -2512,3 +2512,20 @@ of individual resource writes or proof that recorded RNG states equal independen
 historical states. The full forty-world CLI report remains gated on completed
 replay. Next implement per-action spatial consistency; keep the original replay
 running without restart. Formal campaign counts and frozen archives are unchanged.
+
+## 2026-09-14 — Autonomous cycle 170
+
+Previous cycle implemented boundary checks while the original replay continued.
+The original handle exited normally with all forty worlds complete. Full boundary
+verification passes for 840 states against original metric rows and recorded hashes.
+Added sequential spatial reconciliation: infer legal per-site regrowth from ending
+food plus recorded intake; apply recorded actor order, deaths, movement, food writes
+and newborn occupancy; compare each local snapshot and final living/food/occupied
+state. Per-action energy ledgers and birth space also reconcile.
+
+All forty windows pass (800 action ticks). Corruption tests reject modified local
+food/occupants, actor order, feeding writes and child-energy ledgers; all 159 tests
+pass. This check uses recorded order/moves and newborn boundary positions, so it is
+not independent random-choice replay or proof of historical actor paths. Full
+hashed reports are retained; descriptive scientific summary remains next. Original
+formal workload and frozen nineteen-campaign archive are unchanged.
