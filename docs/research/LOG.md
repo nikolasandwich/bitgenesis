@@ -3570,3 +3570,23 @@ The full gate remains blocked on the deliberate complete metadata requirement
 while the original simulation continues normally. No changes to running source,
 protocol, frozen engine or formal completed totals. Next prepare history gate.
 Autonomous goal active; V1 design only.
+
+
+## 2026-09-14 — Autonomous cycle 227
+
+Previous cycle added complete-grid aggregate verification while the original
+campaign023 process ran. Re-polled that same live process. Added fixed-trait
+individual-history verification: actual assigned genes and checkpoint histograms
+are checked before normalization for reuse of independent structural parent/death/
+lineage arithmetic. Original records remain unmodified. Full report binds all
+inputs to the complete metric gate and reconstructs all source-level contrasts
+as exact fractions, retaining zero/negative sources and unavailable source IDs.
+
+Tests exercise non250 traits0/256/1000, corrupted event/lineage genotype and false
+offspring count; exact source mean and incomplete-grid/no-source handling checked.
+All200 tests pass. Partial reconstruction of the first10 completed evaluations
+verified20,838 individuals. This is not full cohort evidence or an outcome claim;
+complete metric and history wrappers remain gated on all200 finished worlds.
+Running source, protocol, frozen sample manifest and runtime unchanged. Formal
+verified counts remain22 campaigns. Next prepare complete-cohort summaries while
+original execution continues. Autonomous goal active; V1 design only.
