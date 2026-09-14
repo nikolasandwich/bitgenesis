@@ -3257,3 +3257,21 @@ meaning, post hoc scope and correlated-horizon/non-CI limits. Added the figure t
 the existing report. No simulation or runtime changes; prior 187-test evidence
 remains applicable. Immutable scope-21 archive is unchanged and predates this
 later analysis. Autonomous research goal remains active.
+
+
+## 2026-09-14 — Autonomous cycle 212
+
+Previous cycle delivered the all-horizon figure. Exported committed source 2a8f24c
+with git archive to a new directory and reran the horizon analysis using only its
+compact committed input. All computed fields and the metric report hash match.
+The sole differing field is raw script_sha256: local CRLF versus exported LF.
+Confirmed each reported raw hash matches its respective bytes and the complete
+scripts are byte-equal after newline normalization. This is provenance variation,
+not changed outcomes or a reason to rewrite the prior report.
+
+Saved capacity-horizons-source-review-021.json with both hashes, normalized hash,
+line-ending counts and exported archive identity; documented the exact comparison
+scope in the analysis report. No new simulation or implementation changes. Existing
+187-test runtime evidence and fixed scope-21 download remain unchanged. The result
+closes a source-only reproduction check without falsely claiming complete JSON
+byte equality across checkouts. Autonomous research goal remains active.

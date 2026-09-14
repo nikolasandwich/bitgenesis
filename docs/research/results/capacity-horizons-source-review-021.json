@@ -1,0 +1,21 @@
+{
+  "source_commit": "2a8f24c0823fc0cca3c675961ddb3347d2e41adc",
+  "scope": "Fresh git archive export of committed source and compact input. Full computed analysis equals saved report; raw script hash differs solely by CRLF/LF. No simulation, new environment installation or historical report rewrite.",
+  "source_archive_sha256": "5e2c151a4fe94df514bd92fcf05519159f30a0ba421bc05e555de8f7346fb044",
+  "computed_fields_equal": [
+    "analysis",
+    "groups",
+    "scope",
+    "metric_report_sha256"
+  ],
+  "different_fields": [
+    "script_sha256"
+  ],
+  "local_script_sha256": "a6a05130719f1ed8fe9811860b784dec77e9f3f58cb745e5c2976dfbbf817667",
+  "exported_script_sha256": "e8a1f14ec919d2633bd23da3c9d14d52728f41862f21b4d10318b50efa658321",
+  "newline_normalized_source_sha256": "a6a05130719f1ed8fe9811860b784dec77e9f3f58cb745e5c2976dfbbf817667",
+  "local_crlf_count": 0,
+  "exported_crlf_count": 75,
+  "metric_report_sha256": "2d65b90338bb5c33d203cc03d2ecd953533416f4b03ecd89c1e645f185000338",
+  "groups_checked": 6
+}
