@@ -20,13 +20,17 @@ class _ObservedFood(list):
             eaten = previous-value
             if position != actor.position or eaten != min(world.config.feeding_rate,previous):
                 raise ValueError("Observed food write differs from pinned feeding semantics")
-            world.feeding_records.append(dict(observation_schema=2,tick=world.tick,id=actor.id,
+            world.feeding_records.append(dict(observation_schema=3,tick=world.tick,id=actor.id,
                 founder_id=actor.founder_id,position=position,genome=actor.genome,
                 food_before=previous,food_after=value,eaten=eaten,
                 energy_before_feeding=actor.energy,
+                position_before_action=world._action_position,
+                movement_attempted=world._movement_attempted,
+                moved=actor.position != world._action_position,
                 birth_eligible=actor.energy+eaten >= world.config.birth_threshold,
                 empty_neighbors_before_birth=sum(p not in world.occupied for p in world.neighbors(position)),
                 child_id=None))
+            world._fed = True
         super().__setitem__(position,value)
 
 
@@ -47,6 +51,12 @@ class FeedingWorld(engine.World):
         self.food = _ObservedFood(self.food,self)
 
     def _pay(self, organism, amount):
+        if self._feeding_actor is not organism:
+            self._action_position = organism.position
+            self._movement_attempted = False
+            self._fed = False
+        elif not self._fed:
+            self._movement_attempted = True
         self._feeding_actor = organism
         super()._pay(organism,amount)
 

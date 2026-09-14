@@ -72,3 +72,26 @@ class FeedingObserverTests(unittest.TestCase):
         self.assertTrue(row["birth_eligible"])
         self.assertEqual(row["empty_neighbors_before_birth"],4)
         self.assertEqual(world.lineage[1].birth_tick,1)
+
+
+    def test_movement_outcomes_in_full_and_single_occupancy_worlds(self):
+        for population,genome,attempted,moved in ((4,1000,True,False),(1,1000,True,True),(1,0,False,False)):
+            config=Config(width=2,height=2,initial_population=population,initial_energy=40,initial_food=24)
+            observed,reference=FeedingWorld(config),World(config)
+            for world in (observed,reference):
+                for o in world.living.values():o.genome=genome
+            observed.step();reference.step();records=observed.drain_feeding()
+            self.assertEqual(observed.snapshot(),reference.snapshot())
+            self.assertEqual(observed.events,reference.events)
+            self.assertEqual(observed.rng.getstate(),reference.rng.getstate())
+            for row in records:
+                self.assertEqual(row["movement_attempted"],attempted)
+                self.assertEqual(row["moved"],moved)
+                self.assertEqual(row["position"]!=row["position_before_action"],moved)
+
+    def test_lethal_movement_is_not_counted_as_a_feeding_attempt(self):
+        world=FeedingWorld(Config(width=2,height=2,initial_population=1,initial_energy=2))
+        world.living[0].genome=1000
+        world.step()
+        self.assertEqual(world.snapshot()["deaths"],1)
+        self.assertEqual(world.drain_feeding(),[])

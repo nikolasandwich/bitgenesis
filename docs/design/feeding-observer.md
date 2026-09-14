@@ -82,3 +82,25 @@ eligibility or absent space. New schema-2 data requires a separate recorded repl
 and its narrowly scoped adjacent-birth-space counts are reported in
 [campaign 017](../research/campaign-017.md#retrospective-birth-eligibility-and-adjacent-space);
 they do not test all forms of spatial competition.
+
+## Schema 3: movement before feeding
+
+New rows set `observation_schema=3` and include `position_before_action`,
+`movement_attempted` and `moved`. The first payment identifies basal activity;
+a second payment before feeding identifies a movement attempt. A payment after
+feeding is reproduction cost and is not classified as movement. This uses the
+pinned source's order, including when movement cost is zero.
+
+For individuals surviving to feeding, an attempted move without a position change
+means an occupied destination under these toroidal rules. No-attempt and successful
+movement are separate outcomes. Individuals dying on a movement payment never
+reach feeding and remain absent from these rows; the new fields therefore cannot
+count all movement attempts or all movement-related deaths. Do not treat the
+feeding-conditioned blocked fraction as a whole-population movement rate.
+
+Tests force always-moving agents in full and single occupancy, a nonmoving parent
+that still reproduces, and a lethal movement payment. They compare observed and
+ordinary snapshots/events/RNG and verify outcome fields. The broader six-world
+trajectory comparisons still pass; all 124 local tests pass. No source changes
+were made to the engine. Existing schema-1/2 datasets retain their original fields
+and hashes. No schema-3 historical replay has been analyzed at this checkpoint.

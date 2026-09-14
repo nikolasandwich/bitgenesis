@@ -1929,3 +1929,16 @@ limited conclusion: frequent lack of adjacent birth space is not supported as
 the direct early-birth explanation. Movement obstruction, food competition and
 later behavior are not excluded. No formal campaign or independent sample added;
 old replay files and fixed archives remain unchanged.
+
+## 2026-09-14 — Autonomous cycle 129
+
+Extended observations to schema 3 with pre-action position, movement attempt and
+realized position change for individuals reaching feeding. Payment-phase tracking
+distinguishes basal, pre-feeding movement and post-feeding reproduction without
+modifying the pinned V0 engine. Lethal movement remains outside feeding rows and
+is explicitly excluded from whole-population rate claims.
+
+Forced full-occupancy, single-occupancy, nonmoving-reproducing and lethal-movement
+cases validate the fields and preserve reference snapshots/events/RNG. All 124
+local tests pass. Earlier replay datasets and fixed archives remain unchanged;
+no new formal experiment or schema-3 outcome analysis is claimed yet.
