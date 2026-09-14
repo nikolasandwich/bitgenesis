@@ -1,0 +1,26 @@
+{
+  "source_commit": "75fa4c0b3add9e7737023adfabe59f4713acc0a5",
+  "archive": "bitgenesis-v0-twenty-two-campaigns.zip",
+  "noneditable_site_packages_import": true,
+  "installed_git_commit": null,
+  "byte_equal_reference_files": [
+    "metrics.csv",
+    "events.jsonl"
+  ],
+  "json_equal_reference_files": [
+    "lineage.json",
+    "summary.json"
+  ],
+  "demo": {
+    "status": "verified",
+    "rules_version": "v0-darwin-1",
+    "ticks": 1000,
+    "organisms_recorded": 1641,
+    "births": 1561,
+    "deaths": 1558,
+    "final_population": 83,
+    "replay_frames": 101
+  },
+  "scope": "Fresh environment and noneditable installation from extracted archive; all 191 archived tests passed and installed 1000-tick demo matches reference records. Pip build dependency resolution does not establish offline installation; no rerun of all campaigns.",
+  "tests_passed": 191
+}

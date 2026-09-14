@@ -3425,3 +3425,27 @@ campaign-022 gates with exact report equality, retaining previous campaign check
 CLI loads. Commit this source before launching the fixed twenty-two-campaign ZIP;
 fresh extraction/installation and upload are subsequent gates. No engine or
 experiment changes. Existing archives immutable; autonomous goal active.
+
+
+## 2026-09-14 — Autonomous cycle 220
+
+After cycle 219's launch, subsequent turns revalidated the same live packager and
+prepared local acceptance drivers without editing its tracked source. That process
+completed normally: bitgenesis-v0-twenty-two-campaigns.zip, source
+75fa4c0b3add9e7737023adfabe59f4713acc0a5, 3,208 payload files / 190,114,621 bytes,
+SHA256 2b9e2b9ce1f72be1a9a7c995df9043eb78a9682ba59de4ff0214027ad6f9aed1.
+Source CI 34828088105 passed. Archive integrity covers 13 HTML pages and 24 local
+HTML targets, not browser interaction or scientific generality.
+
+Fresh extraction into data/portable-review-22 reproduced all three campaign-022
+reports exactly using extracted scripts/data: aggregate metrics, complete histories
+and checkpoints. A new virtual environment installed the extracted source
+noneditably; import resolves to site-packages. All 191 archived tests pass.
+Installed 1,000-tick demo has 83 survivors, 1,561 births, 1,558 deaths, 1,641
+lineage records and 101 replay frames; audit passes. Metrics/events are byte-equal
+to reference, lineage/summary JSON equal, installed git_commit null. Pip resolved
+build dependencies, so no offline-installation guarantee is made.
+
+Saved portable-review-022.json, portable-wheel-022.json and local SHA sidecar.
+Remote upload and current download-guide updates remain next. Existing releases
+remain unchanged; autonomous goal active, V1 design only.
