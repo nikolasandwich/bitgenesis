@@ -1,0 +1,15 @@
+{
+  "archive": "bitgenesis-v0-observations-017.zip",
+  "sha256": "b5b3a6acbc7aacd06af454d6a62d4d201e7f83514163a07e7ad2bdcc339fd9f6",
+  "bytes": 13880997,
+  "payload_files": 596,
+  "source_commit": "e2a06ceab3c04b276813245537b6dd8afbddb1ac",
+  "fresh_extracted_reports_equal": [
+    "feeding-attempts-017.json",
+    "birth-opportunities-017.json",
+    "movement-observations-017.json",
+    "action-replay-017.json",
+    "complete-movement-017.json"
+  ],
+  "scope": "Fresh isolated standard-library reanalysis from extracted supplement. No package installation, simulation rerun, prior-campaign data or browser-review claim."
+}

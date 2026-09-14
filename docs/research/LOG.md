@@ -2024,3 +2024,18 @@ individual-path comparisons. It identifies the need to specify side effects of
 any future causal intervention, and preserves the distinction between formal
 campaigns and retrospective observations. Fixed seventeen-campaign downloads do
 not silently acquire later observer data. No new runtime or experiment added.
+
+## 2026-09-14 — Autonomous cycle 136
+
+Built a separate observation supplement from clean source e2a06ce. It includes
+tracked source, original campaign-017 records and four successive observer replay
+datasets, not campaigns 001–016 raw data or generated review pages. Five analyses
+reproduce their complete saved reports before packaging. The verified ZIP contains
+596 payload files / 13,880,997 bytes, with checksum recorded.
+
+Hash-checked and extracted into a new directory, then ran all five archived
+standard-library analyses with isolated Python and that extracted working tree.
+Every complete report equals the archived reference, including hashes. This
+establishes portable reanalysis for the supplement without package installation
+or new world execution. Upload remains a separate next step; the fixed full
+seventeen-campaign archive is unchanged.
