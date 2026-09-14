@@ -312,3 +312,21 @@ The 103-byte checksum asset hashes to
 `452e631841435b54922e0559786e32f2c00bb6b936f6dd5e078cc8e472a9861d`.
 See [remote asset record](results/release-016.json).
 Source CI 34789953078 completed successfully. Earlier draft assets are unchanged.
+
+## Seventeen-campaign local archive — 2026-09-14
+
+`data/bitgenesis-v0-seventeen-campaigns.zip` fixes source
+`8e4cf89d764b5fad3666498c4d66f6f97e547077`, all seventeen raw campaigns,
+the seventeen-campaign review page and 117 tests. It also includes the later
+parameter-domain audit correction and campaign-016 retrospective access/budget
+analyses. V0 dynamics remain unchanged.
+
+- 1,260 payload files; 106,192,281 bytes.
+- SHA-256: `7c0e66bb1603dfa64a6e11416b5658f8ee8ff268fb8c447468b11edc7458ddac`.
+- Eleven full-run audits plus campaign-005 and 009–017 metric audits pass.
+- Standalone standard-library verification with the expected hash passes.
+- Workload: 784 executions / 7,040,000 computed ticks, including 24 follow-ups
+  and 212,000 replayed prefix ticks.
+
+Extracted installation and remote upload remain separate next checks. The fixed
+sixteen-campaign download and earlier archives are unchanged.
