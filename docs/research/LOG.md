@@ -3849,3 +3849,21 @@ CLI loads via module invocation; no outcome run started. Next implement independ
 initial/group accounting and ancestry reconstruction, exercise corrupt fixtures,
 then commit clean source before launching the registered cohort. Frozen engine,
 prior data and formal23-campaign count unchanged. Autonomous goal active.
+
+## 2026-09-14 — Autonomous cycle 242
+
+Previous cycle added campaign024 batch orchestration, still without formal runs.
+Implemented independent initial and group/total metric verification. Actual40/40
+allocation and mixed founder genotypes are checked before normalization for reuse
+of the frozen world-account arithmetic. Every group has population, births/deaths,
+energy, founder count, generation and fixed-trait checks; group uptake bounds use
+energy change plus prior basal population. All group sums, mixture mean/variants,
+checkpoint histograms and absorbing-extinction summaries are reconciled.
+
+All12 engineering seed/trait/swap fixtures pass independent checks. Added regression
+coverage for corrupt group energy/population/trait/birth counts, incorrect founder
+mapping, altered checkpoint histogram and truncated rows. Three focused recording/
+metric tests pass. This is a metric gate, not full parent/event reconstruction or
+complete-cohort verification. Next implement the independent life-history gate
+and full cohort wrapper before scientific interpretation. No outcome directory,
+new execution count or V1 runtime; autonomous goal active.
