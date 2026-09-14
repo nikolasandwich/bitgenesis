@@ -5,7 +5,8 @@ and bounded persisted runner with independent ledger, ancestry, decision and spa
 audit. [Study001](../research/v1-study-001.zh-CN.md) completed540 verified assays;
 its primary evolutionary contrast is negative, with only3 surviving training sources.
 An exploratory [V2 world](../design/v2-world.md) now integrates development costs
-and failed attempts; it has no scientific pilot or stage-graduation claim. The
+and failed attempts. Its [first viability pilot](../research/v2-pilot-001.zh-CN.md)
+is complete; no developmental-benefit or stage-graduation claim follows. The
 [autonomous research mandate](autonomous-research.md) authorizes implementation
 and exploration of all later stages as of 2026-09-14. These stages are
 research milestones, not release dates. Graduate only with reproducible evidence,
