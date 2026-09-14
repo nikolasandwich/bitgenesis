@@ -1,1 +1,1 @@
-"""Experimental ecological mechanisms; not yet a runnable V3 world."""
+"""Experimental ecological world; persisted runner and independent audit pending."""

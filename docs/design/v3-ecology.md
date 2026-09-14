@@ -1,7 +1,8 @@
 # V3 minimal ecology: resource-mediated interaction
 
-Status: resource kernel implemented; population world, inherited metabolic trait,
-persisted records and ecological experiments are pending. V2 remains unchanged.
+Status: resource kernel, inherited metabolic trait and in-memory population world
+implemented. Persisted runner, independent world audit and ecological experiments
+are pending. V2 remains unchanged.
 No coexistence or evolved specialization has been demonstrated.
 
 Start with resource-mediated competition and potential cross-feeding. Avoid
@@ -57,3 +58,26 @@ then preregister a bounded viability pilot. Before coexistence claims, define
 trait-frequency and turnover observations across at least five seeds and fixed
 windows, include perturbation controls and distinguish imposed resource niches
 from evolved differentiation. No extra species labels or desired fitness scores.
+
+## Implemented world: v3-world-1
+
+The world now uses an EcologyGenome: ten V2 development coordinates plus allocation
+in0..16. Initialization draws development first, allocation second. Each offspring
+first draws a mutation ticket out of1000, then (if selected) one of11 coordinates
+uniformly. Amplitude/threshold coordinates use a uniform delta−10..10; all others
+use−1..1, clipped to bounds. Zero and clipped changes remain possible. Adding the
+allocation coordinate changes the marginal developmental mutation rate relative
+to V2; this is a new kernel, not a matched V2 intervention.
+
+Separate v3-world-1 random stream namespaces preserve older runs. Initial B defaults
+to zero; recycling is a configuration integer0/1, default1. A retains the internal
+field name food; B uses substrate_b. Total food sensing is normalized by twice the
+per-substrate capacity. Initial founder sampling, failed development losses and
+sequential birth/death order follow the explicit copied V2 schedule; V2 files are
+unchanged. Only developmental ecological encoding is currently supported.
+
+Actor feeding records contain site, pre-feeding stocks, allocation, both intakes,
+energy gain, retained B and dissipation. intake means organism energy gain, not
+raw substrate consumption. World spent includes substrate dissipation; individual
+energy accounting does not charge that environmental loss a second time.
+Engineering seeds85000..85003 are reserved and excluded from held-out studies.
