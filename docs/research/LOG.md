@@ -4236,3 +4236,9 @@ Two focused tests cover neutral versus uninterrupted state equality, identical b
 Previous turn persisted isolated branches (6208cf7), a substantive progress turn. Added independent serialized boundary reconstruction (no world/intervention imports) and explicit same-engine continuation replay from supplied origin, covering hashes, boundary records, full events/steps/final state and summary. Reports clearly exclude origin provenance and independently reconstructed intervened world history.
 
 Three focused branch tests pass for intact/removal/replay verification, common origin isolation and rehashed exported-energy corruption rejection. No scientific branch assay yet; base runtime unchanged since280 full tests. Next assemble verified common-prefix origin, prefix-only target choice, reference schedule binding and persisted three-arm assay before preregistering sources.
+
+## 2026-09-14 — Autonomous cycle 291
+
+Previous turn independently checked boundaries and replayed branches (f734384), a substantive progress turn. Added full assay orchestration: independent ordinary-prefix audit, prefix-only largest-retained-release living-founder selection, exact regenerated origin, intact/removal/deposit replay branches, reference schedule hash and non-target outcomes. Unavailable target cases persist null results rather than replacing seeds. Verification overhead is counted separately.
+
+Two focused tests cover selection ties/no partner and complete available/unavailable paths with byte-identical prefix-to-branch origins. Full283 tests pass in31.866 seconds. Registered study001 before seeds88000..88004:300-step prefix,500-step three-arm continuation,feeding16/renewal60 explicitly exploratory despite failed viability,8GiB inter-source soft limit and complete cohort gate. Next execute frozen source and verify protocol/target/schedule identities before interpreting mechanism effects.

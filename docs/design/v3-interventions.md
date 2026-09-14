@@ -81,3 +81,15 @@ current engine; it is not an independent world implementation. Origin provenance
 target selection and reference schedule hashes belong to the forthcoming assay
 orchestrator. Do not treat the replay report as a standalone causal experiment or
 as proof of independently reconstructed intervened ancestry and spatial history.
+
+## Complete assay orchestration
+
+run_assay now persists an ordinary independently audited prefix, selects the
+largest positive retained-release living lineage from that prefix (requiring two
+living lineages; ties by founder ID), regenerates and exactly matches its origin,
+then writes and verifies intact/removal/replay branches. Unavailable cases save
+null outcomes and retain their prefix. Other-lineage population/new births and
+import/export summaries are saved. The reference schedule is hash-bound; the
+complete-cohort verifier must still check protocol coverage and source selection.
+Engineering seeds85700/85701 test available and unavailable paths. The first
+bounded scientific protocol is experiments/v3/study-001.md, not yet executed.
