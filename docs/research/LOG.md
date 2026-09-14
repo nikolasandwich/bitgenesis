@@ -4398,3 +4398,9 @@ Registered study005 before seeds96000..96004:20 runs crossing mutation0/100 and 
 Previous turn independently audited heredity and registered variation study005 (3b70564), a substantive progress turn. Added launcher07a9ef4 before execution. Original process83609 exited0 at20/20 independently audited hereditary runs; no source edits during execution. Checked declared mutation/drive grid and clean launch binding; archived metadata/results. Runtime unchanged since335 full tests.
 
 Complete cohort source/configuration/RNG verification, fixed-window program counts and10 primary contrasts remain pending. Next independently count initial occupied-program sets, initially absent final programs and no-mutation negative controls, preserving all cases. Execution success is not adaptive improvement or evidence of open-ended innovation.
+
+## 2026-09-14 — Autonomous cycle 318
+
+Previous turn completed hereditary variation execution (36fad6b), a substantive progress turn. Full verifier24841 exited0 with20 reaudits,40 registered windows, source/configuration/protocol/RNG checks, program tables and10 contrasts. All mutation0 trajectories remain within initial occupied-program sets. Two focused tests pass for excluding empty-site samples, duplicate program counting and window boundaries. Runtime unchanged since335 full tests. Archived full verification/report.
+
+Mutation100 final initially-absent unit fractions average497/1280 atdrive250 and1/10 atdrive500. Mutation event opportunities differ strongly; no adaptive-value inference. Next passive unique-birth lineage reconstruction from verified events to identify real ancestors, followed by prespecified matched descendant/ancestor assays. Program equality cannot establish ancestry and the256-program representation is not open-ended novelty.
