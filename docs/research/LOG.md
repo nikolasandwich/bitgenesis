@@ -2939,3 +2939,22 @@ records and 6,144,000 renewal draws, including full histograms, exact expectatio
 sampled discard and boundary metrics. Saved the complete hash-bound verification
 report. These replay ticks are supplementary and do not change formal campaign
 counts. Descriptive treatment/partition synthesis remains the next step.
+
+
+## 2026-09-14 — Autonomous cycle 195
+
+Previous cycle completed all-sixty-world stock replay and independent verification.
+Added descriptive synthesis of all/active-start/empty-start partitions with exact
+rational reconciliation and explicit unavailable ratios for zero-length windows.
+Retained 180 world-partition records and eighteen ten-world group summaries.
+Actual discard fractions use sampled uncapped arrivals; expected cap-loss fractions
+use nominal expected arrivals. Added boundary tests for missing ratios and damaged
+partition/nominal identities. All 181 tests pass.
+
+Chinese report shows all six full-window cells and empty-window coverage. Within
+each renewal treatment, high-threshold early discard-fraction ranges exceed the
+low-threshold ranges despite all high-threshold worlds surviving to 10,000. This
+precludes treating discard fraction as a direct survival ranking; it does not show
+beneficial discard or identify a causal direction. Complete raw observation and
+original-outcome scope remain explicit. No new simulation or formal-count change;
+fixed twenty-campaign archive excludes these later retrospective records.
