@@ -3590,3 +3590,21 @@ complete metric and history wrappers remain gated on all200 finished worlds.
 Running source, protocol, frozen sample manifest and runtime unchanged. Formal
 verified counts remain22 campaigns. Next prepare complete-cohort summaries while
 original execution continues. Autonomous goal active; V1 design only.
+
+## 2026-09-14 — Autonomous cycle 228
+
+The preceding user-facing turn checked campaign metadata and explained priorities;
+this cycle re-polled the original live process38994 rather than inferring liveness
+from metadata. Prepared the campaign023 checkpoint summarizer, requiring both full
+verification reports, their hash linkage, the committed sampling manifest and the
+complete source/replicate/arm/time grid. It retains all histograms, identity fields,
+extinct-world nulls and five-repeat ranges within each source and arm. No pooled
+repeat count is interpreted as independent evolved samples. Formal reports remain
+pending full execution and verification; no interim outcome claim is made.
+
+The focused grouping test passes, covering source/arm separation, extinct nulls,
+input preservation, missing and duplicated observations, and the empty-source case.
+The standalone isolated standard-library CLI loads successfully. No engine,
+protocol or running experiment changes. Next finish full gates and generate all
+1,200 checkpoint observations once the original200-world campaign completes.
+Autonomous goal remains active; V1 design only.
