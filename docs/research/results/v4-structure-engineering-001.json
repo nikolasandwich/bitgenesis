@@ -1,0 +1,27 @@
+{
+  "scope": "engineering phase mapping and independent overlap recomputation, not cohort evidence",
+  "observation_sha256": "e22aa4783c4393b14f4f54fbbc5295ae255321d3a9ff2419ac07a65f1153906c",
+  "ticks": 100,
+  "lineage_summary": {
+    "tick": 100,
+    "founders": 182,
+    "births": 79,
+    "deaths": 5,
+    "living": 256,
+    "max_generation": 3,
+    "mutation_births": 1
+  },
+  "overlap_comparisons": 497,
+  "input_sha256": {
+    "final.json": "d9e0bc135c15c204fb671eaee2c565d9abe8fdb6c058dfa86ccaac3c921e7f0a",
+    "initial.json": "00d92ec7618dba3284a72af5127aee22982d1a313624824bf2eb82d8735144ad",
+    "metadata.json": "ff0c35d943b192cc52916d521a8939c74c7537a26d289b27536ddcac392db049",
+    "steps.jsonl": "177d188767612edba6ddff65b7361f17bca8a34adf67414ca36ccde9faeaa0e9",
+    "summary.json": "ab3b7f39725650a6bfa6f2fe6e8e3edb7bf3b3ec7037d13f43455a2d6201f718"
+  },
+  "observer_sha256": {
+    "structure_trace.py": "6e367dc2e0fabbd2d653b13c7171a6acf5289ea2175807cbd1bac27301302870",
+    "structure.py": "c41f9b95c4339c52dcd12a285e089c832d15a0f952dd482c97131e5f7e023ee7",
+    "lineage.py": "6838fc56e75f25fc469305b925c881b244a5df45712383ad79561673e3f1ff15"
+  }
+}

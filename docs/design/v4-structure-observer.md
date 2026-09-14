@@ -2,7 +2,8 @@
 
 Status: snapshot partition and surviving-member overlap primitives implemented
 in `v4.structure`, following completed study008. Audited trajectory phase mapping
-and scientific cohort observations remain pending. Do not interpret a positive
+is implemented in `v4.structure_trace`; scientific cohort observations remain
+pending. Do not interpret a positive
 unit competition score as reproduction of a multi-unit organization. The next
 implementation observes existing trajectories without changing their dynamics.
 
@@ -71,3 +72,28 @@ differences, passive inputs, phase rejection, empty fractions, split/merge/site
 replacement and partition comparison against independent union-find fixtures.
 Seed102000 is engineering-only. Next implement audited phase mapping on a
 retained trajectory and check immutable input hashes before any cohort claim.
+
+## Audited trajectory adapter
+
+`structure_trace.trace` supports hereditary, explicit-program and competition
+schemas through their respective independent dynamics audits. Before conversion,
+interaction identities equal the previous final identities; material/program
+and occupation must match. After dissolution/formation the passive lineage
+observer assigns final birth identities. Continuity compares consecutive final
+states (including initialization) and consecutive interaction states separately;
+the first interaction has no preceding interaction comparison.
+
+All input-directory file hashes are checked before and after observation; the
+CLI requires an exclusive output outside that directory. Observations record
+input, dynamics-audit and observer hashes. Two tests check audited phase mapping,
+independent event identity assignment, cross-product overlap counts, immutable
+files and zero horizon. Seeds102001/102002 are engineering-only.
+
+The retained100-step hereditary engineering trajectory95004 passes this adapter:
+182 founders,79 births,5 deaths,256 final living units. Independent cross-product
+overlap recomputation matches497 phase/definition transitions. Its final contact
+partition has one component while the material partition has129; this illustrates
+boundary dependence, not129 organisms. A compact engineering record is archived
+under `docs/research/results/v4-structure-engineering-001.json`. Independent
+retained-trajectory partition reconstruction and cohort selection remain next;
+overlap checks alone do not complete the full measurement gate.
