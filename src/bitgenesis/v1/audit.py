@@ -53,8 +53,15 @@ def audit(directory):
         weights = event['genome']['weights']
         require(len(weights) == 35 and all(type(w) is int and -100 <= w <= 100 for w in weights), 'genome bounds')
         if event['parent'] is None:
+            assignment = meta.get('founder_assignments')
+            if assignment is not None:
+                require(len(assignment) == c['founders'], 'assignment count')
+                require(weights == assignment[identifier]['weights'], 'assigned genome mismatch')
+                founder_mode = assignment[identifier]['mode']
+            else:
+                founder_mode = meta['mode']
             require(event['tick'] == 0 and event['founder'] == identifier and event['generation'] == 0
-                    and event['energy'] == c['initial_energy'] and event['mode'] == meta['mode'], 'founder state')
+                    and event['energy'] == c['initial_energy'] and event['mode'] == founder_mode, 'founder state')
             snapshot = {k: v for k, v in event.items() if k not in ('event', 'tick')}
             require(snapshot == initial_by_id.get(identifier), 'founder snapshot mismatch')
         else:

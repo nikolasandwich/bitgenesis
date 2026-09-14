@@ -8,7 +8,7 @@ import platform
 import subprocess
 import sys
 
-from .controller import CONTROLLER_VERSION
+from .controller import CONTROLLER_VERSION, Genome
 from .world import Config, World, RULES_VERSION
 
 
@@ -26,7 +26,8 @@ def state(world):
             'rng': {name: rng.getstate() for name, rng in world.rng.items()}}
 
 
-def run(output, config, seed, steps, mode='intact', max_actor_records=1000000):
+def run(output, config, seed, steps, mode='intact', max_actor_records=1000000,
+        founder_assignments=None):
     output = Path(output)
     if type(steps) is not int or not 0 <= steps <= 100000:
         raise ValueError('steps must be in 0..100000')
@@ -37,6 +38,15 @@ def run(output, config, seed, steps, mode='intact', max_actor_records=1000000):
     if config.width * config.height * steps > max_actor_records:
         raise ValueError('worst-case actor count exceeds recording budget')
     world = World(config, seed, mode)
+    if founder_assignments is not None:
+        if len(founder_assignments) != config.founders:
+            raise ValueError('one assignment required per founder')
+        for identifier, assignment in enumerate(founder_assignments):
+            if set(assignment) != {'weights', 'mode'} or assignment['mode'] not in ('intact','blind','shuffled'):
+                raise ValueError('invalid founder assignment')
+            world.organisms[identifier].genome = Genome(tuple(assignment['weights']))
+            world.organisms[identifier].mode = assignment['mode']
+        world.events = [{'event':'birth', 'tick':0, **asdict(o)} for o in world.organisms.values()]
     output.mkdir(parents=True, exist_ok=False)
     source = Path(__file__).parent
     hashes = {p.name: sha256(p.read_bytes()).hexdigest() for p in sorted(source.glob('*.py'))}
@@ -53,6 +63,8 @@ def run(output, config, seed, steps, mode='intact', max_actor_records=1000000):
                 'implementation': platform.python_implementation(), 'source_sha256': hashes,
                 'git_commit': revision, 'git_dirty': dirty, 'status': 'running',
                 'max_actor_records': max_actor_records, 'completed_steps': 0}
+    if founder_assignments is not None:
+        metadata['founder_assignments'] = founder_assignments
     save(output / 'metadata.json', metadata)
     save(output / 'initial.json', state(world))
     count = 0

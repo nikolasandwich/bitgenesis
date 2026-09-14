@@ -9,8 +9,8 @@ python -m bitgenesis.v1 --seed 70101 --steps 100 --output data/my-v1-check
 Use a new directory. Optional `--config config.json` accepts an object of the
 fields in `bitgenesis.v1.world.Config`; unspecified fields use engineering
 defaults. `--mode intact|blind|shuffled` selects the inherited intervention mode
-for all founders. This runner currently supports one mode per world; mixed-mode
-competition needs a separately specified initialization interface.
+for all founders. The separate [competition interface](../../docs/design/v1-competition.md)
+supports declared per-founder assignments and matched mixed-mode assays.
 
 The output includes configuration, Python and source versions/hashes, initial
 food/genomes/RNG state, per-tick actor ledgers, birth/death events, final lineage
