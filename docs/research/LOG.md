@@ -1848,3 +1848,17 @@ separately from total intake or survival. The note distinguishes an observationa
 replay from an independent replicate or causal intervention and records a staged
 future implementation/pilot/preregistration sequence. All additions are design
 only; V0 remains the only runtime stage and fixed archives remain unchanged.
+
+## 2026-09-14 — Autonomous cycle 124
+
+Implemented a research-only feeding observer around the unchanged, source-pinned
+V0 engine. It records actor identity, location, food before/after, intake and
+pre-feeding energy, including zero-intake attempts; deaths before feeding produce
+no feeding row. A drained buffer remains separate from lifecycle events.
+
+Six configurations compared against ordinary worlds for 100 ticks each preserve
+snapshots, food, full lineage, events and RNG state. Intake totals reconcile with
+aggregate resource accounting; tests cover death-before-feed, zero intake,
+source mismatch and replaced lists. All 120 tests pass. This is not the complete
+movement/congestion/reproduction observer and no formal mechanism study has run.
+Documented the missing gates, source coupling, retention and checkpoint limits.

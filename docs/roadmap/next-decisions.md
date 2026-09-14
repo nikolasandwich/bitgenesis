@@ -33,7 +33,8 @@ not independent seed evidence. Label any outcome-selected comparison explicitly.
 These measurements could distinguish low local intake from high population-wide
 intake and detect congestion. They would still be observational: a separate
 intervention would be needed to attribute the threshold effect to a mediator.
-There is no current claim that this observer or study has been implemented.
+A [feeding-only component](../design/feeding-observer.md) is now implemented and
+tested. The full observer gate and the proposed study remain incomplete.
 
 ## V1 implementation sequence when runtime scope expands
 
