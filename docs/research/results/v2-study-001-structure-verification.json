@@ -1,0 +1,171 @@
+{
+  "scope": "complete genotype grid, independent constructions and validity transitions; behavioral probabilities pending separate validation",
+  "parents": 100,
+  "variants": 2000,
+  "sources": [
+    {
+      "source": 83000,
+      "valid_parents": 4,
+      "valid_to_valid": 79,
+      "silent_genotypes": 8,
+      "valid_to_invalid": 1,
+      "invalid_to_invalid": 20
+    },
+    {
+      "source": 83001,
+      "valid_parents": 1,
+      "invalid_to_invalid": 80,
+      "silent_genotypes": 2,
+      "valid_to_valid": 20
+    },
+    {
+      "source": 83002,
+      "valid_parents": 0,
+      "invalid_to_invalid": 99,
+      "silent_genotypes": 7,
+      "invalid_to_valid": 1
+    },
+    {
+      "source": 83003,
+      "valid_parents": 0,
+      "invalid_to_invalid": 98,
+      "silent_genotypes": 4,
+      "invalid_to_valid": 2
+    },
+    {
+      "source": 83004,
+      "valid_parents": 1,
+      "invalid_to_invalid": 80,
+      "silent_genotypes": 2,
+      "valid_to_valid": 15,
+      "valid_to_invalid": 5
+    },
+    {
+      "source": 83005,
+      "valid_parents": 0,
+      "invalid_to_invalid": 98,
+      "silent_genotypes": 5,
+      "invalid_to_valid": 2
+    },
+    {
+      "source": 83006,
+      "valid_parents": 1,
+      "invalid_to_invalid": 79,
+      "silent_genotypes": 6,
+      "invalid_to_valid": 1,
+      "valid_to_valid": 20
+    },
+    {
+      "source": 83007,
+      "valid_parents": 1,
+      "invalid_to_invalid": 77,
+      "silent_genotypes": 6,
+      "invalid_to_valid": 3,
+      "valid_to_valid": 19,
+      "valid_to_invalid": 1
+    },
+    {
+      "source": 83008,
+      "valid_parents": 2,
+      "invalid_to_invalid": 60,
+      "silent_genotypes": 6,
+      "valid_to_valid": 40
+    },
+    {
+      "source": 83009,
+      "valid_parents": 1,
+      "invalid_to_invalid": 79,
+      "silent_genotypes": 4,
+      "valid_to_valid": 20,
+      "invalid_to_valid": 1
+    },
+    {
+      "source": 83010,
+      "valid_parents": 1,
+      "invalid_to_invalid": 80,
+      "silent_genotypes": 4,
+      "valid_to_valid": 19,
+      "valid_to_invalid": 1
+    },
+    {
+      "source": 83011,
+      "valid_parents": 0,
+      "invalid_to_invalid": 100,
+      "silent_genotypes": 2
+    },
+    {
+      "source": 83012,
+      "valid_parents": 1,
+      "invalid_to_invalid": 80,
+      "silent_genotypes": 8,
+      "valid_to_valid": 19,
+      "valid_to_invalid": 1
+    },
+    {
+      "source": 83013,
+      "valid_parents": 1,
+      "valid_to_valid": 19,
+      "silent_genotypes": 6,
+      "valid_to_invalid": 1,
+      "invalid_to_invalid": 76,
+      "invalid_to_valid": 4
+    },
+    {
+      "source": 83014,
+      "valid_parents": 1,
+      "invalid_to_invalid": 80,
+      "silent_genotypes": 7,
+      "valid_to_valid": 19,
+      "valid_to_invalid": 1
+    },
+    {
+      "source": 83015,
+      "valid_parents": 3,
+      "valid_to_valid": 60,
+      "silent_genotypes": 4,
+      "invalid_to_invalid": 40
+    },
+    {
+      "source": 83016,
+      "valid_parents": 1,
+      "invalid_to_invalid": 80,
+      "silent_genotypes": 6,
+      "valid_to_valid": 20
+    },
+    {
+      "source": 83017,
+      "valid_parents": 1,
+      "invalid_to_invalid": 80,
+      "silent_genotypes": 4,
+      "valid_to_valid": 19,
+      "valid_to_invalid": 1
+    },
+    {
+      "source": 83018,
+      "valid_parents": 1,
+      "invalid_to_invalid": 80,
+      "silent_genotypes": 2,
+      "valid_to_valid": 18,
+      "valid_to_invalid": 2
+    },
+    {
+      "source": 83019,
+      "valid_parents": 1,
+      "valid_to_valid": 18,
+      "silent_genotypes": 5,
+      "valid_to_invalid": 2,
+      "invalid_to_invalid": 80
+    }
+  ],
+  "totals": {
+    "valid_parents": 22,
+    "valid_to_valid": 424,
+    "silent_genotypes": 98,
+    "valid_to_invalid": 16,
+    "invalid_to_invalid": 1546,
+    "invalid_to_valid": 14
+  },
+  "results_sha256": "ee206332cfcfcd30584f7ead7fef5f38fc92f89ca89ef711540732920d9dd811",
+  "metadata_sha256": "a0257085d81902cee4f95a24d8c4f78cd88fb955e0cfa168fbbca920955eacaa",
+  "script_sha256": "7767311c64712ddb323512182eadc2e333dd8e049b8f0b07e11fe1841c2d12da"
+}
