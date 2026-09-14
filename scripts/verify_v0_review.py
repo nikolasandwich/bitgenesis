@@ -21,6 +21,36 @@ class Links(HTMLParser):
         self.links.extend(value for key, value in attrs if key in ("href", "src") and value)
 
 
+
+def _manifest_object(pairs):
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError(f"Duplicate review manifest key: {key}")
+        result[key] = value
+    return result
+
+
+def _read_manifest(archive):
+    manifest = json.loads(archive.read("MANIFEST.json"), object_pairs_hook=_manifest_object)
+    if not isinstance(manifest, dict) or manifest.get("format") != "bitgenesis-review-1":
+        raise ValueError("Unsupported review manifest")
+    if not isinstance(manifest.get("git_commit"), str) or not manifest["git_commit"].strip():
+        raise ValueError("Invalid review manifest source commit")
+    files = manifest.get("files")
+    if not isinstance(files, dict) or not files:
+        raise ValueError("Invalid review manifest files object")
+    for name, record in files.items():
+        if not isinstance(record, dict):
+            raise ValueError(f"Invalid review manifest file record: {name}")
+        size, digest = record.get("bytes"), record.get("sha256")
+        if type(size) is not int or size < 0:
+            raise ValueError(f"Invalid review manifest byte length: {name}")
+        if not isinstance(digest, str) or not re.fullmatch(r"[0-9a-f]{64}", digest):
+            raise ValueError(f"Invalid review manifest SHA-256: {name}")
+    return manifest
+
+
 def verify(path, expected_sha256=None):
     with Path(path).open("rb") as stream:
         archive_hash = hashlib.file_digest(stream, "sha256").hexdigest()
@@ -38,9 +68,7 @@ def verify(path, expected_sha256=None):
                 or ".." in parts or posixpath.normpath(name) != name
                 or item.is_dir() or stat.S_ISLNK(item.external_attr >> 16)):
                 raise ValueError(f"Unsupported archive member: {name}")
-        manifest = json.loads(archive.read("MANIFEST.json"))
-        if manifest["format"] != "bitgenesis-review-1":
-            raise ValueError("Unsupported review manifest")
+        manifest = _read_manifest(archive)
         files = manifest["files"]
         if not files or set(names) != set(files) | {"MANIFEST.json", "START-HERE.txt"}:
             raise ValueError("Archive and manifest file lists differ")

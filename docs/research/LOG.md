@@ -2060,3 +2060,16 @@ aggregation, unavailable samples and engineering failures. Specified same-state
 controller probes and exact permutation averaging to avoid comparing behavior only
 on divergent trajectories. Seed blocks, budgets and positive-claim thresholds remain
 future preregistration fields. No V1 runtime or new experiment was introduced.
+
+## 2026-09-14 — Autonomous cycle 139
+
+Audited portable-review manifest handling. Negative fixtures exposed silently
+accepted duplicate JSON keys, floating-point byte lengths and empty/null source
+metadata. Added explicit manifest schema checks and duplicate-key rejection while
+preserving optional inventory metadata. Added malformed-record/top-level cases,
+duplicate ZIP members, traversal/absolute paths and symlink regression coverage.
+
+All 129 local tests pass. Rechecked both fixed seventeen-campaign and observation
+ZIPs against their externally recorded hashes with the stricter helper: 1,260/596
+payload files pass unchanged. Existing archives and V0 world rules are unchanged;
+this verifies stored integrity and format, not provenance authenticity or science.

@@ -124,3 +124,21 @@ twenty matching threshold-map pairs, 400,040 metric rows and 4,000 early feeding
 transitions. Its sibling geometry helper is included in the archive. Passing
 these checks does not reconstruct individual movement or identify a causal
 mediator of the reproduction-threshold effect.
+
+## Manifest format validation
+
+The current verifier rejects duplicate JSON keys at every manifest object level,
+requires object-shaped file records, nonnegative integer byte lengths (excluding
+booleans and floating-point numbers), lowercase SHA-256 strings, and a nonempty
+source-commit string. The source string is reported metadata, not authentication
+or proof that the named commit produced the archive. Additional metadata fields
+remain allowed for campaign inventories and supplement scope.
+
+Malformed-manifest fixtures previously demonstrated acceptance of duplicate keys,
+a numerically equal floating-point byte length, and absent/empty source values.
+They are now rejected. Duplicate ZIP members, traversal/absolute paths and symlink
+fixtures are also covered. Both the fixed seventeen-campaign archive (1,260 files,
+13 HTML pages, 14 local targets) and observation supplement (596 files, no HTML)
+pass this stricter verifier with their separately recorded whole-archive hashes.
+This changes the current helper only; the immutable archived helpers keep their
+original behavior. No extraction or scientific reanalysis is part of this check.
