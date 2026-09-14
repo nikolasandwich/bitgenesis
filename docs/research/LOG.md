@@ -4440,3 +4440,9 @@ Only training drive250/mutation100 group has nonzero means:3061/128000 at assay 
 Previous turn completed matched expansion analysis (70ccb41), a substantive progress turn. Added v4-competition-1 dual-founder explicit-program runner, independent dynamics audit and passive founder-role lineage counts. Roles are not dynamic inputs; mutation disabled and resource/interaction laws unchanged. Tests verify neutral swapped-site physical byte identity with reversed role counts, distinct-program inheritance, unsorted role sites, zero horizon and coincident-site rejection. Full347 tests pass in37.468 seconds.
 
 Registered study007 before seeds100000/100001:all60 frozen pairs x2 environments x2 drives x2 placements=480 runs,200 ticks,primary time-integrated role count difference,220 exact neutral placement-pair controls and prespecified aggregation. No filtering on study006 gains. Next clean source/ancestry gate and execute competition cohort, then independently verify role accounting and swapped controls before reporting advantage.
+
+## 2026-09-14 — Autonomous cycle 325
+
+Previous turn implemented audited two-founder competition and registered study007 (9ce4a54), a substantive progress turn. Added launcher6717371, revalidated frozen ancestry before launch. Original process38988 exited0 at480/480 competitions, each independently dynamics-audited with passive lineage/role count records. No source changes during execution. Exact declared grid and clean launch source binding checked; archived metadata/results. Runtime unchanged since347 full tests.
+
+Full cohort independently reconstructed role counts, neutral swapped byte/reversal checks,240 placement-averaged scores and source/group aggregates remain pending. Next complete that gate before interpreting competitive advantage. All60 frozen pairs retained, including55 equal-program controls and prior unfavorable cases.
