@@ -313,3 +313,15 @@ Next consolidate the V0 graduation evidence against its explicit criteria and
 identify the remaining scientific question before proposing a new experiment.
 The null primary mean is retained; neither post hoc resampling nor a sweep is an
 automatic next step. V1 remains design only.
+
+## Registered direct-competition assay after campaign023
+
+[Campaign024](../../experiments/v0/campaign-024.md) fixes a distinct question:
+terminal descendant abundance of the same frozen early sampled traits versus their
+actual ancestors in shared resource worlds. All20 sources retained, five new seeds
+per source and two40/40 founder-allocation swaps, max200 worlds/two million ticks.
+Same-genotype swaps must yield complementary group records and exact zero averaged
+contrast. This is not an independent source cohort or a replacement for the zero
+monoculture-survival result. No implementation or outcomes at registration.
+Engineering and independent group-history reconstruction precede interpretation.
+V0 rules remain frozen; no V1 runtime introduced.

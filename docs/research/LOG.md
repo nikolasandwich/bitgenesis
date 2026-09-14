@@ -3795,3 +3795,22 @@ Documented reproduction and archived-data --root usage, explicitly noting this
 script postdates the fixed scope23 archive. Historical report unchanged. This
 makes the graduation evidence reproducible independently of the conversation.
 No V1 runtime or new outcome study. Autonomous goal active.
+
+## 2026-09-14 — Autonomous cycle 239
+
+Previous cycle made graduation reassessment independently reproducible. Selected
+a discriminating next V0 question rather than extending the same survival assay:
+does shared-world competition reveal relative descendant abundance differences
+among the exact frozen early samples and actual ancestors? Registered campaign024
+before implementation, engineering or outcomes. All20 sources retained;100 new
+seeds2100–2199 with two40/40 allocation swaps each,10,000 ticks, two-million-tick
+maximum. Primary is source-averaged signed abundance, not survival; the known
+campaign023 zero mean remains unchanged and sources are not called independent.
+
+Protocol binds manifest/sampling hashes, observer-only ancestry labels, matched
+physiology and full records. Identical-trait swaps must have complementary groups
+and exact zero averaged contrasts. Checked grid arithmetic and16 unchanged sources;
+no campaign024 output directory exists. Next implement recording and engineering
+checks without modifying the frozen engine, then commit clean source before runs.
+No new scientific outcome or verified-count increment. V1 remains design only;
+autonomous goal active.
