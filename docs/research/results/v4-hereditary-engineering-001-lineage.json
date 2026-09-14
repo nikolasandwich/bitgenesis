@@ -1,0 +1,5264 @@
+{
+  "scope": "passive unit ancestry on independently audited hereditary trajectories; not group identity",
+  "dynamics_audit": {
+    "scope": "independent initialization/program/drive/direction/mutation RNG, physical dynamics and hereditary expression",
+    "summary": {
+      "steps": 100,
+      "units": 256,
+      "initial_energy": 5666,
+      "final_energy": 15283,
+      "spent": 51751,
+      "imported": 61368,
+      "rejected_import": 39760,
+      "leakage": 25354,
+      "construction_spent": 316,
+      "copy_spent": 79,
+      "mutations": 1,
+      "formations": 79,
+      "dissolutions": 5,
+      "initial_material": 438,
+      "final_material": 438,
+      "final_raw": 182
+    },
+    "output_sha256": {
+      "initial.json": "00d92ec7618dba3284a72af5127aee22982d1a313624824bf2eb82d8735144ad",
+      "steps.jsonl": "177d188767612edba6ddff65b7361f17bca8a34adf67414ca36ccde9faeaa0e9",
+      "final.json": "d9e0bc135c15c204fb671eaee2c565d9abe8fdb6c058dfa86ccaac3c921e7f0a",
+      "summary.json": "ab3b7f39725650a6bfa6f2fe6e8e3edb7bf3b3ec7037d13f43455a2d6201f718"
+    },
+    "audit_sha256": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0",
+    "dependencies_sha256": {
+      "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+      "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+    }
+  },
+  "observer_sha256": "6838fc56e75f25fc469305b925c881b244a5df45712383ad79561673e3f1ff15",
+  "individuals": [
+    {
+      "id": 0,
+      "site": 0,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 0,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "birth_energy": 52,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 1,
+      "site": 3,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 1,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        1,
+        2,
+        0,
+        2
+      ],
+      "birth_energy": 23,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 2,
+      "site": 7,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 2,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "birth_energy": 21,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 3,
+      "site": 8,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 3,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "birth_energy": 0,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 4,
+      "site": 9,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 4,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "birth_energy": 16,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 5,
+      "site": 10,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 5,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        1,
+        2,
+        2,
+        0
+      ],
+      "birth_energy": 10,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 6,
+      "site": 11,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 6,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        3,
+        3,
+        0,
+        3
+      ],
+      "birth_energy": 55,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 7,
+      "site": 12,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 7,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "birth_energy": 10,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 8,
+      "site": 13,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 8,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        3,
+        3,
+        2,
+        3
+      ],
+      "birth_energy": 53,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 9,
+      "site": 14,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 9,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        1,
+        0,
+        2,
+        0
+      ],
+      "birth_energy": 40,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 10,
+      "site": 17,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 10,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        0,
+        3,
+        0
+      ],
+      "birth_energy": 28,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 11,
+      "site": 18,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 11,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        2,
+        0,
+        0,
+        1
+      ],
+      "birth_energy": 52,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 12,
+      "site": 19,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 12,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "birth_energy": 61,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 13,
+      "site": 21,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 13,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "birth_energy": 50,
+      "mutated": false,
+      "offspring": 2
+    },
+    {
+      "id": 14,
+      "site": 23,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 14,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "birth_energy": 40,
+      "mutated": false,
+      "offspring": 2
+    },
+    {
+      "id": 15,
+      "site": 27,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 15,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        0,
+        1,
+        1,
+        3
+      ],
+      "birth_energy": 26,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 16,
+      "site": 30,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 16,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "birth_energy": 9,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 17,
+      "site": 32,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 17,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "birth_energy": 18,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 18,
+      "site": 34,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 18,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "birth_energy": 33,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 19,
+      "site": 35,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 19,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "birth_energy": 5,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 20,
+      "site": 36,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 20,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        3,
+        2,
+        3
+      ],
+      "birth_energy": 18,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 21,
+      "site": 37,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 21,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        3,
+        0,
+        2,
+        0
+      ],
+      "birth_energy": 13,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 22,
+      "site": 38,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 22,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        0,
+        1,
+        2,
+        2
+      ],
+      "birth_energy": 44,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 23,
+      "site": 41,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 23,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        3,
+        3,
+        1
+      ],
+      "birth_energy": 6,
+      "mutated": false,
+      "offspring": 2
+    },
+    {
+      "id": 24,
+      "site": 44,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 24,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        2,
+        1,
+        3,
+        3
+      ],
+      "birth_energy": 62,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 25,
+      "site": 45,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 25,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        2,
+        0,
+        2,
+        3
+      ],
+      "birth_energy": 16,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 26,
+      "site": 46,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 26,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "birth_energy": 13,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 27,
+      "site": 47,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 27,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "birth_energy": 37,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 28,
+      "site": 48,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 28,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "birth_energy": 37,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 29,
+      "site": 49,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 29,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        0,
+        0,
+        3
+      ],
+      "birth_energy": 51,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 30,
+      "site": 50,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 30,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "birth_energy": 44,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 31,
+      "site": 51,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 31,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "birth_energy": 41,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 32,
+      "site": 52,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 32,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        2,
+        3,
+        0,
+        3
+      ],
+      "birth_energy": 52,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 33,
+      "site": 53,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 33,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "birth_energy": 18,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 34,
+      "site": 54,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 34,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "birth_energy": 9,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 35,
+      "site": 59,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 35,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "birth_energy": 61,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 36,
+      "site": 60,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 36,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "birth_energy": 12,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 37,
+      "site": 61,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 37,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        2,
+        3,
+        1,
+        1
+      ],
+      "birth_energy": 15,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 38,
+      "site": 63,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 38,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        1,
+        3,
+        3
+      ],
+      "birth_energy": 16,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 39,
+      "site": 64,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 39,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "birth_energy": 11,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 40,
+      "site": 65,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 40,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        3,
+        0,
+        3,
+        3
+      ],
+      "birth_energy": 40,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 41,
+      "site": 66,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 41,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        1,
+        2,
+        0,
+        1
+      ],
+      "birth_energy": 15,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 42,
+      "site": 68,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 42,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "birth_energy": 28,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 43,
+      "site": 69,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 43,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "birth_energy": 9,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 44,
+      "site": 70,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 44,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        2,
+        2,
+        1,
+        3
+      ],
+      "birth_energy": 62,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 45,
+      "site": 71,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 45,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "birth_energy": 14,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 46,
+      "site": 72,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 46,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        2,
+        1,
+        3
+      ],
+      "birth_energy": 20,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 47,
+      "site": 73,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 47,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        3,
+        1,
+        0,
+        3
+      ],
+      "birth_energy": 1,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 48,
+      "site": 74,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 48,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "birth_energy": 29,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 49,
+      "site": 75,
+      "birth_tick": 0,
+      "death_tick": 1,
+      "parent": null,
+      "founder": 49,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        2,
+        0,
+        1,
+        2
+      ],
+      "birth_energy": 1,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 50,
+      "site": 76,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 50,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        3,
+        1,
+        3,
+        3
+      ],
+      "birth_energy": 59,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 51,
+      "site": 77,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 51,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "birth_energy": 44,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 52,
+      "site": 78,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 52,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        1,
+        3,
+        3,
+        3
+      ],
+      "birth_energy": 8,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 53,
+      "site": 80,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 53,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        1,
+        3,
+        3,
+        0
+      ],
+      "birth_energy": 47,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 54,
+      "site": 81,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 54,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        3,
+        2,
+        0,
+        2
+      ],
+      "birth_energy": 43,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 55,
+      "site": 82,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 55,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "birth_energy": 53,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 56,
+      "site": 83,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 56,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        0,
+        2,
+        3,
+        0
+      ],
+      "birth_energy": 34,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 57,
+      "site": 84,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 57,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        0,
+        3,
+        0
+      ],
+      "birth_energy": 48,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 58,
+      "site": 85,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 58,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "birth_energy": 36,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 59,
+      "site": 87,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 59,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        3,
+        1,
+        1,
+        3
+      ],
+      "birth_energy": 43,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 60,
+      "site": 93,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 60,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "birth_energy": 62,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 61,
+      "site": 94,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 61,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        1,
+        0,
+        3,
+        3
+      ],
+      "birth_energy": 48,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 62,
+      "site": 95,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 62,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        2,
+        2,
+        1,
+        0
+      ],
+      "birth_energy": 59,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 63,
+      "site": 96,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 63,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        2,
+        0,
+        2,
+        3
+      ],
+      "birth_energy": 3,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 64,
+      "site": 98,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 64,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "birth_energy": 19,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 65,
+      "site": 99,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 65,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        1,
+        3,
+        3
+      ],
+      "birth_energy": 39,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 66,
+      "site": 100,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 66,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        1,
+        0,
+        2,
+        2
+      ],
+      "birth_energy": 29,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 67,
+      "site": 101,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 67,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        1,
+        3,
+        0,
+        1
+      ],
+      "birth_energy": 11,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 68,
+      "site": 102,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 68,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        0,
+        3,
+        0,
+        1
+      ],
+      "birth_energy": 43,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 69,
+      "site": 104,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 69,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        2,
+        2,
+        3,
+        2
+      ],
+      "birth_energy": 43,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 70,
+      "site": 105,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 70,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        3,
+        2,
+        0
+      ],
+      "birth_energy": 43,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 71,
+      "site": 106,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 71,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "birth_energy": 51,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 72,
+      "site": 110,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 72,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        3,
+        1,
+        0,
+        3
+      ],
+      "birth_energy": 19,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 73,
+      "site": 111,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 73,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "birth_energy": 27,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 74,
+      "site": 113,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 74,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        3,
+        0,
+        3,
+        1
+      ],
+      "birth_energy": 25,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 75,
+      "site": 115,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 75,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "birth_energy": 3,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 76,
+      "site": 117,
+      "birth_tick": 0,
+      "death_tick": 10,
+      "parent": null,
+      "founder": 76,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        0,
+        1,
+        2
+      ],
+      "birth_energy": 3,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 77,
+      "site": 119,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 77,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        2,
+        0,
+        0,
+        3
+      ],
+      "birth_energy": 54,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 78,
+      "site": 120,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 78,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        3,
+        1,
+        1,
+        0
+      ],
+      "birth_energy": 46,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 79,
+      "site": 121,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 79,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "birth_energy": 22,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 80,
+      "site": 122,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 80,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "birth_energy": 54,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 81,
+      "site": 123,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 81,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "birth_energy": 8,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 82,
+      "site": 124,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 82,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        3,
+        1,
+        2,
+        3
+      ],
+      "birth_energy": 11,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 83,
+      "site": 125,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 83,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        3,
+        1,
+        3,
+        1
+      ],
+      "birth_energy": 23,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 84,
+      "site": 126,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 84,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "birth_energy": 2,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 85,
+      "site": 127,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 85,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        2,
+        3,
+        0,
+        3
+      ],
+      "birth_energy": 39,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 86,
+      "site": 128,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 86,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        3,
+        2,
+        1,
+        2
+      ],
+      "birth_energy": 60,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 87,
+      "site": 129,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 87,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "birth_energy": 29,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 88,
+      "site": 130,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 88,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "birth_energy": 24,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 89,
+      "site": 131,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 89,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        2,
+        3,
+        2,
+        1
+      ],
+      "birth_energy": 49,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 90,
+      "site": 133,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 90,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        2,
+        3,
+        1
+      ],
+      "birth_energy": 27,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 91,
+      "site": 134,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 91,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "birth_energy": 27,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 92,
+      "site": 135,
+      "birth_tick": 0,
+      "death_tick": 1,
+      "parent": null,
+      "founder": 92,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "birth_energy": 0,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 93,
+      "site": 136,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 93,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "birth_energy": 10,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 94,
+      "site": 139,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 94,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        1,
+        3,
+        1,
+        3
+      ],
+      "birth_energy": 10,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 95,
+      "site": 140,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 95,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "birth_energy": 14,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 96,
+      "site": 141,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 96,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        1,
+        1,
+        0,
+        3
+      ],
+      "birth_energy": 5,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 97,
+      "site": 143,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 97,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "birth_energy": 62,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 98,
+      "site": 146,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 98,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        1,
+        1,
+        3,
+        0
+      ],
+      "birth_energy": 49,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 99,
+      "site": 147,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 99,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "birth_energy": 61,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 100,
+      "site": 148,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 100,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        2,
+        0,
+        3,
+        3
+      ],
+      "birth_energy": 28,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 101,
+      "site": 149,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 101,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        2,
+        1,
+        3,
+        2
+      ],
+      "birth_energy": 12,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 102,
+      "site": 150,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 102,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "birth_energy": 29,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 103,
+      "site": 152,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 103,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        3,
+        2,
+        2
+      ],
+      "birth_energy": 57,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 104,
+      "site": 153,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 104,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "birth_energy": 62,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 105,
+      "site": 154,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 105,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "birth_energy": 31,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 106,
+      "site": 155,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 106,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        3,
+        2,
+        3,
+        1
+      ],
+      "birth_energy": 63,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 107,
+      "site": 156,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 107,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        2,
+        3,
+        3,
+        1
+      ],
+      "birth_energy": 36,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 108,
+      "site": 157,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 108,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "birth_energy": 3,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 109,
+      "site": 158,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 109,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "birth_energy": 33,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 110,
+      "site": 159,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 110,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "birth_energy": 41,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 111,
+      "site": 160,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 111,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "birth_energy": 20,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 112,
+      "site": 161,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 112,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "birth_energy": 42,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 113,
+      "site": 162,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 113,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "birth_energy": 54,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 114,
+      "site": 163,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 114,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        0,
+        1,
+        1,
+        3
+      ],
+      "birth_energy": 29,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 115,
+      "site": 165,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 115,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        3,
+        2,
+        1,
+        3
+      ],
+      "birth_energy": 6,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 116,
+      "site": 166,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 116,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        1,
+        1,
+        2,
+        0
+      ],
+      "birth_energy": 27,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 117,
+      "site": 168,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 117,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "birth_energy": 48,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 118,
+      "site": 169,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 118,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        0,
+        3,
+        1,
+        1
+      ],
+      "birth_energy": 35,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 119,
+      "site": 171,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 119,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        3,
+        1,
+        2
+      ],
+      "birth_energy": 27,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 120,
+      "site": 172,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 120,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "birth_energy": 30,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 121,
+      "site": 173,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 121,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "birth_energy": 60,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 122,
+      "site": 174,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 122,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        2,
+        3,
+        1
+      ],
+      "birth_energy": 52,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 123,
+      "site": 176,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 123,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        0,
+        0,
+        3,
+        3
+      ],
+      "birth_energy": 46,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 124,
+      "site": 177,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 124,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        1,
+        3,
+        1,
+        3
+      ],
+      "birth_energy": 34,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 125,
+      "site": 180,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 125,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "birth_energy": 28,
+      "mutated": false,
+      "offspring": 2
+    },
+    {
+      "id": 126,
+      "site": 182,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 126,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "birth_energy": 31,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 127,
+      "site": 183,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 127,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "birth_energy": 19,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 128,
+      "site": 184,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 128,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        0,
+        2,
+        3,
+        2
+      ],
+      "birth_energy": 15,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 129,
+      "site": 185,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 129,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "birth_energy": 61,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 130,
+      "site": 187,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 130,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        1,
+        0,
+        0,
+        3
+      ],
+      "birth_energy": 23,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 131,
+      "site": 188,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 131,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        1,
+        2,
+        2,
+        0
+      ],
+      "birth_energy": 61,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 132,
+      "site": 189,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 132,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        3,
+        1,
+        2,
+        2
+      ],
+      "birth_energy": 46,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 133,
+      "site": 190,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 133,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        2,
+        3,
+        2,
+        0
+      ],
+      "birth_energy": 54,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 134,
+      "site": 191,
+      "birth_tick": 0,
+      "death_tick": 1,
+      "parent": null,
+      "founder": 134,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        2,
+        3,
+        0
+      ],
+      "birth_energy": 1,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 135,
+      "site": 192,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 135,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        0,
+        0,
+        3
+      ],
+      "birth_energy": 50,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 136,
+      "site": 193,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 136,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        0,
+        3,
+        2,
+        0
+      ],
+      "birth_energy": 58,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 137,
+      "site": 195,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 137,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        3,
+        2,
+        0,
+        3
+      ],
+      "birth_energy": 5,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 138,
+      "site": 197,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 138,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "birth_energy": 37,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 139,
+      "site": 199,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 139,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "birth_energy": 41,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 140,
+      "site": 200,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 140,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "birth_energy": 31,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 141,
+      "site": 201,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 141,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        1,
+        0,
+        2
+      ],
+      "birth_energy": 49,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 142,
+      "site": 202,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 142,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "birth_energy": 24,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 143,
+      "site": 203,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 143,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "birth_energy": 59,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 144,
+      "site": 204,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 144,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "birth_energy": 32,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 145,
+      "site": 205,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 145,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        0,
+        1,
+        3,
+        1
+      ],
+      "birth_energy": 50,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 146,
+      "site": 206,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 146,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        1,
+        2,
+        3,
+        1
+      ],
+      "birth_energy": 21,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 147,
+      "site": 208,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 147,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "birth_energy": 13,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 148,
+      "site": 209,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 148,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        0,
+        3,
+        1,
+        3
+      ],
+      "birth_energy": 7,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 149,
+      "site": 210,
+      "birth_tick": 0,
+      "death_tick": 2,
+      "parent": null,
+      "founder": 149,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        0,
+        1,
+        0,
+        2
+      ],
+      "birth_energy": 2,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 150,
+      "site": 211,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 150,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "birth_energy": 25,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 151,
+      "site": 213,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 151,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "birth_energy": 30,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 152,
+      "site": 215,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 152,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        1,
+        1,
+        0,
+        2
+      ],
+      "birth_energy": 57,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 153,
+      "site": 216,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 153,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        2,
+        0,
+        1,
+        1
+      ],
+      "birth_energy": 56,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 154,
+      "site": 217,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 154,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        1,
+        0,
+        2
+      ],
+      "birth_energy": 2,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 155,
+      "site": 218,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 155,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "birth_energy": 56,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 156,
+      "site": 219,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 156,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "birth_energy": 12,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 157,
+      "site": 221,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 157,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        1,
+        3,
+        3,
+        0
+      ],
+      "birth_energy": 61,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 158,
+      "site": 222,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 158,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "birth_energy": 16,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 159,
+      "site": 225,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 159,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        3,
+        0,
+        1,
+        3
+      ],
+      "birth_energy": 43,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 160,
+      "site": 227,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 160,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        3,
+        2,
+        3,
+        3
+      ],
+      "birth_energy": 9,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 161,
+      "site": 228,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 161,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "birth_energy": 9,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 162,
+      "site": 229,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 162,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        1,
+        3,
+        3,
+        1
+      ],
+      "birth_energy": 29,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 163,
+      "site": 230,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 163,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        3,
+        2,
+        1
+      ],
+      "birth_energy": 20,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 164,
+      "site": 232,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 164,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        1,
+        0,
+        1
+      ],
+      "birth_energy": 2,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 165,
+      "site": 234,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 165,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "birth_energy": 36,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 166,
+      "site": 235,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 166,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        1,
+        3,
+        2,
+        3
+      ],
+      "birth_energy": 3,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 167,
+      "site": 237,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 167,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        3,
+        3,
+        2,
+        0
+      ],
+      "birth_energy": 47,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 168,
+      "site": 238,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 168,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        2,
+        0,
+        1,
+        0
+      ],
+      "birth_energy": 10,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 169,
+      "site": 239,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 169,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "birth_energy": 22,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 170,
+      "site": 240,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 170,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "birth_energy": 49,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 171,
+      "site": 241,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 171,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        0,
+        0,
+        1,
+        3
+      ],
+      "birth_energy": 48,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 172,
+      "site": 244,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 172,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "birth_energy": 4,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 173,
+      "site": 247,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 173,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        2,
+        1,
+        2,
+        0
+      ],
+      "birth_energy": 22,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 174,
+      "site": 248,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 174,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        3,
+        3,
+        0
+      ],
+      "birth_energy": 24,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 175,
+      "site": 249,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 175,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        3,
+        2,
+        0,
+        0
+      ],
+      "birth_energy": 61,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 176,
+      "site": 250,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 176,
+      "generation": 0,
+      "material": 1,
+      "program": [
+        3,
+        3,
+        3,
+        0
+      ],
+      "birth_energy": 11,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 177,
+      "site": 251,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 177,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        2,
+        1,
+        0
+      ],
+      "birth_energy": 5,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 178,
+      "site": 252,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 178,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        1,
+        1,
+        0,
+        3
+      ],
+      "birth_energy": 17,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 179,
+      "site": 253,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 179,
+      "generation": 0,
+      "material": 2,
+      "program": [
+        3,
+        3,
+        3,
+        0
+      ],
+      "birth_energy": 32,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 180,
+      "site": 254,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 180,
+      "generation": 0,
+      "material": 3,
+      "program": [
+        2,
+        2,
+        1,
+        0
+      ],
+      "birth_energy": 61,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 181,
+      "site": 255,
+      "birth_tick": 0,
+      "death_tick": null,
+      "parent": null,
+      "founder": 181,
+      "generation": 0,
+      "material": 0,
+      "program": [
+        3,
+        3,
+        0,
+        1
+      ],
+      "birth_energy": 39,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 182,
+      "site": 25,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 4,
+      "founder": 4,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "birth_energy": 9,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 183,
+      "site": 33,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 10,
+      "founder": 10,
+      "generation": 1,
+      "material": 3,
+      "program": [
+        1,
+        0,
+        3,
+        0
+      ],
+      "birth_energy": 12,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 184,
+      "site": 2,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 11,
+      "founder": 11,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        2,
+        0,
+        0,
+        1
+      ],
+      "birth_energy": 21,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 185,
+      "site": 20,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 13,
+      "founder": 13,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "birth_energy": 22,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 186,
+      "site": 62,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 37,
+      "founder": 37,
+      "generation": 1,
+      "material": 2,
+      "program": [
+        2,
+        3,
+        1,
+        1
+      ],
+      "birth_energy": 8,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 187,
+      "site": 103,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 68,
+      "founder": 68,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        0,
+        3,
+        0,
+        1
+      ],
+      "birth_energy": 22,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 188,
+      "site": 89,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 70,
+      "founder": 70,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        2,
+        3,
+        2,
+        0
+      ],
+      "birth_energy": 20,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 189,
+      "site": 114,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 74,
+      "founder": 74,
+      "generation": 1,
+      "material": 3,
+      "program": [
+        3,
+        0,
+        3,
+        1
+      ],
+      "birth_energy": 9,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 190,
+      "site": 109,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 83,
+      "founder": 83,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        3,
+        1,
+        3,
+        1
+      ],
+      "birth_energy": 7,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 191,
+      "site": 112,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 85,
+      "founder": 85,
+      "generation": 1,
+      "material": 2,
+      "program": [
+        2,
+        3,
+        0,
+        3
+      ],
+      "birth_energy": 18,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 192,
+      "site": 135,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 93,
+      "founder": 93,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "birth_energy": 7,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 193,
+      "site": 151,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 102,
+      "founder": 102,
+      "generation": 1,
+      "material": 2,
+      "program": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "birth_energy": 15,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 194,
+      "site": 138,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 105,
+      "founder": 105,
+      "generation": 1,
+      "material": 3,
+      "program": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "birth_energy": 16,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 195,
+      "site": 191,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 123,
+      "founder": 123,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        0,
+        0,
+        3,
+        3
+      ],
+      "birth_energy": 19,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 196,
+      "site": 207,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 135,
+      "founder": 135,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        2,
+        0,
+        0,
+        3
+      ],
+      "birth_energy": 21,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 197,
+      "site": 198,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 138,
+      "founder": 138,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "birth_energy": 18,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 198,
+      "site": 220,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 144,
+      "founder": 144,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "birth_energy": 17,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 199,
+      "site": 224,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 159,
+      "founder": 159,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        3,
+        0,
+        1,
+        3
+      ],
+      "birth_energy": 22,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 200,
+      "site": 233,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 165,
+      "founder": 165,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "birth_energy": 13,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 201,
+      "site": 223,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 169,
+      "founder": 169,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "birth_energy": 8,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 202,
+      "site": 1,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 171,
+      "founder": 171,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        0,
+        0,
+        1,
+        3
+      ],
+      "birth_energy": 20,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 203,
+      "site": 15,
+      "birth_tick": 1,
+      "death_tick": null,
+      "parent": 181,
+      "founder": 181,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        3,
+        3,
+        0,
+        1
+      ],
+      "birth_energy": 20,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 204,
+      "site": 242,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 184,
+      "founder": 11,
+      "generation": 2,
+      "material": 1,
+      "program": [
+        2,
+        0,
+        0,
+        1
+      ],
+      "birth_energy": 11,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 205,
+      "site": 243,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 1,
+      "founder": 1,
+      "generation": 1,
+      "material": 2,
+      "program": [
+        1,
+        2,
+        0,
+        2
+      ],
+      "birth_energy": 16,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 206,
+      "site": 29,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 8,
+      "founder": 8,
+      "generation": 1,
+      "material": 2,
+      "program": [
+        3,
+        3,
+        2,
+        3
+      ],
+      "birth_energy": 16,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 207,
+      "site": 24,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 14,
+      "founder": 14,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "birth_energy": 24,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 208,
+      "site": 28,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 15,
+      "founder": 15,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        0,
+        1,
+        1,
+        3
+      ],
+      "birth_energy": 9,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 209,
+      "site": 16,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 17,
+      "founder": 17,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "birth_energy": 9,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 210,
+      "site": 42,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 23,
+      "founder": 23,
+      "generation": 1,
+      "material": 2,
+      "program": [
+        2,
+        3,
+        3,
+        1
+      ],
+      "birth_energy": 7,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 211,
+      "site": 43,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 35,
+      "founder": 35,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "birth_energy": 29,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 212,
+      "site": 75,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 50,
+      "founder": 50,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        3,
+        1,
+        3,
+        3
+      ],
+      "birth_energy": 21,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 213,
+      "site": 97,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 54,
+      "founder": 54,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        3,
+        2,
+        0,
+        2
+      ],
+      "birth_energy": 26,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 214,
+      "site": 92,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 60,
+      "founder": 60,
+      "generation": 1,
+      "material": 3,
+      "program": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "birth_energy": 29,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 215,
+      "site": 88,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 69,
+      "founder": 69,
+      "generation": 1,
+      "material": 2,
+      "program": [
+        2,
+        2,
+        3,
+        2
+      ],
+      "birth_energy": 22,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 216,
+      "site": 107,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 71,
+      "founder": 71,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "birth_energy": 26,
+      "mutated": true,
+      "offspring": 1
+    },
+    {
+      "id": 217,
+      "site": 144,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 86,
+      "founder": 86,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        3,
+        2,
+        1,
+        2
+      ],
+      "birth_energy": 26,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 218,
+      "site": 145,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 87,
+      "founder": 87,
+      "generation": 1,
+      "material": 3,
+      "program": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "birth_energy": 12,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 219,
+      "site": 118,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 91,
+      "founder": 91,
+      "generation": 1,
+      "material": 3,
+      "program": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "birth_energy": 9,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 220,
+      "site": 175,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 122,
+      "founder": 122,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        1,
+        2,
+        3,
+        1
+      ],
+      "birth_energy": 29,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 221,
+      "site": 214,
+      "birth_tick": 2,
+      "death_tick": null,
+      "parent": 151,
+      "founder": 151,
+      "generation": 1,
+      "material": 2,
+      "program": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "birth_energy": 14,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 222,
+      "site": 31,
+      "birth_tick": 3,
+      "death_tick": null,
+      "parent": 203,
+      "founder": 181,
+      "generation": 2,
+      "material": 0,
+      "program": [
+        3,
+        3,
+        0,
+        1
+      ],
+      "birth_energy": 5,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 223,
+      "site": 22,
+      "birth_tick": 3,
+      "death_tick": null,
+      "parent": 13,
+      "founder": 13,
+      "generation": 1,
+      "material": 2,
+      "program": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "birth_energy": 11,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 224,
+      "site": 79,
+      "birth_tick": 3,
+      "death_tick": null,
+      "parent": 62,
+      "founder": 62,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        2,
+        2,
+        1,
+        0
+      ],
+      "birth_energy": 28,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 225,
+      "site": 132,
+      "birth_tick": 3,
+      "death_tick": null,
+      "parent": 100,
+      "founder": 100,
+      "generation": 1,
+      "material": 3,
+      "program": [
+        2,
+        0,
+        3,
+        3
+      ],
+      "birth_energy": 15,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 226,
+      "site": 137,
+      "birth_tick": 3,
+      "death_tick": null,
+      "parent": 104,
+      "founder": 104,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "birth_energy": 29,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 227,
+      "site": 170,
+      "birth_tick": 3,
+      "death_tick": null,
+      "parent": 118,
+      "founder": 118,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        0,
+        3,
+        1,
+        1
+      ],
+      "birth_energy": 21,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 228,
+      "site": 181,
+      "birth_tick": 3,
+      "death_tick": null,
+      "parent": 125,
+      "founder": 125,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "birth_energy": 14,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 229,
+      "site": 194,
+      "birth_tick": 3,
+      "death_tick": null,
+      "parent": 136,
+      "founder": 136,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        0,
+        3,
+        2,
+        0
+      ],
+      "birth_energy": 29,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 230,
+      "site": 179,
+      "birth_tick": 3,
+      "death_tick": null,
+      "parent": 137,
+      "founder": 137,
+      "generation": 1,
+      "material": 3,
+      "program": [
+        3,
+        2,
+        0,
+        3
+      ],
+      "birth_energy": 10,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 231,
+      "site": 246,
+      "birth_tick": 3,
+      "death_tick": null,
+      "parent": 173,
+      "founder": 173,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        2,
+        1,
+        2,
+        0
+      ],
+      "birth_energy": 13,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 232,
+      "site": 6,
+      "birth_tick": 4,
+      "death_tick": null,
+      "parent": 2,
+      "founder": 2,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "birth_energy": 10,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 233,
+      "site": 4,
+      "birth_tick": 4,
+      "death_tick": null,
+      "parent": 185,
+      "founder": 13,
+      "generation": 2,
+      "material": 0,
+      "program": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "birth_energy": 15,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 234,
+      "site": 39,
+      "birth_tick": 4,
+      "death_tick": null,
+      "parent": 14,
+      "founder": 14,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "birth_energy": 8,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 235,
+      "site": 55,
+      "birth_tick": 4,
+      "death_tick": null,
+      "parent": 45,
+      "founder": 45,
+      "generation": 1,
+      "material": 3,
+      "program": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "birth_energy": 13,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 236,
+      "site": 58,
+      "birth_tick": 4,
+      "death_tick": null,
+      "parent": 48,
+      "founder": 48,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "birth_energy": 18,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 237,
+      "site": 86,
+      "birth_tick": 4,
+      "death_tick": null,
+      "parent": 58,
+      "founder": 58,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "birth_energy": 17,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 238,
+      "site": 90,
+      "birth_tick": 4,
+      "death_tick": null,
+      "parent": 188,
+      "founder": 70,
+      "generation": 2,
+      "material": 2,
+      "program": [
+        2,
+        3,
+        2,
+        0
+      ],
+      "birth_energy": 10,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 239,
+      "site": 108,
+      "birth_tick": 4,
+      "death_tick": null,
+      "parent": 214,
+      "founder": 60,
+      "generation": 2,
+      "material": 0,
+      "program": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "birth_energy": 11,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 240,
+      "site": 91,
+      "birth_tick": 4,
+      "death_tick": null,
+      "parent": 216,
+      "founder": 71,
+      "generation": 2,
+      "material": 1,
+      "program": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "birth_energy": 13,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 241,
+      "site": 116,
+      "birth_tick": 4,
+      "death_tick": null,
+      "parent": 75,
+      "founder": 75,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "birth_energy": 9,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 242,
+      "site": 231,
+      "birth_tick": 4,
+      "death_tick": null,
+      "parent": 163,
+      "founder": 163,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        1,
+        3,
+        2,
+        1
+      ],
+      "birth_energy": 13,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 243,
+      "site": 5,
+      "birth_tick": 5,
+      "death_tick": null,
+      "parent": 233,
+      "founder": 13,
+      "generation": 3,
+      "material": 2,
+      "program": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "birth_energy": 7,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 244,
+      "site": 167,
+      "birth_tick": 5,
+      "death_tick": null,
+      "parent": 193,
+      "founder": 102,
+      "generation": 2,
+      "material": 0,
+      "program": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "birth_energy": 13,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 245,
+      "site": 186,
+      "birth_tick": 5,
+      "death_tick": null,
+      "parent": 129,
+      "founder": 129,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "birth_energy": 27,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 246,
+      "site": 212,
+      "birth_tick": 5,
+      "death_tick": null,
+      "parent": 161,
+      "founder": 161,
+      "generation": 1,
+      "material": 0,
+      "program": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "birth_energy": 11,
+      "mutated": false,
+      "offspring": 1
+    },
+    {
+      "id": 247,
+      "site": 245,
+      "birth_tick": 5,
+      "death_tick": null,
+      "parent": 162,
+      "founder": 162,
+      "generation": 1,
+      "material": 3,
+      "program": [
+        1,
+        3,
+        3,
+        1
+      ],
+      "birth_energy": 21,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 248,
+      "site": 67,
+      "birth_tick": 6,
+      "death_tick": null,
+      "parent": 41,
+      "founder": 41,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        1,
+        2,
+        0,
+        1
+      ],
+      "birth_energy": 14,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 249,
+      "site": 164,
+      "birth_tick": 6,
+      "death_tick": null,
+      "parent": 125,
+      "founder": 125,
+      "generation": 1,
+      "material": 3,
+      "program": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "birth_energy": 11,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 250,
+      "site": 236,
+      "birth_tick": 6,
+      "death_tick": null,
+      "parent": 166,
+      "founder": 166,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        1,
+        3,
+        2,
+        3
+      ],
+      "birth_energy": 12,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 251,
+      "site": 226,
+      "birth_tick": 6,
+      "death_tick": null,
+      "parent": 204,
+      "founder": 11,
+      "generation": 3,
+      "material": 1,
+      "program": [
+        2,
+        0,
+        0,
+        1
+      ],
+      "birth_energy": 11,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 252,
+      "site": 40,
+      "birth_tick": 7,
+      "death_tick": null,
+      "parent": 23,
+      "founder": 23,
+      "generation": 1,
+      "material": 3,
+      "program": [
+        2,
+        3,
+        3,
+        1
+      ],
+      "birth_energy": 12,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 253,
+      "site": 56,
+      "birth_tick": 7,
+      "death_tick": null,
+      "parent": 235,
+      "founder": 45,
+      "generation": 2,
+      "material": 2,
+      "program": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "birth_energy": 6,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 254,
+      "site": 57,
+      "birth_tick": 7,
+      "death_tick": null,
+      "parent": 236,
+      "founder": 48,
+      "generation": 2,
+      "material": 1,
+      "program": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "birth_energy": 8,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 255,
+      "site": 178,
+      "birth_tick": 7,
+      "death_tick": null,
+      "parent": 113,
+      "founder": 113,
+      "generation": 1,
+      "material": 2,
+      "program": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "birth_energy": 27,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 256,
+      "site": 26,
+      "birth_tick": 8,
+      "death_tick": null,
+      "parent": 210,
+      "founder": 23,
+      "generation": 2,
+      "material": 1,
+      "program": [
+        2,
+        3,
+        3,
+        1
+      ],
+      "birth_energy": 7,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 257,
+      "site": 142,
+      "birth_tick": 10,
+      "death_tick": null,
+      "parent": 84,
+      "founder": 84,
+      "generation": 1,
+      "material": 2,
+      "program": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "birth_energy": 7,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 258,
+      "site": 117,
+      "birth_tick": 11,
+      "death_tick": null,
+      "parent": 90,
+      "founder": 90,
+      "generation": 1,
+      "material": 1,
+      "program": [
+        1,
+        2,
+        3,
+        1
+      ],
+      "birth_energy": 9,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 259,
+      "site": 210,
+      "birth_tick": 11,
+      "death_tick": null,
+      "parent": 150,
+      "founder": 150,
+      "generation": 1,
+      "material": 3,
+      "program": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "birth_energy": 16,
+      "mutated": false,
+      "offspring": 0
+    },
+    {
+      "id": 260,
+      "site": 196,
+      "birth_tick": 11,
+      "death_tick": null,
+      "parent": 246,
+      "founder": 161,
+      "generation": 2,
+      "material": 0,
+      "program": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "birth_energy": 6,
+      "mutated": false,
+      "offspring": 0
+    }
+  ],
+  "final_site_ids": [
+    0,
+    202,
+    184,
+    1,
+    233,
+    243,
+    232,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    203,
+    209,
+    10,
+    11,
+    12,
+    185,
+    13,
+    223,
+    14,
+    207,
+    182,
+    256,
+    15,
+    208,
+    206,
+    16,
+    222,
+    17,
+    183,
+    18,
+    19,
+    20,
+    21,
+    22,
+    234,
+    252,
+    23,
+    210,
+    211,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    235,
+    253,
+    254,
+    236,
+    35,
+    36,
+    37,
+    186,
+    38,
+    39,
+    40,
+    41,
+    248,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    212,
+    50,
+    51,
+    52,
+    224,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    237,
+    59,
+    215,
+    188,
+    238,
+    240,
+    214,
+    60,
+    61,
+    62,
+    63,
+    213,
+    64,
+    65,
+    66,
+    67,
+    68,
+    187,
+    69,
+    70,
+    71,
+    216,
+    239,
+    190,
+    72,
+    73,
+    191,
+    74,
+    189,
+    75,
+    241,
+    258,
+    219,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    225,
+    90,
+    91,
+    192,
+    93,
+    226,
+    194,
+    94,
+    95,
+    96,
+    257,
+    97,
+    217,
+    218,
+    98,
+    99,
+    100,
+    101,
+    102,
+    193,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    249,
+    115,
+    116,
+    244,
+    117,
+    118,
+    227,
+    119,
+    120,
+    121,
+    122,
+    220,
+    123,
+    124,
+    255,
+    230,
+    125,
+    228,
+    126,
+    127,
+    128,
+    129,
+    245,
+    130,
+    131,
+    132,
+    133,
+    195,
+    135,
+    136,
+    229,
+    137,
+    260,
+    138,
+    197,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    196,
+    147,
+    148,
+    259,
+    150,
+    246,
+    151,
+    221,
+    152,
+    153,
+    154,
+    155,
+    156,
+    198,
+    157,
+    158,
+    201,
+    199,
+    159,
+    251,
+    160,
+    161,
+    162,
+    163,
+    242,
+    164,
+    200,
+    165,
+    166,
+    250,
+    167,
+    168,
+    169,
+    170,
+    171,
+    204,
+    205,
+    172,
+    247,
+    231,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181
+  ],
+  "summary": {
+    "tick": 100,
+    "founders": 182,
+    "births": 79,
+    "deaths": 5,
+    "living": 256,
+    "max_generation": 3,
+    "mutation_births": 1
+  }
+}

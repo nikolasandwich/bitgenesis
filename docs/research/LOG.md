@@ -4404,3 +4404,9 @@ Complete cohort source/configuration/RNG verification, fixed-window program coun
 Previous turn completed hereditary variation execution (36fad6b), a substantive progress turn. Full verifier24841 exited0 with20 reaudits,40 registered windows, source/configuration/protocol/RNG checks, program tables and10 contrasts. All mutation0 trajectories remain within initial occupied-program sets. Two focused tests pass for excluding empty-site samples, duplicate program counting and window boundaries. Runtime unchanged since335 full tests. Archived full verification/report.
 
 Mutation100 final initially-absent unit fractions average497/1280 atdrive250 and1/10 atdrive500. Mutation event opportunities differ strongly; no adaptive-value inference. Next passive unique-birth lineage reconstruction from verified events to identify real ancestors, followed by prespecified matched descendant/ancestor assays. Program equality cannot establish ancestry and the256-program representation is not open-ended novelty.
+
+## 2026-09-14 — Autonomous cycle 319
+
+Previous turn completed variation cohort verification (4c8269b), a substantive progress turn. Added passive unique-birth ancestry on independently audited hereditary trajectories, with parent/founder/generation, birth/death, programs and offspring counts. Site reuse creates a fresh identity; identical programs do not merge identities. IDs never enter dynamics. Engineering001 reconstructs182 founders,79 births,5 deaths,256 living,maximum generation3 and1 mutation birth; archived complete lineage.
+
+Two new tests cover same-program unrelated founders, same-tick dissolution/reuse and audited runtime ancestry/zero horizon. Full340 tests pass in36.649 seconds. Next cohort-wide ancestry and prespecified descendant/founder selection, then explicit-program matched assay initialization and independent reconstruction. Neutral equal-program pairs retained; no adaptive improvement claim yet.
