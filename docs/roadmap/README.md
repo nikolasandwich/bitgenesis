@@ -1,8 +1,10 @@
 # Research roadmap
 
 V0 has a complete research runtime. V1 now has an experimental controller, world
-and bounded persisted runner with independent ledger/ancestry audit; spatial
-verification and outcome evaluations remain unfinished. The
+and bounded persisted runner with independent ledger, ancestry, decision and spatial
+audit. Study001 has completed540 assays and is undergoing full-cohort verification.
+An exploratory [V2 development component](../design/v2-development.md) now exists;
+it is not an integrated world or a stage-graduation claim. The
 [autonomous research mandate](autonomous-research.md) authorizes implementation
 and exploration of all later stages as of 2026-09-14. These stages are
 research milestones, not release dates. Graduate only with reproducible evidence,
