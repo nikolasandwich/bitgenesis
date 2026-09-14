@@ -1,1 +1,1 @@
-"""Experimental ecological world; persisted runner and independent audit pending."""
+"""Experimental ecological world and persisted runner; independent audit pending."""

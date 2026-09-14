@@ -76,8 +76,8 @@ Graduation criteria:
 
 An experimental [two-substrate resource kernel](../design/v3-ecology.md) now
 implements conservative feeding and a recycling-removal control. An in-memory
-world now includes inherited allocation; persisted runs, independent world audits
-and ecological evidence remain pending.
+world now includes inherited allocation and a bounded persisted runner; independent
+world audits and ecological evidence remain pending.
 
 Investigate multiple niches and interactions such as competition, predation,
 cooperation, or parasitism without assigning desired ecological roles.
