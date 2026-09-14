@@ -3058,3 +3058,21 @@ initial pairing, observer parity and capacity-aware independent verification.
 No outcome run launched. Current formal workload and fixed artifacts unchanged.
 Next implement and validate the runner on engineering seed 23 before executing
 this new prospective cohort. V0 rules unchanged; V1 remains design-only.
+
+
+## 2026-09-14 — Autonomous cycle 202
+
+Previous cycle registered the prospective buffer-capacity experiment. Implemented
+its separate runner using unchanged EnergyWorld with capacities 24/96. Initial
+map remains the original 5,120 food units at both capacities; total initial energy
+is 7,040. Registered twelve-way grid, full horizon, early streams, checkpoint
+resources and extinction/active-window partitions are retained with provenance.
+Old runners and frozen protocol are unchanged.
+
+Seed-23 engineering checks all twelve configurations for 100 ticks against plain
+World: initial maps/founders/RNG, full metrics/food/events/lineage/RNG match. Existing
+independent early lifecycle/energy reconstruction passes all twelve cases using
+the actual capacity. Full/near-capacity fixtures cover both capacities and all
+three packets. All 183 tests pass. Commit clean source before launching the cohort;
+full independent campaign metrics, pair statuses and record verification remain
+separate gates before outcome interpretation. Formal completed counts unchanged.
