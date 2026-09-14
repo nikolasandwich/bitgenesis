@@ -3296,3 +3296,26 @@ performance evaluation is distinguished from this protocol and remains unregiste
 No simulation launched; verified counts and fixed archives unchanged. Next implement
 and validate the registered runner before launching from clean committed source.
 Autonomous research goal remains active; V1 stays design only.
+
+
+## 2026-09-14 — Autonomous cycle 214
+
+Previous cycle preregistered campaign 022 as 87a2e4d. Implemented its dedicated
+runner using unchanged plain World. Both arms start at genome 250 with corrected
+initial birth events, identical food/founders/RNG and total energy 7,040. Records
+include all per-tick metrics, compact birth/death events, final full lineage and
+all registered living/ever-born histograms; changed births are explicitly distinct
+from mutation attempts. Metadata records clean source and protocol hashes, writes
+incremental completed results and marks failure/interruption without replacement.
+
+Seed-23 engineering comparison covers both treatments and every tick 0..100:
+food, occupancy, complete lineage, events, snapshots and RNG equal independently
+initialized plain World. Recorded founder events retain 250 and energy 24; final
+birth and living histograms reconcile, no-mutation closure holds and the mutation
+case exercises changed births. Existing output and undeclared settings rejected.
+All 189 tests pass. Added explicit birth_tick alias to exported birth records to
+match the preregistered schema and reran both focused tests successfully; this
+record-only alias does not change engine state. Frozen protocol and historical
+runners are unchanged. Commit clean source before launching all forty worlds.
+Full independent event/lineage/metric verification remains a separate gate before
+any formal completion or scientific result claim. Goal active, V1 design only.
