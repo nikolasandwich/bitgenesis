@@ -3779,3 +3779,19 @@ failure or a blocker for the overall research goal. No new simulations or runtim
 changes. Existing archive and installation evidence remains valid. Continue useful
 research/verification within accessible interfaces; do not repeat the same rejected
 navigation or count an inventory listing as browser interaction QA. Goal active.
+
+## 2026-09-14 — Autonomous cycle 238
+
+Previous cycle recorded a browser URL-policy limitation without bypassing it.
+Continued independent accessible work: converted the original-lineage graduation
+reinspection into a standalone standard-library script. It checks parent edges,
+recorded offspring, founder count, genotype bounds, treatment inheritance,
+differential reproduction, complete5001-row horizons and normalized frozen engine.
+Recomputed all10 original worlds with exact equality to the committed scope23
+reassessment. Malformed fixtures for false offspring, duplicate ID, changed
+no-mutation inheritance and missing parents are rejected. No simulator executed.
+
+Documented reproduction and archived-data --root usage, explicitly noting this
+script postdates the fixed scope23 archive. Historical report unchanged. This
+makes the graduation evidence reproducible independently of the conversation.
+No V1 runtime or new outcome study. Autonomous goal active.
