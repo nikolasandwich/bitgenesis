@@ -2824,3 +2824,20 @@ git_commit null. Saved results/portable-wheel-020.json.
 Build dependencies were resolved by pip; this is not an offline-install guarantee
 or a rerun of twenty full campaigns. Immutable archive source remains 58d4c02;
 this later validation record is separate. Remote upload is the next delivery gate.
+
+
+## 2026-09-14 — Autonomous cycle 189
+
+Previous cycle verified a fresh installation and launched the original draft upload.
+Revalidated that upload handle; it completed normally as draft v0.0.1-preview.12,
+release 388226471. Both GitHub API asset sizes and digests match local archive and
+checksum. Saved results/release-020.json; no independent remote download claimed.
+Updated the default Chinese review guide and current acceptance header to the
+immutable twenty-campaign source/archive, preserving historical checkpoint notes.
+The separate retrospective supplement datasets retain their own delivery scope.
+
+Updated V0 evidence synthesis to source 58d4c02 and the freshly installed 170-test
+archive, with campaign-020 mechanism limits and twenty-campaign counts. Rechecked
+normalized engine hash: 8f3ed33ad0ebe802c099e3e6f8ae61f9bcc526b98512f31f48ec40478fbfa7ff.
+No V1 implementation, new campaign, or user-acceptance claim. The original goal
+remains active; the review package is a checkpoint, not completion of research.
