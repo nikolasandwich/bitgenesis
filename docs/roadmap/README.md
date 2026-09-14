@@ -31,6 +31,9 @@ Generation count and newly visited settings do not establish new functions; see
 the [expressive-boundary analysis](../design/emergence.md#v0s-encoded-behavior-ceiling).
 This bounds the inherited controller vocabulary, not every collective world pattern.
 
+The [post-V0 decision note](next-decisions.md) separates optional mechanism
+observations from the future V1 implementation and evaluation sequence.
+
 ## V1 — Evolving Controllers
 
 Genomes encode a small sensor-to-action controller. Start from random parameters;

@@ -1834,3 +1834,17 @@ Uploaded separate draft preview.9 and verified both remote assets against local
 sizes and SHA-256 values. Updated acceptance download links and scope. Earlier
 archives remain unchanged. Installation demonstration ticks are not formal
 experimental executions; no offline-install guarantee is made.
+
+## 2026-09-14 — Autonomous cycle 123
+
+Consolidated the post-V0 decision note after the verified seventeen-campaign
+handoff. It maps the latest evidence into future sensory controls and defines
+what a bounded mechanism observer would need to measure and prove before use.
+No new survival-only sweep is scheduled merely to increase execution totals.
+
+Updated the V1 design contract with geometry/uptake and threshold-layout lessons:
+match initial maps and reproductive parameters, and measure information use
+separately from total intake or survival. The note distinguishes an observational
+replay from an independent replicate or causal intervention and records a staged
+future implementation/pilot/preregistration sequence. All additions are design
+only; V0 remains the only runtime stage and fixed archives remain unchanged.

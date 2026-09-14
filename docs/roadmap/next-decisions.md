@@ -1,0 +1,65 @@
+# Decisions after the seventeen-campaign V0 checkpoint
+
+V0 now has a fixed, independently installable review of seventeen campaigns.
+Keep it as the experimental baseline. The next useful milestone is evidence
+about inherited use of information, not a larger V0 execution count. Only V0
+runtime is currently in scope; the V1 documents specify future work, not results.
+
+## Evidence that changes the next design
+
+| Observation | Decision | Remaining uncertainty |
+| --- | --- | --- |
+| Campaign 016 block worlds consume more early food and have more early births, yet die sooner | Do not interpret initial food distance or total consumption as individual information value | We did not retain individual feeding paths or local congestion |
+| Campaign 017 high thresholds improve finite-horizon survival in both layouts | Keep reproduction threshold and initial energy identical across future sensory controls | The intervention changes multiple processes; the mediator is unidentified |
+| Campaign 017 new block seeds exceed the earlier extinction-time range | Use new held-out seeds and retain every failure; do not promote a sampled range into a world law | Generality across settings remains untested |
+| V0 can persist, sort traits and lose founder labels without sensors | Require a direct information intervention for V1 | No V1 controller or sensory-advantage evidence exists |
+
+## A bounded V0 mechanism study, if needed
+
+Do not launch another survival-only threshold sweep. First validate an observer
+that measures, for each action, food taken, energy immediately before and after
+feeding, attempted versus successful movement, occupied neighboring cells, and
+birth eligibility versus successful birth. Keep observer data separate from
+world state; it must consume no random draws or alter action order.
+
+Observer acceptance requires byte-identical reference metrics/events and exact
+world RNG equality in instrumented and uninstrumented runs, plus reconciliation
+of summed food uptake and energy costs with existing aggregate accounting. Tests
+must include blocked moves, deaths before feeding, births and full occupancy.
+Only after this gate should a protocol choose a bounded early window and all
+cases to inspect. A replay of old seeds adds observations of those trajectories,
+not independent seed evidence. Label any outcome-selected comparison explicitly.
+
+These measurements could distinguish low local intake from high population-wide
+intake and detect congestion. They would still be observational: a separate
+intervention would be needed to attribute the threshold effect to a mediator.
+There is no current claim that this observer or study has been implemented.
+
+## V1 implementation sequence when runtime scope expands
+
+1. Freeze a versioned sensor/weight/action specification, costs and independent
+   RNG stream derivations. Keep v0-darwin-1 unchanged. Candidate details are in
+   the [design contract](../design/v1-experiment-design.md).
+2. Implement the tiny controller with random initial weights and inherited
+   mutations; validate arithmetic, ties, bounds, costs and deterministic replay.
+   No hand-coded food-seeking policy or reward optimizer.
+3. Run a separately labeled viability pilot. Its purpose is to choose a viable
+   experimental environment; it supplies no held-out evidence of sensory value.
+   Record all pilot settings and failures before freezing the main protocol.
+4. Freeze training/evaluation seeds, sampling, budgets and primary comparisons.
+   Evaluate intact/blind/permuted inputs, random controls and actual ancestors.
+   Match reproduction and initial food geometry across each comparison.
+5. Measure behavioral information use separately from survival and offspring.
+   If sensory ablation has no reproducible effect, report that result rather than
+   adding memory or enlarging the controller to make a stage-success claim.
+
+Memory remains a later question requiring a task where history can matter.
+Development, ecology and self-organization keep their existing graduation gates.
+
+## Reviewable checkpoint
+
+The [Chinese review guide](../research/REVIEW.zh-CN.md) points to the fixed
+seventeen-campaign archive and explains installation checks. The full
+[research index](../research/README.md) contains all protocols and results.
+The latest engine is still V0; documentation or packaging work does not advance
+the runtime stage or prove emergence of life, sensing or intelligence.

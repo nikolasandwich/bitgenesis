@@ -22,6 +22,8 @@ must be measured separately from its consequences for reproduction.
 | [Equal initial energy has different allocation effects](../research/campaign-009.md) | Match food and founder energy separately, not just their sum. |
 | [Reproduction threshold changes survival and birth tempo](../research/campaign-010.md) | Match reproduction parameters across sensory controls; survival alone does not identify information value. |
 | [Energy allocation explains substantial population differences](../research/energy-budget.md) | Charge matched controller costs in every relevant comparison. |
+| [Spatial access and early aggregate uptake differ](../research/campaign-016.md#retrospective-early-energy-accounting) | Measure information-dependent behavior separately from global food intake; match initial layouts between sensory arms. |
+| [Threshold × layout experiment](../research/campaign-017.md) | Fix reproduction threshold across ablations; reduced early births and improved survival do not by themselves imply sensory value. |
 | [Complete history keeps growing](../research/retention-benchmark.md) | Bound planned trials and recording budgets; do not promise indefinite runs. |
 
 ## Smallest candidate controller
