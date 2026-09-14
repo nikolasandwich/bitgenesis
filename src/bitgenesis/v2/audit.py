@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 
 from .construction_audit import audit_run,require
+from .spatial_audit import reconstruct
 from bitgenesis.v1.decision_audit import check_decision
 
 
@@ -151,7 +152,9 @@ def audit(directory):
               'failed_attempts':sum(not a['valid'] for a in attempts),'construction_cost':construction['construction_cost'],
               'failure_loss':construction['failure_loss'],'deaths':len(dead),'total_energy':total}
     require(summary==expected,'summary mismatch')
-    return {'scope':'construction, ancestry, decisions and energy ledgers; spatial trajectories/RNG not replayed',
+    spatial=reconstruct(root)
+    return {'scope':'construction, ancestry, decisions, energy and spatial reconstruction; five RNG streams from recorded initial states; initialization/mutation RNG not replayed',
+            **spatial,
             'summary':expected,'construction_audit':construction,'input_sha256':hashes,
             'audit_sha256':sha256(Path(__file__).read_bytes()).hexdigest(),
             'decision_audit_sha256':sha256(Path(__file__).parents[1].joinpath('v1/decision_audit.py').read_bytes()).hexdigest()}

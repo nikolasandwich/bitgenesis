@@ -55,4 +55,3 @@ class V2HistoryAuditTests(unittest.TestCase):
                 finally:
                     (root/name).write_bytes(original)
                     (root/'metadata.json').write_bytes(original_meta)
-

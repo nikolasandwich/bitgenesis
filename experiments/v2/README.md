@@ -46,8 +46,10 @@ python -m bitgenesis.v2.audit data/my-v2-check --output data/my-v2-history-audit
 
 It links every attempted construction to events, living children, mutation bounds,
 ancestry, decision arithmetic, actual charges, successful offspring counts and
-the whole-world energy ledger. It retains invalid founder/child attempts. Spatial
-trajectories and random streams are still outside this audit's scope.
+the whole-world energy ledger. It retains invalid founder/child attempts and now
+reconstructs spatial food, attempted birth sites, failed-attempt nonoccupancy and
+five random streams from recorded initial states. Initialization/mutation RNG
+remain outside its independent replay scope.
 
-Next: spatial/resource verification, then preregister a viability calibration
-that retains all failed development rather than analyzing only successful births.
+The [registered pilot001](pilot-001.md) retains all failed development rather
+than analyzing only successful births, with40 fixed encoding/physiology runs.
