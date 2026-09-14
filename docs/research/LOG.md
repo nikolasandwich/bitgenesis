@@ -4422,3 +4422,9 @@ Original process34417 exited0 at20/20 reconstructed source lineages with fresh i
 Previous turn reconstructed full ancestry and froze60 pairs (af6335c), a substantive progress turn. Added separate v4-program-assay-1 single-founder explicit-program runner and independent audit. Physical starting state is fixed/configured, mutation disabled, random ticket schedules matched; program provenance remains a separate cohort gate. Two new tests cover neutral byte replay, different-program initial/RNG matching, independent audit, invalid program and zero horizon. Full343 tests pass in36.725 seconds.
 
 Registered study006 before environment seeds98000/98001:60 pairs x2 roles x2 environments x2 assay drives=480 runs,8x8,200 steps,primary all-tick occupation fraction,55 equal-program pairs retained. Prespecified aggregation within source cases then across five training seeds by condition, not pseudo-independent siblings. Next validate frozen selection/lineage provenance and execute clean cohort; this assays isolated expansion, not universal or competitive fitness.
+
+## 2026-09-14 — Autonomous cycle 322
+
+Previous turn implemented audited explicit-program assays and registered study006 (9adb7b4), a substantive progress turn. Added launcher4cfb006 with full fresh ancestry reconstruction, frozen selection/lineage/hash and actual parent-chain checks before assays. Original process22683 exited0 at480/480 independently audited runs; no source edits during execution. Complete declared grid and clean launch binding checked after completion; archived metadata/results. Runtime unchanged since343 full tests.
+
+Full cohort neutral-pair byte equality, physical/RNG pairing, exact configurations and240 primary contrasts with prespecified source aggregation remain pending. Next independent all-tick occupation counting and full report; successful assay execution alone does not establish descendant improvement.
