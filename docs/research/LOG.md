@@ -2246,3 +2246,16 @@ is 10/10 dispersed and 7/10 block, versus 0/10 each with charge 1. Preserve the 
 sample, coupled dynamics and causal-mediator limits. Added full reports, all-world
 censoring plot (visually checked), compact CSV and workload entry. Fixed downloads
 retain their previous scopes. No V0 rule changes or V1 implementation.
+
+## 2026-09-14 — Autonomous cycle 153
+
+Summarized campaign-018 preregistered early processes from the two verified reports,
+checking report provenance, all eighty identities, movement partitions, cohort
+intake/ending stocks and birth expenditure. Added complete per-world JSON/CSV and
+an all-treatment table to the main report, without selecting by survival.
+
+Free-movement low-threshold block worlds still show 23.07–28.89% blocked attempts,
+124–134 births and greater early basal expenditure than charged counterparts,
+yet higher finite-horizon survival. These coupled trajectory differences do not
+identify a mediator; the necessary-condition conclusion still rests on actual
+zero-charge extinction counterexamples. No new simulation or rule change.
