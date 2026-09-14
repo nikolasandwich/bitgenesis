@@ -2049,3 +2049,14 @@ download and fresh-extraction evidence from the review guide and mechanism brief
 Updated next-decisions to distinguish completed bounded retrospective observations
 from the broader original observer specification and unperformed causal studies.
 The full seventeen-campaign archive and V0 engine remain unchanged.
+
+## 2026-09-14 — Autonomous cycle 138
+
+Reviewed the future V1 assay and added a design-only evaluation contract. It separates
+behavioral response, reproductive information value and increased information
+dependence relative to the actual ancestor. Defined candidate terminal-abundance
+contrast with explicit both-extinct status, birth denominators, nested training-world
+aggregation, unavailable samples and engineering failures. Specified same-state
+controller probes and exact permutation averaging to avoid comparing behavior only
+on divergent trajectories. Seed blocks, budgets and positive-claim thresholds remain
+future preregistration fields. No V1 runtime or new experiment was introduced.

@@ -155,3 +155,8 @@ proxy for controller quality.
 
 V1 remains separate `bitgenesis.v1` code with an explicit future command and new
 rules/output versions. V0 research and its historical execution routes stay intact.
+
+The [evaluation contract](v1-evaluation-contract.md) specifies candidate competition
+endpoints, extinction handling, nested replicate aggregation, matched ancestor
+information contrasts and fixed-state behavioral probes. Exact protocol fields
+remain to be preregistered before any outcome run.

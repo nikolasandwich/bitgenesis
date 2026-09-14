@@ -77,3 +77,6 @@ seventeen-campaign archive and explains installation checks. The full
 [research index](../research/README.md) contains all protocols and results.
 The latest engine is still V0; documentation or packaging work does not advance
 the runtime stage or prove emergence of life, sensing or intelligence.
+
+The [evaluation contract](../design/v1-evaluation-contract.md) now makes extinction
+denominators and ancestor information contrasts explicit. It remains design only.
