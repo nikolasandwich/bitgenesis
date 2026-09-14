@@ -1,0 +1,497 @@
+{
+  "scope": "complete registered cohort; independent prefix/target/schedule/boundaries, same-engine branch replay",
+  "sources": [
+    {
+      "seed": 88000,
+      "status": "available",
+      "target": 17,
+      "contrasts": {
+        "other_population": {
+          "removed_minus_intact": 2,
+          "replayed_minus_removed": 0
+        },
+        "other_new_births": {
+          "removed_minus_intact": 2,
+          "replayed_minus_removed": 0
+        }
+      },
+      "outcomes": {
+        "intact": {
+          "other_population": 6,
+          "other_new_births": 4,
+          "summary": {
+            "actor_records": 2788,
+            "exported_energy": 0,
+            "imported_energy": 0,
+            "rejected_import": 0,
+            "population": 9,
+            "total_energy": 12391,
+            "branch_births": 6
+          }
+        },
+        "removed": {
+          "other_population": 8,
+          "other_new_births": 6,
+          "summary": {
+            "actor_records": 1832,
+            "exported_energy": 948,
+            "imported_energy": 0,
+            "rejected_import": 0,
+            "population": 8,
+            "total_energy": 11056,
+            "branch_births": 6
+          }
+        },
+        "replayed": {
+          "other_population": 8,
+          "other_new_births": 6,
+          "summary": {
+            "actor_records": 1873,
+            "exported_energy": 948,
+            "imported_energy": 3320,
+            "rejected_import": 813,
+            "population": 8,
+            "total_energy": 13400,
+            "branch_births": 6
+          }
+        }
+      },
+      "branch_checks": {
+        "intact": {
+          "scope": "independent boundary reconstruction plus same-engine world replay; origin provenance and independent intervened world history not certified",
+          "summary": {
+            "actor_records": 2788,
+            "exported_energy": 0,
+            "imported_energy": 0,
+            "rejected_import": 0,
+            "population": 9,
+            "total_energy": 12391,
+            "branch_births": 6
+          },
+          "output_sha256": {
+            "initial.json": "104a017977f917caef36383d6f292e3938a01bf7f0a96c89a267923405451536",
+            "steps.jsonl": "90549815a2aea02c4b1142f382fb97a5c03f035e2df2da66af668d0dff741411",
+            "events.jsonl": "9735ade42e66ef657f9631c71047198270965adfa081d500a8d702ad1255ffa6",
+            "final.json": "4f6cf2da1f75b37a14c16034db69ae2b8f2bb8decf4abb2608bc26c8a32f08ae",
+            "summary.json": "dc0c1ff50bfad163c7288b197c6b78d2b78002d07c9dd4be0b4030567a3f11e6"
+          },
+          "verifier_sha256": "512fb52b6550b78aed9fd7412eb3250de82eb73f60497b7b107cc1f94db2ce92",
+          "boundary_audit_sha256": "08b25ee04c82a6086dbd46e5051fc5484d25a6f3ccb1dc81fc4c567c3570992a"
+        },
+        "removed": {
+          "scope": "independent boundary reconstruction plus same-engine world replay; origin provenance and independent intervened world history not certified",
+          "summary": {
+            "actor_records": 1832,
+            "exported_energy": 948,
+            "imported_energy": 0,
+            "rejected_import": 0,
+            "population": 8,
+            "total_energy": 11056,
+            "branch_births": 6
+          },
+          "output_sha256": {
+            "initial.json": "104a017977f917caef36383d6f292e3938a01bf7f0a96c89a267923405451536",
+            "steps.jsonl": "4f9cdacf0b47d69e463ee3dde5dabb85d9d4bafd14229ea6e5be7b8553a26fd4",
+            "events.jsonl": "700b155b29e2e92da044deb3779ada7f25878cae13e5c79a8b6d295c4d401fb8",
+            "final.json": "69f3e239719d6f3af10bc73e3a29ed0912ea4b31c83dd7e27767903cb6524c6a",
+            "summary.json": "ab6cfe020eece3c184f71a0a9479d3dd7b0217ecaa11f9bedd168d9ca80206be"
+          },
+          "verifier_sha256": "512fb52b6550b78aed9fd7412eb3250de82eb73f60497b7b107cc1f94db2ce92",
+          "boundary_audit_sha256": "08b25ee04c82a6086dbd46e5051fc5484d25a6f3ccb1dc81fc4c567c3570992a"
+        },
+        "replayed": {
+          "scope": "independent boundary reconstruction plus same-engine world replay; origin provenance and independent intervened world history not certified",
+          "summary": {
+            "actor_records": 1873,
+            "exported_energy": 948,
+            "imported_energy": 3320,
+            "rejected_import": 813,
+            "population": 8,
+            "total_energy": 13400,
+            "branch_births": 6
+          },
+          "output_sha256": {
+            "initial.json": "104a017977f917caef36383d6f292e3938a01bf7f0a96c89a267923405451536",
+            "steps.jsonl": "bd3b1da40696dc68fb34a8948bd43a7530494b28066bb75c6272201eade9791c",
+            "events.jsonl": "395ad6a2c30c3cfd317d9d8ca2f392c33defee3bde511f7b5640841903f1f791",
+            "final.json": "220abd0dbfe00674d330839bfb31a97eacf33f7402f2b5e54c23e02dddcddc75",
+            "summary.json": "75e5ee576d2160ef63674efa4b621a0719e39e77d6320be5c25c1c94e2210c4e"
+          },
+          "verifier_sha256": "512fb52b6550b78aed9fd7412eb3250de82eb73f60497b7b107cc1f94db2ce92",
+          "boundary_audit_sha256": "08b25ee04c82a6086dbd46e5051fc5484d25a6f3ccb1dc81fc4c567c3570992a"
+        }
+      }
+    },
+    {
+      "seed": 88001,
+      "status": "available",
+      "target": 10,
+      "contrasts": {
+        "other_population": {
+          "removed_minus_intact": 0,
+          "replayed_minus_removed": 0
+        },
+        "other_new_births": {
+          "removed_minus_intact": 0,
+          "replayed_minus_removed": 0
+        }
+      },
+      "outcomes": {
+        "intact": {
+          "other_population": 2,
+          "other_new_births": 0,
+          "summary": {
+            "actor_records": 2417,
+            "exported_energy": 0,
+            "imported_energy": 0,
+            "rejected_import": 0,
+            "population": 6,
+            "total_energy": 11001,
+            "branch_births": 3
+          }
+        },
+        "removed": {
+          "other_population": 2,
+          "other_new_births": 0,
+          "summary": {
+            "actor_records": 1000,
+            "exported_energy": 1199,
+            "imported_energy": 0,
+            "rejected_import": 0,
+            "population": 2,
+            "total_energy": 8132,
+            "branch_births": 0
+          }
+        },
+        "replayed": {
+          "other_population": 2,
+          "other_new_births": 0,
+          "summary": {
+            "actor_records": 1000,
+            "exported_energy": 1199,
+            "imported_energy": 4054,
+            "rejected_import": 706,
+            "population": 2,
+            "total_energy": 11802,
+            "branch_births": 0
+          }
+        }
+      },
+      "branch_checks": {
+        "intact": {
+          "scope": "independent boundary reconstruction plus same-engine world replay; origin provenance and independent intervened world history not certified",
+          "summary": {
+            "actor_records": 2417,
+            "exported_energy": 0,
+            "imported_energy": 0,
+            "rejected_import": 0,
+            "population": 6,
+            "total_energy": 11001,
+            "branch_births": 3
+          },
+          "output_sha256": {
+            "initial.json": "178201f09e11b2f5185cbe6bdb3875cc6c4cad02f857aac9ab5ee19a2e5e6915",
+            "steps.jsonl": "a0ce45450bbab51de7890c2b95648bfd00ae7f07488684c37165123e4b2399ae",
+            "events.jsonl": "886932adfdb25591a14afb043d8aac167f794db6ae35d9c82c0d279f1f886acc",
+            "final.json": "659b7b640c20d9c1c2da1202abe8355439c7e011e2e985816ddc25fd249b583b",
+            "summary.json": "81ab4666eada46c5433b6f8dbb1ff51633564c10afef66ac1980d115c4cf8adf"
+          },
+          "verifier_sha256": "512fb52b6550b78aed9fd7412eb3250de82eb73f60497b7b107cc1f94db2ce92",
+          "boundary_audit_sha256": "08b25ee04c82a6086dbd46e5051fc5484d25a6f3ccb1dc81fc4c567c3570992a"
+        },
+        "removed": {
+          "scope": "independent boundary reconstruction plus same-engine world replay; origin provenance and independent intervened world history not certified",
+          "summary": {
+            "actor_records": 1000,
+            "exported_energy": 1199,
+            "imported_energy": 0,
+            "rejected_import": 0,
+            "population": 2,
+            "total_energy": 8132,
+            "branch_births": 0
+          },
+          "output_sha256": {
+            "initial.json": "178201f09e11b2f5185cbe6bdb3875cc6c4cad02f857aac9ab5ee19a2e5e6915",
+            "steps.jsonl": "9ff2fcee048d5079b572e9c38df2491a828bd05f8f478314f962e3a77d76f677",
+            "events.jsonl": "e3161ee9b99e7f3a39d1ca235e5351401650a5df244bcba59c399d8de7ac3422",
+            "final.json": "c64c11352c3c5dcd70a8d021356275779252df45d7cae0e7d05ca6626a12ae2f",
+            "summary.json": "842fe05fbce1f5962cc7e7b2f3748336a461914b111300990b4473460c3d06b9"
+          },
+          "verifier_sha256": "512fb52b6550b78aed9fd7412eb3250de82eb73f60497b7b107cc1f94db2ce92",
+          "boundary_audit_sha256": "08b25ee04c82a6086dbd46e5051fc5484d25a6f3ccb1dc81fc4c567c3570992a"
+        },
+        "replayed": {
+          "scope": "independent boundary reconstruction plus same-engine world replay; origin provenance and independent intervened world history not certified",
+          "summary": {
+            "actor_records": 1000,
+            "exported_energy": 1199,
+            "imported_energy": 4054,
+            "rejected_import": 706,
+            "population": 2,
+            "total_energy": 11802,
+            "branch_births": 0
+          },
+          "output_sha256": {
+            "initial.json": "178201f09e11b2f5185cbe6bdb3875cc6c4cad02f857aac9ab5ee19a2e5e6915",
+            "steps.jsonl": "8896a5c91518fb1308dca9e05ea387bebb3ed9cfd504e45ecb190925951a79f9",
+            "events.jsonl": "88ac12bcf9962534c3c298c1146fea9bb8178bb9f8d6c7e62005ad5cfac31530",
+            "final.json": "03854d4ff93da4c8dfc205c1d9ccd1576b7f4c8d1995c0a17c05f7dd64f20898",
+            "summary.json": "b74ab2252bc5aaad5de4718401e466dc6c698b5c4f7971e68f40a3e852be0e6f"
+          },
+          "verifier_sha256": "512fb52b6550b78aed9fd7412eb3250de82eb73f60497b7b107cc1f94db2ce92",
+          "boundary_audit_sha256": "08b25ee04c82a6086dbd46e5051fc5484d25a6f3ccb1dc81fc4c567c3570992a"
+        }
+      }
+    },
+    {
+      "seed": 88002,
+      "status": "available",
+      "target": 26,
+      "contrasts": {
+        "other_population": {
+          "removed_minus_intact": 0,
+          "replayed_minus_removed": 0
+        },
+        "other_new_births": {
+          "removed_minus_intact": 0,
+          "replayed_minus_removed": 0
+        }
+      },
+      "outcomes": {
+        "intact": {
+          "other_population": 1,
+          "other_new_births": 0,
+          "summary": {
+            "actor_records": 1000,
+            "exported_energy": 0,
+            "imported_energy": 0,
+            "rejected_import": 0,
+            "population": 2,
+            "total_energy": 7291,
+            "branch_births": 0
+          }
+        },
+        "removed": {
+          "other_population": 1,
+          "other_new_births": 0,
+          "summary": {
+            "actor_records": 500,
+            "exported_energy": 628,
+            "imported_energy": 0,
+            "rejected_import": 0,
+            "population": 1,
+            "total_energy": 7011,
+            "branch_births": 0
+          }
+        },
+        "replayed": {
+          "other_population": 1,
+          "other_new_births": 0,
+          "summary": {
+            "actor_records": 500,
+            "exported_energy": 628,
+            "imported_energy": 209,
+            "rejected_import": 459,
+            "population": 1,
+            "total_energy": 7185,
+            "branch_births": 0
+          }
+        }
+      },
+      "branch_checks": {
+        "intact": {
+          "scope": "independent boundary reconstruction plus same-engine world replay; origin provenance and independent intervened world history not certified",
+          "summary": {
+            "actor_records": 1000,
+            "exported_energy": 0,
+            "imported_energy": 0,
+            "rejected_import": 0,
+            "population": 2,
+            "total_energy": 7291,
+            "branch_births": 0
+          },
+          "output_sha256": {
+            "initial.json": "d4f2a13716e9d99ba879716c9e17e88deac0ab7f79f966c58ef392c961b93aa0",
+            "steps.jsonl": "2a86290decb8c56fab36bb85270f99dac1833855cfaeb07b2a2c7034af6cff11",
+            "events.jsonl": "01f779d3a0ecc5fff4781735ef8e45104ee554f73ae57273eefe365a87c9469c",
+            "final.json": "9f1e333a4d6d496f4147255999865c3d377dc38c44a6dfd6b35503c54cbc69c7",
+            "summary.json": "488f3d284edd7f4b84048f07b7d90a6d3e51edad097634f05f0487ee5d1e0d4b"
+          },
+          "verifier_sha256": "512fb52b6550b78aed9fd7412eb3250de82eb73f60497b7b107cc1f94db2ce92",
+          "boundary_audit_sha256": "08b25ee04c82a6086dbd46e5051fc5484d25a6f3ccb1dc81fc4c567c3570992a"
+        },
+        "removed": {
+          "scope": "independent boundary reconstruction plus same-engine world replay; origin provenance and independent intervened world history not certified",
+          "summary": {
+            "actor_records": 500,
+            "exported_energy": 628,
+            "imported_energy": 0,
+            "rejected_import": 0,
+            "population": 1,
+            "total_energy": 7011,
+            "branch_births": 0
+          },
+          "output_sha256": {
+            "initial.json": "d4f2a13716e9d99ba879716c9e17e88deac0ab7f79f966c58ef392c961b93aa0",
+            "steps.jsonl": "3cb7346f2fd71b37819596093c1165d599f61dcae0afa7b5e1774fd1df60fd12",
+            "events.jsonl": "c9131a9c812b8e192e70812933a804302bee6faffbe7c9b51dd59946eaf79767",
+            "final.json": "edd1334d530bcebc0617f907a3f64ee64f0b208269f455e6079cedd761e4e606",
+            "summary.json": "dfebd3fb890988af8b46c263a58feefed298d137350a633075636420cd72dff3"
+          },
+          "verifier_sha256": "512fb52b6550b78aed9fd7412eb3250de82eb73f60497b7b107cc1f94db2ce92",
+          "boundary_audit_sha256": "08b25ee04c82a6086dbd46e5051fc5484d25a6f3ccb1dc81fc4c567c3570992a"
+        },
+        "replayed": {
+          "scope": "independent boundary reconstruction plus same-engine world replay; origin provenance and independent intervened world history not certified",
+          "summary": {
+            "actor_records": 500,
+            "exported_energy": 628,
+            "imported_energy": 209,
+            "rejected_import": 459,
+            "population": 1,
+            "total_energy": 7185,
+            "branch_births": 0
+          },
+          "output_sha256": {
+            "initial.json": "d4f2a13716e9d99ba879716c9e17e88deac0ab7f79f966c58ef392c961b93aa0",
+            "steps.jsonl": "190f4bd07340459e3169ae0a3cb834217a8bbeee775b74b88fad59c1bbb44b82",
+            "events.jsonl": "2407bc5b55819afde173407b8d1ce9a6f9bc3acecf0027b3997afbb50866ae51",
+            "final.json": "40d9e4df08a8f06920b90e3217805b4f97986c34fc941e73db1e11293d3214d0",
+            "summary.json": "18f381cf70ae0ecbbfc4239145877b07817b9262fa2324ae193a78a6153f8933"
+          },
+          "verifier_sha256": "512fb52b6550b78aed9fd7412eb3250de82eb73f60497b7b107cc1f94db2ce92",
+          "boundary_audit_sha256": "08b25ee04c82a6086dbd46e5051fc5484d25a6f3ccb1dc81fc4c567c3570992a"
+        }
+      }
+    },
+    {
+      "seed": 88003,
+      "status": "unavailable",
+      "contrasts": null
+    },
+    {
+      "seed": 88004,
+      "status": "available",
+      "target": 23,
+      "contrasts": {
+        "other_population": {
+          "removed_minus_intact": 0,
+          "replayed_minus_removed": 1
+        },
+        "other_new_births": {
+          "removed_minus_intact": 0,
+          "replayed_minus_removed": 1
+        }
+      },
+      "outcomes": {
+        "intact": {
+          "other_population": 5,
+          "other_new_births": 1,
+          "summary": {
+            "actor_records": 3378,
+            "exported_energy": 0,
+            "imported_energy": 0,
+            "rejected_import": 0,
+            "population": 8,
+            "total_energy": 10970,
+            "branch_births": 3
+          }
+        },
+        "removed": {
+          "other_population": 5,
+          "other_new_births": 1,
+          "summary": {
+            "actor_records": 2255,
+            "exported_energy": 1241,
+            "imported_energy": 0,
+            "rejected_import": 0,
+            "population": 5,
+            "total_energy": 9402,
+            "branch_births": 1
+          }
+        },
+        "replayed": {
+          "other_population": 6,
+          "other_new_births": 2,
+          "summary": {
+            "actor_records": 2357,
+            "exported_energy": 1241,
+            "imported_energy": 3399,
+            "rejected_import": 176,
+            "population": 6,
+            "total_energy": 11605,
+            "branch_births": 2
+          }
+        }
+      },
+      "branch_checks": {
+        "intact": {
+          "scope": "independent boundary reconstruction plus same-engine world replay; origin provenance and independent intervened world history not certified",
+          "summary": {
+            "actor_records": 3378,
+            "exported_energy": 0,
+            "imported_energy": 0,
+            "rejected_import": 0,
+            "population": 8,
+            "total_energy": 10970,
+            "branch_births": 3
+          },
+          "output_sha256": {
+            "initial.json": "f86cf0cc2303dd8d48bda390c31ce22f813174e1f24de23c2d10e9b7c34722c0",
+            "steps.jsonl": "8040e27afc6d1cb4e2164a63fb71042351ffc847191ab0d7f608e8309b7cd142",
+            "events.jsonl": "6ea0cab1dad8fcd76a5453757b373c571e18aa7eae45df8ecd184b313345d2d9",
+            "final.json": "65f6b2425b0146ee26c3c342d68514f116456589b180e8914b0286981dc79099",
+            "summary.json": "5ecac9ae075a71d79b2cfd6e296a6c83324f088dafddcad941bc77aaabde038f"
+          },
+          "verifier_sha256": "512fb52b6550b78aed9fd7412eb3250de82eb73f60497b7b107cc1f94db2ce92",
+          "boundary_audit_sha256": "08b25ee04c82a6086dbd46e5051fc5484d25a6f3ccb1dc81fc4c567c3570992a"
+        },
+        "removed": {
+          "scope": "independent boundary reconstruction plus same-engine world replay; origin provenance and independent intervened world history not certified",
+          "summary": {
+            "actor_records": 2255,
+            "exported_energy": 1241,
+            "imported_energy": 0,
+            "rejected_import": 0,
+            "population": 5,
+            "total_energy": 9402,
+            "branch_births": 1
+          },
+          "output_sha256": {
+            "initial.json": "f86cf0cc2303dd8d48bda390c31ce22f813174e1f24de23c2d10e9b7c34722c0",
+            "steps.jsonl": "7579b262c6f64a72cdc7c632bdbd9f91cef2ef09fb2b53558bd7b6ab632c39a7",
+            "events.jsonl": "a8cfef64c1d46f2e4ca64c9409bdcdd45b12284fa7cacf043d28e76b31a78b1e",
+            "final.json": "a15fc74ca492f09ef43421bc597aea7fc87a3d4cb7162f25e0a80f4f52d9c8d1",
+            "summary.json": "b9b01ab17f853e8a005d813e32d0cbb0f2c8871a3f7ae892258e7520c11fae26"
+          },
+          "verifier_sha256": "512fb52b6550b78aed9fd7412eb3250de82eb73f60497b7b107cc1f94db2ce92",
+          "boundary_audit_sha256": "08b25ee04c82a6086dbd46e5051fc5484d25a6f3ccb1dc81fc4c567c3570992a"
+        },
+        "replayed": {
+          "scope": "independent boundary reconstruction plus same-engine world replay; origin provenance and independent intervened world history not certified",
+          "summary": {
+            "actor_records": 2357,
+            "exported_energy": 1241,
+            "imported_energy": 3399,
+            "rejected_import": 176,
+            "population": 6,
+            "total_energy": 11605,
+            "branch_births": 2
+          },
+          "output_sha256": {
+            "initial.json": "f86cf0cc2303dd8d48bda390c31ce22f813174e1f24de23c2d10e9b7c34722c0",
+            "steps.jsonl": "c7a489673ebddb34f20bf39c6b85948a0adba18db5b540db0b6ca029f25de323",
+            "events.jsonl": "ff494054f3960365a91552e973e9a5f24d5563a3b96c5984b990c615bb9051dc",
+            "final.json": "c0751e2696473df63b168f17fcd776ef418486fb139beb03beda7d1d33297175",
+            "summary.json": "a152074a10e5369aeda944fd919c0f61ac6a8ab29043dad456b2945f372d11b5"
+          },
+          "verifier_sha256": "512fb52b6550b78aed9fd7412eb3250de82eb73f60497b7b107cc1f94db2ce92",
+          "boundary_audit_sha256": "08b25ee04c82a6086dbd46e5051fc5484d25a6f3ccb1dc81fc4c567c3570992a"
+        }
+      }
+    }
+  ],
+  "protocol_sha256": "c3f74b34bb4448fe2b3c2b568e9e725820ef122d78bb01e2a6da8bd498d57778",
+  "results_sha256": "6b6837c16d6f8bf8a36677eb69973bdb67d08b858d8172b2b834a9bac28fd99f",
+  "verifier_sha256": "d88f2050c4f9d2986c6e2ca8121f2b3e3aff010082e7bc693aaa382f150f61d8"
+}
