@@ -2428,3 +2428,19 @@ campaign-019 reports exactly, including hashes. Source CI run 34815145967 comple
 successfully. All 150 local tests passed before packaging. Fresh noneditable
 installation, installed demonstration and remote upload remain pending; the new
 archive is immutable and older downloads retain their original scope.
+
+## 2026-09-14 — Autonomous cycle 165
+
+Previous cycle produced the immutable nineteen-campaign archive and exact extracted
+reanalyses. A new virtual environment installed the extracted project noneditably;
+import resolved to its own site-packages. All 150 archived tests passed. The
+1,000-tick installed demonstration passed audit: population 83, births 1,561,
+deaths 1,558, 1,641 lineage individuals and 101 frames. Metrics/events match the
+archived reference byte-for-byte; lineage/summary JSON match exactly. Installed
+provenance reports no git commit. Pip resolved build dependencies; no offline claim.
+
+Uploaded archive and checksum as draft v0.0.1-preview.11, release 388195439.
+GitHub API sizes and SHA-256 digests match both local files; no independent remote
+download was performed. Updated current review/acceptance guides to nineteen while
+preserving older archives and historical notes. Archive content is fixed at eec26ab;
+these post-upload documentation changes are later main commits.

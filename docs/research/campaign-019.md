@@ -85,5 +85,5 @@ python -I -S scripts/summarize_v0_joint_zero_charge_processes.py --output data/m
 
 前两条读取本地正式原始数据；第三条读取仓库中已核验报告，不重新模拟。
 核验未重建未保存的受阻目标、出生位置或完整局部食物历史，也不是独立随机动态重放。
-当前十八轮固定下载包尚不包含本轮；本地 `data/review-v0-19.html` 已包含本轮，完整原始数据也已保存在本地。
+[十九轮固定下载包](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-bd1c724e09502d74998e)已包含本轮原始数据及 `data/review-v0-19.html`；旧十八轮包保持原范围。
 仍只有 V0 运行阶段，本轮固定性状且关闭突变，不提供学习或智能的证据。

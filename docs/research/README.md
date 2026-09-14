@@ -11,7 +11,7 @@
 首次验收可先阅读[中文指南](REVIEW.zh-CN.md)，再打开本地
 `data/review-v0-19.html`。这个本地视觉快照涵盖十九轮，可用
 `python scripts/build_v0_review.py --campaigns 19` 在完整本地数据上重建。
-十八轮完整数据可从[十八轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-82fb7bd52b889f73baaf)下载；
+十九轮完整数据可从[十九轮验收草稿](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-bd1c724e09502d74998e)下载；
 旧页面和已上传的八轮、九轮归档继续保留原范围。
 旧 `data/review-v0-8.html` 保留为八轮快照。
 `data/bitgenesis-v0-review-8.zip` 是同一八轮范围的可携带归档，不代表后续提交。
@@ -20,9 +20,9 @@ GitHub 保存代码、协议、报告和精简结果；大体积逐步数据保�
 第十七轮后追加的过程观察，可先看[中文机制简报](mechanism-summary.zh-CN.md)。它汇总支持与不支持的解释，明确后续观测与固定归档的范围差别。
 
 [第十八轮](campaign-018.md)已完整核验：零移动扣费下仍有三次成片低阈值灭绝，
-排除了正移动扣费作为本设计全部失败的必要条件。旧视觉快照和旧下载包保持各自范围，最新整包已包含十八轮。
+排除了正移动扣费作为本设计全部失败的必要条件。旧视觉快照和旧下载包保持各自范围，最新整包已包含十九轮。
 
-最新[第十九轮](campaign-019.md)已核验全部四十个世界：移动和出生均不直接扣费时，低阈值组仍有 4/10 灭绝。本地十九轮页面已包含本轮；十八轮固定下载包尚不包含。
+最新[第十九轮](campaign-019.md)已核验全部四十个世界：移动和出生均不直接扣费时，低阈值组仍有 4/10 灭绝。本地十九轮页面和十九轮固定下载包均已包含本轮。
 
 ## 正式实验
 

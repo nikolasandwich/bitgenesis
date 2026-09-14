@@ -1,18 +1,18 @@
 # V0 acceptance checkpoint
 
-Current verified research: eighteen campaigns / 864 executions / 7,840,000 computed
+Current verified research: nineteen campaigns / 904 executions / 8,240,000 computed
 ticks, including 24 follow-up executions and 212,000 repeated prefix ticks.
 Use the [current Chinese review guide](REVIEW.zh-CN.md) for the latest instructions.
 
-Latest [eighteen-campaign draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-82fb7bd52b889f73baaf): source `b304f2d`,
-1,736 payload files / 124,483,734 bytes. Fresh extraction reproduced all three
-campaign-018 reports; a new noneditable installation passed 143 tests and a
+Latest [nineteen-campaign draft](https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-bd1c724e09502d74998e): source `eec26ab`,
+1,961 payload files / 134,751,855 bytes. Fresh extraction reproduced all three
+campaign-019 reports; a new noneditable installation passed 150 tests and a
 1,000-tick demo audit with reference-equivalent records. Remote asset sizes and
 SHA256 values match local files. The separate observation supplement supplies
 campaign-017 retrospective observer data. Older archives remain unchanged.
 
-Evidence: [extraction](results/portable-review-018.json), [installation](results/portable-wheel-018.json),
-[remote assets](results/release-018.json), and [source CI](https://github.com/nikolasandwich/bitgenesis/actions/runs/34813192855).
+Evidence: [extraction](results/portable-review-019.json), [installation](results/portable-wheel-019.json),
+[remote assets](results/release-019.json), and [source CI](https://github.com/nikolasandwich/bitgenesis/actions/runs/34815145967).
 
 ## Preserved earlier checkpoint notes
 
