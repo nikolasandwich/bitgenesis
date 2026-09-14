@@ -4290,3 +4290,7 @@ Two tests cover exact replay, matched initial states and drive RNG endpoints acr
 Previous turn persisted driven V4 and completed engineering run (cb00c6c), a substantive progress turn. Added independent initialization/drive RNG, accepted/rejected input, leak and local transition reconstruction; engineering001 passes100 steps,37876 imported,64172 rejected,18593 leaked,32783 total spent. Archived report. Expanded tests across drive/exchange controls and rehashed input corruption:3 focused tests pass. Runtime unchanged since296 full tests.
 
 Registered study001 before seeds91000..91004:20 cases,drive0/500 x exchange off/on,500 steps,three fixed windows,primary late active-transition fraction and per-source contrasts,2GiB inter-run soft limit. Explicitly fixed-site engineered connection activity, not self-assembly/replication. Next execute frozen cohort and verify complete windows and controls.
+
+## 2026-09-14 — Autonomous cycle 300
+
+Previous turn independently audited driven V4 and registered study001 (1dd07bf), a substantive progress turn. Prepared exact20-case launcher with clean source/protocol binding,500-step horizons,drive/exchange controls,128256 site-record bound, per-run independent audit and2GiB inter-run soft limit. Syntax checked; commit before launch. Next retain full cohort and independently verify fixed window summaries and paired controls.
