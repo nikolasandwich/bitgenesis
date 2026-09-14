@@ -2592,3 +2592,17 @@ Published all seven cases and a reproducible script; no new simulation, independ
 sample, rule change or archive rewrite. The fixed supplement contains the input
 records but predates this new analysis script/report. Updated research/decision
 indexes to distinguish terminal individual trajectories from population history.
+
+## 2026-09-14 — Autonomous cycle 175
+
+Previous cycle documented all seven final-survivor traces. Added a common-scale
+figure with energy after each action, actual intake and pre-action empty food-
+containing neighbors. All seven traces and thirty-three excluded world identities
+match the source report exactly; source/script hashes are saved alongside PNG/SVG.
+The energy trace starts with the pre-window boundary value at relative tick -20;
+neighborhood squares are categorical markers, not negative energy values.
+
+Visual inspection caught the reading-note panel using data coordinates; corrected
+to axes coordinates and inspected the final readable image. The initial layout
+was retained locally. Integrated the figure with Chinese reading guidance and
+explicit post hoc/age-alignment limits. No new simulation or archive rewrite.
