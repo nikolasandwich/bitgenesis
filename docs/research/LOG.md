@@ -3348,3 +3348,25 @@ this is not full-cohort certification. The event/lineage/histogram gate remains
 explicitly separate and required before scientific completion. Source/runtime and
 registered experiment unchanged; formal completed totals remain at 21 campaigns.
 Autonomous goal stays active. Next finish cohort and reconstruct individual histories.
+
+
+## 2026-09-14 — Autonomous cycle 216
+
+Previous cycle completed all forty campaign-022 worlds and the full aggregate
+metric gate. Added independent event/history reconstruction using only compact
+birth/death records and final lineage. Every tick reconstructs living identities,
+mean/variant counts, founder lineages, maximum generation, cumulative changed
+births and ever-born vocabulary; all checkpoint histograms and final lineage
+parentage/dates/offspring/energy and terminal positions reconcile. Parent survival
+at birth, earlier parental birth, inheritance bounds, founder records and death
+validity are checked. Input hashes bind the metric and individual-history gates.
+
+Corruption tests use both real engineering treatments and reject wrong founder,
+unavailable parent, omitted death, damaged histogram and false offspring totals.
+All 191 tests pass. Full run verifies 148,821 individuals / 400,040 metric rows.
+Primary counts: both alive 4, mutation-only 6, no-mutation-only 4, both extinct 6;
+signed discordance +2. This is finite-cohort positive directional evidence, with
+four monotone-rescue counterexamples, not significance or adaptive improvement.
+Saved both full gate reports. Full Chinese synthesis and inventory publication
+remain next; formal published totals unchanged at this checkpoint. No runtime
+change, protocol revision, additional simulation or V1 implementation. Goal active.
