@@ -2128,3 +2128,16 @@ energies from original initial states and the verified feeding/terminal records:
 actual capped payments, food intake, child splits, ending stocks, population and
 global dissipation all reconcile for every tick. Saved complete report and input
 hashes. Existing fixed observation ZIP does not include the new ledger dataset.
+
+## 2026-09-14 — Autonomous cycle 144
+
+Separated founder and descendant energy budgets from verified historical ledgers.
+Founder-to-descendant transfers cross cohort boundaries; descendant-to-descendant
+birth splits cancel internally, rather than becoming new energy supply. Reconciled
+both cohort balances, whole-world flow totals and prior cohort intake for all forty
+worlds. All low-threshold block founders are dead by tick 100; surviving energy is
+held by descendants. This describes cohort replacement, not a causal mediator.
+Added analysis, complete report, Chinese interpretation and boundary tests for
+internal transfers, endpoint births and rejection of unbalanced records.
+
+All 137 local tests pass.
