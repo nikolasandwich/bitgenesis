@@ -1876,3 +1876,11 @@ not an eighteenth campaign or independent replication. It covers only feeding,
 not the complete movement/congestion/reproduction observer gate. Source is
 committed before launch; failure/interruption metadata and new-only output paths
 preserve reviewability.
+
+Feeding replay completed from clean source 0479c34: all forty prefixes match all
+4,040 original metric rows and yield 166,886 individual feeding attempts.
+Separate JSONL readback reconciles per-run counts/intake/zero attempts, checks
+unique tick/ID pairs, energy and food bounds, and matches file hashes. Recorded
+all-run results and source provenance. Historical per-individual reference paths
+are unavailable; the matching claim concerns original aggregate metrics. These
+4,000 replay steps are not added to formal campaign totals.

@@ -1,0 +1,410 @@
+{
+  "source_commit": "0479c34c61b298f6cd7e7fd474f4e510e4ce6a1f",
+  "runs": 40,
+  "matched_metric_rows": 4040,
+  "feeding_records": 166886,
+  "results": [
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1400,
+      "feeding_attempts": 4146,
+      "zero_intake_attempts": 3592,
+      "food_eaten": 3700,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "97eb79c55a03a790b0391c61357232a349888e9c5451bc10c1245573de20b8e9"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1401,
+      "feeding_attempts": 3841,
+      "zero_intake_attempts": 3363,
+      "food_eaten": 3208,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "30d848c0e5677b6adddbe492ce7d51d71318086ef9d2fe2b56aabc8c1195bc98"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1402,
+      "feeding_attempts": 4381,
+      "zero_intake_attempts": 3785,
+      "food_eaten": 3980,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "26f9cc07552e9794f4cca4430f695701b37ae3de3809d2a915b1f609cf1a0660"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1403,
+      "feeding_attempts": 3646,
+      "zero_intake_attempts": 3194,
+      "food_eaten": 3016,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "b7214bc5826643eefe91b2e19dadd768324540258526360f872da67597ffcc33"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1404,
+      "feeding_attempts": 3861,
+      "zero_intake_attempts": 3363,
+      "food_eaten": 3336,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "966a8569cdf3a46dddefcfd854484df1a4737aadf2c2a67115d0d1c359933fdf"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1405,
+      "feeding_attempts": 3654,
+      "zero_intake_attempts": 3210,
+      "food_eaten": 2936,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "ceac2c489302ed7ae0a0534a93f5f9ef9102a3b2fcd38900456212766a4408a5"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1406,
+      "feeding_attempts": 3976,
+      "zero_intake_attempts": 3464,
+      "food_eaten": 3432,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "de6af24c60f72832d9efaeb5e98f5b5bebe8ace905e2aa6b36d24b70227ea1fe"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1407,
+      "feeding_attempts": 3965,
+      "zero_intake_attempts": 3438,
+      "food_eaten": 3484,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "e3e9fb80226ad76fa0bc03ba84b56a473d4689a4177324ff4a69749227b44348"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1408,
+      "feeding_attempts": 4038,
+      "zero_intake_attempts": 3507,
+      "food_eaten": 3528,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "8da89fc4f79a931dfb1e6c2ec2dbdc4e63c4065bb845a26edc3315292c7ce6a1"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 40,
+      "seed": 1409,
+      "feeding_attempts": 3544,
+      "zero_intake_attempts": 3119,
+      "food_eaten": 2856,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "8a454e2f4978952f02dccc48eab6bbd71e320a527abda9abac4eb0dc8b8f441d"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1400,
+      "feeding_attempts": 3930,
+      "zero_intake_attempts": 3433,
+      "food_eaten": 3236,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "e5b33ef71db120b4fad75254e97a984877e6a27cf021e033d9ff5bf8bcdbc8be"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1401,
+      "feeding_attempts": 3641,
+      "zero_intake_attempts": 3166,
+      "food_eaten": 3132,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "7ee66a558bcdc33ad4ce5d57bf70a948b2ca74cf3f6b6176011529a32b2d539c"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1402,
+      "feeding_attempts": 4088,
+      "zero_intake_attempts": 3522,
+      "food_eaten": 3716,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "d87878c933edda91f8d6a546e085fcb1d32eb1e9b4555c00277b5ff1c0336779"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1403,
+      "feeding_attempts": 3920,
+      "zero_intake_attempts": 3361,
+      "food_eaten": 3632,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "87e2215086546360df196b1dbf909f9578c8c68c3f1cbbf1306af5640014a5c5"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1404,
+      "feeding_attempts": 3890,
+      "zero_intake_attempts": 3339,
+      "food_eaten": 3652,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "306caab4ca75867c75a489559f924d9301315af8e354fedfcc44cc301755eb25"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1405,
+      "feeding_attempts": 4055,
+      "zero_intake_attempts": 3517,
+      "food_eaten": 3540,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "7a17b49b02ec0341f9f96ddb2c43f10e861bb6a4259e72a69072c3fd9e02c0cc"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1406,
+      "feeding_attempts": 4098,
+      "zero_intake_attempts": 3520,
+      "food_eaten": 3848,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "dac5498ce428ca0af29effabc4a68f84ad3ac8a0b42d8ee0d9884440445a28a5"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1407,
+      "feeding_attempts": 3884,
+      "zero_intake_attempts": 3338,
+      "food_eaten": 3588,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "faa814ffdd3fef22d5a51909109c7538b6f03ac0ecdd6bf49ccbc547755cbcb9"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1408,
+      "feeding_attempts": 3553,
+      "zero_intake_attempts": 3091,
+      "food_eaten": 3028,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "3e6167e175367963dff8ba5dc5f404b56c5f803e1166e101f6e6bea48750cd91"
+    },
+    {
+      "arm": "dispersed",
+      "birth_threshold": 160,
+      "seed": 1409,
+      "feeding_attempts": 4012,
+      "zero_intake_attempts": 3431,
+      "food_eaten": 3780,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "70705ba20461e83c782d9277f99c28f5cfa39f478241dbc118b4e01cc262ffa0"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1400,
+      "feeding_attempts": 5619,
+      "zero_intake_attempts": 4803,
+      "food_eaten": 5796,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "4e33b99c219ceb579468a5cf8fc311e0262f02ceeb99c0f872270e0e41c1c843"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1401,
+      "feeding_attempts": 5666,
+      "zero_intake_attempts": 4836,
+      "food_eaten": 5848,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "e9ef2f91a5b7e9dcbffb845b7b3848dcbf04f91c0514330a11ab7bf1c3ba329c"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1402,
+      "feeding_attempts": 5863,
+      "zero_intake_attempts": 4969,
+      "food_eaten": 6164,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "d64cbb21a70190aaaf6e1cbb4345d7f0f29c9f9b0a998658be95ab148ed4401e"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1403,
+      "feeding_attempts": 5493,
+      "zero_intake_attempts": 4709,
+      "food_eaten": 5612,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "6cfd0611ec4a8047434eecd21874f4a8b4f2ea746e1456e67f8693eb153db05c"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1404,
+      "feeding_attempts": 5806,
+      "zero_intake_attempts": 4957,
+      "food_eaten": 5984,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "17c7e5cb334462920390f6dbe53a7a76e9436e49ce523466dc97ce6ed5c42e38"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1405,
+      "feeding_attempts": 5379,
+      "zero_intake_attempts": 4571,
+      "food_eaten": 5676,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "ca314d5b8abaa3fd5c7ec045ffc52d0fe5f78a4ecc3f54fd0c0875a6a7da01ba"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1406,
+      "feeding_attempts": 5397,
+      "zero_intake_attempts": 4624,
+      "food_eaten": 5484,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "56614cf94c12a2dea2e53ecca7887e6ed7a9a55b7f0d8ade831cbe6aafe3a810"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1407,
+      "feeding_attempts": 5724,
+      "zero_intake_attempts": 4885,
+      "food_eaten": 5924,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "6e60c0e20b5baa6e6b4009d1c4d0d6e64e05b1fcb4c2bad0629085eeddd99518"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1408,
+      "feeding_attempts": 5670,
+      "zero_intake_attempts": 4851,
+      "food_eaten": 5848,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "3bf03d96375da0f4f87b6cc64f1f40170fce2c6f77a19ab5454f9bc04f88f457"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "seed": 1409,
+      "feeding_attempts": 5542,
+      "zero_intake_attempts": 4739,
+      "food_eaten": 5704,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "0b78aae1841109f2a4e6a30df7035f1d63143203be2a2326e92027c8cca3ed69"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1400,
+      "feeding_attempts": 3133,
+      "zero_intake_attempts": 2557,
+      "food_eaten": 4100,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "7846ec311c81d9258c3f5a6ef4a1c2a7dfb5c17190d040b6c507e673d37218c6"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1401,
+      "feeding_attempts": 2941,
+      "zero_intake_attempts": 2490,
+      "food_eaten": 3176,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "1f5cab32159a7013daeb87d63b548caad97728f2ace3c74ef5f295a427adbdde"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1402,
+      "feeding_attempts": 3049,
+      "zero_intake_attempts": 2500,
+      "food_eaten": 3832,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "f1340cf80bf965e6a41614354f9cf1f03193c49f25794291da706d80fb0d9787"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1403,
+      "feeding_attempts": 3654,
+      "zero_intake_attempts": 3024,
+      "food_eaten": 4336,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "f3e4681491fbf5f07970cbdc289855ae565bab5466d02ed787443b08305279c0"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1404,
+      "feeding_attempts": 3152,
+      "zero_intake_attempts": 2603,
+      "food_eaten": 3884,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "e68d449df11a7cce3c3b8f3b5e64e64eef25ad61e79fdc1d71cca77b7194bcbf"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1405,
+      "feeding_attempts": 3119,
+      "zero_intake_attempts": 2582,
+      "food_eaten": 3772,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "da71ce9dc2cd6572ddb2bc7203ea715bb81645bffe24ee76b817651a5c7011b9"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1406,
+      "feeding_attempts": 3777,
+      "zero_intake_attempts": 3139,
+      "food_eaten": 4508,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "aa245e89267efdb6d0c8950ba24afdf1138a96b5af4c7251c825c321e1fd9b9d"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1407,
+      "feeding_attempts": 3298,
+      "zero_intake_attempts": 2694,
+      "food_eaten": 4236,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "09fe71981e972b59dac3d5bde9ea7b4774afc7a662d9a18e259c57cf6dd10aa1"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1408,
+      "feeding_attempts": 3718,
+      "zero_intake_attempts": 3058,
+      "food_eaten": 4600,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "d5a731f4e86d0bdb6ef1279d960a86c14084efc1683db401d7bd974c1ae6c3fb"
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "seed": 1409,
+      "feeding_attempts": 2763,
+      "zero_intake_attempts": 2391,
+      "food_eaten": 2508,
+      "matched_metric_rows": 101,
+      "feeding_sha256": "66d7795dbd8b34342c9d633bf78b546aed06a6b48543cc9fe423bc24465fee1d"
+    }
+  ],
+  "metadata_sha256": "01543db33aef0eaa0fc2f9f34471f07bf33afc78c84bd3437d958a244a93eb4c",
+  "scope": "All campaign-017 first-100-tick prefixes replayed with feeding observations. Added historical observations, not independent experimental replicates. Original per-individual trajectories were not saved for direct comparison."
+}

@@ -39,6 +39,22 @@ All 120 local tests pass at this checkpoint.
 This is only the feeding component of the proposed mechanism observer. It does
 not yet record unsuccessful movement, occupied-neighbor counts or birth
 eligibility without birth. It therefore does not meet the entire observer gate
-in the [decision note](../roadmap/next-decisions.md). No historical trajectory has
-yet been replayed with these individual records, and no mediation claim follows
-from the unit-test comparisons. Fixed seventeen-campaign archives are unchanged.
+in the [decision note](../roadmap/next-decisions.md). The historical replay below adds feeding observations but no mediation claim
+follows from the comparisons. Fixed seventeen-campaign archives are unchanged.
+
+## Historical prefix replay
+
+Source `0479c34` replayed all forty campaign-017 worlds through tick 100,
+hash-checking the original initial states/metric files and confirming initial
+founders/RNG. All 4,040 prefix metric rows match exactly. The observer recorded
+166,886 feeding attempts; per-run intake equals the independently reconstructed
+early total. A separate readback checks row counts, duplicate tick/ID pairs,
+positive pre-feeding energy, feeding bounds, food changes and JSONL hashes.
+
+[Replay verification and all-run counts](../research/results/feeding-replay-017.json).
+Raw JSONL files are local under `data/feeding-replay-017/`. These 4,000 replayed
+simulation steps add observations to existing trajectories and are excluded from
+the formal campaign inventory. Original individual movement/feeding trajectories
+were not saved, so the historical comparison is against aggregate metrics, not
+an independent historical individual-path reference. No comparison of survival
+mechanisms is inferred from the attempt counts alone.
