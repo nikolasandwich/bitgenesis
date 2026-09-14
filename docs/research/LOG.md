@@ -3814,3 +3814,22 @@ no campaign024 output directory exists. Next implement recording and engineering
 checks without modifying the frozen engine, then commit clean source before runs.
 No new scientific outcome or verified-count increment. V1 remains design only;
 autonomous goal active.
+
+## 2026-09-14 — Autonomous cycle 240
+
+Previous cycle preregistered campaign024 at35305f6. Implemented its initialization
+and per-world recording helpers without altering frozen engine/old recorder.
+Founder allocation is explicit40/40 with swaps; ancestry groups exist only in
+observer data. Preserve standard physical metrics/events/lineage and additionally
+write every-tick groups.csv, group checkpoint histograms, extinction times and
+initial founder map. Check group/world count, energy and founder-lineage sums.
+
+Engineering seeds24/25 cover traits0vs1000,256vs250 and250vs250 with both swaps:
+12 hundred-tick fixtures match plain World at every boundary, including full
+states, food, occupancy, events, lineage and RNG. Same-genotype swaps have identical
+physical records/final digest and complementary per-tick group records. Invalid
+traits and allocations rejected. All203 tests pass; normalized engine hash stays
+8f3ed33ad0ebe802c099e3e6f8ae61f9bcc526b98512f31f48ec40478fbfa7ff.
+No formal campaign024 output directory or outcome execution. Next add complete-grid
+orchestration and independent group-account verification before interpreting runs.
+V0 sole runtime; autonomous goal active.
