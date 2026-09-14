@@ -2163,3 +2163,17 @@ Reorganized the supplement guide around revision 2, eight contiguous commands,
 exact output/reference mapping and the archive hash. Moved revision 1 to a
 preserved-history section. This removes the previous split instructions and
 keeps software CI separate from local historical reanalysis evidence.
+
+## 2026-09-14 — Autonomous cycle 147
+
+Reviewed prior protocols and registered campaign 018 as a necessary-condition
+probe of charged movement: the complete layout × threshold × movement cost 0/1
+grid on new seeds 1500–1509, eighty planned 10,000-tick worlds. Fixed all outcomes,
+early observer window, pairing, failure accounting and verification gates before
+execution. This is not a pure crowding intervention and must not identify a unique
+mediator merely from an effect. No outcome runner or world has yet been executed.
+
+Expanded observer/reference comparisons to include 100-step zero-charge sparse
+and fully occupied engineering worlds, outside the outcome seed block. All state,
+RNG, events, old observations and energy identities remain covered. Workload
+inventory stays at seventeen verified campaigns until new results are complete.
