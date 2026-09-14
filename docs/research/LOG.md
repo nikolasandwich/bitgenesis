@@ -3608,3 +3608,21 @@ The standalone isolated standard-library CLI loads successfully. No engine,
 protocol or running experiment changes. Next finish full gates and generate all
 1,200 checkpoint observations once the original200-world campaign completes.
 Autonomous goal remains active; V1 design only.
+
+## 2026-09-14 — Autonomous cycle 229
+
+Previous cycle implemented and committed the gated source-grouped checkpoint
+summary. Revalidated the same campaign023 process38994 as live; latest observed
+metadata189/200 completed worlds. Prepared a complete-source contrast figure
+script: every available source, both survival counts, exact paired contrasts,
+unchanged trait labels and cohort mean, with the manifest and full history/metric
+report linkage checked before output. It recomputes source contrasts from verified
+world records and compares all stored classifications. No final figure has been
+generated or visually accepted while execution remains incomplete.
+
+All201 tests pass. The plot CLI loads; the checkpoint grouper also consumed1080
+actual observations from the first18 complete sources into216 five-repeat groups.
+This is a compatibility check, not a full gate or scientific result. Next run full
+metric and history verification after the original process finishes, then produce
+and visually inspect the figure and publish the complete report. V0 runtime and
+registered protocol unchanged; autonomous goal active.
