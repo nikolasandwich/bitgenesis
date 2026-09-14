@@ -3626,3 +3626,24 @@ This is a compatibility check, not a full gate or scientific result. Next run fu
 metric and history verification after the original process finishes, then produce
 and visually inspect the figure and publish the complete report. V0 runtime and
 registered protocol unchanged; autonomous goal active.
+
+## 2026-09-14 — Autonomous cycle 230
+
+Previous cycle prepared the complete-source figure. Original campaign023 process
+38994 now exited0 with200/200 worlds. Full metric gate checked2,000,200 rows,
+200 initial states,100 paired initial groups and80 exact identical-trait record
+pairs. Full history gate reconstructed795,986 individuals. Both gates passed;
+1,200 checkpoint observations summarized into240 source/arm/time groups.
+
+Primary exact mean source contrast is0:2 positive,2 negative,16 zero sources.
+This does not support the preregistered positive prediction; it is not equivalence
+or absence of advantage in all settings. Published the Chinese report, all200
+compact results, complete gates/checkpoints and all20-source figure. Inspected PNG;
+moved negative-value labels away from their line segments, regenerated and checked
+revised image. Figure data exactly matches200 evaluations and100 pair categories.
+All201 tests passed in prior cycle; no runtime changes in this cycle. Updated stale
+sampling/README status without changing the frozen manifest or protocol.
+
+Next update verified inventory and acceptance synthesis, then build a fresh
+scope23 reproducible archive while keeping all older releases unchanged. No new
+experiment launched and V1 remains design only. Autonomous goal active.

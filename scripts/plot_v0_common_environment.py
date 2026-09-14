@@ -52,8 +52,9 @@ def main():
         value = row['contrast_float']
         contrast.hlines(y, 0, value, color='#546879', linewidth=2)
         contrast.scatter(value, y, color='#546879', s=30, zorder=3)
-        contrast.annotate(row['contrast'], (value, y), xytext=(7, 0),
-                          textcoords='offset points', va='center', fontsize=9)
+        contrast.annotate(row['contrast'], (value, y), xytext=(-7 if value < 0 else 7, 0),
+                          textcoords='offset points', ha='right' if value < 0 else 'left',
+                          va='center', fontsize=9)
     labels = [f"{r['source_seed']}   {samples[r['source_seed']]['genome']} / "
               f"{samples[r['source_seed']]['founder_genome']}" for r in rows]
     ax.set_yticks(range(len(rows)), labels)
