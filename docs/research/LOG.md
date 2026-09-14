@@ -2201,3 +2201,19 @@ energy but violates zero-charge dissipation. Verified the eighteen completed wor
 available at inspection (180,018 metric rows) against their stored summaries;
 this partial check is not full campaign acceptance. The runner is unchanged and
 continues from its original clean launch source ff8ee77; do not restart it.
+
+## 2026-09-14 — Autonomous cycle 150
+
+Confirmed campaign-018 process is still live. Implemented separate early-observation
+verification: exact actor partitions, inherited founder labels, feeding and birth
+eligibility, legal cardinal displacement, death phases, reconstructed individual
+energy and global stock/flow accounting. Reconciles founder/descendant budgets
+without double-counting internal birth transfers. Zero-cost movement must have
+no movement dissipation or payment deaths.
+
+Focused tests detect wrong energy, duplicate actors, wrong founder labels and
+teleportation, and accept both declared movement charges. Partial inspection of
+45 completed worlds verified 227,582 early actor energy records. Full campaign
+acceptance awaits the entire grid. Unrecorded blocked destinations, actual birth
+positions and complete local food histories are explicitly outside this verifier's
+scope. The original experiment process and source remain unchanged.
