@@ -2566,3 +2566,13 @@ complete reports exactly, including hashes, using archived standard-library scri
 No fresh runtime installation or full simulation rerun was needed for these
 reanalyses. Upload remains pending; original full review/supplement archives stay
 immutable. Evidence is recorded in local-supplement-019.json.
+
+## 2026-09-14 — Autonomous cycle 173
+
+Previous cycle created the fixed local-resource supplement and verified all five
+fresh extracted reanalyses. Uploaded its archive/checksum as draft
+v0.0.1-local-observations.1 (release 388205438). GitHub API sizes and SHA-256 values
+match both local files. Source CI 34817034476 completed successfully. No independent
+remote redownload is claimed. Updated download and acceptance guides with distinct
+scopes for full nineteen-campaign review, campaign-017 revision-2 observations and
+campaign-019 local-resource supplement. Older assets remain unchanged.

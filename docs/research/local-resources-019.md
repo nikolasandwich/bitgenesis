@@ -73,4 +73,4 @@ python -I -S scripts/summarize_v0_local_resources.py --output data/my-local-summ
 
 前两条读取本地重放数据；第三条读取仓库已核验报告与本地重放记录。
 [完整汇总](results/local-resources-019.json)保留全部四十个世界及输入校验值。
-这项补充晚于十九轮固定下载包，原包尚不含新重放数据与本分析；旧归档保持原范围。
+这项补充晚于十九轮固定下载包，原包不含新重放数据。[独立局部资源补充包](../design/local-resource-supplement.md)现已提供全部数据和五项复算；旧归档保持原范围。

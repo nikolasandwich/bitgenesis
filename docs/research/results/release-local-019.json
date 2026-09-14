@@ -1,0 +1,24 @@
+{
+  "id": 388205438,
+  "tag_name": "v0.0.1-local-observations.1",
+  "html_url": "https://github.com/nikolasandwich/bitgenesis/releases/tag/untagged-5e0e3047d668feaa3597",
+  "draft": true,
+  "target_commitish": "779a28dfa3edc467b294050c06a470622d13dbbe",
+  "assets": [
+    {
+      "name": "bitgenesis-v0-local-resources-019.zip",
+      "size": 19103056,
+      "digest": "sha256:8527875a92462c238f8cc5b7442f14894a6e61be35eb5c2afc077ea07dfd879e"
+    },
+    {
+      "name": "bitgenesis-v0-local-resources-019.zip.sha256",
+      "size": 105,
+      "digest": "sha256:f59401d783e9707a6d9700c096e2d533861e2edaa58c21192260850dba1d9c04"
+    }
+  ],
+  "source_ci": {
+    "id": 34817034476,
+    "conclusion": "success"
+  },
+  "scope": "Remote GitHub asset sizes and digests match local files; no independent remote download."
+}
