@@ -25,7 +25,7 @@ def main():
     if len(records)!=40 or {(r["arm"],r["birth_threshold"],r["seed"]) for r in records}!={
             (a,t,s) for a in ("dispersed","block") for t in (40,160) for s in range(1400,1410)}:
         raise ValueError("Expected all forty verified cases")
-    metadata=dict(status="running",completed_runs=0,reference_campaign="017",window=[1,100],
+    metadata=dict(status="running",completed_runs=0,reference_campaign="017",window=[1,100],feeding_schema=3,terminal_schema=1,
         scope="Retrospective observation of all existing prefixes; no independent seed or causal mechanism claim.",
         verification_sha256=hashlib.sha256(vp.read_bytes()).hexdigest(),**provenance())
     if metadata["git_dirty"] is not False:
@@ -49,22 +49,33 @@ def main():
             if ([asdict(o) for o in world.living.values()]!=initial["founders"] or
                 hashlib.sha256(json.dumps(world.rng.getstate()).encode()).hexdigest()!=initial["rng_sha256"]):
                 raise ValueError("Initial founder/RNG replay differs")
-            attempts=eaten=zero=0
+            attempts=eaten=zero=death_count=0
             output=args.output/(prefix+"-feeding.jsonl")
-            with mp.open(encoding="utf-8",newline="") as stream,output.open("x",encoding="utf-8") as target:
+            death_output=args.output/(prefix+"-terminal.jsonl")
+            with mp.open(encoding="utf-8",newline="") as stream,output.open("x",encoding="utf-8") as target,death_output.open("x",encoding="utf-8") as death_target:
                 reader=csv.DictReader(stream)
                 for tick in range(101):
+                    before_ids=set(world.living)
                     if tick:world.step()
                     row={k:None if v=="" else float(v) if k=="mean_genome" else int(v) for k,v in next(reader).items()}
                     if world.snapshot()!=row:raise ValueError(f"Metric replay differs at {prefix} tick {tick}")
-                    for feeding in world.drain_feeding():
+                    feeding_rows=world.drain_feeding();terminal_rows=world.drain_pre_feeding_deaths()
+                    if tick:
+                        feed_ids={r["id"] for r in feeding_rows};dead_ids={r["id"] for r in terminal_rows}
+                        if feed_ids & dead_ids or feed_ids | dead_ids != before_ids or len(feed_ids)!=len(feeding_rows) or len(dead_ids)!=len(terminal_rows):
+                            raise ValueError("Observer does not partition all active individuals")
+                    for terminal in terminal_rows:
+                        death_target.write(json.dumps(terminal,separators=(",",":"))+"\n")
+                        death_count+=1
+                    for feeding in feeding_rows:
                         target.write(json.dumps(feeding,separators=(",",":"))+"\n")
                         attempts+=1;eaten+=feeding["eaten"];zero+=feeding["eaten"]==0
                     world.events.clear()
             if eaten!=record["food_eaten_by_100"]:raise ValueError("Observed intake differs from verified early total")
             results.append(dict(arm=record["arm"],birth_threshold=record["birth_threshold"],seed=record["seed"],
                 feeding_attempts=attempts,zero_intake_attempts=zero,food_eaten=eaten,matched_metric_rows=101,
-                feeding_sha256=hashlib.sha256(output.read_bytes()).hexdigest()))
+                feeding_sha256=hashlib.sha256(output.read_bytes()).hexdigest(),
+                pre_feeding_deaths=death_count,terminal_sha256=hashlib.sha256(death_output.read_bytes()).hexdigest()))
             save("results.json",results);metadata["completed_runs"]=len(results);save("metadata.json",metadata)
         metadata["status"]="complete"
     except (Exception,KeyboardInterrupt) as error:

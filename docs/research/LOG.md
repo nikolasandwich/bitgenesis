@@ -1969,3 +1969,12 @@ pass. Death on movement payment precedes destination choice and is not a block.
 Documented dual-buffer draining and the remaining writer/readback step. Existing
 historical feeding datasets do not acquire terminal rows retroactively; no new
 whole-population fraction or mechanistic conclusion is claimed yet.
+
+## 2026-09-14 — Autonomous cycle 132: complete-action replay preparation
+
+Updated the historical prefix writer to drain and save terminal records alongside
+feeding schema 3, declare both schemas in metadata, and check that their IDs
+partition every pre-tick living population without duplicates. Outputs remain
+new-only and include hashes for both streams. This extends the same all-forty,
+first-hundred-tick replay, not the formal experiment count. Source is committed
+before execution; old feeding-only datasets remain unchanged.
