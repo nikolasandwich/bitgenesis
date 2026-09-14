@@ -3241,3 +3241,19 @@ the interval report. All 187 tests pass. Published all low-threshold intervals,
 input/code hashes, reproducibility command and inferential limits. Fixed scope-21
 archive predates this analysis and retains its exact bytes; no repackaging or
 new campaign was introduced. Autonomous goal remains active.
+
+
+## 2026-09-14 — Autonomous cycle 211
+
+Previous cycle verified the post hoc all-horizon capacity analysis. Added a six-panel
+step figure with all matched groups, shared axes and explicit registered-horizon
+markers. Plotting rederives the interval analysis from the complete metric report
+and requires exact equality plus the input hash; figure JSON preserves all six
+interval series and source hashes. All plotted series match the analysis report.
+
+Inspected the rendered PNG and expanded the lower axis to keep the transient -5
+value visible above the frame. Marked the time axis as logarithmic, positive/negative
+meaning, post hoc scope and correlated-horizon/non-CI limits. Added the figure to
+the existing report. No simulation or runtime changes; prior 187-test evidence
+remains applicable. Immutable scope-21 archive is unchanged and predates this
+later analysis. Autonomous research goal remains active.
