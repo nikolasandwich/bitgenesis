@@ -3949,3 +3949,19 @@ cohort and creates no report. Research index now links the registered/running
 assay and keeps the formal verified count at23. No runtime/protocol/input changes,
 no restart and no interim scientific claim. Continue the original process; next
 full gate and synthesis only after the complete registered grid. Goal active.
+
+## 2026-09-14 — Autonomous cycle 248
+
+Previous cycle checked ten completed worlds and demonstrated incomplete-cohort
+rejection. Re-polled original session51863 live; observed72/200 at turn start.
+Prepared verified comparison CSV export at all three levels:20 sources,100 swap
+pairs and200 runs when the cohort completes. Retains source/sample identities,
+all four terminal statuses, exact rational effects and null both-extinct fractions.
+Recomputes gate contrasts and rejects altered or incomplete inputs before output.
+
+Focused test passes for exact81/50 source effect, identity retention, null fractions
+and corruption. Initial CLI check with -I -S failed to resolve sibling scripts;
+correct standard-library invocation with -S loads successfully. No source/output
+mutation from that failed help invocation. No final export generated while running.
+Next complete original experiment, run full gate and produce the complete report,
+figure/checkpoints/tables without interim selection. Formal count23; goal active.
