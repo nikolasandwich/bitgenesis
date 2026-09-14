@@ -2444,3 +2444,20 @@ GitHub API sizes and SHA-256 digests match both local files; no independent remo
 download was performed. Updated current review/acceptance guides to nineteen while
 preserving older archives and historical notes. Archive content is fixed at eec26ab;
 these post-upload documentation changes are later main commits.
+
+## 2026-09-14 — Autonomous cycle 166
+
+Previous cycle completed fresh installation and delivered the verified nineteen-
+campaign archive. Reconciled decision/briefing documents with campaign 019 and
+added a post hoc terminal-resource audit of all forty existing trajectories.
+All seven extinctions have positive food before and at extinction. Each final
+survivor has energy one, and the terminal tick has zero uptake/births and one unit
+of dissipation. The basal-death interpretation follows the unchanged rules; it is
+not a retained late actor observation. All thirty-three censored worlds retain
+missing terminal measurements rather than zeroes.
+
+Published full hashed output and a bounded interpretation. Global food exhaustion
+is excluded for these events; local accessibility and the prior causes of energy
+loss remain unknown. The next measurement priority is local resources/positions
+with observer noninterference gates, before choosing any spatial intervention.
+No new simulation, formal campaign, runtime rule or fixed archive changed.

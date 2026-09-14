@@ -1,6 +1,6 @@
-# Decisions after the eighteen-campaign V0 checkpoint
+# Decisions after the nineteen-campaign V0 checkpoint
 
-V0 now has a fixed, independently installable review of eighteen campaigns.
+V0 now has a fixed, independently installable review of nineteen campaigns.
 Keep it as the experimental baseline. The next useful milestone is evidence
 about inherited use of information, not a larger V0 execution count. Only V0
 runtime is currently in scope; the V1 documents specify future work, not results.
@@ -51,7 +51,7 @@ side effects. A separate per-action energy ledger is now implemented and tested,
 actual phase payments and transfer to newborns. Historical replay now covers all forty early prefixes, with 171,207 energy
 records independently reconciled against the retained observations and original
 energy totals. The revision-2 observation supplement contains this campaign-017 energy dataset;
-the separate eighteen-campaign full archive includes the formal campaign-018
+the separate nineteen-campaign full archive includes the formal campaign-018 and campaign-019
 early observations. See the guide for exact download scopes.
 
 ## What the completed movement-charge probe changes
@@ -77,6 +77,29 @@ controller found food. If a later robustness grid includes both movement charges
 compare information treatments within each charge and report the complete grid.
 No new formal V0 campaign or V1 outcome run is preregistered by this decision note.
 
+## What the joint-zero-charge result changes
+
+[Campaign 019](../research/campaign-019.md) retains four low-threshold extinctions
+with both movement and direct birth charges zero; paired high-threshold worlds
+survive to the horizon. The low-threshold cost contrast also contains both free-only
+and charged-only survival pairs. Do not assume eliminating a charge benefits every
+trajectory, or repeat cost sweeps merely to accumulate survival percentages.
+
+A [post hoc terminal-stock audit](../research/terminal-resources-019.md) checks all
+forty outcomes: all seven extinctions occur with positive global food, including
+positive stock one tick earlier. Each last survivor has energy one and dies before
+feeding under the unit-basal rules. This excludes global resource exhaustion for
+these events; it does not identify spatial accessibility or the earlier cause of
+energy depletion. Survivors have no extinction-time stock observation.
+
+The next bounded measurement should record actor positions and local resource
+availability without consuming RNG or changing the world. Specify the complete
+cohort and observation window before replaying; compare all original metrics and
+RNG/state in engineering tests. This is retrospective observation, not new seed
+evidence or a causal intervention. Do not launch a food-redistribution or occupancy
+variant until its changed processes and falsifiable predictions are explicit.
+This note does not register or launch another campaign. V1 remains design only.
+
 ## V1 implementation sequence when runtime scope expands
 
 1. Freeze a versioned sensor/weight/action specification, costs and independent
@@ -101,7 +124,7 @@ Development, ecology and self-organization keep their existing graduation gates.
 ## Reviewable checkpoint
 
 The [Chinese review guide](../research/REVIEW.zh-CN.md) points to the fixed
-eighteen-campaign archive and explains installation checks. The full
+nineteen-campaign archive and explains installation checks. The full
 [research index](../research/README.md) contains all protocols and results.
 The latest engine is still V0; documentation or packaging work does not advance
 the runtime stage or prove emergence of life, sensing or intelligence.

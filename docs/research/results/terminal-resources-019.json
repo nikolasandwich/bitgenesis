@@ -1,0 +1,469 @@
+{
+  "analysis": "campaign-019-terminal-resources-posthoc-1",
+  "rows": [
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1600,
+      "status": "extinct",
+      "extinction_tick": 136,
+      "terminal": {
+        "prior_population": 1,
+        "prior_organism_energy": 1,
+        "prior_food_energy": 6924,
+        "food_energy": 6984,
+        "resource_added": 60,
+        "food_eaten": 0,
+        "dissipated": 1
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1601,
+      "status": "extinct",
+      "extinction_tick": 118,
+      "terminal": {
+        "prior_population": 1,
+        "prior_organism_energy": 1,
+        "prior_food_energy": 5776,
+        "food_energy": 5840,
+        "resource_added": 64,
+        "food_eaten": 0,
+        "dissipated": 1
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1602,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1603,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1604,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1605,
+      "status": "extinct",
+      "extinction_tick": 2180,
+      "terminal": {
+        "prior_population": 1,
+        "prior_organism_energy": 1,
+        "prior_food_energy": 12712,
+        "food_energy": 12776,
+        "resource_added": 64,
+        "food_eaten": 0,
+        "dissipated": 1
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1606,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1607,
+      "status": "extinct",
+      "extinction_tick": 138,
+      "terminal": {
+        "prior_population": 1,
+        "prior_organism_energy": 1,
+        "prior_food_energy": 6924,
+        "food_energy": 6956,
+        "resource_added": 32,
+        "food_eaten": 0,
+        "dissipated": 1
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1608,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 0,
+      "seed": 1609,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1600,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1601,
+      "status": "extinct",
+      "extinction_tick": 244,
+      "terminal": {
+        "prior_population": 1,
+        "prior_organism_energy": 1,
+        "prior_food_energy": 12588,
+        "food_energy": 12688,
+        "resource_added": 100,
+        "food_eaten": 0,
+        "dissipated": 1
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1602,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1603,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1604,
+      "status": "extinct",
+      "extinction_tick": 133,
+      "terminal": {
+        "prior_population": 1,
+        "prior_organism_energy": 1,
+        "prior_food_energy": 6732,
+        "food_energy": 6764,
+        "resource_added": 32,
+        "food_eaten": 0,
+        "dissipated": 1
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1605,
+      "status": "extinct",
+      "extinction_tick": 4419,
+      "terminal": {
+        "prior_population": 1,
+        "prior_organism_energy": 1,
+        "prior_food_energy": 13984,
+        "food_energy": 14028,
+        "resource_added": 44,
+        "food_eaten": 0,
+        "dissipated": 1
+      }
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1606,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1607,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1608,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 40,
+      "birth_cost": 4,
+      "seed": 1609,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1600,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1601,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1602,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1603,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1604,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1605,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1606,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1607,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1608,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 0,
+      "seed": 1609,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1600,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1601,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1602,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1603,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1604,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1605,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1606,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1607,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1608,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    },
+    {
+      "arm": "block",
+      "birth_threshold": 160,
+      "birth_cost": 4,
+      "seed": 1609,
+      "status": "right_censored",
+      "extinction_tick": null,
+      "terminal": null
+    }
+  ],
+  "extinct_worlds": 7,
+  "right_censored_worlds": 33,
+  "extinct_with_positive_food": 7,
+  "input_sha256": {
+    "block-threshold-40-birth-cost-0-seed-1600.csv": "add19c47f8d4d5c09a422c677506408e6129ff4d3c0cf9de51b7a2f94a79b0d4",
+    "block-threshold-40-birth-cost-0-seed-1601.csv": "71d75fa176647bf1207cf441c1ef7b2d68788f0ed5a2b141303218aeaccab216",
+    "block-threshold-40-birth-cost-0-seed-1602.csv": "da5f85ec3f6a6fd1a7090792f5572eb445bf2fe2a5d3724ced7fc24eeadf3c52",
+    "block-threshold-40-birth-cost-0-seed-1603.csv": "838afbbe7cbc324c625d464af31099f053f298fdb4a58d672756489f5e9d1467",
+    "block-threshold-40-birth-cost-0-seed-1604.csv": "02964332a332726e6d31c37bdd5c9a0aecc9698a4adc1e2ebe261c1ca5323f00",
+    "block-threshold-40-birth-cost-0-seed-1605.csv": "7711626f112508d29a7f91193ab16b5adc9e908e5cb8ded395763910f14e1b90",
+    "block-threshold-40-birth-cost-0-seed-1606.csv": "a913262cf87dd4b09b9883e050ff7a07a940431f991dddd68ba6f2b371371ac6",
+    "block-threshold-40-birth-cost-0-seed-1607.csv": "ea6390fbc0354c1f44c3601c2ce0fda7ba698a84da073c11e917bd984d9f0d77",
+    "block-threshold-40-birth-cost-0-seed-1608.csv": "fc3b8182c2ad596e6e1f8c0cbed8ce00065dd36c879af7fde6f541a574f37bf8",
+    "block-threshold-40-birth-cost-0-seed-1609.csv": "0847754ff73765bc5e9db795632f6f679374d9f11cf7874ed34de277b484e1f1",
+    "block-threshold-40-birth-cost-4-seed-1600.csv": "b0de71def4e629cd24f33fb49be0ae36bda50673801fec60f737836e53a5b575",
+    "block-threshold-40-birth-cost-4-seed-1601.csv": "da415a33ddbed098975422d4a1b17febb2469ad1ea4a4c7e04d0bc3d4c684951",
+    "block-threshold-40-birth-cost-4-seed-1602.csv": "b6ecf75cd11b516f02094c8c036d4607e87bb2764507bec1cfbcf2e0cd791cac",
+    "block-threshold-40-birth-cost-4-seed-1603.csv": "675f39171198a54af7de70fbb6ed5a74c5f0cfa064e7788efa6008da8f6ab951",
+    "block-threshold-40-birth-cost-4-seed-1604.csv": "68f9113f091523561eed19a0aff59f7cbb670b0269b9525665b5bb1f9d43e259",
+    "block-threshold-40-birth-cost-4-seed-1605.csv": "5818061e5a728c829b4fd42fe931f211c5b2feda63e615277a41332f9ef63ba0",
+    "block-threshold-40-birth-cost-4-seed-1606.csv": "032863587eea283a26b864f7af1a2923cc79776f1881ac6d5f1f64cf2ea3d432",
+    "block-threshold-40-birth-cost-4-seed-1607.csv": "b90d818dbb04e11891ebfc79f297c1d5d559ade955b2aaa21af9aa31486dec1e",
+    "block-threshold-40-birth-cost-4-seed-1608.csv": "34b95ce0292ddf5044c14a23ce09b5486a079c09eeb62def41dd173d3e64ea68",
+    "block-threshold-40-birth-cost-4-seed-1609.csv": "145e6bea443a93fd7610b3d708257ee6e9f72fe9f39c4d0fcc049f9f5e034209",
+    "block-threshold-160-birth-cost-0-seed-1600.csv": "c9f6bd75f9c6eb56b390b58ddcfb9774aea428deaad95804c1863adfc54cf497",
+    "block-threshold-160-birth-cost-0-seed-1601.csv": "6ec96bc67d872b14dd41622d03c418f63b4bf048780e65ac498a05732b094783",
+    "block-threshold-160-birth-cost-0-seed-1602.csv": "1689bce1c4d0812b77efd09379676de2253cedee8952572cd0ad6ed844b485dd",
+    "block-threshold-160-birth-cost-0-seed-1603.csv": "9c27efda4562390bb00dfac588e1c25dd208af46777ca672e6afd981545d281f",
+    "block-threshold-160-birth-cost-0-seed-1604.csv": "c20e3a825feb0470619caa6ea5df01eb6f6b0338ec4fb16b0b26331642955656",
+    "block-threshold-160-birth-cost-0-seed-1605.csv": "74404ef409bf2fcb00f8ed8ca69958d99a12174cbebe4f374c93929f25e7206e",
+    "block-threshold-160-birth-cost-0-seed-1606.csv": "a5c865922c9714773449867225f7e824de50ec1cc703639d28522f06d696c479",
+    "block-threshold-160-birth-cost-0-seed-1607.csv": "9f63668836a2ab1c2d44c0210b202354e2e4e3cb1309c6ffe26fe2685dbfb7b4",
+    "block-threshold-160-birth-cost-0-seed-1608.csv": "5d2ca5301051cff72f0e83bf89471c5b7fb5e711c601d9f445d98fff68b48e5e",
+    "block-threshold-160-birth-cost-0-seed-1609.csv": "863f4f38d2dbedd4909c660ef78b2fe512960645efa8876053d00326f74f6ca4",
+    "block-threshold-160-birth-cost-4-seed-1600.csv": "72da7b8400d3f1df95432464168dce0589214c6ca1ec46943b151de43e9560ad",
+    "block-threshold-160-birth-cost-4-seed-1601.csv": "67f7bed99e563496b04361c03f1ac594cbbf627a1f89678b78710a9c6bb4946b",
+    "block-threshold-160-birth-cost-4-seed-1602.csv": "7462dcb8076592c40c9251f3d5f5e6118433ec61393fc76a8218e8333498bc92",
+    "block-threshold-160-birth-cost-4-seed-1603.csv": "e1f2897805f52eeeb50edee222d3f01cb16c3469fd3e9095731c013b153c7cf2",
+    "block-threshold-160-birth-cost-4-seed-1604.csv": "fea4b029067774967d72078912de79360e79aa288ab2698de58163a4fc8be506",
+    "block-threshold-160-birth-cost-4-seed-1605.csv": "ac215a74962b2a3ece8bf2e6938d6a09da09a6f6d4f7e8d67d0fabc10795fb25",
+    "block-threshold-160-birth-cost-4-seed-1606.csv": "6f84f1008bc528ee4f4bd99acccd108133dadbdfe66d8690210087c43b38b279",
+    "block-threshold-160-birth-cost-4-seed-1607.csv": "c8a2eb46d675c939f57894d44daf6303b09413fb27b9fde2a690330f8e62f85c",
+    "block-threshold-160-birth-cost-4-seed-1608.csv": "37f52afb414329505e932cc62cdab07bae4aba4acc3fdb7bd7afcc19314ee63a",
+    "block-threshold-160-birth-cost-4-seed-1609.csv": "1a778af9e59d909044229e74f22bad1da35012488eb400011b9ac37261387827"
+  },
+  "metric_report_sha256": "fca831cdf2e7307da99c6db6a6999d868c842f6220ce0c5511ef93a5952d55bd",
+  "script_sha256": "fc60257076e775defa4a7aae7265a7eb0054c42e0494d8959b7e3a2ca0e77d29",
+  "scope": "Post hoc inspection of all campaign-019 outcomes. Terminal stock quantities condition on extinction; survivors have no terminal extinction measurement. Positive global food does not establish local accessibility. The basal-death interpretation uses unchanged unit-basal V0 rules, not retained terminal actor observations beyond tick 100. No new replicate or unique causal mechanism."
+}
