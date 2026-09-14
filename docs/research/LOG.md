@@ -2878,3 +2878,20 @@ normalized engine hash and saved report/CSV plus Chinese derivation. No simulati
 new formal replicate, or historical archive change. Further interpretation must
 account for differing endogenous stock trajectories rather than assuming matched
 realized supply from matched nominal input.
+
+
+## 2026-09-14 — Autonomous cycle 192
+
+Previous cycle derived exact conditional renewal moments. Inspected the current
+engine: the row-major renewal loop consumes the first 1,024 randrange(1000) draws
+before any actor shuffle. Registered a bounded retrospective all-sixty-world,
+100-tick stock observation connecting conditional expectations to retained maps.
+Specify cloned-RNG sampled arrivals/discard separately from expected cap loss,
+all/active/empty-start partitions, independent full-record checks and source-pinned
+plain-engine parity. Original outcomes are already known; this registration is
+prospective only with respect to new stock capture, not the original experiment.
+
+No new observation or outcome run launched. The next action is runner engineering
+on seed 23 and independent verification. Budget is exactly 6,000 supplementary
+replay ticks, reported separately from the unchanged formal experiment totals.
+Historical archives and V0 rules remain unchanged; V1 stays design-only.

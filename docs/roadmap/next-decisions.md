@@ -181,3 +181,14 @@ mechanism, a universal ranking, or sensory value from this fixed-policy cohort.
 The next delivery is a twenty-campaign review and reproducible archive, followed by
 an updated V0 evidence synthesis. No campaign 021 is registered by this note.
 Keep V1 design-only under the current runtime scope.
+
+
+## Registered retrospective stock observation
+
+The [campaign-020 stock protocol](../../experiments/v0/observation-020-renewal-stocks.md)
+now fixes all sixty worlds and ticks 1–100 before new stock capture. It connects
+the exact capacity law to observed stock histograms and separates sampled discard
+from expected cap loss with a read-only RNG clone. Conditional calculations do not
+simulate alternate trajectories. Implement parity checks and the independent
+verifier before interpreting this supplementary dataset; no new formal cohort or
+V1 runtime follows from this registration.
