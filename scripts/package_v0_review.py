@@ -25,10 +25,10 @@ def sha256(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
-    names = {8: "review-8", 9: "nine-campaigns", 10: "ten-campaigns", 11: "eleven-campaigns", 12: "twelve-campaigns", 13: "thirteen-campaigns", 14: "fourteen-campaigns", 15: "fifteen-campaigns", 16: "sixteen-campaigns", 17: "seventeen-campaigns", 18: "eighteen-campaigns", 19: "nineteen-campaigns", 20: "twenty-campaigns", 21: "twenty-one-campaigns"}
+    names = {8: "review-8", 9: "nine-campaigns", 10: "ten-campaigns", 11: "eleven-campaigns", 12: "twelve-campaigns", 13: "thirteen-campaigns", 14: "fourteen-campaigns", 15: "fifteen-campaigns", 16: "sixteen-campaigns", 17: "seventeen-campaigns", 18: "eighteen-campaigns", 19: "nineteen-campaigns", 20: "twenty-campaigns", 21: "twenty-one-campaigns", 22: "twenty-two-campaigns"}
     args.output = args.output or Path(f"data/bitgenesis-v0-{names[args.campaigns]}.zip")
     if args.output.exists():
         raise ValueError("Review output already exists; choose a new path")
@@ -162,6 +162,24 @@ def main():
                     raise ValueError('Campaign-021 process report differs from saved review')
                 metric_audits['campaign-021-processes'] = actual
 
+
+    if args.campaigns >= 22:
+        with tempfile.TemporaryDirectory() as temporary:
+            temp = Path(temporary)
+            metric_path = temp / 'metrics.json'
+            history_path = temp / 'histories.json'
+            checkpoint_path = temp / 'checkpoints'
+            commands = [
+                ([sys.executable, '-S', str(root/'scripts/verify_v0_monomorphic_metrics.py'), '--input', str(root/'data/campaign-022'), '--output', str(metric_path)], metric_path, 'campaign-022-verification.json'),
+                ([sys.executable, '-S', str(root/'scripts/verify_v0_monomorphic_histories.py'), '--input', str(root/'data/campaign-022'), '--metrics-verification', str(metric_path), '--output', str(history_path)], history_path, 'campaign-022-histories.json'),
+                ([sys.executable, '-I', '-S', str(root/'scripts/summarize_v0_monomorphic_checkpoints.py'), '--input', str(root/'data/campaign-022'), '--output', str(checkpoint_path)], checkpoint_path/'summary.json', 'campaign-022-checkpoints.json')]
+            for command, output, expected_name in commands:
+                subprocess.run(command, check=True, stdout=subprocess.DEVNULL)
+                actual = json.loads(output.read_text(encoding='utf-8'))
+                expected = json.loads((root/'docs/research/results'/expected_name).read_text(encoding='utf-8'))
+                if actual != expected:
+                    raise ValueError(f'{expected_name} differs from saved review')
+                metric_audits[expected_name.removesuffix('.json')] = actual
 
     manifest = {"format": "bitgenesis-review-1", "git_commit": git("rev-parse", "HEAD"),
                 "scope": f"Tracked source plus campaigns 001-{args.campaigns:03d}, mutation calibration, acceptance demonstration and Chinese review page. Other local data and environments are excluded.",

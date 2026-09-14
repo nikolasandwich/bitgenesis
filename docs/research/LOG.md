@@ -3407,3 +3407,21 @@ the plot to the formal report, retaining finite-cohort, no significance and no
 adaptive-improvement claims. No new simulation or runtime change; prior 191-test
 evidence remains applicable. Fixed scope-21 download is unchanged; portable
 campaign-022 evidence remains next. Autonomous research goal active.
+
+
+## 2026-09-14 — Autonomous cycle 219
+
+Previous cycle delivered the complete campaign-022 paired figure. Extended review
+and packaging tools to explicit scope 22, retaining earlier scopes and default 8.
+The new review section validates all forty terminal records against the metric
+gate and all 240 checkpoint records against verified synthesis, links the paired
+figure/report, and distinguishes finite-cohort mutation results from adaptation.
+
+Generated data/review-v0-22.html, SHA256
+f83571bbc296a2bea226aa709d7992a6a929192e3eba6a4ab1ba057439645435.
+All 22 local targets exist; five existing review-grid tests pass. This is a static
+page check, not renewed interactive browser acceptance. Packaging adds all three
+campaign-022 gates with exact report equality, retaining previous campaign checks.
+CLI loads. Commit this source before launching the fixed twenty-two-campaign ZIP;
+fresh extraction/installation and upload are subsequent gates. No engine or
+experiment changes. Existing archives immutable; autonomous goal active.

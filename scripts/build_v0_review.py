@@ -30,7 +30,7 @@ def require_followup_records(records, reference, verified):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-root", type=Path, default=Path("data"))
-    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21), default=8)
+    parser.add_argument("--campaigns", type=int, choices=(8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22), default=8)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     args.output = args.output or args.data_root / f"review-v0-{args.campaigns}.html"
@@ -385,6 +385,34 @@ def main():
         capacity_report=link(root/'docs/research/campaign-021.md')
         capacity_section=f'''<section><h2>21 / 更大的容量，没有一致改善存活</h2><p>十个新种子，每个包含两种容量、两种繁殖阈值与三种补给方式，共120个世界。容量从24增至96，初始食物仍为同一地图上的5,120单位，初始个体与随机状态保持配对。</p>{capacity_table}<img src="{capacity_figure}" alt="全部120个世界的容量配对结局；六个面板区分阈值与补给方式，颜色区分容量，圆点为灭绝，三角为万步右删失。" style="width:100%;height:auto"><p>低阈值下，三种补给方式的大容量净配对存活优势为 +1、−2、−4，未支持预登记的三组均为正的预测。三组均存在仅小容量存活的种子。高阈值的六十个世界全部活到观察终点。</p><p class="small">增加容量会改变储存、摄食与后续轨迹，不能把结果单独归因为容量损耗。灭绝后的补给与生存期间补给分开记录；终点存活不表示永久存活。<a href="{capacity_report}">全部配对结局、资源窗口与独立核验</a>。二十轮固定下载包不含本轮。</p></section>'''
         page=page.replace('<section><h2>复核与恢复</h2>',capacity_section+'<section><h2>复核与恢复</h2>')
+    if args.campaigns >= 22:
+        records=campaigns[21]
+        require_run_grid([{**r,'treatment':str(r['mutation_probability'])} for r in records],('0','100'),range(1900,1920))
+        root=Path(__file__).resolve().parents[1]
+        verification_path=root/'docs/research/results/campaign-022-verification.json'
+        verification=json.loads(verification_path.read_text(encoding='utf-8'))
+        history=json.loads((root/'docs/research/results/campaign-022-histories.json').read_text(encoding='utf-8'))
+        import hashlib
+        if history['metric_verification_sha256']!=hashlib.sha256(verification_path.read_bytes()).hexdigest():
+            raise ValueError('Mutation history and metric verification differ')
+        key=lambda r:(r['seed'],r['mutation_probability'])
+        compact=[{k:v for k,v in r.items() if k!='observations'} for r in records]
+        if sorted(compact,key=key)!=sorted(verification['runs'],key=key):
+            raise ValueError('Mutation records differ from independent verification')
+        checkpoints=json.loads((root/'docs/research/results/campaign-022-checkpoints.json').read_text(encoding='utf-8'))
+        observed=[dict(seed=r['seed'],mutation_probability=r['mutation_probability'],**o) for r in records for o in r['observations'].values()]
+        checkpoint_key=lambda r:(r['seed'],r['mutation_probability'],r['tick'])
+        if len(observed)!=240 or sorted(observed,key=checkpoint_key)!=sorted(checkpoints['observations'],key=checkpoint_key):
+            raise ValueError('Mutation checkpoint records differ from verified synthesis')
+        mutation_rows=[]
+        for mutation in (0,100):
+            selected=[r for r in records if r['mutation_probability']==mutation]
+            mutation_rows.append([mutation,*[f"{sum(r['observations'][str(t)]['population']>0 for r in selected)}/20" for t in (100,500,1000,5000,10000)]])
+        mutation_table=table(['突变概率/1000','活到100步','500步','1,000步','5,000步','10,000步'],mutation_rows)
+        mutation_figure=link(root/'docs/research/figures/campaign-022-survival.png')
+        mutation_report=link(root/'docs/research/campaign-022.md')
+        mutation_section=f'''<section><h2>22 / 相同祖先性状，开启突变会怎样？</h2><p>二十个新种子，每种子开启或关闭突变，共四十个世界。所有祖先的移动概率基因均为250，初始食物与个体状态配对，世界规则保持V0。</p>{mutation_table}<img src="{mutation_figure}" alt="全部二十个种子的突变配对结果，圆点为灭绝，三角为万步存活；右侧逐行标出配对结局。" style="width:100%;height:auto"><p>六个种子仅突变组存活，四个仅无突变组存活，四个双方存活，六个双方灭绝。净配对优势为+2，支持本队列的正方向预测，但不能保证每个世界都受益。</p><p class="small">没有进行显著性检验。产生新移动概率不等于产生新功能，存活处理差异也不独立证明适应性改善。全部出生、死亡和谱系已重建，灭绝世界保留在预定检查点中。<a href="{mutation_report}">完整结果、240个检查点与核验范围</a>。二十一轮固定下载包不含本轮。</p></section>'''
+        page=page.replace('<section><h2>复核与恢复</h2>',mutation_section+'<section><h2>复核与恢复</h2>')
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x", encoding="utf-8") as stream:
         stream.write(page)
