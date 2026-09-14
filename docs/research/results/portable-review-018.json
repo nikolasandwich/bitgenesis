@@ -1,0 +1,13 @@
+{
+  "archive": "bitgenesis-v0-eighteen-campaigns.zip",
+  "sha256": "b34e319d359a564e195a29006892d257fed9024f207f1f8adc4008a317d12de0",
+  "bytes": 124483734,
+  "payload_files": 1736,
+  "source_commit": "b304f2dd516242258feab91b8041e6e10cf36223",
+  "fresh_extracted_reports_equal": [
+    "campaign-018-verification.json",
+    "campaign-018-observations.json",
+    "campaign-018-processes.json"
+  ],
+  "scope": "New-directory extraction and archived standard-library campaign-018 reanalyses, including sibling helpers. No new simulation or fresh runtime installation yet."
+}

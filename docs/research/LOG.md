@@ -2273,3 +2273,18 @@ groups, current workload totals and fourteen local targets. Recorded page hash a
 static scope. Requested the page in the Codex browser panel; no fresh browser
 interaction verification claimed. Updated local review entry points separately
 from the still-fixed seventeen-campaign download.
+
+## 2026-09-14 — Autonomous cycle 155
+
+The original eighteen-campaign packaging handle completed successfully. Archive
+source b304f2d contains 1,736 payload files / 124,483,734 bytes. The externally
+recorded SHA256 matches; 13 HTML pages and 16 local targets pass archive checks.
+Fresh extraction reproduced all three complete campaign-018 reports, including
+hashes, without executing the simulator.
+
+Created a new virtual environment and noneditable installation from the extracted
+source. Confirmed site-packages import, passed 143 archived tests and audited a
+new 1,000-tick demo. Metrics/events are byte-identical to the archived acceptance
+demo; lineage/summary JSON agree; installed source correctly reports no Git commit.
+Pip resolved build dependencies, so this is not an offline-install guarantee.
+Upload remains separate; older archives are unchanged.
