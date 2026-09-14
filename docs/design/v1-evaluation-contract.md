@@ -1,7 +1,9 @@
 # V1 evaluation contract — outcomes before execution
 
 Design only. This supplements the [controller design](v1-experiment-design.md).
-No V1 runtime, pilot or outcome experiment exists. These are proposed analysis
+V1 runtime and the first viability pilot now exist. Endpoint ancestor sampling
+and exact fixed-state action distributions are implemented in `v1/evaluation.py`.
+No formal information-value outcome experiment exists. These are proposed analysis
 rules to freeze in a future protocol, not measured results or an external fitness
 function. The simulator must never read evaluation scores to allocate reproduction.
 
