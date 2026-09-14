@@ -25,3 +25,17 @@ Replay tests and substrate balance tests pass. Independent V3 spatial, ancestry
 and resource reconstruction is still pending. Do not describe the runner's own
 ledger assertions or output hashes as an independent audit or ecological evidence.
 Preserved V0/V1/V2 commands are unchanged.
+
+Independent resource replay is available:
+
+```console
+python -m bitgenesis.v3.resource_audit data/my-v3-check --output data/my-v3-resource-audit.json
+```
+
+It reconstructs external A supply from the recorded resource RNG, both substrate
+stocks and conversion arithmetic at each recorded feeding site, actor/world
+arithmetic ledgers and terminal resource RNG/stocks. It binds allocation to the
+recorded final lineage but does not yet independently establish that lineage,
+actor eligibility, movement, decisions or construction. The engineering001
+50-step run passes450 feeding records. This is a resource audit, not a full-world
+audit. Additional engineering seeds85200..85202 are reserved for audit tests.

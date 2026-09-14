@@ -4170,3 +4170,9 @@ Four new tests cover exact replay with births, actor/environment accounting, rem
 Previous turn integrated V3 inheritance/world (a5f9fdd), a substantive progress turn. Added v3-run-1 persisted runner and module CLI with full A/B grids, attempts, ancestry, random states, streamed events/actors, external A and substrate conversion summaries. Metadata binds V3 and reused V1-controller/V2-development sources, rules, configuration and output hashes. Worst-case actor budget rejects before allocation; existing outputs cannot be overwritten.
 
 Two new tests cover byte-identical replay, source/output hashes, independent aggregate substrate accounting, failed founder denominators and recording-budget rejection. Full268 tests pass in30.073 seconds. Documentation explicitly distinguishes these checks from pending independent world audit. Commit clean source before an engineering CLI smoke run; next independently reconstruct resource/spatial/history records before ecological pilot registration.
+
+## 2026-09-14 — Autonomous cycle 280
+
+Previous turn added persisted V3 execution and completed engineering001 (d154d0e), a substantive progress turn. Added independent resource replay without world/resource-engine imports: exact resource RNG renewal, substrate transfers at recorded sites, lineage-record allocation binding, actor/world arithmetic, terminal grids/RNG and summary equality. Scope explicitly excludes movement, decision/eligibility, construction and ancestry proof.
+
+Two focused tests pass for births, recycling controls, failed founders and rehashed semantic corruption of releases/renewal/site bounds. Engineering001 passes50 ticks/450 feedings:1472 A plus242 B consumed,706 energy gained,860 B released,148 dissipated. Archived the audit; runtime unchanged since268 full tests. Next complete spatial and history verification, then register ecological viability experiments.
