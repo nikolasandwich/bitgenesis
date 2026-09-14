@@ -2636,3 +2636,18 @@ This strengthens internal replay consistency without supplying an independent
 historical actor-path record or causal intervention. Published the hashed report
 and reproduction command; the immutable supplement already contains inputs but
 predates this checker. No new simulation or modification of V0 dynamics.
+
+## 2026-09-14 — Autonomous cycle 178
+
+Previous cycle strengthened random-state replay checks. Added a bounded analytical
+one-action opportunity calculation for campaign-019 physiology/trait. With empty
+current site and sufficient basal energy, each free food neighbor contributes
+1/16 positive-intake probability; four contribute 1/4. At energy one it is zero.
+Blocked moves correctly retain current-site intake. Three arithmetic tests pass.
+Applied exact Fraction arithmetic to all 38,471 verified local rows and retained
+per-world expectations and realized intake separately. No random draws/simulations.
+
+The report explicitly conditions on observed local states under the policy's
+uniform-draw distribution, not deterministic saved-PRNG state. Endpoint selection
+precludes naive residual significance or sensory-rescue claims. Published the
+formula and full result, preserving fixed archive contents and formal counts.
