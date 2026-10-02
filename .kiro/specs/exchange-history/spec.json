@@ -1,0 +1,21 @@
+{
+  "feature_name": "exchange-history",
+  "language": "zh-CN",
+  "phase": "implementation-in-progress",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "approval_basis": "用户直接持续研究授权下的同规则有界历史判别；无需新增费用或用户材料。",
+  "ready_for_implementation": true
+}
