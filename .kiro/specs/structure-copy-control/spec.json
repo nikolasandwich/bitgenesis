@@ -1,0 +1,21 @@
+{
+  "feature_name": "structure-copy-control",
+  "language": "zh-CN",
+  "phase": "tasks-generated",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "approval_basis": "用户持续自主研究授权；极小固定真实物理验证，不将人为构造计作自然研究阳性。",
+  "ready_for_implementation": true
+}
