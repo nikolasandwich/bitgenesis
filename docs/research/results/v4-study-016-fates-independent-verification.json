@@ -1,0 +1,20 @@
+{
+  "status": "verified",
+  "branches": 40,
+  "pairs": 20,
+  "steps": 16000,
+  "eligible_component_branches": 1648,
+  "checkpoints": 4,
+  "new_simulation_steps": 0,
+  "new_independent_sources": 0,
+  "reused_independent_sources": 5,
+  "input_files": 1613,
+  "files_sha256": {
+    "metadata.json": "466447758052bf15e9b92c710778f081d78c09d65488d699348f0f607aee12c9",
+    "records.json": "1736bfe988841ee4a535981df28754eaf5938b66fe07678eb7996ae5986fa052",
+    "results.json": "d23226ab4ba70e46df8d967a66f8c9f8e0799be2b634adba881d45392de7c633",
+    "summary.json": "c8dc05882366768a239012816e4a3cafec4250383f284100e014ae8bcd6a921d"
+  },
+  "verifier_sha256": "a62bb8459e1ad606f619f6290feaf09ab792ba937dbd3e09c24da9ae6c0c867c",
+  "scope": "independent simultaneous owner-count reconstruction from all saved identities/material partitions/parents, saved checkpoint equality, exact five-source fate and event-order summaries; no new physical simulation"
+}

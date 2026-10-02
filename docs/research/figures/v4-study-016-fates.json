@@ -1,0 +1,197 @@
+{
+  "summary_sha256": "c8dc05882366768a239012816e4a3cafec4250383f284100e014ae8bcd6a921d",
+  "case": {
+    "component": 7,
+    "anchor_members": [
+      8,
+      9
+    ],
+    "checkpoints": {
+      "1": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 2,
+        "continuous": true
+      },
+      "2": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 2,
+        "continuous": true
+      },
+      "3": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 2,
+        "continuous": true
+      },
+      "4": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 2,
+        "continuous": true
+      },
+      "5": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 2,
+        "continuous": true
+      },
+      "6": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 2,
+        "continuous": true
+      },
+      "7": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 2,
+        "continuous": true
+      },
+      "8": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 2,
+        "continuous": true
+      },
+      "9": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 2,
+        "continuous": true
+      },
+      "10": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 2,
+        "continuous": true
+      },
+      "11": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 2,
+        "continuous": true
+      },
+      "12": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 2,
+        "continuous": true
+      },
+      "13": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 2,
+        "continuous": true
+      },
+      "14": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 3,
+        "continuous": true
+      },
+      "15": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 3,
+        "continuous": true
+      },
+      "16": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 3,
+        "continuous": true
+      },
+      "17": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 3,
+        "continuous": true
+      },
+      "18": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 3,
+        "continuous": true
+      },
+      "19": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 4,
+        "continuous": true
+      },
+      "20": {
+        "category": "continuous_retained",
+        "original_survivors": 2,
+        "descendants": 4,
+        "continuous": true
+      },
+      "21": {
+        "category": "continuous_replaced",
+        "original_survivors": 0,
+        "descendants": 2,
+        "continuous": true
+      },
+      "22": {
+        "category": "broken_replaced",
+        "original_survivors": 0,
+        "descendants": 1,
+        "continuous": false
+      },
+      "23": {
+        "category": "broken_replaced",
+        "original_survivors": 0,
+        "descendants": 1,
+        "continuous": false
+      },
+      "24": {
+        "category": "broken_replaced",
+        "original_survivors": 0,
+        "descendants": 1,
+        "continuous": false
+      },
+      "25": {
+        "category": "broken_replaced",
+        "original_survivors": 0,
+        "descendants": 1,
+        "continuous": false
+      },
+      "26": {
+        "category": "broken_replaced",
+        "original_survivors": 0,
+        "descendants": 1,
+        "continuous": false
+      },
+      "27": {
+        "category": "broken_replaced",
+        "original_survivors": 0,
+        "descendants": 2,
+        "continuous": false
+      },
+      "28": {
+        "category": "broken_replaced",
+        "original_survivors": 0,
+        "descendants": 2,
+        "continuous": false
+      },
+      "29": {
+        "category": "broken_replaced",
+        "original_survivors": 0,
+        "descendants": 2,
+        "continuous": false
+      },
+      "30": {
+        "category": "broken_replaced",
+        "original_survivors": 0,
+        "descendants": 3,
+        "continuous": false
+      }
+    },
+    "first_break_tick": 22,
+    "first_complete_replacement_tick": 21,
+    "first_break_state": "closed_singleton",
+    "order": "replacement_first"
+  },
+  "scope": "posthoc illustration of predeclared full-cohort fate ordering; not new simulation"
+}

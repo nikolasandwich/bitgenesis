@@ -19,11 +19,17 @@ not mean that their scientific graduation criteria have been met.
 The latest completed V4 study is
 [study016: a fixed 400-step continuity window](docs/research/v4-study-016.zh-CN.md).
 All forty branches passed fresh independent physics and ancestry audits, with
-four checkpoints of the same initial components. None of 824 paired eligible
-components showed continuous material closure with complete original-member
-replacement. Three continuously closed components remain under exchange-off
+four checkpoints of the same initial components. At these fixed checkpoints,
+none of 824 paired eligible components met continuous material closure with
+complete original-member replacement. Three continuously closed components remain under exchange-off
 history and current exchange-on; all retain both original members. This finite
 negative result does not establish impossibility at arbitrary horizons.
+
+The [complete fate decomposition](docs/research/v4-study-016-fates.zh-CN.md)
+finds one transient exception between checkpoints: full replacement with continuous
+closure at step 21, followed by a singleton at step 22 and extinction by step 200.
+This preserves the fixed-window negative result while ruling out the stronger
+claim that the material/ancestry combination never occurred at any sampled step.
 
 The preceding [history comparison](docs/research/v4-study-015.zh-CN.md) and its
 four-anchor averages remain distinct from this single-anchor horizon study.
