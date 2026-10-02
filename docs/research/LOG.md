@@ -4697,3 +4697,7 @@ matrices and gained/lost formation actors.40 anchor first-step pairs already exi
 in study012 and are explicitly reused; remaining off-state resets and complete
 summaries have not been computed. Independent design review APPROVED; matrix
 margins, occupancy identity and cancellation checks incorporated before execution.
+
+## 2026-10-02 — Study013实现审查通过
+
+逐步重置、双分支独立动力学重算、完整行动者交叉表与精确层级汇总已实现。独立审查修复来源选择未绑定标准历史路径的问题；完整409项测试及修复后10项相关测试通过，新增一个回归后总计410项。保留实际RED证据与失败元数据。本提交用于干净启动固定4,000配对。
