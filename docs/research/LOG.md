@@ -4488,3 +4488,26 @@ Retained engineering95004 passes100 ticks:182 founders,79 births,5 deaths,256 li
 Previous turn connected audited phase-aligned trajectories (b0b39b3), substantive progress. Added independent structure_audit with all-site-pair geometry, union-find partitions, member-set disagreement and cross-product continuity, plus independent event-order birth identity assignment. Retained100-tick engineering source passes502 partition/497 transition checks with unchanged input and observation bytes. Archived audit. Two tests reject changed metrics/identities and cover empty zero horizon; full357 tests pass in37.653 seconds.
 
 Registered descriptive study009 on all20 retained study005 sources, fixed early/late windows, material-versus-bond membership disagreement primary and explicit null/coverage handling. No fresh-world or causal claim; splits do not count as reproduction. Next source-bound launcher, full observation/audit and prespecified aggregation; no cohort structure outputs examined yet.
+
+## 2026-10-02 — Local continuation and authenticated study005 replay
+
+Cloned main at2ce68ea into the local workspace. Installed cc-sdd Codex Skills per
+user preference and corrected stale README/contribution status. Original raw
+study005 data was absent from Git and listed releases; user explicitly authorized
+replay. Re-executed all20 worlds/10,000 ticks in a clean detached worktree at
+07a9ef4 using Python3.14.2. This is zero new independent samples.
+
+All80 scientific payload files match archived SHA256 digests after restoring
+historical CRLF encoding. All20 fresh independent audits match the archived
+scientific fields. Regenerated per-run metadata retains actual Python and source
+hashes; original cohort manifests are separately restored. Auditor code hashes
+are recorded both ways: historical growing_audit.py working-copy bytes remain
+unavailable, so exact historical auditor identity is not claimed. The failed
+first import remains under an explicit incomplete directory. Recovery script,
+procedure and complete reconstruction evidence are retained.
+
+Added study009 descriptive aggregation for the fixed early/late windows, all
+five phase/boundary combinations, destination-tick overlap counts, exact rational
+world/seed means and explicit empty/null coverage. No new outcome-based selection
+or runtime change. Observation execution remains next; no structure replication
+or new biological result is claimed at this checkpoint.

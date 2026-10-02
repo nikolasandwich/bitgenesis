@@ -1,0 +1,675 @@
+{
+  "status": "complete",
+  "reconstructed_at": "2026-10-02T08:39:18.228906+00:00",
+  "historical_revision": "07a9ef4d3143e8d9f1f91dd127a31c8f4221c309",
+  "independent_new_samples": 0,
+  "scope": "deterministic replay; trajectory bytes match archived hashes; metadata regenerated",
+  "script_sha256": "0423436a8e7b35e78f23df734dfaf77eec155c63823231a738dea7fca77e8c0e",
+  "archive_sha256": {
+    "v4-study-005-metadata.json": "00211dc2fc3f9d4f7ff05e62d8be5da5a896fc569d1289ed8efc6096e51d4fc5",
+    "v4-study-005-results.json": "20291cd8e03973b4fb51666053aac6119252ceb435336085913c7b14b050cafa",
+    "v4-study-005-verification.json": "a95ac22bdbeec1b62fef3d9c644337423915e2620e15f5116841f1496f745c34"
+  },
+  "checks": [
+    {
+      "directory": "seed-96000-drive-250-mutation-0",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "5f6460febd27ff1f76e4c69de57e992a675206ec2c1349164e624316e3aa3f11",
+        "steps.jsonl": "e6395acc1ef439c6be9fb78e7a4d39c1f7dc9d86229c839bea08ee8b82bf602e",
+        "final.json": "04fcf9e54fab85e0dab5714c810d218773e433ba3827a96c80a51d1d41f9209c",
+        "summary.json": "afe3444cc98b2214feab6c88be21dcc98c4ca5ffaa936ed20b35bb19db029037"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96000-drive-250-mutation-100",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "5f6460febd27ff1f76e4c69de57e992a675206ec2c1349164e624316e3aa3f11",
+        "steps.jsonl": "8e7c609419c503088973c3a15c23998b06eabb7c349403f416988452dbac4f7d",
+        "final.json": "1150c3965b462eb86190dceeda4fe3aed60330f41906c87bb335d2b49d2d8e4a",
+        "summary.json": "da474da2b4c2ddc12f3f7349eeacd893110ab908932995ca9c981340871a93b7"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96000-drive-500-mutation-0",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "5f6460febd27ff1f76e4c69de57e992a675206ec2c1349164e624316e3aa3f11",
+        "steps.jsonl": "f6e6092e4c18c56d807931750d1615f65196953371a76d72b7ece8ee47c78b05",
+        "final.json": "bf343b30858d298c7fef55c3c5445b73fd832f0a5b03e3c29d3847f7451f5557",
+        "summary.json": "bcdc42e73d0f591f84fc46b968132fe8b8293aebfd1f43b3cde42716d14a8a4b"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96000-drive-500-mutation-100",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "5f6460febd27ff1f76e4c69de57e992a675206ec2c1349164e624316e3aa3f11",
+        "steps.jsonl": "ed3c81637b480185faf2324234f2c8cbd4c7d35cd5d5f9b73d130c296efc701b",
+        "final.json": "ccf6bb4939630fa2699f1022b0514d711074d7bea500129f6c37583d4fa2c946",
+        "summary.json": "d800684745071dc25e0a7e2f77618a3f86481a194eee499fdbd6560d3e6a4b34"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96001-drive-250-mutation-0",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "1c644238be1df43472572d7cea5a31f612d11ff4d87888b0fdba56fe0d2032c7",
+        "steps.jsonl": "64a4330766522658426fd2e17cdc0590422538105c753d6da05db2d22398c781",
+        "final.json": "340d13e79741ea9e40610891b2b10e06546f738d3cdca01423c3f4bbbc340cb5",
+        "summary.json": "4047fe57919efe7ef1eff9ef3eb903b8f7521fb5a5c7997cb01638a46b2c840e"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96001-drive-250-mutation-100",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "1c644238be1df43472572d7cea5a31f612d11ff4d87888b0fdba56fe0d2032c7",
+        "steps.jsonl": "7277eae0001fc8311c737075bc183d5956172d4703ec0afb1a03588056e24865",
+        "final.json": "2934813c525be4346b4ea4a7a337d20c3ebe592a40732eac1edd5f2e61c55ea8",
+        "summary.json": "f86c090eb7ba83ec484a98a9e379c383f3cc159560226055b90c058645d5ac03"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96001-drive-500-mutation-0",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "1c644238be1df43472572d7cea5a31f612d11ff4d87888b0fdba56fe0d2032c7",
+        "steps.jsonl": "d603077bde1446a1debc8236684391e48573aafde03823e1b4735689ba9aecfd",
+        "final.json": "7dfb0adf1394bec8e60c70c00b743d8ca6b8a7dff6fcf766c1f641c93ba4bbdd",
+        "summary.json": "0487439dc4e1055b61ebcdd78cd68ddc43de3b6b85371475bcacac2ab9f48c90"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96001-drive-500-mutation-100",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "1c644238be1df43472572d7cea5a31f612d11ff4d87888b0fdba56fe0d2032c7",
+        "steps.jsonl": "406b66ed726b3be58c1cfa2f754e3c6822352563705c4958088576a357906a26",
+        "final.json": "482d96ea3c4c396513caa47d99295c8572a044ae8a64d3e27e805c87f17283da",
+        "summary.json": "13e129b51c268e7d81854120f018b6feb5029878d5726e020f37f8eedc9c9203"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96002-drive-250-mutation-0",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "fd4c7a331cfdebab33c9129c160a771c56d15e969fff14401c9ece8566659c63",
+        "steps.jsonl": "9248f67db1bcea1a4fcf04ec5c2a64b78029eb444475f346a0fe632ba934b319",
+        "final.json": "de94593987a2026af7c524da6324224ba12897c3eb0ea087e9b6572ea5e41bf6",
+        "summary.json": "6d34a61fc33ea25c3ecf01a5f5e0736e0062286a9c8de2c5c3115b9abe0661c4"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96002-drive-250-mutation-100",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "fd4c7a331cfdebab33c9129c160a771c56d15e969fff14401c9ece8566659c63",
+        "steps.jsonl": "e153c40c7de10d60449d76db4418f3813341e9c29788a90ff8499ab99db10da7",
+        "final.json": "1e3b2541f18bb45baba2980be98f995cd3b5847bfd9cf56170eb1409c596fdc3",
+        "summary.json": "3c6356d6372c1ed1b1b35bfb24b3ef7ce4fa666c6025ec6bab6f3b5ffaf0a8bc"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96002-drive-500-mutation-0",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "fd4c7a331cfdebab33c9129c160a771c56d15e969fff14401c9ece8566659c63",
+        "steps.jsonl": "a0b5670b027d98312f4bb0a9e6c621ea8a8361a4eea9ba4560378ad6c65ec8dd",
+        "final.json": "35489174b03236fffbf7add2f9fdc0ee32b8f7f72ef45ddcfceda580edd20e61",
+        "summary.json": "021b2b1af8511a01fd0740c6cb663789c72eac419aacff16bde3ab2a593e5b59"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96002-drive-500-mutation-100",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "fd4c7a331cfdebab33c9129c160a771c56d15e969fff14401c9ece8566659c63",
+        "steps.jsonl": "8e2d7f3947e00e91af57da8b084a6e1617ab19f5fed935b22f038f32bcf297f2",
+        "final.json": "6a70deb270cfb157ee453c6121db10bcf1a29e07d5e6ccd93f28382460fc4497",
+        "summary.json": "83dcd4f7c0492bfd89d0be1e4d306abf9e6cdc01816ccd339a4c0bb2711c0cc7"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96003-drive-250-mutation-0",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "7936e3825bd741e10c7c62582b868a18571641c977663e916f2ffe9ccf9fb596",
+        "steps.jsonl": "c2603064cd4fe623dee4379c1dae7da8af17b739c11446e93ea1de9678a7f18b",
+        "final.json": "a42e715ffc19648d4cb4a470d8677de800a9570832df2cfda48c0721e090823a",
+        "summary.json": "d994a6d3795184d7a236b11e620b5c130130c3beab6bc77f69c1d1bd0b014f62"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96003-drive-250-mutation-100",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "7936e3825bd741e10c7c62582b868a18571641c977663e916f2ffe9ccf9fb596",
+        "steps.jsonl": "5bced6626d7d6c6f3d6481fd27697d7bed92be081f6bdb2d87aefc919dafb183",
+        "final.json": "5ad18f7e81043c25d89029fde34124a468c322c08b94f504018206098cb53c75",
+        "summary.json": "ea04e9ba52b84f68b3adf50885c76cb49974a26ba64103904b35a0b3cc4a4663"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96003-drive-500-mutation-0",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "7936e3825bd741e10c7c62582b868a18571641c977663e916f2ffe9ccf9fb596",
+        "steps.jsonl": "aa309cc3cab3ef941b46df1489a4fb300fb65983b330af1188a22c20db757207",
+        "final.json": "d63cb76509cc798d5ae6827beb6dcc59577414a61660736d0f0b700e4933e4a4",
+        "summary.json": "230cf7357d17365ffecd32b9f436959f68a82dfc2fffb1ba5d03a7d2b9302c0f"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96003-drive-500-mutation-100",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "7936e3825bd741e10c7c62582b868a18571641c977663e916f2ffe9ccf9fb596",
+        "steps.jsonl": "8e4b6bc3d728645dfa5f58f23ede1c99cb137a583b53f8a284a73d89115f3939",
+        "final.json": "8f0ca6987af79ae191d877138e15d959c8f2978c45985bc208815f59f67e957f",
+        "summary.json": "0d8629c38ba14c3affd0377ba9b37e8f797af727af75d50d0de1feb692bbb1ca"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96004-drive-250-mutation-0",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "12a1f9a197db346c06c0a6cd28a2cce15afc4ed15c894b5606f520bb91cdfb8c",
+        "steps.jsonl": "4445d6a4bcea3ce074fb4f252e45658d41e292a0268191f859a4ce8c8e0a8b89",
+        "final.json": "3082781d6d1ba4c5df7c99e6e6cbe08dd263e94f6f45b3b45ff4380215bec52d",
+        "summary.json": "911787e2fe737a59f9e8c7f269f8e60bc5c26ccb2510f82684ce338078850960"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96004-drive-250-mutation-100",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "12a1f9a197db346c06c0a6cd28a2cce15afc4ed15c894b5606f520bb91cdfb8c",
+        "steps.jsonl": "dbeac6cbfaa10126413c69fc6233f48cb9c935724c383bebf8772330d00afc6d",
+        "final.json": "6895383337ee209babd8d3dd018e3386664703fe9b0fdc03cfbb7cb085c20a96",
+        "summary.json": "0b4abaedebc1bb4f62409886a5106e63bb3c6409d735e2553b98c3aca3279af7"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96004-drive-500-mutation-0",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "12a1f9a197db346c06c0a6cd28a2cce15afc4ed15c894b5606f520bb91cdfb8c",
+        "steps.jsonl": "3cd7e1907db4969dc5efe2a21b805a24ab2a43f3d02f26bb5735cbd7cca96dd3",
+        "final.json": "1e2eca90e277f6d0e688288e900f8196b96029e05ca42df7213b7c5cf477be11",
+        "summary.json": "3952bf1411d29f7219c5be8d74883e0620f5702af12061767fb762cf23161317"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    },
+    {
+      "directory": "seed-96004-drive-500-mutation-100",
+      "python": "3.14.2",
+      "output_sha256": {
+        "initial.json": "12a1f9a197db346c06c0a6cd28a2cce15afc4ed15c894b5606f520bb91cdfb8c",
+        "steps.jsonl": "e08bb1f772fe39c1ec5e5f2ab0ea744aa67bb4707b12e3fb9c74a2022127eba9",
+        "final.json": "86757a5b0e2515d1b6439d6f5f3529b2d0475de231657b6bc0ea06e83e577852",
+        "summary.json": "3711c6095b10256cf1518dbe49e077e8d059b78f294fb00503fa2dac5f24d351"
+      },
+      "lf_to_crlf": [
+        "initial.json",
+        "steps.jsonl",
+        "final.json",
+        "summary.json"
+      ],
+      "independent_audit_scientific_fields_match_archive": true,
+      "auditor_provenance": {
+        "audit_sha256": {
+          "current": "9429822095969b0faaa9280cb01a3f2aed03c0a41b73db6859a5550ce60fe7a0",
+          "archived": "fa1faed107bd136d5f5d887b8c56f15ee298ebe0ece3621b855cff5fb207c5e0"
+        },
+        "dependencies_sha256": {
+          "current": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c9193ac0c1be2c1a3b8d5f64f00a2afae6fc634f392794a47f29608376255883"
+          },
+          "archived": {
+            "audit.py": "9566c122cbaf16be2f694cc8aeab8182930ca0f61737bd177c68e14d8fd65267",
+            "growing_audit.py": "c04338ed0d01db8a8d6e08ada58c2ffdffb75309fd2e46ae689278d9d10e7303"
+          }
+        }
+      }
+    }
+  ]
+}

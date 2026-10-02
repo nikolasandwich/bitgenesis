@@ -13,8 +13,9 @@ Keep changes small and explain the research question, the rules you changed,
 and the evidence supporting your conclusion. Add tests for meaningful invariants
 and regressions; avoid large frameworks before a concrete experiment needs them.
 
-V0 is the only implemented stage. Discuss later-stage runtime changes with a
-design note first. Do not silently change the meaning of existing experiment
+V0–V4 have implemented runtimes; consult the
+[current stage evidence](docs/roadmap/stage-status.zh-CN.md) for their scientific
+limits. Document new runtime rules in a design note before implementation. Do not silently change the meaning of existing experiment
 configurations: follow [experiment compatibility](docs/design/experiments.md).
 
 Use explicit seeds for stochastic experiments. Record the commit, Python version,
