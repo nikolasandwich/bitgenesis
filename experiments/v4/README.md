@@ -82,3 +82,5 @@ docs/research/results. Seeds90600..90603 and90700/90701 are engineering-only.
 The [second study](study-002.md) preregisters formation/input/exchange controls
 and spatial occupation measurements. All40 cases and80 windows now pass complete
 verification; see docs/research/v4-study-002.zh-CN.md for outcomes and limits.
+
+[study017](study-017.md)：40条保存轨迹中的完整结构副本候选；[结果](../../docs/research/v4-study-017.zh-CN.md)已双路线核验，无祖源内遗传双副本。

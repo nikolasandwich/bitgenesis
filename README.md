@@ -16,7 +16,13 @@ growth, movement, feeding, energy costs, reproduction, mutation, death and linea
 logging. Experimental V1–V4 runtimes are also implemented. Their existence does
 not mean that their scientific graduation criteria have been met.
 
-The latest completed V4 study is
+The latest completed V4 study is [study017: structural copy candidates](docs/research/v4-study-017.zh-CN.md).
+Two algorithms agree across all 40 saved trajectories: no ancestor-contained
+double genetic copy occurs. One material-only candidate interval spans steps
+399–400 and is right-censored at the fixed horizon; no candidate meets the
+predeclared ten-step criterion. Structural recurrence is not functional reproduction.
+
+The preceding fixed-horizon study is
 [study016: a fixed 400-step continuity window](docs/research/v4-study-016.zh-CN.md).
 All forty branches passed fresh independent physics and ancestry audits, with
 four checkpoints of the same initial components. At these fixed checkpoints,

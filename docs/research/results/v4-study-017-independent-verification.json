@@ -1,0 +1,20 @@
+{
+  "status": "verified",
+  "branches": 40,
+  "pairs": 20,
+  "saved_steps": 16000,
+  "parent_branch_records": 1648,
+  "series_values": 2636800,
+  "new_simulation_steps": 0,
+  "new_independent_sources": 0,
+  "reused_independent_sources": 5,
+  "input_files": 1617,
+  "files_sha256": {
+    "metadata.json": "6dea567d2b949510cef7adee8b485c3c4a1a184af7b2a4f23c8dc9cf4f6af9a1",
+    "records.json": "f6c7136cfdf5b1b48de9203918d8347d183bad949e5e58b280318c8b2261866b",
+    "results.json": "926a38a678005598c9ae63516b104717357ca614ac82ae8f2bf81f437ed90af9",
+    "summary.json": "6c70d7a0873a3b85c90201093ca174ca70b46fa4b48d4afdb7590cfcce2a4c60"
+  },
+  "verifier_sha256": "69485a1172e45bf033b748a5e56a370e8e3e8dba493c39d4a9320a53371218fb",
+  "scope": "direct periodic translated attributed-point matching independent of canonical fingerprints; full parent-relative ancestry/unrelated counts, inclusive episodes and exact source means; candidates only"
+}
