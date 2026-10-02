@@ -1,0 +1,21 @@
+{
+  "feature_name": "copy-bottlenecks",
+  "language": "zh-CN",
+  "phase": "tasks-generated",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "approval_basis": "用户继续直到暂停的持续授权，项目自主研究合同；有界被动必要条件检验，明确事后探索。",
+  "ready_for_implementation": true
+}
