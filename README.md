@@ -17,13 +17,13 @@ logging. Experimental V1–V4 runtimes are also implemented. Their existence doe
 not mean that their scientific graduation criteria have been met.
 
 The latest completed V4 study is
-[study010: sampled structural continuity](docs/research/v4-study-010.zh-CN.md).
-All twenty retained worlds were analyzed with independent ancestry and component
-audits. None of the declared 100-tick multiunit windows combined uninterrupted
-sampled lineage cohesion with complete replacement of original members.
-This is a bounded descriptive result, not proof of impossibility or organism status.
-[Study011](experiments/v4/study-011.md) is registered to distinguish demographic
-stasis from partial turnover; it has not been implemented or executed.
+[study011: demographic events during structural continuity](docs/research/v4-study-011.zh-CN.md).
+All twenty retained sources and 6,299 eligible component windows passed independent
+event accounting. High-input cohorts had no births or deaths; a few local
+low-input cohorts did, so uninterrupted sampled cohesion is not always demographic
+stasis. No window established complete original-member replacement, active
+organizational maintenance, or structural replication. The next step is to map
+local events to boundary changes before designing a discriminating intervention.
 
 Start with the [current stage evidence and unmet criteria](docs/roadmap/stage-status.zh-CN.md)
 and [research log](docs/research/LOG.md). A fresh clone contains compact evidence,

@@ -4584,3 +4584,26 @@ short-lived births/deaths, zero events, empty cohorts, corrupted observations,
 conditional/equal-weight summaries and failure metadata. Full377 tests and
 compileall pass. No simulation rule changes and no study011 outcome inspection
 at this checkpoint. Next clean launch of all20 frozen sources.
+
+## 2026-10-02 — Study011 complete; local events without full turnover
+
+Clean revision5d9b611 completed20/20 retained sources in62.56 seconds, with
+4,387,318 output bytes. All400 panels and6,299 eligible component windows passed
+independent raw-event/lifecycle accounting and saved-record summary recount.
+Archive copies, source payload hashes, protocol and code hashes were verified.
+No simulator changes or new independent samples were introduced.
+
+At drive500 all5,912 eligible records have zero births/deaths. At drive250,
+52 contact records have births/deaths but their anchors cover the entire world.
+Across material/bond definitions,26 of335 eligible records have demographic
+events and are non-whole-world anchors; these overlap across definitions and
+windows and are not26 independent structures. Thus literal universal demographic
+stasis is false even locally, while complete original-member replacement remains
+absent. No active maintenance or structural replication is established.
+
+Independent final review approved report numbers, conditional/equal-weight
+estimands, archive provenance and interpretation. Next map the complete local
+event list to boundary changes, deduplicating source/time/identity and retaining
+zero-event denominators, before registering a discriminating intervention.
+This will be retrospective observation, not fresh independent confirmation;
+do not repeat the earlier broad exchange or formation-disabled refill contrasts.

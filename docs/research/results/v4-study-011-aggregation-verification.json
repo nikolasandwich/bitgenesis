@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "sources": 20,
+  "panels": 400,
+  "cohort_windows": 6299,
+  "results_sha256": "ac3ae0a4b9454542efa9e0f0fb79a76ed5e9d282710877f305c6839ac46e7add",
+  "summary_sha256": "09bf6aed8937539b880eccb0202acb2b605dfa3251c804a4e0e6f2e88c50f68e",
+  "verifier_sha256": "2409d651122cdd5a4d54a1c648c314a636ea6677b5466794952dca0ae43d1662",
+  "scope": "independent demographic recount, conservation, conditional denominators, anchor/source means"
+}
