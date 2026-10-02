@@ -1,7 +1,7 @@
 {
   "feature_name": "exchange-continuity",
   "language": "zh-CN",
-  "phase": "completed",
+  "phase": "implementation-in-progress",
   "approvals": {
     "requirements": {
       "generated": true,
@@ -22,5 +22,6 @@
   "execution_result": "80/80分支、40配对、12424全体组件记录通过独立核验；完整报告和归档完成，持续闭合与谱系存活显示相反平均方向。",
   "study013": "4,000配对完整执行和独立核验、报告及归档审查通过；出生与消解均减少，一步末占据增加。",
   "study013_targets": "完整4000配对/973345行动者/1744形成不一致记录独立重算通过，报告和四归档完成。额外审查任务限制，最终审查为主任务inline。",
-  "population_paths": "80分支/8000步与40既有首步全部核验，840绑定不变，完整路径/图归档。终点世界占据均差−6.05/−4.95；审查为inline。"
+  "population_paths": "80分支/8000步与40既有首步全部核验，840绑定不变，完整路径/图归档。终点世界占据均差−6.05/−4.95；审查为inline。",
+  "retention_weighting": "用户再次明确直接继续；范围/计权事后方案独立审查，工程执行前固定。"
 }
