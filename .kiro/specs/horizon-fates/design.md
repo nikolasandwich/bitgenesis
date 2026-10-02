@@ -17,3 +17,5 @@ summary.json包含checkpoint_cells（32行history/mutation/exchange/tick/metrics
 ## 事后个案补充
 
 需求5依据docs/design/v4-transient-case.zh-CN.md，新增独立两路线，不修改先前已完成工具或绑定。case输入与输出接口在实施前明确；用户持续授权作为有意快速推进批准。
+
+个案接口：transient_case_inputs提供bindings/cases/read/digest，cases固定True/False两目录。branches.json各分支保存history/seed/mutation/exchange/component/anchor_members、biographies和400条steps。steps保存步前成员单体账本、出生/死亡身份、家族ledger、interaction和material_final两阶段状态。summary.json为两开关总出生/死亡、灭绝步、能量各项累积、原成员生平和20/21/22完整记录。生产analyze与独立reconstruct分别生成同结构，独立交互分组从实际bonds重建。
