@@ -1,0 +1,103 @@
+{
+  "status": "verified",
+  "scope": "actual GitHub draft asset download, exact asset bytes, complete tar extraction path/size/SHA256 checks, Git bundle restore/fsck/main and study005 revision availability; not scientific rerun",
+  "release_tag": "v4-data-2026-10-03",
+  "source_commit": "cab9aed580548606c5904dee3de6776e1b5c61b1",
+  "raw_files": 2373,
+  "raw_bytes": 5076339115,
+  "source_files": 1130,
+  "manifest_sha256": "e4e54f6881ebb8266866a4b277cc9ad529d0318ab3de6570d43e98de7c1c75ac",
+  "sha256sums_sha256": "4a04fc51d295e47c39b035e9566c82b94d7bf853ee85efd178ab0cf479fc56c4",
+  "archives": {
+    "v4-study-005.tar.gz": {
+      "files": 123,
+      "sha256": "e400f74bd278fdef41e5d826c052f6ac82ed5a59bf0b6e7b9b7b2fa5b5a9a4b7",
+      "status": "verified"
+    },
+    "v4-study-009.tar.gz": {
+      "files": 45,
+      "sha256": "fd734fb591a780d87acfe552e1ade467958aaa6d3871445b48e389537f21ca32",
+      "status": "verified"
+    },
+    "v4-study-010.tar.gz": {
+      "files": 24,
+      "sha256": "8f313f1b2c80c9a0b49f034699b36dcfdbaa7476884069ee1b13e5690f70a47c",
+      "status": "verified"
+    },
+    "v4-study-011.tar.gz": {
+      "files": 24,
+      "sha256": "594a228288bfe020fc7a3e3680cfcbb6e3765756e8fd7f59cfc3029b19ecb895",
+      "status": "verified"
+    },
+    "v4-study-012.tar.gz": {
+      "files": 564,
+      "sha256": "511ce753c724aeee30075c3dcf4337b2202f72113e0d0bbeda80884f3b0361d9",
+      "status": "verified"
+    },
+    "v4-study-013.tar.gz": {
+      "files": 34,
+      "sha256": "707057fc247737ff1149ff2ee92bf020c4746155d3f81361b232422743d1eebb",
+      "status": "verified"
+    },
+    "v4-study-014.tar.gz": {
+      "files": 625,
+      "sha256": "7ce5628fbc5ad909150d2e9a5bd8ec669eaea01f32be21d46fea0dcb37f95b21",
+      "status": "verified"
+    },
+    "v4-study-015.tar.gz": {
+      "files": 625,
+      "sha256": "99d514256070c6843923a89021a9286207935d0da5405a184e8891d224e940d8",
+      "status": "verified"
+    },
+    "v4-study-016.tar.gz": {
+      "files": 285,
+      "sha256": "47016521c65ade23c92e0284a179f4104121a3e3322c2d040b0e385e9ca383d6",
+      "status": "verified"
+    },
+    "v4-study-011-event-boundaries.tar.gz": {
+      "files": 3,
+      "sha256": "e1e4e74747b08456267ade628aa3b1c95517a772e41ff74f0175e473067c354d",
+      "status": "verified"
+    },
+    "v4-study-012-population-paths.tar.gz": {
+      "files": 4,
+      "sha256": "f113864ba33136cf225f8dc6eeb5f38fe28116625bee0101db9cfbfcc2ecd7bb",
+      "status": "verified"
+    },
+    "v4-study-012-retention-weighting.tar.gz": {
+      "files": 4,
+      "sha256": "4f4cc2d0e6b253f60aee77c1077df9e330ff1b967fef199b8b5d197bf3ee1cb6",
+      "status": "verified"
+    },
+    "v4-study-012-tradeoff.tar.gz": {
+      "files": 4,
+      "sha256": "a24d249d0cb0465d4036e729a84e56459528720f0067bcf6683400e96c224e3e",
+      "status": "verified"
+    },
+    "v4-study-013-targets.tar.gz": {
+      "files": 5,
+      "sha256": "9479503f7ec82e54adb4137a0888e28c4eec98a9a467dfb7cb6b44eeda237f0f",
+      "status": "verified"
+    },
+    "v4-study-015-population-paths.tar.gz": {
+      "files": 4,
+      "sha256": "770ef2e776a00d7720f3862b508d3d6d5c74858e2d7fbb174dbbded11262f387",
+      "status": "verified"
+    },
+    "source.tar.gz": {
+      "files": 1130,
+      "sha256": "ad4af9aeb32bd49dc45a7d7f8f7bc059a929f65fd8e6100cb6ab3debac590bc2",
+      "status": "verified"
+    }
+  },
+  "git_bundle_sha256": "ae8ca47988cfe680cbc5e02017b244a40afe949a27422c01806698f646d5febb",
+  "missing_raw": [
+    "v4-study-006",
+    "v4-study-007",
+    "v4-study-008"
+  ],
+  "excluded": [
+    "v4-study-005-incomplete-auditor-provenance"
+  ],
+  "verifier_sha256": "95c0e2cccf36e4d42fe1eca044d60e60620ff98234fc37c5495e707b0b9dd0e7"
+}
