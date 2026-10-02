@@ -1,7 +1,7 @@
 {
   "feature_name": "exchange-history",
   "language": "zh-CN",
-  "phase": "completed",
+  "phase": "implementation-in-progress",
   "approvals": {
     "requirements": {
       "generated": true,

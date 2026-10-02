@@ -1,3 +1,5 @@
 # 设计
 
 以experiments/v4/study-015.md为科学合同。scripts/history_exchange_branch.py及history_exchange_audit.py新增历史布尔识别、对称回放和新schema；复用原始模拟及独立重建原语，不改src或旧数据。关闭基线沿用hereditary_runner及audit。编排/保存记录核验分别实现统计路线；旧study014档案/凭据和全部原始载荷验证绑定。历史差之差按同锚点共同非空指标先作差，不将不同初态组件视为一对。工程小世界同时验证两种历史、双方交换、篡改、旧引擎一致性；完整单测通过后干净提交执行。
+
+路径补充以docs/design/v4-history-population-paths.md为边界；新增history_population_inputs、analyze_v4_history_population、verify_v4_history_population脚本，旧模拟/分析工具不改。160完整世界计数无组件资格筛选，历史差之差保留各历史初态不同的语义，逐时点代数与百步旧汇总闭合。
