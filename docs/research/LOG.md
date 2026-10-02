@@ -4631,3 +4631,16 @@ working tree with the new script pinned by hash, explicitly not a clean revision
 Report and full compact mapping archived. No simulator changes. Next candidate:
 matched energy-exchange intervention on predeclared source/anchor cohorts with
 structural/lineage outcomes, pending intervention semantics and registration.
+
+## 2026-10-02 — Study012 paired exchange intervention registered
+
+User explicitly asked to continue until paused or intervention is needed. Fixed
+10 retained low-input sources, four final anchors and exchange on/off100-tick
+branches (80 total). Initial local multi-member material cohorts are selected
+before intervention, without study011 outcome filtering. Primary outcome is
+continuous final-snapshot material ancestry closure; secondary denominators,
+empty-anchor/source handling and equal-weight paired contrasts are fixed.
+Independent design review prompted explicit failure-versus-null handling,
+anchor-only whole-world exclusion and sampled-time limitations; all incorporated.
+Historical per-site tapes hold external inputs constant; enabled replay must
+recover every original physical record. No off-branch outcomes yet computed.

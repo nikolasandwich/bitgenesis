@@ -1,0 +1,22 @@
+{
+  "feature_name": "exchange-continuity",
+  "language": "zh-CN",
+  "phase": "implementation-ready",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "approval_basis": "用户明确授权持续自主研究直到暂停或需要介入；本方案为已讨论的能量交换机制对照，执行前保留独立设计及工程审查。",
+  "ready_for_implementation": true,
+  "design_review": "独立设计审查核心批准；零分母与执行失败区分、采样连续性、仅锚点全世界排除和次要分母已明确。"
+}
