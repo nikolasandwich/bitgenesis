@@ -1,0 +1,13 @@
+{
+  "status": "verified",
+  "sources": 10,
+  "pairs": 4000,
+  "physical_reconstructions": 8000,
+  "actors": 973345,
+  "zero_transfer_pairs": 0,
+  "reused_study012_first_pairs": 40,
+  "results_sha256": "d3875cffe4974a1518a54b9bb0a6702aec9eca57ed92d01e55fae319f6386385",
+  "summary_sha256": "a6c4febd98ad67eeb9982bce0678c62a5e7a792ab20071263b947c8914018586",
+  "verifier_sha256": "95bbdd21c5aa8e07ee15bd075c6da90fe66dedbab9efd37ee89d74b75f9afffc",
+  "scope": "independent full physical/hereditary reconstruction; all actor outcomes, margins, signs, reset states and exact means; full binding inventories"
+}

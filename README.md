@@ -17,16 +17,16 @@ logging. Experimental V1–V4 runtimes are also implemented. Their existence doe
 not mean that their scientific graduation criteria have been met.
 
 The latest completed V4 study is
-[study012: paired exchange and material continuity](docs/research/v4-study-012.zh-CN.md).
-All eighty branches passed independent physics, ancestry and paired-summary audits.
-Exchange increased average sampled material cohesion by 3.34 and 2.42 percentage
-points in the two mutation conditions, while lineage survival decreased by 6.08
-and 7.88 points. One source had a negative cohesion contrast. No branch established
-cohesion with complete original-member replacement, active maintenance or structural
-replication. The [paired-cohort supplement](docs/research/v4-study-012-tradeoff.zh-CN.md) shows
-that 68 of 77 cohorts cohesive only with exchange had no births or deaths in that
-branch. This mostly reflects demographic stasis, not self-renewal. The next
-question separates immediate exchange effects from accumulated feedback.
+[study013: immediate exchange effects](docs/research/v4-study-013.zh-CN.md).
+All 4,000 historical-state reset pairs passed independent reconstruction.
+Exchange reduced births by 0.3675/0.3185 per step in the two mutation conditions,
+but prevented more dissolutions, increasing immediate occupancy by 0.9095/0.804.
+These conditional one-step effects do not replace the long-branch findings:
+[study012](docs/research/v4-study-012.zh-CN.md) found higher average cohesion but
+lower lineage survival; its [cohort supplement](docs/research/v4-study-012-tradeoff.zh-CN.md)
+found demographic stasis in 68 of 77 cohorts cohesive only with exchange.
+No study establishes active maintenance, self-renewal or structural replication.
+Next, audit whether preserved occupants account for blocked formation targets.
 
 Start with the [current stage evidence and unmet criteria](docs/roadmap/stage-status.zh-CN.md)
 and [research log](docs/research/LOG.md). A fresh clone contains compact evidence,
