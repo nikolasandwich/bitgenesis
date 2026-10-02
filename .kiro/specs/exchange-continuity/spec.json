@@ -1,7 +1,7 @@
 {
   "feature_name": "exchange-continuity",
   "language": "zh-CN",
-  "phase": "completed",
+  "phase": "implementation-in-progress",
   "approvals": {
     "requirements": {
       "generated": true,
@@ -19,5 +19,6 @@
   "approval_basis": "用户明确授权持续自主研究直到暂停或需要介入；本方案为已讨论的能量交换机制对照，执行前保留独立设计及工程审查。",
   "ready_for_implementation": true,
   "design_review": "独立设计审查核心批准；零分母与执行失败区分、采样连续性、仅锚点全世界排除和次要分母已明确。",
-  "execution_result": "80/80分支、40配对、12424全体组件记录通过独立核验；完整报告和归档完成，持续闭合与谱系存活显示相反平均方向。"
+  "execution_result": "80/80分支、40配对、12424全体组件记录通过独立核验；完整报告和归档完成，持续闭合与谱系存活显示相反平均方向。",
+  "study013": "需求、设计及协议独立审查通过；40已见首步明确复用，其余时点尚未计算。"
 }

@@ -4687,3 +4687,13 @@ all inventories/input hashes unchanged. Reports explicitly scope event sums to
 eligible local components and distinguish nonoverlapping event intervals from
 repeated initial identities. Next preregister all-time one-step reset contrasts
 to distinguish immediate exchange effects on formation/dissolution from feedback.
+
+## 2026-10-02 — Study013 one-step reset protocol frozen
+
+Fixed all10 low-drive sources and400 historical event times101..500/source:
+4000 reset pairs, not a concatenated off trajectory. Primary births on-minus-off,
+secondary dissolution and pre-formation energy eligibility, complete actor outcome
+matrices and gained/lost formation actors.40 anchor first-step pairs already exist
+in study012 and are explicitly reused; remaining off-state resets and complete
+summaries have not been computed. Independent design review APPROVED; matrix
+margins, occupancy identity and cancellation checks incorporated before execution.
