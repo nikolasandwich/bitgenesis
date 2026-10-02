@@ -1,0 +1,3 @@
+# 设计
+
+复用hereditary_runner生成新基线，hereditary_audit独立审计；复用exchange_branch.run执行历史输入带分支及其独立audit。新runner只负责编排、索引及精确世界/组件汇总。保存记录验证器独立推导固定网格/路径/清单，复算主要计数及六组件指标与分层，不调用新runner汇总；既有verify_v4_study012_summary.recount可复用，其与生产summarize已相互独立。原仓库模拟文件不修改。

@@ -1,0 +1,21 @@
+{
+  "feature_name": "exchange-replication",
+  "language": "zh-CN",
+  "phase": "implementation-in-progress",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "approval_basis": "用户明确要求直接持续研究至暂停或需要介入；同一模型新来源复核按冻结协议自主推进。",
+  "ready_for_implementation": true
+}
