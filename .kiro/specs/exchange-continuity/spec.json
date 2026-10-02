@@ -1,7 +1,7 @@
 {
   "feature_name": "exchange-continuity",
   "language": "zh-CN",
-  "phase": "implementation-ready",
+  "phase": "implementation-in-progress",
   "approvals": {
     "requirements": {
       "generated": true,
