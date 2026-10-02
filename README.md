@@ -17,7 +17,15 @@ logging. Experimental V1–V4 runtimes are also implemented. Their existence doe
 not mean that their scientific graduation criteria have been met.
 
 The latest completed V4 study is
-[study013: immediate exchange effects](docs/research/v4-study-013.zh-CN.md).
+[study014: five new sources](docs/research/v4-study-014.zh-CN.md).
+All ten baselines and eighty branches passed verification. Exchange reduced
+100-step world occupancy by 4.50/4.55 units while increasing continuous material
+cohesion by 4.154/4.322 percentage points and reducing lineage survival by
+6.079/6.837 points. Source-level exceptions are retained; no continuously closed
+cohort fully replaced its original members. These are five new random sources,
+with the two mutation conditions paired within each source.
+
+The earlier [study013](docs/research/v4-study-013.zh-CN.md) examined immediate effects.
 All 4,000 historical-state reset pairs passed independent reconstruction.
 Exchange reduced births by 0.3675/0.3185 per step in the two mutation conditions,
 but prevented more dissolutions, increasing immediate occupancy by 0.9095/0.804.
