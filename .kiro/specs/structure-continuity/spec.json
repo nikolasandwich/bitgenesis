@@ -1,0 +1,24 @@
+{
+  "feature_name": "structure-continuity",
+  "created_at": "2026-10-02T09:19:48.306038+00:00",
+  "updated_at": "2026-10-02T09:19:48.306038+00:00",
+  "language": "zh-CN",
+  "phase": "tasks-generated",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "ready_for_implementation": true,
+  "approval_basis": "User explicitly authorized continuing the proposed research plan; routine design decisions under autonomous research mandate. Independent review pending.",
+  "design_review": "Independent review completed; nearest-anchor cut, sampled-time limitation, exhaustive ancestry, whole-world caveat incorporated before outcomes."
+}
