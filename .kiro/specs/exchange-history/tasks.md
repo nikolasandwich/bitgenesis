@@ -2,7 +2,7 @@
 
 - [x] 1.1 固定完整双向历史协议与边界。
   - _Boundary:_ 需求1及冻结协议，当前研究授权。
-- [ ] 2.1 实现对称历史分支与独立审计。
+- [x] 2.1 实现对称历史分支与独立审计。
   - _Depends:_ 1.1
   - _Boundary:_ 需求2，scripts/history_exchange_branch.py、history_exchange_audit.py及专项测试。
 - [ ] 3.1 实现固定队列、历史交集汇总与独立核验。
