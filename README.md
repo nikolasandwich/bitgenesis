@@ -32,8 +32,11 @@ Another 96 energy-blocked cases also had rescued targets, so outcome labels
 are not mutually exclusive causal contributions. The [full population paths](docs/research/v4-study-012-population-paths.zh-CN.md)
 show the same world-level count changing from an early advantage to a 100-step
 deficit of 6.05/4.95 units. All ten source means are negative at the endpoint,
-with positive or zero individual pairs retained. These counts and the earlier
-component-weighted retention proportions have different scope and weights.
+with positive or zero individual pairs retained. The [retention weighting audit](docs/research/v4-study-012-retention-weighting.zh-CN.md)
+reconciles the apparent discrepancy: initial singletons lose original members,
+and the mutation-free local retention contrast changes from +1.854 points with
+equal component weights to -0.360 points with equal original-member weights.
+These are distinct estimands, not population-wide evidence of benefit.
 
 Start with the [current stage evidence and unmet criteria](docs/roadmap/stage-status.zh-CN.md)
 and [research log](docs/research/LOG.md). A fresh clone contains compact evidence,

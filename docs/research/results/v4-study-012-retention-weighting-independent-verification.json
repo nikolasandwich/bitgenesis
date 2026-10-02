@@ -1,0 +1,12 @@
+{
+  "status": "verified",
+  "pairs": 40,
+  "components": 6212,
+  "component_branch_records": 12424,
+  "independent_new_samples": 0,
+  "metadata_sha256": "d7123089109ef13fea193840ca58dc74b2ed60293092c4ace565dabb7bd3a2e0",
+  "results_sha256": "15bd00da1a17a05ed33b977bb5343c50d86cf1bd484e379d8b2671fc568f2ae2",
+  "summary_sha256": "54dbe0af675959c69e45cdc8eaa994510a6960639be6e9bccd12fc78de4759a3",
+  "verifier_sha256": "fcf9a1c4467b9203fb03326d10516ebc326a80f846adbd46a52b2d9b70cc97c0",
+  "scope": "initial/final original-identity intersections independent of death-ledger counts; all cells/sizes, exact covariance and hierarchy; both prior estimands restored; provenance-only helper shared"
+}
