@@ -1,0 +1,21 @@
+{
+  "feature_name": "structure-copy-observer",
+  "language": "zh-CN",
+  "phase": "tasks-generated",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "approval_basis": "用户持续自主研究授权与项目autonomous-research.md；有界被动测量，不改旧世界规则、不追逐延时正例。",
+  "ready_for_implementation": true
+}
