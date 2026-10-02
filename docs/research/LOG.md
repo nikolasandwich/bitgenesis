@@ -4545,3 +4545,26 @@ anchor parent/child and one-lineage takeover. Hierarchical means preserve null
 anchor/source coverage. A review-found preflight failure-recording gap was fixed
 and regression-tested. Independent review approved;369 full tests and compileall
 pass. No simulator changes and no study010 outcomes examined at this checkpoint.
+
+## 2026-10-02 — Study010 complete; no cohesion-with-full-turnover cases
+
+Clean revision38be7ba completed20/20 sources in76.93 seconds within59MiB.
+All1,200 panels/91,461 component-window records passed independent parent-chain,
+raw-event phase identity and set-based classification audit. Input bytes unchanged.
+Separate saved-record recount verified all integer summaries and exact four-anchor,
+five-source aggregates; complete execution/summary evidence is archived.
+
+All five definitions and four conditions have zero primary100-tick rates:
+0/11,264 overlapping initial-multiunit records, not independent replicates.
+Predeclared10/50-tick windows also have no positives. At drive500, continuous
+sampled closure is1 and original members all survive to endpoints. At drive250,
+material/bond continuous closure is roughly5.8–7.0% while full replacement is
+roughly11.9–15.1%, with no intersection. Contact closure often describes the entire
+world; end-only closure includes break/rejoin histories. No organism, active
+maintenance, impossibility, or causal effect is inferred.
+
+Independent scientific follow-up review recommends event observation before new
+intervention. Registered study011 to distinguish demographic stasis from partial
+turnover among continuously closed cohorts, preserving all source denominators
+and explicitly labeling conditional selection. Not implemented or executed.
+Do not repeat the formation-disabled refill contrast already covered by study004.

@@ -17,10 +17,13 @@ logging. Experimental V1–V4 runtimes are also implemented. Their existence doe
 not mean that their scientific graduation criteria have been met.
 
 The latest completed V4 study is
-[study009: descriptive structure boundaries](docs/research/v4-study-009.zh-CN.md).
-All twenty retained study005 trajectories were reconstructed against archived
-payload hashes, observed and independently audited. Boundary disagreement depends
-on the chosen definition and conditions; structural replication remains unproven.
+[study010: sampled structural continuity](docs/research/v4-study-010.zh-CN.md).
+All twenty retained worlds were analyzed with independent ancestry and component
+audits. None of the declared 100-tick multiunit windows combined uninterrupted
+sampled lineage cohesion with complete replacement of original members.
+This is a bounded descriptive result, not proof of impossibility or organism status.
+[Study011](experiments/v4/study-011.md) is registered to distinguish demographic
+stasis from partial turnover; it has not been implemented or executed.
 
 Start with the [current stage evidence and unmet criteria](docs/roadmap/stage-status.zh-CN.md)
 and [research log](docs/research/LOG.md). A fresh clone contains compact evidence,

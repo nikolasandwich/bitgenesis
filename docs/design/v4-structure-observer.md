@@ -1,11 +1,12 @@
 # Next gate: passive structure boundaries and continuity
 
-Status: snapshot partition and surviving-member overlap primitives implemented
-in `v4.structure`, following completed study008. Audited trajectory phase mapping
-is implemented in `v4.structure_trace`; scientific cohort observations remain
-pending. Do not interpret a positive
-unit competition score as reproduction of a multi-unit organization. The next
-implementation observes existing trajectories without changing their dynamics.
+Status: passive partitions and phase-aligned trajectory observations are implemented
+and independently audited. Study009 completed on all twenty authenticated retained
+sources. Study010 subsequently added sampled nearest-anchor lineage cohesion and
+turnover observations; no declared 100-tick multiunit window combined continuous
+sampled closure with full replacement. See the [current report](../research/v4-study-010.zh-CN.md).
+These descriptive instruments do not establish organization or replication.
+Historical engineering notes below retain their original progression.
 
 At each recorded state compare three explicitly different boundary conventions:
 

@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "sources": 20,
+  "panels": 1200,
+  "component_windows": 91461,
+  "summary_sha256": "f7465c878037e9e8956835c830dece2417550b1a90f8154f5f00e9d9c76643f6",
+  "results_sha256": "5bc58b7489b51b67811d2fd7755d64a990798200436e1628645db7b3cc2f5d48",
+  "verifier_sha256": "5d613dc20eb4d41d0a5346fd7312ae2196f5a31fed445d0fb91d7ad2dabebe73",
+  "scope": "independent saved-record recount and exact anchor/source/group aggregation"
+}
