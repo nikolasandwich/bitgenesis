@@ -23,8 +23,10 @@ Exchange increased average sampled material cohesion by 3.34 and 2.42 percentage
 points in the two mutation conditions, while lineage survival decreased by 6.08
 and 7.88 points. One source had a negative cohesion contrast. No branch established
 cohesion with complete original-member replacement, active maintenance or structural
-replication. The next analysis will map all paired cohorts' failure states and
-demographic events to understand this tradeoff.
+replication. The [paired-cohort supplement](docs/research/v4-study-012-tradeoff.zh-CN.md) shows
+that 68 of 77 cohorts cohesive only with exchange had no births or deaths in that
+branch. This mostly reflects demographic stasis, not self-renewal. The next
+question separates immediate exchange effects from accumulated feedback.
 
 Start with the [current stage evidence and unmet criteria](docs/roadmap/stage-status.zh-CN.md)
 and [research log](docs/research/LOG.md). A fresh clone contains compact evidence,

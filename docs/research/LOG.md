@@ -4671,3 +4671,19 @@ This is a finite conditional total effect, not organism status or active mainten
 Next inspect all paired initial cohorts' failure states and birth/death accounting
 to understand the opposing aggregate directions; retrospective mechanism analysis,
 not a new confirmatory experiment or post-outcome redefinition of eligibility.
+
+## 2026-10-02 — Study012 paired-cohort tradeoff mapped
+
+Retrospective supplement covers all40pairs/6212initialcomponents, including1760
+eligible local multi-member windows. Cohesion on-only counts39/38 versus off-only
+12/16 for mutation0/100;68 of77 on-only windows have no births/deaths on exchange,
+while24 of28 opposite windows are likewise static off exchange. This describes
+outcome-defined groups and does not identify a causal mediator or self-renewal.
+
+Independent identity-set differences, backward ancestry and all8000 snapshots
+verify12424 component-branch records, first failures, demographic balances and
+exact cross-tab/hierarchical means.400 tests pass; independent review APPROVED;
+all inventories/input hashes unchanged. Reports explicitly scope event sums to
+eligible local components and distinguish nonoverlapping event intervals from
+repeated initial identities. Next preregister all-time one-step reset contrasts
+to distinguish immediate exchange effects on formation/dissolution from feedback.
