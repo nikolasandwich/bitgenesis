@@ -4511,3 +4511,21 @@ five phase/boundary combinations, destination-tick overlap counts, exact rationa
 world/seed means and explicit empty/null coverage. No new outcome-based selection
 or runtime change. Observation execution remains next; no structure replication
 or new biological result is claimed at this checkpoint.
+
+## 2026-10-02 — Study009 completed on authenticated reconstructed trajectories
+
+Clean launcher revision675f5c5 completed20/20 sources with unchanged input bytes,
+50,040 independently reconstructed partitions and49,940 continuity comparisons.
+All500 ticks/source are present; the400-tick primary windows are nonempty for all
+sources. Output remains below the preregistered2GiB limit. Archived complete
+execution metadata, source audit index, per-source/condition summaries and a
+separate cross-check of20 sources/40 windows against audited metrics/numerators.
+
+Primary material-versus-bond membership disagreement means are5.3775467% and
+4.2576479% for drive250 with mutation0/100, and0 for both drive500 conditions.
+All seed results and early/late secondary observations are retained. This is
+boundary sensitivity on the original cohort, not new samples, a causal claim,
+organism discovery or structural replication. Published Chinese report and
+updated current-status entry points. Next formulate a falsifiable structural
+maintenance/replication hypothesis with explicit ancestry criteria; no automatic
+parameter sweep or change to the existing stage graduation criteria.

@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "sources": 20,
+  "windows": 40,
+  "scope": "cross-check summary against independently audited metrics and disagreement numerators; primary seed weighting",
+  "summary_sha256": "25df3504dc8757c1b27ba4b08a13f45fe2f0e163506b3beccb064524ff489d24",
+  "verifier_sha256": "39df420bd4f5d5e1821573167ce9d89e5b2a08f99bed1b659cda98eadee5b383"
+}

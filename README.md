@@ -17,11 +17,10 @@ logging. Experimental V1–V4 runtimes are also implemented. Their existence doe
 not mean that their scientific graduation criteria have been met.
 
 The latest completed V4 study is
-[study008: spatial competition](docs/research/v4-study-008.zh-CN.md).
-Passive structure observers and an independent partition/continuity audit are
-implemented. [Study009](experiments/v4/study-009.md) is registered to compare
-boundary definitions on all twenty retained study005 trajectories; its launcher
-is implemented, but cohort observations and aggregation remain pending.
+[study009: descriptive structure boundaries](docs/research/v4-study-009.zh-CN.md).
+All twenty retained study005 trajectories were reconstructed against archived
+payload hashes, observed and independently audited. Boundary disagreement depends
+on the chosen definition and conditions; structural replication remains unproven.
 
 Start with the [current stage evidence and unmet criteria](docs/roadmap/stage-status.zh-CN.md)
 and [research log](docs/research/LOG.md). A fresh clone contains compact evidence,
