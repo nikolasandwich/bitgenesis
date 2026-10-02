@@ -17,13 +17,16 @@ logging. Experimental V1–V4 runtimes are also implemented. Their existence doe
 not mean that their scientific graduation criteria have been met.
 
 The latest completed V4 study is
-[study015: exchange history dependence](docs/research/v4-study-015.zh-CN.md).
-All ten additional baselines and eighty branches passed fresh independent audits.
-Using the same five sources, 100-step occupancy contrasts changed from -4.50/-4.55
-under exchange-on history to +0.35/-1.35 under exchange-off history. The direction
-therefore depends on history in the mutation-free condition, while the mutation
-condition remains negative. Greater material cohesion still does not establish
-self-renewal; continuously cohesive full replacement remains absent.
+[study016: a fixed 400-step continuity window](docs/research/v4-study-016.zh-CN.md).
+All forty branches passed fresh independent physics and ancestry audits, with
+four checkpoints of the same initial components. None of 824 paired eligible
+components showed continuous material closure with complete original-member
+replacement. Three continuously closed components remain under exchange-off
+history and current exchange-on; all retain both original members. This finite
+negative result does not establish impossibility at arbitrary horizons.
+
+The preceding [history comparison](docs/research/v4-study-015.zh-CN.md) and its
+four-anchor averages remain distinct from this single-anchor horizon study.
 
 The [complete two-history population ledger](docs/research/v4-study-015-population-paths.zh-CN.md)
 recounts all 160 saved branches. Both histories show fewer births and fewer
