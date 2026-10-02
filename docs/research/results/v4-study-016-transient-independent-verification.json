@@ -1,0 +1,17 @@
+{
+  "status": "verified",
+  "branches": 2,
+  "saved_steps": 800,
+  "member_step_records": 366,
+  "new_simulation_steps": 0,
+  "new_independent_sources": 0,
+  "reused_independent_sources": 1,
+  "input_files": 1627,
+  "files_sha256": {
+    "metadata.json": "8804e4409d2c53196a37c4d1a0af8bbab56489a5a8c6ca991dcb716503f37c87",
+    "branches.json": "95bfc80877923cd990112e12a5250d62197a5f0dd8027becda869e37d9c1ba9b",
+    "summary.json": "c918f766f60a8f0b0682c325f8c0ba29b7ba2cf4d82195912093ea05000c7b60"
+  },
+  "verifier_sha256": "56f36272eb85d456a2c8147b1f25a744fe6c4bf78aa585a048d7601b7bb9a236",
+  "scope": "independent live-identity differences, raw transfer and bond reconstruction, all member and family energy equations, births/deaths and stage-specific partitions; posthoc single paired case"
+}

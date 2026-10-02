@@ -156,3 +156,5 @@
 - [independent-verification](results/v4-study-016-fates-independent-verification.json)
 
 精确分数、每分支分母、全部首事件类别配对差和有效/缺失数见归档。所有正文cell/group指标均5/5来源有效、缺失0。四检查点不是新来源；本项不重复计为新实验、功能性自我维持或群体复制。
+
+后续[个案能量与身份账本](v4-study-016-transient.zh-CN.md)已精确定位开启支123步灭绝、关闭支22步灭绝，并确认21步两个后代均来自原成员8、实际交互与步末材料分组不同。
