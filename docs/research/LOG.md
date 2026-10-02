@@ -4529,3 +4529,19 @@ organism discovery or structural replication. Published Chinese report and
 updated current-status entry points. Next formulate a falsifiable structural
 maintenance/replication hypothesis with explicit ancestry criteria; no automatic
 parameter sweep or change to the existing stage graduation criteria.
+
+## 2026-10-02 — Study010 preregistration and engineering gate
+
+User approved continuing the structure-maintenance plan. Froze study010 at82f8cda:
+all20 retained sources, five phase/boundary definitions, anchors100/200/300/400,
+horizons10/50/100. Independent design review required nearest-anchor ancestry
+cuts (live parents/children can coexist), sampled-phase continuity only, explicit
+whole-world anchors, and failure on missing ancestry in this closed birth model.
+
+Implemented passive ancestry-cut cohesion and separate raw-event/parent-chain
+set audit. Fixtures distinguish static survival, full replacement, singleton
+bottleneck, split/rejoin, mixing, extinction, unrelated replacement, coexisting
+anchor parent/child and one-lineage takeover. Hierarchical means preserve null
+anchor/source coverage. A review-found preflight failure-recording gap was fixed
+and regression-tested. Independent review approved;369 full tests and compileall
+pass. No simulator changes and no study010 outcomes examined at this checkpoint.
