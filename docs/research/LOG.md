@@ -4644,3 +4644,13 @@ Independent design review prompted explicit failure-versus-null handling,
 anchor-only whole-world exclusion and sampled-time limitations; all incorporated.
 Historical per-site tapes hold external inputs constant; enabled replay must
 recover every original physical record. No off-branch outcomes yet computed.
+
+## 2026-10-02 — Study012 engineering gate passed
+
+Input-tape branching, independent physical/hereditary/ancestry auditing and exact
+paired summaries are implemented without world-rule changes. Independent reviews
+fixed initialization failure metadata and incomplete verifier binding inventories.
+386 branch-stage tests passed; runner-stage full397 tests passed, then12 targeted
+tests including one new provenance regression passed. Read-only preflight binds
+20 retained sources,54 code/protocol/upstream files and180 source files. No formal
+exchange-off branch outcomes inspected; next clean execution of the80-branch grid.
