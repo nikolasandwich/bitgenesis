@@ -1,0 +1,14 @@
+{
+  "status": "verified",
+  "branches": 160,
+  "branch_steps": 16000,
+  "pairs_per_history": 40,
+  "sources": 5,
+  "independent_new_samples": 0,
+  "metadata_sha256": "ca24de2b154fa75c6042771ed43efed9c8d57b10c9b3ef5d015a87dde2a69336",
+  "branches_sha256": "d0be6762c3adb5dc95105d1c55888274bcf7df4ce6362b0a704d4231e0de43b7",
+  "summary_sha256": "3e0658e465246b5aa7c77ab709664e79d4cab438c42196aaf554053a3abf36ac",
+  "verifier_sha256": "98f7abae1690f08c4f2ea66734103278a91cf840cabeacde1521652d537d8ef4",
+  "input_files": 1316,
+  "scope": "identity-set differences independently recount all saved paths, event/ancestry consistency, exact within-history means and history interaction; all study015 population endpoints reproduced"
+}

@@ -25,6 +25,12 @@ therefore depends on history in the mutation-free condition, while the mutation
 condition remains negative. Greater material cohesion still does not establish
 self-renewal; continuously cohesive full replacement remains absent.
 
+The [complete two-history population ledger](docs/research/v4-study-015-population-paths.zh-CN.md)
+recounts all 160 saved branches. Both histories show fewer births and fewer
+dissolutions with exchange; their balance changes over time. Under exchange-off
+history, original-member survival rises while surviving new members decline,
+so small net occupancy effects do not mean unchanged population turnover.
+
 The earlier new-source replication is
 [study014: five new sources](docs/research/v4-study-014.zh-CN.md).
 All ten baselines and eighty branches passed verification. Exchange reduced
