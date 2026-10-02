@@ -26,7 +26,11 @@ These conditional one-step effects do not replace the long-branch findings:
 lower lineage survival; its [cohort supplement](docs/research/v4-study-012-tradeoff.zh-CN.md)
 found demographic stasis in 68 of 77 cohorts cohesive only with exchange.
 No study establishes active maintenance, self-renewal or structural replication.
-Next, audit whether preserved occupants account for blocked formation targets.
+The [target audit](docs/research/v4-study-013-targets.zh-CN.md) verifies all 1,176
+occupancy-blocked cases involved an original target rescued from dissolution.
+Another 96 energy-blocked cases also had rescued targets, so outcome labels
+are not mutually exclusive causal contributions. Next, compare complete
+whole-world population ledgers over the existing long branches.
 
 Start with the [current stage evidence and unmet criteria](docs/roadmap/stage-status.zh-CN.md)
 and [research log](docs/research/LOG.md). A fresh clone contains compact evidence,

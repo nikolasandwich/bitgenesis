@@ -1,0 +1,13 @@
+{
+  "status": "verified",
+  "pairs": 4000,
+  "actors": 973345,
+  "discordant": 1744,
+  "independent_new_samples": 0,
+  "metadata_sha256": "167b9a737bc9bba699334dd3d44009c7dfa64acdd92fd101b366b23d3ef0accd",
+  "summary_sha256": "3820e06b0f5ae975e78a4b175c16190f7cce040f8acfc664e2f6676cedbf78d9",
+  "records_sha256": "fd0396bcbc4f1044e90deb57e61b0eba7069dcbf2c3762f03a6d33bbdab19495",
+  "actors_sha256": "0c4521d950ab2e13a41df186aa97c3fe986866dd1b5508649c102f3804b546b4",
+  "verifier_sha256": "5b4c44cc490207cda33ca2cce9875f3adee48e22314284920158f72ad0fbbbd1",
+  "scope": "independent pre-formation occupancy/raw/candidate reconstruction, gross transfer ledgers, all saved actor and discordant evidence, complete inventories and exact source means"
+}
