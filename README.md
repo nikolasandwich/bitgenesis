@@ -22,8 +22,11 @@ All twenty retained sources and 6,299 eligible component windows passed independ
 event accounting. High-input cohorts had no births or deaths; a few local
 low-input cohorts did, so uninterrupted sampled cohesion is not always demographic
 stasis. No window established complete original-member replacement, active
-organizational maintenance, or structural replication. The next step is to map
-local events to boundary changes before designing a discriminating intervention.
+organizational maintenance, or structural replication. The [event-boundary supplement](docs/research/v4-study-011-event-boundaries.zh-CN.md)
+deduplicates the local observations into thirteen events: six material-component
+growth events from two to three members and seven shrinkage events from three to
+two. A possible next intervention concerns energy exchange and structural
+persistence; it is not yet registered or executed.
 
 Start with the [current stage evidence and unmet criteria](docs/roadmap/stage-status.zh-CN.md)
 and [research log](docs/research/LOG.md). A fresh clone contains compact evidence,

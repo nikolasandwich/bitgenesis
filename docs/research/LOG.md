@@ -4607,3 +4607,27 @@ event list to boundary changes, deduplicating source/time/identity and retaining
 zero-event denominators, before registering a discriminating intervention.
 This will be retrospective observation, not fresh independent confirmation;
 do not repeat the earlier broad exchange or formation-disabled refill contrasts.
+
+## 2026-10-02 — Local event/boundary supplement complete
+
+Completed both tasks in the frozen v4-event-boundary-supplement design. All20
+sources and400 denominator panels retained. The26 eventful non-whole-world
+component windows contain13 distinct events with31 references across7 sources:
+6 births and7 deaths. Each material component grows2->3 or shrinks3->2, with
+no additional gained/lost identities or material split/merge in these steps.
+Two descendant identities are observed both born and later dead.
+
+Five dying identities are already bond singletons in the pre-event interaction
+snapshot; the other two bond correspondences shrink3->2. Bond comparisons include
+the next drive/interaction and must not be interpreted as isolated event effects.
+All observations are conditional retrospective descriptions, not new replicates,
+active-maintenance evidence or a causal estimate.
+
+Independent raw-event, ancestry and partition reconstruction verified all13 keys,
+31 references and39 boundary correspondences. Full380 tests pass (22.033s),
+compileall passes, independent review APPROVED. Archives match local outputs;
+script/design and proof verifier hashes checked. Launch was from the1d65e5a
+working tree with the new script pinned by hash, explicitly not a clean revision.
+Report and full compact mapping archived. No simulator changes. Next candidate:
+matched energy-exchange intervention on predeclared source/anchor cohorts with
+structural/lineage outcomes, pending intervention semantics and registration.

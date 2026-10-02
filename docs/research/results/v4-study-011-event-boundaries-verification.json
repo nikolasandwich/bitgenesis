@@ -1,0 +1,12 @@
+{
+  "status": "verified",
+  "sources": 20,
+  "panels": 400,
+  "events": 13,
+  "references": 31,
+  "boundary_correspondences": 39,
+  "results_sha256": "9d26ed0cd3129d28f5cce8d32c02fe68e04009a7f1edf17eaa606581691edf5c",
+  "verifier_sha256": "5a56a959bed25549fe2e08d100bf0a2cf307dc112f3d306442aeab41cf467004",
+  "partition_verifier_sha256": "1498c81f2e860fb9e1eda553831bc5a1e0de416f58f400e52012066db0f39ba9",
+  "method": "Independent raw identity/event reconstruction; ancestry-derived full event references; raw geometric and bond partition reconstruction; no mapper imports"
+}
