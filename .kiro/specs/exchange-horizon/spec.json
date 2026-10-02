@@ -1,0 +1,21 @@
+{
+  "feature_name": "exchange-horizon",
+  "language": "zh-CN",
+  "phase": "implementation-in-progress",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "approval_basis": "用户连续自主研究授权；同模型一次有界观察时间检验，无新费用。",
+  "ready_for_implementation": true
+}

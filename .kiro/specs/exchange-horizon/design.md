@@ -1,0 +1,3 @@
+# 设计
+
+科学合同为experiments/v4/study-016.md。仅新增run_v4_study016与verify_v4_study016_summary及测试；复用history_exchange_branch/audit，旧V4与工具不改。完整上游绑定可复用history_population_inputs.bindings后加入本协议/两新工具，包含全部study014/015载荷与凭据。根checkpoints.json保存40分支各100/200/300/400组件记录，原分支目录保持原七文件。生产follow从原初态0和同一完整父链追踪；独立continuity对各时间前缀重算。统计每来源一个锚点，条件均值五来源等权，不使用旧四锚点均值。
