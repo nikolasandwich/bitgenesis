@@ -1,7 +1,7 @@
 {
   "feature_name": "horizon-fates",
   "language": "zh-CN",
-  "phase": "tasks-generated",
+  "phase": "implementation-in-progress",
   "approvals": {
     "requirements": {
       "generated": true,
