@@ -16,7 +16,13 @@ growth, movement, feeding, energy costs, reproduction, mutation, death and linea
 logging. Experimental V1–V4 runtimes are also implemented. Their existence does
 not mean that their scientific graduation criteria have been met.
 
-The latest completed V4 study is [study017: structural copy candidates](docs/research/v4-study-017.zh-CN.md).
+The latest completed V4 study is [study018: nested copying prerequisites](docs/research/v4-study-018.zh-CN.md).
+Across 1,648 parent-branch records, 467 ever reach double population, 84 double
+attributed inventory, and six two complete composition-matched components; none
+reaches two exact spatial copies. These are nested descriptive conditions, not
+independent samples or causal contributions.
+
+The preceding structural observation is [study017: structural copy candidates](docs/research/v4-study-017.zh-CN.md).
 Two algorithms agree across all 40 saved trajectories: no ancestor-contained
 double genetic copy occurs. One material-only candidate interval spans steps
 399–400 and is right-censored at the fixed horizon; no candidate meets the

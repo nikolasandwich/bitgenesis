@@ -1,0 +1,20 @@
+{
+  "status": "verified",
+  "branches": 40,
+  "pairs": 20,
+  "saved_steps": 16000,
+  "parent_branch_records": 1648,
+  "series_values": 2636800,
+  "new_simulation_steps": 0,
+  "new_independent_sources": 0,
+  "reused_independent_sources": 5,
+  "input_files": 1631,
+  "files_sha256": {
+    "metadata.json": "a036da1fb947517b2fb8e80bc7405c37462c34412e94d64df686ba0493564c1b",
+    "records.json": "0ae2b72af842599631b0dd8e5321f2711733da9e2ea27d0d054edcfadc9eb2e1",
+    "results.json": "789093cc9667f5c974e2c2fe50922c6cec2e1996cab0be408dd19fb40fe55574",
+    "summary.json": "4cebd5df3fb21cd19da3bfec853c99b235f7f12b945857c3ec28f43d8c2f4a52"
+  },
+  "verifier_sha256": "a9244a7fe37267dd454f95a7b3710d3c3c134152057e06656bb27ebc3e60ac87",
+  "scope": "independent live-identity prerequisite reconstruction, exact nesting/episodes/state steps/source means; copy reuses independently verified study017 series"
+}
