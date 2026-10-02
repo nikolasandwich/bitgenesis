@@ -1,0 +1,10 @@
+{
+  "source_sha256": "c66986084358e159cfc9d8979548fdf69316cecbcc4010c1dcf85afdae2057db",
+  "script_sha256": "0407d9e6786a09fc448f00a23801019f37976bf4a8f44f5ec036189c02998db7",
+  "matplotlib_version": "3.11.2",
+  "font": "Arial Unicode MS",
+  "outputs": {
+    "docs/research/figures/v4-study-012-population-paths.png": "5ee2874ecb624c814f412e55501ff585d99dde937cd862ca472022fc1e675d14",
+    "docs/research/figures/v4-study-012-population-paths.svg": "ebb14a8e74e5de68b82587e2c5ec2dce722bc4c721883c25f6361c7028e99e9b"
+  }
+}

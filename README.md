@@ -29,8 +29,11 @@ No study establishes active maintenance, self-renewal or structural replication.
 The [target audit](docs/research/v4-study-013-targets.zh-CN.md) verifies all 1,176
 occupancy-blocked cases involved an original target rescued from dissolution.
 Another 96 energy-blocked cases also had rescued targets, so outcome labels
-are not mutually exclusive causal contributions. Next, compare complete
-whole-world population ledgers over the existing long branches.
+are not mutually exclusive causal contributions. The [full population paths](docs/research/v4-study-012-population-paths.zh-CN.md)
+show the same world-level count changing from an early advantage to a 100-step
+deficit of 6.05/4.95 units. All ten source means are negative at the endpoint,
+with positive or zero individual pairs retained. These counts and the earlier
+component-weighted retention proportions have different scope and weights.
 
 Start with the [current stage evidence and unmet criteria](docs/roadmap/stage-status.zh-CN.md)
 and [research log](docs/research/LOG.md). A fresh clone contains compact evidence,

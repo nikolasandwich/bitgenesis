@@ -1,0 +1,13 @@
+{
+  "status": "verified",
+  "branches": 80,
+  "branch_steps": 8000,
+  "paired_paths": 40,
+  "first_step_pairs_reused": 40,
+  "independent_new_samples": 0,
+  "metadata_sha256": "e7ee179d1eaae39f0a601c35edadfafbd4c8931add73276b01910c9709285db8",
+  "branches_sha256": "b35868a34193e452535dfe3991eae4af715ccc2e84719fa00266f6a7d505bb2b",
+  "summary_sha256": "c66986084358e159cfc9d8979548fdf69316cecbcc4010c1dcf85afdae2057db",
+  "verifier_sha256": "43f3a07efea8c0d2211c4e039cbc05758a6ecedb6da5a8217a55384ef6e31e16",
+  "scope": "identity-set differences independently reconstruct event-led paths and all exact paired means; shared provenance helper contains no classification"
+}
