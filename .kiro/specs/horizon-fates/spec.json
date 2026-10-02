@@ -1,7 +1,7 @@
 {
   "feature_name": "horizon-fates",
   "language": "zh-CN",
-  "phase": "completed",
+  "phase": "implementation-in-progress",
   "approvals": {
     "requirements": {
       "generated": true,
@@ -16,6 +16,6 @@
       "approved": true
     }
   },
-  "approval_basis": "用户继续直到暂停或需介入的持续授权；已知结果后只做有界描述分析，无新模拟或规则变更。",
+  "approval_basis": "用户继续直到暂停或需介入的持续授权；已知结果后只做有界描述分析，无新模拟或规则变更。 唯一短暂正例出现后追加需求5的两分支事后账本，仍在原持续授权范围。",
   "ready_for_implementation": true
 }

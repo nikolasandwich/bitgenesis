@@ -8,3 +8,7 @@
 - [x] 3.1 执行全量核验与完整报告。
   - _Depends:_ 2.1
   - _Boundary:_ 全部40分支，完整归档并说明无新模拟。
+
+- [ ] 4.1 唯一短暂正例及配对对照账本。
+  - _Depends:_ 3.1
+  - _Boundary:_ 需求5，docs/design/v4-transient-case.zh-CN.md固定两分支，工程验证后完整执行/核验/报告。
