@@ -4568,3 +4568,19 @@ intervention. Registered study011 to distinguish demographic stasis from partial
 turnover among continuously closed cohorts, preserving all source denominators
 and explicitly labeling conditional selection. Not implemented or executed.
 Do not repeat the formation-disabled refill contrast already covered by study004.
+
+## 2026-10-02 — Study011 demographic accounting engineering
+
+Continued the registered study011 under explicit user instruction. Implemented
+lifecycle-based counts and an independent raw-event scanner, with phase-specific
+100-tick event intervals, nearest anchor cuts, short-lived descendants, original
+versus descendant deaths, original-survivor curves and exact population balances.
+All initial-multiunit denominators and empty conditional subsets are retained.
+
+Independent review approved the implementation. The separately authored summary
+verifier was strengthened after review to reject missing/duplicate source, panel,
+source-mean and group keys. Eight new tests cover event timing, anchor parent/child,
+short-lived births/deaths, zero events, empty cohorts, corrupted observations,
+conditional/equal-weight summaries and failure metadata. Full377 tests and
+compileall pass. No simulation rule changes and no study011 outcome inspection
+at this checkpoint. Next clean launch of all20 frozen sources.
