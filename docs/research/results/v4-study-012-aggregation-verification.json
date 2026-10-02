@@ -1,0 +1,11 @@
+{
+  "status": "verified",
+  "branches": 80,
+  "pairs": 40,
+  "sources": 10,
+  "component_records": 12424,
+  "results_sha256": "3e90528d10884d4ededfc18bf49de4572c9f61816ea716cf17e4f8842b6a156f",
+  "summary_sha256": "c0c6eb03ad454685178ca2a4452f82d9882d483a0efe4f252af80984ff5a5c87",
+  "verifier_sha256": "e3fc4fb2485e064788aa024dd637143ef6a43eebdd4c9b994432f65ddf9065c8",
+  "scope": "complete saved-record recount, same initial cohorts/tapes, first-step isolation, exact paired hierarchical means and audit hash bindings"
+}

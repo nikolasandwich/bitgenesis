@@ -17,16 +17,14 @@ logging. Experimental V1–V4 runtimes are also implemented. Their existence doe
 not mean that their scientific graduation criteria have been met.
 
 The latest completed V4 study is
-[study011: demographic events during structural continuity](docs/research/v4-study-011.zh-CN.md).
-All twenty retained sources and 6,299 eligible component windows passed independent
-event accounting. High-input cohorts had no births or deaths; a few local
-low-input cohorts did, so uninterrupted sampled cohesion is not always demographic
-stasis. No window established complete original-member replacement, active
-organizational maintenance, or structural replication. The [event-boundary supplement](docs/research/v4-study-011-event-boundaries.zh-CN.md)
-deduplicates the local observations into thirteen events: six material-component
-growth events from two to three members and seven shrinkage events from three to
-two. A possible next intervention concerns energy exchange and structural
-persistence; it is not yet registered or executed.
+[study012: paired exchange and material continuity](docs/research/v4-study-012.zh-CN.md).
+All eighty branches passed independent physics, ancestry and paired-summary audits.
+Exchange increased average sampled material cohesion by 3.34 and 2.42 percentage
+points in the two mutation conditions, while lineage survival decreased by 6.08
+and 7.88 points. One source had a negative cohesion contrast. No branch established
+cohesion with complete original-member replacement, active maintenance or structural
+replication. The next analysis will map all paired cohorts' failure states and
+demographic events to understand this tradeoff.
 
 Start with the [current stage evidence and unmet criteria](docs/roadmap/stage-status.zh-CN.md)
 and [research log](docs/research/LOG.md). A fresh clone contains compact evidence,

@@ -4654,3 +4654,20 @@ fixed initialization failure metadata and incomplete verifier binding inventorie
 tests including one new provenance regression passed. Read-only preflight binds
 20 retained sources,54 code/protocol/upstream files and180 source files. No formal
 exchange-off branch outcomes inspected; next clean execution of the80-branch grid.
+
+## 2026-10-02 — Study012 complete; cohesion/survival tradeoff
+
+Cleanfd7173d completed80/80 audited branches in651.77s,533,300,485bytes. Independent
+saved-record recount verifies12424 component records,40pairs,10sources and all
+source/tape/first-step isolation/provenance bindings. Four compact archives are
+byte-identical; independent final review APPROVED. No new independent seeds.
+
+Exchange-on minus-off mean continuous material closure is+3.335/+2.425 percentage
+points for mutation0/100, with one negative mutation0 source. Lineage survival is
+-6.085/-7.882points; original-member retention increases while descendant counts
+decrease. Joint continuous closure and complete replacement is0 in both branches.
+This is a finite conditional total effect, not organism status or active maintenance.
+
+Next inspect all paired initial cohorts' failure states and birth/death accounting
+to understand the opposing aggregate directions; retrospective mechanism analysis,
+not a new confirmatory experiment or post-outcome redefinition of eligibility.
