@@ -17,6 +17,15 @@ logging. Experimental V1–V4 runtimes are also implemented. Their existence doe
 not mean that their scientific graduation criteria have been met.
 
 The latest completed V4 study is
+[study015: exchange history dependence](docs/research/v4-study-015.zh-CN.md).
+All ten additional baselines and eighty branches passed fresh independent audits.
+Using the same five sources, 100-step occupancy contrasts changed from -4.50/-4.55
+under exchange-on history to +0.35/-1.35 under exchange-off history. The direction
+therefore depends on history in the mutation-free condition, while the mutation
+condition remains negative. Greater material cohesion still does not establish
+self-renewal; continuously cohesive full replacement remains absent.
+
+The earlier new-source replication is
 [study014: five new sources](docs/research/v4-study-014.zh-CN.md).
 All ten baselines and eighty branches passed verification. Exchange reduced
 100-step world occupancy by 4.50/4.55 units while increasing continuous material

@@ -1,0 +1,19 @@
+{
+  "status": "verified",
+  "new_independent_sources": 0,
+  "reused_independent_sources": 5,
+  "baselines": 10,
+  "branches": 80,
+  "pairs": 40,
+  "component_records": 16530,
+  "baseline_steps": 5000,
+  "branch_steps": 8000,
+  "replayed_off_steps": 4000,
+  "old_verification_sha256": "87e1e19b7bfc26dd28981b225b54ecf3d0cdbb397a2cd358f4983d03ca5799ba",
+  "metadata_sha256": "ffb8714a4d1ed8bc07a1baa5e3ecb5ec61a25a0322d2a5e3a3a17aaa425b0fbf",
+  "baseline_results_sha256": "3986be5f2bea12ef25b8fec71c6753264cda79610126a0e0aa544e5ca45d1f1c",
+  "results_sha256": "0dcb6297b80064b5c0b7ed69ba24d5b30e567b8eec4a8705b5e5c928594fc566",
+  "summary_sha256": "abc13ac796ccca166b5db46aac0e7bfa63518a66a05866e8c611455a34ec7513",
+  "verifier_sha256": "e9b23ead22f23ca7b55d3d9f3c1dba89ee4301dbefb6de8f28a76a8d1259c293",
+  "scope": "fresh baseline and branch physical/ancestry audits; old cohort bindings; same-seed initial/tapes/final random states; independent population/component recount and anchor-intersection history differences"
+}
