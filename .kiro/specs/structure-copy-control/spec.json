@@ -1,7 +1,7 @@
 {
   "feature_name": "structure-copy-control",
   "language": "zh-CN",
-  "phase": "tasks-generated",
+  "phase": "completed",
   "approvals": {
     "requirements": {
       "generated": true,

@@ -11,6 +11,12 @@ is a research question, not a promised outcome.
 
 ## Current status
 
+An [artificial-input physical control](docs/research/v4-copy-control.zh-CN.md)
+now validates the copy observer end to end: with exchange off, a prescribed
+growth-and-separation sequence produces two matching components for steps 6–32.
+All three controls pass independent physics and ancestry reconstruction. This is
+an engineered measurement check, not spontaneous or evolved reproduction.
+
 V0 is the preserved baseline: an explicit-organism Darwinian world with resource
 growth, movement, feeding, energy costs, reproduction, mutation, death and lineage
 logging. Experimental V1–V4 runtimes are also implemented. Their existence does
