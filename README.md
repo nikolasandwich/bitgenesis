@@ -22,7 +22,12 @@ growth, movement, feeding, energy costs, reproduction, mutation, death and linea
 logging. Experimental V1–V4 runtimes are also implemented. Their existence does
 not mean that their scientific graduation criteria have been met.
 
-The latest completed V4 study is [study020: transient copy boundaries](docs/research/v4-study-020.zh-CN.md).
+最新完成的V4研究是[study021：原成员与同对子持续](docs/research/v4-study-021.zh-CN.md)。
+全部123旧案例完整核验：31个环境区间及一个确定性阳性区间均保持同一对身份，
+由原组[0,1]和一个全新后代组组成，没有两个全新组同时匹配。
+“两个全新组”只是次要统计，不是新的生命门槛；其中6个环境区间的后代仅来自一名原祖。
+
+The preceding V4 study is [study020: transient copy boundaries](docs/research/v4-study-020.zh-CN.md).
 Across all 120 saved cases, 30 of 31 sampled copy intervals start after dissolution
 and one after formation. Eleven observed exits follow formation-driven reconnection,
 19 follow dissolution, and one interval is right-censored. Thirteen additional

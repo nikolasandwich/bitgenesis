@@ -1,0 +1,20 @@
+{
+  "status": "verified",
+  "cases": 123,
+  "saved_steps": 3936,
+  "episodes": 32,
+  "new_simulation_steps": 0,
+  "new_environment_sources": 0,
+  "reused_environment_sources": 20,
+  "reused_deterministic_controls": 3,
+  "new_independent_initial_worlds": 0,
+  "input_files": 203,
+  "files_sha256": {
+    "metadata.json": "f8385ddb4bc3463000236fde0f79c195835c52df63fcf561bb62dca1a43c8954",
+    "records.json": "afd9365b3ffb49ea69877e27f0d0b1b512cfdb92713b07135d4228433fb01159",
+    "summary.json": "376981fd19c802191b9f2eabc5499093e75a0cc8e62d1f21c1d9ea97cd9b4c2a"
+  },
+  "verifier_sha256": "7c8364fc67d943c86209fddd6a73553d40140c6ff1c4850e5577b9e8cf642b25",
+  "elapsed_seconds": 1.491957165999338,
+  "scope": "independent torus components and translated full-program matching, ancestor chains, all member attributes, interval identity intersection and every unordered pair streak, all six cells and three controls"
+}
