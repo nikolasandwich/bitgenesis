@@ -1,0 +1,19 @@
+{
+  "status": "verified",
+  "cases": 3,
+  "probes": 2,
+  "saved_steps": 98,
+  "new_simulation_steps": 98,
+  "new_independent_sources": 0,
+  "artificial_control": true,
+  "expectations_met": true,
+  "input_files": 215,
+  "files_sha256": {
+    "metadata.json": "fc52e30247a00078fba1eb12f333530c8ed9551c9f4a900e2bdad61b963cbc33",
+    "cases.json": "f93303386a42e1d4657cbebc6250a869f54f837346d99270fba7ed9f9b83c3d6",
+    "probes.json": "df7805326757a350927896ab02b4d44adc783a9a5d574b69db3ddb3acc142b15",
+    "summary.json": "3f370f558430af92b4263b345f4775ee0c575bdc51f154604990a28eb463e89f"
+  },
+  "verifier_sha256": "7ca7bfa1de4114a0b76e920b6580c7a6752fe20e68bbd7e9b4a16e5a4386d332",
+  "scope": "independent fixed programs and tapes, dictionary physics, ancestry, all copy counts, probes and aggregate"
+}

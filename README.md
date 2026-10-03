@@ -22,7 +22,11 @@ growth, movement, feeding, energy costs, reproduction, mutation, death and linea
 logging. Experimental V1–V4 runtimes are also implemented. Their existence does
 not mean that their scientific graduation criteria have been met.
 
-最新完成的V4研究是[study021：原成员与同对子持续](docs/research/v4-study-021.zh-CN.md)。
+最新完成的V4研究是[study022：异质程序传递与表达](docs/research/v4-study-022.zh-CN.md)。
+三对照及两探针共98步全部独立核验：不同程序在构造中保留，重置的北向探针分别产生材料1/2。
+复制阶段没有使用该差异位；这是信息传递与表达的受控检查，不是自主复制证据。
+
+前项V4研究是[study021：原成员与同对子持续](docs/research/v4-study-021.zh-CN.md)。
 全部123旧案例完整核验：31个环境区间及一个确定性阳性区间均保持同一对身份，
 由原组[0,1]和一个全新后代组组成，没有两个全新组同时匹配。
 “两个全新组”只是次要统计，不是新的生命门槛；其中6个环境区间的后代仅来自一名原祖。

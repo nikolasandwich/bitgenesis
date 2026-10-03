@@ -92,3 +92,5 @@ verification; see docs/research/v4-study-002.zh-CN.md for outcomes and limits.
 [Study020阶段边界协议](study-020.md)复用019全部120轨迹，按上一final/消解后/形成后分别重建匹配，保留全部31区间和隐藏阶段变化；[完整报告](../../docs/research/v4-study-020.zh-CN.md)已独立核验，未新增模拟。
 
 [Study021成员与祖源协议](study-021.md)复用120环境案例和3确定性对照，区分原成员保留、全新后代组和同身份对子持续；[完整报告](../../docs/research/v4-study-021.zh-CN.md)已独立核验，无新模拟。
+
+[Study022异质程序协议](study-022.md)固定三32步主对照与两个单步后代表达探针；[完整报告](../../docs/research/v4-study-022.zh-CN.md)98步独立重放通过。复制阶段被动保留和重置探针表达分别解释。
