@@ -1,0 +1,19 @@
+{
+  "status": "verified",
+  "cases": 120,
+  "saved_steps": 3840,
+  "episodes": 31,
+  "new_simulation_steps": 0,
+  "new_environment_sources": 0,
+  "reused_environment_sources": 20,
+  "new_independent_initial_worlds": 0,
+  "input_files": 191,
+  "files_sha256": {
+    "metadata.json": "92f2e0a5636b9a660871e7875da2f1f4d25a5aad7b28c7ba32c03177c3671e1f",
+    "records.json": "ee1e19308fe65adaaad6e7815fd41298362de244fd261aa7fbd6e5a70c5bfdad",
+    "summary.json": "110a7e671abcc02ea5f9a52b92c1ca439e5cd8b55a26de8dba7c8a07f9034314"
+  },
+  "verifier_sha256": "786b86e1808f31412a4db0a9e1bae1f98b83ada3b093b14f2fb9c1e1d9659d6d",
+  "elapsed_seconds": 1.3804020410170779,
+  "scope": "independent F-minus-birth identity reconstruction, same-material torus traversal, direct translated complete-program matching, all stage groups, crossings, intervals and six cells"
+}

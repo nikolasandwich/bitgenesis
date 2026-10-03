@@ -22,7 +22,14 @@ growth, movement, feeding, energy costs, reproduction, mutation, death and linea
 logging. Experimental V1–V4 runtimes are also implemented. Their existence does
 not mean that their scientific graduation criteria have been met.
 
-The latest completed V4 study is [study019: controlled input ablations](docs/research/v4-study-019.zh-CN.md).
+The latest completed V4 study is [study020: transient copy boundaries](docs/research/v4-study-020.zh-CN.md).
+Across all 120 saved cases, 30 of 31 sampled copy intervals start after dissolution
+and one after formation. Eleven observed exits follow formation-driven reconnection,
+19 follow dissolution, and one interval is right-censored. Thirteen additional
+within-step appearances disappear before final sampling; the ten-step criterion
+remains unmet. No new simulation or independent source was added.
+
+The preceding input study is [study019: controlled input ablations](docs/research/v4-study-019.zh-CN.md).
 All 120 cases pass independent replay. Randomizing directions, feed locations,
 or both yields no ten-step double copy; exchange-off cases still show transient
 copies in 11/20, 18/20, and 1/20 environmental tapes. Accepted energy differs
