@@ -22,7 +22,11 @@ growth, movement, feeding, energy costs, reproduction, mutation, death and linea
 logging. Experimental V1–V4 runtimes are also implemented. Their existence does
 not mean that their scientific graduation criteria have been met.
 
-最新完成的V4研究是[study023：随机方向下异质程序](docs/research/v4-study-023.zh-CN.md)。
+最新完成的V4研究是[study024：副本阶段与成员](docs/research/v4-study-024.zh-CN.md)。
+80条新旧轨迹完整核验：两个达标区间均由原组和同一第二代后代组持续，消解后进入、形成后退出。
+关闭交换累计双副本观察步15→76；事件顺序尚不能证明单独材料效应或自主繁殖。
+
+前项V4研究是[study023：随机方向下异质程序](docs/research/v4-study-023.zh-CN.md)。
 复用20环境票的40新案例全部独立核验；关闭交换时2/20达到连续10步遗传双副本，持续16与21步，均一对照0/20。
 曾出现比例反而从11/20降至9/20；初态、原料与供能仍人为设置，不能宣称自主生命。
 

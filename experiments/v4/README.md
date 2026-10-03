@@ -96,3 +96,5 @@ verification; see docs/research/v4-study-002.zh-CN.md for outcomes and limits.
 [Study022异质程序协议](study-022.md)固定三32步主对照与两个单步后代表达探针；[完整报告](../../docs/research/v4-study-022.zh-CN.md)98步独立重放通过。复制阶段被动保留和重置探针表达分别解释。
 
 [Study023随机方向配对协议](study-023.md)复用20环境票×交换两臂，仅改变初始A/B程序；[完整报告](../../docs/research/v4-study-023.zh-CN.md)40新案例1280步全量核验。关闭交换2/20持续16与21步，旧对照0/20；完整数据及恢复清单保存，未新增环境来源。
+
+[Study024阶段与成员协议](study-024.md)只读全80新旧轨迹；[完整报告](../../docs/research/v4-study-024.zh-CN.md)2560保存步独立核验。两个达标区间同对子持续，所有区间、形成记录和阴性案例完整归档。

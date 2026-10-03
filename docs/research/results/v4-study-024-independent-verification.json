@@ -1,0 +1,18 @@
+{
+  "status": "verified",
+  "cases": 80,
+  "saved_steps": 2560,
+  "new_simulation_steps": 0,
+  "new_environment_sources": 0,
+  "reused_environment_sources": 20,
+  "new_independent_initial_worlds": 0,
+  "input_files": 283,
+  "files_sha256": {
+    "metadata.json": "b70fa750c1e49a474c4581d2e5f280c86eb529b1125652f3fd072446901136af",
+    "records.json": "4f53aa3b08eb7aae2ee7b8a07f70564d6f2c6d82b5934ec0fd83a8682dc63db6",
+    "summary.json": "456bdbc3184b1311fa66bd99263045c24b8de93abde43e6023d75ece335d35fa"
+  },
+  "verifier_sha256": "bb41aeceefe927fca4d4a08cd6a6ed124a06343ed51244befebbeb305844269b",
+  "elapsed_seconds": 1.2346998329740018,
+  "scope": "reused independent 020 phase and 021 member reconstruction; identity-difference formation ledger; all 80 cases and four cells"
+}
