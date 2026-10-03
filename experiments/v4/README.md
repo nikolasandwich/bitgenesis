@@ -98,3 +98,5 @@ verification; see docs/research/v4-study-002.zh-CN.md for outcomes and limits.
 [Study023随机方向配对协议](study-023.md)复用20环境票×交换两臂，仅改变初始A/B程序；[完整报告](../../docs/research/v4-study-023.zh-CN.md)40新案例1280步全量核验。关闭交换2/20持续16与21步，旧对照0/20；完整数据及恢复清单保存，未新增环境来源。
 
 [Study024阶段与成员协议](study-024.md)只读全80新旧轨迹；[完整报告](../../docs/research/v4-study-024.zh-CN.md)2560保存步独立核验。两个达标区间同对子持续，所有区间、形成记录和阴性案例完整归档。
+
+[Study025随机供能配对协议](study-025.md)固定80新案例；[完整报告](../../docs/research/v4-study-025.zh-CN.md)2560步全部独立核验。两条件持续标准全零、13指标逐对全同，完整原始案例及恢复清单已归档。
