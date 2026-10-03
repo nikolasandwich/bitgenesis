@@ -1,0 +1,21 @@
+{
+  "feature_name": "program-random-direction",
+  "language": "zh-CN",
+  "phase": "tasks-generated",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "approval_basis": "持续自主研究授权，固定20环境票两臂，intentional fast-track",
+  "ready_for_implementation": true
+}
