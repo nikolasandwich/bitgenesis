@@ -22,7 +22,14 @@ growth, movement, feeding, energy costs, reproduction, mutation, death and linea
 logging. Experimental V1–V4 runtimes are also implemented. Their existence does
 not mean that their scientific graduation criteria have been met.
 
-The latest completed V4 study is [study018: nested copying prerequisites](docs/research/v4-study-018.zh-CN.md).
+The latest completed V4 study is [study019: controlled input ablations](docs/research/v4-study-019.zh-CN.md).
+All 120 cases pass independent replay. Randomizing directions, feed locations,
+or both yields no ten-step double copy; exchange-off cases still show transient
+copies in 11/20, 18/20, and 1/20 environmental tapes. Accepted energy differs
+despite equal proposed input. These are twenty environmental realizations of
+an artificial initial state, not twenty new random worlds.
+
+The preceding prerequisite study is [study018: nested copying prerequisites](docs/research/v4-study-018.zh-CN.md).
 Across 1,648 parent-branch records, 467 ever reach double population, 84 double
 attributed inventory, and six two complete composition-matched components; none
 reaches two exact spatial copies. These are nested descriptive conditions, not

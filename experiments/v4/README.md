@@ -86,3 +86,5 @@ verification; see docs/research/v4-study-002.zh-CN.md for outcomes and limits.
 [study017](study-017.md)：40条保存轨迹中的完整结构副本候选；[结果](../../docs/research/v4-study-017.zh-CN.md)已双路线核验，无祖源内遗传双副本。
 
 [study018](study-018.md)：四层复制必要条件与五时间状态；[结果](../../docs/research/v4-study-018.zh-CN.md)全部核验，组成相符的完整双组件仍不等于精确空间副本。
+
+[study019](study-019.md)：固定人为初态的环境输入消融；[全120案例结果](../../docs/research/v4-study-019.zh-CN.md)及完整压缩轨迹已核验，无持续10步副本。
