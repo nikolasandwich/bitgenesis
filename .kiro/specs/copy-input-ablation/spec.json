@@ -1,0 +1,21 @@
+{
+  "feature_name": "copy-input-ablation",
+  "language": "zh-CN",
+  "phase": "tasks-generated",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "approval_basis": "用户持续自主研究授权；有界固定输入消融，不改旧物理或成功标准。",
+  "ready_for_implementation": true
+}
