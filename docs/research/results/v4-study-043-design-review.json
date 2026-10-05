@@ -1,0 +1,132 @@
+{
+  "verdict": "APPROVED",
+  "task": "1.1",
+  "review_mode": "独立审查子代理",
+  "independent_author_review": true,
+  "summary": "独立读取原始文件复算全100映射、移除初态与780格步方向清单，符合方法冻结边界；实际政策效应尚未运行。",
+  "mechanical_results": {
+    "source_hashes": "834/834匹配",
+    "census": "100/100映射及780/780方向票逐项匹配",
+    "syntax": "ast.parse通过",
+    "diff_check": "PASS",
+    "placeholder_scan": "CLEAN",
+    "secrets_spot_check": "CLEAN",
+    "boundary": "仅方法和只读审查；无物理执行",
+    "red_phase": "N/A：方法审查无行为变更",
+    "suite": "本次未运行物理测试；不将042历史863项测试冒充本次证据"
+  },
+  "independently_verified": {
+    "source_file_count": 834,
+    "cases": 100,
+    "triggered": 28,
+    "nontriggered": 72,
+    "short_windows": 10,
+    "baseline_branches": 28,
+    "old_039_branches": 8,
+    "old_036_branches": 20,
+    "future_physical_step_budget": 390,
+    "independent_future_step_budget": 390,
+    "mask_slots": 780,
+    "changed_tickets": 615,
+    "unchanged_north_tickets": 165,
+    "initial_removal_states_verified": 28,
+    "first_engineering_case": "east-120005",
+    "first_engineering_steps_per_route": 13,
+    "groups": [
+      {
+        "encoding": "east",
+        "n": 20,
+        "triggered": 5,
+        "short_windows": 1,
+        "future_steps": 70,
+        "mask_slots": 140,
+        "changed_tickets": 114,
+        "original_directions": {
+          "0": 41,
+          "1": 33,
+          "2": 40,
+          "3": 26
+        }
+      },
+      {
+        "encoding": "west",
+        "n": 20,
+        "triggered": 3,
+        "short_windows": 1,
+        "future_steps": 46,
+        "mask_slots": 92,
+        "changed_tickets": 77,
+        "original_directions": {
+          "0": 27,
+          "1": 26,
+          "2": 24,
+          "3": 15
+        }
+      },
+      {
+        "encoding": "south",
+        "n": 20,
+        "triggered": 0,
+        "short_windows": 0,
+        "future_steps": 0,
+        "mask_slots": 0,
+        "changed_tickets": 0,
+        "original_directions": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        }
+      },
+      {
+        "encoding": "north",
+        "n": 20,
+        "triggered": 9,
+        "short_windows": 3,
+        "future_steps": 133,
+        "mask_slots": 266,
+        "changed_tickets": 209,
+        "original_directions": {
+          "0": 75,
+          "1": 64,
+          "2": 70,
+          "3": 57
+        }
+      },
+      {
+        "encoding": "homogeneous",
+        "n": 20,
+        "triggered": 11,
+        "short_windows": 5,
+        "future_steps": 141,
+        "mask_slots": 282,
+        "changed_tickets": 215,
+        "original_directions": {
+          "0": 77,
+          "1": 69,
+          "2": 69,
+          "3": 67
+        }
+      }
+    ],
+    "physical_steps_executed_in_review": 0
+  },
+  "fairness_and_limitations": [
+    "所有100个seed均保留；触发时刻从038序列读取并与039逐项比较。",
+    "72未触发案例两政策相同，短窗10例不剔除。",
+    "主比较为既有移除政策，严格未来窗口不含t0诊断状态。",
+    "全格方向票包括空格和低能格，615票改变不能推断为有效行动。",
+    "跨编码触发时刻和方向引起的材料表达均可能改变，不能解释为纯方向程序效应。",
+    "人工环境控制不证明自主生命；无反事实成功结论。"
+  ],
+  "findings": [],
+  "required_remediation": [],
+  "files_sha256": {
+    "experiments/v4/study-043.md": "a6b6090642c6b793f9e8d6f78f1f0178c138bc97a522ebcc322b0af6a7cf97a5",
+    "docs/design/v4-middle-north-policy.zh-CN.md": "f103bc53d35ed5369e515187e88874c2b8e9e7174d980e478e85b5cfbc6049d1",
+    "scripts/audit_v4_middle_north_design.py": "61da9129adca9c657a4e1f16bfdaece306c75be63985bd5eaa8e3e51372e5cb1",
+    "docs/research/results/v4-study-043-design-sources.json": "aa675a6a9c3d84b7d18a2c763cd12da2d662b9d08fb31398811c2ed2cd881119",
+    "docs/research/results/v4-study-043-design-census.json": "04f6a9c6bc24714ba3c1ef4373074f3e6f23cac7ab25e7d0f0adc8191950abae",
+    "docs/research/v4-study-043.zh-CN.md": "9009f346ae3ffbdf823352b76f57c707398ceaed914193b4dbac0496d361f831"
+  }
+}
