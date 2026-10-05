@@ -1,7 +1,7 @@
 {
   "feature_name": "position-barriers",
   "language": "zh-CN",
-  "phase": "tasks-approved",
+  "phase": "implementation-complete",
   "approvals": {
     "requirements": {
       "generated": true,
@@ -17,5 +17,6 @@
     }
   },
   "approval_basis": "持续研究授权 intentional fast-track",
-  "ready_for_implementation": true
+  "ready_for_implementation": true,
+  "completion_note": "8分支116未来末态348槽两算法一致；0物理；784绑定；新上下文代码/报告审查APPROVED，算法作者父inline fallback。"
 }
