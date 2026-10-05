@@ -100,3 +100,5 @@ verification; see docs/research/v4-study-002.zh-CN.md for outcomes and limits.
 [Study024阶段与成员协议](study-024.md)只读全80新旧轨迹；[完整报告](../../docs/research/v4-study-024.zh-CN.md)2560保存步独立核验。两个达标区间同对子持续，所有区间、形成记录和阴性案例完整归档。
 
 [Study025随机供能配对协议](study-025.md)固定80新案例；[完整报告](../../docs/research/v4-study-025.zh-CN.md)2560步全部独立核验。两条件持续标准全零、13指标逐对全同，完整原始案例及恢复清单已归档。
+
+[Study026北向机会协议](study-026.md)只读全240案例；[完整报告](../../docs/research/v4-study-026.zh-CN.md)7680保存步独立核验，区分北向票/提案/成功及三失败条件共存，全部行动者与祖源范围完整归档。

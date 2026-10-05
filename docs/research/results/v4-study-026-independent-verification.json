@@ -1,0 +1,18 @@
+{
+  "status": "verified",
+  "cases": 240,
+  "saved_steps": 7680,
+  "input_files": 389,
+  "new_simulation_steps": 0,
+  "new_environment_sources": 0,
+  "reused_environment_sources": 20,
+  "new_independent_initial_worlds": 0,
+  "files_sha256": {
+    "metadata.json": "bdd6f7b108c1a776e4e3231ebd6ea19c2a533b12d67bc4f2b5e89b233ca50bdb",
+    "records.json": "be8b414414830ac759481098ff62bc5478c614a44b504833716bdde8a3769a48",
+    "summary.json": "88c26f97248123aaa3fbed4ee0ea0dab1f7103c4bf7489865aa35d7f39b8468b"
+  },
+  "verifier_sha256": "9eabd830e1f53ae5baf0fe08a15d93fbe68f1f00ed3facd000021da9260585c3",
+  "elapsed_seconds": 9.434887291048653,
+  "scope": "independent dictionary physics, full physical ledgers, identity differences, parent chains, all actor opportunities and twelve summary cells"
+}
