@@ -1,0 +1,55 @@
+{
+  "verdict": "APPROVED",
+  "task": "2.1",
+  "review_mode": "inline fallback",
+  "reason": "fresh verifier spawn failed: agent thread limit reached",
+  "production_author": "/root/position_producer",
+  "verification_author": "parent inline separate algorithm",
+  "new_independent_author_review": false,
+  "checks": [
+    "60 complete new cases/1920 independent dictionary steps match",
+    "40 old cases observed without physics replay",
+    "100 records own-template exact copy metrics and contrasts match",
+    "678 input hashes stable",
+    "60 raw cases compressed and restored byte-identically",
+    "report all100 cases/formation tables/pairwise signs preserved"
+  ],
+  "tests": {
+    "count": 827,
+    "seconds": 56.222,
+    "status": "PASS",
+    "compile": "PASS",
+    "RED": "production/verifier/helper imports failed before implementation"
+  },
+  "engineering_steps": {
+    "production_east120000": 32,
+    "verification_east120000": 32,
+    "other_new_case_physics": 0,
+    "mock_failure_counter_not_physics": 7
+  },
+  "formal_steps": {
+    "production": 1920,
+    "verification_new_case_replay": 1920,
+    "old_case_physics_replay": 0,
+    "old_case_observation": 1280
+  },
+  "gaps": [],
+  "files_sha256": {
+    "scripts/program_position_inputs.py": "9290cf6ed0b19f6e627208fa0b24034daade0be10f7f89123238bddfc435eea4",
+    "scripts/run_v4_program_position.py": "d3af73c6308f70c9e334572f281afc660ca41a0232f7e8f5cd206f4e7161a51a",
+    "scripts/verify_v4_program_position.py": "7e36e344ad087926ca9ea724a3f942338bd643ade992b54964ef47657e70c50b",
+    "tests/test_v4_program_position_inputs.py": "7abe78263b10d80baea1e68b5a82b49591b47b17cbf6921892f2c9697a5cfc84",
+    "tests/test_v4_program_position.py": "51fce111b999e4ababb8554301f47f850d0e23143737616b4f796aec32f7a764",
+    "tests/test_v4_program_position_verifier.py": "ad92733248456558c6205b172493e2cf954a90ed4b031d7c8fffb8cb47b731e5",
+    "docs/research/v4-study-038.zh-CN.md": "f5592111ed44c491aa6856d237021d85f85134adff4f702d7b29e041506eade0",
+    "docs/research/results/v4-study-038-cases.tar.gz": "33af496702b55a52d4b06579b11faefb6d96bd8d3097aafa438904f5b4f6840c",
+    "docs/research/results/v4-study-038-design-census.json": "db808d3fc4a06b6fa4b386311a2574e772958c869bab5f6b962847a7c37c4f74",
+    "docs/research/results/v4-study-038-design-review.json": "d82d5b86be23d425be8005acd036d0bda8d7284d8de66c175844ae88fe84228d",
+    "docs/research/results/v4-study-038-design-sources.json": "8c380fdae5fa8e1fa86191afdff1542a4b7d7b985e1aaddfb6d5904faa634b1c",
+    "docs/research/results/v4-study-038-independent-verification.json": "490cab99d5ece8fab3405a541a662e152ef4fcfd16225424e0a16dadb95e42a9",
+    "docs/research/results/v4-study-038-metadata.json": "330a9250fbe72160ea106fcb789d1a77d740aa205eebe0b20ad02ceb65663d34",
+    "docs/research/results/v4-study-038-preservation.json": "e4c5172ffe45e4e3f80bc707f029b2a19f10cc4d74d04ead0c8d900e86de71b0",
+    "docs/research/results/v4-study-038-records.json": "ace024ee4d712870f5b0c2d08faf5799616beb83a4e2fb341b999cdfd93b2999",
+    "docs/research/results/v4-study-038-summary.json": "a0c5df9a140c69f0f95d684f068efc368257992e534bfbb9d7340e9b87af833f"
+  }
+}

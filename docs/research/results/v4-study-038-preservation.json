@@ -1,0 +1,11 @@
+{
+  "status": "verified",
+  "cases": 60,
+  "raw_bytes": 50088617,
+  "archive_bytes": 976753,
+  "archive_sha256": "33af496702b55a52d4b06579b11faefb6d96bd8d3097aafa438904f5b4f6840c",
+  "restored_cases": 60,
+  "restored_bytes_equal": true,
+  "root_json_bytes": 604107,
+  "production_commit": "e8814bf2f36bffcda7548f47b1ebc853db29ede9"
+}
