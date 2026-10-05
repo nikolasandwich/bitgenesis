@@ -1,7 +1,7 @@
 {
   "feature_name": "middle-energy-windows",
   "language": "zh-CN",
-  "phase": "tasks-approved",
+  "phase": "implementation-ready",
   "approvals": {
     "requirements": {
       "generated": true,
@@ -17,5 +17,6 @@
     }
   },
   "approval_basis": "持续研究授权 intentional fast-track",
-  "ready_for_implementation": true
+  "ready_for_implementation": true,
+  "method_review": "APPROVED；新上下文middle_method独立证明/812绑定/35出生清单审查；1.1完成，2.1未开始，0物理。"
 }

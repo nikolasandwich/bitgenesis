@@ -1,0 +1,24 @@
+{
+  "verdict": "APPROVED",
+  "task": "1.1",
+  "reviewer": "fresh context /root/middle_method",
+  "scope": "independent model proof, source hashes and birth census; report clarifications integrated by parent",
+  "mechanical": {
+    "source_files": 812,
+    "births": 35,
+    "middle_input_checks": 232,
+    "independent_capacity_feed_leak_bond_checks": 21125,
+    "middle_success_energy_checks": 13,
+    "birth_age_checks": 1950
+  },
+  "limitations": "no lifecycle energy/direction window audit; task2.1 pending; arbitrary initial high-energy middle identities excluded",
+  "physical_steps": 0,
+  "freeze_commit": "04c87b4",
+  "files_sha256": {
+    "experiments/v4/study-042.md": "7ccdc45f607ceb8d4a04be9fa662cafbb5c6fa50c7a6ed8913effe730a2c1858",
+    "docs/design/v4-middle-energy-windows.zh-CN.md": "c8faa7a75473eeb44da1ca4ac4e47d7525f52774bfed39efd5a70cdfdd9cad68",
+    "docs/research/results/v4-study-042-design-sources.json": "10959ec39967373f34b7e0983d890bfaa43dc0f9534e8607cad82423e3ecc5f2",
+    "docs/research/results/v4-study-042-design-census.json": "0a61d63f9003d5f7e7fc54f547f38006b1e4873c6edfb5be29c62a20a02efa15",
+    "docs/research/results/v4-study-042-design-proof.json": "62a868d0163b72e7a0a76495de69a1f2ef12f79c7e006e8c92a0466aab8bc94a"
+  }
+}

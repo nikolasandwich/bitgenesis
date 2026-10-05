@@ -1,0 +1,520 @@
+{
+  "phase": "1.1",
+  "birth_bounds": [
+    {
+      "parent_pre": 16,
+      "child": 5
+    },
+    {
+      "parent_pre": 17,
+      "child": 6
+    },
+    {
+      "parent_pre": 18,
+      "child": 6
+    },
+    {
+      "parent_pre": 19,
+      "child": 7
+    },
+    {
+      "parent_pre": 20,
+      "child": 7
+    },
+    {
+      "parent_pre": 21,
+      "child": 8
+    },
+    {
+      "parent_pre": 22,
+      "child": 8
+    },
+    {
+      "parent_pre": 23,
+      "child": 9
+    },
+    {
+      "parent_pre": 24,
+      "child": 9
+    },
+    {
+      "parent_pre": 25,
+      "child": 10
+    },
+    {
+      "parent_pre": 26,
+      "child": 10
+    },
+    {
+      "parent_pre": 27,
+      "child": 11
+    },
+    {
+      "parent_pre": 28,
+      "child": 11
+    },
+    {
+      "parent_pre": 29,
+      "child": 12
+    },
+    {
+      "parent_pre": 30,
+      "child": 12
+    },
+    {
+      "parent_pre": 31,
+      "child": 13
+    },
+    {
+      "parent_pre": 32,
+      "child": 13
+    },
+    {
+      "parent_pre": 33,
+      "child": 14
+    },
+    {
+      "parent_pre": 34,
+      "child": 14
+    },
+    {
+      "parent_pre": 35,
+      "child": 15
+    },
+    {
+      "parent_pre": 36,
+      "child": 15
+    },
+    {
+      "parent_pre": 37,
+      "child": 16
+    },
+    {
+      "parent_pre": 38,
+      "child": 16
+    },
+    {
+      "parent_pre": 39,
+      "child": 17
+    },
+    {
+      "parent_pre": 40,
+      "child": 17
+    },
+    {
+      "parent_pre": 41,
+      "child": 18
+    },
+    {
+      "parent_pre": 42,
+      "child": 18
+    },
+    {
+      "parent_pre": 43,
+      "child": 19
+    },
+    {
+      "parent_pre": 44,
+      "child": 19
+    },
+    {
+      "parent_pre": 45,
+      "child": 20
+    },
+    {
+      "parent_pre": 46,
+      "child": 20
+    },
+    {
+      "parent_pre": 47,
+      "child": 21
+    },
+    {
+      "parent_pre": 48,
+      "child": 21
+    },
+    {
+      "parent_pre": 49,
+      "child": 22
+    },
+    {
+      "parent_pre": 50,
+      "child": 22
+    },
+    {
+      "parent_pre": 51,
+      "child": 23
+    },
+    {
+      "parent_pre": 52,
+      "child": 23
+    },
+    {
+      "parent_pre": 53,
+      "child": 24
+    },
+    {
+      "parent_pre": 54,
+      "child": 24
+    },
+    {
+      "parent_pre": 55,
+      "child": 25
+    },
+    {
+      "parent_pre": 56,
+      "child": 25
+    },
+    {
+      "parent_pre": 57,
+      "child": 26
+    },
+    {
+      "parent_pre": 58,
+      "child": 26
+    },
+    {
+      "parent_pre": 59,
+      "child": 27
+    },
+    {
+      "parent_pre": 60,
+      "child": 27
+    },
+    {
+      "parent_pre": 61,
+      "child": 28
+    },
+    {
+      "parent_pre": 62,
+      "child": 28
+    },
+    {
+      "parent_pre": 63,
+      "child": 29
+    },
+    {
+      "parent_pre": 64,
+      "child": 29
+    }
+  ],
+  "middle_success_bounds": [
+    {
+      "pre": 16,
+      "parent": 6,
+      "child": 5
+    },
+    {
+      "pre": 17,
+      "parent": 6,
+      "child": 6
+    },
+    {
+      "pre": 18,
+      "parent": 7,
+      "child": 6
+    },
+    {
+      "pre": 19,
+      "parent": 7,
+      "child": 7
+    },
+    {
+      "pre": 20,
+      "parent": 8,
+      "child": 7
+    },
+    {
+      "pre": 21,
+      "parent": 8,
+      "child": 8
+    },
+    {
+      "pre": 22,
+      "parent": 9,
+      "child": 8
+    },
+    {
+      "pre": 23,
+      "parent": 9,
+      "child": 9
+    },
+    {
+      "pre": 24,
+      "parent": 10,
+      "child": 9
+    },
+    {
+      "pre": 25,
+      "parent": 10,
+      "child": 10
+    },
+    {
+      "pre": 26,
+      "parent": 11,
+      "child": 10
+    },
+    {
+      "pre": 27,
+      "parent": 11,
+      "child": 11
+    },
+    {
+      "pre": 28,
+      "parent": 12,
+      "child": 11
+    }
+  ],
+  "eligibility_bounds": [
+    {
+      "birth_energy": 1,
+      "eligible_age_upper_bound": [],
+      "maximum_eligible_steps": 0
+    },
+    {
+      "birth_energy": 2,
+      "eligible_age_upper_bound": [],
+      "maximum_eligible_steps": 0
+    },
+    {
+      "birth_energy": 3,
+      "eligible_age_upper_bound": [],
+      "maximum_eligible_steps": 0
+    },
+    {
+      "birth_energy": 4,
+      "eligible_age_upper_bound": [],
+      "maximum_eligible_steps": 0
+    },
+    {
+      "birth_energy": 5,
+      "eligible_age_upper_bound": [],
+      "maximum_eligible_steps": 0
+    },
+    {
+      "birth_energy": 6,
+      "eligible_age_upper_bound": [],
+      "maximum_eligible_steps": 0
+    },
+    {
+      "birth_energy": 7,
+      "eligible_age_upper_bound": [],
+      "maximum_eligible_steps": 0
+    },
+    {
+      "birth_energy": 8,
+      "eligible_age_upper_bound": [],
+      "maximum_eligible_steps": 0
+    },
+    {
+      "birth_energy": 9,
+      "eligible_age_upper_bound": [],
+      "maximum_eligible_steps": 0
+    },
+    {
+      "birth_energy": 10,
+      "eligible_age_upper_bound": [],
+      "maximum_eligible_steps": 0
+    },
+    {
+      "birth_energy": 11,
+      "eligible_age_upper_bound": [],
+      "maximum_eligible_steps": 0
+    },
+    {
+      "birth_energy": 12,
+      "eligible_age_upper_bound": [],
+      "maximum_eligible_steps": 0
+    },
+    {
+      "birth_energy": 13,
+      "eligible_age_upper_bound": [],
+      "maximum_eligible_steps": 0
+    },
+    {
+      "birth_energy": 14,
+      "eligible_age_upper_bound": [],
+      "maximum_eligible_steps": 0
+    },
+    {
+      "birth_energy": 15,
+      "eligible_age_upper_bound": [],
+      "maximum_eligible_steps": 0
+    },
+    {
+      "birth_energy": 16,
+      "eligible_age_upper_bound": [],
+      "maximum_eligible_steps": 0
+    },
+    {
+      "birth_energy": 17,
+      "eligible_age_upper_bound": [
+        1
+      ],
+      "maximum_eligible_steps": 1
+    },
+    {
+      "birth_energy": 18,
+      "eligible_age_upper_bound": [
+        1,
+        2
+      ],
+      "maximum_eligible_steps": 2
+    },
+    {
+      "birth_energy": 19,
+      "eligible_age_upper_bound": [
+        1,
+        2,
+        3
+      ],
+      "maximum_eligible_steps": 3
+    },
+    {
+      "birth_energy": 20,
+      "eligible_age_upper_bound": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "maximum_eligible_steps": 4
+    },
+    {
+      "birth_energy": 21,
+      "eligible_age_upper_bound": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "maximum_eligible_steps": 5
+    },
+    {
+      "birth_energy": 22,
+      "eligible_age_upper_bound": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "maximum_eligible_steps": 6
+    },
+    {
+      "birth_energy": 23,
+      "eligible_age_upper_bound": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "maximum_eligible_steps": 7
+    },
+    {
+      "birth_energy": 24,
+      "eligible_age_upper_bound": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "maximum_eligible_steps": 8
+    },
+    {
+      "birth_energy": 25,
+      "eligible_age_upper_bound": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "maximum_eligible_steps": 9
+    },
+    {
+      "birth_energy": 26,
+      "eligible_age_upper_bound": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "maximum_eligible_steps": 10
+    },
+    {
+      "birth_energy": 27,
+      "eligible_age_upper_bound": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "maximum_eligible_steps": 11
+    },
+    {
+      "birth_energy": 28,
+      "eligible_age_upper_bound": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "maximum_eligible_steps": 12
+    },
+    {
+      "birth_energy": 29,
+      "eligible_age_upper_bound": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "maximum_eligible_steps": 13
+    }
+  ],
+  "physical_steps": 0
+}
