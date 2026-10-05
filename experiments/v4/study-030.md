@@ -20,9 +20,9 @@ scripts/analyze_v4_feed_timing.py analyze_branch(branch,energy)→record，summa
 
 scripts/verify_v4_feed_timing.py recount(branch,energy)→record，aggregate(records)→summary，main。先调用旧verify_v4_child_energy.recount(branch)独立重放全部后续物理/身份，与对应energy全字段比对，然后独立构建时序记录，不调用新生产。仅共享旧核验和IO。
 
-cells按genotype→exchange四格，键genotype,exchange,n,totals（上述14指标合计）,no_proposal,first_before_death,first_at_death,first_after_death,any_after_death,any_child_accepted,any_other_accepted（七项记录计数）。四项首次分类no/before/at/after合计n。
+cells按genotype→exchange四格，键genotype,exchange,n,totals（上述13指标合计）,no_proposal,first_before_death,first_at_death,first_after_death,any_after_death,any_child_accepted,any_other_accepted（七项记录计数）。四项首次分类no/before/at/after合计n。
 
-pairs按均一原顺序26项，每项selection（除genotype八键）,homogeneous_index,heterogeneous_index,delta（14totals异质−均一）,phase_shift_ticks（同一proposed>0但phase不同的tick升序列表）。必须对应child_site、birth_tick、完整tick/proposed票序列相同；配对不可重复/遗漏。供能时序的总提议相同，但其生命周期分类或实际接受可以不同。保留全部零/反向差，不作独立样本显著性。
+pairs按均一原顺序26项，每项selection（除genotype八键）,homogeneous_index,heterogeneous_index,delta（13totals异质−均一）,phase_shift_ticks（同一proposed>0但phase不同的tick升序列表）。必须对应child_site、birth_tick、完整tick/proposed票序列相同；配对不可重复/遗漏。供能时序的总提议相同，但其生命周期分类或实际接受可以不同。保留全部零/反向差，不作独立样本显著性。
 
 ## 4 证据与预算
 
