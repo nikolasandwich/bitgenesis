@@ -1,0 +1,97 @@
+{
+  "verdict": "APPROVED",
+  "task": "1.1",
+  "review_mode": "独立子代理方法审查；独立标准库代码重算来源与结构，未调用生产清单脚本或科学观察器",
+  "independent_author_review": true,
+  "scope": "只审方法、来源与结构兼容；不代表2.1完整门槛/转换审计通过",
+  "checks": {
+    "source_files": 886,
+    "source_hashes_verified": 886,
+    "study043_input_files": 840,
+    "study043_status": "complete",
+    "study043_verification": "verified",
+    "study043_review": "APPROVED",
+    "study043_prior_author_limitation": "Additional fresh verifier/reviewer unavailable: agent thread limit reached. Production author fresh north_policy_producer; dictionary physics and observer independently implemented earlier, policy verifier/report reviewed by parent.",
+    "all_100_mappings": true,
+    "old_control_equals_prior_ablation_all_28": true,
+    "case_owned_templates_all_28": true,
+    "identical_diagnostic_initials_all_28": true,
+    "ordered_ticks_and_identity_schema": true,
+    "diagnostic_and_future_states_schema_checked": 836,
+    "nontriggered": 72,
+    "triggered": 28,
+    "short_windows": 10,
+    "arms": 56,
+    "diagnostic_states": 56,
+    "saved_arm_steps": 780,
+    "slot_steps": 2340,
+    "groups": [
+      {
+        "encoding": "east",
+        "n": 20,
+        "triggers": 5,
+        "short_windows": 1,
+        "paired_arm_steps": 140
+      },
+      {
+        "encoding": "west",
+        "n": 20,
+        "triggers": 3,
+        "short_windows": 1,
+        "paired_arm_steps": 92
+      },
+      {
+        "encoding": "south",
+        "n": 20,
+        "triggers": 0,
+        "short_windows": 0,
+        "paired_arm_steps": 0
+      },
+      {
+        "encoding": "north",
+        "n": 20,
+        "triggers": 9,
+        "short_windows": 3,
+        "paired_arm_steps": 266
+      },
+      {
+        "encoding": "homogeneous",
+        "n": 20,
+        "triggers": 11,
+        "short_windows": 5,
+        "paired_arm_steps": 282
+      }
+    ],
+    "physical_steps_executed": 0,
+    "scientific_observer_calls": 0,
+    "full_scientific_audit": false,
+    "syntax": "AST PASS",
+    "placeholder_markers": "CLEAN",
+    "tests": "N/A：只读方法阶段；未运行物理测试或全科学观察；2.1测试仍待完成",
+    "red_phase": "N/A：本任务冻结方法和来源结构"
+  },
+  "method_compatibility": {
+    "observers037": "生产snapshot/谱系与独立reconstruct/谱系方法均读取所需完整保存字段；044只需逐arm适配及分别实现身份对时序",
+    "template": "各案例自身85/86完整program/material；没有同质默认模板",
+    "failure_order": "missing→material→program→component→ancestry_root→original_member→pass；八标志全部保留",
+    "ancestry": "selected任一祖系；不增加不同祖系门槛",
+    "diagnostics": "t0+只诊断；区间只含t0+1..32",
+    "censoring": "终点单步右删失；不外推寿命",
+    "transitions": "未来进入/退出保存完整前后态和全部出生死亡；身份对出生/同现/合格分开",
+    "denominator": "28触发两arm、10短窗、72不适用及全部零项保留",
+    "causality": "同材料几何组件不等同能量连接；共时连接不能推出因果"
+  },
+  "files_sha256": {
+    "experiments/v4/study-044.md": "631ed24c453db2b0a200e37d4cd3062d9f14874357395b4a81099b150c5a3f29",
+    "docs/design/v4-policy-component-timing.zh-CN.md": "7fe187b9897a9c03dc11ea23c6535a3792c85c016e85081d7fc9592564b91f9d",
+    "scripts/audit_v4_policy_component_design.py": "df5401743ff1ad00789547842124304e7cfdf7a22ed19e65c2bfc02d6b2bfd2b",
+    "docs/research/results/v4-study-044-design-sources.json": "60990229cf555067043374ee12fc5467968bb20c0225a639d87340df7e095911",
+    "docs/research/results/v4-study-044-design-census.json": "99092cc2c295b6c8d2be456cfeedca1298212a52f3aec3d3342bf5e45ea2f108",
+    "docs/research/v4-study-044-method.zh-CN.md": "29095a42eace263ca5b547249a354f7e945e77865e1b92b022c7975966002356",
+    "scripts/analyze_v4_reformation_barriers.py": "28365370c7a452ed2c1e9683f46ff9c77e674eac9112f610ea6e705c1f9ee547",
+    "scripts/verify_v4_reformation_barriers.py": "47251f0f49aba29619042827d02200f9c97bb47561e6cea683ac310b0ff11c1e"
+  },
+  "findings": [],
+  "remediation": [],
+  "summary": "1.1方法与结构审查通过；2.1的科学门槛、转换及区间逐项重算仍未执行。"
+}
