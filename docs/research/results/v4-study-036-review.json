@@ -1,0 +1,54 @@
+{
+  "verdict": "APPROVED",
+  "review_mode": "inline fallback",
+  "reason": "third fresh reviewer spawn failed: agent thread limit reached",
+  "independent_computation": {
+    "production_author": "/root/removal_producer",
+    "verification_author": "/root/removal_verifier",
+    "production": "native kernel + Observer + canonical translation",
+    "verification": "dictionary physics + independent historical identities + pairwise component reconstruction + direct translated sets",
+    "status": "verified"
+  },
+  "resolved_findings": [
+    "核验横向票编号0/2改为0/1，正式运行前新增回归"
+  ],
+  "tests": {
+    "count": 802,
+    "seconds": 56.233,
+    "result": "PASS",
+    "command": ".venv/bin/python -m unittest discover -s tests",
+    "compile": "PASS",
+    "red_evidence": {
+      "production": "ModuleNotFoundError before implementation",
+      "verification": "ImportError before implementation",
+      "inputs": "ImportError before implementation"
+    }
+  },
+  "checks": [
+    "首入选完整双路线JSON一致",
+    "正式240选择及58完整配对分支、12格/三层/四格全部严格比较",
+    "581来源前后hash",
+    "父2520逐格库存及116臂能量账",
+    "唯一阳性28/29组件与30重新合并核实",
+    "58原始分支空目录恢复逐字节一致",
+    "报告12来源格及58案例表由正式JSON生成并检查",
+    "无未完成标记或秘密；未改旧内核或数据"
+  ],
+  "files_sha256": {
+    "scripts/founder_removal_inputs.py": "c0f22386874a075f8b5aa1667df8c5a406eb11fdd7d13d0efc0b48e928418f93",
+    "scripts/run_v4_founder_removal.py": "09f85ba3445c002c1ab00b0b9703aa1b0c24c45ef8be9a0a7a673553bcb4bf4d",
+    "scripts/verify_v4_founder_removal.py": "398e5befaf791fd6d495c0e5c7500d69d7bfae40126a8c9595df97d622f3213d",
+    "tests/test_v4_founder_removal.py": "6e1382e4673214ad182b8268ec1b19d4dc643e56a86669b3051142d8a5474f39",
+    "tests/test_v4_founder_removal_inputs.py": "43218a3fd040f6777cb36bdf9ec3c6be2b31f50973734cfb5d7a811d3cb7f450",
+    "tests/test_v4_founder_removal_verifier.py": "7c5289405b4e59bd2a47751ea647f57a905762d52e1597a67693df30415e8df3",
+    "docs/research/v4-study-036.zh-CN.md": "e6768a7af6a6da4bd54b83cf13d3d8a2998c37ee999905b652e7fdc855e96191",
+    "docs/research/results/v4-study-036-cases.tar.gz": "e9429ede73a156e1a72297d568b55e57efd40c12f33b3fee170b393930fd94cd",
+    "docs/research/results/v4-study-036-independent-verification.json": "d214adc21f60597033c7400a85a6f3fe6418397ecf774b209b7a324fc28ff040",
+    "docs/research/results/v4-study-036-metadata.json": "81a5b7f444e87ceef5e628fe7f8a762367ebf128dad42bd0f6351245d034316a",
+    "docs/research/results/v4-study-036-preservation.json": "cfde46ee6d046ed2564a7488e42eda7dbfabf69b373bbe914c47378e31c38dd3",
+    "docs/research/results/v4-study-036-records.json": "9a616b171e52ba56c5053ce5d9967875efeae96e8d3ca632bd443d29aeee1430",
+    "docs/research/results/v4-study-036-selection.json": "ad876f76c10336bf40c0f550f8db6742a709891185a2e9efaecf1681fa85ff28",
+    "docs/research/results/v4-study-036-summary.json": "a383bf93adf2a11df5beb8e7dd61cb209a63541568d2e81318c2323950bab688"
+  },
+  "gaps": []
+}
