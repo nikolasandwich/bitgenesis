@@ -5111,3 +5111,9 @@ e066637冻结实现边界。两新作者分别用既有内核/Observer及独立�
 父及新上下文position_method独立只读验证671来源hash、20配对/40旧案例/640配对时点全部256位置proposed、方向、突变票一致，初态除85/86两程序外相同；方法Review Verdict APPROVED。0新增/重放模拟；不跑无关全suite。task1.1已完成，task2.1仍待实现，不能称038实验或新结论完成。
 
 下一轮直接接续.kiro/specs/program-position/tasks.md 2.1：独立入口生产/核验、边界TDD、首east工程样例，全suite后干净提交正式60案例运行；每路线600秒/128MiB、独占data/v4-study-038、全部阴性、来源代码绑定及压缩恢复核验。具体矩阵/指标/对照见冻结experiments/v4/study-038.md，勿重做方法或旧参照模拟。
+
+## 2026-10-05 — Study038编码位置工程完成
+
+7ec1ac6方法已审；新生产作者用既有内核/Observer/模板canonical，额外新核验作者spawn受agent thread limit reached限制，父inline fallback用字典物理/独立身份/union-find/直接平移模板实现。代码审查inline fallback；不冒称新独立作者。678来源绑定通过，827测试PASS56.222秒，compileall及范围/占位检查通过。
+
+工程仅east120000生产32真实步及核验32真实重放，全case字段一致；生产8tests内失败计数7为mock而非物理调用。其余新编码未预跑，N/H首seed只读观察。工程64调用另计，不计入正式1920生产/1920核验。准备干净提交后正式全60新案例，40旧参照只读，100案例全分母。
