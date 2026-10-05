@@ -22,9 +22,9 @@ growth, movement, feeding, energy costs, reproduction, mutation, death and linea
 logging. Experimental V1–V4 runtimes are also implemented. Their existence does
 not mean that their scientific graduation criteria have been met.
 
-最新完成的V4研究是[study031：精确能量参照](docs/research/v4-study-031.zh-CN.md)。
-两种独立精确算法核验全部0–32步概率：孤立初能5、原名义随机供能下，32步死亡前达到16约0.2896%。
-第5步死亡约92.43%；这仅是无连接/交换的能量解析参照，不是真实复制概率，未改变生命标准。
+最新完成的V4研究是[study032：最终能量吸收](docs/research/v4-study-032.zh-CN.md)。
+两种独立精确求解核验15活态：孤立初能5、原名义随机供能下，最终死亡前达到16约0.28964%，平均5.657步至任一终止事件。
+32步后只增加约0.000067个百分点；这是能量解析参照，不是真实复制概率，未改变生命标准。
 
 前项V4研究是[study025：随机供能异质程序配对](docs/research/v4-study-025.zh-CN.md)。
 80新案例完整独立重放：随机供能和双随机条件均无持续10步副本，13指标逐对与均一参照相同。

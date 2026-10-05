@@ -19,3 +19,20 @@
 - CLAIM: 任务1.1完成。
 - EVIDENCE: 全套750 PASS、编译、515绑定和代码审查。
 - GAPS: 任务2.1正式求解、核验与归档尚待完成。
+
+# 任务2.1审查
+
+## Review Verdict
+- VERDICT: APPROVED
+- TASK: 2.1；inline fallback，第三审查工具数量上限如上。
+- MECHANICAL_RESULTS: 正式干净deafe70生产0.697793秒、独立核验0.833442秒退出0；515输入、15态、33衔接、summary和三输出hash一致。完整四归档335,467字节逐字节相同。
+- FINDINGS: 父重新逐态核对Bellman方程、几乎必然吸收证明及15/q^15平均界，逐33点精确重建概率/时间，核对报告15/33表与全部摘要。无阻断。剩余时间明确无条件尾部贡献，不称成功路径平均等待。
+- REMEDIATION: 无。
+- SUMMARY: 初能5最终hit约0.2896397083%、任一吸收平均5.657335046849步，32步后仅增加0.0000669618个百分点，不扩大为真实复制结论。
+
+## Verification Result
+- STATUS: VERIFIED
+- CLAIM_TYPE: FEATURE_GO
+- CLAIM: Study032最终能量吸收解析研究与完整归档完成。
+- EVIDENCE: 全套750测试PASS，两个真实入口正式执行退出0，需求1–3/协议1–3、来源/运行/核验/归档全链路通过。
+- GAPS: 无。本结论仅适用冻结孤立模型；后续逐位置材料审计另行冻结。
