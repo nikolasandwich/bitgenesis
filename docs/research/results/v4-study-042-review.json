@@ -1,0 +1,32 @@
+{
+  "verdict": "APPROVED",
+  "task": "2.1",
+  "review_mode": "parent inline fallback",
+  "independent_author_review": false,
+  "limitation": "fresh verifier spawn failed: agent thread limit reached",
+  "production_author": "fresh context middle_producer",
+  "verification": "independent paid-bond reservation reconstruction and identity snapshot energy accounting; no producer scientific imports",
+  "tests": {
+    "count": 863,
+    "status": "PASS",
+    "seconds": 56.289
+  },
+  "run_commit": "9b2e6bb",
+  "cases": 8,
+  "identities": 35,
+  "identity_stage_steps": 171,
+  "saved_world_steps": 116,
+  "physical_steps": 0,
+  "files_sha256": {
+    "docs/research/v4-study-042.zh-CN.md": "0818683d7f07a35480e25d405d4bacaab2a0460abf67595bd17812370dd62938",
+    "docs/research/results/v4-study-042-design-census.json": "0a61d63f9003d5f7e7fc54f547f38006b1e4873c6edfb5be29c62a20a02efa15",
+    "docs/research/results/v4-study-042-design-proof.json": "62a868d0163b72e7a0a76495de69a1f2ef12f79c7e006e8c92a0466aab8bc94a",
+    "docs/research/results/v4-study-042-design-review.json": "2fcd41d68d8d0f690fa1f632c7fbb5cc290874f47f3833bc06af354da9ca2178",
+    "docs/research/results/v4-study-042-design-sources.json": "10959ec39967373f34b7e0983d890bfaa43dc0f9534e8607cad82423e3ecc5f2",
+    "docs/research/results/v4-study-042-independent-verification.json": "a38cd2728652910f9a6a879968dcdb2b09b6fcbbc1278d486cb443bbcae9e27f",
+    "docs/research/results/v4-study-042-metadata.json": "b27fda4d8be63f15281f65e38f18a335612314caf637a2c11682e175aa796816",
+    "docs/research/results/v4-study-042-preservation.json": "2dfce281bf4b544938f2e1f1d429ddb6ab03c16729b40e1cd06968127e3ee2fa",
+    "docs/research/results/v4-study-042-records.json": "dbc8f015c331a0cb40e971b76d0fdf8f790d60ad785c0237e5c0b34e5ebbd219",
+    "docs/research/results/v4-study-042-summary.json": "5be40c99a889b5c3078ffca5cbf129c1dbe354e959f0120a20b6e8e6df282e25"
+  }
+}
