@@ -17,3 +17,21 @@
 - CLAIM: 1.1完成。
 - EVIDENCE: 全套786测试、413绑定、单真实案例及代码审查。
 - GAPS: 2.1正式240结果及归档待完成。
+
+# 任务2.1审查
+
+## Review Verdict
+- VERDICT: APPROVED
+- TASK: 2.1，inline fallback，第三任务工具数量限制同上。
+- MECHANICAL_RESULTS: 正式f99e81a生产7.438435秒、独立核验10.949312秒退出0；413前后输入、三输出hash、核验自身hash一致，四归档5,531,606字节相同。
+- FINDINGS: 240案例7680步23040位置完整一致。父逐旧case.copy_parents核对genetic series/episodes/longest全一致；另核12格/36位置八bool总数、129双副本及15混合上行配对、报告12/36/15表。无阻断。
+- EVIDENCE: 三位置不旋转；逐三槽8子集枚举冲突(上,中)/(中,下)，唯一双位置上/下。实际129双步全原[0,1]+下行新生；新生双副本/三副本0。15混合上行H单副本在对应异质位置身份/材料/组件相同但程序不匹配，不能归为物理效应。
+- REMEDIATION: 无。
+- SUMMARY: 几何容量与完整组件、原组保留与后代再繁殖明确分开，不变更原标准。
+
+## Verification Result
+- STATUS: VERIFIED
+- CLAIM_TYPE: FEATURE_GO
+- CLAIM: Study034位置/身份/完整组件审计及归档完成。
+- EVIDENCE: 786全套测试PASS、两正式入口退出0，需求1–3/协议1–3与全部档案/报告核验通过。
+- GAPS: 无；机制证据综合与后续实验问题另冻结。

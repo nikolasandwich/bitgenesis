@@ -22,9 +22,9 @@ growth, movement, feeding, energy costs, reproduction, mutation, death and linea
 logging. Experimental V1–V4 runtimes are also implemented. Their existence does
 not mean that their scientific graduation criteria have been met.
 
-最新完成的V4研究是[study033：材料支持与北向目标](docs/research/v4-study-033.zh-CN.md)。
-240保存案例约203万次逐位置检查零偏差：现规则的材料只能留在初始七格，不能在支持集外形成。
-双随机每程序513次目标北向提案中，26次空闲且有原料但能量均不足；不否认支持内再生或复制，未改变生命标准。
+最新完成的V4研究是[study034：模板位置与真实组件](docs/research/v4-study-034.zh-CN.md)。
+240保存案例23040位置核验：三个几何槽位最多容纳两个完整匹配组件。
+129个双副本观察步全部是原组加下行后代；没有两个全新组同时成为副本，仍未证明后代组继续繁殖。
 
 前项V4研究是[study025：随机供能异质程序配对](docs/research/v4-study-025.zh-CN.md)。
 80新案例完整独立重放：随机供能和双随机条件均无持续10步副本，13指标逐对与均一参照相同。
