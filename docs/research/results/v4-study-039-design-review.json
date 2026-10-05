@@ -1,0 +1,16 @@
+{
+  "verdict": "APPROVED",
+  "task": "1.1",
+  "reviewer": "fresh-context /root/policy_method",
+  "scope": "协议、模型证明与来源时点映射独立审查；最终证据文件算术与绑定由父inline核验，不冒称全部产物独立作者复核",
+  "physical_steps": 0,
+  "freeze_commit": "f8b8178",
+  "implementation_pending": true,
+  "files_sha256": {
+    "experiments/v4/study-039.md": "d19be54305ebbbcc8ad45dc26fc48ac466133ece6a5a6d7b4fafebd05318fefb",
+    "docs/design/v4-triggered-removal-policy.zh-CN.md": "2a339558fe6f0c3c98aa63c21630b6d5bb64431d69ca3a74365e699047470393",
+    "docs/research/results/v4-study-039-design-sources.json": "2cac4004fbf6d4164082b9b1c21485d59cbb2a5ae0054fef6a4db8b589d51a99",
+    "docs/research/results/v4-study-039-design-census.json": "ddae2de86a6d226b339cd9f387a5e92b7bca192dc3af838ffc8f2ddba4c03b3b",
+    "docs/research/results/v4-study-039-design-proof.json": "3ca8b1a3d9f3c62a1ecb349262dc176b14267983accb563275fb6a92ab1701e2"
+  }
+}

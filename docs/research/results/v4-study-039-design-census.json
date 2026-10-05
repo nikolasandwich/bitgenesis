@@ -1,0 +1,1039 @@
+{
+  "cases": [
+    {
+      "encoding": "east",
+      "seed": 120000,
+      "source": "data/v4-study-038/cases/east-120000.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120001,
+      "source": "data/v4-study-038/cases/east-120001.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120002,
+      "source": "data/v4-study-038/cases/east-120002.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120003,
+      "source": "data/v4-study-038/cases/east-120003.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120004,
+      "source": "data/v4-study-038/cases/east-120004.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120005,
+      "source": "data/v4-study-038/cases/east-120005.json",
+      "trigger": true,
+      "t0": 19,
+      "remaining": 13,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120006,
+      "source": "data/v4-study-038/cases/east-120006.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120007,
+      "source": "data/v4-study-038/cases/east-120007.json",
+      "trigger": true,
+      "t0": 18,
+      "remaining": 14,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120008,
+      "source": "data/v4-study-038/cases/east-120008.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120009,
+      "source": "data/v4-study-038/cases/east-120009.json",
+      "trigger": true,
+      "t0": 8,
+      "remaining": 24,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120010,
+      "source": "data/v4-study-038/cases/east-120010.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120011,
+      "source": "data/v4-study-038/cases/east-120011.json",
+      "trigger": true,
+      "t0": 30,
+      "remaining": 2,
+      "short_window": true,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120012,
+      "source": "data/v4-study-038/cases/east-120012.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120013,
+      "source": "data/v4-study-038/cases/east-120013.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120014,
+      "source": "data/v4-study-038/cases/east-120014.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120015,
+      "source": "data/v4-study-038/cases/east-120015.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120016,
+      "source": "data/v4-study-038/cases/east-120016.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120017,
+      "source": "data/v4-study-038/cases/east-120017.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120018,
+      "source": "data/v4-study-038/cases/east-120018.json",
+      "trigger": true,
+      "t0": 15,
+      "remaining": 17,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "east",
+      "seed": 120019,
+      "source": "data/v4-study-038/cases/east-120019.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120000,
+      "source": "data/v4-study-038/cases/west-120000.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120001,
+      "source": "data/v4-study-038/cases/west-120001.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120002,
+      "source": "data/v4-study-038/cases/west-120002.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120003,
+      "source": "data/v4-study-038/cases/west-120003.json",
+      "trigger": true,
+      "t0": 24,
+      "remaining": 8,
+      "short_window": true,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120004,
+      "source": "data/v4-study-038/cases/west-120004.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120005,
+      "source": "data/v4-study-038/cases/west-120005.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120006,
+      "source": "data/v4-study-038/cases/west-120006.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120007,
+      "source": "data/v4-study-038/cases/west-120007.json",
+      "trigger": true,
+      "t0": 18,
+      "remaining": 14,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120008,
+      "source": "data/v4-study-038/cases/west-120008.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120009,
+      "source": "data/v4-study-038/cases/west-120009.json",
+      "trigger": true,
+      "t0": 8,
+      "remaining": 24,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120010,
+      "source": "data/v4-study-038/cases/west-120010.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120011,
+      "source": "data/v4-study-038/cases/west-120011.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120012,
+      "source": "data/v4-study-038/cases/west-120012.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120013,
+      "source": "data/v4-study-038/cases/west-120013.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120014,
+      "source": "data/v4-study-038/cases/west-120014.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120015,
+      "source": "data/v4-study-038/cases/west-120015.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120016,
+      "source": "data/v4-study-038/cases/west-120016.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120017,
+      "source": "data/v4-study-038/cases/west-120017.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120018,
+      "source": "data/v4-study-038/cases/west-120018.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "west",
+      "seed": 120019,
+      "source": "data/v4-study-038/cases/west-120019.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120000,
+      "source": "data/v4-study-038/cases/south-120000.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120001,
+      "source": "data/v4-study-038/cases/south-120001.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120002,
+      "source": "data/v4-study-038/cases/south-120002.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120003,
+      "source": "data/v4-study-038/cases/south-120003.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120004,
+      "source": "data/v4-study-038/cases/south-120004.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120005,
+      "source": "data/v4-study-038/cases/south-120005.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120006,
+      "source": "data/v4-study-038/cases/south-120006.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120007,
+      "source": "data/v4-study-038/cases/south-120007.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120008,
+      "source": "data/v4-study-038/cases/south-120008.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120009,
+      "source": "data/v4-study-038/cases/south-120009.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120010,
+      "source": "data/v4-study-038/cases/south-120010.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120011,
+      "source": "data/v4-study-038/cases/south-120011.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120012,
+      "source": "data/v4-study-038/cases/south-120012.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120013,
+      "source": "data/v4-study-038/cases/south-120013.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120014,
+      "source": "data/v4-study-038/cases/south-120014.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120015,
+      "source": "data/v4-study-038/cases/south-120015.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120016,
+      "source": "data/v4-study-038/cases/south-120016.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120017,
+      "source": "data/v4-study-038/cases/south-120017.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120018,
+      "source": "data/v4-study-038/cases/south-120018.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "south",
+      "seed": 120019,
+      "source": "data/v4-study-038/cases/south-120019.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "north",
+      "seed": 120000,
+      "source": "data/v4-study-023/cases/seed-120000-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "north",
+      "seed": 120001,
+      "source": "data/v4-study-023/cases/seed-120001-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "north",
+      "seed": 120002,
+      "source": "data/v4-study-023/cases/seed-120002-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "north",
+      "seed": 120003,
+      "source": "data/v4-study-023/cases/seed-120003-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 24,
+      "remaining": 8,
+      "short_window": true,
+      "reuse_branch": 30
+    },
+    {
+      "encoding": "north",
+      "seed": 120004,
+      "source": "data/v4-study-023/cases/seed-120004-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "north",
+      "seed": 120005,
+      "source": "data/v4-study-023/cases/seed-120005-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 12,
+      "remaining": 20,
+      "short_window": false,
+      "reuse_branch": 31
+    },
+    {
+      "encoding": "north",
+      "seed": 120006,
+      "source": "data/v4-study-023/cases/seed-120006-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 10,
+      "remaining": 22,
+      "short_window": false,
+      "reuse_branch": 32
+    },
+    {
+      "encoding": "north",
+      "seed": 120007,
+      "source": "data/v4-study-023/cases/seed-120007-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 15,
+      "remaining": 17,
+      "short_window": false,
+      "reuse_branch": 33
+    },
+    {
+      "encoding": "north",
+      "seed": 120008,
+      "source": "data/v4-study-023/cases/seed-120008-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "north",
+      "seed": 120009,
+      "source": "data/v4-study-023/cases/seed-120009-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 8,
+      "remaining": 24,
+      "short_window": false,
+      "reuse_branch": 34
+    },
+    {
+      "encoding": "north",
+      "seed": 120010,
+      "source": "data/v4-study-023/cases/seed-120010-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 19,
+      "remaining": 13,
+      "short_window": false,
+      "reuse_branch": 35
+    },
+    {
+      "encoding": "north",
+      "seed": 120011,
+      "source": "data/v4-study-023/cases/seed-120011-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 28,
+      "remaining": 4,
+      "short_window": true,
+      "reuse_branch": 36
+    },
+    {
+      "encoding": "north",
+      "seed": 120012,
+      "source": "data/v4-study-023/cases/seed-120012-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "north",
+      "seed": 120013,
+      "source": "data/v4-study-023/cases/seed-120013-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "north",
+      "seed": 120014,
+      "source": "data/v4-study-023/cases/seed-120014-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "north",
+      "seed": 120015,
+      "source": "data/v4-study-023/cases/seed-120015-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "north",
+      "seed": 120016,
+      "source": "data/v4-study-023/cases/seed-120016-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "north",
+      "seed": 120017,
+      "source": "data/v4-study-023/cases/seed-120017-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "north",
+      "seed": 120018,
+      "source": "data/v4-study-023/cases/seed-120018-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 15,
+      "remaining": 17,
+      "short_window": false,
+      "reuse_branch": 37
+    },
+    {
+      "encoding": "north",
+      "seed": 120019,
+      "source": "data/v4-study-023/cases/seed-120019-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 24,
+      "remaining": 8,
+      "short_window": true,
+      "reuse_branch": 38
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120000,
+      "source": "data/v4-study-019/cases/seed-120000-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120001,
+      "source": "data/v4-study-019/cases/seed-120001-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 9,
+      "remaining": 23,
+      "short_window": false,
+      "reuse_branch": 0
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120002,
+      "source": "data/v4-study-019/cases/seed-120002-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120003,
+      "source": "data/v4-study-019/cases/seed-120003-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 24,
+      "remaining": 8,
+      "short_window": true,
+      "reuse_branch": 1
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120004,
+      "source": "data/v4-study-019/cases/seed-120004-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 26,
+      "remaining": 6,
+      "short_window": true,
+      "reuse_branch": 2
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120005,
+      "source": "data/v4-study-019/cases/seed-120005-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 19,
+      "remaining": 13,
+      "short_window": false,
+      "reuse_branch": 3
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120006,
+      "source": "data/v4-study-019/cases/seed-120006-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120007,
+      "source": "data/v4-study-019/cases/seed-120007-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 18,
+      "remaining": 14,
+      "short_window": false,
+      "reuse_branch": 4
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120008,
+      "source": "data/v4-study-019/cases/seed-120008-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120009,
+      "source": "data/v4-study-019/cases/seed-120009-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 8,
+      "remaining": 24,
+      "short_window": false,
+      "reuse_branch": 5
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120010,
+      "source": "data/v4-study-019/cases/seed-120010-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120011,
+      "source": "data/v4-study-019/cases/seed-120011-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 30,
+      "remaining": 2,
+      "short_window": true,
+      "reuse_branch": 6
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120012,
+      "source": "data/v4-study-019/cases/seed-120012-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120013,
+      "source": "data/v4-study-019/cases/seed-120013-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 30,
+      "remaining": 2,
+      "short_window": true,
+      "reuse_branch": 7
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120014,
+      "source": "data/v4-study-019/cases/seed-120014-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120015,
+      "source": "data/v4-study-019/cases/seed-120015-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 24,
+      "remaining": 8,
+      "short_window": true,
+      "reuse_branch": 8
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120016,
+      "source": "data/v4-study-019/cases/seed-120016-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120017,
+      "source": "data/v4-study-019/cases/seed-120017-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 8,
+      "remaining": 24,
+      "short_window": false,
+      "reuse_branch": 9
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120018,
+      "source": "data/v4-study-019/cases/seed-120018-random-direction-exchange-false.json",
+      "trigger": true,
+      "t0": 15,
+      "remaining": 17,
+      "short_window": false,
+      "reuse_branch": 10
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120019,
+      "source": "data/v4-study-019/cases/seed-120019-random-direction-exchange-false.json",
+      "trigger": false,
+      "t0": null,
+      "remaining": 0,
+      "short_window": false,
+      "reuse_branch": null
+    }
+  ],
+  "totals": {
+    "east": {
+      "n": 20,
+      "triggers": 5,
+      "remaining": 70,
+      "short": 1
+    },
+    "west": {
+      "n": 20,
+      "triggers": 3,
+      "remaining": 46,
+      "short": 1
+    },
+    "south": {
+      "n": 20,
+      "triggers": 0,
+      "remaining": 0,
+      "short": 0
+    },
+    "north": {
+      "n": 20,
+      "triggers": 9,
+      "remaining": 133,
+      "short": 3
+    },
+    "homogeneous": {
+      "n": 20,
+      "triggers": 11,
+      "remaining": 141,
+      "short": 5
+    }
+  },
+  "source_states_checked": 3200,
+  "physical_steps": 0,
+  "reuse_status": "time/key matched; full state and metrics matching required in task2.1"
+}
