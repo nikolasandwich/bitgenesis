@@ -1,7 +1,7 @@
 {
   "feature_name": "v4-evidence-decision",
   "language": "zh-CN",
-  "phase": "tasks-generated",
+  "phase": "implementation-complete",
   "approvals": {
     "requirements": {
       "generated": true,
@@ -17,5 +17,6 @@
     }
   },
   "approval_basis": "持续研究授权 intentional fast-track",
-  "ready_for_implementation": true
+  "ready_for_implementation": true,
+  "completion_note": "035证据综合、240选择清单及036前瞻协议完成；036未实现未运行。"
 }

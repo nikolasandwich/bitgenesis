@@ -1,0 +1,44 @@
+{
+  "scope_commit": "568b341",
+  "new_world_steps": 0,
+  "review_mode": "two_fresh_read_only_agents",
+  "reviews": [
+    {
+      "author": "/root/evidence_035",
+      "verdict": "APPROVED",
+      "checks": [
+        "240选择逐条与034首次事件一致",
+        "58能量外移预览与原case一致",
+        "58入选/182未入选/19种子/1260步/50窗口",
+        "36横向结构零/8短窗/14其余",
+        "034的413源hash及四归档一致",
+        "035的509来源hash一致",
+        "原五标准映射及017–034关键数值通过"
+      ],
+      "remediation": []
+    },
+    {
+      "author": "/root/method_035",
+      "verdict": "APPROVED",
+      "scope": "仅方法与前瞻协议，不表示036已运行",
+      "checks": [
+        "条件队列与复合干预限制",
+        "t0+不计步及形成见证属于被计数copy",
+        "历史ID含t0出生及已死身份",
+        "指定副本祖链见证分列",
+        "36/8/14低覆盖限制"
+      ],
+      "resolved": [
+        "澄清历史最大ID包含t0当步出生及已死身份",
+        "澄清形成见证须属于被计数合格copy"
+      ],
+      "remediation": []
+    }
+  ],
+  "files_sha256": {
+    "docs/research/v4-study-035.zh-CN.md": "f8e5a24b5ac119f9e8d49ad5e8e782c20ef4f3bb933232a892f651f6164774c1",
+    "experiments/v4/study-036.md": "501b0a6b5d027e61c06ee71d68120ec73f9e687395165d841235a12aff45faf6",
+    "docs/research/results/v4-study-035-selection.json": "c0a76e6034166bc83099860c6c386db48ca6c0df130ca66b8290379c01e9c846",
+    "docs/research/results/v4-study-035-sources.json": "636575c8c4a8c0cb456c7b7195841066b283efd584b366334bc2c76ebe27f896"
+  }
+}

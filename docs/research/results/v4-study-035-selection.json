@@ -1,0 +1,2854 @@
+{
+  "scope_commit": "568b341",
+  "new_world_steps": 0,
+  "cases": [
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120000,
+      "source": "data/v4-study-019/cases/seed-120000-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120001,
+      "source": "data/v4-study-019/cases/seed-120001-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 9,
+      "remaining_steps": 23,
+      "category": "remaining_conditional",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        4
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 123
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120002,
+      "source": "data/v4-study-019/cases/seed-120002-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120003,
+      "source": "data/v4-study-019/cases/seed-120003-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 24,
+      "remaining_steps": 8,
+      "category": "short_window",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        8,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 123
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120004,
+      "source": "data/v4-study-019/cases/seed-120004-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 26,
+      "remaining_steps": 6,
+      "category": "short_window",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        7,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 117
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120005,
+      "source": "data/v4-study-019/cases/seed-120005-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 19,
+      "remaining_steps": 13,
+      "category": "remaining_conditional",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        7,
+        4
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 124
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120006,
+      "source": "data/v4-study-019/cases/seed-120006-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120007,
+      "source": "data/v4-study-019/cases/seed-120007-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 18,
+      "remaining_steps": 14,
+      "category": "remaining_conditional",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 124
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120008,
+      "source": "data/v4-study-019/cases/seed-120008-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120009,
+      "source": "data/v4-study-019/cases/seed-120009-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 8,
+      "remaining_steps": 24,
+      "category": "remaining_conditional",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        6,
+        5
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 124
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120010,
+      "source": "data/v4-study-019/cases/seed-120010-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120011,
+      "source": "data/v4-study-019/cases/seed-120011-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 30,
+      "remaining_steps": 2,
+      "category": "short_window",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        6,
+        9
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 123
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120012,
+      "source": "data/v4-study-019/cases/seed-120012-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120013,
+      "source": "data/v4-study-019/cases/seed-120013-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 30,
+      "remaining_steps": 2,
+      "category": "short_window",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        7
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 124
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120014,
+      "source": "data/v4-study-019/cases/seed-120014-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120015,
+      "source": "data/v4-study-019/cases/seed-120015-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 24,
+      "remaining_steps": 8,
+      "category": "short_window",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        7
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 124
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120016,
+      "source": "data/v4-study-019/cases/seed-120016-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120017,
+      "source": "data/v4-study-019/cases/seed-120017-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 8,
+      "remaining_steps": 24,
+      "category": "remaining_conditional",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        4,
+        5
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 123
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120018,
+      "source": "data/v4-study-019/cases/seed-120018-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 15,
+      "remaining_steps": 17,
+      "category": "remaining_conditional",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        7,
+        8
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 112
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120019,
+      "source": "data/v4-study-019/cases/seed-120019-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120000,
+      "source": "data/v4-study-019/cases/seed-120000-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120001,
+      "source": "data/v4-study-019/cases/seed-120001-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120002,
+      "source": "data/v4-study-019/cases/seed-120002-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120003,
+      "source": "data/v4-study-019/cases/seed-120003-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120004,
+      "source": "data/v4-study-019/cases/seed-120004-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120005,
+      "source": "data/v4-study-019/cases/seed-120005-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120006,
+      "source": "data/v4-study-019/cases/seed-120006-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120007,
+      "source": "data/v4-study-019/cases/seed-120007-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120008,
+      "source": "data/v4-study-019/cases/seed-120008-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120009,
+      "source": "data/v4-study-019/cases/seed-120009-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120010,
+      "source": "data/v4-study-019/cases/seed-120010-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120011,
+      "source": "data/v4-study-019/cases/seed-120011-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120012,
+      "source": "data/v4-study-019/cases/seed-120012-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120013,
+      "source": "data/v4-study-019/cases/seed-120013-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120014,
+      "source": "data/v4-study-019/cases/seed-120014-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120015,
+      "source": "data/v4-study-019/cases/seed-120015-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120016,
+      "source": "data/v4-study-019/cases/seed-120016-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120017,
+      "source": "data/v4-study-019/cases/seed-120017-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120018,
+      "source": "data/v4-study-019/cases/seed-120018-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120019,
+      "source": "data/v4-study-019/cases/seed-120019-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120000,
+      "source": "data/v4-study-019/cases/seed-120000-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 40
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120001,
+      "source": "data/v4-study-019/cases/seed-120001-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 40
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120002,
+      "source": "data/v4-study-019/cases/seed-120002-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 40
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120003,
+      "source": "data/v4-study-019/cases/seed-120003-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120004,
+      "source": "data/v4-study-019/cases/seed-120004-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120005,
+      "source": "data/v4-study-019/cases/seed-120005-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120006,
+      "source": "data/v4-study-019/cases/seed-120006-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120007,
+      "source": "data/v4-study-019/cases/seed-120007-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120008,
+      "source": "data/v4-study-019/cases/seed-120008-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120009,
+      "source": "data/v4-study-019/cases/seed-120009-random-feed-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120010,
+      "source": "data/v4-study-019/cases/seed-120010-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120011,
+      "source": "data/v4-study-019/cases/seed-120011-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 48
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120012,
+      "source": "data/v4-study-019/cases/seed-120012-random-feed-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120013,
+      "source": "data/v4-study-019/cases/seed-120013-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120014,
+      "source": "data/v4-study-019/cases/seed-120014-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120015,
+      "source": "data/v4-study-019/cases/seed-120015-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120016,
+      "source": "data/v4-study-019/cases/seed-120016-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120017,
+      "source": "data/v4-study-019/cases/seed-120017-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120018,
+      "source": "data/v4-study-019/cases/seed-120018-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120019,
+      "source": "data/v4-study-019/cases/seed-120019-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120000,
+      "source": "data/v4-study-019/cases/seed-120000-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120001,
+      "source": "data/v4-study-019/cases/seed-120001-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120002,
+      "source": "data/v4-study-019/cases/seed-120002-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120003,
+      "source": "data/v4-study-019/cases/seed-120003-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120004,
+      "source": "data/v4-study-019/cases/seed-120004-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120005,
+      "source": "data/v4-study-019/cases/seed-120005-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120006,
+      "source": "data/v4-study-019/cases/seed-120006-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120007,
+      "source": "data/v4-study-019/cases/seed-120007-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120008,
+      "source": "data/v4-study-019/cases/seed-120008-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120009,
+      "source": "data/v4-study-019/cases/seed-120009-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120010,
+      "source": "data/v4-study-019/cases/seed-120010-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120011,
+      "source": "data/v4-study-019/cases/seed-120011-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120012,
+      "source": "data/v4-study-019/cases/seed-120012-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120013,
+      "source": "data/v4-study-019/cases/seed-120013-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120014,
+      "source": "data/v4-study-019/cases/seed-120014-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120015,
+      "source": "data/v4-study-019/cases/seed-120015-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120016,
+      "source": "data/v4-study-019/cases/seed-120016-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120017,
+      "source": "data/v4-study-019/cases/seed-120017-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120018,
+      "source": "data/v4-study-019/cases/seed-120018-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120019,
+      "source": "data/v4-study-019/cases/seed-120019-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120000,
+      "source": "data/v4-study-019/cases/seed-120000-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120001,
+      "source": "data/v4-study-019/cases/seed-120001-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120002,
+      "source": "data/v4-study-019/cases/seed-120002-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120003,
+      "source": "data/v4-study-019/cases/seed-120003-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120004,
+      "source": "data/v4-study-019/cases/seed-120004-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120005,
+      "source": "data/v4-study-019/cases/seed-120005-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120006,
+      "source": "data/v4-study-019/cases/seed-120006-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120007,
+      "source": "data/v4-study-019/cases/seed-120007-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120008,
+      "source": "data/v4-study-019/cases/seed-120008-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120009,
+      "source": "data/v4-study-019/cases/seed-120009-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120010,
+      "source": "data/v4-study-019/cases/seed-120010-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120011,
+      "source": "data/v4-study-019/cases/seed-120011-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120012,
+      "source": "data/v4-study-019/cases/seed-120012-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120013,
+      "source": "data/v4-study-019/cases/seed-120013-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120014,
+      "source": "data/v4-study-019/cases/seed-120014-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120015,
+      "source": "data/v4-study-019/cases/seed-120015-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120016,
+      "source": "data/v4-study-019/cases/seed-120016-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120017,
+      "source": "data/v4-study-019/cases/seed-120017-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120018,
+      "source": "data/v4-study-019/cases/seed-120018-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120019,
+      "source": "data/v4-study-019/cases/seed-120019-random-both-exchange-false.json",
+      "eligible": true,
+      "t0": 7,
+      "remaining_steps": 25,
+      "category": "remaining_conditional",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        6,
+        5
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 27
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120000,
+      "source": "data/v4-study-019/cases/seed-120000-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120001,
+      "source": "data/v4-study-019/cases/seed-120001-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120002,
+      "source": "data/v4-study-019/cases/seed-120002-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120003,
+      "source": "data/v4-study-019/cases/seed-120003-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120004,
+      "source": "data/v4-study-019/cases/seed-120004-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120005,
+      "source": "data/v4-study-019/cases/seed-120005-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120006,
+      "source": "data/v4-study-019/cases/seed-120006-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120007,
+      "source": "data/v4-study-019/cases/seed-120007-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120008,
+      "source": "data/v4-study-019/cases/seed-120008-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120009,
+      "source": "data/v4-study-019/cases/seed-120009-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120010,
+      "source": "data/v4-study-019/cases/seed-120010-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120011,
+      "source": "data/v4-study-019/cases/seed-120011-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120012,
+      "source": "data/v4-study-019/cases/seed-120012-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120013,
+      "source": "data/v4-study-019/cases/seed-120013-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120014,
+      "source": "data/v4-study-019/cases/seed-120014-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120015,
+      "source": "data/v4-study-019/cases/seed-120015-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120016,
+      "source": "data/v4-study-019/cases/seed-120016-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120017,
+      "source": "data/v4-study-019/cases/seed-120017-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120018,
+      "source": "data/v4-study-019/cases/seed-120018-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "homogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120019,
+      "source": "data/v4-study-019/cases/seed-120019-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120000,
+      "source": "data/v4-study-023/cases/seed-120000-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120001,
+      "source": "data/v4-study-023/cases/seed-120001-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120002,
+      "source": "data/v4-study-023/cases/seed-120002-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120003,
+      "source": "data/v4-study-023/cases/seed-120003-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 24,
+      "remaining_steps": 8,
+      "category": "short_window",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        8,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 123
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120004,
+      "source": "data/v4-study-023/cases/seed-120004-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120005,
+      "source": "data/v4-study-023/cases/seed-120005-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 12,
+      "remaining_steps": 20,
+      "category": "remaining_conditional",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        7,
+        4
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 124
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120006,
+      "source": "data/v4-study-023/cases/seed-120006-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 10,
+      "remaining_steps": 22,
+      "category": "remaining_conditional",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        6,
+        4
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 116
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120007,
+      "source": "data/v4-study-023/cases/seed-120007-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 15,
+      "remaining_steps": 17,
+      "category": "remaining_conditional",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 123
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120008,
+      "source": "data/v4-study-023/cases/seed-120008-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120009,
+      "source": "data/v4-study-023/cases/seed-120009-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 8,
+      "remaining_steps": 24,
+      "category": "remaining_conditional",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        6,
+        5
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 124
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120010,
+      "source": "data/v4-study-023/cases/seed-120010-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 19,
+      "remaining_steps": 13,
+      "category": "remaining_conditional",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        4,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 123
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120011,
+      "source": "data/v4-study-023/cases/seed-120011-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 28,
+      "remaining_steps": 4,
+      "category": "short_window",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        6,
+        9
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 123
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120012,
+      "source": "data/v4-study-023/cases/seed-120012-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120013,
+      "source": "data/v4-study-023/cases/seed-120013-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120014,
+      "source": "data/v4-study-023/cases/seed-120014-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120015,
+      "source": "data/v4-study-023/cases/seed-120015-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120016,
+      "source": "data/v4-study-023/cases/seed-120016-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120017,
+      "source": "data/v4-study-023/cases/seed-120017-random-direction-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120018,
+      "source": "data/v4-study-023/cases/seed-120018-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 15,
+      "remaining_steps": 17,
+      "category": "remaining_conditional",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        7,
+        8
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 112
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": false,
+      "seed": 120019,
+      "source": "data/v4-study-023/cases/seed-120019-random-direction-exchange-false.json",
+      "eligible": true,
+      "t0": 24,
+      "remaining_steps": 8,
+      "category": "short_window",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        6,
+        5
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 123
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120000,
+      "source": "data/v4-study-023/cases/seed-120000-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120001,
+      "source": "data/v4-study-023/cases/seed-120001-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120002,
+      "source": "data/v4-study-023/cases/seed-120002-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120003,
+      "source": "data/v4-study-023/cases/seed-120003-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120004,
+      "source": "data/v4-study-023/cases/seed-120004-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120005,
+      "source": "data/v4-study-023/cases/seed-120005-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120006,
+      "source": "data/v4-study-023/cases/seed-120006-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120007,
+      "source": "data/v4-study-023/cases/seed-120007-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120008,
+      "source": "data/v4-study-023/cases/seed-120008-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120009,
+      "source": "data/v4-study-023/cases/seed-120009-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120010,
+      "source": "data/v4-study-023/cases/seed-120010-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120011,
+      "source": "data/v4-study-023/cases/seed-120011-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120012,
+      "source": "data/v4-study-023/cases/seed-120012-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120013,
+      "source": "data/v4-study-023/cases/seed-120013-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120014,
+      "source": "data/v4-study-023/cases/seed-120014-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120015,
+      "source": "data/v4-study-023/cases/seed-120015-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120016,
+      "source": "data/v4-study-023/cases/seed-120016-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120017,
+      "source": "data/v4-study-023/cases/seed-120017-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120018,
+      "source": "data/v4-study-023/cases/seed-120018-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-direction",
+      "exchange": true,
+      "seed": 120019,
+      "source": "data/v4-study-023/cases/seed-120019-random-direction-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120000,
+      "source": "data/v4-study-025/cases/seed-120000-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 40
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120001,
+      "source": "data/v4-study-025/cases/seed-120001-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 40
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120002,
+      "source": "data/v4-study-025/cases/seed-120002-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 40
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120003,
+      "source": "data/v4-study-025/cases/seed-120003-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120004,
+      "source": "data/v4-study-025/cases/seed-120004-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120005,
+      "source": "data/v4-study-025/cases/seed-120005-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120006,
+      "source": "data/v4-study-025/cases/seed-120006-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120007,
+      "source": "data/v4-study-025/cases/seed-120007-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120008,
+      "source": "data/v4-study-025/cases/seed-120008-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120009,
+      "source": "data/v4-study-025/cases/seed-120009-random-feed-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120010,
+      "source": "data/v4-study-025/cases/seed-120010-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120011,
+      "source": "data/v4-study-025/cases/seed-120011-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 48
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120012,
+      "source": "data/v4-study-025/cases/seed-120012-random-feed-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120013,
+      "source": "data/v4-study-025/cases/seed-120013-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120014,
+      "source": "data/v4-study-025/cases/seed-120014-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120015,
+      "source": "data/v4-study-025/cases/seed-120015-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120016,
+      "source": "data/v4-study-025/cases/seed-120016-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120017,
+      "source": "data/v4-study-025/cases/seed-120017-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120018,
+      "source": "data/v4-study-025/cases/seed-120018-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": false,
+      "seed": 120019,
+      "source": "data/v4-study-025/cases/seed-120019-random-feed-exchange-false.json",
+      "eligible": true,
+      "t0": 6,
+      "remaining_steps": 26,
+      "category": "horizontal_structural_zero",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        5,
+        6
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 32
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120000,
+      "source": "data/v4-study-025/cases/seed-120000-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120001,
+      "source": "data/v4-study-025/cases/seed-120001-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120002,
+      "source": "data/v4-study-025/cases/seed-120002-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120003,
+      "source": "data/v4-study-025/cases/seed-120003-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120004,
+      "source": "data/v4-study-025/cases/seed-120004-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120005,
+      "source": "data/v4-study-025/cases/seed-120005-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120006,
+      "source": "data/v4-study-025/cases/seed-120006-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120007,
+      "source": "data/v4-study-025/cases/seed-120007-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120008,
+      "source": "data/v4-study-025/cases/seed-120008-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120009,
+      "source": "data/v4-study-025/cases/seed-120009-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120010,
+      "source": "data/v4-study-025/cases/seed-120010-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120011,
+      "source": "data/v4-study-025/cases/seed-120011-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120012,
+      "source": "data/v4-study-025/cases/seed-120012-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120013,
+      "source": "data/v4-study-025/cases/seed-120013-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120014,
+      "source": "data/v4-study-025/cases/seed-120014-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120015,
+      "source": "data/v4-study-025/cases/seed-120015-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120016,
+      "source": "data/v4-study-025/cases/seed-120016-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120017,
+      "source": "data/v4-study-025/cases/seed-120017-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120018,
+      "source": "data/v4-study-025/cases/seed-120018-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-feed",
+      "exchange": true,
+      "seed": 120019,
+      "source": "data/v4-study-025/cases/seed-120019-random-feed-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120000,
+      "source": "data/v4-study-025/cases/seed-120000-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120001,
+      "source": "data/v4-study-025/cases/seed-120001-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120002,
+      "source": "data/v4-study-025/cases/seed-120002-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120003,
+      "source": "data/v4-study-025/cases/seed-120003-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120004,
+      "source": "data/v4-study-025/cases/seed-120004-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120005,
+      "source": "data/v4-study-025/cases/seed-120005-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120006,
+      "source": "data/v4-study-025/cases/seed-120006-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120007,
+      "source": "data/v4-study-025/cases/seed-120007-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120008,
+      "source": "data/v4-study-025/cases/seed-120008-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120009,
+      "source": "data/v4-study-025/cases/seed-120009-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120010,
+      "source": "data/v4-study-025/cases/seed-120010-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120011,
+      "source": "data/v4-study-025/cases/seed-120011-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120012,
+      "source": "data/v4-study-025/cases/seed-120012-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120013,
+      "source": "data/v4-study-025/cases/seed-120013-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120014,
+      "source": "data/v4-study-025/cases/seed-120014-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120015,
+      "source": "data/v4-study-025/cases/seed-120015-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120016,
+      "source": "data/v4-study-025/cases/seed-120016-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120017,
+      "source": "data/v4-study-025/cases/seed-120017-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120018,
+      "source": "data/v4-study-025/cases/seed-120018-random-both-exchange-false.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": false,
+      "seed": 120019,
+      "source": "data/v4-study-025/cases/seed-120019-random-both-exchange-false.json",
+      "eligible": true,
+      "t0": 7,
+      "remaining_steps": 25,
+      "category": "remaining_conditional",
+      "original_sites": [
+        85,
+        86
+      ],
+      "offspring_ids": [
+        6,
+        5
+      ],
+      "offspring_sites": [
+        117,
+        118
+      ],
+      "energy_export_preview": 27
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120000,
+      "source": "data/v4-study-025/cases/seed-120000-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120001,
+      "source": "data/v4-study-025/cases/seed-120001-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120002,
+      "source": "data/v4-study-025/cases/seed-120002-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120003,
+      "source": "data/v4-study-025/cases/seed-120003-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120004,
+      "source": "data/v4-study-025/cases/seed-120004-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120005,
+      "source": "data/v4-study-025/cases/seed-120005-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120006,
+      "source": "data/v4-study-025/cases/seed-120006-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120007,
+      "source": "data/v4-study-025/cases/seed-120007-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120008,
+      "source": "data/v4-study-025/cases/seed-120008-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120009,
+      "source": "data/v4-study-025/cases/seed-120009-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120010,
+      "source": "data/v4-study-025/cases/seed-120010-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120011,
+      "source": "data/v4-study-025/cases/seed-120011-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120012,
+      "source": "data/v4-study-025/cases/seed-120012-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120013,
+      "source": "data/v4-study-025/cases/seed-120013-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120014,
+      "source": "data/v4-study-025/cases/seed-120014-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120015,
+      "source": "data/v4-study-025/cases/seed-120015-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120016,
+      "source": "data/v4-study-025/cases/seed-120016-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120017,
+      "source": "data/v4-study-025/cases/seed-120017-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120018,
+      "source": "data/v4-study-025/cases/seed-120018-random-both-exchange-true.json",
+      "eligible": false
+    },
+    {
+      "genotype": "heterogeneous",
+      "mode": "random-both",
+      "exchange": true,
+      "seed": 120019,
+      "source": "data/v4-study-025/cases/seed-120019-random-both-exchange-true.json",
+      "eligible": false
+    }
+  ]
+}
