@@ -1,0 +1,12 @@
+{
+  "root_json_bytes": 2211085,
+  "files": 5,
+  "byte_identical": true,
+  "files_sha256": {
+    "data/v4-study-044/independent-verification.json": "e46d09c40d4d9dcad9470ed255e530bb44a829b9d691694adf82031b9010ac3a",
+    "data/v4-study-044/index.json": "e964110fe568fd431b0ac558594ec785fde3b05391c3568df0b933dd4b47be41",
+    "data/v4-study-044/metadata.json": "7e29648d29cc5e07c420613d9621980e31bc0768c80bd91e4ffc7e434e075198",
+    "data/v4-study-044/records.json": "9803f65ea428e491b353d476647cfb01e8b395545d4864e1c3ecc250149acaf3",
+    "data/v4-study-044/summary.json": "19d71ab9eaae4608f973f4cc0f066bd05c792735e535e1410aebf595cc276fed"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "verdict": "APPROVED",
+  "task": "2.1",
+  "review_mode": "parent inline fallback",
+  "independent_author_review": false,
+  "limitation": "Fresh additional verifier unavailable: agent thread limit reached. Fresh producer component_timing_producer; parent reused independent037observer and independently implemented pair timing.",
+  "checks": {
+    "source_files": 892,
+    "unchanged_inputs": true,
+    "paired_cases": 28,
+    "index_cases": 100,
+    "no_trigger": 72,
+    "saved_arm_steps": 780,
+    "slot_steps": 2340,
+    "diagnostic_states": 56,
+    "physical_steps": 0,
+    "full_records_summaries_match": true,
+    "report_event_witnesses_verified": true,
+    "terminal_censoring_preserved": true,
+    "tests": 880,
+    "test_seconds": 56.51,
+    "compileall": "PASS",
+    "diff_check": "PASS"
+  },
+  "findings": [],
+  "files_sha256": {
+    "docs/research/results/v4-study-044-records.json": "9803f65ea428e491b353d476647cfb01e8b395545d4864e1c3ecc250149acaf3",
+    "docs/research/results/v4-study-044-metadata.json": "7e29648d29cc5e07c420613d9621980e31bc0768c80bd91e4ffc7e434e075198",
+    "docs/research/results/v4-study-044-design-sources.json": "60990229cf555067043374ee12fc5467968bb20c0225a639d87340df7e095911",
+    "docs/research/results/v4-study-044-independent-verification.json": "e46d09c40d4d9dcad9470ed255e530bb44a829b9d691694adf82031b9010ac3a",
+    "docs/research/results/v4-study-044-design-review.json": "f16793efba22692e7f6b853cd867dc54def0bf35fca6a27ada5fdc0cd94ce1e1",
+    "docs/research/results/v4-study-044-index.json": "e964110fe568fd431b0ac558594ec785fde3b05391c3568df0b933dd4b47be41",
+    "docs/research/results/v4-study-044-engineering-review.json": "285754b527cf8a4f1c2a5b7eac569c8e008aad691916ee22e10aab4c6d994e83",
+    "docs/research/results/v4-study-044-preservation.json": "9b75880dc696f70af995ae0bce992a53b269f21b7b0f8d6a650375699499a1cb",
+    "docs/research/results/v4-study-044-design-census.json": "99092cc2c295b6c8d2be456cfeedca1298212a52f3aec3d3342bf5e45ea2f108",
+    "docs/research/results/v4-study-044-summary.json": "19d71ab9eaae4608f973f4cc0f066bd05c792735e535e1410aebf595cc276fed",
+    "docs/research/v4-study-044-results.zh-CN.md": "3e19ec705ed8117f1a728ac71d086ee107c7867293ca7db347f246ce9edb72d0",
+    "scripts/policy_component_timing_inputs.py": "b9eee9925f5d4af2419977419f9beddab7373f0d9f55cc7a1baff7838152d85b",
+    "scripts/analyze_v4_policy_component_timing.py": "e4b7f3be2a56394cafaeb18367ce4dd06c3bfdc94ae0462fc5346156e9eace96",
+    "scripts/verify_v4_policy_component_timing.py": "300b6c669f7b535094685da7ed923304fea374416bc041b208bb2f37d473fe33"
+  }
+}
