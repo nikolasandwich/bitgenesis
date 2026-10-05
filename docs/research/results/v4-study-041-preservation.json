@@ -1,0 +1,11 @@
+{
+  "files": 4,
+  "bytes": 730418,
+  "byte_identical": true,
+  "files_sha256": {
+    "data/v4-study-041/metadata.json": "43832d60df476690520e4c2a59f90add5e76d21c7a16a3b15c94c386f48bfd76",
+    "data/v4-study-041/records.json": "3d60522a4e55ea8a0075054952a3347c782839e79acb0e6b8c9dc4b75e9c4199",
+    "data/v4-study-041/summary.json": "e5f70b6c6337e6ea570df6c6bc4ba962fb93b6dad34271c7a43ff103b3ea8c7b",
+    "data/v4-study-041/independent-verification.json": "d6a0ab63ddb19a1df771005ba07a31a755875086c4e7ccf8497dedd4484e1edc"
+  }
+}

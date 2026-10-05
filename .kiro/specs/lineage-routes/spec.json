@@ -1,7 +1,7 @@
 {
   "feature_name": "lineage-routes",
   "language": "zh-CN",
-  "phase": "tasks-approved",
+  "phase": "implementation-complete",
   "approvals": {
     "requirements": {
       "generated": true,
@@ -17,5 +17,6 @@
     }
   },
   "approval_basis": "持续研究授权 intentional fast-track",
-  "ready_for_implementation": true
+  "ready_for_implementation": true,
+  "completion_note": "8分支116步596提议22死亡双算法一致，799绑定，0物理；核验/代码报告审查parent inline fallback。"
 }

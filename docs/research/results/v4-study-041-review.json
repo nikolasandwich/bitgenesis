@@ -1,0 +1,29 @@
+{
+  "verdict": "APPROVED",
+  "task": "1.1",
+  "review_mode": "parent inline fallback",
+  "independent_author_review": false,
+  "limitation": "fresh verifier spawn failed: agent thread limit reached",
+  "production_author": "fresh context route_producer",
+  "verification": "independent forward lineage labels and saved actor/gate/identity reconstruction, no producer scientific imports",
+  "tests": {
+    "count": 854,
+    "status": "PASS",
+    "seconds": 56.507
+  },
+  "run_commit": "e3d42e2",
+  "cases": 8,
+  "saved_steps": 116,
+  "events": 596,
+  "deaths": 22,
+  "physical_steps": 0,
+  "prior040_full_upper_witnesses": 45,
+  "files_sha256": {
+    "docs/research/v4-study-041.zh-CN.md": "799b4f77c7d32844cd48d2cedca9b24c10611e5b518bbf2cfd41e1b70dc96493",
+    "docs/research/results/v4-study-041-independent-verification.json": "d6a0ab63ddb19a1df771005ba07a31a755875086c4e7ccf8497dedd4484e1edc",
+    "docs/research/results/v4-study-041-metadata.json": "43832d60df476690520e4c2a59f90add5e76d21c7a16a3b15c94c386f48bfd76",
+    "docs/research/results/v4-study-041-preservation.json": "01b02657cb12351a825d1acb4dd3dd0ab76c982153f0fb4cbb75cce9c80f19d2",
+    "docs/research/results/v4-study-041-records.json": "3d60522a4e55ea8a0075054952a3347c782839e79acb0e6b8c9dc4b75e9c4199",
+    "docs/research/results/v4-study-041-summary.json": "e5f70b6c6337e6ea570df6c6bc4ba962fb93b6dad34271c7a43ff103b3ea8c7b"
+  }
+}
