@@ -1,0 +1,41 @@
+{
+  "verdict": "APPROVED",
+  "review_mode": "inline fallback",
+  "reason": "fresh verifier spawn failed: agent thread limit reached",
+  "production_author": "/root/barrier_producer",
+  "verification_author": "parent inline fallback",
+  "independent_author_review": false,
+  "algorithm_crosscheck": "snapshot vs pairwise union-find; different parent-chain and event reconstruction; no dynamics calls",
+  "tests": {
+    "count": 814,
+    "seconds": 56.177,
+    "status": "PASS",
+    "compile": "PASS",
+    "red_evidence": "production and verifier/helper tests failed ImportError before implementation"
+  },
+  "resolved_findings": [
+    "缺失成员selected_chains表示由None对齐为[]，谓词不变"
+  ],
+  "checks": [
+    "首case与四格摘要严格一致",
+    "正式20case/274未来/822槽/20诊断/全部转换及零项逐字段相同",
+    "660输入前后hash与输出绑定一致",
+    "四JSON逐字节归档",
+    "报告计数和所有下行身份恒定额外检查",
+    "范围内且无未完成标记或秘密"
+  ],
+  "gaps": [],
+  "files_sha256": {
+    "scripts/reformation_barrier_inputs.py": "2da43bcb8b1c4b693f75ee4db8ff715b5d0441250b67dc0ef5fcc7fd256f9de7",
+    "scripts/analyze_v4_reformation_barriers.py": "28365370c7a452ed2c1e9683f46ff9c77e674eac9112f610ea6e705c1f9ee547",
+    "scripts/verify_v4_reformation_barriers.py": "47251f0f49aba29619042827d02200f9c97bb47561e6cea683ac310b0ff11c1e",
+    "tests/test_v4_reformation_barrier_inputs.py": "37a97583481a1a67710c14e34975282b90ee0a26307793102a272ed429ca1704",
+    "tests/test_v4_reformation_barriers.py": "9c9330d6420fdc33781daa545c232885d40b0778b63598cecf5912f26e8832de",
+    "tests/test_v4_reformation_barriers_verifier.py": "b326bb00917c2ddc5f66ec0de210e5a96e5cb2cff3d66da57aebb3dd54c1000e",
+    "docs/research/v4-study-037.zh-CN.md": "0536bd97fe82a6292d1e08d33ffc39ef151d88c2b4fbb462c0603bd3bcc088dd",
+    "docs/research/results/v4-study-037-independent-verification.json": "5d0f18233bfeb145345504a51b4dd59b3d9e2ea4c3ef90425337e72ec46a2ffc",
+    "docs/research/results/v4-study-037-metadata.json": "62d006f5d903d1b197fac3f9a8beed1b6477cbbfaa776a9306344df08cf9c491",
+    "docs/research/results/v4-study-037-records.json": "faae485e0582744cf344e4893bf4bf79377ad075aabc5bfa9fabbcb9ccc68e7a",
+    "docs/research/results/v4-study-037-summary.json": "ecdfb833b51ea7d8c2471c018261bdc300c19e7baffa9c887e29afdb34de35fb"
+  }
+}

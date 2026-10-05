@@ -1,7 +1,7 @@
 {
   "feature_name": "reformation-barriers",
   "language": "zh-CN",
-  "phase": "tasks-generated",
+  "phase": "implementation-complete",
   "approvals": {
     "requirements": {
       "generated": true,
@@ -17,5 +17,6 @@
     }
   },
   "approval_basis": "持续研究授权 intentional fast-track",
-  "ready_for_implementation": true
+  "ready_for_implementation": true,
+  "completion_note": "20例障碍/转换审计完成，0新物理；核验与审查inline fallback。"
 }
