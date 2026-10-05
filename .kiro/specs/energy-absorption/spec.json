@@ -1,0 +1,21 @@
+{
+  "feature_name": "energy-absorption",
+  "language": "zh-CN",
+  "phase": "tasks-generated",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "approval_basis": "持续研究授权 intentional fast-track",
+  "ready_for_implementation": true
+}
