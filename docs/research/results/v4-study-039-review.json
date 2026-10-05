@@ -1,0 +1,40 @@
+{
+  "verdict": "APPROVED",
+  "task": "2.1",
+  "review_mode": "parent inline fallback",
+  "independent_author": false,
+  "limitation": "fresh verifier spawn failed: agent thread limit reached",
+  "production_author": "fresh context policy_producer",
+  "independent_algorithm": "dictionary physics and identity/geometry reconstruction, no producer scientific imports",
+  "tests": {
+    "count": 837,
+    "status": "PASS",
+    "seconds": 56.901
+  },
+  "engineering": {
+    "production_steps": 13,
+    "verification_steps": 13
+  },
+  "formal": {
+    "production_steps": 116,
+    "verification_steps": 116,
+    "reused_treatment_observations": 274,
+    "control_replay_steps": 0,
+    "cases": 100
+  },
+  "preservation": "8 files restored byte-identically; five root JSON copied identically",
+  "files_sha256": {
+    "docs/research/v4-study-039.zh-CN.md": "99a7e3b2b250052d570485ed4f4243d348f1f0d729212e71d8ad11ba922306a8",
+    "docs/research/results/v4-study-039-design-census.json": "ddae2de86a6d226b339cd9f387a5e92b7bca192dc3af838ffc8f2ddba4c03b3b",
+    "docs/research/results/v4-study-039-design-proof.json": "3ca8b1a3d9f3c62a1ecb349262dc176b14267983accb563275fb6a92ab1701e2",
+    "docs/research/results/v4-study-039-design-review.json": "df6e3ce0f477c1287371bcbb32d0cbfc9d9376a055070aeaa058e1ac05cc4395",
+    "docs/research/results/v4-study-039-design-sources.json": "2cac4004fbf6d4164082b9b1c21485d59cbb2a5ae0054fef6a4db8b589d51a99",
+    "docs/research/results/v4-study-039-independent-verification.json": "c8cafda7c070194a976788b29c09c8c4b0cb8aeef5d80369fa8a29266385f684",
+    "docs/research/results/v4-study-039-metadata.json": "d8f219d397aac3ab2b5af044d02503ad66fdd1d30cf087f0b697021c950ec0cb",
+    "docs/research/results/v4-study-039-preservation.json": "f746cecca7f89b5a53ad33fba5e2d6f8f911015b8f16145c7bf3aa463e8abaa6",
+    "docs/research/results/v4-study-039-records.json": "a422cd84e07e507129a85b83c1c54bc93d2c7e974a58ece4ed5aa6262791b1a6",
+    "docs/research/results/v4-study-039-selection.json": "478106d5660415b030edffc944c21136982ec8f2a4cedcde8aa313481c3bf3bb",
+    "docs/research/results/v4-study-039-summary.json": "4a19e93b8ccd7e35bc9dd55230c0aeb75a253cbbfc196fd6e0327ae27ee78b66",
+    "docs/research/results/v4-study-039-cases.tar.gz": "be4c3359ef60ce317620a56c706a646bc4b2028be83669cba291aef54420254b"
+  }
+}

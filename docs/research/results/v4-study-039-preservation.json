@@ -1,0 +1,18 @@
+{
+  "cases": 8,
+  "raw_bytes": 6238462,
+  "archive_bytes": 142053,
+  "archive_sha256": "be4c3359ef60ce317620a56c706a646bc4b2028be83669cba291aef54420254b",
+  "restored_byte_identical": true,
+  "root_json_bytes": 728313,
+  "files_sha256": {
+    "data/v4-study-039/cases/east-120005.json": "17d81b5e03f3d341a1e4e0cf057f4e0044d0c72bbf2a8745604623103147c2a5",
+    "data/v4-study-039/cases/east-120007.json": "1667c8bba02f87dcdc0bd934948a7cf2d5d056da44591609a9778cfc38c604ec",
+    "data/v4-study-039/cases/east-120009.json": "20b7d730a45adb874c38f019f9e511c2416fe5767f7680521f2bad2da370f7f0",
+    "data/v4-study-039/cases/east-120011.json": "f3ebf12fcce5dabbd6474601897e2543f421639d2407d0d4ad8576256f777c59",
+    "data/v4-study-039/cases/east-120018.json": "39891682ebc4b8d42f838fe6ec846798c9c9dfb0fc5bd7912e5dd9e4863bde88",
+    "data/v4-study-039/cases/west-120003.json": "1ea8b8f4584212f2541303e42a0d5b1add6b85315141a15db2145b1f0923fbbc",
+    "data/v4-study-039/cases/west-120007.json": "7a4cdf1b0ab564706e6a1ac77522ebe24dda5d10e2497df13a2aec1853f9e344",
+    "data/v4-study-039/cases/west-120009.json": "bf69a378c5cbb6d6cb1b42b98df8741c0dea0b306ab99fdd4a19883e77a2e98f"
+  }
+}
