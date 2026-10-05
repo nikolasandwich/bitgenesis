@@ -1,0 +1,31 @@
+{
+  "task": "2.1 engineering gate",
+  "verdict": "APPROVED",
+  "author": "parent inline fallback",
+  "producer": "fresh north_policy_producer",
+  "independent_author_attempt": "agent thread limit reached",
+  "files_sha256": {
+    "scripts/middle_north_policy_inputs.py": "a4a025150276a7d4fe8ab010ec41f370ac958fe3a26b65c6709796735915ec63",
+    "scripts/run_v4_middle_north_policy.py": "768d5619e52c3eadd14976f86c881158e4ac3cdb059ce9665238a0f6eb46a8d7",
+    "scripts/verify_v4_middle_north_policy.py": "12e9c1149392b2b988fc26d17d4c653e2e5897e8717ad1045a8c811587f30e2f",
+    "tests/test_v4_middle_north_policy.py": "af209ffbd894d718e7f60d2522a358d0ba8cfb24134660cb6d6caf5b499f46b3",
+    "tests/test_v4_middle_north_policy_verifier.py": "253ebe232f0c0635b816cd857f45e50d47a2c63c88ca2a3545f6966a1b550ee1"
+  },
+  "tests": {
+    "count": 873,
+    "seconds": 56.582,
+    "status": "PASS",
+    "compileall": "PASS",
+    "diff_check": "PASS"
+  },
+  "engineering": {
+    "encoding": "east",
+    "seed": 120005,
+    "production_steps": 13,
+    "independent_dictionary_steps": 13,
+    "full_branch_equal": true,
+    "source_bindings": 840
+  },
+  "findings": [],
+  "scope": "Reviewed strict future tape mask, once-only removal/export and prefix identities, no-trigger denominators, independent physics and copied-state observer, difference-in-differences, budgets and preserved failures; no formal run yet."
+}
