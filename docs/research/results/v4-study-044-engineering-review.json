@@ -1,0 +1,31 @@
+{
+  "verdict": "APPROVED",
+  "task": "2.1 engineering",
+  "review_mode": "parent inline fallback",
+  "producer": "fresh component_timing_producer",
+  "independent_author_attempt": "agent thread limit reached",
+  "tests": {
+    "count": 880,
+    "seconds": 56.51,
+    "status": "PASS",
+    "compileall": "PASS",
+    "diff_check": "PASS"
+  },
+  "engineering": {
+    "case": "east120005",
+    "saved_states_per_route": 26,
+    "new_simulation_steps": 0,
+    "complete_records_equal": true,
+    "producer_read_repeated_once_to_save_artifact": true
+  },
+  "source_files": 892,
+  "files_sha256": {
+    "scripts/policy_component_timing_inputs.py": "b9eee9925f5d4af2419977419f9beddab7373f0d9f55cc7a1baff7838152d85b",
+    "scripts/analyze_v4_policy_component_timing.py": "e4b7f3be2a56394cafaeb18367ce4dd06c3bfdc94ae0462fc5346156e9eace96",
+    "scripts/verify_v4_policy_component_timing.py": "300b6c669f7b535094685da7ed923304fea374416bc041b208bb2f37d473fe33",
+    "tests/test_v4_policy_component_timing.py": "bea8dc08364bfeab26262390cc375e9a428617688422a29c2d6558416a49c5ab",
+    "tests/test_v4_policy_component_timing_verifier.py": "b199fb52481e16f7e060c6aed88acb21f677b5a16d5e27986e4c15cac5de03b5"
+  },
+  "findings": [],
+  "scope": "Thin037 observers, exact own templates, both arms old removal/newnorth, full100index, diagnostic excluded, pair copresence distinct from copy, all zero cells and paired numeric differences; no formal audit yet"
+}
