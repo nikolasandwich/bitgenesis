@@ -1,7 +1,7 @@
 {
   "feature_name": "middle-north-policy",
   "language": "zh-CN",
-  "phase": "tasks-generated",
+  "phase": "implementation-complete",
   "approvals": {
     "requirements": {
       "generated": true,
@@ -19,5 +19,5 @@
   "approval_basis": "持续研究授权 intentional fast-track",
   "ready_for_implementation": true,
   "method_review": "任务1.1由新上下文north_policy_method独立核对834来源、100案例、28移除初态和780方向票，APPROVED；0物理。",
-  "next_task": "2.1 尚未实现或运行反事实政策"
+  "completion_note": "390新政策+390独立字典物理全部一致，840绑定/100全分母。持续10全0；3终点单步见证右删失。873testsPASS；额外新作者受限，核验/代码/报告审查parent inline fallback。"
 }
