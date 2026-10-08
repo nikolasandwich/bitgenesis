@@ -1,0 +1,53 @@
+{
+  "byte_identical": true,
+  "files": [
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study045-producer-engineering-v_u6zjjs/engineering.json",
+      "archive": "docs/research/results/v4-study-045-engineering/producer/engineering.json",
+      "bytes": 214835,
+      "sha256": "c7415314b9c3e01e78bd6ab2b3b6ca105f64cfcdcf4f2665565891610b39bf0c"
+    },
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study045-producer-engineering-v_u6zjjs/records.json",
+      "archive": "docs/research/results/v4-study-045-engineering/producer/records.json",
+      "bytes": 56847,
+      "sha256": "a62eac2b28ab9356ef0ca20f334e27c6f6914887e84b8c88718b525c87950d25"
+    },
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study045-producer-engineering-v_u6zjjs/summary.json",
+      "archive": "docs/research/results/v4-study-045-engineering/producer/summary.json",
+      "bytes": 26000,
+      "sha256": "d8f367dee08ef63d766bbf9020188711e7759827ccaf87952149bfd13731817a"
+    },
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study045-verifier-engineering-62yfd8b3/engineering-verification.json",
+      "archive": "docs/research/results/v4-study-045-engineering/verifier/engineering-verification.json",
+      "bytes": 215658,
+      "sha256": "694820bb5de8e2588db657a862955cd72b74aa45b4e2781b6a3bbd1d880b4af5"
+    },
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study045-verifier-engineering-62yfd8b3/records.json",
+      "archive": "docs/research/results/v4-study-045-engineering/verifier/records.json",
+      "bytes": 56847,
+      "sha256": "a62eac2b28ab9356ef0ca20f334e27c6f6914887e84b8c88718b525c87950d25"
+    },
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study045-verifier-engineering-62yfd8b3/summary.json",
+      "archive": "docs/research/results/v4-study-045-engineering/verifier/summary.json",
+      "bytes": 26000,
+      "sha256": "d8f367dee08ef63d766bbf9020188711e7759827ccaf87952149bfd13731817a"
+    },
+    {
+      "source": "/tmp/study045-verifier-engineering-failure/failure.json",
+      "archive": "docs/research/results/v4-study-045-engineering/verifier-failure-1/failure.json",
+      "bytes": 391,
+      "sha256": "c06c1d176cd5fe4e59a90b4310b73ce233cd07d4ae81ea1b91d36a0667065f40"
+    },
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study045-verifier-engineering-7iqmqrsz/engineering-verification.json",
+      "archive": "docs/research/results/v4-study-045-engineering/verifier-failure-2/engineering-verification.json",
+      "bytes": 215714,
+      "sha256": "a55795a7f83e462163c2ee9887c506188cc95a5da1d53236ba8035cf62c40f4c"
+    }
+  ]
+}

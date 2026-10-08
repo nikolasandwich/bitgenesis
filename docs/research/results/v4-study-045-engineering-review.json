@@ -1,0 +1,155 @@
+{
+  "verdict": "APPROVED",
+  "task": "2.1 engineering",
+  "reviewer": "独立上下文 /root/turnover_code_review",
+  "review_mode": "独立作者与独立代码审查；非inline fallback",
+  "scope": "仅正式全队列前工程审查；首east120005两arm共26未来保存态及2诊断态，尚未运行045正式全队列，不构成2.1整体完成。",
+  "requirements": [
+    "1.1",
+    "1.2",
+    "2.1",
+    "2.2",
+    "3.1"
+  ],
+  "authors": {
+    "producer": "/root/turnover_producer",
+    "verifier": "/root/turnover_verifier",
+    "input_binding": "/root"
+  },
+  "mechanical": {
+    "canonical_tests": {
+      "command": "PYTHONPATH=src .venv/bin/python -m unittest discover -s tests",
+      "status": "PASS",
+      "exit_code": 0,
+      "count": 910,
+      "seconds": 56.126,
+      "executor": "父上下文；审查者未重复全suite"
+    },
+    "reviewer_tests": [
+      {
+        "command": "PYTHONPATH=src .venv/bin/python -m unittest tests.test_v4_middle_turnover",
+        "status": "PASS",
+        "exit_code": 0,
+        "count": 10
+      },
+      {
+        "command": "PYTHONPATH=src .venv/bin/python -m unittest tests.test_v4_middle_turnover_verifier",
+        "status": "PASS",
+        "exit_code": 0,
+        "count": 20
+      }
+    ],
+    "independent_synthetic_checks": {
+      "interval_patterns": 254,
+      "gap_timelines": 89,
+      "routes": 2,
+      "status": "PASS",
+      "method": "审查者另写组合枚举：区间以布尔连续分组独立计算；生成不复活身份的可行占据序列，核对所有未来空保存态总数和两路线完整缺口对象。"
+    },
+    "compileall": {
+      "command": "PYTHONPATH=src .venv/bin/python -m compileall -q src scripts tests",
+      "status": "PASS",
+      "executor": "父上下文"
+    },
+    "reviewer_py_compile": {
+      "files": [
+        "scripts/middle_turnover_inputs.py",
+        "scripts/analyze_v4_middle_turnover.py",
+        "scripts/verify_v4_middle_turnover.py",
+        "tests/test_v4_middle_turnover.py",
+        "tests/test_v4_middle_turnover_verifier.py"
+      ],
+      "status": "PASS",
+      "exit_code": 0
+    },
+    "diff_check": "PASS；父上下文与审查者git diff --check通过，另逐行检查五个新增文件无尾随空白",
+    "placeholder_scan": "CLEAN",
+    "secrets_spot_check": "CLEAN",
+    "static_checks": "PASS",
+    "boundary": "WITHIN",
+    "boundary_audit": "CLEAN",
+    "red_phase": {
+      "status": "VERIFIED",
+      "basis": "两作者READY_FOR_REVIEW提供实际RED输出；随后审查者重跑30项边界测试为GREEN。",
+      "producer": "新生产模块尚不存在时ImportError，1 error。",
+      "verifier": "新模块ImportError；随后7项缺区间/缺口方法、4项缺事件方法、缺正式main，逐步补齐为GREEN。"
+    },
+    "source_files": 916,
+    "engineering_sources_before_after_equal": true,
+    "reviewed_script_hashes_match_final_engineering": true,
+    "archive_files": 8,
+    "archive_bytes": 812292,
+    "archive_byte_identity_rechecked": true,
+    "formal_output_absent_at_review": true
+  },
+  "engineering": {
+    "case": "east120005",
+    "arms": 2,
+    "saved_states": 26,
+    "diagnostic_states": 2,
+    "complete_records_equal": true,
+    "complete_summary_equal": true,
+    "records_and_summary_byte_identical": true,
+    "verifier_seconds": 6.072781665949151,
+    "reviewer_reran_saved_science": false,
+    "new_simulation_steps": 0,
+    "source_epoch_note": "生产首例工程的916项来源清单保留其运行时脚本hash；之后生产正式入口补齐身份/删失/复用计数metadata，核验器完成纠错与正式入口。最终核验工程的916项清单绑定当前三脚本，前后不变；两路线首例records/summary逐字节相同。未将较早生产工程的脚本hash伪称当前hash。",
+    "producer_to_final_script_hash_changes": [
+      "scripts/analyze_v4_middle_turnover.py",
+      "scripts/verify_v4_middle_turnover.py"
+    ]
+  },
+  "findings": [],
+  "resolved_findings": [
+    {
+      "severity": "Important",
+      "issue": "核验器误将043出生字典记录当作身份整数，真实首例失败；原合成夹具也使用错误形态。",
+      "resolution": "三处显式提取id，夹具改为真实出生记录形态；最终首26态完整记录及汇总字节一致。",
+      "evidence": "docs/research/results/v4-study-045-engineering/verifier-failure-1/failure.json",
+      "evidence_limit": "首失败是从真实工具输出保存的诊断，不冒充含完整运行hash的正式证明。"
+    },
+    {
+      "severity": "Important",
+      "issue": "首例工程汇总将triggered计为已分析1例，与冻结100索引中的28触发分母不一致。",
+      "resolution": "核验器直接按完整索引统计triggered；保留失败前后hash，最终20格汇总字节一致。",
+      "evidence": "docs/research/results/v4-study-045-engineering/verifier-failure-2/engineering-verification.json"
+    }
+  ],
+  "verified_contracts": [
+    "042八旧arm35身份由完整039/043对象一致、来源文件SHA256、JSON指针与逐记录规范化hash绑定；复用路径只摘取既有值，不调用新投影。",
+    "其余48arm只读取出生/入口、成功形成前后、死亡/终点所需事件；保存阶段能量与身份核对，独立核验器额外核对成功形成分配守恒。",
+    "同tick死亡/出生分别记账且间隙为0；入口空态排除t0，终点空态计入32；无前任/后继保留左右删失。",
+    "出生当步无行动、死亡方向票非提议、历史左删失入口无新生能量上界；32终点出生右删失且无行动。",
+    "G严格使用两格材料0缺席，与物理空格分离；只有上下完整遗传匹配才产生组件等价判断，反例保留完整组件格。",
+    "044上下所有布尔门槛和原double_new逐tick核对；核验器独立重建几何材料组件与祖链，不增加祖系必须不同标准。",
+    "t0诊断不计未来区间长度；立即退出仍保留长度0、左截断及退出事件。",
+    "身份键含encoding/seed/arm/identity；材料异常与格点换人分开保留；100索引、72不适用、短窗、阴性及20汇总格全部保留。",
+    "正式入口干净工作树、排他输出与每路线600秒/128MiB；失败保留前后来源/产物hash，独立证明不得覆盖。"
+  ],
+  "report_notes": [
+    "component_counterexamples集合包含诊断态与未来态；正式报告若非零须明确此分母。",
+    "正式全队列只能在本工程审查所绑定代码干净提交后启动；正式数据/归档/结果报告仍需完成后审查。"
+  ],
+  "remediation": null,
+  "summary": "2.1正式运行前工程门槛通过；两独立路线首26态一致、910项全suite通过，0新增或重放物理。",
+  "physical_steps": 0,
+  "scientific_turnover_audit_complete": false,
+  "files_sha256": {
+    "scripts/middle_turnover_inputs.py": "a663af559c1f2feefc22f11ab90bc6983b06cc5fd33a1db40c489e5788d5db55",
+    "scripts/analyze_v4_middle_turnover.py": "96d39160e17b6d1463542d27c0917071407100a21006661100da58881b3b0bf4",
+    "scripts/verify_v4_middle_turnover.py": "498d8a13c81ded31998b7318a27ec3da6062d409e84613ad104b180b5ed39710",
+    "tests/test_v4_middle_turnover.py": "01f51cfbfaf8b90d71b9713b707bcc1ef39d5e802f27069933938ea6aba2ce6c",
+    "tests/test_v4_middle_turnover_verifier.py": "3ecdb180d6f6f10eb8d13a06c01d223e5231b017d94b52fa5e900bba967a2f56"
+  },
+  "evidence_sha256": {
+    "docs/research/results/v4-study-045-engineering/preservation.json": "18438d60520aea17e911cfc8d954bd394a375806665b91984d28da0490139565",
+    "docs/research/results/v4-study-045-engineering/producer/engineering.json": "c7415314b9c3e01e78bd6ab2b3b6ca105f64cfcdcf4f2665565891610b39bf0c",
+    "docs/research/results/v4-study-045-engineering/producer/records.json": "a62eac2b28ab9356ef0ca20f334e27c6f6914887e84b8c88718b525c87950d25",
+    "docs/research/results/v4-study-045-engineering/producer/summary.json": "d8f367dee08ef63d766bbf9020188711e7759827ccaf87952149bfd13731817a",
+    "docs/research/results/v4-study-045-engineering/verifier/engineering-verification.json": "694820bb5de8e2588db657a862955cd72b74aa45b4e2781b6a3bbd1d880b4af5",
+    "docs/research/results/v4-study-045-engineering/verifier/records.json": "a62eac2b28ab9356ef0ca20f334e27c6f6914887e84b8c88718b525c87950d25",
+    "docs/research/results/v4-study-045-engineering/verifier/summary.json": "d8f367dee08ef63d766bbf9020188711e7759827ccaf87952149bfd13731817a",
+    "docs/research/results/v4-study-045-engineering/verifier-failure-1/failure.json": "c06c1d176cd5fe4e59a90b4310b73ce233cd07d4ae81ea1b91d36a0667065f40",
+    "docs/research/results/v4-study-045-engineering/verifier-failure-2/engineering-verification.json": "a55795a7f83e462163c2ee9887c506188cc95a5da1d53236ba8035cf62c40f4c"
+  }
+}

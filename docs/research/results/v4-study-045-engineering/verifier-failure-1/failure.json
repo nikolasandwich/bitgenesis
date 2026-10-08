@@ -1,0 +1,9 @@
+{
+  "status": "failed",
+  "scope": "engineering only first east120005 two arms",
+  "new_simulation_steps": 0,
+  "error": "ValueError: saved birth identity events",
+  "cause": "Saved births are identity records, but verifier incorrectly expected identity integers",
+  "records_compared": false,
+  "metadata_note": "Failure preserved from tool output; this diagnostic is not a formal proof"
+}
