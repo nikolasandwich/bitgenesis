@@ -1,7 +1,7 @@
 {
   "feature_name": "middle-turnover",
   "language": "zh-CN",
-  "phase": "tasks-generated",
+  "phase": "implementation-complete",
   "created_at": "2026-10-08",
   "updated_at": "2026-10-08",
   "approvals": {
@@ -21,6 +21,7 @@
   "approval_basis": "用户持续自主研究授权 intentional fast-track",
   "ready_for_implementation": true,
   "method_review": "任务1.1由新上下文turnover_method_review独立核验907来源、202身份/12起点删失、35精确复用，APPROVED；0物理。",
-  "completion_note": "仅方法冻结与来源/身份清单；0物理，未执行完整科学周转/缺口分析。",
-  "next_task": "2.1 实现只读周转/能量事件投影/无材料0窗口及门槛重叠，先工程和测试；正式审计未运行。"
+  "completion_note": "干净0a1eba9完成28配对56arm/780未来态/56诊断；202身份含12左删失，35精确复用042及167最小投影，两独立作者完整一致，916来源前后hash，0物理。910testsPASS；turnover_code_review独立最终审查APPROVED。单格空180→231但G138→134，上下反复补入保持连接；持续10仍全0。",
+  "next_task": "先冻结全56arm中行补入机会与全部缺口的只读提议门槛审计，核041旧E/W复用及必要新增字段；未执行，不重做042/044/045，不延窗或改规则。",
+  "final_review": "docs/research/results/v4-study-045-review.json"
 }
