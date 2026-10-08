@@ -1,0 +1,14 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "data/v4-study-047-engineering/evidence_audit_v2.py"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 1.1461487909546122,
+  "source_sha256": "7e6b201e6afd2cc4d48817a2b764c017b9b3881c0ec1f3fff58cae0d3ba5ffe7",
+  "raw_output_sha256": {
+    "stdout.bin": "951252bdebc2f2b230a0f1424736227326b0fbc30dbe9c0d84691fdb4e73f9f8",
+    "stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "new_scientific_steps": 0
+}

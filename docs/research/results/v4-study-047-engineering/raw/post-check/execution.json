@@ -1,0 +1,16 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "data/v4-study-047-engineering/evidence_audit.py"
+  ],
+  "exit_code": 1,
+  "tool_wall_seconds": 1.044685791,
+  "source_sha256": "5ce20d0d2435c7d303e45d3560202d28277d035870bd8c1f0af88f3f8809e3a9",
+  "raw_output_sha256": {
+    "stdout.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr.bin": "923a6861b18e8faafd78412ab40d01792a7c7a68f904d31a7cdce28e11d68ca1"
+  },
+  "failure_scope": "仅补充证据检查器误把boundary.final来源引用当成状态对象；两条实际CLI已成功且未重跑。",
+  "correction": "v2验证来源path/pointer/hash/value_sha256，再严格比较两arm.initial与043.ablation.final；保留原检查器和exit1原始输出。",
+  "new_scientific_steps": 0
+}

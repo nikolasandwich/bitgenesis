@@ -1,0 +1,35 @@
+{
+  "all_staged": {
+    "command": [
+      "git",
+      "diff",
+      "--cached",
+      "--check"
+    ],
+    "exit_code": 2,
+    "stdout": "staged-whitespace-full.stdout.bin",
+    "stderr": "staged-whitespace-full.stderr.bin"
+  },
+  "exclusion": {
+    "path": "docs/research/results/v4-study-047-engineering/raw/source-snapshots/src/bitgenesis/v4/competition.py",
+    "original_source": "src/bitgenesis/v4/competition.py",
+    "byte_identical": true,
+    "sha256": "bc2a868d0af4efcfb84f9198d70b03d18ebf4dff561f9e87ee0a6d07755b035e",
+    "reason": "逐字节保存既有原源码尾部空行；不为格式检查改写历史证据。"
+  },
+  "all_other_staged": {
+    "command": [
+      "git",
+      "diff",
+      "--cached",
+      "--check",
+      "--",
+      ".",
+      ":(exclude)docs/research/results/v4-study-047-engineering/raw/source-snapshots/src/bitgenesis/v4/competition.py"
+    ],
+    "exit_code": 0,
+    "stdout": "staged-whitespace-filtered.stdout.bin",
+    "stderr": "staged-whitespace-filtered.stderr.bin"
+  },
+  "scientific_sources_unchanged": true
+}

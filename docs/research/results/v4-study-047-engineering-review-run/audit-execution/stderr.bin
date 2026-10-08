@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-engineering-review-run/audit_saved_evidence.py", line 251, in <module>
+    folder=ROOT/('docs/research/results/v4-study-047-'+suffix); ex=read(folder/'execution.json'); assert ex['exit_code']==0; hashes(ex['raw_output_sha256'],folder)
+                                                                                                                                    ~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'raw_output_sha256'

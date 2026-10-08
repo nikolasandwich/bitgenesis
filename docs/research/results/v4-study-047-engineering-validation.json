@@ -1,0 +1,188 @@
+{
+  "status": "VERIFIED",
+  "claim_type": "TASK",
+  "task": "2.3",
+  "boundary": "EngineeringIntegration",
+  "created_at_utc": "2026-10-08T18:14:31.102740+00:00",
+  "claim": "唯一E120005工程运行、独立完整核验、字节归档及独立工程审查满足任务2.3；仅工程验收，不是完整研究或FEATURE_GO。",
+  "requirements": [
+    "2.3",
+    "3.1",
+    "3.2",
+    "3.3",
+    "4.1",
+    "4.2",
+    "4.3"
+  ],
+  "independent_author": "/root/withdrawal_engineering",
+  "independent_reviewer": "/root/withdrawal_engineering_review",
+  "review_path": "docs/research/results/v4-study-047-engineering-review.json",
+  "review_sha256": "4b3d002858fa8dac5f35c6044063cd7d819944ec809054801d0aceb1382b59b7",
+  "current_bindings_verified": 3535,
+  "engineering_execution_commit": "931dd9e70f6b89813635f7d25e74cdc8cf42e0bf",
+  "parent_saved_evidence_check": {
+    "status": "PASS",
+    "created_at_utc": "2026-10-08T18:12:36.794348+00:00",
+    "claim_type": "TASK",
+    "task": "2.3",
+    "reviews": {
+      "producer": {
+        "sha256": "74ac9792ea57ae793665a610649adc790cf39f0a858c8908978b7d8d86828754",
+        "current_bindings_verified": 1985
+      },
+      "verifier": {
+        "sha256": "bf7180e688208e5af27274d01e4ff900966a965e9688fa9b9d05ee7e46e7057e",
+        "current_bindings_verified": 3023
+      },
+      "engineering": {
+        "sha256": "4b3d002858fa8dac5f35c6044063cd7d819944ec809054801d0aceb1382b59b7",
+        "current_bindings_verified": 3535
+      }
+    },
+    "author_sealed_files_verified": 244,
+    "restored_files": 236,
+    "restored_bytes": 8251010,
+    "archive_sha256": "57c0ab9830a8a06725fcc6aa6c9a8290ab62cbde3515df63d927ab9094bf4f0e",
+    "scientific_files_equal": [
+      "cases/east-120005.json",
+      "environments/120005.json",
+      "records.json",
+      "index.json",
+      "summary.json"
+    ],
+    "routes": {
+      "producer": {
+        "status": "complete",
+        "exit_code": 0,
+        "wall_seconds": 11.046951458905824,
+        "source_bindings": 1194,
+        "physical_steps": 64,
+        "future_generator_ticks": 32,
+        "past_generator_ticks": 640,
+        "actual_bytes": 2748098,
+        "projected_bytes": 64642426
+      },
+      "verifier": {
+        "status": "verified",
+        "exit_code": 0,
+        "wall_seconds": 12.251149791991338,
+        "source_bindings": 1200,
+        "physical_steps": 64,
+        "future_generator_ticks": 32,
+        "past_generator_ticks": 640,
+        "actual_bytes": 2831087,
+        "projected_bytes": 64974382
+      }
+    },
+    "saved_index_statuses": {
+      "not_applicable_original_32_no_trigger": 72,
+      "complete": 1,
+      "not_run_engineering": 27
+    },
+    "regression": {
+      "tests": 1070,
+      "original_exit_code": 0,
+      "current_source_hashes_verified": 5,
+      "reexecuted": false
+    },
+    "source_diff_exit_code": 0,
+    "formal_directory_exists": false,
+    "this_parent_check_new_physical_steps": 0,
+    "this_parent_check_new_future_generator_ticks": 0,
+    "elapsed_seconds": 2.160234917071648
+  },
+  "parent_execution": {
+    "command": [
+      ".venv/bin/python",
+      "docs/research/results/v4-study-047-engineering-parent-verification/verify_saved_evidence.py"
+    ],
+    "cwd": "/Users/todd/Documents/bitgenesis",
+    "exit_code": 0,
+    "finished_at_utc": "2026-10-08T18:12:36.802112+00:00",
+    "wall_seconds": 2.210069249966182,
+    "script_sha256": "3768516cd545d7c120023ac02e4f5ae9b83b43e13c45f976bee5d5871b9937b1",
+    "raw_output_sha256": {
+      "stdout.bin": "4d35aa15a500ab774d0344b48d75645e7d4944b87a5b73c6cfbf536254d35e78",
+      "stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "new_physical_steps": 0,
+    "new_future_generator_ticks": 0
+  },
+  "evidence_sha256": {
+    "docs/research/results/v4-study-047-engineering-parent-verification/authoring-note.json": "5084aeeb5f51aed011f6769cee8002245fe90211ea186b143bb29c104d6a569a",
+    "docs/research/results/v4-study-047-engineering-parent-verification/execution.json": "2615ab7ce6ff0d7b4deef01f6f3070fb8a093c62cc64be31eff1fdbb77066531",
+    "docs/research/results/v4-study-047-engineering-parent-verification/staged-whitespace-filtered.stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/research/results/v4-study-047-engineering-parent-verification/staged-whitespace-filtered.stdout.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/research/results/v4-study-047-engineering-parent-verification/staged-whitespace-full.stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/research/results/v4-study-047-engineering-parent-verification/staged-whitespace-full.stdout.bin": "9a89a78b06c253f61e3e62eeec013b89c4e0d036d0f886fc3e9c8362ad0bd27a",
+    "docs/research/results/v4-study-047-engineering-parent-verification/staged-whitespace.json": "ae954d2991d01d7557520118f52728fe3fb36e36f907888cb7e660a2242cc31e",
+    "docs/research/results/v4-study-047-engineering-parent-verification/stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/research/results/v4-study-047-engineering-parent-verification/stdout.bin": "4d35aa15a500ab774d0344b48d75645e7d4944b87a5b73c6cfbf536254d35e78",
+    "docs/research/results/v4-study-047-engineering-parent-verification/verify_saved_evidence.py": "3768516cd545d7c120023ac02e4f5ae9b83b43e13c45f976bee5d5871b9937b1"
+  },
+  "scientific_execution_this_increment": {
+    "producer_physical_steps": 64,
+    "verifier_physical_steps": 64,
+    "total_physical_steps": 128,
+    "future_generator_ticks": 64,
+    "past_generator_ticks_per_route": 640,
+    "real_cli_invocations_per_route": 1,
+    "real_cli_failures": 0,
+    "real_cli_reruns": 0,
+    "new_synthetic_physical_steps": 0
+  },
+  "reviewer_saved_data_check": {
+    "exit_code": 0,
+    "strict_type_value_nodes": 471660,
+    "new_scientific_calls": 0,
+    "reviewer_failed_v1_preserved": true
+  },
+  "negative_result_scope": "仅首工程配对，两臂44至48共5末态双副本，持续10未达；全部汇总delta0而部分失败提议类别不同。不能推断正式28配对无效应或生命标准达成。",
+  "failures_preserved": [
+    "作者只读审计v1误将来源引用当状态，原exit1及源码保全，v2只读通过。",
+    "审查只读审计v1因旧help字段名不同exit1，原源码/输出保全，v2通过；交互读取旧RED临时fixture路径失败单列记录，不冒称恢复旧临时目录。",
+    "父层apply_patch后置hook在scratch缺失validate-schema.py，文件已写出并AST验证，工具hook说明保存在parent-verification/authoring-note.json。",
+    "既有联合回归首次2 errors及生产临时epoch保全缺口按历史记录，不覆盖或改称完整。"
+  ],
+  "gaps": [],
+  "feature_go": false,
+  "formal_executed": false,
+  "formal_execution_requires_clean_commit": true,
+  "delivery_scope": "本记录写于工程验收提交前；Git提交、推送和clean formal执行门槛在交付时另行实际检查。不可将本JSON单独当作已推送证明。",
+  "next_task": "3.1：在本轮干净工程提交上按固定方案运行全部28配对、每路线1792物理步；先查最新消息/进程/独占正式目录，工程不混入正式结果。每路线600秒/128MiB，超限保全失败，不改规则或生命标准。",
+  "staged_whitespace": {
+    "all_staged": {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit_code": 2,
+      "stdout": "staged-whitespace-full.stdout.bin",
+      "stderr": "staged-whitespace-full.stderr.bin"
+    },
+    "exclusion": {
+      "path": "docs/research/results/v4-study-047-engineering/raw/source-snapshots/src/bitgenesis/v4/competition.py",
+      "original_source": "src/bitgenesis/v4/competition.py",
+      "byte_identical": true,
+      "sha256": "bc2a868d0af4efcfb84f9198d70b03d18ebf4dff561f9e87ee0a6d07755b035e",
+      "reason": "逐字节保存既有原源码尾部空行；不为格式检查改写历史证据。"
+    },
+    "all_other_staged": {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check",
+        "--",
+        ".",
+        ":(exclude)docs/research/results/v4-study-047-engineering/raw/source-snapshots/src/bitgenesis/v4/competition.py"
+      ],
+      "exit_code": 0,
+      "stdout": "staged-whitespace-filtered.stdout.bin",
+      "stderr": "staged-whitespace-filtered.stderr.bin"
+    },
+    "scientific_sources_unchanged": true
+  }
+}

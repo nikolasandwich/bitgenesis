@@ -1,0 +1,16 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "docs/research/results/v4-study-047-engineering-review-run/audit_saved_evidence_v2.py"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 2.886577041936107,
+  "source_sha256_before": "b87b0249da3a9ba6870a6fa1a38ca996ca1efb91c38c0361f54754656cf2882b",
+  "source_sha256_after": "b87b0249da3a9ba6870a6fa1a38ca996ca1efb91c38c0361f54754656cf2882b",
+  "raw_output_sha256": {
+    "stdout.bin": "314f34f4ec9c2c835e5830603553ab2c54cb1faf66068537fc215f774f64a431",
+    "stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "new_physical_steps": 0,
+  "new_future_draws": 0
+}

@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "created_at_utc": "2026-10-08T18:12:36.794348+00:00",
+  "claim_type": "TASK",
+  "task": "2.3",
+  "reviews": {
+    "producer": {
+      "sha256": "74ac9792ea57ae793665a610649adc790cf39f0a858c8908978b7d8d86828754",
+      "current_bindings_verified": 1985
+    },
+    "verifier": {
+      "sha256": "bf7180e688208e5af27274d01e4ff900966a965e9688fa9b9d05ee7e46e7057e",
+      "current_bindings_verified": 3023
+    },
+    "engineering": {
+      "sha256": "4b3d002858fa8dac5f35c6044063cd7d819944ec809054801d0aceb1382b59b7",
+      "current_bindings_verified": 3535
+    }
+  },
+  "author_sealed_files_verified": 244,
+  "restored_files": 236,
+  "restored_bytes": 8251010,
+  "archive_sha256": "57c0ab9830a8a06725fcc6aa6c9a8290ab62cbde3515df63d927ab9094bf4f0e",
+  "scientific_files_equal": [
+    "cases/east-120005.json",
+    "environments/120005.json",
+    "records.json",
+    "index.json",
+    "summary.json"
+  ],
+  "routes": {
+    "producer": {
+      "status": "complete",
+      "exit_code": 0,
+      "wall_seconds": 11.046951458905824,
+      "source_bindings": 1194,
+      "physical_steps": 64,
+      "future_generator_ticks": 32,
+      "past_generator_ticks": 640,
+      "actual_bytes": 2748098,
+      "projected_bytes": 64642426
+    },
+    "verifier": {
+      "status": "verified",
+      "exit_code": 0,
+      "wall_seconds": 12.251149791991338,
+      "source_bindings": 1200,
+      "physical_steps": 64,
+      "future_generator_ticks": 32,
+      "past_generator_ticks": 640,
+      "actual_bytes": 2831087,
+      "projected_bytes": 64974382
+    }
+  },
+  "saved_index_statuses": {
+    "not_applicable_original_32_no_trigger": 72,
+    "complete": 1,
+    "not_run_engineering": 27
+  },
+  "regression": {
+    "tests": 1070,
+    "original_exit_code": 0,
+    "current_source_hashes_verified": 5,
+    "reexecuted": false
+  },
+  "source_diff_exit_code": 0,
+  "formal_directory_exists": false,
+  "this_parent_check_new_physical_steps": 0,
+  "this_parent_check_new_future_generator_ticks": 0,
+  "elapsed_seconds": 2.160234917071648
+}

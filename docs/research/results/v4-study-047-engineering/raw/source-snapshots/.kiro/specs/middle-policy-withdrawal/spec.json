@@ -1,7 +1,7 @@
 {
   "feature_name": "middle-policy-withdrawal",
   "created_at": "2026-10-08T13:44:05.758323+00:00",
-  "updated_at": "2026-10-08T18:14:31.102740+00:00",
+  "updated_at": "2026-10-08T17:36:06.668830+00:00",
   "language": "zh-CN",
   "phase": "tasks-generated",
   "approvals": {
@@ -27,9 +27,7 @@
     "producer": "APPROVED",
     "task_2_1": "complete",
     "verifier": "APPROVED",
-    "task_2_2": "complete",
-    "engineering": "APPROVED",
-    "task_2_3": "complete"
+    "task_2_2": "complete"
   },
   "method_output_epoch": "design-revalidated",
   "method_execution_status": "complete_independently_reviewed",
@@ -44,13 +42,13 @@
   "completion_verification": {
     "status": "VERIFIED",
     "claim_type": "TASK",
-    "task": "2.3",
-    "scope": "唯一E120005工程运行、独立完整核验、字节归档及独立工程审查满足任务2.3；仅工程验收，不是完整研究或FEATURE_GO。",
-    "current_bindings_verified": 3535,
-    "path": "docs/research/results/v4-study-047-engineering-validation.json"
+    "task": "2.2",
+    "scope": "独立环境、字典物理、身份组件与完整汇总核验实现和边界测试通过；依赖生产预检已修复再审。不含真实工程或正式研究。",
+    "current_bindings_verified": 3023,
+    "path": "docs/research/results/v4-study-047-verifier-validation.json"
   },
-  "next_task": "3.1：在本轮干净工程提交上按固定方案运行全部28配对、每路线1792物理步；先查最新消息/进程/独占正式目录，工程不混入正式结果。每路线600秒/128MiB，超限保全失败，不改规则或生命标准。",
-  "producer_execution_status": "implementation_and_engineering_complete_formal_pending",
+  "next_task": "2.3：先检查进程和独占工程目录；在本轮干净提交上仅E120005两臂各32步，生产64+独立物理64。两路线输出先保存在Git忽略的data/v4-study-047-engineering独占子目录，完成后归档和独立工程审查；不运行其余27对或正式队列。",
+  "producer_execution_status": "implementation_revalidated_preflight_fixed_no_real_future",
   "producer_review": {
     "path": "docs/research/results/v4-study-047-producer-review.json",
     "sha256": "74ac9792ea57ae793665a610649adc790cf39f0a858c8908978b7d8d86828754",
@@ -85,27 +83,11 @@
     "path": "docs/research/results/v4-study-047-producer-preflight-validation.json",
     "current_bindings_verified": 1985
   },
-  "verifier_execution_status": "implementation_and_engineering_complete_formal_pending",
+  "verifier_execution_status": "implementation_complete_independently_reviewed_no_real_future",
   "verifier_review": {
     "path": "docs/research/results/v4-study-047-verifier-review.json",
     "sha256": "bf7180e688208e5af27274d01e4ff900966a965e9688fa9b9d05ee7e46e7057e",
     "reviewer": "/root/withdrawal_verifier_review",
     "immutable_bindings": 3023
-  },
-  "verifier_completion_verification": {
-    "status": "VERIFIED",
-    "claim_type": "TASK",
-    "task": "2.2",
-    "scope": "独立环境、字典物理、身份组件与完整汇总核验实现和边界测试通过；依赖生产预检已修复再审。不含真实工程或正式研究。",
-    "current_bindings_verified": 3023,
-    "path": "docs/research/results/v4-study-047-verifier-validation.json"
-  },
-  "engineering_review": {
-    "path": "docs/research/results/v4-study-047-engineering-review.json",
-    "sha256": "4b3d002858fa8dac5f35c6044063cd7d819944ec809054801d0aceb1382b59b7",
-    "reviewer": "/root/withdrawal_engineering_review",
-    "immutable_bindings": 3535
-  },
-  "engineering_execution_status": "complete_independently_reviewed_unique_first_case",
-  "engineering_actual_physical_steps": 128
+  }
 }

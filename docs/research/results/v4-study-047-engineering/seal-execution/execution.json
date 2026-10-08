@@ -1,0 +1,15 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "docs/research/results/v4-study-047-engineering/seal_evidence.py"
+  ],
+  "cwd": "/Users/todd/Documents/bitgenesis",
+  "exit_code": 0,
+  "wall_seconds": 1.7893771659582853,
+  "source_sha256": "7c95c24d7e9c3968e213b4e6ba971c20e2d3a7e248cc71d30f804277f5201b7c",
+  "raw_output_sha256": {
+    "stdout.bin": "aa801536575d7a5b6a39e332a50c91366a0b0a64a9edb9a4874c95772068201a",
+    "stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "new_scientific_steps": 0
+}

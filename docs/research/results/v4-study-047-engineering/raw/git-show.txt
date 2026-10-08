@@ -1,0 +1,7 @@
+commit 931dd9e70f6b89813635f7d25e74cdc8cf42e0bf
+Author:     nikolasandwich <nikolasandwich@gmail.com>
+AuthorDate: Fri Oct 9 01:38:32 2026 +0800
+Commit:     nikolasandwich <nikolasandwich@gmail.com>
+CommitDate: Fri Oct 9 01:38:32 2026 +0800
+
+    feat(middle-policy-withdrawal): add reviewed independent continuation verifier

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/data/v4-study-047-engineering/evidence_audit.py", line 52, in <module>
+    strict(case['boundary']['final'],src['ablation']['final'])
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/todd/Documents/bitgenesis/data/v4-study-047-engineering/evidence_audit.py", line 11, in strict
+    assert a.keys()==b.keys(),(label,'keys')
+           ^^^^^^^^^^^^^^^^^^
+AssertionError: ('object', 'keys')

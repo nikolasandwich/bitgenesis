@@ -1,0 +1,10 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "docs/research/results/v4-study-047-engineering-review-run/audit_saved_evidence.py"
+  ],
+  "cwd": "/Users/todd/Documents/bitgenesis",
+  "started_at_utc": "2026-10-08T18:07:28.245374+00:00",
+  "source_sha256": "3f8d27d0f584098ea3450bc88ca1197a0c7451d6965fa56f0920d18bfad66846",
+  "science_invocation": false
+}

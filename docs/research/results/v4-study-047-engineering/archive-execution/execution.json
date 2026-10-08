@@ -1,0 +1,15 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "data/v4-study-047-engineering/archive_evidence.py"
+  ],
+  "cwd": "/Users/todd/Documents/bitgenesis",
+  "exit_code": 0,
+  "wall_seconds": 0.4513027920620516,
+  "source_sha256": "4744958f4be5bd48483322c22bd0c5921708dca2c8359f703986f18a3ba082f5",
+  "raw_output_sha256": {
+    "stdout.bin": "88e6b2bba909f9c72610bc25d6f7cdc18758f0c2b421f2384d09fc88b40b0735",
+    "stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "new_scientific_steps": 0
+}

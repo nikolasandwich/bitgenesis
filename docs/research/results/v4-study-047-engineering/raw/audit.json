@@ -1,0 +1,511 @@
+{
+  "created_at_utc": "2026-10-08T17:48:42.352737+00:00",
+  "status": "PASS",
+  "scope": "仅首E120005工程、对象及证据读取核查；待独立工程审查与父层验收提交。",
+  "git_commit": "931dd9e70f6b89813635f7d25e74cdc8cf42e0bf",
+  "pre_archive_git_clean": true,
+  "all_tracked_files_unchanged": true,
+  "source_closure_size": 1192,
+  "producer_closure_with_gates": 1194,
+  "verifier_with_producer_files": 1200,
+  "routes": {
+    "producer": {
+      "status": "complete",
+      "metadata_path": "data/v4-study-047-engineering/producer/metadata.json",
+      "metadata_sha256": "a2b178efb87e97cdf30f531d767f1020001ec883109602317961c20c4ad33ebb",
+      "input_bindings_verified": 1194,
+      "output_files": {
+        "cases/east-120005.json": {
+          "bytes": 2001075,
+          "sha256": "a55120dcc847196f3dc99b1f11557e727d6821b18f7cd9981ba4dc04b4b1a7c3"
+        },
+        "environments/120005.json": {
+          "bytes": 32129,
+          "sha256": "95f3c2d7773d9c8c85ce1b1c5eb2bb85e8c6e072f1d601a5265881decd8e7d69"
+        },
+        "index.json": {
+          "bytes": 46654,
+          "sha256": "a082ce7c6d7555687a6b2b4bcc04dc574948004b8f20ac4a57a143d9f2d557a1"
+        },
+        "metadata.json": {
+          "bytes": 493938,
+          "sha256": "a2b178efb87e97cdf30f531d767f1020001ec883109602317961c20c4ad33ebb"
+        },
+        "records.json": {
+          "bytes": 2328,
+          "sha256": "1e655efc319ed9bb80a4cfa01e184369e4b9ce22777d68d9d732b6573957740b"
+        },
+        "summary.json": {
+          "bytes": 171974,
+          "sha256": "4cf0b71a3e2d74ad7781becf65598d2a9a4238d99d41cd1ea8559d6dec5d3fda"
+        }
+      },
+      "physical_steps": 64,
+      "future_generator_ticks": 32,
+      "past_generator_ticks": 640,
+      "wall_seconds": 11.046951458905824,
+      "metadata_elapsed_seconds": 10.96941883303225,
+      "actual_route_bytes": 2748098,
+      "actual_route_MiB": 2.620790481567383,
+      "case_bytes": 2001075,
+      "environment_bytes": 32129,
+      "index_records_summary_bytes": 220956,
+      "final_administrative_bytes": 493938,
+      "recorded_projected_full_storage_bytes": 64068546,
+      "conservative_projected_full_storage_bytes": 64642426,
+      "conservative_projected_MiB": 61.6478214263916,
+      "wall_times_28_seconds": 309.31464084936306,
+      "projection_limitation": "仅首例外推，不是其他27例大小或用时保证；正式继续逐写128MiB及600秒硬限，不缩字段/队列。"
+    },
+    "verifier": {
+      "status": "verified",
+      "metadata_path": "data/v4-study-047-engineering/verifier/metadata.json",
+      "metadata_sha256": "e507f83e8a66c4c97ea6be165a23eafcd7d9c68cdc338041decfa821c77fe410",
+      "input_bindings_verified": 1200,
+      "output_files": {
+        "cases/east-120005.json": {
+          "bytes": 2001075,
+          "sha256": "a55120dcc847196f3dc99b1f11557e727d6821b18f7cd9981ba4dc04b4b1a7c3"
+        },
+        "environments/120005.json": {
+          "bytes": 32129,
+          "sha256": "95f3c2d7773d9c8c85ce1b1c5eb2bb85e8c6e072f1d601a5265881decd8e7d69"
+        },
+        "index.json": {
+          "bytes": 46654,
+          "sha256": "a082ce7c6d7555687a6b2b4bcc04dc574948004b8f20ac4a57a143d9f2d557a1"
+        },
+        "metadata.json": {
+          "bytes": 289825,
+          "sha256": "e507f83e8a66c4c97ea6be165a23eafcd7d9c68cdc338041decfa821c77fe410"
+        },
+        "proof.json": {
+          "bytes": 287102,
+          "sha256": "9d4214bac8fd58d396dc932ccd7df44a1fd87272a4540dd73ede72f61b04944e"
+        },
+        "records.json": {
+          "bytes": 2328,
+          "sha256": "1e655efc319ed9bb80a4cfa01e184369e4b9ce22777d68d9d732b6573957740b"
+        },
+        "summary.json": {
+          "bytes": 171974,
+          "sha256": "4cf0b71a3e2d74ad7781becf65598d2a9a4238d99d41cd1ea8559d6dec5d3fda"
+        }
+      },
+      "physical_steps": 64,
+      "future_generator_ticks": 32,
+      "past_generator_ticks": 640,
+      "wall_seconds": 12.251149791991338,
+      "metadata_elapsed_seconds": 12.171375207952224,
+      "actual_route_bytes": 2831087,
+      "actual_route_MiB": 2.699934959411621,
+      "case_bytes": 2001075,
+      "environment_bytes": 32129,
+      "index_records_summary_bytes": 220956,
+      "final_administrative_bytes": 576927,
+      "recorded_projected_full_storage_bytes": 63248394,
+      "conservative_projected_full_storage_bytes": 64974382,
+      "conservative_projected_MiB": 61.964399337768555,
+      "wall_times_28_seconds": 343.03219417575747,
+      "projection_limitation": "仅首例外推，不是其他27例大小或用时保证；正式继续逐写128MiB及600秒硬限，不缩字段/队列。"
+    }
+  },
+  "complete_scientific_artifacts": [
+    {
+      "path": "cases/east-120005.json",
+      "strict_concrete_type_equality": true,
+      "original_bytes_identical": true,
+      "producer_sha256": "a55120dcc847196f3dc99b1f11557e727d6821b18f7cd9981ba4dc04b4b1a7c3",
+      "verifier_sha256": "a55120dcc847196f3dc99b1f11557e727d6821b18f7cd9981ba4dc04b4b1a7c3"
+    },
+    {
+      "path": "environments/120005.json",
+      "strict_concrete_type_equality": true,
+      "original_bytes_identical": true,
+      "producer_sha256": "95f3c2d7773d9c8c85ce1b1c5eb2bb85e8c6e072f1d601a5265881decd8e7d69",
+      "verifier_sha256": "95f3c2d7773d9c8c85ce1b1c5eb2bb85e8c6e072f1d601a5265881decd8e7d69"
+    },
+    {
+      "path": "records.json",
+      "strict_concrete_type_equality": true,
+      "original_bytes_identical": true,
+      "producer_sha256": "1e655efc319ed9bb80a4cfa01e184369e4b9ce22777d68d9d732b6573957740b",
+      "verifier_sha256": "1e655efc319ed9bb80a4cfa01e184369e4b9ce22777d68d9d732b6573957740b"
+    },
+    {
+      "path": "index.json",
+      "strict_concrete_type_equality": true,
+      "original_bytes_identical": true,
+      "producer_sha256": "a082ce7c6d7555687a6b2b4bcc04dc574948004b8f20ac4a57a143d9f2d557a1",
+      "verifier_sha256": "a082ce7c6d7555687a6b2b4bcc04dc574948004b8f20ac4a57a143d9f2d557a1"
+    },
+    {
+      "path": "summary.json",
+      "strict_concrete_type_equality": true,
+      "original_bytes_identical": true,
+      "producer_sha256": "4cf0b71a3e2d74ad7781becf65598d2a9a4238d99d41cd1ea8559d6dec5d3fda",
+      "verifier_sha256": "4cf0b71a3e2d74ad7781becf65598d2a9a4238d99d41cd1ea8559d6dec5d3fda"
+    }
+  ],
+  "source_final_and_both_initials_strictly_equal": true,
+  "arm_results": {
+    "continue_north": {
+      "new_copy_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q32": 0,
+      "future_persistent10": false,
+      "longest_double": 5,
+      "intervals": [
+        {
+          "end": 48,
+          "left_censored_at_boundary": false,
+          "length": 5,
+          "right_censored": false,
+          "start": 44
+        }
+      ],
+      "cross_boundary": null,
+      "original_t0": 19,
+      "formation_witness_count": 5,
+      "after32_formation_witness_count": 0,
+      "ledger": {
+        "energy_export": 0,
+        "final_mass": 7,
+        "future_births": 5,
+        "future_natural_deaths": 6,
+        "initial_energy": 217,
+        "initial_living": 6,
+        "initial_mass": 7
+      },
+      "metrics": {
+        "after32_formation_persistent10": 0,
+        "after32_formation_supported": 0,
+        "after32_selected_ancestry_persistent10": 0,
+        "after32_selected_ancestry_supported": 0,
+        "after32_upper_formed": 0,
+        "after32_upper_persistent10": 0,
+        "births": 5,
+        "bond_spent": 286,
+        "construction_spent": 20,
+        "copy_spent": 5,
+        "deaths": 6,
+        "double_new_ever": 1,
+        "final_energy": 252,
+        "formation_persistent10": 0,
+        "formation_supported": 1,
+        "future_persistent10": 0,
+        "imported": 549,
+        "leakage": 203,
+        "living": 5,
+        "longest_double": 5,
+        "new_copy_ever": 1,
+        "persistent10": 0,
+        "rejected_import": 475,
+        "selected_ancestry_persistent10": 0,
+        "selected_ancestry_supported": 1,
+        "spent": 514,
+        "upper_formed": 1,
+        "upper_persistent10": 0
+      },
+      "failure_counts": {
+        "collision": 4,
+        "energy": 37,
+        "formed": 5,
+        "occupied": 65,
+        "raw_material": 86
+      },
+      "boundary_identity_history_preserved": true,
+      "full_32_rows": true,
+      "policy_direction_and_fixed_feed_mutation_checked": true,
+      "each_step_energy_and_mass_checked": true
+    },
+    "withdraw_to_natural": {
+      "new_copy_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q32": 0,
+      "future_persistent10": false,
+      "longest_double": 5,
+      "intervals": [
+        {
+          "end": 48,
+          "left_censored_at_boundary": false,
+          "length": 5,
+          "right_censored": false,
+          "start": 44
+        }
+      ],
+      "cross_boundary": null,
+      "original_t0": 19,
+      "formation_witness_count": 5,
+      "after32_formation_witness_count": 0,
+      "ledger": {
+        "energy_export": 0,
+        "final_mass": 7,
+        "future_births": 5,
+        "future_natural_deaths": 6,
+        "initial_energy": 217,
+        "initial_living": 6,
+        "initial_mass": 7
+      },
+      "metrics": {
+        "after32_formation_persistent10": 0,
+        "after32_formation_supported": 0,
+        "after32_selected_ancestry_persistent10": 0,
+        "after32_selected_ancestry_supported": 0,
+        "after32_upper_formed": 0,
+        "after32_upper_persistent10": 0,
+        "births": 5,
+        "bond_spent": 286,
+        "construction_spent": 20,
+        "copy_spent": 5,
+        "deaths": 6,
+        "double_new_ever": 1,
+        "final_energy": 252,
+        "formation_persistent10": 0,
+        "formation_supported": 1,
+        "future_persistent10": 0,
+        "imported": 549,
+        "leakage": 203,
+        "living": 5,
+        "longest_double": 5,
+        "new_copy_ever": 1,
+        "persistent10": 0,
+        "rejected_import": 475,
+        "selected_ancestry_persistent10": 0,
+        "selected_ancestry_supported": 1,
+        "spent": 514,
+        "upper_formed": 1,
+        "upper_persistent10": 0
+      },
+      "failure_counts": {
+        "collision": 4,
+        "energy": 37,
+        "formed": 5,
+        "occupied": 59,
+        "raw_material": 92
+      },
+      "boundary_identity_history_preserved": true,
+      "full_32_rows": true,
+      "policy_direction_and_fixed_feed_mutation_checked": true,
+      "each_step_energy_and_mass_checked": true
+    }
+  },
+  "delta": {
+    "after32_formation_persistent10": 0,
+    "after32_formation_supported": 0,
+    "after32_selected_ancestry_persistent10": 0,
+    "after32_selected_ancestry_supported": 0,
+    "after32_upper_formed": 0,
+    "after32_upper_persistent10": 0,
+    "births": 0,
+    "bond_spent": 0,
+    "construction_spent": 0,
+    "copy_spent": 0,
+    "deaths": 0,
+    "double_new_ever": 0,
+    "final_energy": 0,
+    "formation_persistent10": 0,
+    "formation_supported": 0,
+    "future_persistent10": 0,
+    "imported": 0,
+    "leakage": 0,
+    "living": 0,
+    "longest_double": 0,
+    "new_copy_ever": 0,
+    "persistent10": 0,
+    "rejected_import": 0,
+    "selected_ancestry_persistent10": 0,
+    "selected_ancestry_supported": 0,
+    "spent": 0,
+    "upper_formed": 0,
+    "upper_persistent10": 0
+  },
+  "index_status_counts": {
+    "not_applicable_original_32_no_trigger": 72,
+    "complete": 1,
+    "not_run_engineering": 27
+  },
+  "full_selected_by_encoding": [
+    5,
+    3,
+    0,
+    9,
+    11
+  ],
+  "completed_by_encoding": [
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "preserved_seed_groups": 14,
+  "zero_denominator_means_null": true,
+  "binary_four_cells_preserved": true,
+  "reused_validation": [
+    {
+      "label": "full",
+      "path": "docs/research/results/v4-study-047-preflight-joint-validation/full-revalidated/execution.json",
+      "sha256": "42ff6f9ed891554b144838669c6c0c9152f799a4acce92f3f16c3b38f4fd9d7c",
+      "exit_code": 0,
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "current_execution_source_bindings": {
+        "scripts/middle_withdrawal_inputs.py": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5",
+        "scripts/run_v4_middle_withdrawal.py": "452c21194d0d130b0c95f90b8e41d0a56a3708275abfaa6d62a76c4b0883bf41",
+        "scripts/verify_v4_middle_withdrawal.py": "9ae8ef620cb3d28fb777dad346e322489e31e58ec35e563baf29a1b6e8a21830",
+        "tests/test_v4_middle_withdrawal.py": "15113b2c8ca38d5f91df46f76343b7a457d6f8d3f8fa1537b4076bf0483cf251",
+        "tests/test_v4_middle_withdrawal_verifier.py": "ff46e0a9ad503f87601e6139b2d74b59f62e9a8a379eec1adde702fdce8ce0e0"
+      },
+      "raw_hashes_verified": 2,
+      "reexecuted": false,
+      "qualification": "五份当前源码/测试前后绑定一致；完整回归1070通过含104项047测试。"
+    },
+    {
+      "label": "compile",
+      "path": "docs/research/results/v4-study-047-preflight-joint-validation/compile-revalidated/execution.json",
+      "sha256": "8dd792a6325bf9680c0f180926d551967b752fb304f5d812c78c25cd3ee5172b",
+      "exit_code": 0,
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "compileall",
+        "-q",
+        "src",
+        "scripts",
+        "tests"
+      ],
+      "current_execution_source_bindings": {
+        "scripts/middle_withdrawal_inputs.py": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5",
+        "scripts/run_v4_middle_withdrawal.py": "452c21194d0d130b0c95f90b8e41d0a56a3708275abfaa6d62a76c4b0883bf41",
+        "scripts/verify_v4_middle_withdrawal.py": "9ae8ef620cb3d28fb777dad346e322489e31e58ec35e563baf29a1b6e8a21830",
+        "tests/test_v4_middle_withdrawal.py": "15113b2c8ca38d5f91df46f76343b7a457d6f8d3f8fa1537b4076bf0483cf251",
+        "tests/test_v4_middle_withdrawal_verifier.py": "ff46e0a9ad503f87601e6139b2d74b59f62e9a8a379eec1adde702fdce8ce0e0"
+      },
+      "raw_hashes_verified": 2,
+      "reexecuted": false,
+      "qualification": "五份当前源码/测试前后绑定一致；完整回归1070通过含104项047测试。"
+    },
+    {
+      "label": "producer_help",
+      "path": "docs/research/results/v4-study-047-producer-preflight-implementation/final-help/execution.json",
+      "sha256": "cdc0b891bce72455bc2a4f0682f6607b6fc002bf6085a46a04805ed97e0289d2",
+      "exit_code": 0,
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_v4_middle_withdrawal.py",
+        "--help"
+      ],
+      "current_execution_source_bindings": {
+        "scripts/middle_withdrawal_inputs.py": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5",
+        "scripts/run_v4_middle_withdrawal.py": "452c21194d0d130b0c95f90b8e41d0a56a3708275abfaa6d62a76c4b0883bf41"
+      },
+      "raw_hashes_verified": 8,
+      "reexecuted": false,
+      "qualification": "帮助证据绑定当前CLI；所附测试快照早于仅测试时标调整，不冒称其测试文件为当前。"
+    },
+    {
+      "label": "verifier_help",
+      "path": "docs/research/results/v4-study-047-verifier-implementation/remediation-1-help/execution.json",
+      "sha256": "4d80660649b530af489a9a9a1a9abbf370701aeecdb5f2130134c2dcb3addd88",
+      "exit_code": 0,
+      "command": [
+        ".venv/bin/python",
+        "scripts/verify_v4_middle_withdrawal.py",
+        "--help"
+      ],
+      "current_execution_source_bindings": {
+        "scripts/verify_v4_middle_withdrawal.py": "9ae8ef620cb3d28fb777dad346e322489e31e58ec35e563baf29a1b6e8a21830"
+      },
+      "raw_hashes_verified": 2,
+      "reexecuted": false,
+      "qualification": "帮助证据绑定当前CLI；所附测试快照早于仅测试时标调整，不冒称其测试文件为当前。"
+    }
+  ],
+  "current_task_counts": {
+    "real_producer_physical_steps": 64,
+    "real_independent_physical_steps": 64,
+    "real_future_generator_ticks_per_route": 32,
+    "past_generator_ticks_per_route": 640,
+    "new_synthetic_physical_steps": 0,
+    "new_synthetic_future_generator_ticks": 0,
+    "formal_physical_steps": 0,
+    "other_27_future_physical_steps": 0
+  },
+  "real_failed_runs": 0,
+  "real_reruns": 0,
+  "formal_directory_exists": false,
+  "scientific_modules_imported_by_audit": false,
+  "elapsed_seconds": 1.100826791021973
+}

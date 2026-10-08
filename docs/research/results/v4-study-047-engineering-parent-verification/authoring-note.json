@@ -1,0 +1,11 @@
+{
+  "status": "script_present_syntax_valid",
+  "script_sha256": "3768516cd545d7c120023ac02e4f5ae9b83b43e13c45f976bee5d5871b9937b1",
+  "tool_hook_error": {
+    "tool": "apply_patch",
+    "message": "Post-edit hook attempted scratch ./hooks/validate-schema.py, which does not exist; file was written before hook failure.",
+    "scope": "editing-tool post-hook only; not a scientific execution or validation result"
+  },
+  "scientific_module_imports": false,
+  "additional_physics_or_future": 0
+}

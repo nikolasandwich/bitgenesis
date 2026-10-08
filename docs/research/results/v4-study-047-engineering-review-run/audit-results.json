@@ -1,0 +1,203 @@
+{
+  "reviewer": "/root/withdrawal_engineering_review",
+  "task": "2.3",
+  "created_at_utc": "2026-10-08T18:08:09.364088+00:00",
+  "new_physical_steps": 0,
+  "new_future_draws": 0,
+  "scientific_modules_imported": false,
+  "original_tracked_files_currently_equal": 3613,
+  "current_approvals": {
+    "producer": {
+      "bindings_verified": 1985,
+      "sha256": "74ac9792ea57ae793665a610649adc790cf39f0a858c8908978b7d8d86828754"
+    },
+    "verifier": {
+      "bindings_verified": 3023,
+      "sha256": "bf7180e688208e5af27274d01e4ff900966a965e9688fa9b9d05ee7e46e7057e"
+    }
+  },
+  "source_snapshots_current_byte_identical": 201,
+  "archive_restore": {
+    "files": 236,
+    "bytes": 8251010,
+    "status": "PASS",
+    "physically_restored": true,
+    "temporary_restore_removed": true
+  },
+  "routes": {
+    "producer": {
+      "status": "complete",
+      "exit_code": 0,
+      "physical_steps": 64,
+      "future_generator_ticks": 32,
+      "past_generator_ticks": 640,
+      "input_bindings_verified": 1194,
+      "wall_seconds": 11.046951458905824,
+      "size_bytes": 2748098,
+      "conservative_projection_bytes": 64642426,
+      "projection_is_guarantee": false
+    },
+    "verifier": {
+      "status": "verified",
+      "exit_code": 0,
+      "physical_steps": 64,
+      "future_generator_ticks": 32,
+      "past_generator_ticks": 640,
+      "input_bindings_verified": 1200,
+      "wall_seconds": 12.251149791991338,
+      "size_bytes": 2831087,
+      "conservative_projection_bytes": 64974382,
+      "projection_is_guarantee": false
+    }
+  },
+  "complete_scientific_comparison": [
+    {
+      "path": "cases/east-120005.json",
+      "strict_type_and_value_equal": true,
+      "bytes_equal": true,
+      "sha256": "a55120dcc847196f3dc99b1f11557e727d6821b18f7cd9981ba4dc04b4b1a7c3"
+    },
+    {
+      "path": "environments/120005.json",
+      "strict_type_and_value_equal": true,
+      "bytes_equal": true,
+      "sha256": "95f3c2d7773d9c8c85ce1b1c5eb2bb85e8c6e072f1d601a5265881decd8e7d69"
+    },
+    {
+      "path": "records.json",
+      "strict_type_and_value_equal": true,
+      "bytes_equal": true,
+      "sha256": "1e655efc319ed9bb80a4cfa01e184369e4b9ce22777d68d9d732b6573957740b"
+    },
+    {
+      "path": "index.json",
+      "strict_type_and_value_equal": true,
+      "bytes_equal": true,
+      "sha256": "a082ce7c6d7555687a6b2b4bcc04dc574948004b8f20ac4a57a143d9f2d557a1"
+    },
+    {
+      "path": "summary.json",
+      "strict_type_and_value_equal": true,
+      "bytes_equal": true,
+      "sha256": "4cf0b71a3e2d74ad7781becf65598d2a9a4238d99d41cd1ea8559d6dec5d3fda"
+    }
+  ],
+  "arms": {
+    "continue_north": {
+      "ticks": 32,
+      "q2_interval": [
+        44,
+        48
+      ],
+      "future_persistent10": false,
+      "failures": {
+        "collision": 4,
+        "energy": 37,
+        "formed": 5,
+        "occupied": 65,
+        "raw_material": 86
+      },
+      "energy_ledger": {
+        "imported": 549,
+        "rejected_import": 475,
+        "spent": 514,
+        "leakage": 203,
+        "bond_spent": 286,
+        "construction_spent": 20,
+        "copy_spent": 5
+      },
+      "births": 5,
+      "deaths": 6,
+      "empty_mask_target_instances": 21,
+      "directions_changed_from_natural": 48,
+      "passive_identity_events_checked": true
+    },
+    "withdraw_to_natural": {
+      "ticks": 32,
+      "q2_interval": [
+        44,
+        48
+      ],
+      "future_persistent10": false,
+      "failures": {
+        "collision": 4,
+        "energy": 37,
+        "formed": 5,
+        "occupied": 59,
+        "raw_material": 92
+      },
+      "energy_ledger": {
+        "imported": 549,
+        "rejected_import": 475,
+        "spent": 514,
+        "leakage": 203,
+        "bond_spent": 286,
+        "construction_spent": 20,
+        "copy_spent": 5
+      },
+      "births": 5,
+      "deaths": 6,
+      "empty_mask_target_instances": 21,
+      "directions_changed_from_natural": 0,
+      "passive_identity_events_checked": true
+    }
+  },
+  "index_summary": {
+    "original": 100,
+    "complete": 1,
+    "unrun_engineering": 27,
+    "original_na": 72,
+    "selected_by_encoding": [
+      5,
+      3,
+      0,
+      9,
+      11
+    ],
+    "seed_groups": 14,
+    "all_aggregate_values_checked": true
+  },
+  "regression": {
+    "status": "PASS_REUSED_CURRENT_BYTES",
+    "tests": 1070,
+    "related_tests": 104,
+    "exit_code": 0,
+    "seconds": 77.334,
+    "reexecuted": false,
+    "path": "docs/research/results/v4-study-047-preflight-joint-validation/full-revalidated/execution.json",
+    "raw_output_and_five_current_source_snapshots_verified": true
+  },
+  "compile": {
+    "status": "PASS_REUSED",
+    "exit_code": 0,
+    "reexecuted": false
+  },
+  "producer_help": {
+    "status": "PASS_REUSED",
+    "exit_code": 0,
+    "reexecuted": false
+  },
+  "verifier_help": {
+    "status": "PASS_REUSED",
+    "exit_code": 0,
+    "reexecuted": false
+  },
+  "preserved_author_readonly_audit_failure": {
+    "original_exit": 1,
+    "corrected_exit": 0,
+    "source_and_outputs_bound": true,
+    "scientific_reruns": 0
+  },
+  "static_checks": {
+    "new_authored_files": 7,
+    "placeholders": "CLEAN",
+    "concrete_secret_patterns": "CLEAN",
+    "python_ast": "PASS",
+    "new_authored_whitespace": "CLEAN",
+    "verbatim_historical_whitespace": []
+  },
+  "current_source_before_after": 3515,
+  "strict_comparison_nodes": 471660,
+  "status": "PASS",
+  "elapsed_seconds": 2.8274279999313876
+}

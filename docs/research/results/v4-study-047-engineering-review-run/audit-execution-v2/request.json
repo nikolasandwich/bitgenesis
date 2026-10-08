@@ -1,0 +1,11 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "docs/research/results/v4-study-047-engineering-review-run/audit_saved_evidence_v2.py"
+  ],
+  "cwd": "/Users/todd/Documents/bitgenesis",
+  "started_at_utc": "2026-10-08T18:08:09.322766+00:00",
+  "source_sha256": "b87b0249da3a9ba6870a6fa1a38ca996ca1efb91c38c0361f54754656cf2882b",
+  "science_invocation": false,
+  "change": "Only support legacy producer-help evidence_sha256 field; no change to saved science."
+}

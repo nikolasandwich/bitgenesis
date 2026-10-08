@@ -1,0 +1,17 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "docs/research/results/v4-study-047-engineering-parent-verification/verify_saved_evidence.py"
+  ],
+  "cwd": "/Users/todd/Documents/bitgenesis",
+  "exit_code": 0,
+  "finished_at_utc": "2026-10-08T18:12:36.802112+00:00",
+  "wall_seconds": 2.210069249966182,
+  "script_sha256": "3768516cd545d7c120023ac02e4f5ae9b83b43e13c45f976bee5d5871b9937b1",
+  "raw_output_sha256": {
+    "stdout.bin": "4d35aa15a500ab774d0344b48d75645e7d4944b87a5b73c6cfbf536254d35e78",
+    "stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "new_physical_steps": 0,
+  "new_future_generator_ticks": 0
+}

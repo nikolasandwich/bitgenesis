@@ -1,0 +1,15 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "docs/research/results/v4-study-047-engineering-review-run/supplemental_checks.py"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 3.144704333972186,
+  "source_sha256_before": "3e2f9d24bfa9520f4523ad6b3fafbbb38d8d4151515c5f7511a0635af4c45cf9",
+  "source_sha256_after": "3e2f9d24bfa9520f4523ad6b3fafbbb38d8d4151515c5f7511a0635af4c45cf9",
+  "raw_output_sha256": {
+    "stdout.bin": "7ae3c0f0ce650bca923468859f7da5694dfe17339d045b023b6fc66d242d5a93",
+    "stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "new_scientific_steps": 0
+}
