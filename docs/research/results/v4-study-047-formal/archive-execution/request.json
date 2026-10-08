@@ -1,0 +1,18 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "data/v4-study-047/archive_evidence.py"
+  ],
+  "cwd": "/Users/todd/Documents/bitgenesis",
+  "environment": {
+    "PATH": "/Users/todd/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Applications/ChatGPT.app/Contents/Resources/codex-cli/codex-path:/Users/todd/.codex/tmp/arg0/codex-arg0wZZgCK:/Users/todd/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/Users/todd/.local/bin:/Users/todd/.sdkman/candidates/java/current/bin:/Applications/Obsidian.app/Contents/MacOS:/Users/todd/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/Applications/ChatGPT.app/Contents/Resources:/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS:/Applications/Obsidian.app/Contents/MacOS",
+    "HOME": "/Users/todd",
+    "TMPDIR": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/",
+    "LANG": "C.UTF-8",
+    "PYTHONPATH": "src"
+  },
+  "environment_is_complete": true,
+  "started_at_utc": "2026-10-08T18:33:36.831934+00:00",
+  "script_sha256_before": "ccca07544f650e4262a91a03d3e7d436c5c87174f8afcef9661dac321b91bdd6",
+  "scientific_steps": 0
+}

@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/Users/todd/Documents/bitgenesis/.venv/bin/python",
+    "-B",
+    "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-process-guard-diagnostic/epoch-2/probe.py"
+  ],
+  "cwd": "/Users/todd/Documents/bitgenesis",
+  "environment": {
+    "PATH": "/Users/todd/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Applications/ChatGPT.app/Contents/Resources/codex-cli/codex-path:/Users/todd/.codex/tmp/arg0/codex-arg0wZZgCK:/Users/todd/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/Users/todd/.local/bin:/Users/todd/.sdkman/candidates/java/current/bin:/Applications/Obsidian.app/Contents/MacOS:/Users/todd/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/Applications/ChatGPT.app/Contents/Resources:/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS:/Applications/Obsidian.app/Contents/MacOS",
+    "HOME": "/Users/todd",
+    "TMPDIR": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/",
+    "LANG": "C.UTF-8",
+    "PYTHONPATH": "/Users/todd/Documents/bitgenesis/src",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "environment_is_complete": true,
+  "commit": "a9efac4e57fd90e70ec3dbc33099b2f2a1272b4f",
+  "git_status_before": "?? docs/research/results/v4-study-047-formal/\n?? docs/research/results/v4-study-047-process-guard-diagnostic/\n?? docs/research/v4-study-047-results.zh-CN.md\n",
+  "started_at_utc": "2026-10-08T18:36:57.272979+00:00",
+  "scripts_sha256": {
+    "probe.py": "14e6dfa7ffe9e002b36bab952df472fcdda6968738119cbe89c6c5854b47b511",
+    "record_probe.py": "c8d3969bcca9e4577d2bd81b6a649b201586b559c5d2ff0daac36e0b04b92776"
+  }
+}

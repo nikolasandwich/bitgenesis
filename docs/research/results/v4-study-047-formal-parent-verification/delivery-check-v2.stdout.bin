@@ -1,0 +1,32 @@
+{
+  "status": "PASS_WITH_ORIGINAL_EVIDENCE_WHITESPACE_EXCEPTIONS",
+  "checked_at_utc": "2026-10-08T19:02:00.457823+00:00",
+  "review_bindings": 4718,
+  "independent_review_verdict": "REJECTED",
+  "scientific_source_tests_unchanged": true,
+  "staged_files": 564,
+  "staged_json_parsed": 218,
+  "raw_whitespace_exit_code": 2,
+  "exceptions": [
+    {
+      "path": "docs/research/results/v4-study-047-formal/raw/source-snapshots/src/bitgenesis/v4/competition.py",
+      "line": 117,
+      "reason": "Exact original data snapshot and a9efac4 Git bytes; preserve historical source.",
+      "sha256": "bc2a868d0af4efcfb84f9198d70b03d18ebf4dff561f9e87ee0a6d07755b035e"
+    },
+    {
+      "path": "docs/research/results/v4-study-047-process-guard-diagnostic/epoch-2/probe.stderr.bin",
+      "line": 23,
+      "reason": "Exact native diagnostic failure stderr, bound by original execution and independent review; preserve raw traceback.",
+      "sha256": "181728bc5d3d45a6157a039fbda78392d7806f5ee5a2a77907704ff75ca99176"
+    }
+  ],
+  "unexpected_whitespace_findings": 0,
+  "original_hash_verified_parent_raw_log_exclusions": [
+    "docs/research/results/v4-study-047-formal-parent-verification/staged-whitespace.stdout.bin",
+    "docs/research/results/v4-study-047-formal-parent-verification/delivery-check.stderr.bin"
+  ],
+  "feature_go": false,
+  "new_physical_steps": 0,
+  "new_generator_ticks": 0
+}

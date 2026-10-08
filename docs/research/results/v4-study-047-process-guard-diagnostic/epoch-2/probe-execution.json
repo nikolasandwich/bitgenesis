@@ -1,0 +1,15 @@
+{
+  "exit_code": 1,
+  "wrapper_error": null,
+  "wall_seconds": 0.7833431670442224,
+  "finished_at_utc": "2026-10-08T18:36:57.713316+00:00",
+  "tracked_file_count": 3894,
+  "tracked_sources_unchanged": true,
+  "input_snapshots_unchanged": true,
+  "changed_tracked_paths": [],
+  "git_status_after": "?? docs/research/results/v4-study-047-formal/\n?? docs/research/results/v4-study-047-process-guard-diagnostic/\n?? docs/research/v4-study-047-results.zh-CN.md\n",
+  "raw_output_sha256": {
+    "probe.stdout.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "probe.stderr.bin": "181728bc5d3d45a6157a039fbda78392d7806f5ee5a2a77907704ff75ca99176"
+  }
+}

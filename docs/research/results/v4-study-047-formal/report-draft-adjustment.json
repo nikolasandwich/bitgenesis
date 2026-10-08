@@ -1,0 +1,8 @@
+{
+  "original_unexecuted_draft": "data/v4-study-047/write_report.py",
+  "draft_sha256": "7a457f6f23f2cdf48471a35bb0cab5c604fac728165af0e5c12a5997940348d9",
+  "final_writer": "docs/research/results/v4-study-047-formal/write_report_validated.py",
+  "final_writer_sha256": "a612a3b6fba8d98a2bfd43a035fa4c930459aef9f05640fa9aa39755744500ac",
+  "reason": "交付前表格核对：实际metrics为28项，修正草稿文字29→28；零分母None渲染为null。原草稿未执行、从未写出错误报告，已归档原字节保留。",
+  "scientific_outputs_changed": false
+}

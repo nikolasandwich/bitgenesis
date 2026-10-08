@@ -1,0 +1,838 @@
+{
+  "status": "RED",
+  "cases": [
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "python:run_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 python scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route process is running"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "python:run_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 python -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route process is running"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "python:verify_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 python scripts/verify_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route process is running"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "python:verify_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 python -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route process is running"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "Python:run_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 Python scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "Python:run_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 Python -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "Python:verify_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 Python scripts/verify_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "Python:verify_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 Python -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "python3.14:run_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 python3.14 scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route process is running"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "python3.14:run_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 python3.14 -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route process is running"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "python3.14:verify_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 python3.14 scripts/verify_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route process is running"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "python3.14:verify_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 python3.14 -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route process is running"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "Python3.14:run_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 Python3.14 scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "Python3.14:run_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 Python3.14 -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "Python3.14:verify_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 Python3.14 scripts/verify_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "Python3.14:verify_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 Python3.14 -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "pypy3:run_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 pypy3 scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route process is running"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "pypy3:run_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 pypy3 -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route process is running"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "pypy3:verify_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 pypy3 scripts/verify_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route process is running"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "pypy3:verify_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 pypy3 -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route process is running"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "PyPy3:run_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 PyPy3 scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "PyPy3:run_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 PyPy3 -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "PyPy3:verify_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 PyPy3 scripts/verify_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "PyPy3:verify_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 PyPy3 -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python:run_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 /opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python:run_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 /opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python:verify_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 /opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/verify_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python:verify_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 /opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "direct-script",
+      "raw_mock_ps": "1048258 scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route process is running"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "attached-module",
+      "raw_mock_ps": "1048258 python3 -Is -mscripts.verify_v4_middle_withdrawal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route process is running"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "uppercase-attached-module",
+      "raw_mock_ps": "1048258 Python -Is -mscripts.verify_v4_middle_withdrawal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "double-dash",
+      "raw_mock_ps": "1048258 Python -- scripts/run_v4_middle_withdrawal.py\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "unrelated-python",
+      "raw_mock_ps": "1048258 Python unrelated.py\n",
+      "expected_block": false,
+      "blocked": false,
+      "error": null,
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "unrelated-module",
+      "raw_mock_ps": "1048258 python -m unrelated\n",
+      "expected_block": false,
+      "blocked": false,
+      "error": null,
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "quoted-mentioned-script",
+      "raw_mock_ps": "1048258 python -c \"print('scripts/run_v4_middle_withdrawal.py')\"\n",
+      "expected_block": false,
+      "blocked": false,
+      "error": null,
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "shell-mention",
+      "raw_mock_ps": "1048258 /bin/zsh -c \"echo scripts/run_v4_middle_withdrawal.py\"\n",
+      "expected_block": false,
+      "blocked": false,
+      "error": null,
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.run_v4_middle_withdrawal",
+      "fixture": "own-pid",
+      "raw_mock_ps": "48258 Python scripts/run_v4_middle_withdrawal.py\n",
+      "expected_block": false,
+      "blocked": false,
+      "error": null,
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "python:run_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 python scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route script"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "python:run_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 python -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route module"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "python:verify_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 python scripts/verify_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route script"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "python:verify_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 python -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route module"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "Python:run_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 Python scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "Python:run_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 Python -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "Python:verify_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 Python scripts/verify_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "Python:verify_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 Python -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "python3.14:run_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 python3.14 scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route script"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "python3.14:run_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 python3.14 -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route module"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "python3.14:verify_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 python3.14 scripts/verify_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route script"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "python3.14:verify_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 python3.14 -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route module"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "Python3.14:run_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 Python3.14 scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "Python3.14:run_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 Python3.14 -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "Python3.14:verify_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 Python3.14 scripts/verify_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "Python3.14:verify_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 Python3.14 -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "pypy3:run_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 pypy3 scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route script"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "pypy3:run_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 pypy3 -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route module"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "pypy3:verify_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 pypy3 scripts/verify_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route script"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "pypy3:verify_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 pypy3 -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route module"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "PyPy3:run_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 PyPy3 scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "PyPy3:run_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 PyPy3 -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "PyPy3:verify_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 PyPy3 scripts/verify_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "PyPy3:verify_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 PyPy3 -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python:run_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 /opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python:run_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 /opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python:verify_v4_middle_withdrawal:script",
+      "raw_mock_ps": "1048258 /opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/verify_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python:verify_v4_middle_withdrawal:module",
+      "raw_mock_ps": "1048258 /opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "direct-script",
+      "raw_mock_ps": "1048258 scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route process"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "attached-module",
+      "raw_mock_ps": "1048258 python3 -Is -mscripts.verify_v4_middle_withdrawal\n",
+      "expected_block": true,
+      "blocked": true,
+      "error": {
+        "type": "ValueError",
+        "message": "another Study047 route module"
+      },
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "uppercase-attached-module",
+      "raw_mock_ps": "1048258 Python -Is -mscripts.verify_v4_middle_withdrawal\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "double-dash",
+      "raw_mock_ps": "1048258 Python -- scripts/run_v4_middle_withdrawal.py\n",
+      "expected_block": true,
+      "blocked": false,
+      "error": null,
+      "requirement_met": false
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "unrelated-python",
+      "raw_mock_ps": "1048258 Python unrelated.py\n",
+      "expected_block": false,
+      "blocked": false,
+      "error": null,
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "unrelated-module",
+      "raw_mock_ps": "1048258 python -m unrelated\n",
+      "expected_block": false,
+      "blocked": false,
+      "error": null,
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "quoted-mentioned-script",
+      "raw_mock_ps": "1048258 python -c \"print('scripts/run_v4_middle_withdrawal.py')\"\n",
+      "expected_block": false,
+      "blocked": false,
+      "error": null,
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "shell-mention",
+      "raw_mock_ps": "1048258 /bin/zsh -c \"echo scripts/run_v4_middle_withdrawal.py\"\n",
+      "expected_block": false,
+      "blocked": false,
+      "error": null,
+      "requirement_met": true
+    },
+    {
+      "route": "scripts.verify_v4_middle_withdrawal",
+      "fixture": "own-pid",
+      "raw_mock_ps": "48258 Python scripts/run_v4_middle_withdrawal.py\n",
+      "expected_block": false,
+      "blocked": false,
+      "error": null,
+      "requirement_met": true
+    }
+  ],
+  "required_rejections_missed": 36,
+  "wrapper_cases": [
+    {
+      "source": "docs/research/results/v4-study-047-engineering/raw/execution_runner.py",
+      "source_sha256": "641583b70e90adad57931b713a5295af42e0ff8f9a7f414571a44d868bc5dbb6",
+      "interpreter": "python",
+      "mock_ps": "1048258 1 python scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "matched": [
+        {
+          "pid": 1048258,
+          "ppid": 1,
+          "command": "python scripts/run_v4_middle_withdrawal.py --mode formal"
+        }
+      ],
+      "requirement_met": true
+    },
+    {
+      "source": "docs/research/results/v4-study-047-engineering/raw/execution_runner.py",
+      "source_sha256": "641583b70e90adad57931b713a5295af42e0ff8f9a7f414571a44d868bc5dbb6",
+      "interpreter": "Python",
+      "mock_ps": "1048258 1 Python scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "matched": [],
+      "requirement_met": false
+    },
+    {
+      "source": "docs/research/results/v4-study-047-engineering/raw/execution_runner.py",
+      "source_sha256": "641583b70e90adad57931b713a5295af42e0ff8f9a7f414571a44d868bc5dbb6",
+      "interpreter": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python",
+      "mock_ps": "1048258 1 /opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "matched": [],
+      "requirement_met": false
+    },
+    {
+      "source": "data/v4-study-047/execution_runner.py",
+      "source_sha256": "aabfb3088971ddafa87c72979a7cd6704ce5a3912be5e48ff25a6b6ea41b74c2",
+      "interpreter": "python",
+      "mock_ps": "1048258 1 python scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "matched": [
+        {
+          "pid": 1048258,
+          "ppid": 1,
+          "command": "python scripts/run_v4_middle_withdrawal.py --mode formal"
+        }
+      ],
+      "requirement_met": true
+    },
+    {
+      "source": "data/v4-study-047/execution_runner.py",
+      "source_sha256": "aabfb3088971ddafa87c72979a7cd6704ce5a3912be5e48ff25a6b6ea41b74c2",
+      "interpreter": "Python",
+      "mock_ps": "1048258 1 Python scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "matched": [],
+      "requirement_met": false
+    },
+    {
+      "source": "data/v4-study-047/execution_runner.py",
+      "source_sha256": "aabfb3088971ddafa87c72979a7cd6704ce5a3912be5e48ff25a6b6ea41b74c2",
+      "interpreter": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python",
+      "mock_ps": "1048258 1 /opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_v4_middle_withdrawal.py --mode formal\n",
+      "matched": [],
+      "requirement_met": false
+    }
+  ],
+  "repository_function_calls": {
+    "/Users/todd/Documents/bitgenesis/src/bitgenesis/v4/local.py:__annotate__": 1,
+    "/Users/todd/Documents/bitgenesis/src/bitgenesis/v4/heredity.py:__annotate__": 1,
+    "/Users/todd/Documents/bitgenesis/scripts/analyze_v4_structure_copies.py:<genexpr>": 9,
+    "/Users/todd/Documents/bitgenesis/scripts/run_v4_middle_withdrawal.py:<genexpr>": 14,
+    "/Users/todd/Documents/bitgenesis/scripts/run_v4_middle_withdrawal.py:__annotate__": 1,
+    "/Users/todd/Documents/bitgenesis/scripts/verify_v4_middle_withdrawal.py:<genexpr>": 14,
+    "/Users/todd/Documents/bitgenesis/scripts/run_v4_middle_withdrawal.py:check_no_other_process": 37,
+    "/Users/todd/Documents/bitgenesis/scripts/run_v4_middle_withdrawal.py:matches": 36,
+    "/Users/todd/Documents/bitgenesis/scripts/middle_withdrawal_inputs.py:require": 50,
+    "/Users/todd/Documents/bitgenesis/scripts/verify_v4_middle_withdrawal.py:check_no_other_process": 37
+  },
+  "forbidden_calls": [],
+  "actual_physics_steps": 0,
+  "synthetic_physics_steps": 0,
+  "future_generator_ticks": 0,
+  "past_generator_ticks": 0,
+  "route_cli_invocations": 0,
+  "source_mutations": 0,
+  "notes": "RED是预检合同反例，不是研究或诊断基础设施失败。"
+}

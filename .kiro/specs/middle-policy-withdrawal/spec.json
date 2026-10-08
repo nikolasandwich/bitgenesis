@@ -1,7 +1,7 @@
 {
   "feature_name": "middle-policy-withdrawal",
   "created_at": "2026-10-08T13:44:05.758323+00:00",
-  "updated_at": "2026-10-08T18:14:31.102740+00:00",
+  "updated_at": "2026-10-08T18:54:41.151915+00:00",
   "language": "zh-CN",
   "phase": "tasks-generated",
   "approvals": {
@@ -24,12 +24,14 @@
     "task_graph": "PASS",
     "method": "APPROVED",
     "task_1_1": "complete",
-    "producer": "APPROVED",
-    "task_2_1": "complete",
-    "verifier": "APPROVED",
-    "task_2_2": "complete",
-    "engineering": "APPROVED",
-    "task_2_3": "complete"
+    "producer": "REOPENED_PROCESS_GUARD_F1",
+    "task_2_1": "reopened_process_guard_f1",
+    "verifier": "REOPENED_PROCESS_GUARD_F1",
+    "task_2_2": "reopened_process_guard_f1",
+    "engineering": "HISTORICAL_EVIDENCE_REVALIDATION_REQUIRED",
+    "task_2_3": "science_complete_control_revalidation_required",
+    "formal": "REJECTED_F1_SCIENCE_PASS",
+    "task_3_1": "science_complete_overall_rejected_f1"
   },
   "method_output_epoch": "design-revalidated",
   "method_execution_status": "complete_independently_reviewed",
@@ -42,15 +44,15 @@
     "immutable_bindings": 1188
   },
   "completion_verification": {
-    "status": "VERIFIED",
-    "claim_type": "TASK",
-    "task": "2.3",
-    "scope": "唯一E120005工程运行、独立完整核验、字节归档及独立工程审查满足任务2.3；仅工程验收，不是完整研究或FEATURE_GO。",
-    "current_bindings_verified": 3535,
-    "path": "docs/research/results/v4-study-047-engineering-validation.json"
+    "status": "NOT_VERIFIED",
+    "claim_type": "FEATURE_GO",
+    "task": "3.1",
+    "scope": "正式科学证据/归档/解释PASS；进程门禁F1阻断整体完成，回2.1/2.2修复并只读再验收。",
+    "current_bindings_verified": 4718,
+    "path": "docs/research/results/v4-study-047-formal-validation.json"
   },
-  "next_task": "3.1：在本轮干净工程提交上按固定方案运行全部28配对、每路线1792物理步；先查最新消息/进程/独占正式目录，工程不混入正式结果。每路线600秒/128MiB，超限保全失败，不改规则或生命标准。",
-  "producer_execution_status": "implementation_and_engineering_complete_formal_pending",
+  "next_task": "先接续2.1/2.2的F1控制面修复：保全a9efac4原源码/审批及本轮正式epoch，分别规范化解释器basename，补仅mock ps的大小写RED→GREEN及适当回归，修正未来外层进程检查并独立再审。随后用显式旧来源映射只读再验收2.3/3.1，旧结果永绑原提交。禁止重跑已完成工程/正式CLI、补环境票或改旧数据；未恢复验收前不启动048。",
+  "producer_execution_status": "science_complete_control_fix_pending_no_science_rerun",
   "producer_review": {
     "path": "docs/research/results/v4-study-047-producer-review.json",
     "sha256": "74ac9792ea57ae793665a610649adc790cf39f0a858c8908978b7d8d86828754",
@@ -85,7 +87,7 @@
     "path": "docs/research/results/v4-study-047-producer-preflight-validation.json",
     "current_bindings_verified": 1985
   },
-  "verifier_execution_status": "implementation_and_engineering_complete_formal_pending",
+  "verifier_execution_status": "science_complete_control_fix_pending_no_science_rerun",
   "verifier_review": {
     "path": "docs/research/results/v4-study-047-verifier-review.json",
     "sha256": "bf7180e688208e5af27274d01e4ff900966a965e9688fa9b9d05ee7e46e7057e",
@@ -106,6 +108,34 @@
     "reviewer": "/root/withdrawal_engineering_review",
     "immutable_bindings": 3535
   },
-  "engineering_execution_status": "complete_independently_reviewed_unique_first_case",
-  "engineering_actual_physical_steps": 128
+  "engineering_execution_status": "historical_science_complete_control_revalidation_required",
+  "engineering_actual_physical_steps": 128,
+  "engineering_completion_verification": {
+    "status": "VERIFIED",
+    "claim_type": "TASK",
+    "task": "2.3",
+    "scope": "唯一E120005工程运行、独立完整核验、字节归档及独立工程审查满足任务2.3；仅工程验收，不是完整研究或FEATURE_GO。",
+    "current_bindings_verified": 3535,
+    "path": "docs/research/results/v4-study-047-engineering-validation.json"
+  },
+  "formal_execution_status": "complete_two_routes_scientific_evidence_pass_guard_rejected",
+  "formal_actual_physical_steps": 3584,
+  "cumulative_engineering_formal_physical_steps": 3712,
+  "formal_review": {
+    "path": "docs/research/results/v4-study-047-formal-review.json",
+    "sha256": "6a11a3a4f71c5ae725ca27c7f640d719a9ec49dfd7dd3867bb1a348da9543171",
+    "reviewer": "/root/withdrawal_formal_review",
+    "verdict": "REJECTED",
+    "scientific_evidence_verdict": "PASS",
+    "immutable_bindings": 4718
+  },
+  "feature_validation": {
+    "decision": "NO_GO",
+    "path": "docs/research/results/v4-study-047-formal-validation.json",
+    "blocking_findings": [
+      "F1"
+    ],
+    "user_intervention_required": false
+  },
+  "future_research_question_after_acceptance": "全28配对/56arm保存轨迹的双副本窗口起止与成员事件只读分解，先方法审查；保留全部无窗口和删失，不新增物理，不仅追H120015。"
 }

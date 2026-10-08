@@ -1,0 +1,15 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "data/v4-study-047/report_analysis.py"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 0.03631983301602304,
+  "finished_at_utc": "2026-10-08T18:29:39.746439+00:00",
+  "script_sha256_after": "0faefdfee40014f531adb9792b8e5662861f9332e7218a97e993c323e762b1ba",
+  "raw_output_sha256": {
+    "stdout.bin": "53f3eb71fa288072a5cbd769f69ea771588353d769d05543a37c6a0e7b766b50",
+    "stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "scientific_steps": 0
+}

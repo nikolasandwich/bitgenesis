@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-formal/final_checks.py", line 30, in <module>
+    assert not re.search(r'\b(?:TODO|TBD|FIXME)\b',text),str(p)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: /Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-formal/final_checks.py

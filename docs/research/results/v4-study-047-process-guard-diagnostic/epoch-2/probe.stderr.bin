@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-process-guard-diagnostic/epoch-2/probe.py", line 96, in <module>
+    modules = [importlib.import_module('scripts.' + route) for route in routes]
+               ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "/Users/todd/Documents/bitgenesis/scripts/run_v4_middle_withdrawal.py", line 24, in <module>
+    from scripts.run_v4_founder_removal import match_copies, ancestry
+  File "/Users/todd/Documents/bitgenesis/scripts/run_v4_founder_removal.py", line 12, in <module>
+    from scripts.analyze_v4_structure_copies import canonical, episodes, require
+  File "/Users/todd/Documents/bitgenesis/scripts/analyze_v4_structure_copies.py", line 10, in <module>
+    METRICS=tuple(s+'_'+suffix for s in SERIES for suffix in ('ever','persistent'))
+            ^^^^^
+  File "/Users/todd/Documents/bitgenesis/scripts/analyze_v4_structure_copies.py", line 10, in <genexpr>
+    METRICS=tuple(s+'_'+suffix for s in SERIES for suffix in ('ever','persistent'))
+    
+  File "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-process-guard-diagnostic/epoch-2/probe.py", line 45, in repo_function_guard
+    raise RuntimeError('科学入口被诊断隔离拒绝: ' + key)
+RuntimeError: 科学入口被诊断隔离拒绝: /Users/todd/Documents/bitgenesis/scripts/analyze_v4_structure_copies.py:<genexpr>

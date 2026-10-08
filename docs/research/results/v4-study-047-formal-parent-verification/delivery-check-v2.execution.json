@@ -1,0 +1,13 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "docs/research/results/v4-study-047-formal-parent-verification/check_delivery_v2.py"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 2.568922625039704,
+  "script_sha256": "29fa5b312313c6cccf18834543cee5274214ca0b193ea42a8d37cda18673cc33",
+  "raw_output_sha256": {
+    "delivery-check-v2.stdout.bin": "fda7e5acf1c9902f51b7b52eb0e2fd6a8ac78d3aed2d3ef6408c84f5ebefff91",
+    "delivery-check-v2.stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

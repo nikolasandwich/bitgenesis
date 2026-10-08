@@ -1,0 +1,1 @@
+{"status": "RED", "guard_cases": 74, "required_rejections_missed": 36, "ps_basename": "Python", "wrapper_cases": 6, "wrapper_misses": 4, "forbidden_calls": ["/Users/todd/Documents/bitgenesis/src/bitgenesis/v4/local.py:__annotate__"], "actual_physics_steps": 0, "synthetic_physics_steps": 0, "future_generator_ticks": 0}

@@ -1,0 +1,8 @@
+{
+  "argv": [
+    "git",
+    "ls-files",
+    "-z"
+  ],
+  "exit_code": 0
+}

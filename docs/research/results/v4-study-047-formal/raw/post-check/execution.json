@@ -1,0 +1,15 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "data/v4-study-047/evidence_audit.py"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 7.789679375011474,
+  "finished_at_utc": "2026-10-08T18:27:47.289056+00:00",
+  "script_sha256_after": "97185c6697d0401844f10c555ad4d2f6e644591cf25bc9856711f38272de613c",
+  "raw_output_sha256": {
+    "stdout.bin": "c5392c3d0282d4d3a9056308adc7cf01dd9019f1fc86dc34c64d889b5a625275",
+    "stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "scientific_steps": 0
+}

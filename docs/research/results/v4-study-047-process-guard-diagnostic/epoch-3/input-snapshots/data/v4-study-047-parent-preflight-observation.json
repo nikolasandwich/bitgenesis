@@ -1,0 +1,17 @@
+{
+  "evidence_kind": "parent_tool_transcript_saved_after_observation",
+  "observation_phase": "本轮heartbeat开始、正式目录创建和worker dispatch之前",
+  "trigger_time_utc": "2026-10-08T18:17:58.897Z",
+  "exact_observation_clock_not_recorded": true,
+  "original_tool_chunk_id": "9c8df0",
+  "original_exit_code": 0,
+  "process_listing_argv": [
+    "ps",
+    "-axo",
+    "pid,etime,command"
+  ],
+  "executed_selection_expression": "[s for s in p.splitlines() if ('scripts/run_v4_middle_withdrawal.py' in s or 'scripts/verify_v4_middle_withdrawal.py' in s) and not (' - <<' in s or 'exec_command' in s or '/bin/zsh -' in s)]",
+  "original_stdout": "{\"formal_root_exists\": false, \"formal_archive_exists\": false, \"engineering_exists\": true, \"cc_sdd_installed\": true, \"processes\": []}\n",
+  "scope": "脚本路径文字匹配不检查Python解释器大小写，覆盖本轮真实两条脚本调用；没有声称对其他-m模块形式完备。此处保存已观察tool原命令关键表达式和stdout，不是重新执行或回填准确时间。",
+  "limits": "原始完整ps全机列表未保存；只保存当时实际输出的过滤结果。"
+}

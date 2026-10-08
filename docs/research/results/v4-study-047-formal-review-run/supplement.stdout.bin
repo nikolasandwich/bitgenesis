@@ -1,0 +1,44 @@
+diagnostic manifest keys ['files', 'excludes']
+{
+  "status": "PASS",
+  "report_tables": 8,
+  "scientific_tables_verified": 6,
+  "code_hash_table_verified": true,
+  "observations": {
+    "continue_north": {
+      "intervals": 13,
+      "qualified_future_states": 24,
+      "left_censored": 3,
+      "right_censored": 0,
+      "cross_boundary": 3,
+      "longest": 5
+    },
+    "withdraw_to_natural": {
+      "intervals": 15,
+      "qualified_future_states": 28,
+      "left_censored": 3,
+      "right_censored": 1,
+      "cross_boundary": 3,
+      "longest": 5
+    }
+  },
+  "q_series_different_pairs": 9,
+  "interval_different_pairs": 3,
+  "nonzero_metric_pairs": 18,
+  "rng_boundaries_checked_without_draws": 20,
+  "active_saved_rng64_checked": 14,
+  "diagnostic": {
+    "cases": 74,
+    "missed": 36,
+    "wrapper_cases": 6,
+    "wrapper_missed": 4,
+    "forbidden_calls": [],
+    "contract": "RED",
+    "integrity_exit": 0
+  },
+  "placeholder_matches": [],
+  "secret_matches": [],
+  "physics_steps": 0,
+  "future_draws": 0,
+  "restored_temporary_copies_removed_only": true
+}

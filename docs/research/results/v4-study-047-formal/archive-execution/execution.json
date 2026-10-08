@@ -1,0 +1,15 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "data/v4-study-047/archive_evidence.py"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 2.8026372499298304,
+  "finished_at_utc": "2026-10-08T18:33:39.634870+00:00",
+  "script_sha256_after": "ccca07544f650e4262a91a03d3e7d436c5c87174f8afcef9661dac321b91bdd6",
+  "raw_output_sha256": {
+    "stdout.bin": "e7fe948fac0dbad57a9209956df9e2c496d370949f81cf69fb0048584f041cb6",
+    "stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "scientific_steps": 0
+}

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-formal-parent-verification/check_delivery.py", line 34, in <module>
+    assert p.stdout == expected, p.stdout.decode()
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: docs/research/results/v4-study-047-formal-parent-verification/staged-whitespace.stdout.bin:3: trailing whitespace.
+++    
+docs/research/results/v4-study-047-formal/raw/source-snapshots/src/bitgenesis/v4/competition.py:117: new blank line at EOF.
+docs/research/results/v4-study-047-process-guard-diagnostic/epoch-2/probe.stderr.bin:23: trailing whitespace.
++    
+

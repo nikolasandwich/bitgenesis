@@ -1,0 +1,15 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "docs/research/results/v4-study-047-formal/final_checks_v2.py"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 2.8880510410526767,
+  "finished_at_utc": "2026-10-08T18:36:17.736704+00:00",
+  "script_sha256_after": "6f418fa9f6c9e2f352d4168eb7a482adbe817d100107bacf3673aefc47a8ddc2",
+  "raw_output_sha256": {
+    "stdout.bin": "d9f2352b5a2c6c3cdeb6b455e71516f06a12efbab5680a7a486b80ed425f606b",
+    "stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "scientific_steps": 0
+}

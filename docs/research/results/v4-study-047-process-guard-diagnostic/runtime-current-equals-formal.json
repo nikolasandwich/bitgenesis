@@ -1,0 +1,32 @@
+[
+  {
+    "role": "producer",
+    "version": "3.14.2",
+    "implementation": "CPython",
+    "expected": {
+      "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/bin/python3.14": "00c07e4d31048b15eebbe4c883f229338c5b2d598e9ee061da39b7fccba20cad",
+      "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/lib-dynload/_random.cpython-314-darwin.so": "656e4616ae53398f2e70c1a48537cafcae2e3bfaab68cc8c0ddde019bff025ac",
+      "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/random.py": "62dca8cdae7482513b99bb093ff038afd5131954e7eb78166d673a772cee871c"
+    },
+    "current": {
+      "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/bin/python3.14": "00c07e4d31048b15eebbe4c883f229338c5b2d598e9ee061da39b7fccba20cad",
+      "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/lib-dynload/_random.cpython-314-darwin.so": "656e4616ae53398f2e70c1a48537cafcae2e3bfaab68cc8c0ddde019bff025ac",
+      "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/random.py": "62dca8cdae7482513b99bb093ff038afd5131954e7eb78166d673a772cee871c"
+    }
+  },
+  {
+    "role": "verifier",
+    "version": "3.14.2",
+    "implementation": "CPython",
+    "expected": {
+      "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/bin/python3.14": "00c07e4d31048b15eebbe4c883f229338c5b2d598e9ee061da39b7fccba20cad",
+      "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/lib-dynload/_random.cpython-314-darwin.so": "656e4616ae53398f2e70c1a48537cafcae2e3bfaab68cc8c0ddde019bff025ac",
+      "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/random.py": "62dca8cdae7482513b99bb093ff038afd5131954e7eb78166d673a772cee871c"
+    },
+    "current": {
+      "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/bin/python3.14": "00c07e4d31048b15eebbe4c883f229338c5b2d598e9ee061da39b7fccba20cad",
+      "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/lib-dynload/_random.cpython-314-darwin.so": "656e4616ae53398f2e70c1a48537cafcae2e3bfaab68cc8c0ddde019bff025ac",
+      "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/random.py": "62dca8cdae7482513b99bb093ff038afd5131954e7eb78166d673a772cee871c"
+    }
+  }
+]

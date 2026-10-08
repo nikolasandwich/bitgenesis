@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-formal-review-run/audit_v1.py", line 101, in <module>
+    eq(request['source_sha256_before'],execution['source_sha256_after']);bindings(request['source_sha256_before'],route+'_execution_source');bindings(execution['raw_output_sha256'],route+'_execution_raw')
+                                                                                                                                             ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-formal-review-run/audit_v1.py", line 20, in bindings
+    for p,h in d.items(): assert sha(p)==h,(label,p)
+                                 ~~~^^^
+  File "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-formal-review-run/audit_v1.py", line 6, in sha
+    def sha(p): return hashlib.sha256((ROOT/p).read_bytes()).hexdigest()
+                                      ~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 777, in read_bytes
+    with self.open(mode='rb', buffering=0) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/todd/Documents/bitgenesis/stdout.bin'

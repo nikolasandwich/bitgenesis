@@ -1,0 +1,9 @@
+{
+  "command": [
+    "python3",
+    "docs/research/results/v4-study-047-formal-review-run/audit_v1.py"
+  ],
+  "started_at_utc": "2026-10-08T18:43:51.225685+00:00",
+  "script_sha256": "f5b9813ec6611653fea48918c9e6080c869d6d9976ac930848e02f7af386ca07",
+  "scope": "只读科学/归档核查，0物理及RNG"
+}

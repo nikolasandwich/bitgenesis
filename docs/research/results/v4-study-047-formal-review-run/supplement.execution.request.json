@@ -1,0 +1,8 @@
+{
+  "command": [
+    "python3",
+    "docs/research/results/v4-study-047-formal-review-run/supplement.py"
+  ],
+  "started_at_utc": "2026-10-08T18:46:28.112326+00:00",
+  "script_sha256": "d48b4454fe45504fd8369b601d692b71bcfa8e19a5bfd18d06e9beb4b9a7aad7"
+}

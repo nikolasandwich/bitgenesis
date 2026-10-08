@@ -1,0 +1,188 @@
+[
+  {
+    "id": "python:run_v4_middle_withdrawal:script",
+    "command": "python scripts/run_v4_middle_withdrawal.py --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "python:run_v4_middle_withdrawal:module",
+    "command": "python -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "python:verify_v4_middle_withdrawal:script",
+    "command": "python scripts/verify_v4_middle_withdrawal.py --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "python:verify_v4_middle_withdrawal:module",
+    "command": "python -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "Python:run_v4_middle_withdrawal:script",
+    "command": "Python scripts/run_v4_middle_withdrawal.py --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "Python:run_v4_middle_withdrawal:module",
+    "command": "Python -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "Python:verify_v4_middle_withdrawal:script",
+    "command": "Python scripts/verify_v4_middle_withdrawal.py --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "Python:verify_v4_middle_withdrawal:module",
+    "command": "Python -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "python3.14:run_v4_middle_withdrawal:script",
+    "command": "python3.14 scripts/run_v4_middle_withdrawal.py --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "python3.14:run_v4_middle_withdrawal:module",
+    "command": "python3.14 -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "python3.14:verify_v4_middle_withdrawal:script",
+    "command": "python3.14 scripts/verify_v4_middle_withdrawal.py --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "python3.14:verify_v4_middle_withdrawal:module",
+    "command": "python3.14 -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "Python3.14:run_v4_middle_withdrawal:script",
+    "command": "Python3.14 scripts/run_v4_middle_withdrawal.py --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "Python3.14:run_v4_middle_withdrawal:module",
+    "command": "Python3.14 -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "Python3.14:verify_v4_middle_withdrawal:script",
+    "command": "Python3.14 scripts/verify_v4_middle_withdrawal.py --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "Python3.14:verify_v4_middle_withdrawal:module",
+    "command": "Python3.14 -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "pypy3:run_v4_middle_withdrawal:script",
+    "command": "pypy3 scripts/run_v4_middle_withdrawal.py --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "pypy3:run_v4_middle_withdrawal:module",
+    "command": "pypy3 -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "pypy3:verify_v4_middle_withdrawal:script",
+    "command": "pypy3 scripts/verify_v4_middle_withdrawal.py --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "pypy3:verify_v4_middle_withdrawal:module",
+    "command": "pypy3 -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "PyPy3:run_v4_middle_withdrawal:script",
+    "command": "PyPy3 scripts/run_v4_middle_withdrawal.py --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "PyPy3:run_v4_middle_withdrawal:module",
+    "command": "PyPy3 -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "PyPy3:verify_v4_middle_withdrawal:script",
+    "command": "PyPy3 scripts/verify_v4_middle_withdrawal.py --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "PyPy3:verify_v4_middle_withdrawal:module",
+    "command": "PyPy3 -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python:run_v4_middle_withdrawal:script",
+    "command": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/run_v4_middle_withdrawal.py --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python:run_v4_middle_withdrawal:module",
+    "command": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python -X dev -W error -m scripts.run_v4_middle_withdrawal --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python:verify_v4_middle_withdrawal:script",
+    "command": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python scripts/verify_v4_middle_withdrawal.py --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python:verify_v4_middle_withdrawal:module",
+    "command": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python -X dev -W error -m scripts.verify_v4_middle_withdrawal --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "direct-script",
+    "command": "scripts/run_v4_middle_withdrawal.py --mode formal",
+    "expected_block": true
+  },
+  {
+    "id": "attached-module",
+    "command": "python3 -Is -mscripts.verify_v4_middle_withdrawal",
+    "expected_block": true
+  },
+  {
+    "id": "uppercase-attached-module",
+    "command": "Python -Is -mscripts.verify_v4_middle_withdrawal",
+    "expected_block": true
+  },
+  {
+    "id": "double-dash",
+    "command": "Python -- scripts/run_v4_middle_withdrawal.py",
+    "expected_block": true
+  },
+  {
+    "id": "unrelated-python",
+    "command": "Python unrelated.py",
+    "expected_block": false
+  },
+  {
+    "id": "unrelated-module",
+    "command": "python -m unrelated",
+    "expected_block": false
+  },
+  {
+    "id": "quoted-mentioned-script",
+    "command": "python -c \"print('scripts/run_v4_middle_withdrawal.py')\"",
+    "expected_block": false
+  },
+  {
+    "id": "shell-mention",
+    "command": "/bin/zsh -c \"echo scripts/run_v4_middle_withdrawal.py\"",
+    "expected_block": false
+  },
+  {
+    "id": "own-pid",
+    "command": "Python scripts/run_v4_middle_withdrawal.py",
+    "expected_block": false,
+    "own_pid": true
+  }
+]

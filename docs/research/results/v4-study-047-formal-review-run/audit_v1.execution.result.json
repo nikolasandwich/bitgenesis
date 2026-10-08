@@ -1,0 +1,9 @@
+{
+  "exit_code": 1,
+  "wall_seconds": 7.436722583021037,
+  "script_sha256_after": "f5b9813ec6611653fea48918c9e6080c869d6d9976ac930848e02f7af386ca07",
+  "raw_sha256": {
+    "docs/research/results/v4-study-047-formal-review-run/audit_v1.stdout.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/research/results/v4-study-047-formal-review-run/audit_v1.stderr.bin": "96a603e58765f78ce43dfbaddbc141d58ed1eabb232366af2a11560529baa5e1"
+  }
+}

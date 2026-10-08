@@ -1,0 +1,38 @@
+[
+  {
+    "kind": "preparatory_read",
+    "exit_code": 1,
+    "merged_error_output": "cat: .kiro/steering/product.md: No such file or directory\ncat: .kiro/steering/tech.md: No such file or directory\ncat: .kiro/steering/structure.md: No such file or directory",
+    "resolution": "技术设计明确默认steering不存在。实际AGENTS、spec和协议已读。"
+  },
+  {
+    "kind": "preparatory_search",
+    "exit_code": 2,
+    "merged_error_output": "rg: scripts/run_v4_middle_withdrawal_engineering.py: No such file or directory (os error 2)",
+    "resolution": "正确wrapper在既有工程归档raw/execution_runner.py，未创建缺失脚本。"
+  },
+  {
+    "kind": "preparatory_list",
+    "pipeline_exit_code": 0,
+    "merged_error_output": "rg: .kiro/steering: No such file or directory (os error 2)\nrg: docs/research/results/v4-study-047-formal: No such file or directory (os error 2)",
+    "resolution": "末端head为0不能视作rg成功；彼时author仍在创建正式归档。"
+  },
+  {
+    "kind": "apply_patch_post_hook_failure",
+    "exit_code_not_returned": true,
+    "tool_error": "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/todd/Documents/Codex/2026-10-02/la/./hooks/validate-schema.py': [Errno 2] No such file or directory",
+    "resolution": "工具虽报失败，probe.py与record_probe.py已经创建；原版保留。"
+  },
+  {
+    "kind": "exclusive_fallback_write",
+    "exit_code": 1,
+    "tool_error": "FileExistsError: [Errno 17] File exists: '/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-process-guard-diagnostic/probe.py'",
+    "resolution": "open(x)拒绝覆盖apply_patch已创建文件，未写入任何替代源。"
+  },
+  {
+    "kind": "epoch_1_annotation_trap",
+    "probe_exit_code": 1,
+    "forbidden_call": "src/bitgenesis/v4/local.py:__annotate__",
+    "resolution": "Python3.14惰性注解函数被过宽profile拒绝，import内部消费异常。原脚本、raw、结果全部保留；epoch2仅把编译器生成的__annotate__加入声明allowlist，仍拒绝所有科学函数/RNG。epoch1的RED还包含36个实际控制面反例，不把非空forbidden_calls称为0。"
+  }
+]

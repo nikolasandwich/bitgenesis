@@ -1,0 +1,8 @@
+{
+  "argv": [
+    "git",
+    "status",
+    "--porcelain=v1"
+  ],
+  "exit_code": 0
+}

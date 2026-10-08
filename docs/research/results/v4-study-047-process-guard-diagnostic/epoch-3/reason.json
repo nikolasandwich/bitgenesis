@@ -1,0 +1,4 @@
+{
+  "previous_epoch": "epoch-2",
+  "reason": "epoch2在import固定METRICS字符串生成式处触发非科学profile拒绝；原traceback/stdout/stderr/exit全部保留。epoch3仅增加编译器表达式helper允许项；任何含真实科学逻辑的命名函数仍在进入之前被拒绝，随机方法仍被mock拒绝。"
+}

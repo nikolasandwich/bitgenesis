@@ -1,0 +1,1323 @@
+{
+  "status": "PASS",
+  "scientific_steps": 0,
+  "source_audit_sha256": "c94eabaed6739106e20e3c61b1523870f571337a53896d2838c3b7e89b9387b4",
+  "complete_scientific_object_nodes": 8703445,
+  "all_scientific_original_bytes_equal": true,
+  "arm_window_counts": {
+    "continue_north": {
+      "arm_count": 28,
+      "intervals": 13,
+      "double_ticks": 24,
+      "no_double_window": 20,
+      "left_censored": 3,
+      "right_censored": 0,
+      "cross_boundary": 3,
+      "max_longest": 5,
+      "initial_energy": 6590,
+      "initial_living": 168,
+      "failure_counts": {
+        "collision": 60,
+        "energy": 1219,
+        "formed": 167,
+        "occupied": 2118,
+        "raw_material": 2234
+      }
+    },
+    "withdraw_to_natural": {
+      "arm_count": 28,
+      "intervals": 15,
+      "double_ticks": 28,
+      "no_double_window": 19,
+      "left_censored": 3,
+      "right_censored": 1,
+      "cross_boundary": 3,
+      "max_longest": 5,
+      "initial_energy": 6590,
+      "initial_living": 168,
+      "failure_counts": {
+        "collision": 86,
+        "energy": 1210,
+        "formed": 182,
+        "occupied": 1918,
+        "raw_material": 2365
+      }
+    }
+  },
+  "q_sequence_different_pairs": [
+    {
+      "encoding": "east",
+      "seed": 120011,
+      "ticks": [
+        49,
+        50,
+        51,
+        63
+      ]
+    },
+    {
+      "encoding": "west",
+      "seed": 120003,
+      "ticks": [
+        39
+      ]
+    },
+    {
+      "encoding": "north",
+      "seed": 120003,
+      "ticks": [
+        35,
+        41,
+        48,
+        64
+      ]
+    },
+    {
+      "encoding": "north",
+      "seed": 120009,
+      "ticks": [
+        42,
+        43,
+        44,
+        63,
+        64
+      ]
+    },
+    {
+      "encoding": "north",
+      "seed": 120011,
+      "ticks": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    {
+      "encoding": "north",
+      "seed": 120018,
+      "ticks": [
+        43,
+        44,
+        45,
+        46,
+        48,
+        49,
+        50,
+        51,
+        52,
+        63,
+        64
+      ]
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120003,
+      "ticks": [
+        39
+      ]
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120011,
+      "ticks": [
+        49,
+        50,
+        51,
+        63
+      ]
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120015,
+      "ticks": [
+        64
+      ]
+    }
+  ],
+  "any_recorded_metric_different_pairs": [
+    {
+      "encoding": "east",
+      "seed": 120007
+    },
+    {
+      "encoding": "east",
+      "seed": 120009
+    },
+    {
+      "encoding": "east",
+      "seed": 120011
+    },
+    {
+      "encoding": "east",
+      "seed": 120018
+    },
+    {
+      "encoding": "west",
+      "seed": 120003
+    },
+    {
+      "encoding": "west",
+      "seed": 120007
+    },
+    {
+      "encoding": "west",
+      "seed": 120009
+    },
+    {
+      "encoding": "north",
+      "seed": 120003
+    },
+    {
+      "encoding": "north",
+      "seed": 120009
+    },
+    {
+      "encoding": "north",
+      "seed": 120011
+    },
+    {
+      "encoding": "north",
+      "seed": 120018
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120003
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120007
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120009
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120011
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120013
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120015
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120018
+    }
+  ],
+  "original_short_windows": [
+    {
+      "encoding": "east",
+      "seed": 120011,
+      "t0": 30,
+      "remaining": 2
+    },
+    {
+      "encoding": "west",
+      "seed": 120003,
+      "t0": 24,
+      "remaining": 8
+    },
+    {
+      "encoding": "north",
+      "seed": 120003,
+      "t0": 24,
+      "remaining": 8
+    },
+    {
+      "encoding": "north",
+      "seed": 120011,
+      "t0": 28,
+      "remaining": 4
+    },
+    {
+      "encoding": "north",
+      "seed": 120019,
+      "t0": 24,
+      "remaining": 8
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120003,
+      "t0": 24,
+      "remaining": 8
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120004,
+      "t0": 26,
+      "remaining": 6
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120011,
+      "t0": 30,
+      "remaining": 2
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120013,
+      "t0": 30,
+      "remaining": 2
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120015,
+      "t0": 24,
+      "remaining": 8
+    }
+  ],
+  "current_five_source_hashes": {
+    "scripts/middle_withdrawal_inputs.py": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5",
+    "scripts/run_v4_middle_withdrawal.py": "452c21194d0d130b0c95f90b8e41d0a56a3708275abfaa6d62a76c4b0883bf41",
+    "scripts/verify_v4_middle_withdrawal.py": "9ae8ef620cb3d28fb777dad346e322489e31e58ec35e563baf29a1b6e8a21830",
+    "tests/test_v4_middle_withdrawal.py": "15113b2c8ca38d5f91df46f76343b7a457d6f8d3f8fa1537b4076bf0483cf251",
+    "tests/test_v4_middle_withdrawal_verifier.py": "ff46e0a9ad503f87601e6139b2d74b59f62e9a8a379eec1adde702fdce8ce0e0"
+  },
+  "focus": [
+    {
+      "encoding": "homogeneous",
+      "seed": 120003,
+      "case": "cases/homogeneous-120003.json",
+      "arms": {
+        "continue_north": {
+          "q32": 0,
+          "new_copy_counts": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "future_persistent10": false,
+          "longest_double": 1,
+          "intervals": [
+            {
+              "start": 33,
+              "end": 33,
+              "length": 1,
+              "left_censored_at_boundary": false,
+              "right_censored": false
+            }
+          ],
+          "cross_boundary": null,
+          "original_t0": 24,
+          "ledger": {
+            "energy_export": 0,
+            "final_mass": 7,
+            "future_births": 8,
+            "future_natural_deaths": 8,
+            "initial_energy": 192,
+            "initial_living": 6,
+            "initial_mass": 7
+          },
+          "metrics": {
+            "after32_formation_persistent10": 0,
+            "after32_formation_supported": 0,
+            "after32_selected_ancestry_persistent10": 0,
+            "after32_selected_ancestry_supported": 0,
+            "after32_upper_formed": 0,
+            "after32_upper_persistent10": 0,
+            "births": 8,
+            "bond_spent": 374,
+            "construction_spent": 32,
+            "copy_spent": 8,
+            "deaths": 8,
+            "double_new_ever": 1,
+            "final_energy": 248,
+            "formation_persistent10": 0,
+            "formation_supported": 1,
+            "future_persistent10": 0,
+            "imported": 687,
+            "leakage": 217,
+            "living": 6,
+            "longest_double": 1,
+            "new_copy_ever": 1,
+            "persistent10": 0,
+            "rejected_import": 337,
+            "selected_ancestry_persistent10": 0,
+            "selected_ancestry_supported": 1,
+            "spent": 631,
+            "upper_formed": 1,
+            "upper_persistent10": 0
+          },
+          "failure_counts": {
+            "collision": 2,
+            "energy": 44,
+            "formed": 8,
+            "occupied": 76,
+            "raw_material": 79
+          },
+          "formation_witnesses": [
+            {
+              "births": [
+                {
+                  "birth_tick": 27,
+                  "identity": 12,
+                  "parent": 11,
+                  "site": 85
+                },
+                {
+                  "birth_tick": 30,
+                  "identity": 13,
+                  "parent": 12,
+                  "site": 86
+                }
+              ],
+              "copies": [
+                [
+                  6,
+                  8
+                ],
+                [
+                  12,
+                  13
+                ]
+              ],
+              "tick": 33
+            }
+          ],
+          "after32_formation_witnesses": []
+        },
+        "withdraw_to_natural": {
+          "q32": 0,
+          "new_copy_counts": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "future_persistent10": false,
+          "longest_double": 1,
+          "intervals": [
+            {
+              "start": 33,
+              "end": 33,
+              "length": 1,
+              "left_censored_at_boundary": false,
+              "right_censored": false
+            },
+            {
+              "start": 39,
+              "end": 39,
+              "length": 1,
+              "left_censored_at_boundary": false,
+              "right_censored": false
+            }
+          ],
+          "cross_boundary": null,
+          "original_t0": 24,
+          "ledger": {
+            "energy_export": 0,
+            "final_mass": 7,
+            "future_births": 8,
+            "future_natural_deaths": 8,
+            "initial_energy": 192,
+            "initial_living": 6,
+            "initial_mass": 7
+          },
+          "metrics": {
+            "after32_formation_persistent10": 0,
+            "after32_formation_supported": 0,
+            "after32_selected_ancestry_persistent10": 0,
+            "after32_selected_ancestry_supported": 0,
+            "after32_upper_formed": 0,
+            "after32_upper_persistent10": 0,
+            "births": 8,
+            "bond_spent": 340,
+            "construction_spent": 32,
+            "copy_spent": 8,
+            "deaths": 8,
+            "double_new_ever": 1,
+            "final_energy": 247,
+            "formation_persistent10": 0,
+            "formation_supported": 1,
+            "future_persistent10": 0,
+            "imported": 647,
+            "leakage": 212,
+            "living": 6,
+            "longest_double": 1,
+            "new_copy_ever": 1,
+            "persistent10": 0,
+            "rejected_import": 377,
+            "selected_ancestry_persistent10": 0,
+            "selected_ancestry_supported": 1,
+            "spent": 592,
+            "upper_formed": 1,
+            "upper_persistent10": 0
+          },
+          "failure_counts": {
+            "collision": 2,
+            "energy": 42,
+            "formed": 8,
+            "occupied": 68,
+            "raw_material": 84
+          },
+          "formation_witnesses": [
+            {
+              "births": [
+                {
+                  "birth_tick": 27,
+                  "identity": 12,
+                  "parent": 11,
+                  "site": 85
+                },
+                {
+                  "birth_tick": 30,
+                  "identity": 13,
+                  "parent": 12,
+                  "site": 86
+                }
+              ],
+              "copies": [
+                [
+                  6,
+                  8
+                ],
+                [
+                  12,
+                  13
+                ]
+              ],
+              "tick": 33
+            },
+            {
+              "births": [
+                {
+                  "birth_tick": 27,
+                  "identity": 12,
+                  "parent": 11,
+                  "site": 85
+                },
+                {
+                  "birth_tick": 30,
+                  "identity": 13,
+                  "parent": 12,
+                  "site": 86
+                }
+              ],
+              "copies": [
+                [
+                  6,
+                  8
+                ],
+                [
+                  12,
+                  13
+                ]
+              ],
+              "tick": 39
+            }
+          ],
+          "after32_formation_witnesses": []
+        }
+      },
+      "delta": {
+        "after32_formation_persistent10": 0,
+        "after32_formation_supported": 0,
+        "after32_selected_ancestry_persistent10": 0,
+        "after32_selected_ancestry_supported": 0,
+        "after32_upper_formed": 0,
+        "after32_upper_persistent10": 0,
+        "births": 0,
+        "bond_spent": -34,
+        "construction_spent": 0,
+        "copy_spent": 0,
+        "deaths": 0,
+        "double_new_ever": 0,
+        "final_energy": -1,
+        "formation_persistent10": 0,
+        "formation_supported": 0,
+        "future_persistent10": 0,
+        "imported": -40,
+        "leakage": -5,
+        "living": 0,
+        "longest_double": 0,
+        "new_copy_ever": 0,
+        "persistent10": 0,
+        "rejected_import": 40,
+        "selected_ancestry_persistent10": 0,
+        "selected_ancestry_supported": 0,
+        "spent": -39,
+        "upper_formed": 0,
+        "upper_persistent10": 0
+      }
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120011,
+      "case": "cases/homogeneous-120011.json",
+      "arms": {
+        "continue_north": {
+          "q32": 0,
+          "new_copy_counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          "future_persistent10": false,
+          "longest_double": 1,
+          "intervals": [
+            {
+              "start": 63,
+              "end": 63,
+              "length": 1,
+              "left_censored_at_boundary": false,
+              "right_censored": false
+            }
+          ],
+          "cross_boundary": null,
+          "original_t0": 30,
+          "ledger": {
+            "energy_export": 0,
+            "final_mass": 7,
+            "future_births": 8,
+            "future_natural_deaths": 8,
+            "initial_energy": 149,
+            "initial_living": 5,
+            "initial_mass": 7
+          },
+          "metrics": {
+            "after32_formation_persistent10": 0,
+            "after32_formation_supported": 1,
+            "after32_selected_ancestry_persistent10": 0,
+            "after32_selected_ancestry_supported": 0,
+            "after32_upper_formed": 0,
+            "after32_upper_persistent10": 0,
+            "births": 8,
+            "bond_spent": 338,
+            "construction_spent": 32,
+            "copy_spent": 8,
+            "deaths": 8,
+            "double_new_ever": 1,
+            "final_energy": 243,
+            "formation_persistent10": 0,
+            "formation_supported": 1,
+            "future_persistent10": 0,
+            "imported": 681,
+            "leakage": 209,
+            "living": 5,
+            "longest_double": 1,
+            "new_copy_ever": 1,
+            "persistent10": 0,
+            "rejected_import": 343,
+            "selected_ancestry_persistent10": 0,
+            "selected_ancestry_supported": 1,
+            "spent": 587,
+            "upper_formed": 1,
+            "upper_persistent10": 0
+          },
+          "failure_counts": {
+            "collision": 4,
+            "energy": 42,
+            "formed": 8,
+            "occupied": 75,
+            "raw_material": 72
+          },
+          "formation_witnesses": [
+            {
+              "births": [
+                {
+                  "birth_tick": 32,
+                  "identity": 13,
+                  "parent": 12,
+                  "site": 86
+                },
+                {
+                  "birth_tick": 35,
+                  "identity": 14,
+                  "parent": 13,
+                  "site": 85
+                }
+              ],
+              "copies": [
+                [
+                  6,
+                  9
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "tick": 63
+            }
+          ],
+          "after32_formation_witnesses": [
+            {
+              "births": [
+                {
+                  "birth_tick": 35,
+                  "identity": 14,
+                  "parent": 13,
+                  "site": 85
+                }
+              ],
+              "copies": [
+                [
+                  6,
+                  9
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "tick": 63
+            }
+          ]
+        },
+        "withdraw_to_natural": {
+          "q32": 0,
+          "new_copy_counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "future_persistent10": false,
+          "longest_double": 3,
+          "intervals": [
+            {
+              "start": 49,
+              "end": 51,
+              "length": 3,
+              "left_censored_at_boundary": false,
+              "right_censored": false
+            }
+          ],
+          "cross_boundary": null,
+          "original_t0": 30,
+          "ledger": {
+            "energy_export": 0,
+            "final_mass": 7,
+            "future_births": 9,
+            "future_natural_deaths": 8,
+            "initial_energy": 149,
+            "initial_living": 5,
+            "initial_mass": 7
+          },
+          "metrics": {
+            "after32_formation_persistent10": 0,
+            "after32_formation_supported": 1,
+            "after32_selected_ancestry_persistent10": 0,
+            "after32_selected_ancestry_supported": 0,
+            "after32_upper_formed": 0,
+            "after32_upper_persistent10": 0,
+            "births": 9,
+            "bond_spent": 276,
+            "construction_spent": 36,
+            "copy_spent": 9,
+            "deaths": 8,
+            "double_new_ever": 1,
+            "final_energy": 249,
+            "formation_persistent10": 0,
+            "formation_supported": 1,
+            "future_persistent10": 0,
+            "imported": 623,
+            "leakage": 202,
+            "living": 6,
+            "longest_double": 3,
+            "new_copy_ever": 1,
+            "persistent10": 0,
+            "rejected_import": 401,
+            "selected_ancestry_persistent10": 0,
+            "selected_ancestry_supported": 1,
+            "spent": 523,
+            "upper_formed": 1,
+            "upper_persistent10": 0
+          },
+          "failure_counts": {
+            "collision": 6,
+            "energy": 39,
+            "formed": 9,
+            "occupied": 65,
+            "raw_material": 75
+          },
+          "formation_witnesses": [
+            {
+              "births": [
+                {
+                  "birth_tick": 32,
+                  "identity": 13,
+                  "parent": 12,
+                  "site": 86
+                },
+                {
+                  "birth_tick": 35,
+                  "identity": 14,
+                  "parent": 13,
+                  "site": 85
+                }
+              ],
+              "copies": [
+                [
+                  6,
+                  9
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "tick": 49
+            },
+            {
+              "births": [
+                {
+                  "birth_tick": 32,
+                  "identity": 13,
+                  "parent": 12,
+                  "site": 86
+                },
+                {
+                  "birth_tick": 35,
+                  "identity": 14,
+                  "parent": 13,
+                  "site": 85
+                }
+              ],
+              "copies": [
+                [
+                  6,
+                  9
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "tick": 50
+            },
+            {
+              "births": [
+                {
+                  "birth_tick": 32,
+                  "identity": 13,
+                  "parent": 12,
+                  "site": 86
+                },
+                {
+                  "birth_tick": 35,
+                  "identity": 14,
+                  "parent": 13,
+                  "site": 85
+                }
+              ],
+              "copies": [
+                [
+                  6,
+                  9
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "tick": 51
+            }
+          ],
+          "after32_formation_witnesses": [
+            {
+              "births": [
+                {
+                  "birth_tick": 35,
+                  "identity": 14,
+                  "parent": 13,
+                  "site": 85
+                }
+              ],
+              "copies": [
+                [
+                  6,
+                  9
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "tick": 49
+            },
+            {
+              "births": [
+                {
+                  "birth_tick": 35,
+                  "identity": 14,
+                  "parent": 13,
+                  "site": 85
+                }
+              ],
+              "copies": [
+                [
+                  6,
+                  9
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "tick": 50
+            },
+            {
+              "births": [
+                {
+                  "birth_tick": 35,
+                  "identity": 14,
+                  "parent": 13,
+                  "site": 85
+                }
+              ],
+              "copies": [
+                [
+                  6,
+                  9
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "tick": 51
+            }
+          ]
+        }
+      },
+      "delta": {
+        "after32_formation_persistent10": 0,
+        "after32_formation_supported": 0,
+        "after32_selected_ancestry_persistent10": 0,
+        "after32_selected_ancestry_supported": 0,
+        "after32_upper_formed": 0,
+        "after32_upper_persistent10": 0,
+        "births": 1,
+        "bond_spent": -62,
+        "construction_spent": 4,
+        "copy_spent": 1,
+        "deaths": 0,
+        "double_new_ever": 0,
+        "final_energy": 6,
+        "formation_persistent10": 0,
+        "formation_supported": 0,
+        "future_persistent10": 0,
+        "imported": -58,
+        "leakage": -7,
+        "living": 1,
+        "longest_double": 2,
+        "new_copy_ever": 0,
+        "persistent10": 0,
+        "rejected_import": 58,
+        "selected_ancestry_persistent10": 0,
+        "selected_ancestry_supported": 0,
+        "spent": -64,
+        "upper_formed": 0,
+        "upper_persistent10": 0
+      }
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120015,
+      "case": "cases/homogeneous-120015.json",
+      "arms": {
+        "continue_north": {
+          "q32": 0,
+          "new_copy_counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "future_persistent10": false,
+          "longest_double": 0,
+          "intervals": [],
+          "cross_boundary": null,
+          "original_t0": 24,
+          "ledger": {
+            "energy_export": 0,
+            "final_mass": 7,
+            "future_births": 8,
+            "future_natural_deaths": 7,
+            "initial_energy": 191,
+            "initial_living": 5,
+            "initial_mass": 7
+          },
+          "metrics": {
+            "after32_formation_persistent10": 0,
+            "after32_formation_supported": 0,
+            "after32_selected_ancestry_persistent10": 0,
+            "after32_selected_ancestry_supported": 0,
+            "after32_upper_formed": 0,
+            "after32_upper_persistent10": 0,
+            "births": 8,
+            "bond_spent": 350,
+            "construction_spent": 32,
+            "copy_spent": 8,
+            "deaths": 7,
+            "double_new_ever": 0,
+            "final_energy": 243,
+            "formation_persistent10": 0,
+            "formation_supported": 0,
+            "future_persistent10": 0,
+            "imported": 652,
+            "leakage": 210,
+            "living": 6,
+            "longest_double": 0,
+            "new_copy_ever": 0,
+            "persistent10": 0,
+            "rejected_import": 372,
+            "selected_ancestry_persistent10": 0,
+            "selected_ancestry_supported": 0,
+            "spent": 600,
+            "upper_formed": 0,
+            "upper_persistent10": 0
+          },
+          "failure_counts": {
+            "collision": 4,
+            "energy": 41,
+            "formed": 8,
+            "occupied": 79,
+            "raw_material": 71
+          },
+          "formation_witnesses": [],
+          "after32_formation_witnesses": []
+        },
+        "withdraw_to_natural": {
+          "q32": 0,
+          "new_copy_counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "future_persistent10": false,
+          "longest_double": 1,
+          "intervals": [
+            {
+              "start": 64,
+              "end": 64,
+              "length": 1,
+              "left_censored_at_boundary": false,
+              "right_censored": true
+            }
+          ],
+          "cross_boundary": null,
+          "original_t0": 24,
+          "ledger": {
+            "energy_export": 0,
+            "final_mass": 7,
+            "future_births": 10,
+            "future_natural_deaths": 11,
+            "initial_energy": 191,
+            "initial_living": 5,
+            "initial_mass": 7
+          },
+          "metrics": {
+            "after32_formation_persistent10": 0,
+            "after32_formation_supported": 1,
+            "after32_selected_ancestry_persistent10": 0,
+            "after32_selected_ancestry_supported": 0,
+            "after32_upper_formed": 0,
+            "after32_upper_persistent10": 0,
+            "births": 10,
+            "bond_spent": 320,
+            "construction_spent": 40,
+            "copy_spent": 10,
+            "deaths": 11,
+            "double_new_ever": 1,
+            "final_energy": 242,
+            "formation_persistent10": 0,
+            "formation_supported": 1,
+            "future_persistent10": 0,
+            "imported": 635,
+            "leakage": 214,
+            "living": 4,
+            "longest_double": 1,
+            "new_copy_ever": 1,
+            "persistent10": 0,
+            "rejected_import": 389,
+            "selected_ancestry_persistent10": 0,
+            "selected_ancestry_supported": 1,
+            "spent": 584,
+            "upper_formed": 1,
+            "upper_persistent10": 0
+          },
+          "failure_counts": {
+            "collision": 10,
+            "energy": 48,
+            "formed": 10,
+            "occupied": 61,
+            "raw_material": 74
+          },
+          "formation_witnesses": [
+            {
+              "births": [
+                {
+                  "birth_tick": 26,
+                  "identity": 13,
+                  "parent": 12,
+                  "site": 86
+                },
+                {
+                  "birth_tick": 33,
+                  "identity": 15,
+                  "parent": 13,
+                  "site": 85
+                }
+              ],
+              "copies": [
+                [
+                  5,
+                  7
+                ],
+                [
+                  13,
+                  15
+                ]
+              ],
+              "tick": 64
+            }
+          ],
+          "after32_formation_witnesses": [
+            {
+              "births": [
+                {
+                  "birth_tick": 33,
+                  "identity": 15,
+                  "parent": 13,
+                  "site": 85
+                }
+              ],
+              "copies": [
+                [
+                  5,
+                  7
+                ],
+                [
+                  13,
+                  15
+                ]
+              ],
+              "tick": 64
+            }
+          ]
+        }
+      },
+      "delta": {
+        "after32_formation_persistent10": 0,
+        "after32_formation_supported": 1,
+        "after32_selected_ancestry_persistent10": 0,
+        "after32_selected_ancestry_supported": 0,
+        "after32_upper_formed": 0,
+        "after32_upper_persistent10": 0,
+        "births": 2,
+        "bond_spent": -30,
+        "construction_spent": 8,
+        "copy_spent": 2,
+        "deaths": 4,
+        "double_new_ever": 1,
+        "final_energy": -1,
+        "formation_persistent10": 0,
+        "formation_supported": 1,
+        "future_persistent10": 0,
+        "imported": -17,
+        "leakage": 4,
+        "living": -2,
+        "longest_double": 1,
+        "new_copy_ever": 1,
+        "persistent10": 0,
+        "rejected_import": 17,
+        "selected_ancestry_persistent10": 0,
+        "selected_ancestry_supported": 1,
+        "spent": -16,
+        "upper_formed": 1,
+        "upper_persistent10": 0
+      }
+    }
+  ],
+  "interpretation": "仅已冻结28条件配对/14共享环境的描述；q差和记录指标差不等同于全部物理轨迹差。"
+}

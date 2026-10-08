@@ -1,0 +1,378 @@
+{
+  "status": "NOT_VERIFIED",
+  "claim_type": "FEATURE_GO",
+  "decision": "NO_GO",
+  "task": "3.1",
+  "created_at_utc": "2026-10-08T18:54:41.151915+00:00",
+  "claim": "Study047任务3.1和middle-policy-withdrawal整体完成",
+  "scientific_evidence_status": "VERIFIED",
+  "archive_status": "VERIFIED",
+  "interpretation_status": "VERIFIED",
+  "independent_author": "/root/withdrawal_formal",
+  "independent_reviewer": "/root/withdrawal_formal_review",
+  "independent_debugger": "/root/withdrawal_process_guard_diagnostic",
+  "review_path": "docs/research/results/v4-study-047-formal-review.json",
+  "review_sha256": "6a11a3a4f71c5ae725ca27c7f640d719a9ec49dfd7dd3867bb1a348da9543171",
+  "review_current_bindings_verified": 4718,
+  "parent_saved_evidence": {
+    "scientific_saved_evidence_status": "PASS",
+    "created_at_utc": "2026-10-08T18:52:15.756723+00:00",
+    "claim_type": "SCIENTIFIC_EVIDENCE_ONLY",
+    "task_completion_or_feature_go_claimed": false,
+    "reviews": {
+      "producer": {
+        "path": "docs/research/results/v4-study-047-producer-review.json",
+        "sha256": "74ac9792ea57ae793665a610649adc790cf39f0a858c8908978b7d8d86828754",
+        "verdict": "APPROVED",
+        "bindings": 1985
+      },
+      "verifier": {
+        "path": "docs/research/results/v4-study-047-verifier-review.json",
+        "sha256": "bf7180e688208e5af27274d01e4ff900966a965e9688fa9b9d05ee7e46e7057e",
+        "verdict": "APPROVED",
+        "bindings": 3023
+      },
+      "engineering": {
+        "path": "docs/research/results/v4-study-047-engineering-review.json",
+        "sha256": "4b3d002858fa8dac5f35c6044063cd7d819944ec809054801d0aceb1382b59b7",
+        "verdict": "APPROVED",
+        "bindings": 3535
+      },
+      "formal": {
+        "path": "docs/research/results/v4-study-047-formal-review.json",
+        "sha256": "6a11a3a4f71c5ae725ca27c7f640d719a9ec49dfd7dd3867bb1a348da9543171",
+        "verdict": "REJECTED",
+        "bindings": 4718,
+        "scientific_evidence_verdict": "PASS"
+      }
+    },
+    "author_bindings": 1915,
+    "restored_files": 325,
+    "restored_bytes": 119528074,
+    "tar_sha256": "8fde44cbfa7ec484641b961b1f37306e8f1e5456a3ba79e82e4c465e49b07bab",
+    "strict_scientific_files": 45,
+    "routes": {
+      "producer": {
+        "status": "complete",
+        "steps": 1792,
+        "future_generator_ticks": 448,
+        "past_generator_ticks": 640,
+        "input_bindings": 1195,
+        "bytes": 57932524,
+        "wall_seconds": 129.5981286659371
+      },
+      "verifier": {
+        "status": "verified",
+        "steps": 1792,
+        "future_generator_ticks": 448,
+        "past_generator_ticks": 640,
+        "input_bindings": 1241,
+        "bytes": 58047692,
+        "wall_seconds": 159.0859679999994
+      }
+    },
+    "arm_totals": {
+      "continue_north": {
+        "after32_formation_persistent10": 0,
+        "after32_formation_supported": 1,
+        "after32_selected_ancestry_persistent10": 0,
+        "after32_selected_ancestry_supported": 0,
+        "after32_upper_formed": 0,
+        "after32_upper_persistent10": 0,
+        "births": 167,
+        "bond_spent": 7790,
+        "construction_spent": 668,
+        "copy_spent": 167,
+        "deaths": 178,
+        "double_new_ever": 8,
+        "final_energy": 7003,
+        "formation_persistent10": 0,
+        "formation_supported": 8,
+        "future_persistent10": 0,
+        "imported": 15014,
+        "leakage": 5976,
+        "living": 157,
+        "longest_double": 19,
+        "new_copy_ever": 19,
+        "persistent10": 0,
+        "rejected_import": 13658,
+        "selected_ancestry_persistent10": 0,
+        "selected_ancestry_supported": 8,
+        "spent": 14601,
+        "upper_formed": 8,
+        "upper_persistent10": 0,
+        "interval_count": 13,
+        "qualified_endstates": 24,
+        "left_censored_intervals": 3,
+        "right_censored_intervals": 0
+      },
+      "withdraw_to_natural": {
+        "after32_formation_persistent10": 0,
+        "after32_formation_supported": 2,
+        "after32_selected_ancestry_persistent10": 0,
+        "after32_selected_ancestry_supported": 0,
+        "after32_upper_formed": 0,
+        "after32_upper_persistent10": 0,
+        "births": 182,
+        "bond_spent": 7526,
+        "construction_spent": 728,
+        "copy_spent": 182,
+        "deaths": 191,
+        "double_new_ever": 9,
+        "final_energy": 7011,
+        "formation_persistent10": 0,
+        "formation_supported": 9,
+        "future_persistent10": 0,
+        "imported": 14809,
+        "leakage": 5952,
+        "living": 159,
+        "longest_double": 22,
+        "new_copy_ever": 20,
+        "persistent10": 0,
+        "rejected_import": 13863,
+        "selected_ancestry_persistent10": 0,
+        "selected_ancestry_supported": 9,
+        "spent": 14388,
+        "upper_formed": 9,
+        "upper_persistent10": 0,
+        "interval_count": 15,
+        "qualified_endstates": 28,
+        "left_censored_intervals": 3,
+        "right_censored_intervals": 1
+      }
+    },
+    "changed_q_pairs": [
+      "east-120011",
+      "west-120003",
+      "north-120003",
+      "north-120009",
+      "north-120011",
+      "north-120018",
+      "homogeneous-120003",
+      "homogeneous-120011",
+      "homogeneous-120015"
+    ],
+    "changed_interval_pairs": [
+      "homogeneous-120003",
+      "homogeneous-120011",
+      "homogeneous-120015"
+    ],
+    "changed_metric_pairs": [
+      "east-120007",
+      "east-120009",
+      "east-120011",
+      "east-120018",
+      "west-120003",
+      "west-120007",
+      "west-120009",
+      "north-120003",
+      "north-120009",
+      "north-120011",
+      "north-120018",
+      "homogeneous-120003",
+      "homogeneous-120007",
+      "homogeneous-120009",
+      "homogeneous-120011",
+      "homogeneous-120013",
+      "homogeneous-120015",
+      "homogeneous-120018"
+    ],
+    "full_suite_reused_tests": 1070,
+    "new_full_suite_run": false,
+    "known_control_contract": "RED: uppercase Python process detection unresolved",
+    "this_check_new_physical_steps": 0,
+    "this_check_new_future_generator_ticks": 0,
+    "elapsed_seconds": 7.108475334011018
+  },
+  "parent_execution": {
+    "command": [
+      ".venv/bin/python",
+      "docs/research/results/v4-study-047-formal-parent-verification/verify_saved_evidence.py"
+    ],
+    "cwd": "/Users/todd/Documents/bitgenesis",
+    "exit_code": 0,
+    "wall_seconds": 7.156131790950894,
+    "finished_at_utc": "2026-10-08T18:52:15.769106+00:00",
+    "script_sha256": "d4520037d7c8f6dc51f6ae71a5ca372e92739d1655ac9f5ce5bdec69851efc35",
+    "raw_output_sha256": {
+      "stdout.bin": "cb806a8b8ff259b06822c81b7a1bc6182002b7cfd77c18f3c5e8764947d3ca59",
+      "stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "new_physical_steps": 0,
+    "new_future_generator_ticks": 0
+  },
+  "metric_aggregation_semantics": "parent arm_totals为跨28分支求和，longest_double的19/22是各分支最长值之和，不是单区间时长；每臂最大连续均5。",
+  "evidence_sha256": {
+    "docs/research/results/v4-study-047-formal-parent-verification/check_delivery.py": "4326e81731598aae3b77e2457c6b1a86d4a178420d234f09176375a5468ec128",
+    "docs/research/results/v4-study-047-formal-parent-verification/check_delivery_v2.py": "29fa5b312313c6cccf18834543cee5274214ca0b193ea42a8d37cda18673cc33",
+    "docs/research/results/v4-study-047-formal-parent-verification/delivery-check-v2.execution.json": "9a6388fb92084103a5ffaf5427d353066f94058fed1077660cbb0f1b6c99247c",
+    "docs/research/results/v4-study-047-formal-parent-verification/delivery-check-v2.stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/research/results/v4-study-047-formal-parent-verification/delivery-check-v2.stdout.bin": "fda7e5acf1c9902f51b7b52eb0e2fd6a8ac78d3aed2d3ef6408c84f5ebefff91",
+    "docs/research/results/v4-study-047-formal-parent-verification/delivery-check.execution.json": "acdcb34f8f7ab4891daf1fb00304fd7d0625b12087c0e6329f72efff59993201",
+    "docs/research/results/v4-study-047-formal-parent-verification/delivery-check.stderr.bin": "de37e42b7190dd9f3a74248464879159b4681284fd6e7ae2633ba5e764f64c4b",
+    "docs/research/results/v4-study-047-formal-parent-verification/delivery-check.stdout.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/research/results/v4-study-047-formal-parent-verification/execution.json": "c0fe1619b31e1d3e8b674ef06c06c5bb4226ba2419d8a4eae2b3bddcb2c27c75",
+    "docs/research/results/v4-study-047-formal-parent-verification/staged-whitespace.execution.json": "a060253f3b5adf95079089135d5d96af4abd5be19b30f12b755cdef2a390cb78",
+    "docs/research/results/v4-study-047-formal-parent-verification/staged-whitespace.stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/research/results/v4-study-047-formal-parent-verification/staged-whitespace.stdout.bin": "a255c1626563913a7663dadb7184de26a3dee3a1a450fd80729868cbbff3c4dc",
+    "docs/research/results/v4-study-047-formal-parent-verification/stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/research/results/v4-study-047-formal-parent-verification/stdout.bin": "cb806a8b8ff259b06822c81b7a1bc6182002b7cfd77c18f3c5e8764947d3ca59",
+    "docs/research/results/v4-study-047-formal-parent-verification/verify_saved_evidence.py": "d4520037d7c8f6dc51f6ae71a5ca372e92739d1655ac9f5ce5bdec69851efc35"
+  },
+  "requirements_coverage": {
+    "1.1": {
+      "status": "PASS",
+      "evidence": "已批准方法连续终态及正式56臂initial=043ablation.final；完整身份/原模板/移除旁账。"
+    },
+    "1.2": {
+      "status": "PASS",
+      "evidence": "全部100索引、28正式配对、72N/A、10旧短窗、五编码全格与14seed分组。"
+    },
+    "1.3": {
+      "status": "PASS_HISTORICAL_METHOD",
+      "evidence": "原方法阶段只恢复20seed过去640tick，0未来/物理；本轮正式执行单独计数。"
+    },
+    "2.1": {
+      "status": "PASS_SCIENTIFIC",
+      "evidence": "共同tick32与同seed自然后缀，continue仅101/102北向（含空格），withdraw全自然；完整保存输入逐值核对。"
+    },
+    "2.2": {
+      "status": "PASS",
+      "evidence": "20个过去环境与冻结RNG32，14个正式环境及RNG64，原运行时hash不变；独立路线448未来生成tick。"
+    },
+    "2.3": {
+      "status": "PASS",
+      "evidence": "预注册固定33–64，56臂各32保存末态；工程128和正式3584独立，总计划3712，无额外重跑。"
+    },
+    "3.1": {
+      "status": "PASS_SCIENTIFIC",
+      "evidence": "45完整科学文件8703445节点严格类型和值一致，完整组件/程序/祖系；future10均0/28，所有配对差保存。"
+    },
+    "3.2": {
+      "status": "PASS",
+      "evidence": "q32诊断、原t0与32双出生阈值、左右删失、跨界prefix1+future2=3分列，未借过去达标。"
+    },
+    "3.3": {
+      "status": "PASS",
+      "evidence": "56臂1792行全部事件/首失败与完整门槛/能量/材料/身份账；质量7，futureexport0，不重复移除。"
+    },
+    "3.4": {
+      "status": "PASS",
+      "evidence": "限于既定北向前缀后固定窗口的完整政策撤除；外部供能/人工初态及共享seed限制明确。"
+    },
+    "4.1": {
+      "status": "NOT_VERIFIED_F1",
+      "evidence": "干净工程提交、顺序唯一两CLI及预算真实通过，但大小写进程漏检反例阻断完整启动保护声明。"
+    },
+    "4.2": {
+      "status": "PASS_EVIDENCE_PRESERVATION_WITH_KNOWN_CONTROL_DEFECT",
+      "evidence": "全部来源/完整类型/收尾/原错误日志保存；新的控制合同RED不由旧1070 PASS抵消，F1未修。"
+    },
+    "4.3": {
+      "status": "NOT_VERIFIED_F1",
+      "evidence": "325原文件恢复和独立科学审查PASS，但正式整体REJECTED，不能声明任务完成或FEATURE_GO。"
+    }
+  },
+  "mechanical_results": {
+    "full_suite": {
+      "tests": 1070,
+      "related_tests": 104,
+      "source_hashes_current": true,
+      "original_exit_code": 0,
+      "reexecuted": false,
+      "new_red_overrides_unconditional_green_claim": true
+    },
+    "runtime_smoke": {
+      "producer_cli_exit": 0,
+      "verifier_cli_exit": 0,
+      "formal_physical_steps": 3584,
+      "reexecuted_after_completion": false
+    },
+    "compile_and_help": "已核同码原始执行与hash，本轮不冒称重跑",
+    "new_process_guard_contract": "RED，74例漏36例；6个wrapper例漏4例，0科学调用。",
+    "staged_delivery_check": {
+      "execution": {
+        "command": [
+          ".venv/bin/python",
+          "docs/research/results/v4-study-047-formal-parent-verification/check_delivery_v2.py"
+        ],
+        "exit_code": 0,
+        "wall_seconds": 2.568922625039704,
+        "script_sha256": "29fa5b312313c6cccf18834543cee5274214ca0b193ea42a8d37cda18673cc33",
+        "raw_output_sha256": {
+          "delivery-check-v2.stdout.bin": "fda7e5acf1c9902f51b7b52eb0e2fd6a8ac78d3aed2d3ef6408c84f5ebefff91",
+          "delivery-check-v2.stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "result": {
+        "status": "PASS_WITH_ORIGINAL_EVIDENCE_WHITESPACE_EXCEPTIONS",
+        "checked_at_utc": "2026-10-08T19:02:00.457823+00:00",
+        "review_bindings": 4718,
+        "independent_review_verdict": "REJECTED",
+        "scientific_source_tests_unchanged": true,
+        "staged_files": 564,
+        "staged_json_parsed": 218,
+        "raw_whitespace_exit_code": 2,
+        "exceptions": [
+          {
+            "path": "docs/research/results/v4-study-047-formal/raw/source-snapshots/src/bitgenesis/v4/competition.py",
+            "line": 117,
+            "reason": "Exact original data snapshot and a9efac4 Git bytes; preserve historical source.",
+            "sha256": "bc2a868d0af4efcfb84f9198d70b03d18ebf4dff561f9e87ee0a6d07755b035e"
+          },
+          {
+            "path": "docs/research/results/v4-study-047-process-guard-diagnostic/epoch-2/probe.stderr.bin",
+            "line": 23,
+            "reason": "Exact native diagnostic failure stderr, bound by original execution and independent review; preserve raw traceback.",
+            "sha256": "181728bc5d3d45a6157a039fbda78392d7806f5ee5a2a77907704ff75ca99176"
+          }
+        ],
+        "unexpected_whitespace_findings": 0,
+        "original_hash_verified_parent_raw_log_exclusions": [
+          "docs/research/results/v4-study-047-formal-parent-verification/staged-whitespace.stdout.bin",
+          "docs/research/results/v4-study-047-formal-parent-verification/delivery-check.stderr.bin"
+        ],
+        "feature_go": false,
+        "new_physical_steps": 0,
+        "new_generator_ticks": 0
+      },
+      "scope": "核验当时暂存564文件/218JSON及原始空白例外；交付检查新增日志与本JSON修改在最终暂存时再次语法/范围核实。",
+      "first_attempt": "v1 exit1因父原始diff日志逐字复制已有空白；原脚本/trace不改，v2只对两份已核原hash的父原日志排除。"
+    }
+  },
+  "integration": {
+    "science_contracts": "PASS：Method→Producer/独立Verifier→Engineering→Formal科学对象完整接续。",
+    "boundary": "F1归属Producer2.1/Verifier2.2；Formal不打补丁绕过。",
+    "runtime_guard": "FAIL_F1：macOS Python大小写漏检。",
+    "architecture_drift": "无科学或模型结构漂移；控制面缺口待所有权内修复。",
+    "blocked_tasks": [
+      "2.1控制修复",
+      "2.2控制修复",
+      "2.3历史工程门槛只读再验收",
+      "3.1整体验收"
+    ]
+  },
+  "gaps": [
+    {
+      "id": "F1",
+      "severity": "Important",
+      "ownership": "UPSTREAM_TASKS_WITHIN_SAME_SPEC",
+      "owning_tasks": [
+        "2.1",
+        "2.2"
+      ],
+      "requirements": [
+        "4.1",
+        "4.3"
+      ],
+      "summary": "两CLI和外层检查漏macOS大写Python；父辅助脚本路径检查有价值但不补造全程互斥证明。",
+      "historical_scientific_data_invalidated": false
+    }
+  ],
+  "source_epoch": "a9efac4e57fd90e70ec3dbc33099b2f2a1272b4f",
+  "immutable_epoch_policy": "原正式结果、原审批和源码按旧提交及原hash保全，不覆盖旧门槛、不将旧结果改绑修复后源码、不重复研究数据。",
+  "post_report_failure_history": "作者final_checks v1自匹配TODO误报及v2、诊断所有失败epoch和最终有效RED、正式审查v1相对日志路径错误及v2均保留；作者报告保持冻结，post-report补充单列。 父交付check_delivery v1把原始检查日志复制的空白也计入新发现，exit1原样保留；v2限两份原hash核准的父日志排除后exit0，完整原始科学证据均不改。",
+  "user_intervention_required": false,
+  "next_task": "先接续2.1/2.2的F1控制面修复：保全a9efac4原源码/审批及本轮正式epoch，分别规范化解释器basename，补仅mock ps的大小写RED→GREEN及适当回归，修正未来外层进程检查并独立再审。随后用显式旧来源映射只读再验收2.3/3.1，旧结果永绑原提交。禁止重跑已完成工程/正式CLI、补环境票或改旧数据；未恢复验收前不启动048。",
+  "delivery_scope": "本记录封存于提交前；交付时另核Git提交/推送/干净状态。"
+}

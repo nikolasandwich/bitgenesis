@@ -1,0 +1,7 @@
+{
+  "created_at_utc": "2026-10-08T18:27:28.933183+00:00",
+  "case_insensitive": true,
+  "matches": [],
+  "scope": "当前只读进程快照；不能回溯证明启动时全部进程。",
+  "finding": "外层wrapper与已批准两CLI的解释器匹配为小写，macOS实际ps显示Python大写；本快照补充当前状态，不改源码、不重跑。"
+}

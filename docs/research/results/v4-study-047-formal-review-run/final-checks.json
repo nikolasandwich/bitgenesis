@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "created_at_utc": "2026-10-08T18:50:36.672775+00:00",
+  "diagnostic_manifest_verified": 170,
+  "tracked_immutable_current_checked": 3816,
+  "diagnostic_tracked_before_after_equal": 3894,
+  "author_seal_sha256": "7b585708870b2e2de8a9e2b745ce04114e6db805c9c444a7fd43ab318db8353d",
+  "report_sha256": "151ed1ed9ba760585dd3d63262f6e25d87bfddf9fcfcb91c669a177d537b2d4d",
+  "reviewer_script_syntax": "PASS",
+  "tracked_diff": "empty",
+  "scope": "只读封口，不重新运行科学/测试/guard；临时恢复已保存清单后清理",
+  "reviewer_failure_epochs": [
+    {
+      "script": "audit_v1.py",
+      "exit_code": 1,
+      "classification": "审查器相对日志路径错误；原脚本/trace保留，不是科学失败"
+    }
+  ]
+}

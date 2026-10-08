@@ -1,0 +1,171 @@
+{
+  "archive": {
+    "files": 325,
+    "original_bytes": 119528074,
+    "tar_bytes": 4004651,
+    "sha256": "8fde44cbfa7ec484641b961b1f37306e8f1e5456a3ba79e82e4c465e49b07bab",
+    "restore_directory": "docs/research/results/v4-study-047-formal-review-run/restored-v2"
+  },
+  "strict_science": {
+    "files": 45,
+    "nodes": 8703445,
+    "bytes_equal": true
+  },
+  "routes": {
+    "producer": {
+      "physical_steps": 1792,
+      "future_generator_ticks": 448,
+      "past_generator_ticks": 640,
+      "bytes": 57932524,
+      "wall_seconds": 129.5981286659371,
+      "source_bindings": 1195,
+      "exit_code": 0
+    },
+    "verifier": {
+      "physical_steps": 1792,
+      "future_generator_ticks": 448,
+      "past_generator_ticks": 640,
+      "bytes": 58047692,
+      "wall_seconds": 159.0859679999994,
+      "source_bindings": 1241,
+      "exit_code": 0
+    }
+  },
+  "reused_validation": [
+    {
+      "label": "full",
+      "exit_code": 0,
+      "reexecuted": false,
+      "raw_bindings": 2
+    },
+    {
+      "label": "compile",
+      "exit_code": 0,
+      "reexecuted": false,
+      "raw_bindings": 2
+    },
+    {
+      "label": "producer_help",
+      "exit_code": 0,
+      "reexecuted": false,
+      "raw_bindings": 8
+    },
+    {
+      "label": "verifier_help",
+      "exit_code": 0,
+      "reexecuted": false,
+      "raw_bindings": 2
+    }
+  ],
+  "aggregate": {
+    "continue_north": {
+      "imported": 15014,
+      "rejected_import": 13658,
+      "spent": 14601,
+      "births": 167,
+      "deaths": 178,
+      "leakage": 5976,
+      "bond_spent": 7790,
+      "construction_spent": 668,
+      "copy_spent": 167,
+      "living": 157,
+      "final_energy": 7003,
+      "new_copy_ever": 19,
+      "double_new_ever": 8,
+      "future_persistent10": 0,
+      "persistent10": 0,
+      "longest_double": 19,
+      "formation_supported": 8,
+      "formation_persistent10": 0,
+      "upper_formed": 8,
+      "upper_persistent10": 0,
+      "selected_ancestry_supported": 8,
+      "selected_ancestry_persistent10": 0,
+      "after32_formation_supported": 1,
+      "after32_formation_persistent10": 0,
+      "after32_upper_formed": 0,
+      "after32_upper_persistent10": 0,
+      "after32_selected_ancestry_supported": 0,
+      "after32_selected_ancestry_persistent10": 0
+    },
+    "withdraw_to_natural": {
+      "imported": 14809,
+      "rejected_import": 13863,
+      "spent": 14388,
+      "births": 182,
+      "deaths": 191,
+      "leakage": 5952,
+      "bond_spent": 7526,
+      "construction_spent": 728,
+      "copy_spent": 182,
+      "living": 159,
+      "final_energy": 7011,
+      "new_copy_ever": 20,
+      "double_new_ever": 9,
+      "future_persistent10": 0,
+      "persistent10": 0,
+      "longest_double": 22,
+      "formation_supported": 9,
+      "formation_persistent10": 0,
+      "upper_formed": 9,
+      "upper_persistent10": 0,
+      "selected_ancestry_supported": 9,
+      "selected_ancestry_persistent10": 0,
+      "after32_formation_supported": 2,
+      "after32_formation_persistent10": 0,
+      "after32_upper_formed": 0,
+      "after32_upper_persistent10": 0,
+      "after32_selected_ancestry_supported": 0,
+      "after32_selected_ancestry_persistent10": 0
+    }
+  },
+  "failure_counts": {
+    "continue_north": {
+      "collision": 60,
+      "energy": 1219,
+      "formed": 167,
+      "occupied": 2118,
+      "raw_material": 2234
+    },
+    "withdraw_to_natural": {
+      "collision": 86,
+      "energy": 1210,
+      "formed": 182,
+      "occupied": 1918,
+      "raw_material": 2365
+    }
+  },
+  "policy_counts": {
+    "policy_sites": 1792,
+    "changed_policy_sites": 1360,
+    "empty_policy_sites": 281
+  },
+  "checks": {
+    "author_seal": 1915,
+    "producer_approval": 1985,
+    "verifier_approval": 3023,
+    "engineering_approval": 3535,
+    "restored_files": 325,
+    "producer_inputs": 1195,
+    "producer_execution_source": 201,
+    "producer_execution_raw": 2,
+    "verifier_inputs": 1241,
+    "verifier_execution_source": 201,
+    "verifier_execution_raw": 2,
+    "reused_current_code": 13,
+    "reused_raw": 14,
+    "passive_observations": 1848,
+    "rows": 1792
+  },
+  "elapsed_seconds": 10.344903165940195,
+  "status": "PASS",
+  "scope": {
+    "scientific_module_imports": 0,
+    "physics_steps": 0,
+    "synthetic_physics_steps": 0,
+    "future_draws": 0,
+    "past_draws": 0,
+    "cli_calls": 0,
+    "basis": "现存JSON完整具体类型及字节、独立被动观察与账目/分母/汇总核算"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "docs/research/results/v4-study-047-formal-parent-verification/verify_saved_evidence.py"
+  ],
+  "cwd": "/Users/todd/Documents/bitgenesis",
+  "exit_code": 0,
+  "wall_seconds": 7.156131790950894,
+  "finished_at_utc": "2026-10-08T18:52:15.769106+00:00",
+  "script_sha256": "d4520037d7c8f6dc51f6ae71a5ca372e92739d1655ac9f5ce5bdec69851efc35",
+  "raw_output_sha256": {
+    "stdout.bin": "cb806a8b8ff259b06822c81b7a1bc6182002b7cfd77c18f3c5e8764947d3ca59",
+    "stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "new_physical_steps": 0,
+  "new_future_generator_ticks": 0
+}
