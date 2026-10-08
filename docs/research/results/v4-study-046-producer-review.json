@@ -1,0 +1,214 @@
+{
+  "verdict": "APPROVED",
+  "task": "2.1",
+  "study": "046",
+  "reviewer": "独立上下文 /root/refill_producer_review",
+  "review_mode": "新上下文任务局部独立代码、测试、边界与保存证据审查；非inline fallback",
+  "independent_author_review": true,
+  "skills": [
+    ".agents/skills/kiro-review/SKILL.md",
+    ".agents/skills/kiro-verify-completion/SKILL.md"
+  ],
+  "requirements": [
+    "1.1",
+    "1.2",
+    "2.1",
+    "2.2",
+    "3.1",
+    "3.2",
+    "4.1"
+  ],
+  "scope": "仅任务2.1正式输入绑定、生产投影与生产边界测试；审查已有首E120005两arm共26未来态的两次生产工程证据。不执行正式main、不新增整队列科学投影、不重跑真实pilot；不以尚未存在的任务2.2核验器为拒绝理由。",
+  "claim_verification": {
+    "status": "VERIFIED",
+    "claim_type": "TASK",
+    "claim": "任务2.1生产实现、边界测试与限定首例生产工程证据可接受；不构成任务2.2、2.3或正式科学审计完成。"
+  },
+  "mechanical": {
+    "first_action": {
+      "command": "git diff; git status --short",
+      "exit_code": 0,
+      "result": "3个实现/测试文件均为untracked，已全部直接读取；没有已跟踪实现差异。"
+    },
+    "canonical_tests": {
+      "command": "PYTHONPATH=src .venv/bin/python -m unittest discover -s tests",
+      "status": "PASS",
+      "exit_code": 0,
+      "tests": 936,
+      "seconds": 56.262,
+      "output_tail": "Ran 936 tests in 56.262s\n\nOK",
+      "task_local_test_methods": 26,
+      "note": "全suite包含既有模拟fixture回归；未运行Study046正式队列或重放Study046物理。"
+    },
+    "compileall": {
+      "command": ".venv/bin/python -m compileall -q src scripts tests",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    "whitespace": {
+      "status": "PASS",
+      "exit_code": 0,
+      "method": "git diff --check，并对三新增文件逐一git diff --no-index --check /dev/null <file>；无诊断。"
+    },
+    "placeholder_scan": {
+      "status": "CLEAN",
+      "files": 3,
+      "markers": [
+        "TBD",
+        "TODO",
+        "FIXME",
+        "HACK",
+        "XXX"
+      ],
+      "matches": 0
+    },
+    "secrets_scan": {
+      "status": "CLEAN",
+      "files": 3,
+      "method": "常见密钥/私钥模式扫描与直接代码检查；未发现硬编码秘密。"
+    },
+    "runtime_static_checks": {
+      "status": "PASS",
+      "method": "AST/import与完整控制流检查；仅标准库和本任务输入工具，无物理内核导入、外部运行依赖或未定义运行时名称。项目pyproject.toml未配置额外lint命令。"
+    },
+    "boundary": "WITHIN：三生产/输入/测试文件与task2.1一致；父层新增的两次首例归档和preservation为已有证据保存，不是额外投影。本审查仅新增本文件。",
+    "boundary_audit": "CLEAN：041真实事件精确摘录，空/消解/不指向槽位均明确source_projection；仅对中行目标投影新提议门槛，没有042能量账、044组件或045区间重算。",
+    "cc_sdd": "已安装，.agents/skills/kiro-discovery/SKILL.md存在；三个核心steering文件均不存在，未臆造额外政策。",
+    "final_input_epoch": {
+      "status": "PASS",
+      "files": 953,
+      "before_equals_after_equals_current": true,
+      "source_read_errors": 0,
+      "method_frozen_source_count": 947,
+      "original_method_reference_count": 3099,
+      "method_references_note": "947冻结来源已逐字节核对当前hash；3099是已批准任务1的原引用数量，本次未重写或重新科学分类。"
+    },
+    "pilot_preservation": {
+      "status": "PASS",
+      "archived_files": 10,
+      "bytes": 3020230,
+      "source_equals_archive_bytes": true,
+      "declared_hash_and_size_verified": true,
+      "nonmetadata_outputs_identical_between_runs": true,
+      "stable_paths_bound": true,
+      "temporary_paths_persistent_dependency": false
+    },
+    "pilot_runs": [
+      {
+        "archive": "docs/research/results/v4-study-046-engineering/producer-initial",
+        "status": "complete",
+        "elapsed_seconds": 7.196153041906655,
+        "input_files": 953,
+        "input_before_equals_after": true,
+        "producer_sha256": "3dbe0048f0d90fc209d545cd9d57419fe99cd3c3bb032049efa77a1d27aef09b",
+        "historical_epoch": true
+      },
+      {
+        "archive": "docs/research/results/v4-study-046-engineering/producer",
+        "status": "complete",
+        "elapsed_seconds": 6.89885745907668,
+        "input_files": 953,
+        "input_before_equals_after": true,
+        "producer_sha256": "0c704f2322b94eff4474f09b985a99fee56cf69bdc987a225e815f69565dba47",
+        "matches_current_producer_and_inputs": true
+      }
+    ],
+    "pilot_scope_each": {
+      "cases": 1,
+      "encoding": "east",
+      "seed": 120005,
+      "arms": 2,
+      "future_states": 26,
+      "diagnostics": 2,
+      "target_ticks": 52,
+      "source_slots": 208,
+      "physical_steps": 0,
+      "other_pairs_executed": 0,
+      "verifier_included": false,
+      "time_limit_seconds": 600,
+      "storage_limit_bytes": 134217728
+    },
+    "independent_saved_pilot_check": {
+      "status": "PASS",
+      "exit_code": 0,
+      "method": "仅直接读取既有归档及来源，不导入或调用046生产科学函数，不生成另一组科学产物。逐项核对208槽位键/票/行动身份/源模式、52目标三阶段和birth对象、7个原gap/成功端点；新arm的7个中行提议按保存阶段独立核门槛，旧arm的11个中行事件按041指针验证完整对象相同。",
+      "source_reference_resolutions": 257,
+      "distinct_source_files": 4,
+      "source_slots": 208,
+      "target_ticks": 52,
+      "gaps": 7,
+      "exact_041_incoming_events": 11,
+      "new_incoming_events_checked": 7,
+      "summary_index_cells_pair_cross_counts_verified": true
+    },
+    "formal_data_directory_exists": false
+  },
+  "red_phase": {
+    "status": "VERIFIED",
+    "evidence_origin": "实现者当前上下文原始工具输出摘录，经父上下文转交；未另存原始磁盘日志，审查者未重跑或重造RED。",
+    "command": "PYTHONPATH=src .venv/bin/python -m unittest tests.test_v4_middle_refill",
+    "initial": {
+      "exit_code": 1,
+      "output": "ERROR: test_v4_middle_refill (unittest.loader._FailedTest.test_v4_middle_refill)\nImportError: Failed to import test module: test_v4_middle_refill\nloader.py line 137: module = __import__(module_name)\ntests/test_v4_middle_refill.py line 9: from scripts import analyze_v4_middle_refill as audit\nImportError: cannot import name 'analyze_v4_middle_refill' from 'scripts' (unknown location)\nRan 1 test in 0.000s\nFAILED (errors=1)",
+      "interpretation": "首次为实现模块尚缺失的RED；不把ImportError单独当作全部科学行为已经验证。"
+    },
+    "interface_behavior": {
+      "exit_code": 1,
+      "output": "........F..E..........\nERROR: test_formal_entry_cannot_omit_verifier\nline 374: audit.run(output=Path(self.tmp.name)/'bad', include_verifier=False)\nTypeError: run() got an unexpected keyword argument 'include_verifier'\nFAIL: test_engineering_default_still_binds_verifier\nline 384: self.assertTrue(inventory.call_args.kwargs['include_verifier'])\nAssertionError: False is not true\nRan 22 tests in 0.101s\nFAILED (failures=1, errors=1)",
+      "interpretation": "明确关联正式入口不得省略verifier，以及工程默认仍绑定verifier的行为契约。当前26项任务测试已包含于独立新鲜全suite GREEN。"
+    }
+  },
+  "verified_contracts": [
+    "1.1/1.2：冻结947来源和3099引用保持原任务1事实；运行时以已批准方法清单、review hash与完整100索引绑定输入。首例包含两arm诊断，工程只截取首E120005，正式契约仍保留28配对/56arm/780态和10短窗。",
+    "1.2：旧E/W control使用完整selection、039.ablation等于043.control、041case/row/event精确指针与hash；旧事件门槛不重算，历史parent inline fallback身份未改写。",
+    "2.1/2.2：八有向槽位含other源100/103；前态为空与零能消解均无真实proposal，票另存ticket_target；not_pointing保留实际指向但不是该槽位的失败提议。",
+    "2.2：目标门槛基于消解后形成前的占据与raw；低能遇到其他多个候选仍保留energy首失败，候选包括所有真实邻源；新生在出生tick不行动，births的id/parent/site/出生tick与末态逐事件核对。",
+    "3.1：gap原对象与规范化hash不变；决策窗包含成功端点b，同tick替换保留1决策tick/0空末态，左右删失和缺口外记录不丢失；错误端点与重叠连接有拒错测试。",
+    "3.2：20编码×窗口×arm格、固定政策分母20、100原索引、28配对合成测试、S零格、全部八状态与四源区域以及缺口内外交叉零项保留；目标tick、源槽位、真实提议、候选、出生和gap分母分开。",
+    "4.1：独占输出和前后来源绑定、预算、失败metadata、已完成pair检查点均有可执行失败测试；正式入口拒绝include_verifier=False；工程默认仍为True，本阶段显式False仅绑定生产源码，后续核验器加入后默认完整954来源。"
+  ],
+  "findings": [],
+  "remediation": null,
+  "review_limitations": [
+    "仅批准task2.1；task2.2独立核验器、task2.3双路线工程集成/干净提交以及task3全队列执行仍未完成，不得把本报告当成这些阶段的批准。",
+    "真实来源科学范围只包含已有首E120005两arm26态；其余27配对未执行，未创建data/v4-study-046。全队列计数仍是方法/接口契约，不是本次正式科学结果。",
+    "首版与当前producer源码epoch不同；四个非metadata产物字节完全相同，两版metadata均原样归档，未要求历史源码hash等于当前源码。",
+    "RED为实现者工具输出的转交摘录，未存在独立原始日志文件；新鲜GREEN、静态检查、归档字节及保存对象核对由本审查者独立执行。",
+    "本报告0物理指Study046审查/生产工程；canonical suite按要求执行既有测试fixture，不以测试fixture替代正式研究证据。"
+  ],
+  "summary": "任务2.1生产输入绑定、局部槽位/目标/缺口投影与边界测试通过独立审查；936项全suite通过，首例归档与当前源码及953来源绑定一致，未发现阻断项，未执行完整科学队列。",
+  "study046_physical_steps": 0,
+  "full_queue_executed": false,
+  "scientific_audit_complete": false,
+  "files_sha256": {
+    "scripts/middle_refill_inputs.py": "34b5fcb7450fb0a42475eb2f6289a467a448d7822b9d5aec36a44a27d3cb4c91",
+    "scripts/analyze_v4_middle_refill.py": "0c704f2322b94eff4474f09b985a99fee56cf69bdc987a225e815f69565dba47",
+    "tests/test_v4_middle_refill.py": "0d54b7eee667cc76db745d7991ed0bb63ea43f01ea7b062de3c170ab086a1f9b"
+  },
+  "evidence_sha256": {
+    "docs/research/results/v4-study-046-engineering/producer-initial/index.json": "0a2b80adb6b4a68e7b1faebd07eb87c0032876cee8aabe1f33227f1ced82f74f",
+    "docs/research/results/v4-study-046-engineering/producer-initial/metadata.json": "d06f0b6ee0474b0206ea817788d62747237391b30a6fa1f214948dc8c5fb1a2a",
+    "docs/research/results/v4-study-046-engineering/producer-initial/pair-01.json": "2765e25d0b61d4f4d23821c587a300b4a859daa3e6630a2ca7e6fbc1f13d32c7",
+    "docs/research/results/v4-study-046-engineering/producer-initial/records.json": "3e3f454afb22ffa78a136dbbcb56478eef9d34fb134b2b818a05d541800482d3",
+    "docs/research/results/v4-study-046-engineering/producer-initial/summary.json": "cf1c5b7a4855076e92506b2b920031e2ac659837c8e6e14b0cc479723570e59a",
+    "docs/research/results/v4-study-046-engineering/producer/index.json": "0a2b80adb6b4a68e7b1faebd07eb87c0032876cee8aabe1f33227f1ced82f74f",
+    "docs/research/results/v4-study-046-engineering/producer/metadata.json": "4e29f63b4959052afe82786d29088471abab0baf2841daa6641c64de7139e8d5",
+    "docs/research/results/v4-study-046-engineering/producer/pair-01.json": "2765e25d0b61d4f4d23821c587a300b4a859daa3e6630a2ca7e6fbc1f13d32c7",
+    "docs/research/results/v4-study-046-engineering/producer/records.json": "3e3f454afb22ffa78a136dbbcb56478eef9d34fb134b2b818a05d541800482d3",
+    "docs/research/results/v4-study-046-engineering/producer/summary.json": "cf1c5b7a4855076e92506b2b920031e2ac659837c8e6e14b0cc479723570e59a",
+    "docs/research/results/v4-study-046-producer-preservation.json": "3e8004d263b13ccc074398c96239f545b2a802630c6d65985d284bd0e05ea9d7"
+  },
+  "context_sha256": {
+    "experiments/v4/study-046.md": "2dc0ee3924a3bf7b13eccb1a12ef97dbac8d2e270a2ed6f8659ca24844465c6a",
+    ".kiro/specs/middle-refill-opportunities/requirements.md": "8bd06903b77985552cf8b1b270a56243c16d3fb4de39d6c60870c63e1cca03e0",
+    ".kiro/specs/middle-refill-opportunities/design.md": "5aade48e9b826892bfe4ec65e6d6f29b0e9f9f084c8fe439053cf43a9da3a5c3",
+    "docs/research/results/v4-study-046-design-sources.json": "2fd769749723f867b87b840c21730ad6e608edba30ef14e0e2d11d40da11eef0",
+    "docs/research/results/v4-study-046-design-census.json": "a6aabe7c8d7d5ba0a08a2883c6b77185c5a078c531d852389d6efdbf44cf4b00",
+    "docs/research/results/v4-study-046-design-review.json": "aa3baead4994c41af4a4aa7499adb9d6ffb683f111c8a9edde6865fa7e455c99"
+  },
+  "excluded_mutable_files": [
+    ".kiro/specs/middle-refill-opportunities/tasks.md",
+    ".kiro/specs/middle-refill-opportunities/spec.json",
+    "LOG.md"
+  ]
+}

@@ -7,7 +7,7 @@
   - _Requirements: 1.1, 1.2, 3.1, 4.1_
 
 - [ ] 2. 构建并验收两独立只读路线。
-- [ ] 2.1 实现生产投影与边界测试。
+- [x] 2.1 实现生产投影与边界测试。
   - 全槽位、目标阶段、既有gap连接及20格/28配对契约有意义RED→GREEN，保留041值精确引用；只允许合成案例和首E120005输入。
   - 完成时生产行为、来源拒错、独占/预算/失败留存均可验证，尚未运行完整队列。
   - _Boundary:_ 正式输入绑定、生产投影、生产测试。
@@ -32,3 +32,5 @@
 任务图由新上下文refill_method_review独立审查；首次要求拆分工程/正式和修正单项编号，修订后APPROVED。全部顺序，不标并行。
 
 任务1完成证据：947来源前后hash、3099引用全核对；28配对56arm/780态、116旧041row、226gap/601决策tick/2404槽位，0科学分类/0物理；方法首次运行成功，py_compile/diff检查及refill_method_review独立APPROVED。方法清单/报告见docs/research/v4-study-046-method.zh-CN.md和results/v4-study-046-design-review.json。任务2–3未执行。
+
+任务2.1完成证据：refill_producer实际新作者，refill_producer_review独立APPROVED；26新增边界/故障测试，936项全suite PASS56.262秒，compileall/空白/占位符/密钥检查通过。首E120005两arm26态、208槽位/52目标tick生产首例两次均成功（入口接口修订前后两个源码epoch），0物理/953来源前后一致；10份JSON共3020230字节逐字节归档。两路线集成及全队列未执行，下一项2.2。

@@ -1,0 +1,70 @@
+{
+  "study": "046",
+  "phase": "task-2.1-producer-engineering",
+  "physical_steps": 0,
+  "failures": [],
+  "note": "仅生产首例，尚未独立科学核验。首版与当前入口接口源码epoch不同，四个非metadata产物相同；不覆盖历史。",
+  "files": [
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task21-vhvpq35j/producer/index.json",
+      "archive": "docs/research/results/v4-study-046-engineering/producer-initial/index.json",
+      "bytes": 27783,
+      "sha256": "0a2b80adb6b4a68e7b1faebd07eb87c0032876cee8aabe1f33227f1ced82f74f"
+    },
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task21-vhvpq35j/producer/metadata.json",
+      "archive": "docs/research/results/v4-study-046-engineering/producer-initial/metadata.json",
+      "bytes": 289043,
+      "sha256": "d06f0b6ee0474b0206ea817788d62747237391b30a6fa1f214948dc8c5fb1a2a"
+    },
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task21-vhvpq35j/producer/pair-01.json",
+      "archive": "docs/research/results/v4-study-046-engineering/producer-initial/pair-01.json",
+      "bytes": 512051,
+      "sha256": "2765e25d0b61d4f4d23821c587a300b4a859daa3e6630a2ca7e6fbc1f13d32c7"
+    },
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task21-vhvpq35j/producer/records.json",
+      "archive": "docs/research/results/v4-study-046-engineering/producer-initial/records.json",
+      "bytes": 548191,
+      "sha256": "3e3f454afb22ffa78a136dbbcb56478eef9d34fb134b2b818a05d541800482d3"
+    },
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task21-vhvpq35j/producer/summary.json",
+      "archive": "docs/research/results/v4-study-046-engineering/producer-initial/summary.json",
+      "bytes": 133045,
+      "sha256": "cf1c5b7a4855076e92506b2b920031e2ac659837c8e6e14b0cc479723570e59a"
+    },
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task21-final-573z28mp/producer/index.json",
+      "archive": "docs/research/results/v4-study-046-engineering/producer/index.json",
+      "bytes": 27783,
+      "sha256": "0a2b80adb6b4a68e7b1faebd07eb87c0032876cee8aabe1f33227f1ced82f74f"
+    },
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task21-final-573z28mp/producer/metadata.json",
+      "archive": "docs/research/results/v4-study-046-engineering/producer/metadata.json",
+      "bytes": 289047,
+      "sha256": "4e29f63b4959052afe82786d29088471abab0baf2841daa6641c64de7139e8d5"
+    },
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task21-final-573z28mp/producer/pair-01.json",
+      "archive": "docs/research/results/v4-study-046-engineering/producer/pair-01.json",
+      "bytes": 512051,
+      "sha256": "2765e25d0b61d4f4d23821c587a300b4a859daa3e6630a2ca7e6fbc1f13d32c7"
+    },
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task21-final-573z28mp/producer/records.json",
+      "archive": "docs/research/results/v4-study-046-engineering/producer/records.json",
+      "bytes": 548191,
+      "sha256": "3e3f454afb22ffa78a136dbbcb56478eef9d34fb134b2b818a05d541800482d3"
+    },
+    {
+      "source": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task21-final-573z28mp/producer/summary.json",
+      "archive": "docs/research/results/v4-study-046-engineering/producer/summary.json",
+      "bytes": 133045,
+      "sha256": "cf1c5b7a4855076e92506b2b920031e2ac659837c8e6e14b0cc479723570e59a"
+    }
+  ],
+  "total_bytes": 3020230
+}
