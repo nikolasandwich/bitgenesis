@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-08T13:16:41.099696+00:00",
+  "preserved_pairs_checked_before_this_record": 85,
+  "preserved_bytes_checked_before_this_record": 63496959,
+  "scientific_files": 64,
+  "scientific_bytes": 63469242,
+  "all_original_archive_bytes_sha_sizes_equal": true,
+  "all_changes_within_authorized_new_artifact_paths": true,
+  "tracked_diff_empty": true,
+  "all_new_files_whitespace_clean": true,
+  "all_601_gap_target_keys_unique_within_each_arm": true,
+  "terminology_clarification": {
+    "file": "run/final-checks.json",
+    "field": "unique_gap_keys_per_arm",
+    "meaning": "检查的是所有缺口决策target_key在各arm中不重复（旧278、新323），不是把同一gap的多个tick视作不同gap或声称gap_key逐行唯一。",
+    "actual_check": "len({tuple(e[\"target_key\"]) for e in entries}) == len(entries)"
+  },
+  "report_final_sha256": "478aa0df254ed8a3223bfc562a2d3f88b61632f6dd7ef54d12f8f9251d73c285",
+  "report_final_bytes": 21704,
+  "report_analysis_sha256": "5eeda528810212fdcda3c9333c1d8b87714b1a6ad769cf0d1991619e639ae619",
+  "report_analysis_bytes": 2482932,
+  "claim_scope": "READY_FOR_REVIEW；父层独立审查和最终GO尚待执行；不标任务完成"
+}

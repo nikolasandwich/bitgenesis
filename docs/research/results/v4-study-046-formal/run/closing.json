@@ -1,0 +1,48 @@
+{
+  "utc": "2026-10-08T13:03:12.338164+00:00",
+  "git_head": "712528a8923aa3699b44b0ca550b53a6785965d2",
+  "git_status_before_archive": "",
+  "engineering_998_bindings_rechecked": true,
+  "formal_954_inputs_all_current": true,
+  "input_before_after_both_routes_equal": true,
+  "producer_32_hashes_before_after_equal": true,
+  "verifier_31_output_hashes_before_after_equal": true,
+  "all_read_error_maps_empty": true,
+  "new_simulation_steps_each": 0,
+  "new_environment_sources_each": 0,
+  "new_independent_initial_worlds_each": 0,
+  "physical_boundary": "Both approved algorithms only read saved states; no simulator command or replay invoked",
+  "source_code_sha256": {
+    "scripts/middle_refill_inputs.py": "34b5fcb7450fb0a42475eb2f6289a467a448d7822b9d5aec36a44a27d3cb4c91",
+    "scripts/analyze_v4_middle_refill.py": "0c704f2322b94eff4474f09b985a99fee56cf69bdc987a225e815f69565dba47",
+    "scripts/verify_v4_middle_refill.py": "881c8dd4548700adb73811e2f45b37f1a05a9edc88619eeced21fb40bd92b8ac",
+    "tests/test_v4_middle_refill.py": "0d54b7eee667cc76db745d7991ed0bb63ea43f01ea7b062de3c170ab086a1f9b",
+    "tests/test_v4_middle_refill_verifier.py": "6d09485ff0748f3c135284c82e564aeeacf7298829ade10fe05d979027de5391"
+  },
+  "route_counts": {
+    "completed_cases": 28,
+    "completed_arms": 56,
+    "saved_steps": 780,
+    "diagnostic_states": 56,
+    "target_ticks": 1560,
+    "source_slots": 6240
+  },
+  "routes": {
+    "producer": {
+      "files": 32,
+      "bytes": 31728551,
+      "elapsed_seconds": 11.18911212508101,
+      "max_file_bytes": 16098781,
+      "budget_pass": true,
+      "status": "complete"
+    },
+    "verifier": {
+      "files": 32,
+      "bytes": 31740691,
+      "elapsed_seconds": 41.95820329198614,
+      "max_file_bytes": 16098781,
+      "budget_pass": true,
+      "status": "complete"
+    }
+  }
+}

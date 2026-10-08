@@ -1,0 +1,25 @@
+{
+  "route": "producer",
+  "command": "PYTHONPATH=src .venv/bin/python -m scripts.analyze_v4_middle_refill",
+  "argv": [
+    ".venv/bin/python",
+    "-m",
+    "scripts.analyze_v4_middle_refill"
+  ],
+  "cwd": "/Users/todd/Documents/bitgenesis",
+  "environment_overrides": {
+    "PYTHONPATH": "src"
+  },
+  "git_head": "712528a8923aa3699b44b0ca550b53a6785965d2",
+  "git_status_before": "",
+  "started_utc": "2026-10-08T12:59:32.263812+00:00",
+  "engineering": false,
+  "time_limit_seconds": 600,
+  "storage_limit_bytes": 134217728,
+  "output": "data/v4-study-046",
+  "attempt": 1,
+  "exit_code": 0,
+  "wall_seconds": 11.375869167037308,
+  "finished_utc": "2026-10-08T12:59:43.639896+00:00",
+  "git_status_after": ""
+}

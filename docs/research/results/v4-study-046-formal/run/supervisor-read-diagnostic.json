@@ -1,0 +1,10 @@
+{
+  "stage": "post-producer, before any verifier launch",
+  "operation": "Read metadata and check producer completion",
+  "exit_code": 1,
+  "traceback": "Traceback (most recent call last):\n  File \"<stdin>\", line 5, in <module>\nKeyError: 'physical_steps'\n",
+  "cause": "Supervisory read-only script used nonexistent metadata key physical_steps; formal metadata records new_simulation_steps",
+  "impact": "No formal execution failed; producer was already complete; verifier was not launched; no output altered; no scientific rerun",
+  "evidence_origin": "Actual tool output transcribed, not an original stderr capture",
+  "resolution": "Inspect actual keys and continue once with unchanged approved verifier"
+}

@@ -1,0 +1,5 @@
+{
+  "command": "ps -axo pid,ppid,comm,args",
+  "filter": "Python processes executing analyze_v4_middle_refill or verify_v4_middle_refill",
+  "matches": []
+}

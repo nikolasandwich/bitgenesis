@@ -1,0 +1,62 @@
+{
+  "utc": "2026-10-08T12:59:14.587247+00:00",
+  "cwd": "/Users/todd/Documents/bitgenesis",
+  "git_head": "712528a8923aa3699b44b0ca550b53a6785965d2",
+  "git_status_porcelain": "",
+  "formal_directory_exists": false,
+  "formal_processes": [],
+  "engineering_review": {
+    "path": "docs/research/results/v4-study-046-engineering-review.json",
+    "sha256": "04410500b75154df9c0a552c42d719dac940679303bec180f070cc1740c00c89",
+    "verdict": "APPROVED",
+    "binding_count": 998,
+    "binding_errors": [],
+    "code_tests_sha256": {
+      "scripts/middle_refill_inputs.py": "34b5fcb7450fb0a42475eb2f6289a467a448d7822b9d5aec36a44a27d3cb4c91",
+      "scripts/analyze_v4_middle_refill.py": "0c704f2322b94eff4474f09b985a99fee56cf69bdc987a225e815f69565dba47",
+      "scripts/verify_v4_middle_refill.py": "881c8dd4548700adb73811e2f45b37f1a05a9edc88619eeced21fb40bd92b8ac",
+      "tests/test_v4_middle_refill.py": "0d54b7eee667cc76db745d7991ed0bb63ea43f01ea7b062de3c170ab086a1f9b",
+      "tests/test_v4_middle_refill_verifier.py": "6d09485ff0748f3c135284c82e564aeeacf7298829ade10fe05d979027de5391"
+    }
+  },
+  "canonical_suite_same_code": {
+    "command": "PYTHONPATH=src .venv/bin/python -m unittest discover -s tests",
+    "status": "PASS",
+    "exit_code": 0,
+    "tests": 966,
+    "seconds": 64.819,
+    "output_tail": "Ran 966 tests in 64.819s\n\nOK",
+    "note": "全suite含既有模拟fixture回归；未运行Study046真实投影、真实核验首例或新增Study046物理。",
+    "reexecuted_by_this_reviewer": false,
+    "evidence_review_path": "docs/research/results/v4-study-046-verifier-review.json",
+    "evidence_review_sha256": "4d8feb1dd6e4d873cd4d373ae202ab79162436b819a78e973a3ab6bb18fb62ca",
+    "freshness": "独立重新读取并校验978项审查绑定及全部5个当前代码/测试文件，无代码变化；沿用同版真实966项PASS证据，未无原因重复suite。"
+  },
+  "compile_same_code": {
+    "status": "PASS",
+    "command": ".venv/bin/python -m compileall -q src scripts tests",
+    "exit_code": 0,
+    "evidence": "integration-run/validation.json及两份空stdout/stderr已与实际临时原件逐字节核对；本审查另对5代码/测试AST parse通过。",
+    "reexecuted_by_this_reviewer": false
+  },
+  "formal_entry_read_checks": {
+    "producer_main_defaults": true,
+    "verifier_default_source_output": true,
+    "both_clean_launch": true,
+    "engineering_false": true,
+    "seconds_each": 600,
+    "bytes_each": 134217728
+  },
+  "executor": "/root/refill_formal",
+  "algorithm_authors": "Existing independently authored producer and verifier; both formal executions by /root/refill_formal",
+  "python": "3.14.2 (main, Dec  5 2025, 16:49:16) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "python_executable": "/Users/todd/Documents/bitgenesis/.venv/bin/python",
+  "environment_recorded": {
+    "PYTHONPATH": "src",
+    "PATH": "/Users/todd/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Applications/ChatGPT.app/Contents/Resources/codex-cli/codex-path:/Users/todd/.codex/tmp/arg0/codex-arg0wZZgCK:/Users/todd/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/Users/todd/.local/bin:/Users/todd/.sdkman/candidates/java/current/bin:/Applications/Obsidian.app/Contents/MacOS:/Users/todd/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/Applications/ChatGPT.app/Contents/Resources:/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS:/Applications/Obsidian.app/Contents/MacOS",
+    "LANG": "C.UTF-8",
+    "LC_ALL": "C.UTF-8",
+    "TZ": null
+  },
+  "environment_policy": "Only execution-related non-secret variables captured; full environment deliberately not serialized."
+}

@@ -1,0 +1,6295 @@
+{
+  "encoding": "north",
+  "selection": {
+    "genotype": "heterogeneous",
+    "mode": "random-direction",
+    "exchange": false,
+    "seed": 120011,
+    "source": "data/v4-study-023/cases/seed-120011-random-direction-exchange-false.json",
+    "eligible": true,
+    "t0": 28,
+    "remaining_steps": 4,
+    "category": "short_window",
+    "original_sites": [
+      85,
+      86
+    ],
+    "offspring_ids": [
+      6,
+      9
+    ],
+    "offspring_sites": [
+      117,
+      118
+    ],
+    "energy_export_preview": 123
+  },
+  "arms": {
+    "control": {
+      "arm": "control",
+      "t0": 28,
+      "saved_steps": 4,
+      "source": {
+        "path": "data/v4-study-043/cases/north-120011.json",
+        "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+        "json_pointer": "/control",
+        "normalized_sha256": "e726690ff43a83265b3e579fec24c8b5f7bee79e5eef6d28236641398d0205f5"
+      },
+      "diagnostic": {
+        "source": {
+          "path": "data/v4-study-043/cases/north-120011.json",
+          "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+          "json_pointer": "/control/initial",
+          "normalized_sha256": "1d387f165f0fdef841703a5a271965b0a99a4c197ba87528977f6cf91d1dad05"
+        },
+        "turnover": {
+          "path": "data/v4-study-045/records.json",
+          "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+          "json_pointer": "/14/arms/control/diagnostic",
+          "normalized_sha256": "bd4e22568dae7ba431624eb4edc8efcb3d5c6ff5a1d2eb10e7b5216698e8d237"
+        }
+      },
+      "proposal_plan": "needed_projection",
+      "reuse_041": null,
+      "rows": [
+        {
+          "tick": 29,
+          "source": {
+            "path": "data/v4-study-043/cases/north-120011.json",
+            "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+            "json_pointer": "/control/rows/0",
+            "normalized_sha256": "82e9ab71b2e66a6d50154e06abdea1b848f2c7df748e1fa4a65db8e7c4da62c1"
+          },
+          "before": {
+            "path": "data/v4-study-043/cases/north-120011.json",
+            "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+            "json_pointer": "/control/initial",
+            "normalized_sha256": "1d387f165f0fdef841703a5a271965b0a99a4c197ba87528977f6cf91d1dad05"
+          },
+          "turnover": {
+            "path": "data/v4-study-045/records.json",
+            "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+            "json_pointer": "/14/arms/control/rows/0",
+            "normalized_sha256": "b92fd5d1f9cbff6bfc8870d32dda6eda5cecc67af5ef6fbf2d697060639062e4"
+          },
+          "reuse_041": null,
+          "slots": [
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                29,
+                100,
+                101
+              ],
+              "tick": 29,
+              "source": 100,
+              "target": 101,
+              "required_direction": 0,
+              "source_region": "other",
+              "direction": 2,
+              "ticket_target": 116,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                29,
+                102,
+                101
+              ],
+              "tick": 29,
+              "source": 102,
+              "target": 101,
+              "required_direction": 1,
+              "source_region": "middle",
+              "direction": 0,
+              "ticket_target": 103,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                29,
+                85,
+                101
+              ],
+              "tick": 29,
+              "source": 85,
+              "target": 101,
+              "required_direction": 2,
+              "source_region": "upper",
+              "direction": 1,
+              "ticket_target": 84,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                29,
+                117,
+                101
+              ],
+              "tick": 29,
+              "source": 117,
+              "target": 101,
+              "required_direction": 3,
+              "source_region": "lower",
+              "direction": 1,
+              "ticket_target": 116,
+              "proposal_target": 116,
+              "identity": 6,
+              "material": 0,
+              "program": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "ancestry_chain": [
+                6,
+                5,
+                0
+              ],
+              "selected_ancestors": [
+                6
+              ],
+              "interaction_energy": 62,
+              "end_identity": 6,
+              "state": "not_pointing",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                29,
+                101,
+                102
+              ],
+              "tick": 29,
+              "source": 101,
+              "target": 102,
+              "required_direction": 0,
+              "source_region": "middle",
+              "direction": 0,
+              "ticket_target": 102,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                29,
+                103,
+                102
+              ],
+              "tick": 29,
+              "source": 103,
+              "target": 102,
+              "required_direction": 1,
+              "source_region": "other",
+              "direction": 1,
+              "ticket_target": 102,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                29,
+                86,
+                102
+              ],
+              "tick": 29,
+              "source": 86,
+              "target": 102,
+              "required_direction": 2,
+              "source_region": "upper",
+              "direction": 3,
+              "ticket_target": 70,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                29,
+                118,
+                102
+              ],
+              "tick": 29,
+              "source": 118,
+              "target": 102,
+              "required_direction": 3,
+              "source_region": "lower",
+              "direction": 2,
+              "ticket_target": 134,
+              "proposal_target": 134,
+              "identity": 9,
+              "material": 0,
+              "program": [
+                0,
+                0,
+                0,
+                2
+              ],
+              "ancestry_chain": [
+                9,
+                7,
+                1
+              ],
+              "selected_ancestors": [
+                9
+              ],
+              "interaction_energy": 62,
+              "end_identity": 9,
+              "state": "not_pointing",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/1"
+              ]
+            }
+          ],
+          "targets": [
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                29,
+                101
+              ],
+              "tick": 29,
+              "target": 101,
+              "before": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "preformation": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "after": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  29,
+                  100,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  29,
+                  102,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  29,
+                  85,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  29,
+                  117,
+                  101
+                ]
+              ],
+              "proposal_keys": [],
+              "candidate_keys": [],
+              "birth": null,
+              "turnover_flags": {
+                "B101": false,
+                "B102": false,
+                "G": true,
+                "actual_double_new": false
+              },
+              "turnover": {
+                "path": "data/v4-study-045/records.json",
+                "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+                "json_pointer": "/14/arms/control/rows/0",
+                "normalized_sha256": "b92fd5d1f9cbff6bfc8870d32dda6eda5cecc67af5ef6fbf2d697060639062e4"
+              },
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                29,
+                102
+              ],
+              "tick": 29,
+              "target": 102,
+              "before": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "preformation": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "after": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  29,
+                  101,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  29,
+                  103,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  29,
+                  86,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  29,
+                  118,
+                  102
+                ]
+              ],
+              "proposal_keys": [],
+              "candidate_keys": [],
+              "birth": null,
+              "turnover_flags": {
+                "B101": false,
+                "B102": false,
+                "G": true,
+                "actual_double_new": false
+              },
+              "turnover": {
+                "path": "data/v4-study-045/records.json",
+                "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+                "json_pointer": "/14/arms/control/rows/0",
+                "normalized_sha256": "b92fd5d1f9cbff6bfc8870d32dda6eda5cecc67af5ef6fbf2d697060639062e4"
+              },
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/1"
+              ]
+            }
+          ]
+        },
+        {
+          "tick": 30,
+          "source": {
+            "path": "data/v4-study-043/cases/north-120011.json",
+            "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+            "json_pointer": "/control/rows/1",
+            "normalized_sha256": "eb0b2446ad7485683e4de090ef78b9839714b2b12e0bde2122c72939650ce25b"
+          },
+          "before": {
+            "path": "data/v4-study-043/cases/north-120011.json",
+            "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+            "json_pointer": "/control/rows/0",
+            "normalized_sha256": "82e9ab71b2e66a6d50154e06abdea1b848f2c7df748e1fa4a65db8e7c4da62c1"
+          },
+          "turnover": {
+            "path": "data/v4-study-045/records.json",
+            "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+            "json_pointer": "/14/arms/control/rows/1",
+            "normalized_sha256": "e3f679bc1fc1c87737b97ff795e4a0ef8b57292423ba083f1deb02a394047cb7"
+          },
+          "reuse_041": null,
+          "slots": [
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                30,
+                100,
+                101
+              ],
+              "tick": 30,
+              "source": 100,
+              "target": 101,
+              "required_direction": 0,
+              "source_region": "other",
+              "direction": 1,
+              "ticket_target": 99,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                30,
+                102,
+                101
+              ],
+              "tick": 30,
+              "source": 102,
+              "target": 101,
+              "required_direction": 1,
+              "source_region": "middle",
+              "direction": 0,
+              "ticket_target": 103,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                30,
+                85,
+                101
+              ],
+              "tick": 30,
+              "source": 85,
+              "target": 101,
+              "required_direction": 2,
+              "source_region": "upper",
+              "direction": 1,
+              "ticket_target": 84,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                30,
+                117,
+                101
+              ],
+              "tick": 30,
+              "source": 117,
+              "target": 101,
+              "required_direction": 3,
+              "source_region": "lower",
+              "direction": 0,
+              "ticket_target": 118,
+              "proposal_target": 118,
+              "identity": 6,
+              "material": 0,
+              "program": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "ancestry_chain": [
+                6,
+                5,
+                0
+              ],
+              "selected_ancestors": [
+                6
+              ],
+              "interaction_energy": 62,
+              "end_identity": 6,
+              "state": "not_pointing",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                30,
+                101,
+                102
+              ],
+              "tick": 30,
+              "source": 101,
+              "target": 102,
+              "required_direction": 0,
+              "source_region": "middle",
+              "direction": 1,
+              "ticket_target": 100,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                30,
+                103,
+                102
+              ],
+              "tick": 30,
+              "source": 103,
+              "target": 102,
+              "required_direction": 1,
+              "source_region": "other",
+              "direction": 3,
+              "ticket_target": 87,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                30,
+                86,
+                102
+              ],
+              "tick": 30,
+              "source": 86,
+              "target": 102,
+              "required_direction": 2,
+              "source_region": "upper",
+              "direction": 0,
+              "ticket_target": 87,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                30,
+                118,
+                102
+              ],
+              "tick": 30,
+              "source": 118,
+              "target": 102,
+              "required_direction": 3,
+              "source_region": "lower",
+              "direction": 0,
+              "ticket_target": 119,
+              "proposal_target": 119,
+              "identity": 9,
+              "material": 0,
+              "program": [
+                0,
+                0,
+                0,
+                2
+              ],
+              "ancestry_chain": [
+                9,
+                7,
+                1
+              ],
+              "selected_ancestors": [
+                9
+              ],
+              "interaction_energy": 62,
+              "end_identity": 9,
+              "state": "not_pointing",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/1"
+              ]
+            }
+          ],
+          "targets": [
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                30,
+                101
+              ],
+              "tick": 30,
+              "target": 101,
+              "before": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "preformation": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "after": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  30,
+                  100,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  30,
+                  102,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  30,
+                  85,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  30,
+                  117,
+                  101
+                ]
+              ],
+              "proposal_keys": [],
+              "candidate_keys": [],
+              "birth": null,
+              "turnover_flags": {
+                "B101": false,
+                "B102": false,
+                "G": true,
+                "actual_double_new": false
+              },
+              "turnover": {
+                "path": "data/v4-study-045/records.json",
+                "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+                "json_pointer": "/14/arms/control/rows/1",
+                "normalized_sha256": "e3f679bc1fc1c87737b97ff795e4a0ef8b57292423ba083f1deb02a394047cb7"
+              },
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                30,
+                102
+              ],
+              "tick": 30,
+              "target": 102,
+              "before": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "preformation": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "after": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  30,
+                  101,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  30,
+                  103,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  30,
+                  86,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  30,
+                  118,
+                  102
+                ]
+              ],
+              "proposal_keys": [],
+              "candidate_keys": [],
+              "birth": null,
+              "turnover_flags": {
+                "B101": false,
+                "B102": false,
+                "G": true,
+                "actual_double_new": false
+              },
+              "turnover": {
+                "path": "data/v4-study-045/records.json",
+                "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+                "json_pointer": "/14/arms/control/rows/1",
+                "normalized_sha256": "e3f679bc1fc1c87737b97ff795e4a0ef8b57292423ba083f1deb02a394047cb7"
+              },
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/1"
+              ]
+            }
+          ]
+        },
+        {
+          "tick": 31,
+          "source": {
+            "path": "data/v4-study-043/cases/north-120011.json",
+            "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+            "json_pointer": "/control/rows/2",
+            "normalized_sha256": "0541956eea76ce7f65746d0a68709c8ce33166a9e845733f00311963bc55b403"
+          },
+          "before": {
+            "path": "data/v4-study-043/cases/north-120011.json",
+            "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+            "json_pointer": "/control/rows/1",
+            "normalized_sha256": "eb0b2446ad7485683e4de090ef78b9839714b2b12e0bde2122c72939650ce25b"
+          },
+          "turnover": {
+            "path": "data/v4-study-045/records.json",
+            "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+            "json_pointer": "/14/arms/control/rows/2",
+            "normalized_sha256": "adaa87952cb191e7a61013bdad7f89712671b7a44ddb1351f16027e0784b953c"
+          },
+          "reuse_041": null,
+          "slots": [
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                31,
+                100,
+                101
+              ],
+              "tick": 31,
+              "source": 100,
+              "target": 101,
+              "required_direction": 0,
+              "source_region": "other",
+              "direction": 1,
+              "ticket_target": 99,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                31,
+                102,
+                101
+              ],
+              "tick": 31,
+              "source": 102,
+              "target": 101,
+              "required_direction": 1,
+              "source_region": "middle",
+              "direction": 2,
+              "ticket_target": 118,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": 11,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                31,
+                85,
+                101
+              ],
+              "tick": 31,
+              "source": 85,
+              "target": 101,
+              "required_direction": 2,
+              "source_region": "upper",
+              "direction": 1,
+              "ticket_target": 84,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                31,
+                117,
+                101
+              ],
+              "tick": 31,
+              "source": 117,
+              "target": 101,
+              "required_direction": 3,
+              "source_region": "lower",
+              "direction": 2,
+              "ticket_target": 133,
+              "proposal_target": 133,
+              "identity": 6,
+              "material": 0,
+              "program": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "ancestry_chain": [
+                6,
+                5,
+                0
+              ],
+              "selected_ancestors": [
+                6
+              ],
+              "interaction_energy": 62,
+              "end_identity": 6,
+              "state": "not_pointing",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                31,
+                101,
+                102
+              ],
+              "tick": 31,
+              "source": 101,
+              "target": 102,
+              "required_direction": 0,
+              "source_region": "middle",
+              "direction": 1,
+              "ticket_target": 100,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                31,
+                103,
+                102
+              ],
+              "tick": 31,
+              "source": 103,
+              "target": 102,
+              "required_direction": 1,
+              "source_region": "other",
+              "direction": 0,
+              "ticket_target": 104,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                31,
+                86,
+                102
+              ],
+              "tick": 31,
+              "source": 86,
+              "target": 102,
+              "required_direction": 2,
+              "source_region": "upper",
+              "direction": 1,
+              "ticket_target": 85,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                31,
+                118,
+                102
+              ],
+              "tick": 31,
+              "source": 118,
+              "target": 102,
+              "required_direction": 3,
+              "source_region": "lower",
+              "direction": 3,
+              "ticket_target": 102,
+              "proposal_target": 102,
+              "identity": 9,
+              "material": 0,
+              "program": [
+                0,
+                0,
+                0,
+                2
+              ],
+              "ancestry_chain": [
+                9,
+                7,
+                1
+              ],
+              "selected_ancestors": [
+                9
+              ],
+              "interaction_energy": 62,
+              "end_identity": 9,
+              "state": "formed",
+              "proposal": {
+                "tick": 31,
+                "source": 118,
+                "target": 102,
+                "direction": 3,
+                "identity": 9,
+                "program": [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                "energy": 62,
+                "target_region": "middle",
+                "target_raw": 1,
+                "target_occupied": false,
+                "target_dissolved": false,
+                "energy_ok": true,
+                "target_empty": true,
+                "raw_ok": true,
+                "candidate": true,
+                "candidate_count": 1,
+                "reason": "formed",
+                "child_id": 11,
+                "lineage": "right",
+                "ancestor": 9,
+                "chain": [
+                  9,
+                  7,
+                  1
+                ]
+              },
+              "proposal_reference": {
+                "path": "data/v4-study-043/cases/north-120011.json",
+                "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+                "json_pointer": "/control/rows/2/physical/material/proposals/1",
+                "normalized_sha256": "d1e39c5dba7103cf37b42c8568bb35d0f1870e99c92576e9347340d7351db8ff"
+              },
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/1"
+              ]
+            }
+          ],
+          "targets": [
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                31,
+                101
+              ],
+              "tick": 31,
+              "target": 101,
+              "before": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "preformation": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "after": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  100,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  102,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  85,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  117,
+                  101
+                ]
+              ],
+              "proposal_keys": [],
+              "candidate_keys": [],
+              "birth": null,
+              "turnover_flags": {
+                "B101": false,
+                "B102": false,
+                "G": true,
+                "actual_double_new": false
+              },
+              "turnover": {
+                "path": "data/v4-study-045/records.json",
+                "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+                "json_pointer": "/14/arms/control/rows/2",
+                "normalized_sha256": "adaa87952cb191e7a61013bdad7f89712671b7a44ddb1351f16027e0784b953c"
+              },
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                31,
+                102
+              ],
+              "tick": 31,
+              "target": 102,
+              "before": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "preformation": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "after": {
+                "identity": 11,
+                "material": 2,
+                "raw": 0
+              },
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  101,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  103,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  86,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  118,
+                  102
+                ]
+              ],
+              "proposal_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  118,
+                  102
+                ]
+              ],
+              "candidate_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  118,
+                  102
+                ]
+              ],
+              "birth": {
+                "id": 11,
+                "site": 102,
+                "birth_tick": 31,
+                "death_tick": null,
+                "parent": 9,
+                "founder": 1,
+                "generation": 3,
+                "material": 2,
+                "program": [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                "birth_energy": 28,
+                "mutated": false,
+                "offspring": 0
+              },
+              "turnover_flags": {
+                "B101": false,
+                "B102": false,
+                "G": true,
+                "actual_double_new": false
+              },
+              "turnover": {
+                "path": "data/v4-study-045/records.json",
+                "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+                "json_pointer": "/14/arms/control/rows/2",
+                "normalized_sha256": "adaa87952cb191e7a61013bdad7f89712671b7a44ddb1351f16027e0784b953c"
+              },
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/1"
+              ]
+            }
+          ]
+        },
+        {
+          "tick": 32,
+          "source": {
+            "path": "data/v4-study-043/cases/north-120011.json",
+            "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+            "json_pointer": "/control/rows/3",
+            "normalized_sha256": "b0916770fa9281c3765aeb0d264962ce07b684c07237b95cb7d3f3385523bf9f"
+          },
+          "before": {
+            "path": "data/v4-study-043/cases/north-120011.json",
+            "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+            "json_pointer": "/control/rows/2",
+            "normalized_sha256": "0541956eea76ce7f65746d0a68709c8ce33166a9e845733f00311963bc55b403"
+          },
+          "turnover": {
+            "path": "data/v4-study-045/records.json",
+            "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+            "json_pointer": "/14/arms/control/rows/3",
+            "normalized_sha256": "528ff4aca6eaf84a7fb3b2a60989138149d8abd9159c570bea0beabbe91e92b6"
+          },
+          "reuse_041": null,
+          "slots": [
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                32,
+                100,
+                101
+              ],
+              "tick": 32,
+              "source": 100,
+              "target": 101,
+              "required_direction": 0,
+              "source_region": "other",
+              "direction": 3,
+              "ticket_target": 84,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                32,
+                102,
+                101
+              ],
+              "tick": 32,
+              "source": 102,
+              "target": 101,
+              "required_direction": 1,
+              "source_region": "middle",
+              "direction": 1,
+              "ticket_target": 101,
+              "proposal_target": 101,
+              "identity": 11,
+              "material": 2,
+              "program": [
+                0,
+                0,
+                0,
+                2
+              ],
+              "ancestry_chain": [
+                11,
+                9,
+                7,
+                1
+              ],
+              "selected_ancestors": [
+                9
+              ],
+              "interaction_energy": 27,
+              "end_identity": 11,
+              "state": "formed",
+              "proposal": {
+                "tick": 32,
+                "source": 102,
+                "target": 101,
+                "direction": 1,
+                "identity": 11,
+                "program": [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                "energy": 27,
+                "target_region": "middle",
+                "target_raw": 1,
+                "target_occupied": false,
+                "target_dissolved": false,
+                "energy_ok": true,
+                "target_empty": true,
+                "raw_ok": true,
+                "candidate": true,
+                "candidate_count": 1,
+                "reason": "formed",
+                "child_id": 12,
+                "lineage": "right",
+                "ancestor": 9,
+                "chain": [
+                  11,
+                  9,
+                  7,
+                  1
+                ]
+              },
+              "proposal_reference": {
+                "path": "data/v4-study-043/cases/north-120011.json",
+                "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+                "json_pointer": "/control/rows/3/physical/material/proposals/0",
+                "normalized_sha256": "a82d4c7c77cc63ebccc5c199f3564933dca2ad7a418fb87183f2e1b795191021"
+              },
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                32,
+                85,
+                101
+              ],
+              "tick": 32,
+              "source": 85,
+              "target": 101,
+              "required_direction": 2,
+              "source_region": "upper",
+              "direction": 2,
+              "ticket_target": 101,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                32,
+                117,
+                101
+              ],
+              "tick": 32,
+              "source": 117,
+              "target": 101,
+              "required_direction": 3,
+              "source_region": "lower",
+              "direction": 2,
+              "ticket_target": 133,
+              "proposal_target": 133,
+              "identity": 6,
+              "material": 0,
+              "program": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "ancestry_chain": [
+                6,
+                5,
+                0
+              ],
+              "selected_ancestors": [
+                6
+              ],
+              "interaction_energy": 62,
+              "end_identity": 6,
+              "state": "not_pointing",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                32,
+                101,
+                102
+              ],
+              "tick": 32,
+              "source": 101,
+              "target": 102,
+              "required_direction": 0,
+              "source_region": "middle",
+              "direction": 1,
+              "ticket_target": 100,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": 12,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": null
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                32,
+                103,
+                102
+              ],
+              "tick": 32,
+              "source": 103,
+              "target": 102,
+              "required_direction": 1,
+              "source_region": "other",
+              "direction": 1,
+              "ticket_target": 102,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": null
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                32,
+                86,
+                102
+              ],
+              "tick": 32,
+              "source": 86,
+              "target": 102,
+              "required_direction": 2,
+              "source_region": "upper",
+              "direction": 1,
+              "ticket_target": 85,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": null
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                32,
+                118,
+                102
+              ],
+              "tick": 32,
+              "source": 118,
+              "target": 102,
+              "required_direction": 3,
+              "source_region": "lower",
+              "direction": 1,
+              "ticket_target": 117,
+              "proposal_target": 117,
+              "identity": 9,
+              "material": 0,
+              "program": [
+                0,
+                0,
+                0,
+                2
+              ],
+              "ancestry_chain": [
+                9,
+                7,
+                1
+              ],
+              "selected_ancestors": [
+                9
+              ],
+              "interaction_energy": 35,
+              "end_identity": 9,
+              "state": "not_pointing",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": null
+            }
+          ],
+          "targets": [
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                32,
+                101
+              ],
+              "tick": 32,
+              "target": 101,
+              "before": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "preformation": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "after": {
+                "identity": 12,
+                "material": 0,
+                "raw": 0
+              },
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  32,
+                  100,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  32,
+                  102,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  32,
+                  85,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  32,
+                  117,
+                  101
+                ]
+              ],
+              "proposal_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  32,
+                  102,
+                  101
+                ]
+              ],
+              "candidate_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  32,
+                  102,
+                  101
+                ]
+              ],
+              "birth": {
+                "id": 12,
+                "site": 101,
+                "birth_tick": 32,
+                "death_tick": null,
+                "parent": 11,
+                "founder": 1,
+                "generation": 4,
+                "material": 0,
+                "program": [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                "birth_energy": 11,
+                "mutated": false,
+                "offspring": 0
+              },
+              "turnover_flags": {
+                "B101": true,
+                "B102": false,
+                "G": false,
+                "actual_double_new": false
+              },
+              "turnover": {
+                "path": "data/v4-study-045/records.json",
+                "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+                "json_pointer": "/14/arms/control/rows/3",
+                "normalized_sha256": "528ff4aca6eaf84a7fb3b2a60989138149d8abd9159c570bea0beabbe91e92b6"
+              },
+              "gap_key": [
+                "north",
+                120011,
+                "control",
+                "/14/arms/control/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "control",
+                32,
+                102
+              ],
+              "tick": 32,
+              "target": 102,
+              "before": {
+                "identity": 11,
+                "material": 2,
+                "raw": 0
+              },
+              "preformation": {
+                "identity": 11,
+                "material": 2,
+                "raw": 0
+              },
+              "after": {
+                "identity": 11,
+                "material": 2,
+                "raw": 0
+              },
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  32,
+                  101,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  32,
+                  103,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  32,
+                  86,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  32,
+                  118,
+                  102
+                ]
+              ],
+              "proposal_keys": [],
+              "candidate_keys": [],
+              "birth": null,
+              "turnover_flags": {
+                "B101": true,
+                "B102": false,
+                "G": false,
+                "actual_double_new": false
+              },
+              "turnover": {
+                "path": "data/v4-study-045/records.json",
+                "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+                "json_pointer": "/14/arms/control/rows/3",
+                "normalized_sha256": "528ff4aca6eaf84a7fb3b2a60989138149d8abd9159c570bea0beabbe91e92b6"
+              },
+              "gap_key": null
+            }
+          ]
+        }
+      ],
+      "gaps": [
+        {
+          "key": [
+            "north",
+            120011,
+            "control",
+            "/14/arms/control/gaps/0"
+          ],
+          "reference": {
+            "path": "data/v4-study-045/records.json",
+            "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+            "json_pointer": "/14/arms/control/gaps/0",
+            "normalized_sha256": "ee0d3dd4f7db192aeb43ac313110a1f946fd0c9317b770828d451e80ce1990c2"
+          },
+          "original": {
+            "site": 101,
+            "predecessor": null,
+            "successor": 12,
+            "start_boundary": 28,
+            "end_boundary": 32,
+            "distance_ticks": 4,
+            "empty_ticks": [
+              29,
+              30,
+              31
+            ],
+            "empty_saved_states": 3,
+            "left_censored": true,
+            "right_censored": false,
+            "same_tick_replacement": false,
+            "material_changed": null
+          },
+          "decision_ticks": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "target_keys": [
+            [
+              "north",
+              120011,
+              "control",
+              29,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              30,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              31,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              32,
+              101
+            ]
+          ],
+          "slot_keys": [
+            [
+              "north",
+              120011,
+              "control",
+              29,
+              100,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              29,
+              102,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              29,
+              85,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              29,
+              117,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              30,
+              100,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              30,
+              102,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              30,
+              85,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              30,
+              117,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              31,
+              100,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              31,
+              102,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              31,
+              85,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              31,
+              117,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              32,
+              100,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              32,
+              102,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              32,
+              85,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              32,
+              117,
+              101
+            ]
+          ],
+          "sequence": [
+            {
+              "tick": 29,
+              "target_key": [
+                "north",
+                120011,
+                "control",
+                29,
+                101
+              ],
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  29,
+                  100,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  29,
+                  102,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  29,
+                  85,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  29,
+                  117,
+                  101
+                ]
+              ],
+              "states": [
+                "empty_source",
+                "empty_source",
+                "empty_source",
+                "not_pointing"
+              ],
+              "real_proposals": 0,
+              "candidate_count": 0,
+              "birth_id": null
+            },
+            {
+              "tick": 30,
+              "target_key": [
+                "north",
+                120011,
+                "control",
+                30,
+                101
+              ],
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  30,
+                  100,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  30,
+                  102,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  30,
+                  85,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  30,
+                  117,
+                  101
+                ]
+              ],
+              "states": [
+                "empty_source",
+                "empty_source",
+                "empty_source",
+                "not_pointing"
+              ],
+              "real_proposals": 0,
+              "candidate_count": 0,
+              "birth_id": null
+            },
+            {
+              "tick": 31,
+              "target_key": [
+                "north",
+                120011,
+                "control",
+                31,
+                101
+              ],
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  100,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  102,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  85,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  117,
+                  101
+                ]
+              ],
+              "states": [
+                "empty_source",
+                "empty_source",
+                "empty_source",
+                "not_pointing"
+              ],
+              "real_proposals": 0,
+              "candidate_count": 0,
+              "birth_id": null
+            },
+            {
+              "tick": 32,
+              "target_key": [
+                "north",
+                120011,
+                "control",
+                32,
+                101
+              ],
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  32,
+                  100,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  32,
+                  102,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  32,
+                  85,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  32,
+                  117,
+                  101
+                ]
+              ],
+              "states": [
+                "empty_source",
+                "formed",
+                "empty_source",
+                "not_pointing"
+              ],
+              "real_proposals": 1,
+              "candidate_count": 1,
+              "birth_id": 12
+            }
+          ],
+          "counts": {
+            "source_slots": 16,
+            "real_proposals": 1,
+            "eligible_candidates": 1,
+            "births": 1,
+            "states": {
+              "empty_source": 11,
+              "dissolved": 0,
+              "not_pointing": 4,
+              "energy": 0,
+              "occupied": 0,
+              "raw_material": 0,
+              "collision": 0,
+              "formed": 1
+            },
+            "target_ticks": 4,
+            "gap_target_ticks": 4,
+            "gap_source_slots": 16,
+            "cross_counts": {
+              "upper": {
+                "inside": {
+                  "source_slots": 4,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 4,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                },
+                "outside": {
+                  "source_slots": 0,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                }
+              },
+              "middle": {
+                "inside": {
+                  "source_slots": 4,
+                  "real_proposals": 1,
+                  "eligible_candidates": 1,
+                  "births": 1,
+                  "states": {
+                    "empty_source": 3,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 1
+                  }
+                },
+                "outside": {
+                  "source_slots": 0,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                }
+              },
+              "lower": {
+                "inside": {
+                  "source_slots": 4,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 4,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                },
+                "outside": {
+                  "source_slots": 0,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                }
+              },
+              "other": {
+                "inside": {
+                  "source_slots": 4,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 4,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                },
+                "outside": {
+                  "source_slots": 0,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                }
+              }
+            }
+          },
+          "intervals_recalculated": false
+        },
+        {
+          "key": [
+            "north",
+            120011,
+            "control",
+            "/14/arms/control/gaps/1"
+          ],
+          "reference": {
+            "path": "data/v4-study-045/records.json",
+            "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+            "json_pointer": "/14/arms/control/gaps/1",
+            "normalized_sha256": "93e329730573794464c4c685fff1384972df9448a04275c023233b8dbb577576"
+          },
+          "original": {
+            "site": 102,
+            "predecessor": null,
+            "successor": 11,
+            "start_boundary": 28,
+            "end_boundary": 31,
+            "distance_ticks": 3,
+            "empty_ticks": [
+              29,
+              30
+            ],
+            "empty_saved_states": 2,
+            "left_censored": true,
+            "right_censored": false,
+            "same_tick_replacement": false,
+            "material_changed": null
+          },
+          "decision_ticks": [
+            29,
+            30,
+            31
+          ],
+          "target_keys": [
+            [
+              "north",
+              120011,
+              "control",
+              29,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              30,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              31,
+              102
+            ]
+          ],
+          "slot_keys": [
+            [
+              "north",
+              120011,
+              "control",
+              29,
+              101,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              29,
+              103,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              29,
+              86,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              29,
+              118,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              30,
+              101,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              30,
+              103,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              30,
+              86,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              30,
+              118,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              31,
+              101,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              31,
+              103,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              31,
+              86,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "control",
+              31,
+              118,
+              102
+            ]
+          ],
+          "sequence": [
+            {
+              "tick": 29,
+              "target_key": [
+                "north",
+                120011,
+                "control",
+                29,
+                102
+              ],
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  29,
+                  101,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  29,
+                  103,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  29,
+                  86,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  29,
+                  118,
+                  102
+                ]
+              ],
+              "states": [
+                "empty_source",
+                "empty_source",
+                "empty_source",
+                "not_pointing"
+              ],
+              "real_proposals": 0,
+              "candidate_count": 0,
+              "birth_id": null
+            },
+            {
+              "tick": 30,
+              "target_key": [
+                "north",
+                120011,
+                "control",
+                30,
+                102
+              ],
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  30,
+                  101,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  30,
+                  103,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  30,
+                  86,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  30,
+                  118,
+                  102
+                ]
+              ],
+              "states": [
+                "empty_source",
+                "empty_source",
+                "empty_source",
+                "not_pointing"
+              ],
+              "real_proposals": 0,
+              "candidate_count": 0,
+              "birth_id": null
+            },
+            {
+              "tick": 31,
+              "target_key": [
+                "north",
+                120011,
+                "control",
+                31,
+                102
+              ],
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  101,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  103,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  86,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "control",
+                  31,
+                  118,
+                  102
+                ]
+              ],
+              "states": [
+                "empty_source",
+                "empty_source",
+                "empty_source",
+                "formed"
+              ],
+              "real_proposals": 1,
+              "candidate_count": 1,
+              "birth_id": 11
+            }
+          ],
+          "counts": {
+            "source_slots": 12,
+            "real_proposals": 1,
+            "eligible_candidates": 1,
+            "births": 1,
+            "states": {
+              "empty_source": 9,
+              "dissolved": 0,
+              "not_pointing": 2,
+              "energy": 0,
+              "occupied": 0,
+              "raw_material": 0,
+              "collision": 0,
+              "formed": 1
+            },
+            "target_ticks": 3,
+            "gap_target_ticks": 3,
+            "gap_source_slots": 12,
+            "cross_counts": {
+              "upper": {
+                "inside": {
+                  "source_slots": 3,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 3,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                },
+                "outside": {
+                  "source_slots": 0,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                }
+              },
+              "middle": {
+                "inside": {
+                  "source_slots": 3,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 3,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                },
+                "outside": {
+                  "source_slots": 0,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                }
+              },
+              "lower": {
+                "inside": {
+                  "source_slots": 3,
+                  "real_proposals": 1,
+                  "eligible_candidates": 1,
+                  "births": 1,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 2,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 1
+                  }
+                },
+                "outside": {
+                  "source_slots": 0,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                }
+              },
+              "other": {
+                "inside": {
+                  "source_slots": 3,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 3,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                },
+                "outside": {
+                  "source_slots": 0,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                }
+              }
+            }
+          },
+          "intervals_recalculated": false
+        }
+      ]
+    },
+    "ablation": {
+      "arm": "ablation",
+      "t0": 28,
+      "saved_steps": 4,
+      "source": {
+        "path": "data/v4-study-043/cases/north-120011.json",
+        "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+        "json_pointer": "/ablation",
+        "normalized_sha256": "23145367d0aab788a5c2c23fc9a671338d0a7e831375e77f3e7468f843451d62"
+      },
+      "diagnostic": {
+        "source": {
+          "path": "data/v4-study-043/cases/north-120011.json",
+          "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+          "json_pointer": "/ablation/initial",
+          "normalized_sha256": "1d387f165f0fdef841703a5a271965b0a99a4c197ba87528977f6cf91d1dad05"
+        },
+        "turnover": {
+          "path": "data/v4-study-045/records.json",
+          "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+          "json_pointer": "/14/arms/ablation/diagnostic",
+          "normalized_sha256": "bd4e22568dae7ba431624eb4edc8efcb3d5c6ff5a1d2eb10e7b5216698e8d237"
+        }
+      },
+      "proposal_plan": "needed_projection",
+      "reuse_041": null,
+      "rows": [
+        {
+          "tick": 29,
+          "source": {
+            "path": "data/v4-study-043/cases/north-120011.json",
+            "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+            "json_pointer": "/ablation/rows/0",
+            "normalized_sha256": "c051da439c5a64e67f90d498f69721bd200f189fb1025a4e3884a838299b7b33"
+          },
+          "before": {
+            "path": "data/v4-study-043/cases/north-120011.json",
+            "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+            "json_pointer": "/ablation/initial",
+            "normalized_sha256": "1d387f165f0fdef841703a5a271965b0a99a4c197ba87528977f6cf91d1dad05"
+          },
+          "turnover": {
+            "path": "data/v4-study-045/records.json",
+            "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+            "json_pointer": "/14/arms/ablation/rows/0",
+            "normalized_sha256": "b92fd5d1f9cbff6bfc8870d32dda6eda5cecc67af5ef6fbf2d697060639062e4"
+          },
+          "reuse_041": null,
+          "slots": [
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                29,
+                100,
+                101
+              ],
+              "tick": 29,
+              "source": 100,
+              "target": 101,
+              "required_direction": 0,
+              "source_region": "other",
+              "direction": 2,
+              "ticket_target": 116,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                29,
+                102,
+                101
+              ],
+              "tick": 29,
+              "source": 102,
+              "target": 101,
+              "required_direction": 1,
+              "source_region": "middle",
+              "direction": 3,
+              "ticket_target": 86,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                29,
+                85,
+                101
+              ],
+              "tick": 29,
+              "source": 85,
+              "target": 101,
+              "required_direction": 2,
+              "source_region": "upper",
+              "direction": 1,
+              "ticket_target": 84,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                29,
+                117,
+                101
+              ],
+              "tick": 29,
+              "source": 117,
+              "target": 101,
+              "required_direction": 3,
+              "source_region": "lower",
+              "direction": 1,
+              "ticket_target": 116,
+              "proposal_target": 116,
+              "identity": 6,
+              "material": 0,
+              "program": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "ancestry_chain": [
+                6,
+                5,
+                0
+              ],
+              "selected_ancestors": [
+                6
+              ],
+              "interaction_energy": 62,
+              "end_identity": 6,
+              "state": "not_pointing",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                29,
+                101,
+                102
+              ],
+              "tick": 29,
+              "source": 101,
+              "target": 102,
+              "required_direction": 0,
+              "source_region": "middle",
+              "direction": 3,
+              "ticket_target": 85,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                29,
+                103,
+                102
+              ],
+              "tick": 29,
+              "source": 103,
+              "target": 102,
+              "required_direction": 1,
+              "source_region": "other",
+              "direction": 1,
+              "ticket_target": 102,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                29,
+                86,
+                102
+              ],
+              "tick": 29,
+              "source": 86,
+              "target": 102,
+              "required_direction": 2,
+              "source_region": "upper",
+              "direction": 3,
+              "ticket_target": 70,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                29,
+                118,
+                102
+              ],
+              "tick": 29,
+              "source": 118,
+              "target": 102,
+              "required_direction": 3,
+              "source_region": "lower",
+              "direction": 2,
+              "ticket_target": 134,
+              "proposal_target": 134,
+              "identity": 9,
+              "material": 0,
+              "program": [
+                0,
+                0,
+                0,
+                2
+              ],
+              "ancestry_chain": [
+                9,
+                7,
+                1
+              ],
+              "selected_ancestors": [
+                9
+              ],
+              "interaction_energy": 62,
+              "end_identity": 9,
+              "state": "not_pointing",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/1"
+              ]
+            }
+          ],
+          "targets": [
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                29,
+                101
+              ],
+              "tick": 29,
+              "target": 101,
+              "before": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "preformation": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "after": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  29,
+                  100,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  29,
+                  102,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  29,
+                  85,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  29,
+                  117,
+                  101
+                ]
+              ],
+              "proposal_keys": [],
+              "candidate_keys": [],
+              "birth": null,
+              "turnover_flags": {
+                "B101": false,
+                "B102": false,
+                "G": true,
+                "actual_double_new": false
+              },
+              "turnover": {
+                "path": "data/v4-study-045/records.json",
+                "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+                "json_pointer": "/14/arms/ablation/rows/0",
+                "normalized_sha256": "b92fd5d1f9cbff6bfc8870d32dda6eda5cecc67af5ef6fbf2d697060639062e4"
+              },
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                29,
+                102
+              ],
+              "tick": 29,
+              "target": 102,
+              "before": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "preformation": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "after": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  29,
+                  101,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  29,
+                  103,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  29,
+                  86,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  29,
+                  118,
+                  102
+                ]
+              ],
+              "proposal_keys": [],
+              "candidate_keys": [],
+              "birth": null,
+              "turnover_flags": {
+                "B101": false,
+                "B102": false,
+                "G": true,
+                "actual_double_new": false
+              },
+              "turnover": {
+                "path": "data/v4-study-045/records.json",
+                "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+                "json_pointer": "/14/arms/ablation/rows/0",
+                "normalized_sha256": "b92fd5d1f9cbff6bfc8870d32dda6eda5cecc67af5ef6fbf2d697060639062e4"
+              },
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/1"
+              ]
+            }
+          ]
+        },
+        {
+          "tick": 30,
+          "source": {
+            "path": "data/v4-study-043/cases/north-120011.json",
+            "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+            "json_pointer": "/ablation/rows/1",
+            "normalized_sha256": "699cf9466fb4838d74575c1b8c2ffb462428cd138dfd7d31bf34289378c5be6a"
+          },
+          "before": {
+            "path": "data/v4-study-043/cases/north-120011.json",
+            "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+            "json_pointer": "/ablation/rows/0",
+            "normalized_sha256": "c051da439c5a64e67f90d498f69721bd200f189fb1025a4e3884a838299b7b33"
+          },
+          "turnover": {
+            "path": "data/v4-study-045/records.json",
+            "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+            "json_pointer": "/14/arms/ablation/rows/1",
+            "normalized_sha256": "e3f679bc1fc1c87737b97ff795e4a0ef8b57292423ba083f1deb02a394047cb7"
+          },
+          "reuse_041": null,
+          "slots": [
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                30,
+                100,
+                101
+              ],
+              "tick": 30,
+              "source": 100,
+              "target": 101,
+              "required_direction": 0,
+              "source_region": "other",
+              "direction": 1,
+              "ticket_target": 99,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                30,
+                102,
+                101
+              ],
+              "tick": 30,
+              "source": 102,
+              "target": 101,
+              "required_direction": 1,
+              "source_region": "middle",
+              "direction": 3,
+              "ticket_target": 86,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                30,
+                85,
+                101
+              ],
+              "tick": 30,
+              "source": 85,
+              "target": 101,
+              "required_direction": 2,
+              "source_region": "upper",
+              "direction": 1,
+              "ticket_target": 84,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                30,
+                117,
+                101
+              ],
+              "tick": 30,
+              "source": 117,
+              "target": 101,
+              "required_direction": 3,
+              "source_region": "lower",
+              "direction": 0,
+              "ticket_target": 118,
+              "proposal_target": 118,
+              "identity": 6,
+              "material": 0,
+              "program": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "ancestry_chain": [
+                6,
+                5,
+                0
+              ],
+              "selected_ancestors": [
+                6
+              ],
+              "interaction_energy": 62,
+              "end_identity": 6,
+              "state": "not_pointing",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                30,
+                101,
+                102
+              ],
+              "tick": 30,
+              "source": 101,
+              "target": 102,
+              "required_direction": 0,
+              "source_region": "middle",
+              "direction": 3,
+              "ticket_target": 85,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                30,
+                103,
+                102
+              ],
+              "tick": 30,
+              "source": 103,
+              "target": 102,
+              "required_direction": 1,
+              "source_region": "other",
+              "direction": 3,
+              "ticket_target": 87,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                30,
+                86,
+                102
+              ],
+              "tick": 30,
+              "source": 86,
+              "target": 102,
+              "required_direction": 2,
+              "source_region": "upper",
+              "direction": 0,
+              "ticket_target": 87,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                30,
+                118,
+                102
+              ],
+              "tick": 30,
+              "source": 118,
+              "target": 102,
+              "required_direction": 3,
+              "source_region": "lower",
+              "direction": 0,
+              "ticket_target": 119,
+              "proposal_target": 119,
+              "identity": 9,
+              "material": 0,
+              "program": [
+                0,
+                0,
+                0,
+                2
+              ],
+              "ancestry_chain": [
+                9,
+                7,
+                1
+              ],
+              "selected_ancestors": [
+                9
+              ],
+              "interaction_energy": 62,
+              "end_identity": 9,
+              "state": "not_pointing",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/1"
+              ]
+            }
+          ],
+          "targets": [
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                30,
+                101
+              ],
+              "tick": 30,
+              "target": 101,
+              "before": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "preformation": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "after": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  30,
+                  100,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  30,
+                  102,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  30,
+                  85,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  30,
+                  117,
+                  101
+                ]
+              ],
+              "proposal_keys": [],
+              "candidate_keys": [],
+              "birth": null,
+              "turnover_flags": {
+                "B101": false,
+                "B102": false,
+                "G": true,
+                "actual_double_new": false
+              },
+              "turnover": {
+                "path": "data/v4-study-045/records.json",
+                "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+                "json_pointer": "/14/arms/ablation/rows/1",
+                "normalized_sha256": "e3f679bc1fc1c87737b97ff795e4a0ef8b57292423ba083f1deb02a394047cb7"
+              },
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                30,
+                102
+              ],
+              "tick": 30,
+              "target": 102,
+              "before": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "preformation": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "after": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  30,
+                  101,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  30,
+                  103,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  30,
+                  86,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  30,
+                  118,
+                  102
+                ]
+              ],
+              "proposal_keys": [],
+              "candidate_keys": [],
+              "birth": null,
+              "turnover_flags": {
+                "B101": false,
+                "B102": false,
+                "G": true,
+                "actual_double_new": false
+              },
+              "turnover": {
+                "path": "data/v4-study-045/records.json",
+                "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+                "json_pointer": "/14/arms/ablation/rows/1",
+                "normalized_sha256": "e3f679bc1fc1c87737b97ff795e4a0ef8b57292423ba083f1deb02a394047cb7"
+              },
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/1"
+              ]
+            }
+          ]
+        },
+        {
+          "tick": 31,
+          "source": {
+            "path": "data/v4-study-043/cases/north-120011.json",
+            "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+            "json_pointer": "/ablation/rows/2",
+            "normalized_sha256": "51dd3b552724b7c874f820ee28c80ff613404f3e1aa53c308fbec94b8e2fd2af"
+          },
+          "before": {
+            "path": "data/v4-study-043/cases/north-120011.json",
+            "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+            "json_pointer": "/ablation/rows/1",
+            "normalized_sha256": "699cf9466fb4838d74575c1b8c2ffb462428cd138dfd7d31bf34289378c5be6a"
+          },
+          "turnover": {
+            "path": "data/v4-study-045/records.json",
+            "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+            "json_pointer": "/14/arms/ablation/rows/2",
+            "normalized_sha256": "adaa87952cb191e7a61013bdad7f89712671b7a44ddb1351f16027e0784b953c"
+          },
+          "reuse_041": null,
+          "slots": [
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                31,
+                100,
+                101
+              ],
+              "tick": 31,
+              "source": 100,
+              "target": 101,
+              "required_direction": 0,
+              "source_region": "other",
+              "direction": 1,
+              "ticket_target": 99,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                31,
+                102,
+                101
+              ],
+              "tick": 31,
+              "source": 102,
+              "target": 101,
+              "required_direction": 1,
+              "source_region": "middle",
+              "direction": 3,
+              "ticket_target": 86,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": 11,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                31,
+                85,
+                101
+              ],
+              "tick": 31,
+              "source": 85,
+              "target": 101,
+              "required_direction": 2,
+              "source_region": "upper",
+              "direction": 1,
+              "ticket_target": 84,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                31,
+                117,
+                101
+              ],
+              "tick": 31,
+              "source": 117,
+              "target": 101,
+              "required_direction": 3,
+              "source_region": "lower",
+              "direction": 2,
+              "ticket_target": 133,
+              "proposal_target": 133,
+              "identity": 6,
+              "material": 0,
+              "program": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "ancestry_chain": [
+                6,
+                5,
+                0
+              ],
+              "selected_ancestors": [
+                6
+              ],
+              "interaction_energy": 62,
+              "end_identity": 6,
+              "state": "not_pointing",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                31,
+                101,
+                102
+              ],
+              "tick": 31,
+              "source": 101,
+              "target": 102,
+              "required_direction": 0,
+              "source_region": "middle",
+              "direction": 3,
+              "ticket_target": 85,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                31,
+                103,
+                102
+              ],
+              "tick": 31,
+              "source": 103,
+              "target": 102,
+              "required_direction": 1,
+              "source_region": "other",
+              "direction": 0,
+              "ticket_target": 104,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                31,
+                86,
+                102
+              ],
+              "tick": 31,
+              "source": 86,
+              "target": 102,
+              "required_direction": 2,
+              "source_region": "upper",
+              "direction": 1,
+              "ticket_target": 85,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/1"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                31,
+                118,
+                102
+              ],
+              "tick": 31,
+              "source": 118,
+              "target": 102,
+              "required_direction": 3,
+              "source_region": "lower",
+              "direction": 3,
+              "ticket_target": 102,
+              "proposal_target": 102,
+              "identity": 9,
+              "material": 0,
+              "program": [
+                0,
+                0,
+                0,
+                2
+              ],
+              "ancestry_chain": [
+                9,
+                7,
+                1
+              ],
+              "selected_ancestors": [
+                9
+              ],
+              "interaction_energy": 62,
+              "end_identity": 9,
+              "state": "formed",
+              "proposal": {
+                "tick": 31,
+                "source": 118,
+                "target": 102,
+                "direction": 3,
+                "identity": 9,
+                "program": [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                "energy": 62,
+                "target_region": "middle",
+                "target_raw": 1,
+                "target_occupied": false,
+                "target_dissolved": false,
+                "energy_ok": true,
+                "target_empty": true,
+                "raw_ok": true,
+                "candidate": true,
+                "candidate_count": 1,
+                "reason": "formed",
+                "child_id": 11,
+                "lineage": "right",
+                "ancestor": 9,
+                "chain": [
+                  9,
+                  7,
+                  1
+                ]
+              },
+              "proposal_reference": {
+                "path": "data/v4-study-043/cases/north-120011.json",
+                "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+                "json_pointer": "/ablation/rows/2/physical/material/proposals/1",
+                "normalized_sha256": "d1e39c5dba7103cf37b42c8568bb35d0f1870e99c92576e9347340d7351db8ff"
+              },
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/1"
+              ]
+            }
+          ],
+          "targets": [
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                31,
+                101
+              ],
+              "tick": 31,
+              "target": 101,
+              "before": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "preformation": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "after": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  100,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  102,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  85,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  117,
+                  101
+                ]
+              ],
+              "proposal_keys": [],
+              "candidate_keys": [],
+              "birth": null,
+              "turnover_flags": {
+                "B101": false,
+                "B102": false,
+                "G": true,
+                "actual_double_new": false
+              },
+              "turnover": {
+                "path": "data/v4-study-045/records.json",
+                "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+                "json_pointer": "/14/arms/ablation/rows/2",
+                "normalized_sha256": "adaa87952cb191e7a61013bdad7f89712671b7a44ddb1351f16027e0784b953c"
+              },
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                31,
+                102
+              ],
+              "tick": 31,
+              "target": 102,
+              "before": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "preformation": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "after": {
+                "identity": 11,
+                "material": 2,
+                "raw": 0
+              },
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  101,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  103,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  86,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  118,
+                  102
+                ]
+              ],
+              "proposal_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  118,
+                  102
+                ]
+              ],
+              "candidate_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  118,
+                  102
+                ]
+              ],
+              "birth": {
+                "id": 11,
+                "site": 102,
+                "birth_tick": 31,
+                "death_tick": null,
+                "parent": 9,
+                "founder": 1,
+                "generation": 3,
+                "material": 2,
+                "program": [
+                  0,
+                  0,
+                  0,
+                  2
+                ],
+                "birth_energy": 28,
+                "mutated": false,
+                "offspring": 0
+              },
+              "turnover_flags": {
+                "B101": false,
+                "B102": false,
+                "G": true,
+                "actual_double_new": false
+              },
+              "turnover": {
+                "path": "data/v4-study-045/records.json",
+                "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+                "json_pointer": "/14/arms/ablation/rows/2",
+                "normalized_sha256": "adaa87952cb191e7a61013bdad7f89712671b7a44ddb1351f16027e0784b953c"
+              },
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/1"
+              ]
+            }
+          ]
+        },
+        {
+          "tick": 32,
+          "source": {
+            "path": "data/v4-study-043/cases/north-120011.json",
+            "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+            "json_pointer": "/ablation/rows/3",
+            "normalized_sha256": "86724c373f65e9c4e08f3261b4044094c46b1c032c0e45b9a7b1fcfd1091270c"
+          },
+          "before": {
+            "path": "data/v4-study-043/cases/north-120011.json",
+            "file_sha256": "f2c3ad9d544e2d838e4bc0c0379b14b946e59f30ff9c71d793b2db27c8f870f8",
+            "json_pointer": "/ablation/rows/2",
+            "normalized_sha256": "51dd3b552724b7c874f820ee28c80ff613404f3e1aa53c308fbec94b8e2fd2af"
+          },
+          "turnover": {
+            "path": "data/v4-study-045/records.json",
+            "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+            "json_pointer": "/14/arms/ablation/rows/3",
+            "normalized_sha256": "3e005c5d84d749e04677bcd2178d93db4a4daf8637ba7448c573fed17ac55481"
+          },
+          "reuse_041": null,
+          "slots": [
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                32,
+                100,
+                101
+              ],
+              "tick": 32,
+              "source": 100,
+              "target": 101,
+              "required_direction": 0,
+              "source_region": "other",
+              "direction": 3,
+              "ticket_target": 84,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                32,
+                102,
+                101
+              ],
+              "tick": 32,
+              "source": 102,
+              "target": 101,
+              "required_direction": 1,
+              "source_region": "middle",
+              "direction": 3,
+              "ticket_target": 86,
+              "proposal_target": 86,
+              "identity": 11,
+              "material": 2,
+              "program": [
+                0,
+                0,
+                0,
+                2
+              ],
+              "ancestry_chain": [
+                11,
+                9,
+                7,
+                1
+              ],
+              "selected_ancestors": [
+                9
+              ],
+              "interaction_energy": 27,
+              "end_identity": 11,
+              "state": "not_pointing",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                32,
+                85,
+                101
+              ],
+              "tick": 32,
+              "source": 85,
+              "target": 101,
+              "required_direction": 2,
+              "source_region": "upper",
+              "direction": 2,
+              "ticket_target": 101,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                32,
+                117,
+                101
+              ],
+              "tick": 32,
+              "source": 117,
+              "target": 101,
+              "required_direction": 3,
+              "source_region": "lower",
+              "direction": 2,
+              "ticket_target": 133,
+              "proposal_target": 133,
+              "identity": 6,
+              "material": 0,
+              "program": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "ancestry_chain": [
+                6,
+                5,
+                0
+              ],
+              "selected_ancestors": [
+                6
+              ],
+              "interaction_energy": 62,
+              "end_identity": 6,
+              "state": "not_pointing",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                32,
+                101,
+                102
+              ],
+              "tick": 32,
+              "source": 101,
+              "target": 102,
+              "required_direction": 0,
+              "source_region": "middle",
+              "direction": 3,
+              "ticket_target": 85,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": null
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                32,
+                103,
+                102
+              ],
+              "tick": 32,
+              "source": 103,
+              "target": 102,
+              "required_direction": 1,
+              "source_region": "other",
+              "direction": 1,
+              "ticket_target": 102,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": null,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": null
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                32,
+                86,
+                102
+              ],
+              "tick": 32,
+              "source": 86,
+              "target": 102,
+              "required_direction": 2,
+              "source_region": "upper",
+              "direction": 1,
+              "ticket_target": 85,
+              "proposal_target": null,
+              "identity": null,
+              "material": null,
+              "program": null,
+              "ancestry_chain": [],
+              "selected_ancestors": [],
+              "interaction_energy": null,
+              "end_identity": 12,
+              "state": "empty_source",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": null
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                32,
+                118,
+                102
+              ],
+              "tick": 32,
+              "source": 118,
+              "target": 102,
+              "required_direction": 3,
+              "source_region": "lower",
+              "direction": 1,
+              "ticket_target": 117,
+              "proposal_target": 117,
+              "identity": 9,
+              "material": 0,
+              "program": [
+                0,
+                0,
+                0,
+                2
+              ],
+              "ancestry_chain": [
+                9,
+                7,
+                1
+              ],
+              "selected_ancestors": [
+                9
+              ],
+              "interaction_energy": 35,
+              "end_identity": 9,
+              "state": "not_pointing",
+              "proposal": null,
+              "proposal_reference": null,
+              "source_mode": "source_projection",
+              "gap_key": null
+            }
+          ],
+          "targets": [
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                32,
+                101
+              ],
+              "tick": 32,
+              "target": 101,
+              "before": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "preformation": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "after": {
+                "identity": null,
+                "material": null,
+                "raw": 1
+              },
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  32,
+                  100,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  32,
+                  102,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  32,
+                  85,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  32,
+                  117,
+                  101
+                ]
+              ],
+              "proposal_keys": [],
+              "candidate_keys": [],
+              "birth": null,
+              "turnover_flags": {
+                "B101": false,
+                "B102": false,
+                "G": true,
+                "actual_double_new": false
+              },
+              "turnover": {
+                "path": "data/v4-study-045/records.json",
+                "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+                "json_pointer": "/14/arms/ablation/rows/3",
+                "normalized_sha256": "3e005c5d84d749e04677bcd2178d93db4a4daf8637ba7448c573fed17ac55481"
+              },
+              "gap_key": [
+                "north",
+                120011,
+                "ablation",
+                "/14/arms/ablation/gaps/0"
+              ]
+            },
+            {
+              "key": [
+                "north",
+                120011,
+                "ablation",
+                32,
+                102
+              ],
+              "tick": 32,
+              "target": 102,
+              "before": {
+                "identity": 11,
+                "material": 2,
+                "raw": 0
+              },
+              "preformation": {
+                "identity": 11,
+                "material": 2,
+                "raw": 0
+              },
+              "after": {
+                "identity": 11,
+                "material": 2,
+                "raw": 0
+              },
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  32,
+                  101,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  32,
+                  103,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  32,
+                  86,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  32,
+                  118,
+                  102
+                ]
+              ],
+              "proposal_keys": [],
+              "candidate_keys": [],
+              "birth": null,
+              "turnover_flags": {
+                "B101": false,
+                "B102": false,
+                "G": true,
+                "actual_double_new": false
+              },
+              "turnover": {
+                "path": "data/v4-study-045/records.json",
+                "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+                "json_pointer": "/14/arms/ablation/rows/3",
+                "normalized_sha256": "3e005c5d84d749e04677bcd2178d93db4a4daf8637ba7448c573fed17ac55481"
+              },
+              "gap_key": null
+            }
+          ]
+        }
+      ],
+      "gaps": [
+        {
+          "key": [
+            "north",
+            120011,
+            "ablation",
+            "/14/arms/ablation/gaps/0"
+          ],
+          "reference": {
+            "path": "data/v4-study-045/records.json",
+            "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+            "json_pointer": "/14/arms/ablation/gaps/0",
+            "normalized_sha256": "1cb7f4fe69fd22a94f039a07f629c53ebac07830f578955e4f0747710f39a847"
+          },
+          "original": {
+            "site": 101,
+            "predecessor": null,
+            "successor": null,
+            "start_boundary": 28,
+            "end_boundary": 32,
+            "distance_ticks": 4,
+            "empty_ticks": [
+              29,
+              30,
+              31,
+              32
+            ],
+            "empty_saved_states": 4,
+            "left_censored": true,
+            "right_censored": true,
+            "same_tick_replacement": false,
+            "material_changed": null
+          },
+          "decision_ticks": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "target_keys": [
+            [
+              "north",
+              120011,
+              "ablation",
+              29,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              30,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              31,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              32,
+              101
+            ]
+          ],
+          "slot_keys": [
+            [
+              "north",
+              120011,
+              "ablation",
+              29,
+              100,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              29,
+              102,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              29,
+              85,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              29,
+              117,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              30,
+              100,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              30,
+              102,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              30,
+              85,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              30,
+              117,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              31,
+              100,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              31,
+              102,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              31,
+              85,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              31,
+              117,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              32,
+              100,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              32,
+              102,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              32,
+              85,
+              101
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              32,
+              117,
+              101
+            ]
+          ],
+          "sequence": [
+            {
+              "tick": 29,
+              "target_key": [
+                "north",
+                120011,
+                "ablation",
+                29,
+                101
+              ],
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  29,
+                  100,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  29,
+                  102,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  29,
+                  85,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  29,
+                  117,
+                  101
+                ]
+              ],
+              "states": [
+                "empty_source",
+                "empty_source",
+                "empty_source",
+                "not_pointing"
+              ],
+              "real_proposals": 0,
+              "candidate_count": 0,
+              "birth_id": null
+            },
+            {
+              "tick": 30,
+              "target_key": [
+                "north",
+                120011,
+                "ablation",
+                30,
+                101
+              ],
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  30,
+                  100,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  30,
+                  102,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  30,
+                  85,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  30,
+                  117,
+                  101
+                ]
+              ],
+              "states": [
+                "empty_source",
+                "empty_source",
+                "empty_source",
+                "not_pointing"
+              ],
+              "real_proposals": 0,
+              "candidate_count": 0,
+              "birth_id": null
+            },
+            {
+              "tick": 31,
+              "target_key": [
+                "north",
+                120011,
+                "ablation",
+                31,
+                101
+              ],
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  100,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  102,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  85,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  117,
+                  101
+                ]
+              ],
+              "states": [
+                "empty_source",
+                "empty_source",
+                "empty_source",
+                "not_pointing"
+              ],
+              "real_proposals": 0,
+              "candidate_count": 0,
+              "birth_id": null
+            },
+            {
+              "tick": 32,
+              "target_key": [
+                "north",
+                120011,
+                "ablation",
+                32,
+                101
+              ],
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  32,
+                  100,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  32,
+                  102,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  32,
+                  85,
+                  101
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  32,
+                  117,
+                  101
+                ]
+              ],
+              "states": [
+                "empty_source",
+                "not_pointing",
+                "empty_source",
+                "not_pointing"
+              ],
+              "real_proposals": 0,
+              "candidate_count": 0,
+              "birth_id": null
+            }
+          ],
+          "counts": {
+            "source_slots": 16,
+            "real_proposals": 0,
+            "eligible_candidates": 0,
+            "births": 0,
+            "states": {
+              "empty_source": 11,
+              "dissolved": 0,
+              "not_pointing": 5,
+              "energy": 0,
+              "occupied": 0,
+              "raw_material": 0,
+              "collision": 0,
+              "formed": 0
+            },
+            "target_ticks": 4,
+            "gap_target_ticks": 4,
+            "gap_source_slots": 16,
+            "cross_counts": {
+              "upper": {
+                "inside": {
+                  "source_slots": 4,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 4,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                },
+                "outside": {
+                  "source_slots": 0,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                }
+              },
+              "middle": {
+                "inside": {
+                  "source_slots": 4,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 3,
+                    "dissolved": 0,
+                    "not_pointing": 1,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                },
+                "outside": {
+                  "source_slots": 0,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                }
+              },
+              "lower": {
+                "inside": {
+                  "source_slots": 4,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 4,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                },
+                "outside": {
+                  "source_slots": 0,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                }
+              },
+              "other": {
+                "inside": {
+                  "source_slots": 4,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 4,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                },
+                "outside": {
+                  "source_slots": 0,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                }
+              }
+            }
+          },
+          "intervals_recalculated": false
+        },
+        {
+          "key": [
+            "north",
+            120011,
+            "ablation",
+            "/14/arms/ablation/gaps/1"
+          ],
+          "reference": {
+            "path": "data/v4-study-045/records.json",
+            "file_sha256": "9dae66757bd3e1ab281016ac55075a921a81302f82a318cde189526af13c3d92",
+            "json_pointer": "/14/arms/ablation/gaps/1",
+            "normalized_sha256": "93e329730573794464c4c685fff1384972df9448a04275c023233b8dbb577576"
+          },
+          "original": {
+            "site": 102,
+            "predecessor": null,
+            "successor": 11,
+            "start_boundary": 28,
+            "end_boundary": 31,
+            "distance_ticks": 3,
+            "empty_ticks": [
+              29,
+              30
+            ],
+            "empty_saved_states": 2,
+            "left_censored": true,
+            "right_censored": false,
+            "same_tick_replacement": false,
+            "material_changed": null
+          },
+          "decision_ticks": [
+            29,
+            30,
+            31
+          ],
+          "target_keys": [
+            [
+              "north",
+              120011,
+              "ablation",
+              29,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              30,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              31,
+              102
+            ]
+          ],
+          "slot_keys": [
+            [
+              "north",
+              120011,
+              "ablation",
+              29,
+              101,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              29,
+              103,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              29,
+              86,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              29,
+              118,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              30,
+              101,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              30,
+              103,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              30,
+              86,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              30,
+              118,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              31,
+              101,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              31,
+              103,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              31,
+              86,
+              102
+            ],
+            [
+              "north",
+              120011,
+              "ablation",
+              31,
+              118,
+              102
+            ]
+          ],
+          "sequence": [
+            {
+              "tick": 29,
+              "target_key": [
+                "north",
+                120011,
+                "ablation",
+                29,
+                102
+              ],
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  29,
+                  101,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  29,
+                  103,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  29,
+                  86,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  29,
+                  118,
+                  102
+                ]
+              ],
+              "states": [
+                "empty_source",
+                "empty_source",
+                "empty_source",
+                "not_pointing"
+              ],
+              "real_proposals": 0,
+              "candidate_count": 0,
+              "birth_id": null
+            },
+            {
+              "tick": 30,
+              "target_key": [
+                "north",
+                120011,
+                "ablation",
+                30,
+                102
+              ],
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  30,
+                  101,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  30,
+                  103,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  30,
+                  86,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  30,
+                  118,
+                  102
+                ]
+              ],
+              "states": [
+                "empty_source",
+                "empty_source",
+                "empty_source",
+                "not_pointing"
+              ],
+              "real_proposals": 0,
+              "candidate_count": 0,
+              "birth_id": null
+            },
+            {
+              "tick": 31,
+              "target_key": [
+                "north",
+                120011,
+                "ablation",
+                31,
+                102
+              ],
+              "slot_keys": [
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  101,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  103,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  86,
+                  102
+                ],
+                [
+                  "north",
+                  120011,
+                  "ablation",
+                  31,
+                  118,
+                  102
+                ]
+              ],
+              "states": [
+                "empty_source",
+                "empty_source",
+                "empty_source",
+                "formed"
+              ],
+              "real_proposals": 1,
+              "candidate_count": 1,
+              "birth_id": 11
+            }
+          ],
+          "counts": {
+            "source_slots": 12,
+            "real_proposals": 1,
+            "eligible_candidates": 1,
+            "births": 1,
+            "states": {
+              "empty_source": 9,
+              "dissolved": 0,
+              "not_pointing": 2,
+              "energy": 0,
+              "occupied": 0,
+              "raw_material": 0,
+              "collision": 0,
+              "formed": 1
+            },
+            "target_ticks": 3,
+            "gap_target_ticks": 3,
+            "gap_source_slots": 12,
+            "cross_counts": {
+              "upper": {
+                "inside": {
+                  "source_slots": 3,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 3,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                },
+                "outside": {
+                  "source_slots": 0,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                }
+              },
+              "middle": {
+                "inside": {
+                  "source_slots": 3,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 3,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                },
+                "outside": {
+                  "source_slots": 0,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                }
+              },
+              "lower": {
+                "inside": {
+                  "source_slots": 3,
+                  "real_proposals": 1,
+                  "eligible_candidates": 1,
+                  "births": 1,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 2,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 1
+                  }
+                },
+                "outside": {
+                  "source_slots": 0,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                }
+              },
+              "other": {
+                "inside": {
+                  "source_slots": 3,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 3,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                },
+                "outside": {
+                  "source_slots": 0,
+                  "real_proposals": 0,
+                  "eligible_candidates": 0,
+                  "births": 0,
+                  "states": {
+                    "empty_source": 0,
+                    "dissolved": 0,
+                    "not_pointing": 0,
+                    "energy": 0,
+                    "occupied": 0,
+                    "raw_material": 0,
+                    "collision": 0,
+                    "formed": 0
+                  }
+                }
+              }
+            }
+          },
+          "intervals_recalculated": false
+        }
+      ]
+    }
+  }
+}
