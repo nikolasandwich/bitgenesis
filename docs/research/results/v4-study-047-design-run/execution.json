@@ -1,0 +1,11 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/audit_v4_middle_withdrawal_design.py"
+  ],
+  "cwd": "/Users/todd/Documents/bitgenesis",
+  "completed_at_utc": "2026-10-08T13:50:14.906418+00:00",
+  "exit_code": 0,
+  "wall_seconds": 3.951046000001952,
+  "scope": "方法仅来源/结构与过去32RNG抽签，0物理0future"
+}

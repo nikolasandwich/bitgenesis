@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-08T14:00:41.983321+00:00",
+  "checks": [
+    {
+      "argv": [
+        ".venv/bin/python",
+        "-m",
+        "py_compile",
+        "scripts/audit_v4_middle_withdrawal_design.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "seconds": 0.04169774998445064
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "seconds": 0.01582708302885294
+    }
+  ],
+  "current_method_bindings_verified": 1178,
+  "new_file_checks": 29,
+  "all_tasks_unchecked": true,
+  "formal_directory_absent": true,
+  "census_epochs_byte_identical": true,
+  "no_full_suite_run": true,
+  "scope": "方法文件语法/来源/JSON/空白核验，非独立完整方法审查",
+  "files_sha256": {
+    ".kiro/specs/middle-policy-withdrawal/spec.json": "5c27f0208baedb61d53ddc65ecf32577d0869a315581e684ae937282fab35782",
+    ".kiro/specs/middle-policy-withdrawal/requirements.md": "9375a13d09bfd7924018e963a1f372f2dfd43d86425b60b994d9b37a13e33cad",
+    ".kiro/specs/middle-policy-withdrawal/tasks.md": "35229f722cc8a4f929c58ea94695a8781b0e3019a84172dbc3b6514cccb407d0",
+    ".kiro/specs/middle-policy-withdrawal/research.md": "36a58a70ca54984431346501f64087e4704719ea9333a92c167167594570c0db",
+    ".kiro/specs/middle-policy-withdrawal/design.md": "bb2fa60badeb4e154404ee3ff1a58a8ea236e1168840cf7a3012931da6cfe44e",
+    "experiments/v4/study-047.md": "0c67ec6d9c829be1a24ad7fab5cc16ce80319ab70e68c03eb9164c7c23f48c6d",
+    "docs/design/v4-middle-policy-withdrawal.zh-CN.md": "1ab7373d3fd40e3ecd18fe0420d28cd0e22765dc78dca88dcc533a982f186555",
+    "scripts/audit_v4_middle_withdrawal_design.py": "7a84a787cd8d40665421774f0842462ab86dc6c2d52c5e4adc18f7c2f88ccdbe",
+    "docs/research/v4-study-047-method.zh-CN.md": "a2c6be7d0dc0d36247af9cb1d84e4acb48ea348b851e632bbe571351dc377672",
+    "docs/research/results/v4-study-047-design-sources.json": "9823465dbd47c3dbee9cfe2d69a22b682dcdb09a8be93d2224889ec7993840ee",
+    "docs/research/results/v4-study-047-task-graph-review.json": "ed1a9e9d8757880d1019473a8fbfb5b24a4ed83e21812575b5b522678aba503a",
+    "docs/research/results/v4-study-047-design-revalidated-sources.json": "7b987779441d6c4c0ccd81011307f77d03d305ce692dabf909445061301312e2",
+    "docs/research/results/v4-study-047-design-revalidated-census.json": "0c4e013cd7766f8e502c4efd948eba3b5fbb9920947ab5998eedf5ca0fadeaf8",
+    "docs/research/results/v4-study-047-design-census.json": "0c4e013cd7766f8e502c4efd948eba3b5fbb9920947ab5998eedf5ca0fadeaf8",
+    "docs/research/results/v4-study-047-design-run/stdout.txt": "870123f881ca88faa6d6f2044ba9c798b86dd13142401833ead41e5396ac509b",
+    "docs/research/results/v4-study-047-design-run/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/research/results/v4-study-047-design-run/execution.json": "87f0ef32668240b78b68ee87a50803eff414dd03c28064e5d6ef98404e99153a",
+    "docs/research/results/v4-study-047-design-revalidation-run/fault-final-stderr.txt": "26eb935cf0f71ab2b7daeb081f4f3b71507b2c6e4d9f832173128a334dcc63f4",
+    "docs/research/results/v4-study-047-design-revalidation-run/fault-final-execution.json": "ecacfed6cdc84f663cdee18af62e2cc85a79575aea2c4adc535ce020d741a77f",
+    "docs/research/results/v4-study-047-design-revalidation-run/fault-check.py": "f64cf9285f966cf2ff0e90d74da15301bca51e92990439f7d772526369a986ff",
+    "docs/research/results/v4-study-047-design-revalidation-run/method-execution.json": "c39e602cc91158b54734c71ebc53f1156ff72bf4a002ad67f664897f44e33e09",
+    "docs/research/results/v4-study-047-design-revalidation-run/method-stdout.txt": "2b3963dd093c860e0831bd4fbd1d55b22817211e95d17ba95f476a10e63b789c",
+    "docs/research/results/v4-study-047-design-revalidation-run/fault-stderr.txt": "6481f10b54e06cd09baa6716e4a41fb8689c656ce7a19f7a2d8e255d08a98fd6",
+    "docs/research/results/v4-study-047-design-revalidation-run/fault-final-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/research/results/v4-study-047-design-revalidation-run/fault-execution.json": "8e70b73bf52c5b329c8f18f5460ecab638f7177af0ee05afe28dae17693e2697",
+    "docs/research/results/v4-study-047-design-revalidation-run/method-stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/research/results/v4-study-047-design-revalidation-run/fault-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/research/results/v4-study-047-design-epochs/epoch-1/audit_v4_middle_withdrawal_design.py": "81d3340b2ad8ed71bebb1cf3e59b810a90a9f7d1ad50e94fcf8b1d91ed0c0819",
+    "docs/research/results/v4-study-047-design-epochs/epoch-1/preservation.json": "24268ac83e73bed09f0619393690b65035796643b6f9dbb64812d3fed59a35cc"
+  },
+  "all_047_artifact_bytes": 2977720
+}

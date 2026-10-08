@@ -1,0 +1,12 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "docs/research/results/v4-study-047-design-revalidation-run/fault-check.py"
+  ],
+  "cwd": "/Users/todd/Documents/bitgenesis",
+  "exit_code": 0,
+  "wall_seconds": 0.14903295796830207,
+  "completed_at_utc": "2026-10-08T13:57:26.726634+00:00",
+  "auditor_sha256": "7a84a787cd8d40665421774f0842462ab86dc6c2d52c5e4adc18f7c2f88ccdbe",
+  "scope": "修复后方法/合成I/O验证；0研究物理/0未来RNG"
+}

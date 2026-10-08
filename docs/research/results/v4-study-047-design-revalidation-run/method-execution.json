@@ -1,0 +1,12 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "scripts/audit_v4_middle_withdrawal_design.py"
+  ],
+  "cwd": "/Users/todd/Documents/bitgenesis",
+  "exit_code": 0,
+  "wall_seconds": 3.9268765420420095,
+  "completed_at_utc": "2026-10-08T13:57:30.653715+00:00",
+  "auditor_sha256": "7a84a787cd8d40665421774f0842462ab86dc6c2d52c5e4adc18f7c2f88ccdbe",
+  "scope": "修复后方法/合成I/O验证；0研究物理/0未来RNG"
+}

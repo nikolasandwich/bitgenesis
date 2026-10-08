@@ -1,0 +1,10 @@
+test_bad_historical_hash_has_captured_source_evidence (__main__.EvidenceFailures.test_bad_historical_hash_has_captured_source_evidence) ... ok
+test_capture_preserves_keyboardinterrupt_and_systemexit (__main__.EvidenceFailures.test_capture_preserves_keyboardinterrupt_and_systemexit) ... ok
+test_closing_interrupt_attempts_other_actions_and_propagates_original (__main__.EvidenceFailures.test_closing_interrupt_attempts_other_actions_and_propagates_original) ... ok
+test_prior_failure_wins_over_closing_failure (__main__.EvidenceFailures.test_prior_failure_wins_over_closing_failure) ... ok
+test_second_creation_race_does_not_overwrite_foreign_file (__main__.EvidenceFailures.test_second_creation_race_does_not_overwrite_foreign_file) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.076s
+
+OK

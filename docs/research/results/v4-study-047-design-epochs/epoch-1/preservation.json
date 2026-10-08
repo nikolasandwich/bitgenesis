@@ -1,0 +1,20 @@
+{
+  "epoch": "first-successful-method-run",
+  "status": "complete",
+  "reason": "首次方法成功后发现失败证据路径不足，保留原始成功证据，修复后进行必要只读方法复验；不是首次运行失败或物理重跑",
+  "source_epochs": [
+    {
+      "original_path": "scripts/audit_v4_middle_withdrawal_design.py",
+      "sha256": "81d3340b2ad8ed71bebb1cf3e59b810a90a9f7d1ad50e94fcf8b1d91ed0c0819",
+      "archived_path": "docs/research/results/v4-study-047-design-epochs/epoch-1/audit_v4_middle_withdrawal_design.py"
+    }
+  ],
+  "files_sha256": {
+    "docs/research/results/v4-study-047-design-sources.json": "9823465dbd47c3dbee9cfe2d69a22b682dcdb09a8be93d2224889ec7993840ee",
+    "docs/research/results/v4-study-047-design-census.json": "0c4e013cd7766f8e502c4efd948eba3b5fbb9920947ab5998eedf5ca0fadeaf8",
+    "docs/research/results/v4-study-047-design-run/stdout.txt": "870123f881ca88faa6d6f2044ba9c798b86dd13142401833ead41e5396ac509b",
+    "docs/research/results/v4-study-047-design-run/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/research/results/v4-study-047-design-run/execution.json": "87f0ef32668240b78b68ee87a50803eff414dd03c28064e5d6ef98404e99153a",
+    "docs/research/results/v4-study-047-design-epochs/epoch-1/audit_v4_middle_withdrawal_design.py": "81d3340b2ad8ed71bebb1cf3e59b810a90a9f7d1ad50e94fcf8b1d91ed0c0819"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "feature_name": "middle-policy-withdrawal",
+  "created_at": "2026-10-08T13:44:05.758323+00:00",
+  "updated_at": "2026-10-08T14:19:29.444589+00:00",
+  "language": "zh-CN",
+  "phase": "tasks-generated",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "ready_for_implementation": true,
+  "approval_basis": "用户持续研究授权的intentional fast-track；内部独立方法和任务图审查仍必需",
+  "internal_review": {
+    "task_graph": "PASS",
+    "method": "APPROVED",
+    "task_1_1": "complete"
+  },
+  "method_output_epoch": "design-revalidated",
+  "method_execution_status": "complete_independently_reviewed",
+  "method_source_manifest": "docs/research/results/v4-study-047-design-revalidated-sources.json",
+  "method_census": "docs/research/results/v4-study-047-design-revalidated-census.json",
+  "method_review": {
+    "path": "docs/research/results/v4-study-047-design-review.json",
+    "sha256": "9046bfbe31bd415d5cdfa97c34235cfc9fcc396fe8161b6bc602750ddede59fd",
+    "reviewer": "/root/withdrawal_method_review",
+    "immutable_bindings": 1188
+  },
+  "completion_verification": {
+    "status": "VERIFIED",
+    "claim_type": "TASK",
+    "task": "1.1",
+    "scope": "方法冻结与完整来源、过去环境和终态可续接性；0未来抽签/物理，不是FEATURE_GO",
+    "current_bindings_verified": 1188
+  },
+  "next_task": "2.1：实现生产路线与合成边界测试；真实未来后缀仅可在2.3开始"
+}

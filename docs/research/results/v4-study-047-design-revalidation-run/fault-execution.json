@@ -1,0 +1,10 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "docs/research/results/v4-study-047-design-revalidation-run/fault-check.py"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 0.16674691694788635,
+  "completed_at_utc": "2026-10-08T13:56:13.946125+00:00",
+  "scope": "合成I/O故障；在RNG与状态科学循环前停止或仅调用收尾函数；0研究物理/0未来RNG"
+}
