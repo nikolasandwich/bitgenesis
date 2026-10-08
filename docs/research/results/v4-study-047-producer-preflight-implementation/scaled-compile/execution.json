@@ -1,0 +1,34 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "compileall",
+    "-q",
+    "scripts/run_v4_middle_withdrawal.py",
+    "tests/test_v4_middle_withdrawal.py"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 0.050276583060622215,
+  "source_before": {
+    "scripts/middle_withdrawal_inputs.py": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5",
+    "scripts/run_v4_middle_withdrawal.py": "452c21194d0d130b0c95f90b8e41d0a56a3708275abfaa6d62a76c4b0883bf41",
+    "tests/test_v4_middle_withdrawal.py": "15113b2c8ca38d5f91df46f76343b7a457d6f8d3f8fa1537b4076bf0483cf251"
+  },
+  "source_after": {
+    "scripts/middle_withdrawal_inputs.py": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5",
+    "scripts/run_v4_middle_withdrawal.py": "452c21194d0d130b0c95f90b8e41d0a56a3708275abfaa6d62a76c4b0883bf41",
+    "tests/test_v4_middle_withdrawal.py": "15113b2c8ca38d5f91df46f76343b7a457d6f8d3f8fa1537b4076bf0483cf251"
+  },
+  "source_unchanged": true,
+  "evidence_sha256": {
+    "stdout.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source-before/tests/test_v4_middle_withdrawal.py": "15113b2c8ca38d5f91df46f76343b7a457d6f8d3f8fa1537b4076bf0483cf251",
+    "source-before/scripts/run_v4_middle_withdrawal.py": "452c21194d0d130b0c95f90b8e41d0a56a3708275abfaa6d62a76c4b0883bf41",
+    "source-before/scripts/middle_withdrawal_inputs.py": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5",
+    "source-after/tests/test_v4_middle_withdrawal.py": "15113b2c8ca38d5f91df46f76343b7a457d6f8d3f8fa1537b4076bf0483cf251",
+    "source-after/scripts/run_v4_middle_withdrawal.py": "452c21194d0d130b0c95f90b8e41d0a56a3708275abfaa6d62a76c4b0883bf41",
+    "source-after/scripts/middle_withdrawal_inputs.py": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5"
+  },
+  "data_v4_study047_exists": false
+}

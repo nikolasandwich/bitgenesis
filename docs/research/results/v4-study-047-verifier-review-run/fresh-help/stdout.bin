@@ -1,0 +1,13 @@
+usage: verify_v4_middle_withdrawal.py [-h] --mode {engineering,formal}
+                                      --producer PRODUCER --output OUTPUT
+
+Study047 independent continuous-stream, dictionary-physics verifier. Only
+immutable source contracts are shared with the producer. This module never
+imports a producer scientific function or treats a saved scientific value as
+an oracle. Saved objects are compared after independent reconstruction.
+
+options:
+  -h, --help            show this help message and exit
+  --mode {engineering,formal}
+  --producer PRODUCER   existing read-only producer epoch
+  --output OUTPUT       new exclusive verifier epoch

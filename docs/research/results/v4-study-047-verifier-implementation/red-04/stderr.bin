@@ -1,0 +1,25 @@
+test_cleanup_close_error_not_swallowed_by_success_return (test_v4_middle_withdrawal_verifier.FinalHygieneTests.test_cleanup_close_error_not_swallowed_by_success_return) ... FAIL
+test_run_preserves_start_before_preflight (test_v4_middle_withdrawal_verifier.FinalHygieneTests.test_run_preserves_start_before_preflight) ... ERROR
+
+======================================================================
+ERROR: test_run_preserves_start_before_preflight (test_v4_middle_withdrawal_verifier.FinalHygieneTests.test_run_preserves_start_before_preflight)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 677, in test_run_preserves_start_before_preflight
+    self.assertEqual(epoch.call_args.kwargs['started'],123.0)
+                     ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'started'
+
+======================================================================
+FAIL: test_cleanup_close_error_not_swallowed_by_success_return (test_v4_middle_withdrawal_verifier.FinalHygieneTests.test_cleanup_close_error_not_swallowed_by_success_return)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 668, in test_cleanup_close_error_not_swallowed_by_success_return
+    with patch.object(verifier.os,'close',side_effect=fail_close),self.assertRaisesRegex(OSError,'parent close failure'):e.execute(lambda:None)
+                                                                  ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: OSError not raised
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.010s
+
+FAILED (failures=1, errors=1)

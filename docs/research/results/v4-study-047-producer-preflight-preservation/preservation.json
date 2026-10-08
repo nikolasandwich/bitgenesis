@@ -1,0 +1,35 @@
+{
+  "reason": "后续独立审查确认预检计时缺口，重新打开生产2.1；旧批准与源码在任何修改前逐字节保全。",
+  "sources": {
+    "scripts/middle_withdrawal_inputs.py": {
+      "archive": "docs/research/results/v4-study-047-producer-preflight-preservation/middle_withdrawal_inputs.py",
+      "sha256": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5",
+      "bytes": 14311
+    },
+    "scripts/run_v4_middle_withdrawal.py": {
+      "archive": "docs/research/results/v4-study-047-producer-preflight-preservation/run_v4_middle_withdrawal.py",
+      "sha256": "02ce8fb3707f82ed433a59c82772e89245aec3fdb36ae73be7eb8e852f1fa4c6",
+      "bytes": 51446
+    },
+    "tests/test_v4_middle_withdrawal.py": {
+      "archive": "docs/research/results/v4-study-047-producer-preflight-preservation/test_v4_middle_withdrawal.py",
+      "sha256": "479e1ae5e8798e2e7049b89aad4cc6f8ef3a55d74b39839dea1b8b183e0d12c9",
+      "bytes": 49562
+    },
+    "docs/research/results/v4-study-047-producer-review.json": {
+      "archive": "docs/research/results/v4-study-047-producer-preflight-preservation/v4-study-047-producer-review.json",
+      "sha256": "1f42fd314e741b2138d42d120e8d3feb48d8cef233f44158cf5642a9dd1ee102",
+      "bytes": 348797
+    },
+    "docs/research/results/v4-study-047-producer-validation.json": {
+      "archive": "docs/research/results/v4-study-047-producer-preflight-preservation/v4-study-047-producer-validation.json",
+      "sha256": "cdbe157ab8d780ff61c261c00950843eafc2b37e4b1ea2ddb365d580ee0a0c87",
+      "bytes": 4072
+    },
+    "docs/research/v4-study-047-producer.zh-CN.md": {
+      "archive": "docs/research/results/v4-study-047-producer-preflight-preservation/v4-study-047-producer.zh-CN.md",
+      "sha256": "5cfb25603d0c2c25c016fe2e7c69fe970cc69d973ebc31afa518bab7f647e89d",
+      "bytes": 5442
+    }
+  }
+}

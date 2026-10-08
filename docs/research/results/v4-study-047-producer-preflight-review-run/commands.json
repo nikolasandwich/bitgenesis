@@ -1,0 +1,57 @@
+[
+  {
+    "command": [
+      ".venv/bin/python",
+      "docs/research/results/v4-study-047-producer-preflight-review-run/checks.py"
+    ],
+    "environment": {
+      "PYTHONPATH": "src"
+    },
+    "exit_code": 1,
+    "wall_seconds": 1.6656479169614613
+  },
+  {
+    "command": [
+      ".venv/bin/python",
+      "docs/research/results/v4-study-047-producer-preflight-review-run/checks2.py"
+    ],
+    "environment": {
+      "PYTHONPATH": "src"
+    },
+    "exit_code": 0,
+    "wall_seconds": 7.996717583038844
+  },
+  {
+    "command": [
+      "rg",
+      "-n",
+      "TBD|TODO|FIXME|HACK|XXX",
+      "scripts/middle_withdrawal_inputs.py",
+      "scripts/run_v4_middle_withdrawal.py",
+      "tests/test_v4_middle_withdrawal.py"
+    ],
+    "exit_code": 1,
+    "label": "markers"
+  },
+  {
+    "command": [
+      "rg",
+      "-n",
+      "password|secret|api.?key|credential|BEGIN.*PRIVATE KEY",
+      "scripts/middle_withdrawal_inputs.py",
+      "scripts/run_v4_middle_withdrawal.py",
+      "tests/test_v4_middle_withdrawal.py"
+    ],
+    "exit_code": 1,
+    "label": "secret-patterns"
+  },
+  {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "label": "diff-check"
+  }
+]

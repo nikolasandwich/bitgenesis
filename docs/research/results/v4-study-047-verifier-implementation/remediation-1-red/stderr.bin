@@ -1,0 +1,74 @@
+test_clean_gate_runs_before_first_epoch_file_and_dirty_still_rejected (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_clean_gate_runs_before_first_epoch_file_and_dirty_still_rejected) ... 
+  test_clean_gate_runs_before_first_epoch_file_and_dirty_still_rejected (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_clean_gate_runs_before_first_epoch_file_and_dirty_still_rejected) (dirty=False) ... ERROR
+  test_clean_gate_runs_before_first_epoch_file_and_dirty_still_rejected (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_clean_gate_runs_before_first_epoch_file_and_dirty_still_rejected) (dirty=True) ... ERROR
+test_run_actual_approval_read_failure_retains_original_exception (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_run_actual_approval_read_failure_retains_original_exception) ... ERROR
+test_run_interrupts_preflight_gate_and_process_with_failed_epoch (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_run_interrupts_preflight_gate_and_process_with_failed_epoch) ... 
+  test_run_interrupts_preflight_gate_and_process_with_failed_epoch (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_run_interrupts_preflight_gate_and_process_with_failed_epoch) (stage='process') ... FAIL
+  test_run_interrupts_preflight_gate_and_process_with_failed_epoch (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_run_interrupts_preflight_gate_and_process_with_failed_epoch) (stage='approvals') ... ERROR
+
+======================================================================
+ERROR: test_clean_gate_runs_before_first_epoch_file_and_dirty_still_rejected (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_clean_gate_runs_before_first_epoch_file_and_dirty_still_rejected) (dirty=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 802, in test_clean_gate_runs_before_first_epoch_file_and_dirty_still_rejected
+    epoch.execute(work,preflight=preflight)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 26, in recorded_execute
+    try: return _execute(epoch, *args, **kwargs)
+                ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Epoch.execute() got an unexpected keyword argument 'preflight'
+
+======================================================================
+ERROR: test_clean_gate_runs_before_first_epoch_file_and_dirty_still_rejected (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_clean_gate_runs_before_first_epoch_file_and_dirty_still_rejected) (dirty=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 798, in test_clean_gate_runs_before_first_epoch_file_and_dirty_still_rejected
+    epoch.execute(work,preflight=preflight)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 26, in recorded_execute
+    try: return _execute(epoch, *args, **kwargs)
+                ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Epoch.execute() got an unexpected keyword argument 'preflight'
+
+======================================================================
+ERROR: test_run_actual_approval_read_failure_retains_original_exception (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_run_actual_approval_read_failure_retains_original_exception)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 779, in test_run_actual_approval_read_failure_retains_original_exception
+    meta=inputs.read(out/'metadata.json')
+  File "/Users/todd/Documents/bitgenesis/scripts/middle_withdrawal_inputs.py", line 64, in read
+    return json.loads(Path(path).read_text(encoding='utf-8'))
+                      ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 787, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/tmpxte3q1d5/epoch/metadata.json'
+
+======================================================================
+ERROR: test_run_interrupts_preflight_gate_and_process_with_failed_epoch (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_run_interrupts_preflight_gate_and_process_with_failed_epoch) (stage='approvals')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 755, in test_run_interrupts_preflight_gate_and_process_with_failed_epoch
+    verifier.run('engineering',root/'absent-producer',out)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/todd/Documents/bitgenesis/scripts/verify_v4_middle_withdrawal.py", line 936, in run
+    for path, task in zip(gate_paths, ('2.1', '2.2', '2.3')):
+                      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+======================================================================
+FAIL: test_run_interrupts_preflight_gate_and_process_with_failed_epoch (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_run_interrupts_preflight_gate_and_process_with_failed_epoch) (stage='process')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 757, in test_run_interrupts_preflight_gate_and_process_with_failed_epoch
+    self.assertLess(elapsed,.35)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+AssertionError: 0.5111164579866454 not less than 0.35
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.069s
+
+FAILED (failures=1, errors=4)

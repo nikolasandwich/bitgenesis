@@ -1,0 +1,48 @@
+{
+  "classification": "Short synthetic closing share under full-suite scheduling; observed failure still retained original DeadlineExpired and zero science. No evidence of unbounded actual 600s route.",
+  "diagnostic": "remediation-1-short-budget-diagnostic/execution.json",
+  "diagnostic_preflight_cases": 12,
+  "diagnostic_repetitions": 6,
+  "failed_epoch_bytes": {
+    "failure.json": 1067,
+    "metadata.json": 0,
+    "proof.json": 215
+  },
+  "failed_epoch_elapsed_before_fork_seconds": 0.1728410420473665,
+  "failed_epoch_sha256": {
+    "docs/research/results/v4-study-047-preflight-joint-validation/full/runtime-epochs/epoch-026-failed/failure.json": "751f0db99e70dd228f3cfd5cfe240aa236769a803de3978fde70b089fe7bdd43",
+    "docs/research/results/v4-study-047-preflight-joint-validation/full/runtime-epochs/epoch-026-failed/metadata.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/research/results/v4-study-047-preflight-joint-validation/full/runtime-epochs/epoch-026-failed/proof.json": "894950ceabc07899948cdfe7da9a015e1a6c3e9dcee00599f1955cba7959f2a6"
+  },
+  "implementation_changed": false,
+  "new_block_seconds": 5.0,
+  "new_elapsed_assertion_seconds": 2.2,
+  "new_synthetic_limit_seconds": 2.0,
+  "observed_remaining_commit_seconds": [
+    0.027426125016063452,
+    0.033812084002420306
+  ],
+  "observed_successful_writer_wall_seconds": [
+    0.005303999991156161,
+    0.011494416976347566
+  ],
+  "observed_writer_share_seconds": [
+    0.01645567500963807,
+    0.020287250401452184
+  ],
+  "old_block_seconds": 0.5,
+  "old_synthetic_limit_seconds": 0.2,
+  "real_closing_reservation_seconds_unchanged": 30,
+  "real_limit_seconds_unchanged": 600,
+  "real_study047_future_ticks": 0,
+  "real_study047_physical_steps": 0,
+  "scope": "Verifier R1 synthetic preflight timeout test scale only",
+  "task": "2.2",
+  "test_sha256": "ff46e0a9ad503f87601e6139b2d74b59f62e9a8a379eec1adde702fdce8ce0e0",
+  "unchanged_assertions": [
+    "failed metadata and failure file",
+    "stage and original DeadlineExpired",
+    "same start plus limit absolute deadline",
+    "zero future and physics"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "created_at_utc": "2026-10-08T17:22:01.384110+00:00",
+  "protocol": "kiro-verify-completion",
+  "status": "VERIFIED",
+  "claim_type": "TASK",
+  "task": "2.1",
+  "claim": "重新打开的Producer预检截止与失败生命周期已修复并独立再审；不含真实工程或正式研究。",
+  "review": {
+    "path": "docs/research/results/v4-study-047-producer-review.json",
+    "sha256": "74ac9792ea57ae793665a610649adc790cf39f0a858c8908978b7d8d86828754",
+    "verdict": "APPROVED",
+    "reviewer": "/root/withdrawal_producer_review"
+  },
+  "current_bindings_verified": 1985,
+  "code_sha256": {
+    "scripts/middle_withdrawal_inputs.py": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5",
+    "scripts/run_v4_middle_withdrawal.py": "452c21194d0d130b0c95f90b8e41d0a56a3708275abfaa6d62a76c4b0883bf41",
+    "tests/test_v4_middle_withdrawal.py": "15113b2c8ca38d5f91df46f76343b7a457d6f8d3f8fa1537b4076bf0483cf251"
+  },
+  "full_suite": {
+    "execution": "docs/research/results/v4-study-047-preflight-joint-validation/full-revalidated/execution.json",
+    "tests": 1070,
+    "seconds": 77.334,
+    "wall_seconds": 77.7735480000265,
+    "exit_code": 0,
+    "parent_executed": true,
+    "source_and_raw_hashes_verified": true
+  },
+  "targeted": {
+    "tests": 56,
+    "exit_code": 0
+  },
+  "portable": {
+    "tests": 56,
+    "posix_skipped": 10,
+    "native_windows_execution": false
+  },
+  "compile_and_help_exit_code": 0,
+  "science_definition_changes": false,
+  "history": "旧APPROVED与源码已逐字节保全，初次full的2 errors及生产临时目录未保全限制均保留说明，未覆盖原日志。",
+  "unresolved_blocking_findings": 0,
+  "real_study047_future_ticks": 0,
+  "real_study047_physical_steps": 0,
+  "feature_go": false
+}

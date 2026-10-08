@@ -1,0 +1,11 @@
+test_alarm_arm_error_runs_no_work_and_restores_handler (__main__.IndependentFaultChecks.test_alarm_arm_error_runs_no_work_and_restores_handler) ... ok
+test_expired_absolute_start_cannot_run_work (__main__.IndependentFaultChecks.test_expired_absolute_start_cannot_run_work) ... ok
+test_first_systemexit_survives_child_io_and_later_closing_faults (__main__.IndependentFaultChecks.test_first_systemexit_survives_child_io_and_later_closing_faults) ... ok
+test_parent_systemexit_wait_kills_writer_before_failure_writer (__main__.IndependentFaultChecks.test_parent_systemexit_wait_kills_writer_before_failure_writer) ... ok
+test_producer_byte_change_captured_even_when_json_object_same (__main__.IndependentFaultChecks.test_producer_byte_change_captured_even_when_json_object_same) ... ok
+test_unconfirmed_writer_blocks_a_second_writer (__main__.IndependentFaultChecks.test_unconfirmed_writer_blocks_a_second_writer) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.145s
+
+OK

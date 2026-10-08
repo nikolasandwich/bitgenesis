@@ -1,0 +1,2 @@
+{"study047_task": "2.1", "synthetic_fixture_steps": 66, "real_study047_future_physical_steps": 0, "real_study047_future_generator_ticks": 0, "synthetic_rng_seed": 987654, "synthetic_future_generator_ticks": 99, "full_case_expected_steps": 64}
+{"tests": 56, "failures": 0, "errors": 0, "skipped": 0, "preserved_temporary_epochs": 43, "native_windows_execution": false, "missing_posix_simulation": false}

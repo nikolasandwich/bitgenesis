@@ -1,0 +1,1 @@
+{"data_v4_study047_exists": false, "elapsed_seconds": 5.149144374998286, "environment_count": 20, "forbidden_calls": {"draw_future": 0, "physical_step": 0}, "new_or_replayed_physical_steps": 0, "past_generator_ticks": 640, "real_study047_future_ticks": 0, "saved_prefix_count": 28, "saved_prefix_ticks": 390, "status": "PASS"}

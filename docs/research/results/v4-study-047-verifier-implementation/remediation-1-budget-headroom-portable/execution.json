@@ -1,0 +1,21 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "docs/research/results/v4-study-047-verifier-implementation/remediation-1-portable-controls.py"
+  ],
+  "environment": {
+    "PYTHONPATH": "src",
+    "STUDY047_VERIFIER_TEST_EVIDENCE": "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-verifier-implementation/remediation-1-budget-headroom-portable/runtime-epochs"
+  },
+  "exit_code": 0,
+  "files_sha256": {
+    "scripts/verify_v4_middle_withdrawal.py": "9ae8ef620cb3d28fb777dad346e322489e31e58ec35e563baf29a1b6e8a21830",
+    "tests/test_v4_middle_withdrawal_verifier.py": "ff46e0a9ad503f87601e6139b2d74b59f62e9a8a379eec1adde702fdce8ce0e0"
+  },
+  "raw_output_sha256": {
+    "stderr.bin": "3cbf609ba2c4fc63fe4b1efd57f62baf60aa7bcef6cdefe82d67817e59d60b1e",
+    "stdout.bin": "d10fc591a77893dbaef59062242a0ffdffd99e19203143abd55eb661ff2d875d"
+  },
+  "started_unix": 1791479364.017388,
+  "wall_seconds": 0.16631829098332673
+}

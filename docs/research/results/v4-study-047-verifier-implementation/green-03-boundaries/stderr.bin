@@ -1,0 +1,16 @@
+test_environment_tickets_are_deeply_immutable (test_v4_middle_withdrawal_verifier.AdditionalFailureTests.test_environment_tickets_are_deeply_immutable) ... ok
+test_hash_timeout_and_later_closer_attempted_with_original_exception (test_v4_middle_withdrawal_verifier.AdditionalFailureTests.test_hash_timeout_and_later_closer_attempted_with_original_exception) ... ok
+test_initial_metadata_io_failure_is_saved_and_science_not_started (test_v4_middle_withdrawal_verifier.AdditionalFailureTests.test_initial_metadata_io_failure_is_saved_and_science_not_started) ... ok
+test_input_read_errors_both_phases_preserve_first (test_v4_middle_withdrawal_verifier.AdditionalFailureTests.test_input_read_errors_both_phases_preserve_first) ... ok
+test_install_failure_uses_no_parent_alarm_and_saves_failed_epoch (test_v4_middle_withdrawal_verifier.AdditionalFailureTests.test_install_failure_uses_no_parent_alarm_and_saves_failed_epoch) ... ok
+test_output_hash_read_failure_preserves_completed_bytes (test_v4_middle_withdrawal_verifier.AdditionalFailureTests.test_output_hash_read_failure_preserves_completed_bytes) ... ok
+test_partial_child_write_and_abnormal_child_exit_are_failed (test_v4_middle_withdrawal_verifier.AdditionalFailureTests.test_partial_child_write_and_abnormal_child_exit_are_failed) ... ok
+test_rng_state_capture_failure_preserves_first_and_other_state (test_v4_middle_withdrawal_verifier.AdditionalFailureTests.test_rng_state_capture_failure_preserves_first_and_other_state) ... ok
+test_storage_failure_retains_error_without_dropping_scientific_fields (test_v4_middle_withdrawal_verifier.AdditionalFailureTests.test_storage_failure_retains_error_without_dropping_scientific_fields) ... ok
+test_cleanup_close_error_not_swallowed_by_success_return (test_v4_middle_withdrawal_verifier.FinalHygieneTests.test_cleanup_close_error_not_swallowed_by_success_return) ... ok
+test_run_preserves_start_before_preflight (test_v4_middle_withdrawal_verifier.FinalHygieneTests.test_run_preserves_start_before_preflight) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.331s
+
+OK

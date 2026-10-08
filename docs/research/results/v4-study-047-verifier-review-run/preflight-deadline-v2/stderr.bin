@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-verifier-review-run/preflight_deadline_counterexample_v2.py", line 23, in <module>
+    assert record['status']=='PASS','可中断阶段预检未受同一总预算约束，且预算用尽后错误epoch为空'
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 可中断阶段预检未受同一总预算约束，且预算用尽后错误epoch为空

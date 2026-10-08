@@ -1,0 +1,118 @@
+{
+  "created_at_utc": "2026-10-08T17:36:06.668830+00:00",
+  "protocol": "kiro-verify-completion",
+  "status": "VERIFIED",
+  "claim_type": "TASK",
+  "task": "2.2",
+  "claim": "独立环境、字典物理、身份组件与完整汇总核验实现和边界测试通过；依赖生产预检已修复再审。不含真实工程或正式研究。",
+  "base_commit": "a69ca8b7fc7a12193f9a6e486be7c1dbce442fa4",
+  "review": {
+    "path": "docs/research/results/v4-study-047-verifier-review.json",
+    "sha256": "bf7180e688208e5af27274d01e4ff900966a965e9688fa9b9d05ee7e46e7057e",
+    "verdict": "APPROVED",
+    "reviewer": "/root/withdrawal_verifier_review"
+  },
+  "current_bindings_verified": 3023,
+  "producer_dependency": {
+    "task": "2.1",
+    "status": "VERIFIED",
+    "bindings": 1985,
+    "review_sha256": "74ac9792ea57ae793665a610649adc790cf39f0a858c8908978b7d8d86828754",
+    "validation": "docs/research/results/v4-study-047-producer-preflight-validation.json"
+  },
+  "code_sha256": {
+    "scripts/middle_withdrawal_inputs.py": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5",
+    "scripts/run_v4_middle_withdrawal.py": "452c21194d0d130b0c95f90b8e41d0a56a3708275abfaa6d62a76c4b0883bf41",
+    "scripts/verify_v4_middle_withdrawal.py": "9ae8ef620cb3d28fb777dad346e322489e31e58ec35e563baf29a1b6e8a21830",
+    "tests/test_v4_middle_withdrawal.py": "15113b2c8ca38d5f91df46f76343b7a457d6f8d3f8fa1537b4076bf0483cf251",
+    "tests/test_v4_middle_withdrawal_verifier.py": "ff46e0a9ad503f87601e6139b2d74b59f62e9a8a379eec1adde702fdce8ce0e0"
+  },
+  "mechanical_evidence": {
+    "canonical_command": "PYTHONPATH=src .venv/bin/python -m unittest discover -s tests -v",
+    "full_execution": "docs/research/results/v4-study-047-preflight-joint-validation/full-revalidated/execution.json",
+    "full_tests": 1070,
+    "full_exit_code": 0,
+    "full_seconds": 77.334,
+    "full_wall_seconds": 77.7735480000265,
+    "parent_executed_full": true,
+    "current_code_and_raw_hashes_verified": true,
+    "current_full_contains_study047_tests": 104,
+    "compile_execution": "docs/research/results/v4-study-047-preflight-joint-validation/compile-revalidated/execution.json",
+    "compile_exit_code": 0,
+    "cli_help_exit_code": 0,
+    "verifier_targeted_before_time_scale_change": {
+      "tests": 48,
+      "exit_code": 0
+    },
+    "verifier_current_preflight_targeted": {
+      "tests": 3,
+      "exit_code": 0
+    },
+    "portable": {
+      "verifier_full_before_time_scale_change": {
+        "tests": 48,
+        "skipped": 13
+      },
+      "verifier_current_related": {
+        "tests": 6,
+        "skipped": 2
+      },
+      "producer_current": {
+        "tests": 56,
+        "skipped": 10
+      },
+      "native_windows_execution": false
+    },
+    "independent_final_preflight_checks": 5,
+    "boundary": "WITHIN",
+    "science_ast_changes_during_preflight_repairs": false,
+    "red_phase": "VERIFIED",
+    "placeholder_scan": "CLEAN",
+    "secret_scan": "CLEAN"
+  },
+  "historical_preservation": {
+    "verifier_initial_review_bindings": 1856,
+    "producer_previous_review_bindings": 1321,
+    "old_verifier_author_evidence_unchanged": 398,
+    "first_joint_full": {
+      "tests": 1070,
+      "errors": 2,
+      "exit_code": 1,
+      "evidence": "docs/research/results/v4-study-047-preflight-joint-validation/full",
+      "limitation": "该次Producer临时失败目录因父执行器未设置保全变量而已清理，仅原始trace、输出和源码保留；Verifier空metadata及failure/proof原字节完整保留。"
+    },
+    "resolution": "控制实验复现毫秒级收尾份额不足，仅扩大合成测试时标至2秒/5秒阻塞；真实600秒、30秒预留与失败判定均未放宽。",
+    "raw_git_archives_byte_restore_verified": true
+  },
+  "read_only_real_data_check": {
+    "environment_count": 20,
+    "past_generator_ticks": 640,
+    "prefix_count": 28,
+    "saved_prefix_ticks": 390,
+    "future_calls": 0,
+    "physical_calls": 0,
+    "evidence": "docs/research/results/v4-study-047-verifier-review-initial.json",
+    "current_science_definitions_unchanged": true
+  },
+  "unresolved_blocking_findings": 0,
+  "real_study047_future_ticks": 0,
+  "real_study047_physical_steps": 0,
+  "data_v4_study047_exists": false,
+  "feature_go": false,
+  "next_task": "2.3：先检查进程和独占工程目录；在本轮干净提交上仅E120005两臂各32步，生产64+独立物理64。两路线输出先保存在Git忽略的data/v4-study-047-engineering独占子目录，完成后归档和独立工程审查；不运行其余27对或正式队列。",
+  "parent_static_checks": {
+    "all_staged_diff_check_exit_code": 2,
+    "verbatim_evidence_exclusions": [
+      "docs/research/results/v4-study-047-preflight-joint-validation/full/stderr.bin",
+      "docs/research/results/v4-study-047-producer-preflight-implementation/source-closure/src/bitgenesis/v4/competition.py",
+      "docs/research/results/v4-study-047-verifier-implementation/remediation-1-red/stderr.bin"
+    ],
+    "reason": "两份已绑定原始失败输出及一份与原历史competition.py逐字节相同的归档含原生空格/末尾空行；保全而不改写。其余暂存文件通过。",
+    "archived_historical_source_byte_match": true,
+    "all_other_staged_diff_check_exit_code": 0,
+    "parent_json_and_markdown": "PASS",
+    "staged_gitlinks": 0,
+    "staged_files": 1578,
+    "classification_note": "首次按日志扩展名限定排除时识别到.py历史快照，检查停止；核实快照与原源相同后显式纳入，不放宽当前源码检查。"
+  }
+}

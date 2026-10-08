@@ -1,0 +1,21 @@
+test_failed_draw_retains_partial_values_and_both_states (test_v4_middle_withdrawal_verifier.EnvironmentTests.test_failed_draw_retains_partial_values_and_both_states) ... ok
+test_mask_empty_sites_only_and_preserve_tape (test_v4_middle_withdrawal_verifier.EnvironmentTests.test_mask_empty_sites_only_and_preserve_tape) ... ok
+test_original_stream_after_32_and_full_32_future (test_v4_middle_withdrawal_verifier.EnvironmentTests.test_original_stream_after_32_and_full_32_future) ... ok
+test_reject_past_and_checkpoint_drift (test_v4_middle_withdrawal_verifier.EnvironmentTests.test_reject_past_and_checkpoint_drift) ... ok
+test_blocking_work_deadline_and_failure_epoch (test_v4_middle_withdrawal_verifier.EpochTests.test_blocking_work_deadline_and_failure_epoch) ... ok
+test_finalize_write_failure_never_verified (test_v4_middle_withdrawal_verifier.EpochTests.test_finalize_write_failure_never_verified) ... ok
+test_first_baseexception_retained_and_independent_closers_attempted (test_v4_middle_withdrawal_verifier.EpochTests.test_first_baseexception_retained_and_independent_closers_attempted) ... ok
+test_source_drift_preserved_as_failure (test_v4_middle_withdrawal_verifier.EpochTests.test_source_drift_preserved_as_failure) ... ok
+test_success_metadata_and_proof (test_v4_middle_withdrawal_verifier.EpochTests.test_success_metadata_and_proof) ... ok
+test_unsupported_deadline_backend_rejected_before_work (test_v4_middle_withdrawal_verifier.EpochTests.test_unsupported_deadline_backend_rejected_before_work) ... ok
+test_complete_synthetic_pair_matches_other_route_and_known_accounts (test_v4_middle_withdrawal_verifier.ScientificTests.test_complete_synthetic_pair_matches_other_route_and_known_accounts) ... ok
+test_future_intervals_cross_boundary_and_censoring (test_v4_middle_withdrawal_verifier.ScientificTests.test_future_intervals_cross_boundary_and_censoring) ... ok
+test_history_no_second_removal_or_renumbering (test_v4_middle_withdrawal_verifier.ScientificTests.test_history_no_second_removal_or_renumbering) ... ok
+test_physical_observation_failure_preserves_completed_kernel (test_v4_middle_withdrawal_verifier.ScientificTests.test_physical_observation_failure_preserves_completed_kernel) ... ok
+test_two_birth_thresholds_preserve_original_support (test_v4_middle_withdrawal_verifier.ScientificTests.test_two_birth_thresholds_preserve_original_support) ... ok
+test_whole_component_program_ancestry_and_one_founder_allowed (test_v4_middle_withdrawal_verifier.ScientificTests.test_whole_component_program_ancestry_and_one_founder_allowed) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.487s
+
+OK

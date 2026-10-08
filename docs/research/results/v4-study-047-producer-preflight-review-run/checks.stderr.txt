@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-producer-preflight-review-run/checks.py", line 133, in <module>
+    verify_evidence()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-producer-preflight-review-run/checks.py", line 48, in verify_evidence
+    i.same(members,mapping['files'],'joint preserved temporary git epochs')
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/todd/Documents/bitgenesis/scripts/middle_withdrawal_inputs.py", line 42, in same
+    require(actual.keys() == expected.keys(), label + ': keys')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/todd/Documents/bitgenesis/scripts/middle_withdrawal_inputs.py", line 36, in require
+    raise ValueError(message)
+ValueError: joint preserved temporary git epochs: keys

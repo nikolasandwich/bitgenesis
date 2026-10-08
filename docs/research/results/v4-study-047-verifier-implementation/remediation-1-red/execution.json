@@ -1,0 +1,30 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_v4_middle_withdrawal_verifier.py",
+    "-k",
+    "PreflightBoundary",
+    "-v"
+  ],
+  "environment": {
+    "PYTHONPATH": "src",
+    "STUDY047_VERIFIER_TEST_EVIDENCE": "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-verifier-implementation/remediation-1-red/runtime-epochs"
+  },
+  "exit_code": 1,
+  "files_sha256": {
+    "scripts/verify_v4_middle_withdrawal.py": "22c6d4585712dc0049b55a84373ad4b0335e269eb8756d0142aa5ed406227459",
+    "tests/test_v4_middle_withdrawal_verifier.py": "690a58ff46ead69c896823f29c27feb8549b8b04bf868208632e0090fba0d607"
+  },
+  "raw_output_sha256": {
+    "stderr.bin": "d08e110ddea745cdaf6c4ff4035efa60286c2e5f40d5fd05970fbb7d2c0684c3",
+    "stdout.bin": "d10fc591a77893dbaef59062242a0ffdffd99e19203143abd55eb661ff2d875d"
+  },
+  "started_unix": 1791478548.456029,
+  "wall_seconds": 1.2027902499539778
+}

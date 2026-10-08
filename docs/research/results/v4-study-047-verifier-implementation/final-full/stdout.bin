@@ -1,0 +1,45 @@
+1/3 physical controls saved
+1/3 physical controls saved
+2/3 physical controls saved
+3/3 physical controls saved
+{"status": "verified", "cases": 3, "saved_steps": 96, "new_simulation_steps": 96, "new_independent_sources": 0, "artificial_control": true, "expectations_met": true, "input_files": 45, "files_sha256": {"metadata.json": "1a2175a2454bc8d7ea2c0851be024da6872ac597bd42154021be299ee377cc48", "cases.json": "b429aac07933d556589ffd43e2bcb348e104d81cd7d8b434e55f0aaa886f85e8", "summary.json": "48878b89d133b6a3c35fa7ec1fcfbc59ec0a80276c9910a9adbf3af134204e6a"}, "verifier_sha256": "921f1a1a7a34e42d8c7667fb35c91773df35df536c954f1c5f86b9b8099a26e0", "scope": "independent fixed inputs, dictionary physical reconstruction, identity ancestry and material partitions; study017 independent translated copy recount"}
+{"status": "verified", "cases": 3, "saved_steps": 96, "new_simulation_steps": 96, "new_independent_sources": 0, "artificial_control": true, "expectations_met": false, "input_files": 45, "files_sha256": {"metadata.json": "f2b57658df4af7d2a7ed4ee075578ee7e56c98d0fca3935370081726f7c79d6c", "cases.json": "b429aac07933d556589ffd43e2bcb348e104d81cd7d8b434e55f0aaa886f85e8", "summary.json": "36f0abd30d77cf2d3b80770a610a1b60852ca2906e98a4086d07eb1bb6ca87f3"}, "verifier_sha256": "921f1a1a7a34e42d8c7667fb35c91773df35df536c954f1c5f86b9b8099a26e0", "scope": "independent fixed inputs, dictionary physical reconstruction, identity ancestry and material partitions; study017 independent translated copy recount"}
+verified 15 exact states, 33 finite reconstructions and 515 inputs
+1/40 saved fate branches
+{"study047_task": "2.1", "synthetic_fixture_steps": 66, "real_study047_future_physical_steps": 0, "real_study047_future_generator_ticks": 0, "synthetic_rng_seed": 987654, "synthetic_future_generator_ticks": 99, "full_case_expected_steps": 64}
+{"task": "2.2", "synthetic_seed": 987654, "dictionary_physical_steps": 65, "producer_physical_steps": 64, "synthetic_future_ticks": 65, "reference_future_ticks": 32, "real_study047_future_ticks": 0, "real_study047_physical_steps": 0}
+verified 52 probes, 104 phase transitions, 7680 replayed saved steps and 401 bindings
+verified 240 cases, 7680 saved steps and 389 bindings
+verified all 80 cases and 2560 saved boundary ledgers
+10/40 independently verified program-direction cases
+20/40 independently verified program-direction cases
+30/40 independently verified program-direction cases
+40/40 independently verified program-direction cases
+verified 40 cases, 1280 steps and 229 bindings
+10/40 independently verified program-direction cases
+20/40 independently verified program-direction cases
+30/40 independently verified program-direction cases
+40/40 independently verified program-direction cases
+10/80 independently verified program-feed cases
+20/80 independently verified program-feed cases
+30/80 independently verified program-feed cases
+40/80 independently verified program-feed cases
+50/80 independently verified program-feed cases
+60/80 independently verified program-feed cases
+70/80 independently verified program-feed cases
+80/80 independently verified program-feed cases
+verified 80 cases, 2560 steps and 295 bindings
+10/80 independently verified program-feed cases
+20/80 independently verified program-feed cases
+30/80 independently verified program-feed cases
+40/80 independently verified program-feed cases
+50/80 independently verified program-feed cases
+60/80 independently verified program-feed cases
+70/80 independently verified program-feed cases
+80/80 independently verified program-feed cases
+1/40 saved structure-copy branches
+1/80 audited branches: seed-96000-drive-250-mutation-0-anchor-100-exchange-true
+1/80 audited branches: seed-96000-drive-250-mutation-0-anchor-100-exchange-true
+1/10 audited sources: seed-96000-drive-250-mutation-0
+1/10 audited sources: seed-96000-drive-250-mutation-0
+1/2 saved transient case branches

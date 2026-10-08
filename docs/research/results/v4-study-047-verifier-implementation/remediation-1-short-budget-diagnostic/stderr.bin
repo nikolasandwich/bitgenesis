@@ -1,0 +1,11 @@
+test_run_interrupts_preflight_gate_and_process_with_failed_epoch (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_run_interrupts_preflight_gate_and_process_with_failed_epoch) ... ok
+test_run_interrupts_preflight_gate_and_process_with_failed_epoch (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_run_interrupts_preflight_gate_and_process_with_failed_epoch) ... ok
+test_run_interrupts_preflight_gate_and_process_with_failed_epoch (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_run_interrupts_preflight_gate_and_process_with_failed_epoch) ... ok
+test_run_interrupts_preflight_gate_and_process_with_failed_epoch (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_run_interrupts_preflight_gate_and_process_with_failed_epoch) ... ok
+test_run_interrupts_preflight_gate_and_process_with_failed_epoch (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_run_interrupts_preflight_gate_and_process_with_failed_epoch) ... ok
+test_run_interrupts_preflight_gate_and_process_with_failed_epoch (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_run_interrupts_preflight_gate_and_process_with_failed_epoch) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 2.209s
+
+OK

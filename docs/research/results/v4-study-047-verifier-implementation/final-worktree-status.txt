@@ -1,0 +1,3 @@
+?? docs/research/results/v4-study-047-verifier-implementation/
+?? scripts/verify_v4_middle_withdrawal.py
+?? tests/test_v4_middle_withdrawal_verifier.py

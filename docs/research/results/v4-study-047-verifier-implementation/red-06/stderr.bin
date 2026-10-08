@@ -1,0 +1,15 @@
+test_child_setup_exception_cannot_escape_writer_boundary (test_v4_middle_withdrawal_verifier.ChildBoundaryTests.test_child_setup_exception_cannot_escape_writer_boundary) ... FAIL
+
+======================================================================
+FAIL: test_child_setup_exception_cannot_escape_writer_boundary (test_v4_middle_withdrawal_verifier.ChildBoundaryTests.test_child_setup_exception_cannot_escape_writer_boundary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 734, in test_child_setup_exception_cannot_escape_writer_boundary
+    self.assertIsInstance(error,OSError)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+AssertionError: RuntimeError('evidence writer exited abnormally without an exception packet') is not an instance of <class 'OSError'>
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (failures=1)

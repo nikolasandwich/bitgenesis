@@ -1,0 +1,26 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "compileall",
+    "-q",
+    "src",
+    "scripts",
+    "tests"
+  ],
+  "environment": {
+    "PYTHONPATH": "src",
+    "STUDY047_VERIFIER_TEST_EVIDENCE": "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-verifier-implementation/remediation-1-compile/runtime-epochs"
+  },
+  "exit_code": 0,
+  "files_sha256": {
+    "scripts/verify_v4_middle_withdrawal.py": "9ae8ef620cb3d28fb777dad346e322489e31e58ec35e563baf29a1b6e8a21830",
+    "tests/test_v4_middle_withdrawal_verifier.py": "db4593731b435432aa145333f466d1602b1de1c060e5ad9841606894fb9113af"
+  },
+  "raw_output_sha256": {
+    "stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "started_unix": 1791478788.76737,
+  "wall_seconds": 0.15491841698531061
+}

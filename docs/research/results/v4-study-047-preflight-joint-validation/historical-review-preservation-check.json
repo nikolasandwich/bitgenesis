@@ -1,0 +1,24 @@
+[
+  {
+    "review": "docs/research/results/v4-study-047-producer-preflight-preservation/v4-study-047-producer-review.json",
+    "sha256": "1f42fd314e741b2138d42d120e8d3feb48d8cef233f44158cf5642a9dd1ee102",
+    "bindings": 1321,
+    "retired_sources_restored": {
+      "scripts/run_v4_middle_withdrawal.py": "docs/research/results/v4-study-047-producer-preflight-preservation/run_v4_middle_withdrawal.py",
+      "tests/test_v4_middle_withdrawal.py": "docs/research/results/v4-study-047-producer-preflight-preservation/test_v4_middle_withdrawal.py"
+    },
+    "status": "byte_verified"
+  },
+  {
+    "review": "docs/research/results/v4-study-047-verifier-review-initial.json",
+    "sha256": "94e47c7e92adf8f79f6926ec6644ea02f50c71c70c7f4adbdd3d516099518316",
+    "bindings": 1856,
+    "retired_sources_restored": {
+      "scripts/run_v4_middle_withdrawal.py": "docs/research/results/v4-study-047-producer-preflight-preservation/run_v4_middle_withdrawal.py",
+      "scripts/verify_v4_middle_withdrawal.py": "docs/research/results/v4-study-047-verifier-implementation/rejected-epoch-1/verify_v4_middle_withdrawal.py",
+      "tests/test_v4_middle_withdrawal.py": "docs/research/results/v4-study-047-producer-preflight-preservation/test_v4_middle_withdrawal.py",
+      "tests/test_v4_middle_withdrawal_verifier.py": "docs/research/results/v4-study-047-verifier-implementation/rejected-epoch-1/test_v4_middle_withdrawal_verifier.py"
+    },
+    "status": "byte_verified"
+  }
+]

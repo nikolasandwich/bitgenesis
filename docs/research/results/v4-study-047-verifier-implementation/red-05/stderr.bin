@@ -1,0 +1,25 @@
+test_owned_output_drift_rejected_at_final_hashing (test_v4_middle_withdrawal_verifier.OutputIntegrityTests.test_owned_output_drift_rejected_at_final_hashing) ... FAIL
+test_short_write_without_io_exception_is_failure (test_v4_middle_withdrawal_verifier.OutputIntegrityTests.test_short_write_without_io_exception_is_failure) ... FAIL
+
+======================================================================
+FAIL: test_owned_output_drift_rejected_at_final_hashing (test_v4_middle_withdrawal_verifier.OutputIntegrityTests.test_owned_output_drift_rejected_at_final_hashing)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 699, in test_owned_output_drift_rejected_at_final_hashing
+    with self.assertRaisesRegex(ValueError,'written output'):e.execute(work)
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_short_write_without_io_exception_is_failure (test_v4_middle_withdrawal_verifier.OutputIntegrityTests.test_short_write_without_io_exception_is_failure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 714, in test_short_write_without_io_exception_is_failure
+    with patch.object(Path,'open',opened),self.assertRaisesRegex(ValueError,'complete artifact write'):
+                                          ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.007s
+
+FAILED (failures=2)

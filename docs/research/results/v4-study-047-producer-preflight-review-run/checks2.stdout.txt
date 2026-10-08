@@ -1,0 +1,6 @@
+{"name": "immutable_evidence", "current_sources": 1191, "old_approval_bindings": 1321, "review_bindings": 1964, "archives": {"archive-map.json": 2193, "archive-map-scaled.json": 1595, "joint-producer-runtime": 342}, "full_suite": 1070, "full_suite_seconds": 77.334, "live_verifier_not_bound": true}
+{"name": "process-timeout", "elapsed": 1.8145676660351455, "budget": 2.0, "stage": "process_preflight", "disk_status": "failed", "proof_status": "failed", "sources": 8, "science_calls": 0}
+{"name": "approval-timeout", "elapsed": 1.8408989170566201, "budget": 2.0, "stage": "execution_gates", "disk_status": "failed", "proof_status": "failed", "sources": 8, "science_calls": 0}
+{"name": "git-revision-timeout", "elapsed": 1.8167606659699231, "budget": 2.0, "stage": "git_revision_preflight", "disk_status": "failed", "proof_status": "failed", "sources": 0, "science_calls": 0}
+{"name": "actual_clean_gate", "passed": true, "status": "failed", "source_bindings": 8, "science_calls": 0}
+{"name": "first_exception_with_later_closing_failure", "first_preserved": true, "secondary_preserved": true, "status": "failed", "science_calls": 0}

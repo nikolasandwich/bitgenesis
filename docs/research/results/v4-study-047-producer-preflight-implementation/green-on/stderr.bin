@@ -1,0 +1,10 @@
+test_actual_dirty_git_gate_still_rejects_and_saves_failure (tests.test_v4_middle_withdrawal.PreflightLifecycleTests.test_actual_dirty_git_gate_still_rejects_and_saves_failure) ... ok
+test_approval_read_first_exception_survives_closing_failures (tests.test_v4_middle_withdrawal.PreflightLifecycleTests.test_approval_read_first_exception_survives_closing_failures) ... ok
+test_empty_owned_directory_preserves_actual_clean_git_gate (tests.test_v4_middle_withdrawal.PreflightLifecycleTests.test_empty_owned_directory_preserves_actual_clean_git_gate) ... ok
+test_ordinary_blocking_approval_read_is_bounded_and_retained (tests.test_v4_middle_withdrawal.PreflightLifecycleTests.test_ordinary_blocking_approval_read_is_bounded_and_retained) ... ok
+test_ordinary_blocking_process_preflight_is_bounded_and_retained (tests.test_v4_middle_withdrawal.PreflightLifecycleTests.test_ordinary_blocking_process_preflight_is_bounded_and_retained) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.085s
+
+OK

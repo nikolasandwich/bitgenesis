@@ -1,0 +1,20 @@
+{
+  "scripts/run_v4_middle_withdrawal.py": {
+    "archive": "docs/research/results/v4-study-047-producer-preflight-preservation/run_v4_middle_withdrawal.py",
+    "changed_top_level_definitions": [
+      "Epoch",
+      "run"
+    ],
+    "science_definitions_unchanged": true,
+    "sha256": "452c21194d0d130b0c95f90b8e41d0a56a3708275abfaa6d62a76c4b0883bf41"
+  },
+  "scripts/verify_v4_middle_withdrawal.py": {
+    "archive": "docs/research/results/v4-study-047-verifier-implementation/rejected-epoch-1/verify_v4_middle_withdrawal.py",
+    "changed_top_level_definitions": [
+      "Epoch",
+      "run"
+    ],
+    "science_definitions_unchanged": true,
+    "sha256": "9ae8ef620cb3d28fb777dad346e322489e31e58ec35e563baf29a1b6e8a21830"
+  }
+}

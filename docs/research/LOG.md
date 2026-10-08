@@ -5359,3 +5359,16 @@ fresh refill_formal_review实际独立APPROVED：1153不可变绑定、86原件/
 当前47专项PASS1.169秒、完整1013PASS62.356秒（wall62.695413）、compileall/help exit0，1191实现来源前后相同。缺POSIX模拟47项通过、6项平台计时测试skip，不冒称原生Windows验证。每次047测试组66合成物理步/99合成未来tick仅seed987654，完整suite其他既有fixture单列理解；本轮最终独立检查额外物理/抽签0。producer-review.json绑定1321当前代码、来源与执行证据，父层逐项复核；producer-validation.json为TASK 2.1 VERIFIED，非FEATURE_GO。完整报告v4-study-047-producer.zh-CN.md，最新同版执行入口final-validation-remediated2.json，旧1000/1011测试记录保留而不用于当前版本完成声明。
 
 下一轮仅2.2独立核验器与合成异常测试：独立环境、字典物理、身份/组件/完整程序和全部指标汇总，不复用生产科学函数或以其答案代替独立计算。保持已批准生产/inputs字节与旧方法来源；若必须改变则重新审查相关门槛。2.3须待两实现验收后在干净提交只运行E120005两臂各32步/路线；工程独立批准和干净提交后再3.1全28配对。尚未启动真实工程/正式，不延窗、不选阳性、不改生命标准。
+
+
+## 2026-10-09 — Study047独立核验器与预检边界修复完成
+
+本轮完成middle-policy-withdrawal 2.2，并修复接续审查重新打开的2.1。withdrawal_verifier独立实现环境恢复、字典物理、身份/组件/完整程序和祖系、双出生阈值、未来及跨界区间、完整事件/账与100索引/72N/A/五格/14seed统计；不使用生产科学计算作答案。真实047未来票和新增或重放物理均0，data/v4-study-047不存在，尚无撤除效应结果或完整研究GO。
+
+初审R1证实核验预检未受活动计时器约束，0.2秒总限遇0.5秒普通阻塞实际0.509秒后失败且空epoch；依赖审计确认生产同类0.517秒问题。保全旧源码与1321旧批准后，重新打开Producer，withdrawal_producer_preflight分别修复其本地边界，核验作者修复Verifier；只改Epoch/run，科学定义不变。独占空目录后在同一原绝对截止下做预检，Git审批后才写首文件；保留首异常、失败记录及已读来源。生产原审查者withdrawal_producer_review再审APPROVED，1985当前绑定；核验原独立审查者withdrawal_verifier_review复审APPROVED，3023当前绑定，父逐项再核通过，均实际独立任务而非inline fallback。
+
+当前1070完整回归通过77.334秒（wall77.773548），含104个047测试；编译/help exit0。首轮联合full1070有2 errors，0.2/0.3秒测试收尾只剩几毫秒份额导致证据写入不完整；受控6ms写入与12个核验诊断保留后，只扩大相关合成测试时标至2秒/5秒阻塞，真实600秒/30秒收尾与失败判定未改。初full保持failed；Verifier空metadata及failure/proof原字节保留，但Producer临时epoch因父执行器漏设保全变量已清理，仅原trace/日志/源码，限制明确。后续同时保全两路线，临时Git完整tar逐文件恢复核验，原目录移忽略区，无嵌套gitlink。缺POSIX接口模拟不是原生Windows结论。
+
+独立只读20环境640过去生成器tick、28前缀390保存tick、未来/物理禁止调用均0；控制修复后科学函数AST相同。1192来源前后及1171最终作者证据核对通过，旧398证据未变；旧1321生产和1856核验初审绑定通过显式归档映射还原。每次联合关联/完整suite内047合成195物理/196未来tick仅seed987654，完整suite其他历史fixture不混计为真实研究。所有失败、RED/GREEN、原始执行和版本快照分别保存。
+
+父kiro-verify-completion仅TASK 2.1/2.2 VERIFIED；当前报告v4-study-047-verifier.zh-CN.md，producer-preflight-validation.json和verifier-validation.json保留当前代码/审批hash。2.3/3.1仍未执行。下一轮仅2.3：先查最新用户指示/进程/独占data/v4-study-047-engineering目录，在本轮干净实现提交只做E120005两臂各32步，64生产+64独立物理。两路线先各自写Git忽略独占目录，完成后归档/容量测量/独立工程批准并形成干净提交；之后才正式全28配对两路线各1792步。工程不算额外样本、不预跑其他27对、不缩队列/选窗/改规则或生命标准，不重复已完成046或方法核验。

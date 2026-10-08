@@ -1,0 +1,32 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_v4_middle_withdrawal_verifier.py",
+    "-k",
+    "FinalHygiene",
+    "-k",
+    "AdditionalFailure",
+    "-v"
+  ],
+  "environment": {
+    "PYTHONPATH": "src",
+    "STUDY047_VERIFIER_TEST_EVIDENCE": "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-verifier-implementation/green-03-boundaries/runtime-epochs"
+  },
+  "exit_code": 0,
+  "files_sha256": {
+    "scripts/verify_v4_middle_withdrawal.py": "ac0f52230b1f371f2fefb51bb898a322a627941d77ae7911cb40ac080473a757",
+    "tests/test_v4_middle_withdrawal_verifier.py": "46b0f4c1008ee20c9f2100633eb96a6bc761f32d3561c4c20311f016b09047d8"
+  },
+  "raw_output_sha256": {
+    "stderr.bin": "df46ea834b50a3503da832947e8f40f871ab24b4053300009d38bf2100542270",
+    "stdout.bin": "805868946aa32a97d0b068cd1892f674c7713df35ec70ffee1b82825902b1cf9"
+  },
+  "started_unix": 1791476624.538319,
+  "wall_seconds": 0.43250362493563443
+}

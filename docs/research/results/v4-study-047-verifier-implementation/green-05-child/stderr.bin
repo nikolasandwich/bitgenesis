@@ -1,0 +1,6 @@
+test_child_setup_exception_cannot_escape_writer_boundary (test_v4_middle_withdrawal_verifier.ChildBoundaryTests.test_child_setup_exception_cannot_escape_writer_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK

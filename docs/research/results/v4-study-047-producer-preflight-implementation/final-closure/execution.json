@@ -1,0 +1,30 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "docs/research/results/v4-study-047-producer-preflight-implementation/check-closure.py"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 2.7940640409942716,
+  "source_before": {
+    "scripts/middle_withdrawal_inputs.py": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5",
+    "scripts/run_v4_middle_withdrawal.py": "452c21194d0d130b0c95f90b8e41d0a56a3708275abfaa6d62a76c4b0883bf41",
+    "tests/test_v4_middle_withdrawal.py": "ae08826d472215fc3a9909062ddcc707028d3f5593b0dcbce217355ab4e5a7b0"
+  },
+  "source_after": {
+    "scripts/middle_withdrawal_inputs.py": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5",
+    "scripts/run_v4_middle_withdrawal.py": "452c21194d0d130b0c95f90b8e41d0a56a3708275abfaa6d62a76c4b0883bf41",
+    "tests/test_v4_middle_withdrawal.py": "ae08826d472215fc3a9909062ddcc707028d3f5593b0dcbce217355ab4e5a7b0"
+  },
+  "source_unchanged": true,
+  "evidence_sha256": {
+    "stdout.bin": "9259ba0b7b1418e4f42702c9f6e16c75946fdc413b57a4b9ae5acdc171e3a8b3",
+    "stderr.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source-before/tests/test_v4_middle_withdrawal.py": "ae08826d472215fc3a9909062ddcc707028d3f5593b0dcbce217355ab4e5a7b0",
+    "source-before/scripts/run_v4_middle_withdrawal.py": "452c21194d0d130b0c95f90b8e41d0a56a3708275abfaa6d62a76c4b0883bf41",
+    "source-before/scripts/middle_withdrawal_inputs.py": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5",
+    "source-after/tests/test_v4_middle_withdrawal.py": "ae08826d472215fc3a9909062ddcc707028d3f5593b0dcbce217355ab4e5a7b0",
+    "source-after/scripts/run_v4_middle_withdrawal.py": "452c21194d0d130b0c95f90b8e41d0a56a3708275abfaa6d62a76c4b0883bf41",
+    "source-after/scripts/middle_withdrawal_inputs.py": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5"
+  },
+  "data_v4_study047_exists": false
+}

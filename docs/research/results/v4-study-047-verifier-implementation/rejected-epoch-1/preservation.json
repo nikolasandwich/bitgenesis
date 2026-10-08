@@ -1,0 +1,17 @@
+{
+  "reason": "独立审查首轮R1拒绝；修复前逐字节保全源码，旧执行与证据不覆盖。",
+  "review": "docs/research/results/v4-study-047-verifier-review-initial.json",
+  "review_sha256": "94e47c7e92adf8f79f6926ec6644ea02f50c71c70c7f4adbdd3d516099518316",
+  "sources": {
+    "scripts/verify_v4_middle_withdrawal.py": {
+      "archive": "docs/research/results/v4-study-047-verifier-implementation/rejected-epoch-1/verify_v4_middle_withdrawal.py",
+      "sha256": "22c6d4585712dc0049b55a84373ad4b0335e269eb8756d0142aa5ed406227459",
+      "bytes": 56646
+    },
+    "tests/test_v4_middle_withdrawal_verifier.py": {
+      "archive": "docs/research/results/v4-study-047-verifier-implementation/rejected-epoch-1/test_v4_middle_withdrawal_verifier.py",
+      "sha256": "f4fa857a85b9e312a8153066ba00f0ffd4aedd68dfd673f3060d0d98996d9d4d",
+      "bytes": 47222
+    }
+  }
+}

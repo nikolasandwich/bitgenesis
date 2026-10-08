@@ -1,0 +1,27 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_v4_middle_withdrawal_verifier.py",
+    "-v"
+  ],
+  "environment": {
+    "PYTHONPATH": "src"
+  },
+  "exit_code": 1,
+  "files_sha256": {
+    "scripts/verify_v4_middle_withdrawal.py": "5f3590ab743c06fb30d247a28a323bbaec279dabd5ed50026a202ce111ae8a97",
+    "tests/test_v4_middle_withdrawal_verifier.py": "67f9743ac61533c2151045b2dd4ab6d08e570ad752c1ab8f5ce4582122b0974a"
+  },
+  "raw_output_sha256": {
+    "stderr.bin": "afffb1b48a91c7344ebf0a8241b2546499cbeeba795fa7dd56b98383bc93f429",
+    "stdout.bin": "c5bb0c06ceef05c45f1e2e2584d62b4b5388c8f3dfccb4b2773d25ad32308a27"
+  },
+  "started_unix": 1791476080.8582451,
+  "wall_seconds": 2.198887416976504
+}

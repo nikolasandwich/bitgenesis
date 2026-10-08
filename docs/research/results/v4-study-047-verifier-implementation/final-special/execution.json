@@ -1,0 +1,28 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_v4_middle_withdrawal_verifier.py",
+    "-v"
+  ],
+  "environment": {
+    "PYTHONPATH": "src",
+    "STUDY047_VERIFIER_TEST_EVIDENCE": "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-verifier-implementation/final-special/runtime-epochs"
+  },
+  "exit_code": 0,
+  "files_sha256": {
+    "scripts/verify_v4_middle_withdrawal.py": "22c6d4585712dc0049b55a84373ad4b0335e269eb8756d0142aa5ed406227459",
+    "tests/test_v4_middle_withdrawal_verifier.py": "f4fa857a85b9e312a8153066ba00f0ffd4aedd68dfd673f3060d0d98996d9d4d"
+  },
+  "raw_output_sha256": {
+    "stderr.bin": "a8aa35fcf7bba32bdf45e6a00a2aca63563a6670041d46c7913c3473a0cb4639",
+    "stdout.bin": "91eb5a301d6d3ed558f1d54bf80ca010e3a408bbb361e9ee65657051981771d4"
+  },
+  "started_unix": 1791476992.006422,
+  "wall_seconds": 2.6257798339938745
+}

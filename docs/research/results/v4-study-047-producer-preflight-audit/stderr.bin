@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-producer-preflight-audit/counterexample.py", line 33, in <module>
+    assert result['status']=='PASS','生产阶段预检在安装deadline前超出统一总预算并留下空epoch'
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 生产阶段预检在安装deadline前超出统一总预算并留下空epoch

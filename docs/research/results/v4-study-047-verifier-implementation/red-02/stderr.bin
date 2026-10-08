@@ -1,0 +1,93 @@
+test_failed_draw_retains_partial_values_and_both_states (test_v4_middle_withdrawal_verifier.EnvironmentTests.test_failed_draw_retains_partial_values_and_both_states) ... ok
+test_mask_empty_sites_only_and_preserve_tape (test_v4_middle_withdrawal_verifier.EnvironmentTests.test_mask_empty_sites_only_and_preserve_tape) ... ok
+test_original_stream_after_32_and_full_32_future (test_v4_middle_withdrawal_verifier.EnvironmentTests.test_original_stream_after_32_and_full_32_future) ... ok
+test_reject_past_and_checkpoint_drift (test_v4_middle_withdrawal_verifier.EnvironmentTests.test_reject_past_and_checkpoint_drift) ... ok
+test_blocking_work_deadline_and_failure_epoch (test_v4_middle_withdrawal_verifier.EpochTests.test_blocking_work_deadline_and_failure_epoch) ... ok
+test_finalize_write_failure_never_verified (test_v4_middle_withdrawal_verifier.EpochTests.test_finalize_write_failure_never_verified) ... ok
+test_first_baseexception_retained_and_independent_closers_attempted (test_v4_middle_withdrawal_verifier.EpochTests.test_first_baseexception_retained_and_independent_closers_attempted) ... ok
+test_source_drift_preserved_as_failure (test_v4_middle_withdrawal_verifier.EpochTests.test_source_drift_preserved_as_failure) ... ok
+test_success_metadata_and_proof (test_v4_middle_withdrawal_verifier.EpochTests.test_success_metadata_and_proof) ... ok
+test_unsupported_deadline_backend_rejected_before_work (test_v4_middle_withdrawal_verifier.EpochTests.test_unsupported_deadline_backend_rejected_before_work) ... ok
+test_blocking_commit_leaves_failed_within_total_deadline (test_v4_middle_withdrawal_verifier.GuardFailureTests.test_blocking_commit_leaves_failed_within_total_deadline) ... FAIL
+test_call_releases_lease_before_return_and_preserves_first_error (test_v4_middle_withdrawal_verifier.GuardFailureTests.test_call_releases_lease_before_return_and_preserves_first_error) ... FAIL
+test_child_writer_exception_type_message_and_phase_preserved (test_v4_middle_withdrawal_verifier.GuardFailureTests.test_child_writer_exception_type_message_and_phase_preserved) ... ERROR
+test_no_alarm_when_handler_installation_failed (test_v4_middle_withdrawal_verifier.GuardFailureTests.test_no_alarm_when_handler_installation_failed) ... FAIL
+test_parent_interrupt_cancels_child_before_failure_commit (test_v4_middle_withdrawal_verifier.GuardFailureTests.test_parent_interrupt_cancels_child_before_failure_commit) ... FAIL
+test_timer_release_failure_never_writes_verified (test_v4_middle_withdrawal_verifier.GuardFailureTests.test_timer_release_failure_never_writes_verified) ... ok
+test_complete_synthetic_pair_matches_other_route_and_known_accounts (test_v4_middle_withdrawal_verifier.ScientificTests.test_complete_synthetic_pair_matches_other_route_and_known_accounts) ... ok
+test_future_intervals_cross_boundary_and_censoring (test_v4_middle_withdrawal_verifier.ScientificTests.test_future_intervals_cross_boundary_and_censoring) ... ok
+test_history_no_second_removal_or_renumbering (test_v4_middle_withdrawal_verifier.ScientificTests.test_history_no_second_removal_or_renumbering) ... ok
+test_physical_observation_failure_preserves_completed_kernel (test_v4_middle_withdrawal_verifier.ScientificTests.test_physical_observation_failure_preserves_completed_kernel) ... ok
+test_two_birth_thresholds_preserve_original_support (test_v4_middle_withdrawal_verifier.ScientificTests.test_two_birth_thresholds_preserve_original_support) ... ok
+test_whole_component_program_ancestry_and_one_founder_allowed (test_v4_middle_withdrawal_verifier.ScientificTests.test_whole_component_program_ancestry_and_one_founder_allowed) ... ok
+
+======================================================================
+ERROR: test_child_writer_exception_type_message_and_phase_preserved (test_v4_middle_withdrawal_verifier.GuardFailureTests.test_child_writer_exception_type_message_and_phase_preserved)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 329, in test_child_writer_exception_type_message_and_phase_preserved
+    e.execute(lambda:None)
+    ~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/todd/Documents/bitgenesis/scripts/verify_v4_middle_withdrawal.py", line 697, in execute
+    if first is not None: raise first
+                          ^^^^^^^^^^^
+  File "/Users/todd/Documents/bitgenesis/scripts/verify_v4_middle_withdrawal.py", line 683, in execute
+    if self.guard: self.guard.commit(commit)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/todd/Documents/bitgenesis/scripts/verify_v4_middle_withdrawal.py", line 568, in commit
+    require(os.waitstatus_to_exitcode(status) == 0, 'bounded evidence writer failed')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/todd/Documents/bitgenesis/scripts/middle_withdrawal_inputs.py", line 36, in require
+    raise ValueError(message)
+ValueError: bounded evidence writer failed
+
+======================================================================
+FAIL: test_blocking_commit_leaves_failed_within_total_deadline (test_v4_middle_withdrawal_verifier.GuardFailureTests.test_blocking_commit_leaves_failed_within_total_deadline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 361, in test_blocking_commit_leaves_failed_within_total_deadline
+    self.assertEqual(inputs.read(e.root/'metadata.json')['status'],'failed')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'closing' != 'failed'
+- closing
++ failed
+
+
+======================================================================
+FAIL: test_call_releases_lease_before_return_and_preserves_first_error (test_v4_middle_withdrawal_verifier.GuardFailureTests.test_call_releases_lease_before_return_and_preserves_first_error)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 313, in test_call_releases_lease_before_return_and_preserves_first_error
+    self.assertEqual(signal.getitimer(signal.ITIMER_REAL),(0.0,0.0))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Tuples differ: (0.999844, 0.0) != (0.0, 0.0)
+
+First differing element 0:
+0.999844
+0.0
+
+- (0.999844, 0.0)
++ (0.0, 0.0)
+
+======================================================================
+FAIL: test_no_alarm_when_handler_installation_failed (test_v4_middle_withdrawal_verifier.GuardFailureTests.test_no_alarm_when_handler_installation_failed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 304, in test_no_alarm_when_handler_installation_failed
+    with patch.object(signal,'setitimer') as arm,self.assertRaisesRegex(RuntimeError,'installed'):
+                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+======================================================================
+FAIL: test_parent_interrupt_cancels_child_before_failure_commit (test_v4_middle_withdrawal_verifier.GuardFailureTests.test_parent_interrupt_cancels_child_before_failure_commit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/tests/test_v4_middle_withdrawal_verifier.py", line 348, in test_parent_interrupt_cancels_child_before_failure_commit
+    self.assertFalse((root/'late-verified').exists())
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 22 tests in 2.118s
+
+FAILED (failures=4, errors=1)

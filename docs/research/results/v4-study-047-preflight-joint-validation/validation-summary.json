@@ -1,0 +1,74 @@
+{
+  "created_at_utc": "2026-10-08T17:11:40.098082+00:00",
+  "scope": "两任务当前统一回归与控制边界；不是实际Study047后缀。",
+  "current_code_sha256": {
+    "scripts/middle_withdrawal_inputs.py": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5",
+    "scripts/run_v4_middle_withdrawal.py": "452c21194d0d130b0c95f90b8e41d0a56a3708275abfaa6d62a76c4b0883bf41",
+    "scripts/verify_v4_middle_withdrawal.py": "9ae8ef620cb3d28fb777dad346e322489e31e58ec35e563baf29a1b6e8a21830",
+    "tests/test_v4_middle_withdrawal.py": "15113b2c8ca38d5f91df46f76343b7a457d6f8d3f8fa1537b4076bf0483cf251",
+    "tests/test_v4_middle_withdrawal_verifier.py": "ff46e0a9ad503f87601e6139b2d74b59f62e9a8a379eec1adde702fdce8ce0e0"
+  },
+  "executions": {
+    "related": {
+      "execution": "docs/research/results/v4-study-047-preflight-joint-validation/related/execution.json",
+      "exit_code": 0,
+      "wall_seconds": 6.121582083986141,
+      "stderr_tail": [
+        "----------------------------------------------------------------------",
+        "Ran 104 tests in 6.034s",
+        "",
+        "OK"
+      ]
+    },
+    "full": {
+      "execution": "docs/research/results/v4-study-047-preflight-joint-validation/full/execution.json",
+      "exit_code": 1,
+      "wall_seconds": 68.21638491703197,
+      "stderr_tail": [
+        "----------------------------------------------------------------------",
+        "Ran 1070 tests in 67.862s",
+        "",
+        "FAILED (errors=2)"
+      ]
+    },
+    "full-revalidated": {
+      "execution": "docs/research/results/v4-study-047-preflight-joint-validation/full-revalidated/execution.json",
+      "exit_code": 0,
+      "wall_seconds": 77.7735480000265,
+      "stderr_tail": [
+        "----------------------------------------------------------------------",
+        "Ran 1070 tests in 77.334s",
+        "",
+        "OK"
+      ]
+    },
+    "compile-revalidated": {
+      "execution": "docs/research/results/v4-study-047-preflight-joint-validation/compile-revalidated/execution.json",
+      "exit_code": 0,
+      "wall_seconds": 0.06855212501250207,
+      "stderr_tail": []
+    }
+  },
+  "study047_per_related_or_full_execution": {
+    "producer_fixture_physical_steps": 66,
+    "verifier_dictionary_physical_steps": 65,
+    "verifier_reference_producer_physical_steps": 64,
+    "producer_fixture_future_ticks": 99,
+    "verifier_future_ticks": 65,
+    "verifier_reference_future_ticks": 32,
+    "synthetic_seed": 987654,
+    "real_study047_future_ticks": 0,
+    "real_study047_physical_steps": 0
+  },
+  "parent_related_and_two_full_total": {
+    "synthetic_physical_steps": 585,
+    "synthetic_future_ticks": 588,
+    "count_scope": "仅这三次命令内047fixture；完整suite其他研究测试不计入此047合成账。"
+  },
+  "first_full_failure": "1070项中2errors，短合成预算的收尾写入余量不足；旧失败保持failed，原因与保全缺口见first-full-failure-note。",
+  "full_revalidated_tests": 1070,
+  "full_revalidated_seconds": 77.334,
+  "native_windows_execution": false,
+  "science_boundary_check": "docs/research/results/v4-study-047-preflight-joint-validation/science-boundary-check.json",
+  "data_v4_study047_exists": false
+}

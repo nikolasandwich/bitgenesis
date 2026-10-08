@@ -1,0 +1,11 @@
+test_cleanup_close_error_not_swallowed_by_success_return (test_v4_middle_withdrawal_verifier.FinalHygieneTests.test_cleanup_close_error_not_swallowed_by_success_return) ... ok
+test_run_preserves_start_before_preflight (test_v4_middle_withdrawal_verifier.FinalHygieneTests.test_run_preserves_start_before_preflight) ... ok
+test_real_entry_rejects_gate_before_future_or_producer_reads (test_v4_middle_withdrawal_verifier.InputInterfaceTests.test_real_entry_rejects_gate_before_future_or_producer_reads) ... ok
+test_clean_gate_runs_before_first_epoch_file_and_dirty_still_rejected (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_clean_gate_runs_before_first_epoch_file_and_dirty_still_rejected) ... ok
+test_run_actual_approval_read_failure_retains_original_exception (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_run_actual_approval_read_failure_retains_original_exception) ... ok
+test_run_interrupts_preflight_gate_and_process_with_failed_epoch (test_v4_middle_withdrawal_verifier.PreflightBoundaryTests.test_run_interrupts_preflight_gate_and_process_with_failed_epoch) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.469s
+
+OK

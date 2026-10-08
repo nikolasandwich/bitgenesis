@@ -1,0 +1,21 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "docs/research/results/v4-study-047-verifier-implementation/portable-check.py"
+  ],
+  "environment": {
+    "PYTHONPATH": "src",
+    "STUDY047_VERIFIER_TEST_EVIDENCE": "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-verifier-implementation/remediation-1-portable/runtime-epochs"
+  },
+  "exit_code": 0,
+  "files_sha256": {
+    "scripts/verify_v4_middle_withdrawal.py": "9ae8ef620cb3d28fb777dad346e322489e31e58ec35e563baf29a1b6e8a21830",
+    "tests/test_v4_middle_withdrawal_verifier.py": "db4593731b435432aa145333f466d1602b1de1c060e5ad9841606894fb9113af"
+  },
+  "raw_output_sha256": {
+    "stderr.bin": "eae2b2c412e6c6797c8b7be75d2c98794845707f53c49a0a68785a13881b4b3d",
+    "stdout.bin": "91eb5a301d6d3ed558f1d54bf80ca010e3a408bbb361e9ee65657051981771d4"
+  },
+  "started_unix": 1791478811.032044,
+  "wall_seconds": 1.5126221249811351
+}

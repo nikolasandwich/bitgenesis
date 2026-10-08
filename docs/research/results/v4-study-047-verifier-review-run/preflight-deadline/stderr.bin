@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-047-verifier-review-run/preflight_deadline_counterexample.py", line 22, in <module>
+    assert record['status']=='PASS','阶段预检未受run开始的绝对预算中断'
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 阶段预检未受run开始的绝对预算中断
