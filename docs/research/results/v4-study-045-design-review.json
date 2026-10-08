@@ -1,0 +1,63 @@
+{
+  "verdict": "APPROVED",
+  "task": "1.1",
+  "reviewer": "独立上下文 /root/turnover_method_review",
+  "scope": "仅045方法、907来源绑定、全身份结构清单和042复用；未运行科学周转/缺口/能量投影。",
+  "requirements": [
+    "1.1",
+    "1.2",
+    "2.1",
+    "2.2",
+    "3.1"
+  ],
+  "mechanical": {
+    "source_files": 907,
+    "source_hashes_current_and_before_after_equal": true,
+    "independent_identity_census": 202,
+    "independent_initial_left_censored": 12,
+    "future_states": 780,
+    "arms": 56,
+    "reuse_042_records": 35,
+    "reuse_json_pointers_and_normalized_hashes": "PASS",
+    "old_039_ablation_equals_043_control": "8个完整对象逐项相等",
+    "compile": {
+      "command": ".venv/bin/python -m py_compile scripts/audit_v4_middle_turnover_design.py",
+      "exit_code": 0
+    },
+    "diff_check": {
+      "command": "git diff --check",
+      "exit_code": 0
+    },
+    "placeholder_scan": "CLEAN",
+    "secrets_spot_check": "CLEAN",
+    "static_checks": "PASS",
+    "boundary": "WITHIN",
+    "boundary_audit": "CLEAN",
+    "red_phase": "N/A：方法与只读来源清单；正式行为实现尚未开始",
+    "tests": "按1.1冻结策略执行独立来源/身份/复用机械核验；未重复全suite",
+    "data_v4_study_045_absent": true,
+    "task_graph_sanity": "PASS：1.1来源/方法先于2.1显式集成；五项数字需求全覆盖，两任务均有可观察完成项；无并行越序；沿既有研究协议保留1.1/2.1编号。"
+  },
+  "findings": [],
+  "clarifications_verified": [
+    "同一身份材料保持不变，格点材料变化与身份替换分别记录。",
+    "G表示两格均无材料0，与两格物理空严格分开；仅上下完整遗传匹配时检验组件关系。",
+    "死亡至后继出生按d..b−1空末态计数；入口/终点与双删失有明确边界；t0诊断不计未来长度。",
+    "042旧8分支35身份以来源文件hash/JSON指针/记录hash复用，不重算旧账；其余48分支仅后续必要事件投影。",
+    "方法报告202计数为案例×政策身份记录，不宣称独立样本或已完成长期机制解释。"
+  ],
+  "remediation": null,
+  "summary": "1.1方法和来源/身份清单通过独立审查；2.1完整审计仍未执行。",
+  "physical_steps": 0,
+  "scientific_turnover_audit": false,
+  "files_sha256": {
+    "experiments/v4/study-045.md": "0069196da7a975902b04286414fba6b3ae48c8de47d437e20ff7eb4599322a93",
+    "docs/design/v4-middle-turnover.zh-CN.md": "aa37560915dd5b3be7d4806cd7ade560939e87e2db0d7402754387933229773b",
+    "scripts/audit_v4_middle_turnover_design.py": "a5a6ff521533fbf74e63c9a8a1d4e8e44148f6425b8af04e993f076a6bf7ed0c",
+    "docs/research/results/v4-study-045-design-sources.json": "701b9d07dd06c887582a1a237730e17c315ea9d96b7f6864a66f24504c68dee9",
+    "docs/research/results/v4-study-045-design-census.json": "e4cee0c2358fa41480e815d6b3360379ecf8532bc439023a1c0440272b75960a",
+    "docs/research/v4-study-045-method.zh-CN.md": "9e9a5748d96fc1015729ebe1b19b1e3dea53bb6db48d29bc35a86d1921f987ff",
+    ".kiro/specs/middle-turnover/requirements.md": "2cd9e56f675658169ebdc40c0b6bafc4467b5b573bd57f2dc1812690f8fc3c96",
+    ".kiro/specs/middle-turnover/design.md": "aa37560915dd5b3be7d4806cd7ade560939e87e2db0d7402754387933229773b"
+  }
+}

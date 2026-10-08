@@ -1,0 +1,26 @@
+{
+  "feature_name": "middle-turnover",
+  "language": "zh-CN",
+  "phase": "tasks-generated",
+  "created_at": "2026-10-08",
+  "updated_at": "2026-10-08",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "approval_basis": "用户持续自主研究授权 intentional fast-track",
+  "ready_for_implementation": true,
+  "method_review": "任务1.1由新上下文turnover_method_review独立核验907来源、202身份/12起点删失、35精确复用，APPROVED；0物理。",
+  "completion_note": "仅方法冻结与来源/身份清单；0物理，未执行完整科学周转/缺口分析。",
+  "next_task": "2.1 实现只读周转/能量事件投影/无材料0窗口及门槛重叠，先工程和测试；正式审计未运行。"
+}
