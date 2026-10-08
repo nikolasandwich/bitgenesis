@@ -1,0 +1,49 @@
+[
+  {
+    "argv": [
+      ".venv/bin/python",
+      "docs/research/results/v4-study-047-producer-review-final-run/checks.py"
+    ],
+    "environment": {
+      "PYTHONPATH": "src"
+    },
+    "exit_code": 0,
+    "wall_seconds": 2.329019541037269
+  },
+  {
+    "label": "markers",
+    "argv": [
+      "rg",
+      "-n",
+      "TBD|TODO|FIXME|HACK|XXX",
+      "scripts/middle_withdrawal_inputs.py",
+      "scripts/run_v4_middle_withdrawal.py",
+      "tests/test_v4_middle_withdrawal.py"
+    ],
+    "exit_code": 1,
+    "wall_seconds": 0.007286624982953072
+  },
+  {
+    "label": "secret-patterns",
+    "argv": [
+      "rg",
+      "-n",
+      "password|secret|api.?key|credential|BEGIN.*PRIVATE KEY",
+      "scripts/middle_withdrawal_inputs.py",
+      "scripts/run_v4_middle_withdrawal.py",
+      "tests/test_v4_middle_withdrawal.py"
+    ],
+    "exit_code": 1,
+    "wall_seconds": 0.009250667062588036
+  },
+  {
+    "label": "diff-check",
+    "argv": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.015861375024542212
+  }
+]

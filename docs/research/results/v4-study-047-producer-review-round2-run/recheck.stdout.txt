@@ -1,0 +1,8 @@
+{"name": "immutable_history_and_current", "prior_bindings": 1221, "prior_review_evidence": 22, "mapping_count": 3, "current_source_bindings": 1191, "review_bindings": 1268}
+{"name": "process_guard", "command": "python -m scripts.run_v4_middle_withdrawal --mode formal", "rejected": true}
+{"name": "process_guard", "command": "python -u -B scripts/run_v4_middle_withdrawal.py", "rejected": true}
+{"name": "process_guard", "command": "python -X dev -W ignore -m scripts.verify_v4_middle_withdrawal", "rejected": true}
+{"name": "process_guard", "command": "python unrelated.py scripts/run_v4_middle_withdrawal.py", "rejected": false}
+{"name": "bounded_closing_hash", "elapsed_seconds": 0.04976429196540266, "budget_seconds": 0.3, "status": "failed", "first_exception_preserved": true}
+{"name": "checkpoint_failure", "status": "failed", "completed_synthetic_ticks": 32, "preserved_states": ["feeds"], "errors": {"directions": "KeyboardInterrupt('state capture')"}}
+{"name": "release_and_recovery_failure", "in_memory_status": "failed", "disk_status": "complete", "failure_file_exists": false, "timer_handler_calls": 4, "retry_release_succeeded": true, "errors": {"deadline_release": "SystemExit('synthetic release restore failure')", "deadline_recovery_handler": "KeyboardInterrupt('synthetic recovery install failure')"}}

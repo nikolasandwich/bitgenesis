@@ -1,0 +1,53 @@
+--- docs/research/results/v4-study-047-producer-implementation/rejected-epoch-2/run_v4_middle_withdrawal.py
++++ scripts/run_v4_middle_withdrawal.py
+@@ -689,23 +689,37 @@
+                 self.meta['deadline_cleanup_errors'] = dict(self.deadline.cleanup_errors)
+                 if first is None: first = error
+                 self.meta.update(status='failed', error=repr(first))
+-                # Release can partially restore the old handler. Re-establish
+-                # our handler before bounded failure writes; never arm a timer
+-                # against an unknown/default handler. No extra time is granted.
+-                ready = False
+-                if self.deadline.installed and time.monotonic() < self.deadline.end:
++                # A failed recovery installation may be transient: release can
++                # subsequently succeed, but that does not repair saved status.
++                # Permit at most two recovery installations under the SAME
++                # absolute deadline. A successful installation must write failed
++                # evidence even if the preceding release cleared installed.
++                for recovery in range(2):
++                    suffix = '' if recovery == 0 else '_second'
++                    self.meta['deadline_recovery_attempts'] = recovery + 1
++                    if time.monotonic() >= self.deadline.end:
++                        self.meta['finalization_errors']['deadline_recovery_unavailable' + suffix] = 'original route deadline exhausted'
++                        break
++                    ready = False
+                     try:
+                         signal.signal(signal.SIGALRM, self.deadline._expired)
++                        self.deadline.installed = True
+                         ready = True
+                     except BaseException as recovery_error:
+-                        self.meta['finalization_errors']['deadline_recovery_handler'] = repr(recovery_error)
+-                if ready:
+-                    remaining_actions = 3
+-                    attempt('release_failure_metadata', self.persist)
+-                    attempt('release_failure_evidence', lambda: self.write('failure.json', self.meta, check=False))
+-                try: self.deadline.release()
+-                except BaseException as recovery_error:
+-                    self.meta['finalization_errors']['deadline_release_retry'] = repr(recovery_error)
++                        self.meta['finalization_errors']['deadline_recovery_handler' + suffix] = repr(recovery_error)
++                    if ready:
++                        remaining_actions = 3
++                        attempt('release_failure_metadata' + suffix, self.persist)
++                        attempt('release_failure_evidence' + suffix, lambda: self.write('failure.json', self.meta, check=False))
++                    released = False
++                    try:
++                        self.deadline.release()
++                        released = True
++                    except BaseException as recovery_error:
++                        self.meta['finalization_errors']['deadline_release_retry' + suffix] = repr(recovery_error)
++                    if ready and released:
++                        break
++
+         if first is not None: raise first
+         return self.meta
+ 

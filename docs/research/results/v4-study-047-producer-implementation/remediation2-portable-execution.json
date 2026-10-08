@@ -1,0 +1,10 @@
+{
+  "argv": [
+    ".venv/bin/python",
+    "-c",
+    "import signal,sys,types,unittest\nportable=types.ModuleType(\"signal\")\nfor name,value in vars(signal).items():\n    if name not in (\"SIGALRM\",\"ITIMER_REAL\",\"setitimer\",\"getitimer\"):\n        setattr(portable,name,value)\nsys.modules[\"signal\"]=portable\nsuite=unittest.defaultTestLoader.discover(\"tests\",pattern=\"test_v4_middle_withdrawal.py\")\nresult=unittest.TextTestRunner(verbosity=2).run(suite)\nprint(\"Portable capability simulation: missing POSIX alarm APIs; not a native Windows run.\")\nsys.exit(not result.wasSuccessful())\n"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 0.6149716660147533,
+  "scope": "POSIX alarm APIs removed via module shim; not native Windows execution"
+}

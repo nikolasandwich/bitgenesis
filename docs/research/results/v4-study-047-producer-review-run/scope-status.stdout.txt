@@ -1,0 +1,5 @@
+?? docs/research/results/v4-study-047-producer-implementation/
+?? docs/research/results/v4-study-047-producer-review-run/
+?? scripts/middle_withdrawal_inputs.py
+?? scripts/run_v4_middle_withdrawal.py
+?? tests/test_v4_middle_withdrawal.py

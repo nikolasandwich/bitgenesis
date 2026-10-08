@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/todd/Documents/bitgenesis/scripts/run_v4_middle_withdrawal.py", line 18, in <module>
+    from scripts import middle_withdrawal_inputs as inputs
+ModuleNotFoundError: No module named 'scripts'

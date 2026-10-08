@@ -1,0 +1,108 @@
+[
+  {
+    "label": "independent-adversarial",
+    "argv": [
+      ".venv/bin/python",
+      "docs/research/results/v4-study-047-producer-review-run/review_checks.py"
+    ],
+    "environment": {
+      "PYTHONPATH": "src"
+    },
+    "exit_code": 0,
+    "wall_seconds": 1.6454263750929385
+  },
+  {
+    "label": "independent-targeted",
+    "argv": [
+      ".venv/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_v4_middle_withdrawal.py",
+      "-v"
+    ],
+    "environment": {
+      "PYTHONPATH": "src"
+    },
+    "exit_code": 0,
+    "wall_seconds": 0.6112465000478551
+  },
+  {
+    "label": "independent-compile",
+    "argv": [
+      ".venv/bin/python",
+      "-m",
+      "py_compile",
+      "scripts/middle_withdrawal_inputs.py",
+      "scripts/run_v4_middle_withdrawal.py",
+      "tests/test_v4_middle_withdrawal.py"
+    ],
+    "environment": {
+      "PYTHONPATH": "src"
+    },
+    "exit_code": 0,
+    "wall_seconds": 0.054399041924625635
+  },
+  {
+    "label": "independent-help",
+    "argv": [
+      ".venv/bin/python",
+      "scripts/run_v4_middle_withdrawal.py",
+      "--help"
+    ],
+    "environment": {
+      "PYTHONPATH": "src"
+    },
+    "exit_code": 0,
+    "wall_seconds": 0.059741833014413714
+  },
+  {
+    "label": "static-markers",
+    "argv": [
+      "rg",
+      "-n",
+      "TBD|TODO|FIXME|HACK|XXX",
+      "scripts/middle_withdrawal_inputs.py",
+      "scripts/run_v4_middle_withdrawal.py",
+      "tests/test_v4_middle_withdrawal.py"
+    ],
+    "exit_code": 1,
+    "wall_seconds": 0.008563459035940468
+  },
+  {
+    "label": "static-secrets",
+    "argv": [
+      "rg",
+      "-n",
+      "password|secret|api.?key|credential|BEGIN.*PRIVATE KEY",
+      "scripts/middle_withdrawal_inputs.py",
+      "scripts/run_v4_middle_withdrawal.py",
+      "tests/test_v4_middle_withdrawal.py"
+    ],
+    "exit_code": 1,
+    "wall_seconds": 0.0074368329951539636
+  },
+  {
+    "label": "tracked-diff",
+    "argv": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.015634417068213224
+  },
+  {
+    "label": "scope-status",
+    "argv": [
+      "git",
+      "status",
+      "--short"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.020029666018672287
+  }
+]

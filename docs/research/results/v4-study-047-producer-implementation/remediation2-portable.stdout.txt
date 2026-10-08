@@ -1,0 +1,2 @@
+{"study047_task": "2.1", "synthetic_fixture_steps": 66, "real_study047_future_physical_steps": 0, "real_study047_future_generator_ticks": 0, "synthetic_rng_seed": 987654, "synthetic_future_generator_ticks": 99, "full_case_expected_steps": 64}
+Portable capability simulation: missing POSIX alarm APIs; not a native Windows run.

@@ -1,0 +1,8 @@
+{
+  "exit_code": 1,
+  "error": "KeyError: 'archive'",
+  "stage": "validation wrapper reading second preservation schema",
+  "tests_started": false,
+  "code_changed": false,
+  "resolution": "second parent-created preservation uses archive_path and review_path; validated exact values without changing either archive"
+}

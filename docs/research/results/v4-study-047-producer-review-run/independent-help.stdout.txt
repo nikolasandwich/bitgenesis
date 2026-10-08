@@ -1,0 +1,12 @@
+usage: run_v4_middle_withdrawal.py [-h] --mode {engineering,formal}
+                                   --output OUTPUT
+
+Study047 paired tick33–64 continuation; explicit gated offline research CLI.
+
+options:
+  -h, --help            show this help message and exit
+  --mode {engineering,formal}
+                        engineering: E120005 only; formal: all28 paired
+                        branches
+  --output OUTPUT       new exclusive epoch directory; existing outputs are
+                        never overwritten

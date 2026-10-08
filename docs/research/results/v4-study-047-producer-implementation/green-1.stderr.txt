@@ -1,0 +1,21 @@
+test_budget_rejects_before_oversize_write (test_v4_middle_withdrawal.EvidenceTests.test_budget_rejects_before_oversize_write) ... ok
+test_exclusive_epoch_does_not_overwrite (test_v4_middle_withdrawal.EvidenceTests.test_exclusive_epoch_does_not_overwrite) ... ok
+test_source_capture_error_persists_successes_and_first_exception (test_v4_middle_withdrawal.EvidenceTests.test_source_capture_error_persists_successes_and_first_exception) ... ok
+test_source_drift_and_late_failure_cannot_be_complete (test_v4_middle_withdrawal.EvidenceTests.test_source_drift_and_late_failure_cannot_be_complete) ... ok
+test_work_or_closing_interrupt_preserves_first_object_and_hashes (test_v4_middle_withdrawal.EvidenceTests.test_work_or_closing_interrupt_preserves_first_object_and_hashes) ... ok
+test_completed_step_and_partial_rows_retained_when_observation_fails (test_v4_middle_withdrawal.ScienceTests.test_completed_step_and_partial_rows_retained_when_observation_fails) ... ok
+test_component_full_program_whole_shape_ancestry_and_original_exclusion (test_v4_middle_withdrawal.ScienceTests.test_component_full_program_whole_shape_ancestry_and_original_exclusion) ... ok
+test_future_intervals_cross_boundary_nine_plus_one_not_ten (test_v4_middle_withdrawal.ScienceTests.test_future_intervals_cross_boundary_nine_plus_one_not_ten) ... ok
+test_original_birth_support_survives_tick32_threshold (test_v4_middle_withdrawal.ScienceTests.test_original_birth_support_survives_tick32_threshold) ... ok
+test_two_arms_full_rows_accounting_and_no_second_removal (test_v4_middle_withdrawal.ScienceTests.test_two_arms_full_rows_accounting_and_no_second_removal) ... ok
+test_boundary_rejects_bad_identity_parent_program_mass_and_types (test_v4_middle_withdrawal.SourceTests.test_boundary_rejects_bad_identity_parent_program_mass_and_types) ... ok
+test_concrete_types_recursive (test_v4_middle_withdrawal.SourceTests.test_concrete_types_recursive) ... ok
+test_mask_only_two_sites_including_empty_without_mutating_common_tape (test_v4_middle_withdrawal.SourceTests.test_mask_only_two_sites_including_empty_without_mutating_common_tape) ... ok
+test_past_reconstruction_state_roundtrip_and_common_future (test_v4_middle_withdrawal.SourceTests.test_past_reconstruction_state_roundtrip_and_common_future) ... ok
+test_past_state_runtime_and_seed_drift_rejected_before_future (test_v4_middle_withdrawal.SourceTests.test_past_state_runtime_and_seed_drift_rejected_before_future) ... ok
+test_restore_uses_full_history_and_alive_not_death_field (test_v4_middle_withdrawal.SourceTests.test_restore_uses_full_history_and_alive_not_death_field) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.492s
+
+OK

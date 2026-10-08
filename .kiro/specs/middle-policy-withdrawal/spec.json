@@ -1,7 +1,7 @@
 {
   "feature_name": "middle-policy-withdrawal",
   "created_at": "2026-10-08T13:44:05.758323+00:00",
-  "updated_at": "2026-10-08T14:19:29.444589+00:00",
+  "updated_at": "2026-10-08T15:53:17.511253+00:00",
   "language": "zh-CN",
   "phase": "tasks-generated",
   "approvals": {
@@ -23,7 +23,9 @@
   "internal_review": {
     "task_graph": "PASS",
     "method": "APPROVED",
-    "task_1_1": "complete"
+    "task_1_1": "complete",
+    "producer": "APPROVED",
+    "task_2_1": "complete"
   },
   "method_output_epoch": "design-revalidated",
   "method_execution_status": "complete_independently_reviewed",
@@ -38,9 +40,24 @@
   "completion_verification": {
     "status": "VERIFIED",
     "claim_type": "TASK",
+    "task": "2.1",
+    "scope": "完整两臂连续生产实现、边界测试与独立任务审查完成；不含核验器、真实工程或正式研究。",
+    "current_bindings_verified": 1321,
+    "path": "docs/research/results/v4-study-047-producer-validation.json"
+  },
+  "next_task": "2.2：独立环境、字典物理、观察及汇总核验实现；仍仅合成测试。",
+  "producer_execution_status": "implementation_complete_independently_reviewed_no_real_future",
+  "producer_review": {
+    "path": "docs/research/results/v4-study-047-producer-review.json",
+    "sha256": "1f42fd314e741b2138d42d120e8d3feb48d8cef233f44158cf5642a9dd1ee102",
+    "reviewer": "/root/withdrawal_producer_review",
+    "immutable_bindings": 1321
+  },
+  "method_completion_verification": {
+    "status": "VERIFIED",
+    "claim_type": "TASK",
     "task": "1.1",
     "scope": "方法冻结与完整来源、过去环境和终态可续接性；0未来抽签/物理，不是FEATURE_GO",
     "current_bindings_verified": 1188
-  },
-  "next_task": "2.1：实现生产路线与合成边界测试；真实未来后缀仅可在2.3开始"
+  }
 }

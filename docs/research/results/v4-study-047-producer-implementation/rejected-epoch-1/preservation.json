@@ -1,0 +1,26 @@
+{
+  "purpose": "独立初审REJECTED的真实源码与测试，修复前逐字节封存；不是科学执行epoch。",
+  "review": "docs/research/results/v4-study-047-producer-review-initial.json",
+  "review_sha256": "45cc042838704260f97286e9ac8d4ec5b19d6ade1125ce0858337979cfe7bf02",
+  "files": [
+    {
+      "source": "scripts/middle_withdrawal_inputs.py",
+      "archive": "docs/research/results/v4-study-047-producer-implementation/rejected-epoch-1/middle_withdrawal_inputs.py",
+      "sha256": "04b31a0c760234cf7682c965eace1a968ba9a78a2536129398881e7de312a4a7",
+      "bytes": 13933
+    },
+    {
+      "source": "scripts/run_v4_middle_withdrawal.py",
+      "archive": "docs/research/results/v4-study-047-producer-implementation/rejected-epoch-1/run_v4_middle_withdrawal.py",
+      "sha256": "b179d210ce4716281a7516bb83b2df87362aab1be1bf2ef5595e3b08380932ac",
+      "bytes": 42499
+    },
+    {
+      "source": "tests/test_v4_middle_withdrawal.py",
+      "archive": "docs/research/results/v4-study-047-producer-implementation/rejected-epoch-1/test_v4_middle_withdrawal.py",
+      "sha256": "20948c30221ee9446eda517003f542bfdc798336f7660fcfc731d678d628e626",
+      "bytes": 33222
+    }
+  ],
+  "created_at_utc": "2026-10-08T15:01:54.992189+00:00"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "argv": [
+      ".venv/bin/python",
+      "docs/research/results/v4-study-047-producer-review-round2-run/recheck.py"
+    ],
+    "environment": {
+      "PYTHONPATH": "src"
+    },
+    "exit_code": 0,
+    "wall_seconds": 2.378354874905199
+  },
+  {
+    "label": "independent-portable",
+    "argv": [
+      ".venv/bin/python",
+      "-c",
+      "import signal,sys,types,unittest\nportable=types.ModuleType(\"signal\")\nfor name,value in vars(signal).items():\n    if name not in (\"SIGALRM\",\"ITIMER_REAL\",\"setitimer\",\"getitimer\"):\n        setattr(portable,name,value)\nsys.modules[\"signal\"]=portable\nsuite=unittest.defaultTestLoader.discover(\"tests\",pattern=\"test_v4_middle_withdrawal.py\")\nresult=unittest.TextTestRunner(verbosity=2).run(suite)\nprint(\"Independent missing-POSIX-API simulation; not native Windows execution.\")\nsys.exit(not result.wasSuccessful())\n"
+    ],
+    "environment": {
+      "PYTHONPATH": "src"
+    },
+    "exit_code": 0,
+    "wall_seconds": 0.6117127920733765
+  }
+]

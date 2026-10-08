@@ -1,0 +1,234 @@
+{
+  "observations": [
+    {
+      "name": "current_evidence",
+      "source_bindings": 1191,
+      "initial_review_bindings": 1221,
+      "method_review_bindings": 1188,
+      "full_regression_same_code": {
+        "label": "full-suite",
+        "argv": [
+          ".venv/bin/python",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "environment": {
+          "PYTHONPATH": "src"
+        },
+        "exit_code": 0,
+        "wall_seconds": 61.70892458292656
+      },
+      "real_future_directory_exists": false
+    },
+    {
+      "name": "proposal_gates_all_reasons_and_post_dissolution",
+      "passed": true,
+      "gates": [
+        {
+          "source": 16,
+          "target": 17,
+          "direction": 0,
+          "reason": "formed",
+          "source_energy": 38,
+          "energy_sufficient": true,
+          "target_empty": true,
+          "raw_available": true,
+          "candidate_count": 1,
+          "no_collision": true,
+          "parent_program": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "expressed_material": 0,
+          "mutation_ticket": [
+            999,
+            0,
+            1
+          ],
+          "construction_cost": 4,
+          "copy_cost": 1
+        },
+        {
+          "source": 50,
+          "target": 51,
+          "direction": 0,
+          "reason": "occupied",
+          "source_energy": 38,
+          "energy_sufficient": true,
+          "target_empty": false,
+          "raw_available": false,
+          "candidate_count": 0,
+          "no_collision": false,
+          "parent_program": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "expressed_material": 0,
+          "mutation_ticket": [
+            999,
+            0,
+            1
+          ],
+          "construction_cost": 4,
+          "copy_cost": 1
+        },
+        {
+          "source": 51,
+          "target": 52,
+          "direction": 0,
+          "reason": "energy",
+          "source_energy": 8,
+          "energy_sufficient": false,
+          "target_empty": true,
+          "raw_available": false,
+          "candidate_count": 0,
+          "no_collision": false,
+          "parent_program": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "expressed_material": 0,
+          "mutation_ticket": [
+            999,
+            0,
+            1
+          ],
+          "construction_cost": 4,
+          "copy_cost": 1
+        },
+        {
+          "source": 100,
+          "target": 101,
+          "direction": 0,
+          "reason": "collision",
+          "source_energy": 39,
+          "energy_sufficient": true,
+          "target_empty": true,
+          "raw_available": true,
+          "candidate_count": 2,
+          "no_collision": false,
+          "parent_program": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "expressed_material": 0,
+          "mutation_ticket": [
+            999,
+            0,
+            1
+          ],
+          "construction_cost": 4,
+          "copy_cost": 1
+        },
+        {
+          "source": 102,
+          "target": 101,
+          "direction": 1,
+          "reason": "collision",
+          "source_energy": 39,
+          "energy_sufficient": true,
+          "target_empty": true,
+          "raw_available": true,
+          "candidate_count": 2,
+          "no_collision": false,
+          "parent_program": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "expressed_material": 1,
+          "mutation_ticket": [
+            999,
+            0,
+            1
+          ],
+          "construction_cost": 4,
+          "copy_cost": 1
+        },
+        {
+          "source": 200,
+          "target": 201,
+          "direction": 0,
+          "reason": "raw_material",
+          "source_energy": 39,
+          "energy_sufficient": true,
+          "target_empty": true,
+          "raw_available": false,
+          "candidate_count": 0,
+          "no_collision": false,
+          "parent_program": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "expressed_material": 0,
+          "mutation_ticket": [
+            999,
+            0,
+            1
+          ],
+          "construction_cost": 4,
+          "copy_cost": 1
+        }
+      ]
+    },
+    {
+      "name": "windows_signal_surface_existing_new_tests",
+      "ran": 2,
+      "failures": 0,
+      "errors": 2,
+      "passed": false
+    },
+    {
+      "name": "failed_checkpoint_nested_complete",
+      "epoch_status": "failed",
+      "checkpoint_status": "complete",
+      "tickets": 32,
+      "state_capture_error": "SystemExit('synthetic getstate failure')",
+      "has_current_states": false
+    },
+    {
+      "name": "process_preflight",
+      "command": "999991 /usr/bin/python3 -m scripts.run_v4_middle_withdrawal --mode engineering --output x",
+      "rejected": false
+    },
+    {
+      "name": "process_preflight",
+      "command": "999992 /usr/bin/python3 -u -B scripts/run_v4_middle_withdrawal.py --mode engineering --output x",
+      "rejected": false
+    },
+    {
+      "name": "process_preflight",
+      "command": "999993 /usr/bin/python3 scripts/run_v4_middle_withdrawal.py --mode engineering --output x",
+      "rejected": true
+    },
+    {
+      "name": "closing_has_no_active_timeout",
+      "timer_at_output_hash": [
+        0.0,
+        0.0
+      ],
+      "uninterrupted_closing_seconds": 0.13002545898780227,
+      "epoch_status": "failed"
+    }
+  ],
+  "synthetic_physical_steps": 1,
+  "synthetic_future_generator_ticks": 32,
+  "synthetic_rng_seed": 987654,
+  "real_study047_future_physical_steps": 0,
+  "real_study047_future_generator_ticks": 0
+}

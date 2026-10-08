@@ -1,0 +1,204 @@
+{
+  "loaded": [
+    {
+      "encoding": "east",
+      "seed": 120005,
+      "t0": 19,
+      "prefix_rows": 13,
+      "individuals": 15
+    },
+    {
+      "encoding": "east",
+      "seed": 120007,
+      "t0": 18,
+      "prefix_rows": 14,
+      "individuals": 15
+    },
+    {
+      "encoding": "east",
+      "seed": 120009,
+      "t0": 8,
+      "prefix_rows": 24,
+      "individuals": 15
+    },
+    {
+      "encoding": "east",
+      "seed": 120011,
+      "t0": 30,
+      "prefix_rows": 2,
+      "individuals": 14
+    },
+    {
+      "encoding": "east",
+      "seed": 120018,
+      "t0": 15,
+      "prefix_rows": 17,
+      "individuals": 15
+    },
+    {
+      "encoding": "west",
+      "seed": 120003,
+      "t0": 24,
+      "prefix_rows": 8,
+      "individuals": 15
+    },
+    {
+      "encoding": "west",
+      "seed": 120007,
+      "t0": 18,
+      "prefix_rows": 14,
+      "individuals": 15
+    },
+    {
+      "encoding": "west",
+      "seed": 120009,
+      "t0": 8,
+      "prefix_rows": 24,
+      "individuals": 15
+    },
+    {
+      "encoding": "north",
+      "seed": 120003,
+      "t0": 24,
+      "prefix_rows": 8,
+      "individuals": 15
+    },
+    {
+      "encoding": "north",
+      "seed": 120005,
+      "t0": 12,
+      "prefix_rows": 20,
+      "individuals": 13
+    },
+    {
+      "encoding": "north",
+      "seed": 120006,
+      "t0": 10,
+      "prefix_rows": 22,
+      "individuals": 14
+    },
+    {
+      "encoding": "north",
+      "seed": 120007,
+      "t0": 15,
+      "prefix_rows": 17,
+      "individuals": 14
+    },
+    {
+      "encoding": "north",
+      "seed": 120009,
+      "t0": 8,
+      "prefix_rows": 24,
+      "individuals": 14
+    },
+    {
+      "encoding": "north",
+      "seed": 120010,
+      "t0": 19,
+      "prefix_rows": 13,
+      "individuals": 12
+    },
+    {
+      "encoding": "north",
+      "seed": 120011,
+      "t0": 28,
+      "prefix_rows": 4,
+      "individuals": 13
+    },
+    {
+      "encoding": "north",
+      "seed": 120018,
+      "t0": 15,
+      "prefix_rows": 17,
+      "individuals": 15
+    },
+    {
+      "encoding": "north",
+      "seed": 120019,
+      "t0": 24,
+      "prefix_rows": 8,
+      "individuals": 15
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120001,
+      "t0": 9,
+      "prefix_rows": 23,
+      "individuals": 13
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120003,
+      "t0": 24,
+      "prefix_rows": 8,
+      "individuals": 15
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120004,
+      "t0": 26,
+      "prefix_rows": 6,
+      "individuals": 16
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120005,
+      "t0": 19,
+      "prefix_rows": 13,
+      "individuals": 15
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120007,
+      "t0": 18,
+      "prefix_rows": 14,
+      "individuals": 15
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120009,
+      "t0": 8,
+      "prefix_rows": 24,
+      "individuals": 15
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120011,
+      "t0": 30,
+      "prefix_rows": 2,
+      "individuals": 14
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120013,
+      "t0": 30,
+      "prefix_rows": 2,
+      "individuals": 11
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120015,
+      "t0": 24,
+      "prefix_rows": 8,
+      "individuals": 15
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120017,
+      "t0": 8,
+      "prefix_rows": 24,
+      "individuals": 18
+    },
+    {
+      "encoding": "homogeneous",
+      "seed": 120018,
+      "t0": 15,
+      "prefix_rows": 17,
+      "individuals": 15
+    }
+  ],
+  "loaded_count": 28,
+  "physical_steps": 0,
+  "future_generator_ticks": 0,
+  "description": "只读28个已保存的tick32状态并恢复observer；不调用观察匹配/step/future_tape。"
+}

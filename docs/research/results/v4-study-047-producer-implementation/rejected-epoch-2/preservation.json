@@ -1,0 +1,26 @@
+{
+  "created_at_utc": "2026-10-08T15:32:46.190089+00:00",
+  "reason": "Preserve round 2 rejected producer source bytes before R5 remediation; not a successful validation of future source.",
+  "review_path": "docs/research/results/v4-study-047-producer-review-round2.json",
+  "review_sha256": "83aa7895db30a75d5971ff411e959748e4747f457a563b34cadc583bb3986234",
+  "files": [
+    {
+      "source_path": "scripts/middle_withdrawal_inputs.py",
+      "archive_path": "docs/research/results/v4-study-047-producer-implementation/rejected-epoch-2/middle_withdrawal_inputs.py",
+      "sha256": "3dc6729a004c55665224ae07a8d78d541bd33cf55e8d2b456e960046f45b22c5",
+      "bytes": 14311
+    },
+    {
+      "source_path": "scripts/run_v4_middle_withdrawal.py",
+      "archive_path": "docs/research/results/v4-study-047-producer-implementation/rejected-epoch-2/run_v4_middle_withdrawal.py",
+      "sha256": "fa4b1ba2172caebeedbdff9f4f3d07fbcf1829f9d1e5564b79a92139ed5e285e",
+      "bytes": 50670
+    },
+    {
+      "source_path": "tests/test_v4_middle_withdrawal.py",
+      "archive_path": "docs/research/results/v4-study-047-producer-implementation/rejected-epoch-2/test_v4_middle_withdrawal.py",
+      "sha256": "81ce5ea3b943b44ee1db982e914440b9b4a3b147f327621e5c9f3791c80430a4",
+      "bytes": 45909
+    }
+  ]
+}

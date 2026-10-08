@@ -1,0 +1,68 @@
+{
+  "schema": "study047-withdrawal-v1",
+  "status": "failed",
+  "route": "producer",
+  "started_at_utc": "2026-10-08T15:46:47.396974+00:00",
+  "physical_steps": 0,
+  "future_generator_ticks": 0,
+  "reconstructed_past_generator_ticks": 0,
+  "completed_pairs": 0,
+  "time_limit_seconds": 0.4,
+  "storage_limit_bytes": 134217728,
+  "input_paths": [],
+  "input_sha256": {},
+  "input_sha256_after": {},
+  "input_read_errors_before": {},
+  "input_read_errors_after": {},
+  "finalization_errors": {
+    "deadline_release": "SystemExit('native release')",
+    "deadline_recovery_handler": "KeyboardInterrupt('native recovery')"
+  },
+  "work_limit_seconds": 0.36000000000000004,
+  "closing_reserve_seconds": 0.04,
+  "deadline_backend": "POSIX SIGALRM",
+  "closing_action_deadlines": {
+    "closing_checks_0": {
+      "remaining_route_seconds": 0.3994595829863101,
+      "remaining_actions": 9
+    },
+    "input_hashes": {
+      "remaining_route_seconds": 0.39945654093753546,
+      "remaining_actions": 8
+    },
+    "output_hashes": {
+      "remaining_route_seconds": 0.39945245801936835,
+      "remaining_actions": 7
+    },
+    "final_budget": {
+      "remaining_route_seconds": 0.39940712496172637,
+      "remaining_actions": 6
+    },
+    "metadata_write": {
+      "remaining_route_seconds": 0.3993639999534935,
+      "remaining_actions": 5
+    },
+    "after_metadata_budget": {
+      "remaining_route_seconds": 0.3991626249626279,
+      "remaining_actions": 4
+    },
+    "release_failure_metadata_second": {
+      "remaining_route_seconds": 0.3990797499427572,
+      "remaining_actions": 3
+    },
+    "release_failure_evidence_second": {
+      "remaining_route_seconds": 0.3988764160312712,
+      "remaining_actions": 2
+    }
+  },
+  "recovery_policy": "\u9884\u7b97\u5185\u9010\u9879\u6709\u754c\u5c1d\u8bd5\uff1bOS\u4e0d\u53ef\u4e2d\u65ad\u8c03\u7528\u6216\u5b58\u50a8\u6545\u969c\u53ef\u80fd\u963b\u6b62\u8bc1\u636e\u4fdd\u5b58\uff0c\u7edd\u4e0d\u8bb0complete\u3002",
+  "deadline_cleanup_errors": {
+    "restore_handler": "SystemExit('native release')"
+  },
+  "output_sha256": {},
+  "output_read_errors": {},
+  "work_done": true,
+  "elapsed_seconds": 0.0009215840836986899,
+  "error": "SystemExit('native release')",
+  "deadline_recovery_attempts": 2
+}
