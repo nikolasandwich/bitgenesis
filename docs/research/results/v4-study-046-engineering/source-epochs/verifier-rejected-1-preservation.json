@@ -1,0 +1,20 @@
+{
+  "study": "046",
+  "phase": "task-2.2-initial-review",
+  "files": [
+    {
+      "source": "scripts/verify_v4_middle_refill.py",
+      "archive": "docs/research/results/v4-study-046-engineering/source-epochs/verifier-rejected-1.py",
+      "bytes": 41461,
+      "sha256": "905c92ccd9be4dab83bfd3e7e8c1eb2df541b021ebf8c01425b999cb4b238a23"
+    },
+    {
+      "source": "tests/test_v4_middle_refill_verifier.py",
+      "archive": "docs/research/results/v4-study-046-engineering/source-epochs/verifier-tests-rejected-1.py",
+      "bytes": 31703,
+      "sha256": "45311d028cfcbb4b9634881fadda10c0c019d08fd22f5618907f05965a5cbcf9"
+    }
+  ],
+  "note": "修复前逐字节保存的被拒核验器及测试版本，仅用于复核两项独立合成发现，不运行旧版本。",
+  "physical_steps": 0
+}

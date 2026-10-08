@@ -20,9 +20,10 @@
   },
   "approval_basis": "用户持续自主研究授权 intentional fast-track；保留独立方法和任务图审查",
   "ready_for_implementation": true,
-  "completion_note": "任务1及2.1完成。生产26新增测试及936项全suite通过，独立task2.1审查APPROVED；只执行首E120005两arm26态生产工程（953来源、208槽位/52目标tick、0物理）。2.2独立核验和2.3两路线集成未完成，正式全队列未运行。",
+  "completion_note": "任务1、2.1、2.2完成。独立核验器30专项、966全suite及独立复审通过；首次两个合成阻断已修复，拒绝证据与旧源码保留。生产仅首E120005两arm26态；真实首例双路线全对象集成2.3和正式全队列任务3尚未运行。",
   "task_graph_review": "新上下文refill_method_review独立审查修订任务图APPROVED；任务1方法产物亦已独立APPROVED。",
-  "next_task": "2.2 由新作者实现独立阶段/索引核验与故障测试，不导入生产科学函数；优先核验既有最终首例生产归档。2.3完整工程门槛及干净提交后，任务3才正式28配对。",
+  "next_task": "2.3 在干净提交上核验既有最终首E120005生产归档，26态/208槽位/52目标tick完整对象及汇总相等、保存全部结果/失败和独立工程审查；不得重跑生产或提前运行其他27对。通过后干净提交，再由任务3正式全队列。",
   "method_review": "新上下文refill_method_review独立核验完整来源、几何、全部引用和缺口端点，任务1 APPROVED；任务图已独立修订复审。",
-  "producer_review": "新上下文refill_producer_review独立核验代码、936项全suite、首例208槽位/52目标记录/7缺口与两次历史epoch归档，task2.1 APPROVED。"
+  "producer_review": "新上下文refill_producer_review独立核验代码、936项全suite、首例208槽位/52目标记录/7缺口与两次历史epoch归档，task2.1 APPROVED。",
+  "verifier_review": "refill_verifier_review首次REJECTED F1中断/F2同值异型；修复后独立复审APPROVED，966tests PASS64.819秒，978绑定一致，初审977中2个旧源码用归档epoch验证。"
 }

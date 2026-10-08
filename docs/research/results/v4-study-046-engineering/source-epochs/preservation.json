@@ -1,0 +1,14 @@
+{
+  "study": "046",
+  "phase": "engineering-source-preservation",
+  "status": "verified",
+  "source_original_path": "scripts/analyze_v4_middle_refill.py",
+  "archive": "docs/research/results/v4-study-046-engineering/source-epochs/producer-initial.py",
+  "bytes": 31249,
+  "sha256": "3dbe0048f0d90fc209d545cd9d57419fe99cd3c3bb032049efa77a1d27aef09b",
+  "metadata_path": "docs/research/results/v4-study-046-engineering/producer-initial/metadata.json",
+  "metadata_sha256": "d06f0b6ee0474b0206ea817788d62747237391b30a6fa1f214948dc8c5fb1a2a",
+  "recovery": "首次源码未在当时另存；实现者从自身上下文恢复接口修改前文本，归档字节SHA256与首次运行metadata完全一致。未重新执行旧源码。",
+  "current_producer_changed": false,
+  "physical_steps": 0
+}
