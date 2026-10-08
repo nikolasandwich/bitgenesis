@@ -1,0 +1,38 @@
+{
+  "study": "046",
+  "task": "2.3",
+  "cwd": "/Users/todd/Documents/bitgenesis",
+  "argv": [
+    ".venv/bin/python",
+    "scripts/verify_v4_middle_refill.py",
+    "--source-dir",
+    "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-046-engineering/producer",
+    "--output-dir",
+    "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/verifier",
+    "--engineering"
+  ],
+  "environment_overrides": {
+    "PYTHONPATH": "src"
+  },
+  "shell_command": "PYTHONPATH=src .venv/bin/python scripts/verify_v4_middle_refill.py --source-dir /Users/todd/Documents/bitgenesis/docs/research/results/v4-study-046-engineering/producer --output-dir /var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/verifier --engineering",
+  "started_utc": "2026-10-08T12:37:51.439193+00:00",
+  "finished_utc": "2026-10-08T12:37:56.295706+00:00",
+  "exit_code": 0,
+  "wall_seconds": 4.8565830829320475,
+  "git_commit": "8e549e6be3651df857f86349b92b94c0af4545d7",
+  "source_dir": "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-046-engineering/producer",
+  "output_dir": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/verifier",
+  "engineering": true,
+  "time_limit_seconds": 600,
+  "storage_limit_bytes": 134217728,
+  "stdout": {
+    "path": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/stdout.txt",
+    "bytes": 39,
+    "sha256": "e5315e1bdaac9a372cbd145c7fb656eee9bf3a62b124ec774bb40b9d56595859"
+  },
+  "stderr": {
+    "path": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/stderr.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

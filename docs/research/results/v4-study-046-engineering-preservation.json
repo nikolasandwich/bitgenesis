@@ -1,0 +1,379 @@
+{
+  "study": "046",
+  "task": "2.3",
+  "phase": "first-pair-engineering-integration",
+  "status": "awaiting-independent-engineering-review",
+  "scope": "仅首east/120005两arm；完整100索引/20格保留，但不是28对正式科学分析。",
+  "git_commit_before_run": "8e549e6be3651df857f86349b92b94c0af4545d7",
+  "git_status_before_run": "",
+  "source_dir": "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-046-engineering/producer",
+  "exclusive_output_dir": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/verifier",
+  "actual_invocation": "PYTHONPATH=src .venv/bin/python scripts/verify_v4_middle_refill.py --source-dir /Users/todd/Documents/bitgenesis/docs/research/results/v4-study-046-engineering/producer --output-dir /var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/verifier --engineering",
+  "execution": {
+    "study": "046",
+    "task": "2.3",
+    "cwd": "/Users/todd/Documents/bitgenesis",
+    "argv": [
+      ".venv/bin/python",
+      "scripts/verify_v4_middle_refill.py",
+      "--source-dir",
+      "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-046-engineering/producer",
+      "--output-dir",
+      "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/verifier",
+      "--engineering"
+    ],
+    "environment_overrides": {
+      "PYTHONPATH": "src"
+    },
+    "shell_command": "PYTHONPATH=src .venv/bin/python scripts/verify_v4_middle_refill.py --source-dir /Users/todd/Documents/bitgenesis/docs/research/results/v4-study-046-engineering/producer --output-dir /var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/verifier --engineering",
+    "started_utc": "2026-10-08T12:37:51.439193+00:00",
+    "finished_utc": "2026-10-08T12:37:56.295706+00:00",
+    "exit_code": 0,
+    "wall_seconds": 4.8565830829320475,
+    "git_commit": "8e549e6be3651df857f86349b92b94c0af4545d7",
+    "source_dir": "/Users/todd/Documents/bitgenesis/docs/research/results/v4-study-046-engineering/producer",
+    "output_dir": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/verifier",
+    "engineering": true,
+    "time_limit_seconds": 600,
+    "storage_limit_bytes": 134217728,
+    "stdout": {
+      "path": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/stdout.txt",
+      "bytes": 39,
+      "sha256": "e5315e1bdaac9a372cbd145c7fb656eee9bf3a62b124ec774bb40b9d56595859"
+    },
+    "stderr": {
+      "path": "/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "physical_steps": 0,
+  "formal_directory_created": false,
+  "producer_rerun": false,
+  "verifier_runs": 1,
+  "failures": [],
+  "counts": {
+    "index": 100,
+    "index_triggered": 28,
+    "index_not_applicable": 72,
+    "index_short_window": 10,
+    "pairs": 1,
+    "arms": 2,
+    "saved_states": 26,
+    "diagnostic_states": 2,
+    "source_slots": 208,
+    "target_ticks": 52,
+    "gaps": 7,
+    "summary_cells": 20,
+    "paired_summaries": 1
+  },
+  "files": [
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/verifier/independent-verification.json",
+      "archive": "docs/research/results/v4-study-046-engineering/verifier/independent-verification.json",
+      "bytes": 291887,
+      "sha256": "550b275d61a656abf59d6adfe40c9c04c522977e0df59c7d5b6698677a84d4c8",
+      "byte_equal": true
+    },
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/verifier/index.json",
+      "archive": "docs/research/results/v4-study-046-engineering/verifier/index.json",
+      "bytes": 27783,
+      "sha256": "0a2b80adb6b4a68e7b1faebd07eb87c0032876cee8aabe1f33227f1ced82f74f",
+      "byte_equal": true
+    },
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/verifier/pair-01.json",
+      "archive": "docs/research/results/v4-study-046-engineering/verifier/pair-01.json",
+      "bytes": 512051,
+      "sha256": "35906aa25bb47c97ad43afca332f74bbc71f8ad781b5129f25626f9fc652b145",
+      "byte_equal": true
+    },
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/verifier/records.json",
+      "archive": "docs/research/results/v4-study-046-engineering/verifier/records.json",
+      "bytes": 548191,
+      "sha256": "c474e5af26052caf939cea2798d599c4f467242cef86c77b316555fa409610b0",
+      "byte_equal": true
+    },
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/verifier/summary.json",
+      "archive": "docs/research/results/v4-study-046-engineering/verifier/summary.json",
+      "bytes": 133045,
+      "sha256": "78600241e5e80cefd8a4b953f16c7d21fcabce1ea195777f1e77a4cd605c7c6c",
+      "byte_equal": true
+    }
+  ],
+  "verifier_artifact_count": 5,
+  "verifier_artifact_bytes": 1512957,
+  "execution_evidence": [
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/preflight.json",
+      "archive": "docs/research/results/v4-study-046-engineering/integration-run/preflight.json",
+      "bytes": 121343,
+      "sha256": "9f0e19b8e2753c191433e1c6c192ce51bb7a8e2f09112366da1ac1a6c89610cf",
+      "byte_equal": true
+    },
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/execution.json",
+      "archive": "docs/research/results/v4-study-046-engineering/integration-run/execution.json",
+      "bytes": 1725,
+      "sha256": "a750c1be4f8ff3e221c2ba0a2ccf6df576c895a43452c4b2156d0aa01be416e0",
+      "byte_equal": true
+    },
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/stdout.txt",
+      "archive": "docs/research/results/v4-study-046-engineering/integration-run/stdout.txt",
+      "bytes": 39,
+      "sha256": "e5315e1bdaac9a372cbd145c7fb656eee9bf3a62b124ec774bb40b9d56595859",
+      "byte_equal": true
+    },
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/stderr.txt",
+      "archive": "docs/research/results/v4-study-046-engineering/integration-run/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_equal": true
+    },
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/closing.json",
+      "archive": "docs/research/results/v4-study-046-engineering/integration-run/closing.json",
+      "bytes": 118848,
+      "sha256": "b903506adecb1b45b4bc9c1da6757e33cadb58aad4cab2bf0381153ad2e28cef",
+      "byte_equal": true
+    },
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/object-comparison.json",
+      "archive": "docs/research/results/v4-study-046-engineering/integration-run/object-comparison.json",
+      "bytes": 3347,
+      "sha256": "73666292852352d49751d6622f2dc4e852152c0c72cd20975d4a931b582c2b57",
+      "byte_equal": true
+    },
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/formal-entry-checks.json",
+      "archive": "docs/research/results/v4-study-046-engineering/integration-run/formal-entry-checks.json",
+      "bytes": 3380,
+      "sha256": "64c556eb27aa061614e58d9dfacdc0c3dc3b3303311080bdc7adf933b6e48a4e",
+      "byte_equal": true
+    },
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/validation.json",
+      "archive": "docs/research/results/v4-study-046-engineering/integration-run/validation.json",
+      "bytes": 697,
+      "sha256": "8e37176c4e60f4990d205f3862182e4494f8eb053dd65685119430de2760b565",
+      "byte_equal": true
+    },
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/compileall-stdout.txt",
+      "archive": "docs/research/results/v4-study-046-engineering/integration-run/compileall-stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_equal": true
+    },
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/compileall-stderr.txt",
+      "archive": "docs/research/results/v4-study-046-engineering/integration-run/compileall-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_equal": true
+    },
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/diff-check-stdout.txt",
+      "archive": "docs/research/results/v4-study-046-engineering/integration-run/diff-check-stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_equal": true
+    },
+    {
+      "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/diff-check-stderr.txt",
+      "archive": "docs/research/results/v4-study-046-engineering/integration-run/diff-check-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_equal": true
+    }
+  ],
+  "execution_evidence_bytes": 249379,
+  "report": {
+    "source": "/private/var/folders/b4/b68421jx7ls06zyxnzbsk95m0000gn/T/study046-task23-hg87jr8b/engineering.zh-CN.md",
+    "archive": "docs/research/v4-study-046-engineering.zh-CN.md",
+    "bytes": 5606,
+    "sha256": "ba732fbf3785f312fe626ab727c87574ef372fefa8a7b15f1956c6deef158a37",
+    "byte_equal": true
+  },
+  "existing_producer_files": [
+    {
+      "archive": "docs/research/results/v4-study-046-engineering/producer/index.json",
+      "bytes": 27783,
+      "sha256": "0a2b80adb6b4a68e7b1faebd07eb87c0032876cee8aabe1f33227f1ced82f74f"
+    },
+    {
+      "archive": "docs/research/results/v4-study-046-engineering/producer/metadata.json",
+      "bytes": 289047,
+      "sha256": "4e29f63b4959052afe82786d29088471abab0baf2841daa6641c64de7139e8d5"
+    },
+    {
+      "archive": "docs/research/results/v4-study-046-engineering/producer/pair-01.json",
+      "bytes": 512051,
+      "sha256": "2765e25d0b61d4f4d23821c587a300b4a859daa3e6630a2ca7e6fbc1f13d32c7"
+    },
+    {
+      "archive": "docs/research/results/v4-study-046-engineering/producer/records.json",
+      "bytes": 548191,
+      "sha256": "3e3f454afb22ffa78a136dbbcb56478eef9d34fb134b2b818a05d541800482d3"
+    },
+    {
+      "archive": "docs/research/results/v4-study-046-engineering/producer/summary.json",
+      "bytes": 133045,
+      "sha256": "cf1c5b7a4855076e92506b2b920031e2ac659837c8e6e14b0cc479723570e59a"
+    }
+  ],
+  "existing_producer_total_bytes": 1510117,
+  "source_epochs": {
+    "historical_producer_count": 953,
+    "current_verifier_count": 954,
+    "historical_missing_only": "scripts/verify_v4_middle_refill.py",
+    "shared_source_hashes_equal": true,
+    "historical_metadata_rewritten": false,
+    "producer_before_after_equal": true,
+    "current_input_before_after_equal": true,
+    "original_producer_and_rejected_verifier_sources_preserved": true,
+    "protected_history": [
+      {
+        "path": "docs/research/results/v4-study-046-producer-preservation.json",
+        "bytes": 3599,
+        "sha256": "3e8004d263b13ccc074398c96239f545b2a802630c6d65985d284bd0e05ea9d7"
+      },
+      {
+        "path": "docs/research/results/v4-study-046-producer-review.json",
+        "bytes": 13496,
+        "sha256": "7d9b908e7b6c8a88ddaf03dbc06bd179804090ca13304c9f9251285bb59340b1"
+      },
+      {
+        "path": "docs/research/results/v4-study-046-verifier-review-rejected-1.json",
+        "bytes": 258963,
+        "sha256": "fac7529b0f48f94c920b139bfe0c3d44ab46a2fbe104900e7a667144e1d3a598"
+      },
+      {
+        "path": "docs/research/results/v4-study-046-verifier-review.json",
+        "bytes": 260063,
+        "sha256": "4d8feb1dd6e4d873cd4d373ae202ab79162436b819a78e973a3ab6bb18fb62ca"
+      },
+      {
+        "path": "docs/research/results/v4-study-046-engineering/source-epochs/preservation.json",
+        "bytes": 791,
+        "sha256": "46e88d1c8b9c3be47a693ee44ac8cdb65939c3dd31dc064f926be077ef6e3263"
+      },
+      {
+        "path": "docs/research/results/v4-study-046-engineering/source-epochs/producer-initial.py",
+        "bytes": 31249,
+        "sha256": "3dbe0048f0d90fc209d545cd9d57419fe99cd3c3bb032049efa77a1d27aef09b"
+      },
+      {
+        "path": "docs/research/results/v4-study-046-engineering/source-epochs/verifier-rejected-1-preservation.json",
+        "bytes": 799,
+        "sha256": "e5c58a174bb274b08f3fd182dfea7b8a94bdf0a4d0b17a0d77df35320cd5052c"
+      },
+      {
+        "path": "docs/research/results/v4-study-046-engineering/source-epochs/verifier-rejected-1.py",
+        "bytes": 41461,
+        "sha256": "905c92ccd9be4dab83bfd3e7e8c1eb2df541b021ebf8c01425b999cb4b238a23"
+      },
+      {
+        "path": "docs/research/results/v4-study-046-engineering/source-epochs/verifier-tests-rejected-1.py",
+        "bytes": 31703,
+        "sha256": "45311d028cfcbb4b9634881fadda10c0c019d08fd22f5618907f05965a5cbcf9"
+      }
+    ]
+  },
+  "regression_evidence": {
+    "review_path": "docs/research/results/v4-study-046-verifier-review.json",
+    "review_sha256": "4d8feb1dd6e4d873cd4d373ae202ab79162436b819a78e973a3ab6bb18fb62ca",
+    "bindings_before_and_after": 978,
+    "all_current_bindings_match": true,
+    "code_and_tests": {
+      "scripts/middle_refill_inputs.py": {
+        "sha256": "34b5fcb7450fb0a42475eb2f6289a467a448d7822b9d5aec36a44a27d3cb4c91",
+        "bytes": 6807
+      },
+      "scripts/analyze_v4_middle_refill.py": {
+        "sha256": "0c704f2322b94eff4474f09b985a99fee56cf69bdc987a225e815f69565dba47",
+        "bytes": 31517
+      },
+      "scripts/verify_v4_middle_refill.py": {
+        "sha256": "881c8dd4548700adb73811e2f45b37f1a05a9edc88619eeced21fb40bd92b8ac",
+        "bytes": 43641
+      },
+      "tests/test_v4_middle_refill.py": {
+        "sha256": "0d54b7eee667cc76db745d7991ed0bb63ea43f01ea7b062de3c170ab086a1f9b",
+        "bytes": 28381
+      },
+      "tests/test_v4_middle_refill_verifier.py": {
+        "sha256": "6d09485ff0748f3c135284c82e564aeeacf7298829ade10fe05d979027de5391",
+        "bytes": 38681
+      }
+    },
+    "suite_reexecuted": false,
+    "canonical_tests": {
+      "command": "PYTHONPATH=src .venv/bin/python -m unittest discover -s tests",
+      "status": "PASS",
+      "exit_code": 0,
+      "tests": 966,
+      "seconds": 64.819,
+      "output_tail": "Ran 966 tests in 64.819s\n\nOK",
+      "note": "全suite含既有模拟fixture回归；未运行Study046真实投影、真实核验首例或新增Study046物理。"
+    },
+    "specialized_tests": {
+      "command": "PYTHONPATH=src .venv/bin/python -m unittest tests.test_v4_middle_refill_verifier -v",
+      "status": "PASS",
+      "exit_code": 0,
+      "tests": 30,
+      "seconds": 6.668,
+      "output_tail": "Ran 30 tests in 6.668s\n\nOK"
+    }
+  },
+  "comparison_evidence": "docs/research/results/v4-study-046-engineering/integration-run/object-comparison.json",
+  "object_equality": {
+    "index.json": {
+      "type_sensitive_full_object_equal": true,
+      "compared_nodes": 1001,
+      "dict_order_differences": 0,
+      "producer_sha256": "0a2b80adb6b4a68e7b1faebd07eb87c0032876cee8aabe1f33227f1ced82f74f",
+      "verifier_sha256": "0a2b80adb6b4a68e7b1faebd07eb87c0032876cee8aabe1f33227f1ced82f74f",
+      "producer_normalized_sha256": "c238c538410c75a22146e3f6a3d08dfb66e9127de1bb89e768c13ccc368dfd9b",
+      "verifier_normalized_sha256": "c238c538410c75a22146e3f6a3d08dfb66e9127de1bb89e768c13ccc368dfd9b",
+      "bytes_equal": true
+    },
+    "pair-01.json": {
+      "type_sensitive_full_object_equal": true,
+      "compared_nodes": 15667,
+      "dict_order_differences": 7,
+      "producer_sha256": "2765e25d0b61d4f4d23821c587a300b4a859daa3e6630a2ca7e6fbc1f13d32c7",
+      "verifier_sha256": "35906aa25bb47c97ad43afca332f74bbc71f8ad781b5129f25626f9fc652b145",
+      "producer_normalized_sha256": "265f6c923624c31475f53cd9e004d03c0d79c05ae0000395d121192854efe9e7",
+      "verifier_normalized_sha256": "265f6c923624c31475f53cd9e004d03c0d79c05ae0000395d121192854efe9e7",
+      "bytes_equal": false
+    },
+    "records.json": {
+      "type_sensitive_full_object_equal": true,
+      "compared_nodes": 15668,
+      "dict_order_differences": 7,
+      "producer_sha256": "3e3f454afb22ffa78a136dbbcb56478eef9d34fb134b2b818a05d541800482d3",
+      "verifier_sha256": "c474e5af26052caf939cea2798d599c4f467242cef86c77b316555fa409610b0",
+      "producer_normalized_sha256": "9371ee16612b28affb44f3a23d6bf1d7be534851ed022ccdc29711fa2aa3bca9",
+      "verifier_normalized_sha256": "9371ee16612b28affb44f3a23d6bf1d7be534851ed022ccdc29711fa2aa3bca9",
+      "bytes_equal": false
+    },
+    "summary.json": {
+      "type_sensitive_full_object_equal": true,
+      "compared_nodes": 4377,
+      "dict_order_differences": 23,
+      "producer_sha256": "cf1c5b7a4855076e92506b2b920031e2ac659837c8e6e14b0cc479723570e59a",
+      "verifier_sha256": "78600241e5e80cefd8a4b953f16c7d21fcabce1ea195777f1e77a4cd605c7c6c",
+      "producer_normalized_sha256": "7161eeb7c86305a2f55f8eff8e6982350e154320b0417a94aa8bd83cdc47b9c0",
+      "verifier_normalized_sha256": "7161eeb7c86305a2f55f8eff8e6982350e154320b0417a94aa8bd83cdc47b9c0",
+      "bytes_equal": false
+    }
+  },
+  "interpretation": "跨路线按全部具体类型/值及规范化hash比较；新五产物及日志分别逐字节归档。核验新算法独立，041既有值是共同不可变输入；旧合成失败不冒称真实工程失败。",
+  "remaining_gate": "父层fresh独立工程审查APPROVED及干净提交；本实现者不更新tasks/spec/LOG或提交，不执行任务3。"
+}

@@ -1,0 +1,81 @@
+{
+  "status": "verified_static_only",
+  "formal_entry_invoked": false,
+  "files": [
+    {
+      "path": "scripts/analyze_v4_middle_refill.py",
+      "sha256": "0c704f2322b94eff4474f09b985a99fee56cf69bdc987a225e815f69565dba47",
+      "run_line": 380,
+      "main_line": 490,
+      "run_kwonly_defaults": {
+        "output": "None",
+        "engineering": "False",
+        "include_verifier": "True",
+        "time_limit": "TIME_LIMIT",
+        "storage_limit": "STORAGE_LIMIT"
+      },
+      "exclusive_output_static_check": true,
+      "source_matches_approved_suite": true
+    },
+    {
+      "path": "scripts/verify_v4_middle_refill.py",
+      "sha256": "881c8dd4548700adb73811e2f45b37f1a05a9edc88619eeced21fb40bd92b8ac",
+      "run_line": 503,
+      "main_line": 700,
+      "run_kwonly_defaults": {
+        "engineering": "False",
+        "seconds": "TIME_LIMIT",
+        "byte_limit": "BYTE_LIMIT"
+      },
+      "exclusive_output_static_check": true,
+      "source_matches_approved_suite": true
+    }
+  ],
+  "verifier_imports": [
+    "from collections import Counter",
+    "from copy import deepcopy",
+    "from pathlib import Path",
+    "import argparse",
+    "import subprocess",
+    "import time",
+    "from scripts import middle_refill_inputs as inputs",
+    "import middle_refill_inputs as inputs"
+  ],
+  "checks": [
+    "生产默认engineering=False、include_verifier=True；拒绝formal遗漏核验器，正式执行要求git status --porcelain为空。",
+    "生产与核验独占mkdir(exist_ok=False)；工程限定首east/120005且排除正式046路径。",
+    "核验默认engineering=False；正式路线调用clean_launch并要求954完整输入、28对/6240槽位/1560目标tick；953历史epoch只准显式engineering。",
+    "生产和核验均固定600秒/134217728字节以内、前后输入/产物绑定及失败证明；正式入口本次未调用。"
+  ],
+  "supporting_test_evidence": {
+    "review_path": "docs/research/results/v4-study-046-verifier-review.json",
+    "review_sha256": "4d8feb1dd6e4d873cd4d373ae202ab79162436b819a78e973a3ab6bb18fb62ca",
+    "all_978_bindings_match_current": true,
+    "canonical": {
+      "command": "PYTHONPATH=src .venv/bin/python -m unittest discover -s tests",
+      "status": "PASS",
+      "exit_code": 0,
+      "tests": 966,
+      "seconds": 64.819,
+      "output_tail": "Ran 966 tests in 64.819s\n\nOK",
+      "note": "全suite含既有模拟fixture回归；未运行Study046真实投影、真实核验首例或新增Study046物理。"
+    },
+    "specialized": {
+      "command": "PYTHONPATH=src .venv/bin/python -m unittest tests.test_v4_middle_refill_verifier -v",
+      "status": "PASS",
+      "exit_code": 0,
+      "tests": 30,
+      "seconds": 6.668,
+      "output_tail": "Ran 30 tests in 6.668s\n\nOK"
+    },
+    "tests": [
+      "test_clean_launch_and_engineering_cannot_use_formal_directory",
+      "test_formal_entry_cannot_omit_verifier",
+      "test_engineering_default_still_binds_verifier",
+      "test_success_binds_all_sources_outputs_and_rejects_existing_output",
+      "test_historical_953_subset_allowed_only_when_explicit_engineering",
+      "test_engineering_rejects_formal_output_and_wrong_case_before_projection"
+    ]
+  },
+  "remaining_gate": "父控制层安排fresh独立工程审查，APPROVED并干净提交后任务3才可执行；本报告不宣称task2.3或feature完成。"
+}

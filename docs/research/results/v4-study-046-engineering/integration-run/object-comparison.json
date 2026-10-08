@@ -1,0 +1,68 @@
+{
+  "status": "verified",
+  "method": "递归检查所有JSON节点的具体类型、字典键集合、列表顺序和标量值；另比较排序键规范化SHA256。未执行或导入科学投影。",
+  "files": {
+    "index.json": {
+      "type_sensitive_full_object_equal": true,
+      "compared_nodes": 1001,
+      "dict_order_differences": 0,
+      "producer_sha256": "0a2b80adb6b4a68e7b1faebd07eb87c0032876cee8aabe1f33227f1ced82f74f",
+      "verifier_sha256": "0a2b80adb6b4a68e7b1faebd07eb87c0032876cee8aabe1f33227f1ced82f74f",
+      "producer_normalized_sha256": "c238c538410c75a22146e3f6a3d08dfb66e9127de1bb89e768c13ccc368dfd9b",
+      "verifier_normalized_sha256": "c238c538410c75a22146e3f6a3d08dfb66e9127de1bb89e768c13ccc368dfd9b",
+      "bytes_equal": true
+    },
+    "pair-01.json": {
+      "type_sensitive_full_object_equal": true,
+      "compared_nodes": 15667,
+      "dict_order_differences": 7,
+      "producer_sha256": "2765e25d0b61d4f4d23821c587a300b4a859daa3e6630a2ca7e6fbc1f13d32c7",
+      "verifier_sha256": "35906aa25bb47c97ad43afca332f74bbc71f8ad781b5129f25626f9fc652b145",
+      "producer_normalized_sha256": "265f6c923624c31475f53cd9e004d03c0d79c05ae0000395d121192854efe9e7",
+      "verifier_normalized_sha256": "265f6c923624c31475f53cd9e004d03c0d79c05ae0000395d121192854efe9e7",
+      "bytes_equal": false
+    },
+    "records.json": {
+      "type_sensitive_full_object_equal": true,
+      "compared_nodes": 15668,
+      "dict_order_differences": 7,
+      "producer_sha256": "3e3f454afb22ffa78a136dbbcb56478eef9d34fb134b2b818a05d541800482d3",
+      "verifier_sha256": "c474e5af26052caf939cea2798d599c4f467242cef86c77b316555fa409610b0",
+      "producer_normalized_sha256": "9371ee16612b28affb44f3a23d6bf1d7be534851ed022ccdc29711fa2aa3bca9",
+      "verifier_normalized_sha256": "9371ee16612b28affb44f3a23d6bf1d7be534851ed022ccdc29711fa2aa3bca9",
+      "bytes_equal": false
+    },
+    "summary.json": {
+      "type_sensitive_full_object_equal": true,
+      "compared_nodes": 4377,
+      "dict_order_differences": 23,
+      "producer_sha256": "cf1c5b7a4855076e92506b2b920031e2ac659837c8e6e14b0cc479723570e59a",
+      "verifier_sha256": "78600241e5e80cefd8a4b953f16c7d21fcabce1ea195777f1e77a4cd605c7c6c",
+      "producer_normalized_sha256": "7161eeb7c86305a2f55f8eff8e6982350e154320b0417a94aa8bd83cdc47b9c0",
+      "verifier_normalized_sha256": "7161eeb7c86305a2f55f8eff8e6982350e154320b0417a94aa8bd83cdc47b9c0",
+      "bytes_equal": false
+    }
+  },
+  "counts": {
+    "index": 100,
+    "index_triggered": 28,
+    "index_not_applicable": 72,
+    "index_short_window": 10,
+    "pairs": 1,
+    "arms": 2,
+    "saved_states": 26,
+    "diagnostic_states": 2,
+    "source_slots": 208,
+    "target_ticks": 52,
+    "gaps": 7,
+    "summary_cells": 20,
+    "paired_summaries": 1
+  },
+  "all_producer_and_verifier_objects_equal": true,
+  "verifier_output_bytes": 1512957,
+  "verifier_elapsed_seconds": 4.660162582993507,
+  "physical_steps": 0,
+  "formal_directory_exists": false,
+  "byte_interpretation": "字段插入顺序导致pair/records/summary原始字节hash不同，规范化hash及全部具体类型/值一致；各路线产物分别按自身原始字节归档。",
+  "scope": "100索引及20格完整保留；实际科学对象仅首east/120005两arm，paired汇总仅1对。未运行其余27对或全队列原因分析。"
+}

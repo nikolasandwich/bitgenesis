@@ -1,0 +1,32 @@
+{
+  "status": "verified",
+  "checks": [
+    {
+      "check": "compileall",
+      "argv": [
+        ".venv/bin/python",
+        "-m",
+        "compileall",
+        "-q",
+        "src",
+        "scripts",
+        "tests"
+      ],
+      "exit_code": 0,
+      "stdout_file": "compileall-stdout.txt",
+      "stderr_file": "compileall-stderr.txt"
+    },
+    {
+      "check": "diff-check",
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout_file": "diff-check-stdout.txt",
+      "stderr_file": "diff-check-stderr.txt"
+    }
+  ],
+  "scope": "既有源码compileall及当前tracked差异空白检查；未重跑已绑定同版966项全suite。"
+}
